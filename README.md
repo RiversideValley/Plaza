@@ -31,13 +31,22 @@
 
 [`sideload`](https://github.com/RiversideValley/Plaza/releases)-->
 
-<!--### 📸 Screenshots
+<!--## 📸 Screenshots
 
 <a title="Emerald Screenshot" target="_blank" href="https://github.com/RiversideValley/Plaza">
   <img align="left" src="https://user-images.githubusercontent.com/82730163/210150183-fd324c12-5a90-4ffb-964d-c8ccae2c9cee.png" alt="Release" />
 </a>-->
 
-## 🦜 Contributing & Feedback
+## 🪪 Hosting details
+
+#### Hosted in London.
+
+Currently hosted on `riverside` Hyperactive servers (yes, Riverside Valley _does_ have servers) in **London, UK**.
+Unit used is the most high-end model of Raspberry Pi, running Ubuntu.
+
+Earlier versions were hosted in **Cleveland, USA** (using `vercel`) or **Southern UK** and operated via an interface server in the **Netherlands** (using `azure`).
+
+## 🦜 Contributing & feedback
 
 There are multiple ways to participate in the community:
 
