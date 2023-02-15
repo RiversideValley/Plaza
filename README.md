@@ -12,6 +12,11 @@
 </p>
 
 <br/>
+<br/>
+
+<a title="Why is ActivityPub the future?" target="_blank" href="https://www.youtube.com/watch?v=IPSbNdBmWKE">
+  <img src="https://blog.joinmastodon.org/2018/06/why-activitypub-is-the-future/ezgif-2-60f1b00403.gif" alt="Why is ActivityPub the future?" />
+</a>
 
 ---
 
