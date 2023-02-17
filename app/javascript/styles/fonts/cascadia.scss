@@ -4,7 +4,7 @@
 	font-weight: 400;
 	font-display: swap;
 	src: local('Cascadia Code'),
-        url("../fonts/cascadia/cascadia-code-regular-webfont.woff2") format("woff2");
+        url("../fonts/cascadia/cascadia-code-regular-webfont.ttf") format("truetype");
 }
 
 @font-face {
@@ -13,5 +13,5 @@
 	font-weight: 400;
 	font-display: swap;
 	src: local('Cascadia Mono'),
-        url("../fonts/cascadia/cascadia-mono-regular-webfont.woff2") format("woff2");
+        url("../fonts/cascadia/cascadia-mono-regular-webfont.ttf") format("truetype");
 }
