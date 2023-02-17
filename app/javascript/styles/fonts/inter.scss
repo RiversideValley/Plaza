@@ -2,7 +2,7 @@
 	font-family: "Inter";
 	font-style: normal;
 	font-weight: 100 900;
-	font-display: swap;
+	font-display: fallback;
 	src: url("../fonts/inter/inter-regular-webfont.woff2") format("woff2");
 	font-named-instance: "Regular";
 }
@@ -11,8 +11,8 @@
 	font-family: "Inter";
 	font-style: italic;
 	font-weight: 100 900;
-	font-display: swap;
+	font-display: fallback;
 	src: local('Inter'),
-        url("../fonts/inter-italic/inter-italic-webfont.woff2") format("woff2");
+        url("../fonts/inter/inter-italic-webfont.woff2") format("woff2");
 	font-named-instance: "Italic";
 }
