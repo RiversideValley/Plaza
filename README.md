@@ -4,10 +4,16 @@
 
 <p align="center">
   <a title="Codefactor" target="_blank" href="https://github.com/RiversideValley/Plaza/commits">
-    <img align="left" src="https://www.codefactor.io/repository/github/RiversideValley/Plaza/badge" alt="Release" />
+    <img align="left" src="https://www.codefactor.io/repository/github/RiversideValley/Plaza/badge" alt="CodeFactor" />
   </a>
-  <a title="GitHub Releases" target="_blank" href="https://github.com/RiversideValley/Plaza/graphs/code-frequency">
-    <img align="left" src="https://img.shields.io/github/repo-size/RiversideValley/Plaza" alt="Release" />
+  <a title="Build" target="_blank" href="https://github.com/RiversideValley/Plaza/actions/workflows/build-image.yml">
+    <img align="left" src="https://github.com/RiversideValley/Plaza/actions/workflows/build-image.yml/badge.svg" alt="Build" />
+  </a>
+  <a title="Javascript" target="_blank" href="https://github.com/RiversideValley/Plaza/actions/workflows/test-js.yml">
+    <img align="left" src="https://github.com/RiversideValley/Plaza/actions/workflows/test-js.yml/badge.svg" alt="Javascript" />
+  </a>
+  <a title="SCSS" target="_blank" href="https://github.com/RiversideValley/Plaza/actions/workflows/lint-css.yml">
+    <img align="left" src="https://github.com/RiversideValley/Plaza/actions/workflows/lint-css.yml/badge.svg" alt="SCSS" />
   </a>
 </p>
 
@@ -64,7 +70,7 @@ There are multiple ways to participate in the community:
 
 ## 🏗️ Codebase Structure
 
-```cs
+```c
 .
 ├──.circleci                         // CircleCI configuration for building Plaza pipeline (disused)
 ├──.devcontainer                     // Scripts and preparation files for running Plaza in a development container such as github.dev
