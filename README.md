@@ -1,6 +1,6 @@
 # 🎍 Plaza
 
-#### The fast and fluent fediverse built for the future.
+#### Social media built for the future.
 
 <p align="center">
   <a title="Codefactor" target="_blank" href="https://github.com/RiversideValley/Plaza/commits">
