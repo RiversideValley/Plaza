@@ -238,7 +238,7 @@
 		border-inline-end-color: #a5a5a5;
 	}
 
-	.line-numbers-rows > span:before {
+	.line-numbers-rows > span::before {
 		color: #2b91af;
 	}
 }
