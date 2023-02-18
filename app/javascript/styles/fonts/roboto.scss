@@ -1,5 +1,5 @@
 @font-face {
-  font-family: mastodon-font-sans-serif;
+  font-family: Roboto;
   src: local('Roboto Italic'),
     url('../fonts/roboto/roboto-italic-webfont.woff2') format('woff2'),
     url('../fonts/roboto/roboto-italic-webfont.woff') format('woff'),
@@ -7,12 +7,12 @@
     url('../fonts/roboto/roboto-italic-webfont.svg#roboto-italic-webfont')
       format('svg');
   font-weight: normal;
-  font-display: swap;
+  font-display: fallback;
   font-style: italic;
 }
 
 @font-face {
-  font-family: mastodon-font-sans-serif;
+  font-family: Roboto;
   src: local('Roboto Bold'),
     url('../fonts/roboto/roboto-bold-webfont.woff2') format('woff2'),
     url('../fonts/roboto/roboto-bold-webfont.woff') format('woff'),
@@ -20,12 +20,12 @@
     url('../fonts/roboto/roboto-bold-webfont.svg#roboto-bold-webfont')
       format('svg');
   font-weight: bold;
-  font-display: swap;
+  font-display: fallback;
   font-style: normal;
 }
 
 @font-face {
-  font-family: mastodon-font-sans-serif;
+  font-family: Roboto;
   src: local('Roboto Medium'),
     url('../fonts/roboto/roboto-medium-webfont.woff2') format('woff2'),
     url('../fonts/roboto/roboto-medium-webfont.woff') format('woff'),
@@ -33,12 +33,12 @@
     url('../fonts/roboto/roboto-medium-webfont.svg#roboto-medium-webfont')
       format('svg');
   font-weight: 500;
-  font-display: swap;
+  font-display: fallback;
   font-style: normal;
 }
 
 @font-face {
-  font-family: mastodon-font-sans-serif;
+  font-family: Roboto;
   src: local('Roboto'),
     url('../fonts/roboto/roboto-regular-webfont.woff2') format('woff2'),
     url('../fonts/roboto/roboto-regular-webfont.woff') format('woff'),
@@ -46,6 +46,6 @@
     url('../fonts/roboto/roboto-regular-webfont.svg#roboto-regular-webfont')
       format('svg');
   font-weight: normal;
-  font-display: swap;
+  font-display: fallback;
   font-style: normal;
 }
