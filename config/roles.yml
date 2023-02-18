@@ -1,5 +1,11 @@
+helper:
+  name: '✨ Valuable Community Member'
+  position: 5
+  permissions:
+    - view_dashboard
+    - view_audit_log
 moderator:
-  name: Moderator
+  name: '⚖️ Community Moderator'
   position: 10
   permissions:
     - view_dashboard
@@ -7,8 +13,13 @@ moderator:
     - manage_users
     - manage_reports
     - manage_taxonomies
+riverside:
+  name: '🏞️ Staff'
+  position: 50
+  permissions:
+    - view_dashboard
 admin:
-  name: Admin
+  name: '🎛️ Community Administrator'
   position: 100
   permissions:
     - view_dashboard
@@ -29,7 +40,7 @@ admin:
     - manage_webhooks
     - manage_roles
 owner:
-  name: Owner
+  name: '👑 Community Owner'
   position: 1000
   permissions:
     - administrator
