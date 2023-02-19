@@ -4,52 +4,52 @@ fy:
     attributes:
       poll:
         expires_at: Deadline
-        options: Karren
+        options: Choices
       user:
-        agreement: Tsjinstbetingsten
-        email: E-mailadres
-        locale: Taal
-        password: Wachtwurd
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Brûkersnamme
+        username: Username
       user/invite_request:
-        text: Reden
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: mei allinnich letters, nûmers en ûnderstreekjes befetsje
-              reserved: reservearre
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: is in ûnjildige URL
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: is in ûnjildige URL
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: hat de ferkearde opmaak
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: fan berjocht bestiet al
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: brûkt in net tastiene e-mailprovider
-              unreachable: liket net te bestean
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: kin net heger wêze as dyn aktuele rol
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: rjochten tafoegje dy’t net feilich binne foar de basisrol
-              elevated: kin gjin rjochten tafoegje dy’t dyn aktuele rol net besit
-              own_role: kin net mei dyn aktuele rol wizige wurde
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: kin net heger wêze as dyn aktuele rol
-              own_role: kin net mei dyn aktuele rol wizige wurde
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
