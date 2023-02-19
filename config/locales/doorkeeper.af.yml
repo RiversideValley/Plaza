@@ -58,7 +58,7 @@ af:
         authorize: Magtig
         deny: Weier
       error:
-        title: "’n Fout het ingesluip"
+        title: '’n Fout het ingesluip'
       new:
         prompt_html: "%{client_name} wil toegang hê tot jou rekening. Dit is ’n derdepartytoepassing. <strong>Moet dit nie toelaat as jy dit nie vertrou nie.</strong>"
         review_permissions: Hersien toestemmings
@@ -82,6 +82,25 @@ af:
       messages:
         access_denied: Die hulpbroneienaar of magtigingsbediener het die aansoek afgekeur.
         credential_flow_not_configured: Magtigingsbewysvloei van die hulpbroneienaar het gefaal omdat Doorkeeper.configure.resource_owner_from_credentials nie opgestel is nie.
+        invalid_client: Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.
+        invalid_grant: The provided authorization grant is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client.
+        invalid_redirect_uri: The redirect uri included is not valid.
+        invalid_request:
+          missing_param: 'Missing required parameter: %{value}.'
+          request_not_authorized: Request need to be authorized. Required parameter for authorizing request is missing or invalid.
+          unknown: The request is missing a required parameter, includes an unsupported parameter value, or is otherwise malformed.
+        invalid_resource_owner: The provided resource owner credentials are not valid, or resource owner cannot be found
+        invalid_scope: The requested scope is invalid, unknown, or malformed.
+        invalid_token:
+          expired: The access token expired
+          revoked: The access token was revoked
+          unknown: The access token is invalid
+        resource_owner_authenticator_not_configured: Resource Owner find failed due to Doorkeeper.configure.resource_owner_authenticator being unconfiged.
+        server_error: The authorization server encountered an unexpected condition which prevented it from fulfilling the request.
+        temporarily_unavailable: The authorization server is currently unable to handle the request due to a temporary overloading or maintenance of the server.
+        unauthorized_client: The client is not authorized to perform this request using this method.
+        unsupported_grant_type: The authorization grant type is not supported by the authorization server.
+        unsupported_response_type: The authorization server does not support this response type.
     flash:
       applications:
         create:
@@ -103,12 +122,15 @@ af:
         admin/accounts: Administrasie van rekeninge
         admin/all: Alle administratiewe funksies
         admin/reports: Administrasie van rapporteringe
+        all: Full access to your Mastodon account
         blocks: Blokkerings
         bookmarks: Boekmerke
         conversations: Gesprekke
         crypto: End-tot-end-enkripsie
         favourites: Gunstelinge
         filters: Filters
+        follow: Follows, Mutes and Blocks
+        follows: Follows
         lists: Lyste
         media: Media-aanhegsels
         mutes: Uitdowings
@@ -125,38 +147,49 @@ af:
       application:
         title: Benodig OAuth-bemagtiging
     scopes:
-      admin:read: lees alle data op die bediener
-      admin:read:accounts: lees sensitiewe inligting van alle rekeninge
-      admin:read:reports: lees sensitiewe inligting van alle verslae end aangeklaagde rekeninge
-      admin:write: verander alle data op die bediener
-      admin:write:accounts: modereer rekeninge
-      admin:write:reports: modereer verslae
+      "admin:read": lees alle data op die bediener
+      "admin:read:accounts": lees sensitiewe inligting van alle rekeninge
+      "admin:read:canonical_email_blocks": read sensitive information of all canonical email blocks
+      "admin:read:domain_allows": read sensitive information of all domain allows
+      "admin:read:domain_blocks": read sensitive information of all domain blocks
+      "admin:read:email_domain_blocks": read sensitive information of all email domain blocks
+      "admin:read:ip_blocks": read sensitive information of all IP blocks
+      "admin:read:reports": lees sensitiewe inligting van alle verslae end aangeklaagde rekeninge
+      "admin:write": verander alle data op die bediener
+      "admin:write:accounts": modereer rekeninge
+      "admin:write:canonical_email_blocks": perform moderation actions on canonical email blocks
+      "admin:write:domain_allows": perform moderation actions on domain allows
+      "admin:write:domain_blocks": perform moderation actions on domain blocks
+      "admin:write:email_domain_blocks": perform moderation actions on email domain blocks
+      "admin:write:ip_blocks": perform moderation actions on IP blocks
+      "admin:write:reports": modereer verslae
       crypto: gebruik end-tot-end-enkripsie
       follow: verander rekeningverhoudings
       push: ontvang jou stootkennisgewings
       read: lees al jou rekeningdata
-      read:accounts: sien rekeninginligting
-      read:blocks: sien jou blokkerings
-      read:bookmarks: sien jou boekmerke
-      read:favourites: sien jou gunstelinge
-      read:filters: sien jou filters
-      read:lists: sien jou lyste
-      read:mutes: sien jou uitdowings
-      read:notifications: sien jou kennisgewinge
-      read:reports: sien jou rapporterings
-      read:search: soek namens jou
-      read:statuses: sien alle plasings
+      "read:accounts": sien rekeninginligting
+      "read:blocks": sien jou blokkerings
+      "read:bookmarks": sien jou boekmerke
+      "read:favourites": sien jou gunstelinge
+      "read:filters": sien jou filters
+      "read:follows": see your follows
+      "read:lists": sien jou lyste
+      "read:mutes": sien jou uitdowings
+      "read:notifications": sien jou kennisgewinge
+      "read:reports": sien jou rapporterings
+      "read:search": soek namens jou
+      "read:statuses": sien alle plasings
       write: pas al jou rekeningdata aan
-      write:accounts: pas jou profiel aan
-      write:blocks: blokkeer rekeninge en domeine
-      write:bookmarks: laat ’n boekmerk by plasings
-      write:conversations: doof en wis gesprekke uit
-      write:favourites: merk gunstelingplasings
-      write:filters: skep filters
-      write:follows: volg mense
-      write:lists: skep lyste
-      write:media: laai medalêers op
-      write:mutes: doof mense en gesprekke uit
-      write:notifications: verwyder jou kennisgewings
-      write:reports: rapporteer ander mense
-      write:statuses: publiseer plasings
+      "write:accounts": pas jou profiel aan
+      "write:blocks": blokkeer rekeninge en domeine
+      "write:bookmarks": laat ’n boekmerk by plasings
+      "write:conversations": doof en wis gesprekke uit
+      "write:favourites": merk gunstelingplasings
+      "write:filters": skep filters
+      "write:follows": volg mense
+      "write:lists": skep lyste
+      "write:media": laai medalêers op
+      "write:mutes": doof mense en gesprekke uit
+      "write:notifications": verwyder jou kennisgewings
+      "write:reports": rapporteer ander mense
+      "write:statuses": publiseer plasings
