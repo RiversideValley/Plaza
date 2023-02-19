@@ -1,5 +1,5 @@
 ---
-en-NO:
+en-CN:
   activerecord:
     attributes:
       doorkeeper/application:
