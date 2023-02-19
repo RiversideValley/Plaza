@@ -2,114 +2,114 @@
 sc:
   devise:
     confirmations:
-      confirmed: S'indiritzu tuo de posta eletrònica est istadu cunfirmadu.
-      send_instructions: As a retzire unu messàgiu de posta eletrònica cun is istrutziones pro sa cunfirma de s'indiritzu de posta eletrònica de immoe a pagos minutos. Controlla sa cartella de s'àliga si no as retzidu custu messàgiu de posta eletrònica.
-      send_paranoid_instructions: Si s'indiritzu de posta eletrònica tuo esistit in sa base de datos nostra, as a retzire unu messàgiu de posta eletrònica cun is istrutziones pro sa cunfirma de s'indiritzu de posta eletrònica de immoe a pagos minutos. Controlla sa cartella de s'àliga si no as retzidu custu messàgiu de posta eletrònica.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: Ses giai intradu.
-      inactive: Su contu tuo no est ancora ativadu.
-      invalid: "%{authentication_keys} o crae non vàlida."
-      last_attempt: Tenes ancora un'àteru tentativu, in antis chi su contu tuo bèngiat blocadu.
-      locked: Su contu tuo est blocadu.
-      not_found_in_database: "%{authentication_keys} o crae non vàlida."
-      pending: Su contu tuo est ancora in revisione.
-      timeout: Sa sessione tua est iscadida. Torra·bi a intrare pro sighire.
-      unauthenticated: Tocat a ti autenticare o ti registrare prima de sighire.
-      unconfirmed: Depes cunfirmare s'indiritzu tuo de posta eletrònica prima de sighire.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Verìfica s'indiritzu de posta eletrònica
-        action_with_app: Cunfirma e torra a %{app}
-        explanation: As creadu unu contu in %{host} cun custu indiritzu de posta eletrònica. T'ammancat unu clic pro s'ativatzione. Si non fias tue, non càrcules custu messàgiu de posta eletrònica.
-        explanation_when_pending: As pedidu un'invitu a %{host} cun custu indiritzu de posta eletrònica. Cunfirmadu s'indiritzu de posta eletrònica, amus a revisionare sa dimanda tua. Podes intrare pro cambiare is detàllios o cantzellare su contu tuo, ma non podes atzèdere a sa majoria de is funtziones finas a chi su contu tuo siat aprovadu. Si sa dimanda tua est refudada, is datos ant a èssere bogados, duncas no t'ant a pedire prus peruna atzione. Si non fias tue, non càrcules custu messàgiu de posta eletrònica.
-        extra_html: Verìfica puru <a href="%{terms_path}">is règulas de su serbidore</a> e <a href="%{policy_path}">is cunditziones de servìtziu nostras</a>.
-        subject: 'Mastodon: Istrutziones de cunfirma pro %{instance}'
-        title: Verìfica s'indiritzu de posta eletrònica
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'Custu indiritzu de posta eletrònica pro su contu tuo est essende mudadu a:'
-        extra: Si no as mudadu indiritzu de posta, forsis un'àtera persone at otentu s'atzessu de su contu tuo. Muda sa crae tua a sa lestra o chistiona cun s'amministratzione de su serbidore si ses blocadu a foras dae su contu tuo.
-        subject: 'Mastodon: Indiritzu de posta mudadu'
-        title: Indiritzu de posta eletrònica nou
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
+        title: New email address
       password_change:
-        explanation: Sa crae de su contu tuo est istada mudada.
-        extra: Si no as mudadu sa crae tua, forsis un'àtera persone at otentu s'atzessu de su contu tuo. Muda sa crae tua a sa lestra o chistiona cun s'amministratzione de su serbidore si ses blocadu a foras dae su contu tuo.
-        subject: 'Mastodon: Crae mudada'
-        title: Crae mudada
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: Cunfirma s'indiritzu nou pro mudare s'indiritzu de posta eletrònica.
-        extra: Si custa muda no dd'as pedida tue, non càrcules custu messàgiu de posta eletrònica. Custu indiritzu de posta eletrònica pro su contu de Mastodon no at a mudare finas a s'atzessu tuo a su ligàmene in subra.
-        subject: 'Mastodon: Cunfirma indiritzu de posta eletrònica pro %{instance}'
-        title: Verìfica s'indiritzu de posta eletrònica
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: Muda sa crae
-        explanation: As pedidu una crae noa pro su contu tuo.
-        extra: Si no dd'as pedida tue, non càrcules custu messàgiu de posta eletrònica. Custa crae no at a mudare finas a s'atzessu tuo a su ligàmene in subra pro sa creatzione de una noa.
-        subject: 'Mastodon: Istrutziones pro resetare sa crae'
-        title: Càmbiu de crae
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: S'autenticatzione a duos fatores est istada disativada pro su contu tuo. Immoe podes intrare impreende isceti indiritzu de posta eletrònica e crae.
-        subject: 'Mastodon: Autenticatzione a duos fatores disativada'
-        title: 2FA disativada
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: S'autenticatzione a duos fatores est istada ativada pro su contu tuo. Pro s'atzessu at èssere rechèdidu unu còdighe de autorizatzione generadu dae s'aplicatzione TOTP.
-        subject: 'Mastodon: Autenticatzione a duos fatores ativada'
-        title: 2FA ativada
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: Is còdighes de recùperu betzos sunt istados disativados e àteros noos generados.
-        subject: 'Mastodon: Còdighes de recùperu a duos fatores re-generados'
-        title: còdighes de recùperu 2FA mudados
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'Mastodon: Istrutziones pro s''isblocu'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: Sa crae de seguresa chi sighit est istada agiunta a su contu tuo
-          subject: 'Mastodon: Crae de seguresa noa'
-          title: Est istada agiunta una crae de seguresa noa
+          explanation: The following security key has been added to your account
+          subject: 'Mastodon: New security key'
+          title: A new security key has been added
         deleted:
-          explanation: Sa crae de seguresa chi sighit est istada cantzellada dae su contu tuo
-          subject: 'Mastodon: Crae de seguresa cantzellada'
-          title: Una de is craes de seguresa tuas est istada cantzellada
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: S'autenticatzione cun craes de seguresa est istada disabilitada pro su contu tuo. S'intrada immoe est possìbile impreende isceti su getone ingendradu dae s'aplicatzione TOTP ligada.
-        subject: 'Mastodon: Autenticatzione cun craes de seguresa disabilitada'
-        title: Craes de seguresa disabilitadas
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: S'autenticatzione cun crae de seguresa est istada abilitada pro su contu tuo. Sa crae de seguresa tua immoe si podet impreare pro intrare.
-        subject: 'Mastodon: Autenticatzione cun sa crae de seguresa ativada'
-        title: Craes de seguresa abilitadas
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: Faddina in s'autenticatzione dae %{kind}, ca "%{reason}".
-      success: Autenticatzione curreta dae su contu de %{kind}.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: No podes intrare a custa pàgina sena passare dae unu messàgiu de posta eletrònica pro resetare sa crae. Si benes dae su messàgiu de posta pro resetare sa crae, faghe in modu de impreare s'URL intreu chi t'ant donadu.
-      send_instructions: Si s'indiritzu de posta eletrònica tuo esistit in sa base de datos nostra, as a retzire unu ligàmene de recùperu de sa crae a s'indiritzu tuo de posta eletrònica de immoe a pagos minutos. Controlla sa cartella de s'àliga si no as retzidu custu messàgiu de posta eletrònica.
-      send_paranoid_instructions: Si s'indiritzu de posta eletrònica tuo esistit in sa base de datos nostra, as a retzire unu ligàmene de recùperu de sa crae a s'indiritzu tuo de posta eletrònica de immoe a pagos minutos. Controlla sa cartella de s'àliga si no as retzidu custu messàgiu de posta eletrònica.
-      updated: Sa crae tua est istada mudada. Autenticatzione curreta.
-      updated_not_active: Sa crae tua est istada mudada.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: A si bìdere! Su contu tuo est istadu cantzelladu. Isperamus de ti torrare a bìdere chitzi.
-      signed_up: Registratzione curreta. Ti donamus sa benebènnida.
-      signed_up_but_inactive: Registratzione curreta. Mancari de aici, si no ti faghimus intrare est ca su contu tuo no est ancora ativu.
-      signed_up_but_locked: Registratzione curreta. Mancari de aici, si no ti faghimus intrare est ca su contu tuo est blocadu.
-      signed_up_but_pending: Unu ligàmene de cunfirma est istadu imbiadu a s'indiritzu tuo de posta eletrònica. A pustis chi incarcas in su ligàmene, amus a revisionare sa dimanda tua. Si aprovada, t'at a arribare una notìfica.
-      signed_up_but_unconfirmed: Unu ligàmene de cunfirma est istadu imbiadu a s'indiritzu tuo de posta eletrònica. Sighi su ligàmene pro ativare su contu tuo. Controlla sa cartella de s'àliga si no as retzidu custu messàgiu de posta eletrònica.
-      update_needs_confirmation: Su contu tuo est istadu atualizadu, ma depimus verificare s'indiritzu tuo de posta eletrònica nou. Controlla sa posta eletrònica e sighi su ligàmene pro cunfirmare s'indiritzu nou de posta eletrònica. Controlla sa cartella de s'àliga si no as retzidu custu messàgiu de posta eletrònica.
-      updated: Su contu tuo est istadu atualizadu.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: Sessione serrada.
-      signed_in: Atzessu curretu.
-      signed_out: Sessione serrada.
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: As a retzire unu messàgiu de posta eletrònica cun is istrutziones pro isblocare su contu tuo de immoe a pagos minutos. Controlla sa cartella de s'àliga si no as retzidu custu messàgiu de posta eletrònica.
-      send_paranoid_instructions: Si su contu tuo esistit, as a retzire unu messàgiu de posta eletrònica cun istrutziones pro ddu isblocare de immoe a pagos minutos. Controlla sa cartella de s'àliga si no as retzidu custu messàgiu de posta eletrònica.
-      unlocked: Su contu tuo est istadu isblocadu. Intra pro sighire.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: fiat giai cunfirmadu, proa a intrare
-      confirmation_period_expired: tocat a ddu cunfirmare intro %{period}, pedi·nde unu nou
-      expired: est iscadidu, pedi·nde unu nou
-      not_found: no agatadu
-      not_locked: no fiat blocadu
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        one: '1 faddina at proibidu de sarvare %{resource}:'
-        other: "%{count} faddinas ant proibidu de sarvare %{resource}:"
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: "%{count} errors prohibited this %{resource} from being saved:"
