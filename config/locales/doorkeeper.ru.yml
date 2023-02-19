@@ -1,5 +1,5 @@
 ---
-ru-UA:
+ru-MD:
   activerecord:
     attributes:
       doorkeeper/application:
