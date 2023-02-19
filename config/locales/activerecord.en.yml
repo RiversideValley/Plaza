@@ -1,5 +1,5 @@
 ---
-en-MY:
+en:
   activerecord:
     attributes:
       poll:
