@@ -1,1325 +1,1363 @@
 ---
 ku:
   about:
-    about_mastodon_html: 'Tora civakî ya pêşerojê: Ne reklam, ne şopandina şîrketan, dîzayna nenavendî! Bi Mastodon re bibe xwediyê daneyên xwe!'
-    contact_missing: Nehate sazkirin
-    contact_unavailable: Tune
-    hosted_on: Mastodon li ser %{domain} tê pêşkêşkirin
-    title: Derbar
+    about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon!'
+    contact_missing: Not set
+    contact_unavailable: N/A
+    hosted_on: Mastodon hosted on %{domain}
+    title: About
   accounts:
-    follow: Bişopîne
+    follow: Follow
     followers:
-      one: Şopîner
-      other: Şopîner
-    following: Dişopîne
-    instance_actor_flash: Ev ajimêr listikvaneke rastkî ye ku ji bo wek nûnerê rajekar bixwe tê bikaranîn û ne bikarhênerek kesane. Ew ji bo mebestên giştî tê bikaranîn û divê neyê rawestandin.
-    last_active: çalakiya dawî
-    link_verified_on: Xwedaniya li vê girêdanê di %{date} de hatiye kontrolkirin
-    nothing_here: Li vir tiştek tune ye!
+      one: Follower
+      other: Followers
+    following: Following
+    instance_actor_flash: This account is a virtual actor used to represent the server itself and not any individual user. It is used for federation purposes and should not be suspended.
+    last_active: last active
+    link_verified_on: Ownership of this link was checked on %{date}
+    nothing_here: There is nothing here!
     pin_errors:
-      following: Kesê ku tu dixwazî bipejirînî jixwe divê tu bişopînî
+      following: You must be already following the person you want to endorse
     posts:
-      one: Şandî
-      other: Şandî
-    posts_tab_heading: Şandî
+      one: Post
+      other: Posts
+    posts_tab_heading: Posts
   admin:
     account_actions:
-      action: Çalakî yê bike
-      title: Li ser %{acct} çalakiyên li hev hatî pêk bîne
+      action: Perform action
+      title: Perform moderation action on %{acct}
     account_moderation_notes:
-      create: Nîşeyekê bihêle
-      created_msg: Nîşeyê moderator bi awayekî serkeftî hate afirandin!
-      destroyed_msg: Nîşeyê moderator bi awayekî serkeftî hate tinne kirin!
+      create: Leave note
+      created_msg: Moderation note successfully created!
+      destroyed_msg: Moderation note successfully destroyed!
     accounts:
-      add_email_domain_block: Navperê e-nameyê asteng bike
-      approve: Bipejirîne
-      approved_msg: Tomarkirina %{username} bi awayekî serkeftî hate pejirandin
-      are_you_sure: Ma tu bawerî?
-      avatar: Wêne
-      by_domain: Navper
+      add_email_domain_block: Block e-mail domain
+      approve: Approve
+      approved_msg: Successfully approved %{username}'s sign-up application
+      are_you_sure: Are you sure?
+      avatar: Avatar
+      by_domain: Domain
       change_email:
-        changed_msg: E-name bi awayekî serkeftî hate guhertin!
-        current_email: E-nameya heyî
-        label: E-nameyê biguherîne
-        new_email: E-nameya nû
-        submit: E-nameyê biguherîne
-        title: E-nameyê biguherîne bo %{username}
+        changed_msg: Email successfully changed!
+        current_email: Current email
+        label: Change email
+        new_email: New email
+        submit: Change email
+        title: Change email for %{username}
       change_role:
-        changed_msg: Rol bi awayekî serkeftî hate guhertin!
-        label: Rolê biguherîne
-        no_role: Rol tune
-        title: Rolê biguherîne ji bo %{username}
-      confirm: Bipejirîne
-      confirmed: Hate pejirandin
-      confirming: Tê pejirandin
-      custom: Kesanekirin
-      delete: Daneyan jê bibe
-      deleted: Hate jêbirin
-      demote: Ast daxistin
-      destroyed_msg: Daneyên %{username} niha ket rêzê da yê demek nêz da were jêbirin
-      disable: Qerisî ye
-      disable_sign_in_token_auth: E-name ya rastandina token neçalak bike
-      disable_two_factor_authentication: 2FA ne çalak bike
-      disabled: Qerisî ye
-      display_name: Navê xuyangê
-      domain: Navper
-      edit: Serrast bike
-      email: E-name
-      email_status: Rewşa E-nameyê
-      enable: Çalak bike
-      enable_sign_in_token_auth: E-name ya rastandina token çalak bike
-      enabled: Çalakkirî
-      enabled_msg: Ajimêrê %{username} bi serkeftî hat çalakkirin
-      followers: Şopîner
-      follows: Dişopîne
-      header: Jormalper
-      inbox_url: Girêdana peyamên hatî
-      invite_request_text: Sedemên tevlêbûnê
-      invited_by: Bi vexwendinê
+        changed_msg: Role successfully changed!
+        label: Change role
+        no_role: No role
+        title: Change role for %{username}
+      confirm: Confirm
+      confirmed: Confirmed
+      confirming: Confirming
+      custom: Custom
+      delete: Delete data
+      deleted: Deleted
+      demote: Demote
+      destroyed_msg: "%{username}'s data is now queued to be deleted imminently"
+      disable: Freeze
+      disable_sign_in_token_auth: Disable e-mail token authentication
+      disable_two_factor_authentication: Disable 2FA
+      disabled: Frozen
+      display_name: Display name
+      domain: Domain
+      edit: Edit
+      email: Email
+      email_status: Email status
+      enable: Unfreeze
+      enable_sign_in_token_auth: Enable e-mail token authentication
+      enabled: Enabled
+      enabled_msg: Successfully unfroze %{username}'s account
+      followers: Followers
+      follows: Follows
+      header: Header
+      inbox_url: Inbox URL
+      invite_request_text: Reasons for joining
+      invited_by: Invited by
       ip: IP
-      joined: Dîroka tevlîbûnê
+      joined: Joined
       location:
-        all: Hemû
-        local: Herêmî
-        remote: Ji dûr ve
-        title: Cih
-      login_status: Rewşa têketinê
-      media_attachments: Pêvekên medya
-      memorialize: Vegerîne bîranînê
-      memorialized: Bû bîranîn
-      memorialized_msg: "%{username} bi serkeftî veguherî ajimêra bîranînê"
+        all: All
+        local: Local
+        remote: Remote
+        title: Location
+      login_status: Login status
+      media_attachments: Media attachments
+      memorialize: Turn into memoriam
+      memorialized: Memorialized
+      memorialized_msg: Successfully turned %{username} into a memorial account
       moderation:
-        active: Çalak
-        all: Hemû
-        pending: Tê nirxandin
-        silenced: Sînorkirî
-        suspended: Sekinandî
-        title: Çavdêrî
-      moderation_notes: Nîşeyên Rêvebirinê
-      most_recent_activity: Çalakîyên dawî
-      most_recent_ip: IP' a dawî
-      no_account_selected: Tu ajimêr nehat hilbijartin ji ber vê tu ajimêr nehat guhertin
-      no_limits_imposed: Sînor nay danîn
-      no_role_assigned: Ti rol nehatin diyarkirin
-      not_subscribed: Beşdar nebû
-      pending: Li benda nirxandinê ye
-      perform_full_suspension: Sekinî
-      previous_strikes: Binpêkirinên berê
+        active: Active
+        all: All
+        disabled: Disabled
+        pending: Pending
+        silenced: Limited
+        suspended: Suspended
+        title: Moderation
+      moderation_notes: Moderation notes
+      most_recent_activity: Most recent activity
+      most_recent_ip: Most recent IP
+      no_account_selected: No accounts were changed as none were selected
+      no_limits_imposed: No limits imposed
+      no_role_assigned: No role assigned
+      not_subscribed: Not subscribed
+      pending: Pending review
+      perform_full_suspension: Suspend
+      previous_strikes: Previous strikes
       previous_strikes_description_html:
-        one: Ev ajimêr <strong>yek</strong> binpêkirin kiriye.
-        other: Ev ajimêr <strong>%{count}</strong> binpêkirin kiriye.
-      promote: Derbasê asteke bilind be
-      protocol: Protokol
-      public: Gelemperî
-      push_subscription_expires: Beşdarbûna PuSH diqede
-      redownload: Profîl nûve bike
-      redownloaded_msg: Bi serkeftî profîla %{username} ji kokê va hat nûve kirin
-      reject: Nepejirîne
-      rejected_msg: Tomarkirina %{username} bi awayekî serkeftî nehate pejirandin
-      remote_suspension_irreversible: Daneyên vê ajimêrê bi awayekî bê veger hatine jêbirin.
-      remote_suspension_reversible_hint_html: Ajimêr hate rawestandin li ser rajekarê wan, û daneyên di %{date} de wê hemû werin rakirin. Heya vê demê, ajimêr bêyî bandorên nebaş dikare dîsa vegere. Ku tu dixwazî hemû daneyan ajimêrê niha rakî, tu dikarî li jêrê bikî.
-      remove_avatar: Avatarê rake
-      remove_header: Sernavê rake
-      removed_avatar_msg: Wêneyê %{username} bi awayekî serkeftî hate rakirin
-      removed_header_msg: Wêneyê dîwar ê %{username} bi awayekî serkeftî hate rakirin
+        one: This account has <strong>one</strong> strike.
+        other: This account has <strong>%{count}</strong> strikes.
+      promote: Promote
+      protocol: Protocol
+      public: Public
+      push_subscription_expires: PuSH subscription expires
+      redownload: Refresh profile
+      redownloaded_msg: Successfully refreshed %{username}'s profile from origin
+      reject: Reject
+      rejected_msg: Successfully rejected %{username}'s sign-up application
+      remote_suspension_irreversible: The data of this account has been irreversibly deleted.
+      remote_suspension_reversible_hint_html: The account has been suspended on their server, and the data will be fully removed on %{date}. Until then, the remote server can restore this account without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
+      remove_avatar: Remove avatar
+      remove_header: Remove header
+      removed_avatar_msg: Successfully removed %{username}'s avatar image
+      removed_header_msg: Successfully removed %{username}'s header image
       resend_confirmation:
-        already_confirmed: Ev bikarhêner jixwe hatiye pejirandin
-        send: E-nameya pejirandinê dîsa bişîne
-        success: E-nameya pejirandinê bi awayekî serkeftî hate şandin!
-      reset: Ji nû ve saz bike
-      reset_password: Borînpeyvê ji nû ve saz bike
-      resubscribe: Dîsa beşdar bibe
-      role: Rol
-      search: Bigere
-      search_same_email_domain: Bikarhênerên din ên bi heman navpera e-nameyê
-      search_same_ip: Bikarhênerên din ên xwedî heman IP
+        already_confirmed: This user is already confirmed
+        send: Resend confirmation email
+        success: Confirmation email successfully sent!
+      reset: Reset
+      reset_password: Reset password
+      resubscribe: Resubscribe
+      role: Role
+      search: Search
+      search_same_email_domain: Other users with the same e-mail domain
+      search_same_ip: Other users with the same IP
+      security: Security
       security_measures:
-        only_password: Têne borînpeyv
-        password_and_2fa: Borînpeyv û 2FA
-      sensitive: Hêz-hestiyar
-      sensitized: Wek hestiyar hatiye nîşankirin
-      shared_inbox_url: Girêdana peyamên hatî ya parvekirî
+        only_password: Only password
+        password_and_2fa: Password and 2FA
+      sensitive: Force-sensitive
+      sensitized: Marked as sensitive
+      shared_inbox_url: Shared inbox URL
       show:
-        created_reports: Ragihandinên ku çêkiriye
-        targeted_reports: Ji aliyê kesên din ve hatiye ragihandin
-      silence: Sînor
-      silenced: Bêdeng kirî
-      statuses: Şandî
-      strikes: Binpêkirinên berê
-      subscribe: Bibe kiryar
-      suspend: Hatiye rawestandin
-      suspended: Hatiye rawestandin
-      suspension_irreversible: Daneyên vê ajimêrê bêveger hatine jêbirin. Tu dikarî ajimêra xwe ji rawestandinê vegerinî da ku ew bi kar bînî lê ew ê tu daneya ku berê hebû venegere.
-      suspension_reversible_hint_html: Ajimêr hate rawestandin, û daneyên di %{date} de wê hemû werin rakirin. Heya vê demê, ajimêr bêyî bandorên nebaş dikare dîsa vegere. Ku tu dixwazî hemû daneyan ajimêrê niha rakî, tu dikarî li jêrê bikî.
-      title: Ajimêr
-      unblock_email: Astengiyê li ser navnîşana e-nameyê rake
-      unblocked_email_msg: Bi serkeftî astengiya li ser navnîşana e-nameyê %{username} hate rakirin
-      unconfirmed_email: E-nameya nepejirandî
-      undo_sensitized: Hestiyariyê vegerîne
-      undo_silenced: Sînorê vegerîne
-      undo_suspension: Dûrxistinê paşve vegerîne
-      unsilenced_msg: Ajimêra %{username} bi awayekî serkeftî bêsînor çêbû
-      unsubscribe: Dev ji beşdarbûnê berde
-      unsuspended_msg: Bi awayekî serkeftî beşdarbûna bi ajimêra %{username} hate berdan
-      username: Navê bikarhêneriyê
-      view_domain: Kurte ji bo navperê bide nîşan
-      warn: Hişyarî
-      web: Tevn
-      whitelisted: Ji bo demnameya giştî maf hate dayin
+        created_reports: Made reports
+        targeted_reports: Reported by others
+      silence: Limit
+      silenced: Limited
+      statuses: Posts
+      strikes: Previous strikes
+      subscribe: Subscribe
+      suspend: Suspend
+      suspended: Suspended
+      suspension_irreversible: The data of this account has been irreversibly deleted. You can unsuspend the account to make it usable but it will not recover any data it previously had.
+      suspension_reversible_hint_html: The account has been suspended, and the data will be fully removed on %{date}. Until then, the account can be restored without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
+      title: Accounts
+      unblock_email: Unblock email address
+      unblocked_email_msg: Successfully unblocked %{username}'s email address
+      unconfirmed_email: Unconfirmed email
+      undo_sensitized: Undo force-sensitive
+      undo_silenced: Undo limit
+      undo_suspension: Undo suspension
+      unsilenced_msg: Successfully undid limit of %{username}'s account
+      unsubscribe: Unsubscribe
+      unsuspended_msg: Successfully unsuspended %{username}'s account
+      username: Username
+      view_domain: View summary for domain
+      warn: Warn
+      web: Web
+      whitelisted: Allowed for federation
     action_logs:
       action_types:
-        approve_appeal: Îtîrazê bipejirîne
-        approve_user: Bikarhêner bipejirîne
-        assigned_to_self_report: Ragihandinê diyar bike
-        change_email_user: E-nameya bikarhêner biguherîne
-        change_role_user: Rola bikarhêner biguherîne
-        confirm_user: Bikarhêner bipejirîne
-        create_account_warning: Hişyariyekê çê bike
-        create_announcement: Daxûyaniyekê çê bike
-        create_canonical_email_block: Astengkirina e-nameyê biafirîne
-        create_custom_emoji: Emojiyên kesanekirî çê bike
-        create_domain_allow: Navpera ku destûr standiye peyda bike
-        create_domain_block: Astengkirina navperê biafirîne
-        create_email_domain_block: Astengkirina navpera e-nameyê biafirîne
-        create_ip_block: Rêziknameya IPyê saz bike
-        create_unavailable_domain: Navpera ku nayê bikaranîn pêk bîne
-        create_user_role: Rolê biafirîne
-        demote_user: Bikarhênerê kaşê jêr bike
-        destroy_announcement: Daxûyanîyê jê bibe
-        destroy_canonical_email_block: Astengkirina e-nameyê jê bibe
-        destroy_custom_emoji: Emojîya kesanekirî jê bibe
-        destroy_domain_allow: Navperên mafdayî jê bibe
-        destroy_domain_block: Navperên astengkirî jê bibe
-        destroy_email_domain_block: Navperên e-nameyê yên astengkirî jê bibe
-        destroy_instance: Pakirina navperê
-        destroy_ip_block: Tomara IPyê jêbibe
-        destroy_status: Şandiyê jê bibe
-        destroy_unavailable_domain: Navperên tuneyî jê bibe
-        destroy_user_role: Rolê hilweşîne
-        disable_2fa_user: 2FA neçalak bike
-        disable_custom_emoji: Emojîya kesanekirî neçalak bike
-        disable_sign_in_token_auth_user: Ji bo bikarhênerê piştrastkirina navnîşana e-name yê ya token neçalak bike
-        disable_user: Bikarhêner neçalak bike
-        enable_custom_emoji: Emojîya kesanekirî çalak bike
-        enable_sign_in_token_auth_user: Ji bo bikarhênerê piştrastkirina navnîşana e-name yê ya token çalak bike
-        enable_user: Bikarhêner çalak bike
-        memorialize_account: Ajimêrê bike bîranînek
-        promote_user: Bikarhêner pêş bixe
-        reject_appeal: Îtîrazê nepejirîne
-        reject_user: Bikarhêner nepejirîne
-        remove_avatar_user: Avatarê rake
-        reopen_report: Ragihandina ji nû ve veke
-        resend_user: E-nameya pejirandinê dîsa bişîne
-        reset_password_user: Borînpeyvê ji nû ve saz bike
-        resolve_report: Ragihandinê çareser bike
-        sensitive_account: Ajimêra hêz-hestiyar
-        silence_account: Ajimêrê bi sînor bike
-        suspend_account: Ajimêr rawestîne
-        unassigned_report: Ragihandinê diyar neke
-        unblock_email_account: Astengiyê li ser navnîşana e-nameyê rake
-        unsensitive_account: Medyayên di ajimêrê te de wek hestyarî nepejirîne
-        unsilence_account: Ajimêra sînorkirî vegerîne
-        unsuspend_account: Ajimêrê xwe ji rewestandinê rake
-        update_announcement: Daxûyaniyê rojane bike
-        update_custom_emoji: Emojîya kesanekirî rojane bike
-        update_domain_block: Astengkirina navperê rojane bike
-        update_ip_block: Rolê IP rojane bike
-        update_status: Şandiyê rojane bike
-        update_user_role: Rolê rojane bike
+        approve_appeal: Approve Appeal
+        approve_user: Approve User
+        assigned_to_self_report: Assign Report
+        change_email_user: Change E-mail for User
+        change_role_user: Change Role of User
+        confirm_user: Confirm User
+        create_account_warning: Create Warning
+        create_announcement: Create Announcement
+        create_canonical_email_block: Create E-mail Block
+        create_custom_emoji: Create Custom Emoji
+        create_domain_allow: Create Domain Allow
+        create_domain_block: Create Domain Block
+        create_email_domain_block: Create E-mail Domain Block
+        create_ip_block: Create IP rule
+        create_unavailable_domain: Create Unavailable Domain
+        create_user_role: Create Role
+        demote_user: Demote User
+        destroy_announcement: Delete Announcement
+        destroy_canonical_email_block: Delete E-mail Block
+        destroy_custom_emoji: Delete Custom Emoji
+        destroy_domain_allow: Delete Domain Allow
+        destroy_domain_block: Delete Domain Block
+        destroy_email_domain_block: Delete E-mail Domain Block
+        destroy_instance: Purge Domain
+        destroy_ip_block: Delete IP rule
+        destroy_status: Delete Post
+        destroy_unavailable_domain: Delete Unavailable Domain
+        destroy_user_role: Destroy Role
+        disable_2fa_user: Disable 2FA
+        disable_custom_emoji: Disable Custom Emoji
+        disable_sign_in_token_auth_user: Disable E-mail Token Authentication for User
+        disable_user: Disable User
+        enable_custom_emoji: Enable Custom Emoji
+        enable_sign_in_token_auth_user: Enable E-mail Token Authentication for User
+        enable_user: Enable User
+        memorialize_account: Memorialize Account
+        promote_user: Promote User
+        reject_appeal: Reject Appeal
+        reject_user: Reject User
+        remove_avatar_user: Remove Avatar
+        reopen_report: Reopen Report
+        resend_user: Resend Confirmation Mail
+        reset_password_user: Reset Password
+        resolve_report: Resolve Report
+        sensitive_account: Force-Sensitive Account
+        silence_account: Limit Account
+        suspend_account: Suspend Account
+        unassigned_report: Unassign Report
+        unblock_email_account: Unblock email address
+        unsensitive_account: Undo Force-Sensitive Account
+        unsilence_account: Undo Limit Account
+        unsuspend_account: Unsuspend Account
+        update_announcement: Update Announcement
+        update_custom_emoji: Update Custom Emoji
+        update_domain_block: Update Domain Block
+        update_ip_block: Update IP rule
+        update_status: Update Post
+        update_user_role: Update Role
       actions:
-        approve_appeal_html: "%{name} îtiraza biryara çavdêriyê ji %{target} pejirand"
-        approve_user_html: "%{name} tomarkirina ji %{target} pejirand"
-        assigned_to_self_report_html: "%{name} ji xwe re ragihandinek %{target} hilda"
-        change_email_user_html: "%{name} navnîşana e-nameya bikarhêner %{target} guherand"
-        change_role_user_html: "%{name} rolê %{target} guhert"
-        confirm_user_html: "%{name} navnîşana e-nameya bikarhêner %{target} piştrast kir"
-        create_account_warning_html: "%{name} ji bo %{target} hişyariyek şand"
-        create_announcement_html: "%{name} agahdarkirineke nû çêkir %{target}"
-        create_canonical_email_block_html: "%{name} bi riya dabeşkirinê e-nameya %{target} asteng kir"
-        create_custom_emoji_html: "%{name} emojîyeke nû ya %{target} bar kir"
-        create_domain_allow_html: "%{name} bi navperê %{target} re maf da demnameya giştî"
-        create_domain_block_html: "%{name} navpera %{target} asteng kir"
-        create_email_domain_block_html: "%{name} e-nameya navperê %{target} asteng kir"
-        create_ip_block_html: "%{name} ji bo IPya %{target} rêzikname saz kir"
-        create_unavailable_domain_html: "%{name} bi navperê %{target} re gihandinê rawestand"
-        create_user_role_html: "%{name} rola %{target} afirand"
-        demote_user_html: "%{name} bikarhênerê %{target} kaşê jêr kir"
-        destroy_announcement_html: "%{name} daxûyaniyeke %{target} jê bir"
-        destroy_canonical_email_block_html: "%{name} bi riya dabeşkirinê astengiya li ser e-nameya %{target} rakir"
-        destroy_custom_emoji_html: "%{name} emojiya %{target} jê bir"
-        destroy_domain_allow_html: "%{name} bi navperê %{target} re maf neda demnameya giştî"
-        destroy_domain_block_html: "%{name} navpera %{target} asteng kir"
-        destroy_email_domain_block_html: "%{name} astengiya li ser navpera e-nameyê %{target} rakir"
-        destroy_instance_html: "%{name} navpera %{target} asteng kir"
-        destroy_ip_block_html: "%{name}, ji bo IPya %{target} rêziknameyê jêbir"
-        destroy_status_html: "%{name} ji alîyê %{target} ve şandiyê rakir"
-        destroy_unavailable_domain_html: "%{name} bi navperê %{target} re gihandinê berdewam kir"
-        destroy_user_role_html: "%{name} rola %{target} jê bir"
-        disable_2fa_user_html: "%{name} ji bo bikarhênerê %{target} du faktorî neçalak kir"
-        disable_custom_emoji_html: "%{name} emojiya %{target} neçalak kir"
-        disable_sign_in_token_auth_user_html: "%{name} ji bo %{target} nîşana mafdayîna e-nameya ne çalak kir"
-        disable_user_html: "%{name} ji bo bikarhêner %{target} têketin neçalak kir"
-        enable_custom_emoji_html: "%{name} emojiya %{target} çalak kir"
-        enable_sign_in_token_auth_user_html: "%{name} ji bo %{target} nîşana mafdayîna e-nameyê çalak kir"
-        enable_user_html: "%{name} ji bo bikarhêner %{target} têketin çalak kir"
-        memorialize_account_html: "%{name} ajimêra %{target} veguherand rûpeleke bîranînê"
-        promote_user_html: "%{name} bikarhêner %{target} bilind kir"
-        reject_appeal_html: "%{name} îtiraza biryara çavdêriyê ji %{target} nepejirand"
-        reject_user_html: "%{name} tomarkirina ji %{target} nepejirand"
-        remove_avatar_user_html: "%{name} avatara bikarhêner %{target} rakir"
-        reopen_report_html: "%{name} ragihandina %{target} ji nû ve vekir"
-        resend_user_html: "%{name} e-nameya pejirandinê dîsa bişîne ji bo %{target}"
-        reset_password_user_html: "%{name} borînpeyva bikarhêner %{target} ji nû ve saz kir"
-        resolve_report_html: "%{name} ragihandina %{target} çareser kir"
-        sensitive_account_html: "%{name} medyayê %{target} wekî hestiyarî nîşan kir"
-        silence_account_html: "%{name} ajimêra %{target} bi sînor kir"
-        suspend_account_html: "%{name} ajimêra %{target} hilda rawestandinê"
-        unassigned_report_html: "%{name} ragihandina %{target} rakir"
-        unblock_email_account_html: "%{name} navnîşana e-nameyê %{target} asteng kir"
-        unsensitive_account_html: "%{name} medyayê %{target} nîşandana wek hestiyarî rakir"
-        unsilence_account_html: "%{name} bêdengiya ajimêrê %{target} rakir"
-        unsuspend_account_html: "%{name} rawestandina ajimêrê %{target} rakir"
-        update_announcement_html: "%{name} daxûyaniya %{target} rojane kir"
-        update_custom_emoji_html: "%{name} emojiya %{target} rojane kir"
-        update_domain_block_html: "%{name} ji bo navpera %{target} astengkirin rojane kir"
-        update_ip_block_html: "%{name} rolê %{target} guhert ji bo IP"
-        update_status_html: "%{name} şandiya bikarhêner %{target} rojane kir"
-        update_user_role_html: "%{name} rola %{target} guherand"
-      deleted_account: ajimêrê jêbirî
-      empty: Tomarkirin nehate dîtin.
-      filter_by_action: Li gorî çalakiyê biparzinîne
-      filter_by_user: Li gorî bikarhênerê biparzinîne
-      title: Tomarê çavdêriyê
+        approve_appeal_html: "%{name} approved moderation decision appeal from %{target}"
+        approve_user_html: "%{name} approved sign-up from %{target}"
+        assigned_to_self_report_html: "%{name} assigned report %{target} to themselves"
+        change_email_user_html: "%{name} changed the e-mail address of user %{target}"
+        change_role_user_html: "%{name} changed role of %{target}"
+        confirm_user_html: "%{name} confirmed e-mail address of user %{target}"
+        create_account_warning_html: "%{name} sent a warning to %{target}"
+        create_announcement_html: "%{name} created new announcement %{target}"
+        create_canonical_email_block_html: "%{name} blocked e-mail with the hash %{target}"
+        create_custom_emoji_html: "%{name} uploaded new emoji %{target}"
+        create_domain_allow_html: "%{name} allowed federation with domain %{target}"
+        create_domain_block_html: "%{name} blocked domain %{target}"
+        create_email_domain_block_html: "%{name} blocked e-mail domain %{target}"
+        create_ip_block_html: "%{name} created rule for IP %{target}"
+        create_unavailable_domain_html: "%{name} stopped delivery to domain %{target}"
+        create_user_role_html: "%{name} created %{target} role"
+        demote_user_html: "%{name} demoted user %{target}"
+        destroy_announcement_html: "%{name} deleted announcement %{target}"
+        destroy_canonical_email_block_html: "%{name} unblocked e-mail with the hash %{target}"
+        destroy_custom_emoji_html: "%{name} deleted emoji %{target}"
+        destroy_domain_allow_html: "%{name} disallowed federation with domain %{target}"
+        destroy_domain_block_html: "%{name} unblocked domain %{target}"
+        destroy_email_domain_block_html: "%{name} unblocked e-mail domain %{target}"
+        destroy_instance_html: "%{name} purged domain %{target}"
+        destroy_ip_block_html: "%{name} deleted rule for IP %{target}"
+        destroy_status_html: "%{name} removed post by %{target}"
+        destroy_unavailable_domain_html: "%{name} resumed delivery to domain %{target}"
+        destroy_user_role_html: "%{name} deleted %{target} role"
+        disable_2fa_user_html: "%{name} disabled two factor requirement for user %{target}"
+        disable_custom_emoji_html: "%{name} disabled emoji %{target}"
+        disable_sign_in_token_auth_user_html: "%{name} disabled e-mail token authentication for %{target}"
+        disable_user_html: "%{name} disabled login for user %{target}"
+        enable_custom_emoji_html: "%{name} enabled emoji %{target}"
+        enable_sign_in_token_auth_user_html: "%{name} enabled e-mail token authentication for %{target}"
+        enable_user_html: "%{name} enabled login for user %{target}"
+        memorialize_account_html: "%{name} turned %{target}'s account into a memoriam page"
+        promote_user_html: "%{name} promoted user %{target}"
+        reject_appeal_html: "%{name} rejected moderation decision appeal from %{target}"
+        reject_user_html: "%{name} rejected sign-up from %{target}"
+        remove_avatar_user_html: "%{name} removed %{target}'s avatar"
+        reopen_report_html: "%{name} reopened report %{target}"
+        resend_user_html: "%{name} resent confirmation e-mail for %{target}"
+        reset_password_user_html: "%{name} reset password of user %{target}"
+        resolve_report_html: "%{name} resolved report %{target}"
+        sensitive_account_html: "%{name} marked %{target}'s media as sensitive"
+        silence_account_html: "%{name} limited %{target}'s account"
+        suspend_account_html: "%{name} suspended %{target}'s account"
+        unassigned_report_html: "%{name} unassigned report %{target}"
+        unblock_email_account_html: "%{name} unblocked %{target}'s email address"
+        unsensitive_account_html: "%{name} unmarked %{target}'s media as sensitive"
+        unsilence_account_html: "%{name} undid limit of %{target}'s account"
+        unsuspend_account_html: "%{name} unsuspended %{target}'s account"
+        update_announcement_html: "%{name} updated announcement %{target}"
+        update_custom_emoji_html: "%{name} updated emoji %{target}"
+        update_domain_block_html: "%{name} updated domain block for %{target}"
+        update_ip_block_html: "%{name} changed rule for IP %{target}"
+        update_status_html: "%{name} updated post by %{target}"
+        update_user_role_html: "%{name} changed %{target} role"
+      deleted_account: deleted account
+      empty: No logs found.
+      filter_by_action: Filter by action
+      filter_by_user: Filter by user
+      title: Audit log
     announcements:
-      destroyed_msg: Daxûyanî bi awayekî serkeftî hate jêbirin!
+      destroyed_msg: Announcement successfully deleted!
       edit:
-        title: Daxûyaniyê serrast bike
-      empty: Daxûyanî nehat dîtin.
-      live: Zindî
+        title: Edit announcement
+      empty: No announcements found.
+      live: Live
       new:
-        create: Daxûyaniyekê çê bike
-        title: Daxûyaniya nû
-      publish: Biweşîne
-      published_msg: Daxûyanî bi awayekî serkeftî hate weşan!
-      scheduled_for: Bo %{time} hatiye demsazkirin
-      scheduled_msg: Daxûyanî hate demsazkirin bo weşanê!
-      title: Daxuyanî
-      unpublish: Neweşîne
-      unpublished_msg: Daxûyanî bi awayekî serkeftî weşan pûç kir!
-      updated_msg: Daxûyanî bi awayekî serkeftî hate rojanekirin!
+        create: Create announcement
+        title: New announcement
+      publish: Publish
+      published_msg: Announcement successfully published!
+      scheduled_for: Scheduled for %{time}
+      scheduled_msg: Announcement scheduled for publication!
+      title: Announcements
+      unpublish: Unpublish
+      unpublished_msg: Announcement successfully unpublished!
+      updated_msg: Announcement successfully updated!
     custom_emojis:
-      assign_category: Diyarkirina beşê
-      by_domain: Navper
-      copied_msg: Jêgirtiyê emojî ya herêmî bi serkeftî hate afirandin
-      copy: Jê bigire
-      copy_failed_msg: Jêgirtiyêke emojî ya herêmî nehate afirandin
-      create_new_category: Beşêke nû biafirîne
-      created_msg: Hestok bi serkeftî hate çêkirin!
-      delete: Jê bibe
-      destroyed_msg: Hestok bi serkeftî hate rûxandin!
-      disable: Neçalak bike
-      disabled: Neçalakkirî
-      disabled_msg: Ev hestok bi serkeftî hate neçalak kirin
+      assign_category: Assign category
+      by_domain: Domain
+      copied_msg: Successfully created local copy of the emoji
+      copy: Copy
+      copy_failed_msg: Could not make a local copy of that emoji
+      create_new_category: Create new category
+      created_msg: Emoji successfully created!
+      delete: Delete
+      destroyed_msg: Emojo successfully destroyed!
+      disable: Disable
+      disabled: Disabled
+      disabled_msg: Successfully disabled that emoji
       emoji: Emoji
-      enable: Çalak bike
-      enabled: Çalakkirî
-      enabled_msg: Ev hestok bi serkeftî hate çalak kirin
-      image_hint: Mezinahiya PNG an jî GIF digîheje heya %{size}
-      list: Rêzok
-      listed: Rêzokkirî
+      enable: Enable
+      enabled: Enabled
+      enabled_msg: Successfully enabled that emoji
+      image_hint: PNG or GIF up to %{size}
+      list: List
+      listed: Listed
       new:
-        title: Hestokên kesane yên nû lê zêde bike
-      no_emoji_selected: Tu emojî nehatin hilbijartin ji ber vê tu şandî jî nehatin guhertin
-      not_permitted: Mafê te tune ku tu vê çalakiyê bikî
-      overwrite: Bi ser de binivsîne
-      shortcode: Kurtekod
-      shortcode_hint: Herê kêm 2 tîp, tenê tîpên alfahejmarî û yên bin xêzkirî
-      title: Hestokên kesane
-      uncategorized: Bêbeş
-      unlist: Dervî rêzokê
-      unlisted: Nerêzokkirî
-      update_failed_msg: Ev hestok nehate rojanekirin
-      updated_msg: Emojî bi awayekî serkeftî hate rojanekirin!
-      upload: Bar bike
+        title: Add new custom emoji
+      no_emoji_selected: No emojis were changed as none were selected
+      not_permitted: You are not permitted to perform this action
+      overwrite: Overwrite
+      shortcode: Shortcode
+      shortcode_hint: At least 2 characters, only alphanumeric characters and underscores
+      title: Custom emojis
+      uncategorized: Uncategorized
+      unlist: Unlist
+      unlisted: Unlisted
+      update_failed_msg: Could not update that emoji
+      updated_msg: Emoji successfully updated!
+      upload: Upload
     dashboard:
-      active_users: bikarhênerên çalak
-      interactions: têgerîn
-      media_storage: Bîrdanaka medyayê
-      new_users: bikarhênerên nû
-      opened_reports: ragihandin hatin vekirin
+      active_users: active users
+      interactions: interactions
+      media_storage: Media storage
+      new_users: new users
+      opened_reports: reports opened
       pending_appeals_html:
-        one: "<strong>%{count}</strong> îtîraz li benda nirxandinê ye"
-        other: "<strong>%{count}</strong> îtîraz li benda nirxandinê ne"
+        one: "<strong>%{count}</strong> pending appeal"
+        other: "<strong>%{count}</strong> pending appeals"
       pending_reports_html:
-        one: "<strong>%{count}</strong> ragihandin benda nirxandinê ye"
-        other: "<strong>%{count}</strong> ragihandin benda nirxandinê ne"
+        one: "<strong>%{count}</strong> pending report"
+        other: "<strong>%{count}</strong> pending reports"
       pending_tags_html:
-        one: "<strong>%{count}</strong> hashtag benda nirxandinê ye"
-        other: "<strong>%{count}</strong> hashtag benda nirxandinê ne"
+        one: "<strong>%{count}</strong> pending hashtag"
+        other: "<strong>%{count}</strong> pending hashtags"
       pending_users_html:
-        one: "<strong>%{count}</strong> bikarhêner benda nirxandinê ye"
-        other: "<strong>%{count}</strong> bikarhêner benda nirxandinê ne"
-      resolved_reports: ragihandinên çareserkirî
-      software: Nermalav
-      sources: Çavkaniyên tomarkirî
-      space: Bikaranîna cîh
-      title: Destgeha venasînê
-      top_languages: Zimanên herî çalak
-      top_servers: Rajekarên herî çalak
-      website: Malpera tevnê
+        one: "<strong>%{count}</strong> pending user"
+        other: "<strong>%{count}</strong> pending users"
+      resolved_reports: reports resolved
+      software: Software
+      sources: Sign-up sources
+      space: Space usage
+      title: Dashboard
+      top_languages: Top active languages
+      top_servers: Top active servers
+      website: Website
     disputes:
       appeals:
-        empty: Îtîraz nehatin dîtin.
-        title: Îtîraz
+        empty: No appeals found.
+        title: Appeals
     domain_allows:
-      add_new: Mafê bide navpera demnameya giştî
-      created_msg: Ji bo demnameya giştî mafdayîna navperê bi serkeftî hate dayîn
-      destroyed_msg: Ji bo demnameya giştî mafdayîna navperê nehat dayîn
-      export: Derxistin
-      import: Têxistin
-      undo: Mafê nede navpera demnameya giştî
+      add_new: Allow federation with domain
+      created_msg: Domain has been successfully allowed for federation
+      destroyed_msg: Domain has been disallowed from federation
+      export: Export
+      import: Import
+      undo: Disallow federation with domain
     domain_blocks:
-      add_new: Astengkirina navpera nû tevlî bike
-      created_msg: Astengkirina navperê niha dixebite
-      destroyed_msg: Astengkirina navperê hate rakirin
-      domain: Navper
-      edit: Astengkirina navperê serrast bike
-      existing_domain_block: Jixwe te sînorên tundtir li ser %{name} daye kirine.
-      existing_domain_block_html: Te jixwe sînorên mezintir li ser %{name} pêk aniye, divê tu pêşî <a href="%{unblock_url}">astengkirinê rakî</a>.
-      export: Derxistin
-      import: Têxistin
+      add_new: Add new domain block
+      created_msg: Domain block is now being processed
+      destroyed_msg: Domain block has been undone
+      domain: Domain
+      edit: Edit domain block
+      existing_domain_block: You have already imposed stricter limits on %{name}.
+      existing_domain_block_html: You have already imposed stricter limits on %{name}, you need to <a href="%{unblock_url}">unblock it</a> first.
+      export: Export
+      import: Import
       new:
-        create: Astengkirinekê çê bike
-        hint: Astengkirina navperê pêşî li çêkirina têketinên ajimêra yên di danegehê de negire, lê wê bi riyeke vegerandî û xweberî rêbazên kontrolkirinê li ser van ajimêran pêk bîne.
+        create: Create block
+        hint: The domain block will not prevent creation of account entries in the database, but will retroactively and automatically apply specific moderation methods on those accounts.
         severity:
-          desc_html: |-
-            <strong>Sînor</strong> wê şandiyan ji ajimêrên li ser vê navperê re ji her kesê ku wan naşopîne re nedîtî bike. <strong>Rawestandin</strong> wê hemû naverok, medya û daneyên profîlê yên ajimêrên vê navperê ji rajekarê te rake. Ku tu tenê dixwazî pelên medyayê nepejirînî
-            <strong>Tu kes</strong> bi kar bîne.
-          noop: Ne yek
-          silence: Sînor
-          suspend: Dur bike
-        title: Astengkirina navpera nû
-      no_domain_block_selected: Tu astengkirinên navperê e-nameyê nehatin guhertin ji ber ku tu yek nehatine hilbijartin
-      not_permitted: Mafê te tune ku tu vê çalakiyê bikî
-      obfuscate: Navê navperê veşêre
-      obfuscate_hint: Ku rêzoka sînorên navperê çalakkirî be navê navperê di rêzokê de bi awayekî beşî veşêre
-      private_comment: Şîroveya taybet
-      private_comment_hint: Derbarê sînorkirina vê navperê ji bo bikaranîna hundirîn ji aliyê çavdêram ve şîrove bike.
-      public_comment: Şîroveya gelemperî
-      public_comment_hint: Derbarê sînorkirina vê navperê ji bo raya giştî re şîrove bike, ku reklamkirina rêzoka sînorên navperê çalakkirî be.
-      reject_media: Pelên medyayê nepejirîne
-      reject_media_hint: Pelên medyayê herêmî hatine tomarkirin radike û di pêşerojê de daxistinê red dike. Ji bo rawstandinê ne girîng e
-      reject_reports: Ragihandinan nepejirîne
-      reject_reports_hint: Ragihandinên ku ji vê navperê tê paşguh bike. Ji bo dûrbûnê re ne guncav e
-      undo: Astengkirina navperê vegerîne
-      view: Astengkirina navperê nîşan bike
+          desc_html: "<strong>Limit</strong> will make posts from accounts at this domain invisible to anyone who isn't following them. <strong>Suspend</strong> will remove all content, media, and profile data for this domain's accounts from your server. Use <strong>None</strong> if you just want to reject media files."
+          noop: None
+          silence: Limit
+          suspend: Suspend
+        title: New domain block
+      no_domain_block_selected: No domain blocks were changed as none were selected
+      not_permitted: You are not permitted to perform this action
+      obfuscate: Obfuscate domain name
+      obfuscate_hint: Partially obfuscate the domain name in the list if advertising the list of domain limitations is enabled
+      private_comment: Private comment
+      private_comment_hint: Comment about this domain limitation for internal use by the moderators.
+      public_comment: Public comment
+      public_comment_hint: Comment about this domain limitation for the general public, if advertising the list of domain limitations is enabled.
+      reject_media: Reject media files
+      reject_media_hint: Removes locally stored media files and refuses to download any in the future. Irrelevant for suspensions
+      reject_reports: Reject reports
+      reject_reports_hint: Ignore all reports coming from this domain. Irrelevant for suspensions
+      undo: Undo domain block
+      view: View domain block
     email_domain_blocks:
-      add_new: Nû tevlî bike
+      add_new: Add new
       attempts_over_week:
-        one: "%{count} hewldana tomarkirinê di hefteya borî de"
-        other: "%{count} hewldanên tomarkirinê di hefteya borî de"
-      created_msg: Bi serkeftî navpera e-name hate astengkirin
-      delete: Jê bibe
+        one: "%{count} attempt over the last week"
+        other: "%{count} sign-up attempts over the last week"
+      created_msg: Successfully blocked e-mail domain
+      delete: Delete
       dns:
         types:
-          mx: Tomarkerê MX
-      domain: Navper
+          mx: MX record
+      domain: Domain
       new:
-        create: Navper tevlî bike
-        resolve: Navperê çareser bike
-        title: Navperê e-nameyê nû asteng bike
-      no_email_domain_block_selected: Tu astengkirnên navperê e-nameyê nehatin guhertin ji ber ku tu yek nehatine hilbijartin
-      resolved_dns_records_hint_html: Navê navperê ji MX ên jêrîn re çareser dike, ên ku di dawiyê de berpirsiyarin ji pejirandina e-nameyê. Astengkirina navperek MX wê tomarkirina ji her navnîşana e-nameyê ya ku heman navpera MX bi kar tîne asteng bike, tevlî ku navê navperê xuya cûda be. <strong>Hişyar be ku peydekarên sereke yên e-nameyê asteng nekî.</strong>
-      resolved_through_html: Bi riya %{domain} ve hate çareserkirin
-      title: Navperên e-nameyê astengkirî
+        create: Add domain
+        resolve: Resolve domain
+        title: Block new e-mail domain
+      no_email_domain_block_selected: No e-mail domain blocks were changed as none were selected
+      not_permitted: Not permitted
+      resolved_dns_records_hint_html: The domain name resolves to the following MX domains, which are ultimately responsible for accepting e-mail. Blocking an MX domain will block sign-ups from any e-mail address which uses the same MX domain, even if the visible domain name is different. <strong>Be careful not to block major e-mail providers.</strong>
+      resolved_through_html: Resolved through %{domain}
+      title: Blocked e-mail domains
     export_domain_allows:
       new:
-        title: Astengkirnên navperê têne
-      no_file: Tu pel nehatiye hilbijartin
+        title: Import domain allows
+      no_file: No file selected
     export_domain_blocks:
       import:
-        description_html: Tu kê rêzokek ji astengkirinên navperê têxê. Ji kerema xwe vê rêzokê pir bi baldarî binirxîne, taybet ku te ev rêzok bi xwe nenivîsandiye.
-        existing_relationships_warning: Têkiliyên şopandinê yên heyî
-        private_comment_description_html: 'Ji bo ku bibe alîkar ji te re bo ku bişopînî ka astengkirinên têxistî ji kuderê tên, astengkirinên têxistî wê werin afirandin bi şîroveya taybet ya: <q>%{comment}</q>'
-        private_comment_template: Ji %{source} hate têxistin di %{date} de
-        title: Astengkirinên navperê têxe
+        description_html: You are about to import a list of domain blocks. Please review this list very carefully, especially if you have not authored this list yourself.
+        existing_relationships_warning: Existing follow relationships
+        private_comment_description_html: 'To help you track where imported blocks come from, imported blocks will be created with the following private comment: <q>%{comment}</q>'
+        private_comment_template: Imported from %{source} on %{date}
+        title: Import domain blocks
+      invalid_domain_block: 'One or more domain blocks were skipped because of the following error(s): %{error}'
       new:
-        title: Astengkirnên navperê têxe
-      no_file: Tu pel nehatiye hilbijartin
+        title: Import domain blocks
+      no_file: No file selected
     follow_recommendations:
-      description_html: "<strong>Şopandina pêşniyaran ji bo bikarhênerên nû re dibe alîkar ku zû naveroka balkêş bibînin</strong>. Gava ku bikarhênerek têra xwe bi kesên din re têkildar nebê da ku pêşnîyarên şopandina yên kesane bo xwe çêbike, li şûna van ajimêran têne pêşniyarkirin. Ew her roj ji tevliheviya ajimêrên bi tevlêbûnên herî dawîn ên herî bilind û jimara şopdarên herêmî yên herî pir ji bo zimaneke diyarkirî ji nû ve têne pêşniyarkirin."
-      language: Bo zimanê
-      status: Rewş
-      suppress: Bi bandorek mezin pêşniyara şopandinê bike
-      suppressed: Bandoreke mezin dibe
-      title: Pêşniyarên şopandinê
-      unsuppress: Pêşniyara şopandinê paşve vegerîne
+      description_html: "<strong>Follow recommendations help new users quickly find interesting content</strong>. When a user has not interacted with others enough to form personalized follow recommendations, these accounts are recommended instead. They are re-calculated on a daily basis from a mix of accounts with the highest recent engagements and highest local follower counts for a given language."
+      language: For language
+      status: Status
+      suppress: Suppress follow recommendation
+      suppressed: Suppressed
+      title: Follow recommendations
+      unsuppress: Restore follow recommendation
     instances:
       availability:
         description_html:
-          one: Ku radestkirina navperê <strong>%{count} roj </strong> bêyî serkeftin birevebiçe, heya ku radestkirinek <em> ji </em> navperê neyê wergirtin, wê hewildanên radestkirinê neyên kirin.
-          other: Ku radestkirina navperê <strong>%{count} rojên cuda</strong> bêyî serkeftin birevebiçe, heya ku radestkirinek <em> ji </em> navperê neyê wergirtin, wê hewildanên radestkirinê neyên kirin.
-        failure_threshold_reached: Rêjeya têkçûnê gihîşte %{date}.
+          one: If delivering to the domain fails <strong>%{count} day</strong> without succeeding, no further delivery attempts will be made unless a delivery <em>from</em> the domain is received.
+          other: If delivering to the domain fails on <strong>%{count} different days</strong> without succeeding, no further delivery attempts will be made unless a delivery <em>from</em> the domain is received.
+        failure_threshold_reached: Failure threshold reached on %{date}.
         failures_recorded:
-          one: Hewldana têkçûyî di %{count} roj de.
-          other: Hewldanên têkçûyî di %{count} rojên cuda de.
-        no_failures_recorded: Di tomarê de têkçûn tune.
-        title: Berdestbûnî
-        warning: Hewldana dawî ji bo girêdana bi vê rajekarê re bi ser neket
-      back_to_all: Hemû
-      back_to_limited: Sînorkirî
-      back_to_warning: Hişyarî
-      by_domain: Navper
-      confirm_purge: Ma tu dixwazî ku bi awayekî domdar daneyan ji vê navperê jê bibî?
+          one: Failed attempt on %{count} day.
+          other: Failed attempts on %{count} different days.
+        no_failures_recorded: No failures on record.
+        title: Availability
+        warning: The last attempt to connect to this server has been unsuccessful
+      back_to_all: All
+      back_to_limited: Limited
+      back_to_warning: Warning
+      by_domain: Domain
+      confirm_purge: Are you sure you want to permanently delete data from this domain?
       content_policies:
-        comment: Nîşeya navxweyî
-        description_html: Tu dikarî polîtîkayên naverokê yên ku wê li hemû ajimêrên ji vê navperê û her kiîjan ji jêrnavperên werin sepandin diyar bikî.
+        comment: Internal note
+        description_html: You can define content policies that will be applied to all accounts from this domain and any of its subdomains.
+        limited_federation_mode_description_html: You can chose whether to allow federation with this domain.
         policies:
-          reject_media: Medya nepejirîne
-          reject_reports: Ragihandinan nepejirîne
-          silence: Bi sînor bike
-          suspend: Rawestîne
-        policy: Polîtîka
-        reason: Sedemên gelemperî
-        title: Polîtîkayên naverokê
+          reject_media: Reject media
+          reject_reports: Reject reports
+          silence: Limit
+          suspend: Suspend
+        policy: Policy
+        reason: Public reason
+        title: Content policies
       dashboard:
-        instance_accounts_dimension: Ajimêrên ku herî pir têne şopandin
-        instance_accounts_measure: ajimêrên tomarkirî
-        instance_followers_measure: şopînerên me li wir
-        instance_follows_measure: şopînerên wan li vir
-        instance_languages_dimension: Zimanên pir tên bikaranîn
-        instance_media_attachments_measure: pêvekên medyayê tomarkirî
-        instance_reports_measure: ragehandinên di derbarê wan de
-        instance_statuses_measure: şandiyên tomarkirî
+        instance_accounts_dimension: Most followed accounts
+        instance_accounts_measure: stored accounts
+        instance_followers_measure: our followers there
+        instance_follows_measure: their followers here
+        instance_languages_dimension: Top languages
+        instance_media_attachments_measure: stored media attachments
+        instance_reports_measure: reports about them
+        instance_statuses_measure: stored posts
       delivery:
-        all: Hemû
-        clear: Çewtiyên gihandinê paqij bike
-        failing: Têkçûn
-        restart: Gihandinê nû va bike
-        stop: Gehandinê rawestîne
-        unavailable: Nederbasdar
-      delivery_available: Gihandin berdest e
-      delivery_error_days: Rojên çewtiyên gehandinê
-      delivery_error_hint: Ger gehandin %{count} rojan ne pêkan be ewê wek bixweber wê nayê gehandin were nîşandan.
-      destroyed_msg: Daneyên %{domain} niha ji bo jêbirina nêzîk di rêzê de ne.
-      empty: Tu navper nehatine dîtin.
+        all: All
+        clear: Clear delivery errors
+        failing: Failing
+        restart: Restart delivery
+        stop: Stop delivery
+        unavailable: Unavailable
+      delivery_available: Delivery is available
+      delivery_error_days: Delivery error days
+      delivery_error_hint: If delivery is not possible for %{count} days, it will be automatically marked as undeliverable.
+      destroyed_msg: Data from %{domain} is now queued for imminent deletion.
+      empty: No domains found.
       known_accounts:
-        one: "%{count} ajimêra naskirî"
-        other: "%{count} ajimêrên naskirî"
+        one: "%{count} known account"
+        other: "%{count} known accounts"
       moderation:
-        all: Hemû
-        limited: Sînorkirî
-        title: Çavdêrî
-      private_comment: Şîroveya taybet
-      public_comment: Şîroveya ji hemû kesî re vekirî
-      purge: Pak bike
-      purge_description_html: Ku tu bawer dikî ev navper bi domdarî negirêdayî ye, tu dikarî hemû tomarên ajimêr û daneyên xwe yîn têkildarî wê navperê jê bibî. Ev dibe ku hinek dem bigire.
-      title: Giştî
-      total_blocked_by_us: Ji aliyê me ve hatiye astengkirin
-      total_followed_by_them: Ji aliyê wan ve hatiye şopandin
-      total_followed_by_us: Ji aliyê me ve hatiye şopandin
-      total_reported: Ragehandinên di derbarê wan de
-      total_storage: Pêvekên medyayê
-      totals_time_period_hint_html: Tevahiyên ku li jêr têne xuyakirin daneyên hemû deman dihewîne.
+        all: All
+        limited: Limited
+        title: Moderation
+      private_comment: Private comment
+      public_comment: Public comment
+      purge: Purge
+      purge_description_html: If you believe this domain is offline for good, you can delete all account records and associated data from this domain from your storage. This may take a while.
+      title: Federation
+      total_blocked_by_us: Blocked by us
+      total_followed_by_them: Followed by them
+      total_followed_by_us: Followed by us
+      total_reported: Reports about them
+      total_storage: Media attachments
+      totals_time_period_hint_html: The totals displayed below include data for all time.
     invites:
-      deactivate_all: Hemûyan neçalak bike
+      deactivate_all: Deactivate all
       filter:
-        all: Hemû
-        available: Heye
-        expired: Dema wê qediya
-        title: Parzûn
-      title: Vexwendin
+        all: All
+        available: Available
+        expired: Expired
+        title: Filter
+      title: Invites
     ip_blocks:
-      add_new: Rêbaz çê bike
-      created_msg: Rêzika nû a IPyê bi awayekî serkeftî hat tevlêkirin
-      delete: Jê bibe
+      add_new: Create rule
+      created_msg: Successfully added new IP rule
+      delete: Delete
       expires_in:
-        '1209600': 2 hefte
-        '15778476': 6 meh
-        '2629746': 1 meh
-        '31556952': 1 sal
-        '86400': 1 roj
-        '94670856': 3 sal
+        '1209600': 2 weeks
+        '15778476': 6 months
+        '2629746': 1 month
+        '31556952': 1 year
+        '86400': 1 day
+        '94670856': 3 years
       new:
-        title: Rêzika nû a IPyê çêbike
-      no_ip_block_selected: Ji ber ku tu ajimêr nehat hilbijartin tu rêzika IPyê nehate guhertin
-      title: Rêbazên IP
+        title: Create new IP rule
+      no_ip_block_selected: No IP rules were changed as none were selected
+      title: IP rules
     relationships:
-      title: Têkiliyên %{acct}
+      title: "%{acct}'s relationships"
     relays:
-      add_new: Guhêrkerê nû tevlê bike
-      delete: Jê bibe
-      description_html: "<strong>Guhêrkerê giştî</strong> rajekareke navberkar e ku hejmareke mezin ji şandiyan di navbera rajekaran ku jê re dibin endam û weşanê dikin diguherîne. <strong> Ew dikare ji rajekarên piçûk û navîn re bibe alîkar ku naveroka ji fediverse </strong>ê bibîne, ku bi rengeke din pêdivî dike ku bikarhênerên herêmî bi desta li dû kesên din ên li rajekarên ji dûr be bişopînin."
-      disable: Neçalak bike
-      disabled: Neçalakkirî
-      enable: Çalak bike
-      enable_hint: Gava were çalakkirin, rajekara te dê ji hemî şandiyên giştî yên vê guhêrkerê re bibe endam, û dê dest bi şandina şandiyên giştî yên vê rajekarê bike.
-      enabled: Çalakkirî
-      inbox_url: Girêdana guhêrker
-      pending: Li benda pêjirandina guhêrker e
-      save_and_enable: Tomar û çalak bike
-      setup: Girêdanekê guhêrker saz bike
-      signatures_not_enabled: Dema ku moda ewle yan jî moda demnameya giştî çalak be guhêrker wê birêkûpêk nexebite
-      status: Rewş
-      title: Guhêrker
+      add_new: Add new relay
+      delete: Delete
+      description_html: A <strong>federation relay</strong> is an intermediary server that exchanges large volumes of public posts between servers that subscribe and publish to it. <strong>It can help small and medium servers discover content from the fediverse</strong>, which would otherwise require local users manually following other people on remote servers.
+      disable: Disable
+      disabled: Disabled
+      enable: Enable
+      enable_hint: Once enabled, your server will subscribe to all public posts from this relay, and will begin sending this server's public posts to it.
+      enabled: Enabled
+      inbox_url: Relay URL
+      pending: Waiting for relay's approval
+      save_and_enable: Save and enable
+      setup: Setup a relay connection
+      signatures_not_enabled: Relays may not work correctly while secure mode or limited federation mode is enabled
+      status: Status
+      title: Relays
     report_notes:
-      created_msg: Nîşeyê ragihandinê bi awayekî serkeftî pêk hat!
-      destroyed_msg: Nîşeyê ragihandinê bi awayekî serkeftî hate jêbirin!
+      created_msg: Report note successfully created!
+      destroyed_msg: Report note successfully deleted!
     reports:
       account:
         notes:
-          one: "%{count} nîşe"
-          other: "%{count} nîşe"
-      action_log: Tomarê çavdêriyê
-      action_taken_by: Çalakî hate kirin ji aliyê
+          one: "%{count} note"
+          other: "%{count} notes"
+      action_log: Audit log
+      action_taken_by: Action taken by
       actions:
-        delete_description_html: Şandiyên hatine ragihandin wê werin jêbirin û were tomarkirin da ku ji te re bibe alîkar ku tu ji hêla heman ajimêrê ve binpêkirinên pêşerojê bêtir bikî.
-        mark_as_sensitive_description_html: Şandiyên hatine ragihandin wê werin nîşandan wekî hestyar û were tomarkirin da ku ji te re bibe alîkar ku tu ji hêla heman ajimêrê ve binpêkirinên pêşerojê bêtir bikî.
-        other_description_html: Bêtir vebijêrkên ji bo kontrolkirina tevgera ajimêrê bibîne û pêwendiyê li ser ajimêra ragihandî kesane bike.
-        resolve_description_html: Li hemberî ajimêra hatiye ragihandin wê tiştek pêk neyê, binpêkirin nayên tomarkirin û ragihandin wê were girtin.
-      actions_description_html: Ji bo çareserkirina vê ragihandinê biryar bide ka tê kîjan gav bavêjî. Ku tu li dijî ajimêrê ragihandî çalakiyeke cezakirinê bikî, ji bilî dema ku kategoriya <strong>Spam</strong> were hilbijartin, wê agahdariyek e-nameyê ji wan re were şandin.
-      add_to_report: Bo ragihandinê bêtir tevlî bike
-      are_you_sure: Gelo tu bawerî?
-      assign_to_self: Bo min diyar bike
-      assigned: Çavdêrê diyarkirî
-      by_target_domain: Navperê ya ajimêrê ragihandî
-      category: Beş
-      category_description_html: Sedema ku ev ajimêr û/an jî naverok hate ragihandin wê di pêwendiya bi ajimêrê ragihandinê de werê diyarkirin
+        delete_description_html: The reported posts will be deleted and a strike will be recorded to help you escalate on future infractions by the same account.
+        mark_as_sensitive_description_html: The media in the reported posts will be marked as sensitive and a strike will be recorded to help you escalate on future infractions by the same account.
+        other_description_html: See more options for controlling the account's behaviour and customize communication to the reported account.
+        resolve_description_html: No action will be taken against the reported account, no strike recorded, and the report will be closed.
+        silence_description_html: The account will be visible only to those who already follow it or manually look it up, severely limiting its reach. Can always be reverted. Closes all reports against this account.
+        suspend_description_html: The account and all its contents will be inaccessible and eventually deleted, and interacting with it will be impossible. Reversible within 30 days. Closes all reports against this account.
+      actions_description_html: Decide which action to take to resolve this report. If you take a punitive action against the reported account, an e-mail notification will be sent to them, except when the <strong>Spam</strong> category is selected.
+      actions_description_remote_html: Decide which action to take to resolve this report. This will only affect how <strong>your</strong> server communicates with this remote account and handle its content.
+      add_to_report: Add more to report
+      are_you_sure: Are you sure?
+      assign_to_self: Assign to me
+      assigned: Assigned moderator
+      by_target_domain: Domain of reported account
+      cancel: Cancel
+      category: Category
+      category_description_html: The reason this account and/or content was reported will be cited in communication with the reported account
       comment:
-        none: Ne yek
-      comment_description_html: 'Bo bêtir zanyarî bidî, %{name} nivîsand:'
-      created_at: Hate ragihandin
-      delete_and_resolve: Şandiyan jê bibe
-      forwarded: Beralîkirî
-      forwarded_to: Beralîkirî bo %{domain}
-      mark_as_resolved: Wekî çareserkirî nîşan bide
-      mark_as_sensitive: Wekî hestiyar nîşan bide
-      mark_as_unresolved: Wekî neçareserkirî nîşan bide
-      no_one_assigned: Ne yek
+        none: None
+      comment_description_html: 'To provide more information, %{name} wrote:'
+      confirm: Confirm
+      confirm_action: Confirm moderation action against @%{acct}
+      created_at: Reported
+      delete_and_resolve: Delete posts
+      forwarded: Forwarded
+      forwarded_to: Forwarded to %{domain}
+      mark_as_resolved: Mark as resolved
+      mark_as_sensitive: Mark as sensitive
+      mark_as_unresolved: Mark as unresolved
+      no_one_assigned: No one
       notes:
-        create: Nîşe tevlî bike
-        create_and_resolve: Bi nîşe re çareser bike
-        create_and_unresolve: Bi nîşe re dîsa veke
-        delete: Jê bibe
-        placeholder: Bide nasîn ka çi çalakî hatine kirin, an jî heman rojanekirinên din ên têkildar...
-        title: Nîşe
-      notes_description_html: Nîşeyan ji çavdêrên din û ji xwe re di pêşerojê de bibîne û bihêle
-      quick_actions_description_html: 'Ji bo dîtina naveroka ragihandî çalakiyeke bilez bavêje an jî li jêr bigere:'
-      remote_user_placeholder: bikarhênerê ji dûr ve ji %{instance}
-      reopen: Ragihandina ji nû ve veke
-      report: "@%{id} Ragihîne"
-      reported_account: Ajimêra ragihandî
-      reported_by: Ragihandî ji aliyê
-      resolved: Çareserkirî
-      resolved_msg: Ragihandin bi awayekî serkeftî hate çareserkirin!
-      skip_to_actions: Derbasî çalakiyan bibe
-      status: Rewş
-      statuses: Naveroka ragihandî
-      statuses_description_html: Naveroka sûcdar wê di danûstendina bi xwediyê ajimêra ragihandî re wê werê diyarkirin
-      target_origin: Jêdera ajimêrê ragihandî
-      title: Ragihandinên
-      unassign: Diyar neke
-      unresolved: Neçareserkirî
-      updated_at: Rojanekirî
-      view_profile: Profîlê nîşan bide
+        create: Add note
+        create_and_resolve: Resolve with note
+        create_and_unresolve: Reopen with note
+        delete: Delete
+        placeholder: Describe what actions have been taken, or any other related updates...
+        title: Notes
+      notes_description_html: View and leave notes to other moderators and your future self
+      processed_msg: 'Report #%{id} successfully processed'
+      quick_actions_description_html: 'Take a quick action or scroll down to see reported content:'
+      remote_user_placeholder: the remote user from %{instance}
+      reopen: Reopen report
+      report: 'Report #%{id}'
+      reported_account: Reported account
+      reported_by: Reported by
+      resolved: Resolved
+      resolved_msg: Report successfully resolved!
+      skip_to_actions: Skip to actions
+      status: Status
+      statuses: Reported content
+      statuses_description_html: Offending content will be cited in communication with the reported account
+      summary:
+        action_preambles:
+          delete_html: 'You are about to <strong>remove</strong> some of <strong>@%{acct}</strong>''s posts. This will:'
+          mark_as_sensitive_html: 'You are about to <strong>mark</strong> some of <strong>@%{acct}</strong>''s posts as <strong>sensitive</strong>. This will:'
+          silence_html: 'You are about to <strong>limit</strong> <strong>@%{acct}</strong>''s account. This will:'
+          suspend_html: 'You are about to <strong>suspend</strong> <strong>@%{acct}</strong>''s account. This will:'
+        actions:
+          delete_html: Remove the offending posts
+          mark_as_sensitive_html: Mark the offending posts' media as sensitive
+          silence_html: Severely limit <strong>@%{acct}</strong>'s reach by making their profile and contents only visible to people already following them or manually looking it profile up
+          suspend_html: Suspend <strong>@%{acct}</strong>, making their profile and contents inaccessible and impossible to interact with
+        close_report: 'Mark report #%{id} as resolved'
+        close_reports_html: Mark <strong>all</strong> reports against <strong>@%{acct}</strong> as resolved
+        delete_data_html: Delete <strong>@%{acct}</strong>'s profile and contents 30 days from now unless they get unsuspended in the meantime
+        preview_preamble_html: "<strong>@%{acct}</strong> will receive a warning with the following contents:"
+        record_strike_html: Record a strike against <strong>@%{acct}</strong> to help you escalate on future violations from this account
+        send_email_html: Send <strong>@%{acct}</strong> a warning e-mail
+        warning_placeholder: Optional additional reasoning for the moderation action.
+      target_origin: Origin of reported account
+      title: Reports
+      unassign: Unassign
+      unknown_action_msg: 'Unknown action: %{action}'
+      unresolved: Unresolved
+      updated_at: Updated
+      view_profile: View profile
     roles:
-      add_new: Rolê tevlî bike
+      add_new: Add role
       assigned_users:
-        one: "%{count} bikarhêner"
-        other: "%{count} bikarhêner"
+        one: "%{count} user"
+        other: "%{count} users"
       categories:
-        administration: Rêvebirî
+        administration: Administration
         devops: DevOps
-        invites: Vexwendin
-        moderation: Çavdêrî
-        special: Taybet
-      delete: Jê bibe
-      description_html: Bi <strong>rolên bikarhêner</strong>, tu dikarî fonksiyon û deverên Mastodon ku bikarhênerên wê dikarin xwe bigihînin kesane bikî.
-      edit: Rolê '%{name}' serrast bike
-      everyone: Mafdayînên berdest
-      everyone_full_description_html: Ev <strong>rola bingehîn</strong> bandorê li <strong>hemû bikarhêneran</strong> dike, tevî yên bêyî rolek diyarkirî jî. Hemû rolên din mafdayînan jê digirin.
+        invites: Invites
+        moderation: Moderation
+        special: Special
+      delete: Delete
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Mastodon your users can access.
+      edit: Edit '%{name}' role
+      everyone: Default permissions
+      everyone_full_description_html: This is the <strong>base role</strong> affecting <strong>all users</strong>, even those without an assigned role. All other roles inherit permissions from it.
       permissions_count:
-        one: "%{count} mafdayîn"
-        other: "%{count} mafdayîn"
+        one: "%{count} permission"
+        other: "%{count} permissions"
       privileges:
-        administrator: Rêvebir
-        administrator_description: Bikarhênerên xwediyê vê mafdayînan wê her mafdayîn derbas bike
-        delete_user_data: Daneyên bikarhêner jê bibe
-        delete_user_data_description: Mafê dide bikarhêneran ku daneyên bikarhênerên din bêyî derengxisitn jê bibin
-        invite_users: Bikarhêneran vexwîne
-        invite_users_description: Mafê dide bikarhêneran ku mirovên nû vexwîne bo rajekarê
-        manage_announcements: Reklaman bi rê be bibe
-        manage_announcements_description: Mafê dide bikarhêneran ku reklaman bi rê ve bibin li ser vê rajekarê
-        manage_appeals: Îtîrazan bi rê ve bibe
-        manage_appeals_description: Mafê dide bikarhêneran ku îtîrazan binirxînin li dijî çalakiyên çavdêriyê
-        manage_blocks: Astengkirinan bi rê ve bibe
-        manage_blocks_description: Mafê dide bikarhêneran ku peydakarê e-nameyê û navnîşanên IP asteng bike
-        manage_custom_emojis: Emojiyên kesane bi rêve bibe
-        manage_custom_emojis_description: Mafê dide bikarhêneran ku îmojî kesane bikin li ser vê rajekarê
-        manage_federation: Demnameya giştî bi rê ve bibe
-        manage_federation_description: Mafê dide bikarhêneran ku demnameya giştî bi navperên din re asteng bikin û radestkirinê kontrol bikin
-        manage_invites: Vexwendinan bi rêve bibe
-        manage_invites_description: Mafê dide bikarhêneran ku li girêdanên vexwendinê bigerin û neçalak bikin
-        manage_reports: Ragihandinan bi rê ve bibe
-        manage_reports_description: Mafê dide bikarhêneran ku ragihandinan binirxînin û li dijî wan kiryarên çavdêriyê çalakiyan pêk bînin
-        manage_roles: Rolan bi rêve bibe
-        manage_roles_description: Mafê dide bikarhêneran ku rolên li jêr ên xwe birêve bibin û nîşan bikin
-        manage_rules: Rolan bi rêve bibe
-        manage_rules_description: Mafê dide bikarhêneran ku rêzikên rajekarê biguherînin
-        manage_settings: Sazkariyan bi rê ve bibe
-        manage_settings_description: Mafê dide bikarhêneran ku sazkariyên malperê biguherînin
-        manage_taxonomies: Beşan bi rê ve bibe
-        manage_taxonomies_description: Mafê dide bikarhêneran ku naveroka rojevê binirxînin û sazkariyên hashtagê rojane bikin
-        manage_user_access: Gihiştinê bikarhêner bi rê ve bibe
-        manage_user_access_description: Mafê dide bikarhêneran ku piştrastkirina du-gavî ya bikarhênerên din neçalak bikin, navnîşana e-nameya xwe biguherînin û borînpeyva xwe ji nû ve bikin
-        manage_users: Bikarhêneran bi rêve bibe
-        manage_users_description: Mafê dide bikarhêneran ku hûrguliyên bikarhênerên din bibînin û li dijî wan kiryarên çavdêriyê çalakiyan pêk bînin
-        manage_webhooks: Webhook bi rê ve bibe
-        manage_webhooks_description: Mafê dide bikarhêneran ku ji bo bûyerên rêveberî yên webhook saz bikin
-        view_audit_log: Têketinên kontrolê nîşan bide
-        view_audit_log_description: Mafê dide bikarhêneran ku dîroka çalakiyên rêveberî yên li ser rajekarê bibînin
-        view_dashboard: Destgehê nîşan bide
-        view_dashboard_description: Mafê dide bikarhêneran ku bigihîjin destgehê û pîvanên cuda
+        administrator: Administrator
+        administrator_description: Users with this permission will bypass every permission
+        delete_user_data: Delete User Data
+        delete_user_data_description: Allows users to delete other users' data without delay
+        invite_users: Invite Users
+        invite_users_description: Allows users to invite new people to the server
+        manage_announcements: Manage Announcements
+        manage_announcements_description: Allows users to manage announcements on the server
+        manage_appeals: Manage Appeals
+        manage_appeals_description: Allows users to review appeals against moderation actions
+        manage_blocks: Manage Blocks
+        manage_blocks_description: Allows users to block e-mail providers and IP addresses
+        manage_custom_emojis: Manage Custom Emojis
+        manage_custom_emojis_description: Allows users to manage custom emojis on the server
+        manage_federation: Manage Federation
+        manage_federation_description: Allows users to block or allow federation with other domains, and control deliverability
+        manage_invites: Manage Invites
+        manage_invites_description: Allows users to browse and deactivate invite links
+        manage_reports: Manage Reports
+        manage_reports_description: Allows users to review reports and perform moderation actions against them
+        manage_roles: Manage Roles
+        manage_roles_description: Allows users to manage and assign roles below theirs
+        manage_rules: Manage Rules
+        manage_rules_description: Allows users to change server rules
+        manage_settings: Manage Settings
+        manage_settings_description: Allows users to change site settings
+        manage_taxonomies: Manage Taxonomies
+        manage_taxonomies_description: Allows users to review trending content and update hashtag settings
+        manage_user_access: Manage User Access
+        manage_user_access_description: Allows users to disable other users' two-factor authentication, change their e-mail address, and reset their password
+        manage_users: Manage Users
+        manage_users_description: Allows users to view other users' details and perform moderation actions against them
+        manage_webhooks: Manage Webhooks
+        manage_webhooks_description: Allows users to set up webhooks for administrative events
+        view_audit_log: View Audit Log
+        view_audit_log_description: Allows users to see a history of administrative actions on the server
+        view_dashboard: View Dashboard
+        view_dashboard_description: Allows users to access the dashboard and various metrics
         view_devops: DevOps
-        view_devops_description: Mafê dide bikarhêneran ku bigihîjin destgehên Sidekiq û pgHero
-      title: Rol
+        view_devops_description: Allows users to access Sidekiq and pgHero dashboards
+      title: Roles
     rules:
-      add_new: Rêbazekê tevlî bike
-      delete: Jê bibe
-      description_html: Dema ku piranîya dibêjin ku wan merçên karanînê xwendine û dipejirînin jî, bi gelemperî mirov heta ku pirsgirêkek dernekeve holê naxwîne. <strong> Bi peydakirina wan di navnîşek xala guleya rast de hêsantir bike ku tu rêbazên rajekera xwe li ser çavekî bibîne.</strong> Hewl bide ku rêbazênn yekkesî kurt û hêsan bihêlî, lê hewl bide ku wan tênexî gelek hêmanên cuda jî.
-      edit: Rêbazê serrast bike
-      empty: Tu rêbazên rajekar hê nehatine dîyarkirin.
-      title: Rêbazên rajekar
+      add_new: Add rule
+      delete: Delete
+      description_html: While most claim to have read and agree to the terms of service, usually people do not read through until after a problem arises. <strong>Make it easier to see your server's rules at a glance by providing them in a flat bullet point list.</strong> Try to keep individual rules short and simple, but try not to split them up into many separate items either.
+      edit: Edit rule
+      empty: No server rules have been defined yet.
+      title: Server rules
     settings:
       about:
-        manage_rules: Rêzikên rajekaran bi rê ve bibe
-        preamble: Zanyariyên kûr peyda bike li ser ka rajekar çawa tê xebitandin, çavdêrîkirin, fînansekirin.
-        rules_hint: Ji bo rêbazên ku ji bikarhênerên ve tê hêvîkirin ku pê ve girêdayî bin deverek veqetandî heye.
-        title: Derbar
+        manage_rules: Manage server rules
+        preamble: Provide in-depth information about how the server is operated, moderated, funded.
+        rules_hint: There is a dedicated area for rules that your users are expected to adhere to.
+        title: About
       appearance:
-        preamble: Navrûya tevnê ya Mastodon kesane bike.
-        title: Xuyang
+        preamble: Customize Mastodon's web interface.
+        title: Appearance
       branding:
-        preamble: Navnîşa rajekarê te wê ji rajekarên din ên di torê de cuda bike. Dibe ku ev zanyarî li ser cihên cuda, wekî navrûya bikarhêneriyê tevnê ya Mastodon, sepanên resen, di pêşdîtinên girêdanê de li ser malperên din û di nav sepanên peyamî de, û hwd werin nîşandan. Ji bo vê yekê, çêtir e ku mirov van zanyariyan zelal, kurt û bê kêmasî werin nîşandan.
-        title: Marka
+        preamble: Your server's branding differentiates it from other servers in the network. This information may be displayed across a variety of environments, such as Mastodon's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
+        title: Branding
       content_retention:
-        preamble: Kontrol bike ka naveroka ku ji aliyê bikarhêner ve hatiye çêkirin di Mastodon de çawa tê tomarkirin.
-        title: Parastina naverokê
+        preamble: Control how user-generated content is stored in Mastodon.
+        title: Content retention
       default_noindex:
-        desc_html: Bandorê li ser hemû bikarhênerên ku bi xwe ev sazkarî neguhertine
-        title: Pêlrêçkirna bikarhêneran ji motorê lêgerînê dûr bixe
+        desc_html: Affects all users who have not changed this setting themselves
+        title: Opt users out of search engine indexing by default
       discovery:
-        follow_recommendations: Pêşniyarên şopandinê
-        preamble: Rûbirûbûna naveroka balkêş ji bo bikarhênerên nû yên ku li ser Mastodon kesek nas nakin pir bi bandor e. Kontrol bike ka çend taybetmendiyên vekolînê li ser rajekarê te çawa dixebite.
-        profile_directory: Rêgeha profîlê
-        public_timelines: Demnameya gelemperî
-        title: Vekolîne
-        trends: Rojev
+        follow_recommendations: Follow recommendations
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Mastodon. Control how various discovery features work on your server.
+        profile_directory: Profile directory
+        public_timelines: Public timelines
+        publish_discovered_servers: Publish discovered servers
+        publish_statistics: Publish statistics
+        title: Discovery
+        trends: Trends
       domain_blocks:
-        all: Bo herkesî
-        disabled: Bo tu kesî
-        users: Ji bo bikarhênerên herêmî yên têketin kirine
+        all: To everyone
+        disabled: To no one
+        users: To logged-in local users
       registrations:
-        preamble: Kontrol bike ka kî dikare li ser rajekarê te ajimêrekê biafirîne.
-        title: Tomarkirin
+        preamble: Control who can create an account on your server.
+        title: Registrations
       registrations_mode:
         modes:
-          approved: Ji bo têketinê erêkirin pêwîste
-          none: Kesek nikare tomar bibe
-          open: Herkes dikare tomar bibe
-      title: Sazkariyên rajekarê
+          approved: Approval required for sign up
+          none: Nobody can sign up
+          open: Anyone can sign up
+      title: Server Settings
     site_uploads:
-      delete: Pela barkirî jê bibe
-      destroyed_msg: Barkirina malperê bi serkeftî hate jêbirin!
+      delete: Delete uploaded file
+      destroyed_msg: Site upload successfully deleted!
     statuses:
-      account: Nivîskar
-      application: Sepan
-      back_to_account: Vegere bo rûpela ajimêr
-      back_to_report: Vegere rûpela ragihandinê
+      account: Author
+      application: Application
+      back_to_account: Back to account page
+      back_to_report: Back to report page
       batch:
-        remove_from_report: Ji ragihandinê rake
-        report: Ragihîne
-      deleted: Hate jêbirin
-      favourites: Bijarte
-      history: Dîroka guhertoyê
-      in_reply_to: Bersiv bide
-      language: Ziman
+        remove_from_report: Remove from report
+        report: Report
+      deleted: Deleted
+      favourites: Favourites
+      history: Version history
+      in_reply_to: Replying to
+      language: Language
       media:
-        title: Medya
+        title: Media
       metadata: Metadata
-      no_status_selected: Tu şandî nehat hilbijartin ji ber vê tu şandî jî nehat guhertin
-      open: Şandiyê veke
-      original_status: Şandiyê resen
-      reblogs: Ji nû ve nivîsandin
-      status_changed: Şandî hate guhertin
-      title: Şandiyên ajimêr
-      trending: Rojev
-      visibility: Xuyabarî
-      with_media: Bi medya yê re
+      no_status_selected: No posts were changed as none were selected
+      open: Open post
+      original_status: Original post
+      reblogs: Reblogs
+      status_changed: Post changed
+      title: Account posts
+      trending: Trending
+      visibility: Visibility
+      with_media: With media
     strikes:
       actions:
-        delete_statuses: "%{name} şandiyên %{target} jêbirin"
-        disable: "%{name} ajimêr %{target} cemidand"
-        mark_statuses_as_sensitive: "%{name} medyayê %{target} wekî hestiyar nîşan kir"
-        none: "%{name} ji bo %{target} hişyariyek şand"
-        sensitive: "%{name} ajimêrê %{target} wekî hestiyarî nîşan kir"
-        silence: "%{name} ajimêra %{target} bi sînor kir"
-        suspend: "%{name} ajimêra %{target} hilda rawestandinê"
-      appeal_approved: Îtîraz
-      appeal_pending: Îtîraz li benda nirxandinê ye
+        delete_statuses: "%{name} deleted %{target}'s posts"
+        disable: "%{name} froze %{target}'s account"
+        mark_statuses_as_sensitive: "%{name} marked %{target}'s posts as sensitive"
+        none: "%{name} sent a warning to %{target}"
+        sensitive: "%{name} marked %{target}'s account as sensitive"
+        silence: "%{name} limited %{target}'s account"
+        suspend: "%{name} suspended %{target}'s account"
+      appeal_approved: Appealed
+      appeal_pending: Appeal pending
+      appeal_rejected: Appeal rejected
     system_checks:
       database_schema_check:
-        message_html: Koçberiyên databasê yên li bendê hene. Ji kerema xwe wan bişopîne da ku bicîh bikî ku sepan wekî ku tê hêvî kirin tevbigere
+        message_html: There are pending database migrations. Please run them to ensure the application behaves as expected
       elasticsearch_running_check:
-        message_html: Bi Elasticsearch re nayê girêdan. Ji kerema xwe kontrol bike ku ew dixebite, an lêgerîna tev-nivîsî neçalak bike
+        message_html: Could not connect to Elasticsearch. Please check that it is running, or disable full-text search
       elasticsearch_version_check:
-        message_html: 'Guhertoya Elasticsearch a nelihevhatî: %{value}'
-        version_comparison: Elasticsearch %{running_version} dixebite lê %{required_version} pêwîst e
+        message_html: 'Incompatible Elasticsearch version: %{value}'
+        version_comparison: Elasticsearch %{running_version} is running while %{required_version} is required
       rules_check:
-        action: Rêzikên rajekara bi rê ve bibe
-        message_html: Te qet rêzikên rajekara diyar nekiriye.
+        action: Manage server rules
+        message_html: You haven't defined any server rules.
       sidekiq_process_check:
-        message_html: Pêvajoyên Sidekiq ên heyî ji bo %{value} di rêz (an) de tune ne. Ji kerema xwe sazkariyên Sidekiq a xwe binirxîne
+        message_html: No Sidekiq process running for the %{value} queue(s). Please review your Sidekiq configuration
     tags:
-      review: Binêre rewşê
-      updated_msg: Sazkariyên hashtag bi awayekî serkeftî hate rojanekirin
-    title: Rêvebirî
+      review: Review status
+      updated_msg: Hashtag settings updated successfully
+    title: Administration
     trends:
-      allow: Bihêle
-      approved: Pejirandî
-      disallow: Nehêle
+      allow: Allow
+      approved: Approved
+      disallow: Disallow
       links:
-        allow: Mafê bide girêdanê
-        allow_provider: Mafê bide weşanger
-        description_html: Van girêdanên ku niha ji hêla ajimêrên ku rajekarê te ji wan peyaman dibîne pir têne parvekirin. Ew dikare ji bikarhênerên te re bibe alîkar ku fêr bibin ka li cîhanê çi diqewime. Heya ku tu weşanger nepejirînin, ti girêdan bi gelemperî nayê xuyangkirin. Her weha tu dikarî mafê bidî girêdanên kesane an jî nedî.
-        disallow: Mafê nede girêdanê
-        disallow_provider: Mafê nede weşanger
-        no_link_selected: Tu girêdan nehatin hilbijartin ji ber vê tu girêdan jî nehatin guhertin
+        allow: Allow link
+        allow_provider: Allow publisher
+        description_html: These are links that are currently being shared a lot by accounts that your server sees posts from. It can help your users find out what's going on in the world. No links are displayed publicly until you approve the publisher. You can also allow or reject individual links.
+        disallow: Disallow link
+        disallow_provider: Disallow publisher
+        no_link_selected: No links were changed as none were selected
         publishers:
-          no_publisher_selected: Tu weşan nehatin hilbijartin ji ber vê tu weşan jî nehatin guhertin
+          no_publisher_selected: No publishers were changed as none were selected
         shared_by_over_week:
-          one: Di nava hefteya dawî de ji aliyê keskekî ve hate parvekirin
-          other: Di nava hefteya dawî de ji aliyê %{count} ve hate parvekirin
-        title: Girêdanên di rojevê de
-        usage_comparison: Îro %{today} car hate parvekirin, li gorî %{yesterday} duh
-      only_allowed: Tenê yên mafdayî
-      pending_review: Li benda nirxandinê ye
+          one: Shared by one person over the last week
+          other: Shared by %{count} people over the last week
+        title: Trending links
+        usage_comparison: Shared %{today} times today, compared to %{yesterday} yesterday
+      not_allowed_to_trend: Not allowed to trend
+      only_allowed: Only allowed
+      pending_review: Pending review
       preview_card_providers:
-        allowed: Girêdanên ji vê weşangerê dikarin bibin rojev
-        description_html: Ev navperên ku ji wan girêdanên bi gelemperî li ser rajekarê te têne parvekirin. Heya ku girêdana rojevê neyê pejirandin, girêdan wê ji raya giştî re nebin rojev. Pejirandina (an nepejirandina) te berbi jêrnavperan ve diçe.
-        rejected: Girêdanên ji vê weşangerê nikarin bibin rojev
-        title: Weşanger
-      rejected: Nepejirand
+        allowed: Links from this publisher can trend
+        description_html: These are domains from which links are often shared on your server. Links will not trend publicly unless the domain of the link is approved. Your approval (or rejection) extends to subdomains.
+        rejected: Links from this publisher won't trend
+        title: Publishers
+      rejected: Rejected
       statuses:
-        allow: Mafê bide şandiyê
-        allow_account: Mafê bide nivîskar
-        description_html: Van şandiyên ku rajekarê te pê dizane ku niha pir têne parvekirin û bijartekirin. Ew dikare ji bikarhênerên te yên nû û yên vedigerin re bibe alîkar ku bêtir mirovên ku bişopînin bibînin. Heya ku tu nivîskar nepejirînî, tu şandî bi gelemperî nayên xuyangkirin, û nivîskar mafê dide ku ajimêrê xwe ji kesên din re were pêşniyarkirin. Her weha tu dikarî mafê bidî şandiyên kesane an jî nedî.
-        disallow: Mafê nede şandiyê
-        disallow_account: Mafê nede nivîskar
-        no_status_selected: Tu şandiyên rojevê nehatin hilbijartin ji ber vê tu şandî jî nehatin guhertin
-        not_discoverable: Nivîskar nejilbijartiye ji bo ku were kifşkirin
+        allow: Allow post
+        allow_account: Allow author
+        description_html: These are posts that your server knows about that are currently being shared and favourited a lot at the moment. It can help your new and returning users to find more people to follow. No posts are displayed publicly until you approve the author, and the author allows their account to be suggested to others. You can also allow or reject individual posts.
+        disallow: Disallow post
+        disallow_account: Disallow author
+        no_status_selected: No trending posts were changed as none were selected
+        not_discoverable: Author has not opted-in to being discoverable
         shared_by:
-          one: Yek carî parvekirî an bijartî
-          other: "%{friendly_count} carên parvekirî û bijartî"
-        title: Şandiyên rojevê
+          one: Shared or favourited one time
+          other: Shared and favourited %{friendly_count} times
+        title: Trending posts
       tags:
-        current_score: Encama niha %{score}
+        current_score: Current score %{score}
         dashboard:
-          tag_accounts_measure: bikaranînên bêhempa
-          tag_languages_dimension: Zimanên pir tên bikaranîn
-          tag_servers_dimension: Rajekarên pir tên bikaranîn
-          tag_servers_measure: rajekarên cuda
-          tag_uses_measure: bikaranîna giştî
-        description_html: Ev hashtag in ku niha di gelek şandiyên ku rajekarê te dibîne de xuya dibin. Ew dikare ji bikarhênerên te re bibe alîkar ku fêr bibin ka mirov di vê demê de herî pir li ser çi diaxive. Heya ku tu wan nepejirînî, tu hashtag bi gelemperî nayê xuyangkirin.
-        listable: Dikare were pêşniyarkirin
-        no_tag_selected: Tu hashtag nehatin hilbijartin ji ber vê tu hashtag jî nehatin guhertin
-        not_listable: Nikare wer pêşniyarkirin
-        not_trendable: Wê di bin rojevan de xuya neke
-        not_usable: Nikare were bikaranîn
-        peaked_on_and_decaying: Di %{date} de derketiye asta herî bilind, û niha winda dibe
-        title: Hashtagên rojevê
-        trendable: Dikare di bin rojevan de xuya bibe
-        trending_rank: 'Rojev #%{rank}'
-        usable: Dikare were bikaranîn
-        usage_comparison: "%{today} car îro hate bikaranîn, li gorî %{yesterday} duh"
+          tag_accounts_measure: unique uses
+          tag_languages_dimension: Top languages
+          tag_servers_dimension: Top servers
+          tag_servers_measure: different servers
+          tag_uses_measure: total uses
+        description_html: These are hashtags that are currently appearing in a lot of posts that your server sees. It can help your users find out what people are talking the most about at the moment. No hashtags are displayed publicly until you approve them.
+        listable: Can be suggested
+        no_tag_selected: No tags were changed as none were selected
+        not_listable: Won't be suggested
+        not_trendable: Won't appear under trends
+        not_usable: Cannot be used
+        peaked_on_and_decaying: Peaked on %{date}, now decaying
+        title: Trending hashtags
+        trendable: Can appear under trends
+        trending_rank: 'Trending #%{rank}'
+        usable: Can be used
+        usage_comparison: Used %{today} times today, compared to %{yesterday} yesterday
         used_by_over_week:
-          one: Di nava hefteya dawî de ji aliyê kesekî ve hatiye bikaranîn
-          other: Di nava hefteya dawî de ji %{count} kes ve hatiye bikaranîn
-      title: Rojev
-      trending: Rojev
+          one: Used by one person over the last week
+          other: Used by %{count} people over the last week
+      title: Trends
+      trending: Trending
     warning_presets:
-      add_new: Yeka nû tevlî bike
-      delete: Jê bibe
-      edit_preset: Hişyariyên pêşsazkirî serrast bike
-      empty: Te hin tu hişyariyên pêşsazkirî destnîşan nekirine.
-      title: Hişyariyên pêşsazkirî bi rêve bibe
+      add_new: Add new
+      delete: Delete
+      edit_preset: Edit warning preset
+      empty: You haven't defined any warning presets yet.
+      title: Manage warning presets
     webhooks:
-      add_new: Xala dawîbûnê tevlî bike
-      delete: Jê bibe
-      description_html: "<strong>çengeleke tevnê</strong> dihêle ku Mastodon <strong>agahdariyên dema-rastîn</strong> ên derbarê çalakiyên hilbijartî de bisepîne ser sepana te, bi vî awayî sepana te dikare <strong>reaksiyonan bi awayekî bixweber nîşan bide</strong>."
-      disable: Neçalak bike
-      disabled: Neçalakkirî
-      edit: Xala dawîbûnê serrast bike
-      empty: Hîn çengela tevnê ya xala dawîbûnê ya te ku hatiye pevesazkirin tune ne.
-      enable: Çalak bike
-      enabled: Çalak
+      add_new: Add endpoint
+      delete: Delete
+      description_html: A <strong>webhook</strong> enables Mastodon to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
+      disable: Disable
+      disabled: Disabled
+      edit: Edit endpoint
+      empty: You don't have any webhook endpoints configured yet.
+      enable: Enable
+      enabled: Active
       enabled_events:
-        one: 1 bûyer çalakkirî
-        other: "%{count} bûyer çalakkirî"
-      events: Bûyer
-      new: Çengela tevnê ya nû
-      rotate_secret: Veşartî bizivirîne
-      secret: Îmzekirina veşartî
-      status: Rewş
-      title: Çengelên tevnê
-      webhook: Çengela tevnê
+        one: 1 enabled event
+        other: "%{count} enabled events"
+      events: Events
+      new: New webhook
+      rotate_secret: Rotate secret
+      secret: Signing secret
+      status: Status
+      title: Webhooks
+      webhook: Webhook
   admin_mailer:
     new_appeal:
       actions:
-        delete_statuses: ku şandiyên wan jê bibî
-        disable: ku ajimêrê wan bicemidînî
-        mark_statuses_as_sensitive: ku şandiyê wan wekî hestyar nîşan bikî
-        none: hişyariyek
-        sensitive: ku ajimêrê wan wekî hestyar nîşan bikî
-        silence: ku ajimêrê wan sînordar bikî
-        suspend: ku ajimêrê wan bidî rawestandin
-      body: "%{target} îtiraza biryareke çavdêriyê dike bi riya %{action_taken_by} ji %{date}, ku %{type} bû. Wan nivîsand:"
-      next_steps: Tu dikarî îtirazê bipejirînî ku biryara çavdêriyê têk bibî, an jî paşguh bikî.
-      subject: "%{username} li ser %{instance} îtiraz li biryareke çavdêriyê dike"
+        delete_statuses: to delete their posts
+        disable: to freeze their account
+        mark_statuses_as_sensitive: to mark their posts as sensitive
+        none: a warning
+        sensitive: to mark their account as sensitive
+        silence: to limit their account
+        suspend: to suspend their account
+      body: "%{target} is appealing a moderation decision by %{action_taken_by} from %{date}, which was %{type}. They wrote:"
+      next_steps: You can approve the appeal to undo the moderation decision, or ignore it.
+      subject: "%{username} is appealing a moderation decision on %{instance}"
     new_pending_account:
-      body: Zanyariyênn ajimêra nû li jêr in. Tu dikarî vê serîlêdanê bipejirîne an pûç bike.
-      subject: "(%{username}) ajimêrê nû ji bo vekolandina li ser %{instance}"
+      body: The details of the new account are below. You can approve or reject this application.
+      subject: New account up for review on %{instance} (%{username})
     new_report:
-      body: "%{reporter} ji %{target} ê ragihand"
-      body_remote: Kesekî bi navê %{domain} ji %{target} ê ragihand
-      subject: Ragihandinek nû ji bo %{instance} (#%{id})
+      body: "%{reporter} has reported %{target}"
+      body_remote: Someone from %{domain} has reported %{target}
+      subject: 'New report for %{instance} (#%{id})'
     new_trends:
-      body: 'Tiştên jêrîn berî ku ew bi gelemperî werin xuyakirin divê werin nirxandin:'
+      body: 'The following items need a review before they can be displayed publicly:'
       new_trending_links:
-        title: Girêdanên rojevê
+        title: Trending links
       new_trending_statuses:
-        title: Şandiyên rojevê
+        title: Trending posts
       new_trending_tags:
-        no_approved_tags: Niha hashtagên rojevê pejirandî tune ne.
-        requirements: 'Yek ji namzedên li jêr dikare ji #%{rank} hashtagaa diyarkirî ya pejirandî derbas bibe, niha ku #%{lowest_tag_name} bi %{lowest_tag_score} puan e.'
-        title: Hashtagên rojevê
-      subject: Rojevên nû ji bo nirxandinê li ser %{instance} derdikevin
+        no_approved_tags: There are currently no approved trending hashtags.
+        requirements: 'Any of these candidates could surpass the #%{rank} approved trending hashtag, which is currently #%{lowest_tag_name} with a score of %{lowest_tag_score}.'
+        title: Trending hashtags
+      subject: New trends up for review on %{instance}
   aliases:
-    add_new: Naveke sexte çê bike
-    created_msg: Bi serkeftî nûçikê nû hat çêkirin. Tu niha dikarî di ajimêrê xwe kevn bar bikî.
-    deleted_msg: Nûçik bi serkeftî hat rakirin. Êdî nepêkan e vê ajimêrê de barkirina ajimêrek din.
-    empty: Nûçikên te tune ne.
-    hint_html: Ku tu dixwazî ji ajimêreke din bar bike bo yekî din, li vir tu dikarî bernavekê biafirîne, ku pêdivî ye berî ku tu bi şopandina şopînerên xwe ji ajimêra kevn ber bi vê yekê biçe. Ev çalakî bi serê xwe <strong>bê ziyan û vegere</strong>.<strong>Koçberiya ajimêr ji ajimêreke kevin dest pê dike</strong>.
-    remove: Girêdana nûçikê rake
+    add_new: Create alias
+    created_msg: Successfully created a new alias. You can now initiate the move from the old account.
+    deleted_msg: Successfully removed the alias. Moving from that account to this one will no longer be possible.
+    empty: You have no aliases.
+    hint_html: If you want to move from another account to this one, here you can create an alias, which is required before you can proceed with moving followers from the old account to this one. This action by itself is <strong>harmless and reversible</strong>. <strong>The account migration is initiated from the old account</strong>.
+    remove: Unlink alias
   appearance:
-    advanced_web_interface: Navrûya tevnê yê pêşketî
-    advanced_web_interface_hint: 'Ku tu bixwazî tevahiya ferehiya dîmendera xwe bi kar bînî, navrûya pêşketî ya tevnê dihêle ku tu gelek stûnên cihêreng saz bikî da ku di heman demê de bi qasî ku tu dixwazî zanyariyan bibînî: Serrûpel, agahdarî, demnameya giştî, her hejmarek ji rêzik û hashtagan.'
-    animations_and_accessibility: Anîmasyon û gihînî
-    confirmation_dialogs: Gotûbêjên piştrastkirî
-    discovery: Vedîtin
+    advanced_web_interface: Advanced web interface
+    advanced_web_interface_hint: 'If you want to make use of your entire screen width, the advanced web interface allows you to configure many different columns to see as much information at the same time as you want: Home, notifications, federated timeline, any number of lists and hashtags.'
+    animations_and_accessibility: Animations and accessibility
+    confirmation_dialogs: Confirmation dialogs
+    discovery: Discovery
     localization:
-      body: Mastodon ji aliyê xêrxwazan tê wergerandin.
+      body: Mastodon is translated by volunteers.
       guide_link: https://crowdin.com/project/mastodon
-      guide_link_text: Herkes dikare beşdar bibe.
-    sensitive_content: Naveroka hestiyarî
-    toot_layout: Xêzkirina şandîya
+      guide_link_text: Everyone can contribute.
+    sensitive_content: Sensitive content
+    toot_layout: Post layout
   application_mailer:
-    notification_preferences: Sazkariyên e-nameyê biguherîne
+    notification_preferences: Change e-mail preferences
     salutation: "%{name},"
-    settings: 'Sazkariyên e-nameyê biguherîne: %{link}'
-    view: 'Nîşan bide:'
-    view_profile: Profîlê nîşan bide
-    view_status: Şandiyê nîşan bide
+    settings: 'Change e-mail preferences: %{link}'
+    view: 'View:'
+    view_profile: View profile
+    view_status: View post
   applications:
-    created: Sepan bi awayekî serkeftî hat çêkirin
-    destroyed: Sepan bi awayekî serkeftî hat jêbirin
-    regenerate_token: Nîşandera gihandinê bi nûve çêbike
-    token_regenerated: Nîşandera gihandinê bi serkeftî nû ve hat çêkirin
-    warning: Bi van daneyan re pir baldar be. Tu caran bi kesî re parve neke!
-    your_token: Nîşana gihîştinê te
+    created: Application successfully created
+    destroyed: Application successfully deleted
+    logout: Logout
+    regenerate_token: Regenerate access token
+    token_regenerated: Access token successfully regenerated
+    warning: Be very careful with this data. Never share it with anyone!
+    your_token: Your access token
   auth:
-    apply_for_account: Ajimêrekê bixwaze
-    change_password: Borînpeyv
-    delete_account: Ajimêr jê bibe
-    delete_account_html: Ku tu dixwazî ajimêra xwe jê bibe, tu dikarî <a href="%{path}">li vir bidomîne</a>. Ji te tê xwestin ku were pejirandin.
+    apply_for_account: Request an account
+    change_password: Password
+    confirmations:
+      wrong_email_hint: If that e-mail address is not correct, you can change it in account settings.
+    delete_account: Delete account
+    delete_account_html: If you wish to delete your account, you can <a href="%{path}">proceed here</a>. You will be asked for confirmation.
     description:
-      prefix_invited_by_user: "@%{name} te vedixwîne ku tu beşdarî vê rajekara Mastodon-ê bibî!"
-      prefix_sign_up: Îro li Mastodonê tomar bibe!
-      suffix: Bi ajimêrekê, tu yê karibî kesan bişopînî, rojanekirinan bişînî û bi bikarhênerên ji her rajekarê Mastodon re peyaman bişînî û bêtir!
-    didnt_get_confirmation: Te rêwerzên pejirandinê wernegirt?
-    dont_have_your_security_key: Kilîda te ya ewlehiyê tune ye?
-    forgot_password: Te borînpeyva xwe ji bîr kir?
-    invalid_reset_password_token: Ji nû ve sazkirina borînpeyvê nederbasdar e an jî qediya ye. Jkx daxwaza yeka nû bike.
-    link_to_otp: Ji têlefona xwe an jî ji kodeke rizgarkirinê kodeke du-gavî binivîsine
-    link_to_webauth: Amûra kilîta ewlehiya xwe bi kar bîne
-    log_in_with: Têkeve bi riya
-    login: Têkeve
-    logout: Derkeve
-    migrate_account: Livandin bo ajimêreke din
-    migrate_account_html: Ku tu dixwazî ev ajimêr li ajimêreke cuda beralî bikî, tu dikarî <a href="%{path}">ji vir de saz bike</a>.
-    or_log_in_with: An têketinê bike bi riya
-    privacy_policy_agreement_html: Min <a href="%{privacy_policy_path}" target="_blank">Politîka taybetiyê</a> xwend û dipejirînim
+      prefix_invited_by_user: "@%{name} invites you to join this server of Mastodon!"
+      prefix_sign_up: Sign up on Mastodon today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any Mastodon server and more!
+    didnt_get_confirmation: Didn't receive confirmation instructions?
+    dont_have_your_security_key: Don't have your security key?
+    forgot_password: Forgot your password?
+    invalid_reset_password_token: Password reset token is invalid or expired. Please request a new one.
+    link_to_otp: Enter a two-factor code from your phone or a recovery code
+    link_to_webauth: Use your security key device
+    log_in_with: Log in with
+    login: Log in
+    logout: Logout
+    migrate_account: Move to a different account
+    migrate_account_html: If you wish to redirect this account to a different one, you can <a href="%{path}">configure it here</a>.
+    or_log_in_with: Or log in with
+    privacy_policy_agreement_html: I have read and agree to the <a href="%{privacy_policy_path}" target="_blank">privacy policy</a>
     providers:
       cas: CAS
       saml: SAML
-    register: Tomar bibe
-    registration_closed: "%{instance} endamên nû napejirîne"
-    resend_confirmation: Rêwerên pejirandinê ji nû ve bişîne
-    reset_password: Borînpeyvê ji nû ve saz bike
+    register: Sign up
+    registration_closed: "%{instance} is not accepting new members"
+    resend_confirmation: Resend confirmation instructions
+    reset_password: Reset password
     rules:
-      preamble: Ev rêzik ji aliyê çavdêrên %{domain} ve tên sazkirin.
-      title: Hinek rêzikên bingehîn.
-    security: Ewlehî
-    set_new_password: Borînpeyveke nû ji nû ve saz bike
+      accept: Accept
+      back: Back
+      preamble: These are set and enforced by the %{domain} moderators.
+      title: Some ground rules.
+    security: Security
+    set_new_password: Set new password
     setup:
-      email_below_hint_html: Ku navnîşana e-nameya jêrîn ne rast be, tu dikarî wê li vir biguherîne û e-nameyeke pejirandinê ya nû bistîne.
-      email_settings_hint_html: E-nameya pejirandinê ji %{email} re hate şandin. Ku ew navnîşana e-nameyê ne rast be, tu dikarî wê di sazkariyên ajimêr de biguherîne.
-      title: Damezirandin
+      email_below_hint_html: If the below e-mail address is incorrect, you can change it here and receive a new confirmation e-mail.
+      email_settings_hint_html: The confirmation e-mail was sent to %{email}. If that e-mail address is not correct, you can change it in account settings.
+      title: Setup
     sign_in:
-      preamble_html: Têketinê bike bi riya <strong>%{domain}</strong> xwe. Ku ajimêrê te li ser rajekareke cuda hatiye pêşkêşkirin, tu yê nikaribû têketinê bikî vir.
-      title: Têkeve %{domain}
+      preamble_html: Sign in with your <strong>%{domain}</strong> credentials. If your account is hosted on a different server, you will not be able to log in here.
+      title: Sign in to %{domain}
     sign_up:
-      preamble: Bi ajimêrekê li ser vê rajekarê Mastodon re, tu yê karîbî her keseke din li ser torê bişopînî, her ku ajimêrê wan li ku derê tê pêşkêşkirin.
-      title: Ka em te bi rê bixin li ser %{domain}.
+      preamble: With an account on this Mastodon server, you'll be able to follow any other person on the network, regardless of where their account is hosted.
+      title: Let's get you set up on %{domain}.
     status:
-      account_status: Rewşa ajimêr
-      confirming: Li benda pejirandina e-nameyê ne da ku biqede.
-      functional: Ajimêra te êdî amade ye.
-      pending: Daxwaza te li benda vekolînê ji hêla xebatkarên me ye. Ev dibe ku hinek dem bigire. Ku daxwaza te were pejirandin tu yê e-nameyekê bistîne.
-      redirecting_to: Ajimêra te neçalak e ji ber ku niha ber bi %{acct} ve tê beralîkirin.
-      view_strikes: Binpêkirinên berê yên dijî ajimêrê xwe bibîne
-    too_fast: Form pir zû hat şandin, dîsa biceribîne.
-    use_security_key: Kilîteke ewlehiyê bi kar bîne
+      account_status: Account status
+      confirming: Waiting for e-mail confirmation to be completed.
+      functional: Your account is fully operational.
+      pending: Your application is pending review by our staff. This may take some time. You will receive an e-mail if your application is approved.
+      redirecting_to: Your account is inactive because it is currently redirecting to %{acct}.
+      view_strikes: View past strikes against your account
+    too_fast: Form submitted too fast, try again.
+    use_security_key: Use security key
   authorize_follow:
-    already_following: Jixwe tu vê ajimêrê dişopînî
-    already_requested: Jixwe te ji vê ajimêrê re daxwazîya şopandinê şandi bû
-    error: Mixabin, dema ajimêr hat gerandin çewtiyek çêbû
-    follow: Bişopîne
-    follow_request: 'Te ji vê kesê re daxwazîya şopandinê şand:'
-    following: 'Serkeftin! Tu êdî dikarî bişopînî:'
+    already_following: You are already following this account
+    already_requested: You have already sent a follow request to that account
+    error: Unfortunately, there was an error looking up the remote account
+    follow: Follow
+    follow_request: 'You have sent a follow request to:'
+    following: 'Success! You are now following:'
     post_follow:
-      close: An jî, tu dikarî tenê ev çarçoveyê bigirî.
-      return: Profîla vê bikarhênerê nîşan bike
-      web: Biçe tevneyê
-    title: "%{acct} bişopîne"
+      close: Or, you can just close this window.
+      return: Show the user's profile
+      web: Go to web
+    title: Follow %{acct}
   challenge:
-    confirm: Bidomîne
-    hint_html: "<strong>Nîşe:</strong>Ji bo demjimêreke din em ê borînpeyva te careke din ji te nexwazin."
-    invalid_password: Borînpeyva nederbasdar
-    prompt: Ji bo bidomî borînpeyvê bipejirîne
+    confirm: Continue
+    hint_html: "<strong>Tip:</strong> We won't ask you for your password again for the next hour."
+    invalid_password: Invalid password
+    prompt: Confirm password to continue
   crypto:
     errors:
-      invalid_key: ed25519 ne derbasdare ne jî Curve25519 kilîta
-      invalid_signature: Ed25519 ne îmzeyek derbasdar e
+      invalid_key: is not a valid Ed25519 or Curve25519 key
+      invalid_signature: is not a valid Ed25519 signature
   date:
     formats:
-      default: "%b%d%Y"
+      default: "%b %d, %Y"
       with_month_name: "%B %d, %Y"
   datetime:
     distance_in_words:
-      about_x_hours: "%{count}d"
-      about_x_months: "%{count}meh"
-      about_x_years: "%{count}sal"
-      almost_x_years: "%{count}sal"
-      half_a_minute: Hema niha
-      less_than_x_minutes: "%{count}xulek"
-      less_than_x_seconds: Hema niha
-      over_x_years: "%{count}sal"
-      x_days: "%{count}roj"
-      x_minutes: "%{count}xulek"
-      x_months: "%{count}meh"
-      x_seconds: "%{count}çirke"
+      about_x_hours: "%{count}h"
+      about_x_months: "%{count}mo"
+      about_x_years: "%{count}y"
+      almost_x_years: "%{count}y"
+      half_a_minute: Just now
+      less_than_x_minutes: "%{count}m"
+      less_than_x_seconds: Just now
+      over_x_years: "%{count}y"
+      x_days: "%{count}d"
+      x_minutes: "%{count}m"
+      x_months: "%{count}mo"
+      x_seconds: "%{count}s"
   deletes:
-    challenge_not_passed: Zanyariyên ku te nivîsandî ne rast in
-    confirm_password: Borînpeyva xwe ya heyî binivîsine da ku nasnameya xwe piştrast bikî
-    confirm_username: Navê bikarhêneriyê xwe binivîse da ku pêvajoyê piştrast bikî
-    proceed: Ajimêr jê bibe
-    success_msg: Ajimêra te bi serkeftî hate jêbirin
+    challenge_not_passed: The information you entered was not correct
+    confirm_password: Enter your current password to verify your identity
+    confirm_username: Enter your username to confirm the procedure
+    proceed: Delete account
+    success_msg: Your account was successfully deleted
     warning:
-      before: 'Berî ku tu pêşve biçî, jkx nvan nîşeyan bi baldarî bixwîne:'
-      caches: Naveroka ku ji hêla rajekarên din ve hatiye pêşbîrkirin dibe ku bimîne
-      data_removal: Şandiyên te û daneyên din wê bi awayekî dawî bêne rakirin
-      email_change_html: Tu dikarî navnîşana <a href="%{path}"> e-nameya xwe biguherînî </a> bêyî ku tu ajimêra xwe jê bibî
-      email_contact_html: Ku ew hîn jî negihîştiye, tu dikarî ji bo alîkariyê <a href="mailto:%{email}">%{email}</a> e-nameyê bişînî
-      email_reconfirmation_html: Ku te e-nameya pejirandinê nesitand, tu dikarî <a href="%{path}">dîsa daxwaz bike</a>
-      irreversible: Tu yê nikaribe ajimêra xwe serrast bike an ji nû ve çalak bike
-      more_details_html: Bo bêtir zanyarî, <a href="%{terms_path}">polîtika taybetiyê</a> binêre.
-      username_available: Navê bikarhêneriyê te wê dîsa peyda bibe
-      username_unavailable: Navê bikarhêneriyê ye wê tuneyî bimîne
+      before: 'Before proceeding, please read these notes carefully:'
+      caches: Content that has been cached by other servers may persist
+      data_removal: Your posts and other data will be permanently removed
+      email_change_html: You can <a href="%{path}">change your e-mail address</a> without deleting your account
+      email_contact_html: If it still doesn't arrive, you can e-mail <a href="mailto:%{email}">%{email}</a> for help
+      email_reconfirmation_html: If you are not receiving the confirmation e-mail, you can <a href="%{path}">request it again</a>
+      irreversible: You will not be able to restore or reactivate your account
+      more_details_html: For more details, see the <a href="%{terms_path}">privacy policy</a>.
+      username_available: Your username will become available again
+      username_unavailable: Your username will remain unavailable
   disputes:
     strikes:
-      action_taken: Çalakî hatin kirin
-      appeal: Îtîraz
-      appeal_approved: Ev binpêkirin bi serkeftî hate îtîraz kirin û êdî ne derbasdar e
-      appeal_rejected: Îtîraz nehate pejirandin
-      appeal_submitted_at: Îtîraz hate şandin
-      appealed_msg: Îtîraza te hatiye şandin. Ku were pejirandin, tu yê werî agahdarkirin.
+      action_taken: Action taken
+      appeal: Appeal
+      appeal_approved: This strike has been successfully appealed and is no longer valid
+      appeal_rejected: The appeal has been rejected
+      appeal_submitted_at: Appeal submitted
+      appealed_msg: Your appeal has been submitted. If it is approved, you will be notified.
       appeals:
-        submit: Îtîrazê bişîne
-      approve_appeal: Îtîrazê bipejirîne
-      associated_report: Ragihandina têkildar
-      created_at: Dîrok
-      description_html: Ev kiryarên ku li dijî ajimêrê te hatine kirin û hişyariyên ku ji hêla xebatkarên %{instance} ve ji te re hatine şandinin.
-      recipient: Ji kê re
-      reject_appeal: Îtîrazê nepejirîne
-      status: 'Şandî #%{id}'
-      status_removed: Şandî jixwe ji pergalê hatî rakirin
-      title: "%{action} ji %{date}"
+        submit: Submit appeal
+      approve_appeal: Approve appeal
+      associated_report: Associated report
+      created_at: Dated
+      description_html: These are actions taken against your account and warnings that have been sent to you by the staff of %{instance}.
+      recipient: Addressed to
+      reject_appeal: Reject appeal
+      status: 'Post #%{id}'
+      status_removed: Post already removed from system
+      title: "%{action} from %{date}"
       title_actions:
-        delete_statuses: Jêbirina şandiyê
-        disable: Cemdandina ajimêrê
-        mark_statuses_as_sensitive: Nîşankirina şandiyan wekî hestyar
-        none: Hişyarî
-        sensitive: Nîşankirina ajimêran wekî hestyar
-        silence: Sînorkirina ajimêrê
-        suspend: Rawestandina ajimêrê
-      your_appeal_approved: Îtîraza te hate pejirandin
-      your_appeal_pending: Te îtîrazek şand
-      your_appeal_rejected: Îtîraza te nehate pejirandin
+        delete_statuses: Post removal
+        disable: Freezing of account
+        mark_statuses_as_sensitive: Marking of posts as sensitive
+        none: Warning
+        sensitive: Marking of account as sensitive
+        silence: Limitation of account
+        suspend: Suspension of account
+      your_appeal_approved: Your appeal has been approved
+      your_appeal_pending: You have submitted an appeal
+      your_appeal_rejected: Your appeal has been rejected
   domain_validator:
-    invalid_domain: ne naveke navper a derbasdar e
+    invalid_domain: is not a valid domain name
   errors:
-    '400': Daxwaza ku te şand nederbasdar an çewt bû.
-    '403': Ji bo dîtina vê rûpelê mafê te nîn e.
-    '404': Rûpela ku tu lê digerî ne li vir e.
-    '406': Ev rûpel di awayê ku tê xwestin de peyda nabe.
-    '410': Ew rûpela ku tu lê digeriya êdî li vir nîne.
+    '400': The request you submitted was invalid or malformed.
+    '403': You don't have permission to view this page.
+    '404': The page you are looking for isn't here.
+    '406': This page is not available in the requested format.
+    '410': The page you were looking for doesn't exist here anymore.
     '422':
-      content: Rastekirina ewlehiyê têk çû. Ma tu kiloran asteng dikî?
-      title: Rastekirina ewlehiyê têk çû
-    '429': Gelek daxwazî
+      content: Security verification failed. Are you blocking cookies?
+      title: Security verification failed
+    '429': Too many requests
     '500':
-      content: Em xemgîn in, lê tiştek di aliyê me de şaş çû.
-      title: Ev rûpel ne rast e
-    '503': Ji ber têkçûna rajekar a demkî rûpel nayê bikaranîn.
-    noscript_html: Ji bo ku tu sepanaa Mastodon a tevnê bi kar bîne, jkx JavaScript-ê çalak bike. Wekî din, yek ji <a href="%{apps_path}">sepanên xwemalî</a> ji bo Mastodon ji bo platforma xwe biceribîne.
+      content: We're sorry, but something went wrong on our end.
+      title: This page is not correct
+    '503': The page could not be served due to a temporary server failure.
+    noscript_html: To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the <a href="%{apps_path}">native apps</a> for Mastodon for your platform.
   existing_username_validator:
-    not_found: nikaribû bikarhênerek herêmî bi wê navê bikarhêner bibîne
-    not_found_multiple: "%{usernames} nehat dîtin"
+    not_found: could not find a local user with that username
+    not_found_multiple: could not find %{usernames}
   exports:
     archive_takeout:
-      date: Dîrok
-      download: Arşîva xwe daxîne
-      hint_html: Tu dikarî arşîvek ji <strong> weşanên xwe û medyayên barkirî </strong> re bixwaze. Daneyên derxistî dê di forma ActivityPub de bin, ku ji hêla nermalava ku vê formê ve têne xwendin. Tu dikarî her 7 rojan arşîvekê bixwaze.
-      in_progress: Arşîve te tê berhev kirin...
-      request: Daxwaza arşîva ajimêra xwe bike
-      size: Mezinahî
-    blocks: Yên te astengkirî
-    bookmarks: Şûnpel
+      date: Date
+      download: Download your archive
+      hint_html: You can request an archive of your <strong>posts and uploaded media</strong>. The exported data will be in the ActivityPub format, readable by any compliant software. You can request an archive every 7 days.
+      in_progress: Compiling your archive...
+      request: Request your archive
+      size: Size
+    blocks: You block
+    bookmarks: Bookmarks
     csv: CSV
-    domain_blocks: Navperên astengkirî
-    lists: Rêzok
-    mutes: Te bêdeng kir
-    storage: Bîrdanaka medyayê
+    domain_blocks: Domain blocks
+    lists: Lists
+    mutes: You mute
+    storage: Media storage
   featured_tags:
-    add_new: Yeka nû tevlî bike
+    add_new: Add new
     errors:
-      limit: Te jixwe berê pirtirîn hashtag destnîşan kiriye
-    hint_html: "<strong> Hashtagên destnîşankirî çi ne? </strong> Ew bi eşkere li ser profîla te ya gelemperî têne xuyakirin û dihêlin ku mirov bi taybetî di binê wan hashtagan de li şandiyên te yên gelemperî bigere. Ew ji bo şopandina karên afirîner an projeyên demdirêj amûrek girîng in."
+      limit: You have already featured the maximum number of hashtags
+    hint_html: "<strong>What are featured hashtags?</strong> They are displayed prominently on your public profile and allow people to browse your public posts specifically under those hashtags. They are a great tool for keeping track of creative works or long-term projects."
   filters:
     contexts:
-      account: Profîl
-      home: Serrûpel û rêzok
-      notifications: Agahdarî
-      public: Demnameya gelemperî
-      thread: Axaftin
+      account: Profiles
+      home: Home and lists
+      notifications: Notifications
+      public: Public timelines
+      thread: Conversations
     edit:
-      add_keyword: Kilîtpeyv tevî bike
-      keywords: Peyvkilît
-      statuses: Şandiyên kesane
-      statuses_hint_html: Ev parzûn ji bo hibijartina şandiyên kesane tê sepandin bêyî ku ew bi peyvkilîtên jêrîn re lihevhatî bin. <a href="%{path}">Şandiyan binirxîne an jî ji parzûnê rake</a>.
-      title: Parzûnê serrast bike
+      add_keyword: Add keyword
+      keywords: Keywords
+      statuses: Individual posts
+      statuses_hint_html: This filter applies to select individual posts regardless of whether they match the keywords below. <a href="%{path}">Review or remove posts from the filter</a>.
+      title: Edit filter
     errors:
-      deprecated_api_multiple_keywords: Van parameteran ji vê sepanê nayên guhertin ji ber ku ew li ser bêtirî yek kilîtpeyvên parzûnkirî têne sepandin. Sepaneke nûtir an navrûya bikarhêneriyê ya malperê bi kar bîne.
-      invalid_context: Naverok tune ye yan jî nederbasdar tê peydakirin
+      deprecated_api_multiple_keywords: These parameters cannot be changed from this application because they apply to more than one filter keyword. Use a more recent application or the web interface.
+      invalid_context: None or invalid context supplied
     index:
-      contexts: Parzûnên di %{contexts} de
-      delete: Jê bibe
-      empty: Parzûnên te tune ne.
-      expires_in: Di %{distance} de diqede
-      expires_on: Di %{date} de diqede
+      contexts: Filters in %{contexts}
+      delete: Delete
+      empty: You have no filters.
+      expires_in: Expires in %{distance}
+      expires_on: Expires on %{date}
       keywords:
-        one: "%{count} kilîtpeyv"
-        other: "%{count} kilîtpeyv"
+        one: "%{count} keyword"
+        other: "%{count} keywords"
       statuses:
-        one: "%{count} şandî"
-        other: "%{count} şandî"
+        one: "%{count} post"
+        other: "%{count} posts"
       statuses_long:
-        one: "%{count} şandiyê kesane yê veşartî"
-        other: "%{count} şandiyê kesane yê veşartî"
-      title: Parzûn
+        one: "%{count} individual post hidden"
+        other: "%{count} individual posts hidden"
+      title: Filters
     new:
-      save: Parzûna nû tomar bike
-      title: Parzûnek nû li zêde bike
+      save: Save new filter
+      title: Add new filter
     statuses:
-      back_to_filter: Vegere bo parzûnê
+      back_to_filter: Back to filter
       batch:
-        remove: Ji parzûnê rake
+        remove: Remove from filter
       index:
-        hint: Ev parzûn bêyî pîvanên din ji bo hilbijartina şandiyên kesane tê sepandin. Tu dikarî ji navrûya tevnê bêtir şandiyan tevlî vê parzûnê bikî.
-        title: Şandiyên parzûnkirî
+        hint: This filter applies to select individual posts regardless of other criteria. You can add more posts to this filter from the web interface.
+        title: Filtered posts
   footer:
-    trending_now: Niha rojevê de
+    trending_now: Trending now
   generic:
-    all: Hemû
+    all: All
     all_items_on_page_selected_html:
-      one: Berhemê <strong>%{count}</strong> li ser vê rûpelê hatiye hilbijartin.
-      other: Hemû berhemên <strong>%{count}</strong> li ser vê rûpelê hatine hilbijartin.
+      one: "<strong>%{count}</strong> item on this page is selected."
+      other: All <strong>%{count}</strong> items on this page are selected.
     all_matching_items_selected_html:
-      one: Berhemê <strong>%{count}</strong> ku bi lêgerîna te re lihevhatî ye hatiye hilbijartin.
-      other: Hemû berhemên <strong>%{count}</strong> ku bi lêgerîna te re lihevhatî ne hatine hilbijartin.
-    changes_saved_msg: Guhertin bi serkeftî tomar bû!
-    copy: Jê bigire
-    delete: Jê bibe
-    deselect: Hemûyan hilnebijêre
-    none: Ne yek
-    order_by: Rêz bike bi
-    save_changes: Guhertinan tomar bike
+      one: "<strong>%{count}</strong> item matching your search is selected."
+      other: All <strong>%{count}</strong> items matching your search are selected.
+    changes_saved_msg: Changes successfully saved!
+    copy: Copy
+    delete: Delete
+    deselect: Deselect all
+    none: None
+    order_by: Order by
+    save_changes: Save changes
     select_all_matching_items:
-      one: Berhemê %{count} ku bi lêgerîna te re lihevhatî ye hilbijêre.
-      other: Hemû berhemên %{count} ku bi lêgerîna te re lihevhatî ne hilbijêre.
-    today: îro
+      one: Select %{count} item matching your search.
+      other: Select all %{count} items matching your search.
+    today: today
     validation_errors:
-      one: Tiştek hîn ne rast e! Ji kerema xwe çewtiya li jêr di ber çavan re derbas bike
-      other: Tiştek hîn ne rast e! Ji kerema xwe %{count} çewtî li jêr di ber çavan re derbas bike
+      one: Something isn't quite right yet! Please review the error below
+      other: Something isn't quite right yet! Please review %{count} errors below
   html_validator:
-    invalid_markup: 'di nav de nîşana HTML a nederbasdar heye: %{error}'
+    invalid_markup: 'contains invalid HTML markup: %{error}'
   imports:
     errors:
-      invalid_csv_file: 'Pelê CSV nederbasdar e. Çewtî: %{error}'
-      over_rows_processing_limit: ji %{count} zêdetir rêzok hene
+      invalid_csv_file: 'Invalid CSV file. Error: %{error}'
+      over_rows_processing_limit: contains more than %{count} rows
     modes:
-      merge: Bi hev re bike
-      merge_long: Tomarên heyî bigire û yên nû lê zêde bike
-      overwrite: Bi ser de binivsîne
-      overwrite_long: Tomarkirinên heyî bi yên nû re biguherîne
-    preface: Tu dikarî têxistin ê daneyên bike ku te ji rajekareke din derxistî ye wek rêzoka kesên ku tu dişopîne an jî asteng dike.
-    success: Daneyên te bi serkeftî hat barkirin û di dema xwe de were pêvajotin
+      merge: Merge
+      merge_long: Keep existing records and add new ones
+      overwrite: Overwrite
+      overwrite_long: Replace current records with the new ones
+    preface: You can import data that you have exported from another server, such as a list of the people you are following or blocking.
+    success: Your data was successfully uploaded and will be processed in due time
     types:
-      blocking: Rêzoka astengkirinê
-      bookmarks: Şûnpel
-      domain_blocking: Rêzoka navperên astengkirî
-      following: Rêzoka yên dişopînin
-      muting: Rêzoka bêdengiyê
-    upload: Bar bike
+      blocking: Blocking list
+      bookmarks: Bookmarks
+      domain_blocking: Domain blocking list
+      following: Following list
+      muting: Muting list
+    upload: Upload
   invites:
-    delete: Neçalak bike
-    expired: Dema wê qediya
+    delete: Deactivate
+    expired: Expired
     expires_in:
-      '1800': 30 xulek
-      '21600': 6 demjimêr
-      '3600': 1 demjimêr
-      '43200': 12 demjimêr
-      '604800': 1 hefte
-      '86400': 1 roj
-    expires_in_prompt: Tu car
-    generate: Girêdana vexwendinê çê bike
-    invited_by: 'Tu hatî vexwendin ji hêla:'
+      '1800': 30 minutes
+      '21600': 6 hours
+      '3600': 1 hour
+      '43200': 12 hours
+      '604800': 1 week
+      '86400': 1 day
+    expires_in_prompt: Never
+    generate: Generate invite link
+    invited_by: 'You were invited by:'
     max_uses:
-      one: 1 bikaranîn
-      other: "%{count} bikaranîn"
-    max_uses_prompt: Bê sînor
-    prompt: Girêdanan bi kesên din re çê bike û parve bike da ku bigihîjin vê rajekarê
+      one: 1 use
+      other: "%{count} uses"
+    max_uses_prompt: No limit
+    prompt: Generate and share links with others to grant access to this server
     table:
-      expires_at: Diqede
-      uses: Bikaranîn
-    title: Mirovan vexwîne
+      expires_at: Expires
+      uses: Uses
+    title: Invite people
   lists:
     errors:
-      limit: Tu gihîştî hejmara rêzika a herî zêde
+      limit: You have reached the maximum number of lists
   login_activities:
     authentication_methods:
-      otp: sepandina rastandina du-gavî
-      password: borînpeyv
-      sign_in_token: koda ewlehiyê bo e-nameyê
-      webauthn: kilîtên ewlehiyê
-    description_html: Çalakiya ku nas nakî dibînî, çêtir dibe ku borînpeyva xwe biguherînî û rastandina du-gavî çalak bikî.
-    empty: Dîroka piştrastkirinê tune ye
-    failed_sign_in_html: Hewldana têketinê ser neket bi%{method} ji %{ip} (%{browser}) de
-    successful_sign_in_html: Bi serkeftî têketin bi %{method} ji %{ip}(%{browser}) çêbû
-    title: Dîroka piştrastkirinê
+      otp: two-factor authentication app
+      password: password
+      sign_in_token: e-mail security code
+      webauthn: security keys
+    description_html: If you see activity that you don't recognize, consider changing your password and enabling two-factor authentication.
+    empty: No authentication history available
+    failed_sign_in_html: Failed sign-in attempt with %{method} from %{ip} (%{browser})
+    successful_sign_in_html: Successful sign-in with %{method} from %{ip} (%{browser})
+    title: Authentication history
   media_attachments:
     validations:
-      images_and_video: Nikare vîdyoyekê tevlî şandiyê ku berê wêne tê de heye bike
-      not_ready: Nikare pelên ku pêvajo neqedandî ve girêbide. Di demekê de dîsa biceribîne!
-      too_many: Zedetirî 4 pelan nayê tevlêkirin
+      images_and_video: Cannot attach a video to a post that already contains images
+      not_ready: Cannot attach files that have not finished processing. Try again in a moment!
+      too_many: Cannot attach more than 4 files
   migrations:
-    acct: Hate lîvandin bo
-    cancel: Beralîkirinê red bike
-    cancel_explanation: Dev berdan ji beralîkirinê dê ajimêra te ya heyî ji nû ve çalak bike, lê şopgerên ku li wê ajimêrê hatine livandin venagerêne.
-    cancelled_msg: Beralîkirin bi serkeftî hate betal kirin.
+    acct: Moved to
+    cancel: Cancel redirect
+    cancel_explanation: Cancelling the redirect will re-activate your current account, but will not bring back followers that have been moved to that account.
+    cancelled_msg: Successfully cancelled the redirect.
     errors:
-      already_moved: heman ajimêr e ku te berê lê bar kiriye ye
-      missing_also_known_as: ne nasnavê vê ajimêrê ye
-      move_to_self: nikare bibe ajimêra heyî
-      not_found: nehate dîtin
-      on_cooldown: Tu li ser sarbûnê yî
-    followers_count: Di dema tevgerê de şopîner
-    incoming_migrations: Livandin ji ajimêreke din
-    incoming_migrations_html: Ji bo ku tu ji ajimêrek din bar bikî vê yekê, pêşî divê tu <a href="%{path}">ajimêreke bi bernaveke çê bike </a>.
-    moved_msg: Ajimêrate niha li %{acct} tê rêve kirin (beralîkirin) û şopînerên te têne livandin bo wê.
-    not_redirecting: Ajimêra te niha bo ajimêreke din nayê beralîkirin.
-    on_cooldown: Te herî dawî dev ji ajimêra xwe berda. Ev fonksiyon dê di %{count} rojan de dîsa peyda bibe.
-    past_migrations: Koçên berê
-    proceed_with_move: Şopîneran bilivîne
-    redirected_msg: Ajimêra te niha bo %{acct} tê beralîkirin.
-    redirecting_to: Ajimêra te niha bo %{acct} tê beralîkirin.
-    set_redirect: Beralîkirin saz bike
+      already_moved: is the same account you have already moved to
+      missing_also_known_as: is not an alias of this account
+      move_to_self: cannot be current account
+      not_found: could not be found
+      on_cooldown: You are on cooldown
+    followers_count: Followers at time of move
+    incoming_migrations: Moving from a different account
+    incoming_migrations_html: To move from another account to this one, first you need to <a href="%{path}">create an account alias</a>.
+    moved_msg: Your account is now redirecting to %{acct} and your followers are being moved over.
+    not_redirecting: Your account is not redirecting to any other account currently.
+    on_cooldown: You have recently migrated your account. This function will become available again in %{count} days.
+    past_migrations: Past migrations
+    proceed_with_move: Move followers
+    redirected_msg: Your account is now redirecting to %{acct}.
+    redirecting_to: Your account is redirecting to %{acct}.
+    set_redirect: Set redirect
     warning:
-      backreference_required: Pêdivî ye ku ajimêra nû wekî referanseke paşîn a vê ajimêrê were sazkirin
-      before: 'Berî ku tu berdewam bikî, ji kerema xwe re van nîşaneyan bi baldarî bixwîne:'
-      cooldown: Piştî livandin demek heye ku di wê navberê de tu yê nikaribe dîsa bilive
-      disabled_account: Ajimêra te ya heyî dê paşê bi tevahî neyê bikaranîn. Lê belê, tu dikarî bigihîje derxistinê daneyan û hem jî ji nû ve çalakkirinê.
-      followers: Ev çalakî dê hemî şopînerên ji ajimêra heyî bar bike ajimêra nû
-      only_redirect_html: Wekî din, tu dikarî <a href="%{path}"> tenê beralîkirinekê li ser profîla xwe bicîh bike </a>.
-      other_data: Daneyên din dê bi xweberî neyên livandin
-      redirect: Profîla ajimêra te ya heyî dê bi nîşeyeke beralîkirinê were nûve kirin û ji lêgerînan were bi dûrxistin
+      backreference_required: The new account must first be configured to back-reference this one
+      before: 'Before proceeding, please read these notes carefully:'
+      cooldown: After moving there is a waiting period during which you will not be able to move again
+      disabled_account: Your current account will not be fully usable afterwards. However, you will have access to data export as well as re-activation.
+      followers: This action will move all followers from the current account to the new account
+      only_redirect_html: Alternatively, you can <a href="%{path}">only put up a redirect on your profile</a>.
+      other_data: No other data will be moved automatically
+      redirect: Your current account's profile will be updated with a redirect notice and be excluded from searches
   moderation:
-    title: Çavdêrî
+    title: Moderation
   move_handler:
-    carry_blocks_over_text: Ev bikarhêner ji %{acct}, ku te astengkirî bû, bar kir.
-    carry_mutes_over_text: Ev bikarhêner ji %{acct}, ku te bê deng kirbû, bar kir.
-    copy_account_note_text: 'Ev bikarhêner ji %{acct} livî ye, li vir nîşeyên te yên berê ku te di derbarê wî/ê de nivîsandiye:'
+    carry_blocks_over_text: This user moved from %{acct}, which you had blocked.
+    carry_mutes_over_text: This user moved from %{acct}, which you had muted.
+    copy_account_note_text: 'This user moved from %{acct}, here were your previous notes about them:'
   navigation:
-    toggle_menu: Menuyê biguherîne
+    toggle_menu: Toggle menu
   notification_mailer:
     admin:
       report:
-        subject: "%{name} ragihandinek şand"
+        subject: "%{name} submitted a report"
       sign_up:
-        subject: "%{name} tomar bû"
+        subject: "%{name} signed up"
     favourite:
-      body: 'Şandiya te hate bijartin ji alî %{name} ve:'
-      subject: "%{name} şandiya te hez kir"
-      title: Bijarteyek nû
+      body: 'Your post was favourited by %{name}:'
+      subject: "%{name} favourited your post"
+      title: New favourite
     follow:
-      body: "%{name} niha te dişopîne!"
-      subject: "%{name} niha te dişopîne"
-      title: Şopînera nû
+      body: "%{name} is now following you!"
+      subject: "%{name} is now following you"
+      title: New follower
     follow_request:
-      action: Daxwazên şopandinê bi rê ve bibe
-      body: "%{name} daxwaza şopandina te kir"
-      subject: Şopîner li bendê ye:%{name}
-      title: Daxwazeke şopandinê ya nû
+      action: Manage follow requests
+      body: "%{name} has requested to follow you"
+      subject: 'Pending follower: %{name}'
+      title: New follow request
     mention:
-      action: Bersivê bide
-      body: 'Tu hatiyî qalkirin ji aliyê %{name}:'
-      subject: Tu hatiye qalkirin ji aliyê %{name}
-      title: Qalkirina nû
+      action: Reply
+      body: 'You were mentioned by %{name} in:'
+      subject: You were mentioned by %{name}
+      title: New mention
     poll:
-      subject: Rapirsî ji hêla %{name} ve qediya
+      subject: A poll by %{name} has ended
     reblog:
-      body: 'Şandiye te hate bilindkirin ji hêla %{name} ve:'
-      subject: "%{name} şandiya te bilind kir"
-      title: Bilindkirinên nû
+      body: 'Your post was boosted by %{name}:'
+      subject: "%{name} boosted your post"
+      title: New boost
     status:
-      subject: "%{name} niha şand"
+      subject: "%{name} just posted"
     update:
-      subject: "%{name} şandiyek guhert"
+      subject: "%{name} edited a post"
   notifications:
-    email_events: Bûyer bo agahdariyên e-nameyê
-    email_events_hint: 'Bûyera ku tu dixwazî agahdariyan jê wergerî hilbijêre:'
-    other_settings: Sazkariya agahdariyên din
+    email_events: Events for e-mail notifications
+    email_events_hint: 'Select events that you want to receive notifications for:'
+    other_settings: Other notifications settings
   number:
     human:
       decimal_units:
@@ -1328,77 +1366,81 @@ ku:
           billion: B
           million: M
           quadrillion: Q
-          thousand: Hezar
-          trillion: Trîlyon
+          thousand: K
+          trillion: T
+          unit: ''
   otp_authentication:
-    code_hint: Ji bo pejirandinê têkeve koda te ya ku ji alîyê sepana piştraskirinê va hatiye çê kirin
-    description_html: Ku tu<strong>bi piştrastkirina du-gavî re</strong> sepana piştrastkirinê çalak bikî, ji bo têketinê pêdivî heye ku telefona te li ba te be, ji bona têketinê te ra nîşaneyan çê bike.
-    enable: Çalak bike
-    instructions_html: "<strong>Vê kodê QR kontrol bike bi riya Google Authenticator an jî sepanekeTOTP li ser têlefona xwe </strong>. Ji niha û pê ve, ew sepan dê nîşanên ku divê tu binivîsîne dema têketinê de biafirîne."
-    manual_instructions: 'Ku tu nikarî bî koda QR venêrî û pêwîst be bi dest bikevî, ev nivîsê hêsan ê veşartî:'
-    setup: Saz bike
-    wrong_code: Koda têketinê betal e! Dema rajekarê û dema amûrê raste?
+    code_hint: Enter the code generated by your authenticator app to confirm
+    description_html: If you enable <strong>two-factor authentication</strong> using an authenticator app, logging in will require you to be in possession of your phone, which will generate tokens for you to enter.
+    enable: Enable
+    instructions_html: "<strong>Scan this QR code into Google Authenticator or a similar TOTP app on your phone</strong>. From now on, that app will generate tokens that you will have to enter when logging in."
+    manual_instructions: 'If you can''t scan the QR code and need to enter it manually, here is the plain-text secret:'
+    setup: Set up
+    wrong_code: The entered code was invalid! Are server time and device time correct?
   pagination:
-    newer: Nûtir
-    next: Pêş
-    older: Kevntir
-    prev: Paş
+    newer: Newer
+    next: Next
+    older: Older
+    prev: Prev
     truncate: "&hellip;"
   polls:
     errors:
-      already_voted: Te berê deng dabû vê rapirsîyê
-      duplicate_options: tiştên dubare tê de hene
-      duration_too_long: di pêşerojê de pir dûr e
-      duration_too_short: gelek zû ye
-      expired: Jixwe rapirsî dawî bû
-      invalid_choice: Vebijarka dengdanê ya bijartî tune
-      over_character_limit: her yek ji %{max} karakterê dirêjtirîn nabe
-      too_few_options: divê ji yekî zêdetir tişt hebin
-      too_many_options: nikare ji %{max} hêmanan bêtir pêk be
+      already_voted: You have already voted on this poll
+      duplicate_options: contain duplicate items
+      duration_too_long: is too far into the future
+      duration_too_short: is too soon
+      expired: The poll has already ended
+      invalid_choice: The chosen vote option does not exist
+      over_character_limit: cannot be longer than %{max} characters each
+      too_few_options: must have more than one item
+      too_many_options: can't contain more than %{max} items
   preferences:
-    other: Yên din
-    posting_defaults: Berdestên şandiyê
-    public_timelines: Demnameya gelemperî
+    other: Other
+    posting_defaults: Posting defaults
+    public_timelines: Public timelines
   privacy_policy:
-    title: Politîka taybetiyê
+    title: Privacy Policy
   reactions:
     errors:
-      limit_reached: Sînorê reaksiyonên cihêrengî gihîşte asta dawî
-      unrecognized_emoji: emojîyeke ne naskirî ye
+      limit_reached: Limit of different reactions reached
+      unrecognized_emoji: is not a recognized emoji
   relationships:
-    activity: Çalakiya ajimêrê
-    dormant: Xewok
-    follow_selected_followers: Şopînerên hilbijartî bişopîne
-    followers: Şopîner
-    following: Dişopîne
-    invited: Vexwendî
-    last_active: Çalakiya dawî
-    most_recent: Herî dawî
-    moved: Barkirî
-    mutual: Hevpar
-    primary: Sereke
-    relationship: Pêwendî
-    remove_selected_domains: Hemû şopînerên ji navpera hilbijartî rake
-    remove_selected_followers: Şopînerên hilbijartî rake
-    remove_selected_follows: Bikarhênerên hilbijartî neşopîne
-    status: Rewşa ajimêr
+    activity: Account activity
+    confirm_follow_selected_followers: Are you sure you want to follow selected followers?
+    confirm_remove_selected_followers: Are you sure you want to remove selected followers?
+    confirm_remove_selected_follows: Are you sure you want to remove selected follows?
+    dormant: Dormant
+    follow_selected_followers: Follow selected followers
+    followers: Followers
+    following: Following
+    invited: Invited
+    last_active: Last active
+    most_recent: Most recent
+    moved: Moved
+    mutual: Mutual
+    primary: Primary
+    relationship: Relationship
+    remove_selected_domains: Remove all followers from the selected domains
+    remove_selected_followers: Remove selected followers
+    remove_selected_follows: Unfollow selected users
+    status: Account status
   remote_follow:
-    missing_resource: Ji bo ajimêrê te girêdana beralîkirî ya pêwîst nehate dîtin
+    missing_resource: Could not find the required redirect URL for your account
   reports:
     errors:
-      invalid_rules: rêbazên derbasdar nîşan nadê
+      invalid_rules: does not reference valid rules
   rss:
-    content_warning: 'Hişyariya naverokê:'
+    content_warning: 'Content warning:'
     descriptions:
-      account: Şandiyên gelemperî ji @%{acct}
-      tag: 'Şandiyên gelemperî yên nîşankirî #%{hashtag}'
+      account: Public posts from @%{acct}
+      tag: 'Public posts tagged #%{hashtag}'
   scheduled_statuses:
-    over_daily_limit: Te sînorê %{limit} şandiyên demsazkirî yên ji bo îro derbas kir
-    over_total_limit: Te sînorê %{limit} şandiyên demsazkirî derbas kir
-    too_soon: Dîroka bernamesazkirinê divê dîrokeke ji îro pêşvetir be
+    over_daily_limit: You have exceeded the limit of %{limit} scheduled posts for today
+    over_total_limit: You have exceeded the limit of %{limit} scheduled posts
+    too_soon: The scheduled date must be in the future
   sessions:
-    activity: Çalakiya dawî
-    browser: Gerok
+    activity: Last activity
+    browser: Browser
     browsers:
       alipay: Alipay
       blackberry: BlackBerry
@@ -1406,20 +1448,20 @@ ku:
       edge: Microsoft Edge
       electron: Electron
       firefox: Firefox
-      generic: Gerokeke nenas
+      generic: Unknown browser
       ie: Internet Explorer
       micro_messenger: MicroMessenger
       nokia: Nokia S40 Ovi Browser
       opera: Opera
       otter: Otter
       phantom_js: PhantomJS
-      qq: Geroka QQ
+      qq: QQ Browser
       safari: Safari
-      uc_browser: Geroka UC
+      uc_browser: UC Browser
       weibo: Weibo
-    current_session: Danişîna heyî
-    description: "%{platform} ser %{browser}"
-    explanation: Gerokên tevnê di dema heyî de hene ku têketin kirine di ajimêra te ya Mastodon.
+    current_session: Current session
+    description: "%{browser} on %{platform}"
+    explanation: These are the web browsers currently logged in to your Mastodon account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1430,240 +1472,240 @@ ku:
       ios: iOS
       linux: Linux
       mac: macOS
-      other: platforma nenas
+      other: unknown platform
       windows: Windows
       windows_mobile: Windows Mobile
       windows_phone: Windows Phone
-    revoke: Rake
-    revoke_success: Danişîn bi serkeftî hate rakirin
-    title: Danîştin
-    view_authentication_history: Dîroka rastekirina ajimêra xwe bibîne
+    revoke: Revoke
+    revoke_success: Session successfully revoked
+    title: Sessions
+    view_authentication_history: View authentication history of your account
   settings:
-    account: Ajimêr
-    account_settings: Sazkariyên ajimêr
-    aliases: Nûçikên ajimêra
-    appearance: Xuyang
-    authorized_apps: Rayedarê sepanan
-    back: Vegere bo Mastodon
-    delete: Jêbirina ajimêr
-    development: Pêşdebir
-    edit_profile: Profîlê serrast bike
-    export: Derxistinê daneyan
-    featured_tags: Hashtagên bijarte
-    import: Têxistin
-    import_and_export: Têxistin û derxistin
-    migrate: Barkirina ajimêrê
-    notifications: Agahdarî
-    preferences: Hilbijarte
-    profile: Profîl
-    relationships: Şopandin û şopîner
-    statuses_cleanup: Bi xweberî ve jêbirina şandiya
-    strikes: Binpêkirinên çavdêriyê
-    two_factor_authentication: Piştrastkirinê du-faktorî
-    webauthn_authentication: Kilîdên ewlehiyê
+    account: Account
+    account_settings: Account settings
+    aliases: Account aliases
+    appearance: Appearance
+    authorized_apps: Authorized apps
+    back: Back to Mastodon
+    delete: Account deletion
+    development: Development
+    edit_profile: Edit profile
+    export: Data export
+    featured_tags: Featured hashtags
+    import: Import
+    import_and_export: Import and export
+    migrate: Account migration
+    notifications: Notifications
+    preferences: Preferences
+    profile: Profile
+    relationships: Follows and followers
+    statuses_cleanup: Automated post deletion
+    strikes: Moderation strikes
+    two_factor_authentication: Two-factor Auth
+    webauthn_authentication: Security keys
   statuses:
     attached:
       audio:
-        one: "%{count} deng"
-        other: "%{count} deng"
-      description: 'Pêvek: %{attached}'
+        one: "%{count} audio"
+        other: "%{count} audio"
+      description: 'Attached: %{attached}'
       image:
-        one: "%{count} wêne"
-        other: "%{count} wêne"
+        one: "%{count} image"
+        other: "%{count} images"
       video:
-        one: "%{count} vîdyo"
-        other: "%{count} vîdyo"
-    boosted_from_html: Bilindkirî ji alî %{acct_link} ve
-    content_warning: 'Hişyariya naverokê: %{warning}'
-    default_language: Wekî zimanê navrûya bikarhêneriyê
+        one: "%{count} video"
+        other: "%{count} videos"
+    boosted_from_html: Boosted from %{acct_link}
+    content_warning: 'Content warning: %{warning}'
+    default_language: Same as interface language
     disallowed_hashtags:
-      one: 'hashtagek bê maf tê de hebû: %{tags}'
-      other: 'hashtagek bê maf tê de hebû: %{tags}'
-    edited_at_html: Di %{date} de hate serrastkirin
+      one: 'contained a disallowed hashtag: %{tags}'
+      other: 'contained the disallowed hashtags: %{tags}'
+    edited_at_html: Edited %{date}
     errors:
-      in_reply_not_found: Ew şandiya ku tu dikî nakî bersivê bide xuya nake an jî hatiye jêbirin.
-    open_in_web: Di tevnê de veke
-    over_character_limit: sînorê karakterê %{max} derbas kir
+      in_reply_not_found: The post you are trying to reply to does not appear to exist.
+    open_in_web: Open in web
+    over_character_limit: character limit of %{max} exceeded
     pin_errors:
-      direct: Şandiyên ku tenê ji bikarhênerên qalkirî re têne xuyangkirin, nayê derzîkirin
-      limit: Jixwe te mezintirîn hejmara şandîyên xwe derzî kir
-      ownership: Şandiya kesekî din nay derzî kirin
-      reblog: Ev şandî nayê derzî kirin
+      direct: Posts that are only visible to mentioned users cannot be pinned
+      limit: You have already pinned the maximum number of posts
+      ownership: Someone else's post cannot be pinned
+      reblog: A boost cannot be pinned
     poll:
       total_people:
-        one: "%{count} kes"
-        other: "%{count} kes"
+        one: "%{count} person"
+        other: "%{count} people"
       total_votes:
-        one: "%{count} deng"
-        other: "%{count} deng"
-      vote: Deng bide
-    show_more: Bêtir nîşan bide
-    show_newer: Nûtirîn nîşan bide
-    show_older: Kevntirîn nîşan bide
-    show_thread: Mijarê nîşan bide
-    sign_in_to_participate: Ji bo tevlî sohbetê bibî xwe tomar bike
-    title: "%{name}%{quote}"
+        one: "%{count} vote"
+        other: "%{count} votes"
+      vote: Vote
+    show_more: Show more
+    show_newer: Show newer
+    show_older: Show older
+    show_thread: Show thread
+    sign_in_to_participate: Sign in to participate in the conversation
+    title: '%{name}: "%{quote}"'
     visibilities:
-      direct: Rasterast
-      private: Tenê şopîneran
-      private_long: Tenê bo şopîneran nîşan bide
-      public: Gelemperî
-      public_long: Herkes dikare bibîne
-      unlisted: Nerêzokkirî
-      unlisted_long: Herkes dikare bibîne, lê di demnameya gelemperî de nayê rêz kirin
+      direct: Direct
+      private: Followers-only
+      private_long: Only show to followers
+      public: Public
+      public_long: Everyone can see
+      unlisted: Unlisted
+      unlisted_long: Everyone can see, but not listed on public timelines
   statuses_cleanup:
-    enabled: Şandiyên berê bi xweberî va jê bibe
-    enabled_hint: Gava ku ew gihîştibe sînorê temenê diyarkirî, şandiyên te bi xweberî jê dibe, ji bilî van awareteyên jêrîn
-    exceptions: Awarte
-    explanation: Ji ber ku jêbirina şandiyan pêvajoyeke biha ye, ev hêdî hêdî bi demê re tê kirin dema ku rajekar wekî din mijûl nebe. Ji ber vê sedemê, dibe ku şandiyên te demek şûnda ku bigihîjin sînorê temenê wê werin jêbirin.
-    ignore_favs: Ecibandinan paşguh bike
-    ignore_reblogs: Bilindkirinan piştguh bike
-    interaction_exceptions: Awarteyên li ser bingehên têkiliyan
-    interaction_exceptions_explanation: Bizanibe ku şandiyeke ku ji binî ve têkeve jêrî bijarte yan bilindkirinê piştî ku carek din di ser wan re derbas bibe, garantiyek tune ku werin jêbirin.
-    keep_direct: Peyamên rasterast veşêre
-    keep_direct_hint: Tu peyamên te yekcar jê naçe
-    keep_media: Peyamên bi pêvekên medyayê ve ne biveşêre
-    keep_media_hint: Yek ji peyamên te yê ku bi pêvekên medyayê ve ne jê nabe
-    keep_pinned: Peyamên xwe yên ku hatine derzîkirî veşêre
-    keep_pinned_hint: Yek ji peyamên te yê derzîkirî jê nabe
-    keep_polls: Rapirsîyan veşêre
-    keep_polls_hint: Yek ji rapirsiyên te jê nabe
-    keep_self_bookmark: Şandiyên ku wek şûnpel hatine tevlêkirin veşêre
-    keep_self_bookmark_hint: Şandî ku te wek şûnpel tomar kiriye wê neyê jêbirin
-    keep_self_fav: Şandiyên ku te eciband veşêre
-    keep_self_fav_hint: Ger te şandiyên xwe ecibandibe jê nabe
+    enabled: Automatically delete old posts
+    enabled_hint: Automatically deletes your posts once they reach a specified age threshold, unless they match one of the exceptions below
+    exceptions: Exceptions
+    explanation: Because deleting posts is an expensive operation, this is done slowly over time when the server is not otherwise busy. For this reason, your posts may be deleted a while after they reach the age threshold.
+    ignore_favs: Ignore favourites
+    ignore_reblogs: Ignore boosts
+    interaction_exceptions: Exceptions based on interactions
+    interaction_exceptions_explanation: Note that there is no guarantee for posts to be deleted if they go below the favourite or boost threshold after having once gone over them.
+    keep_direct: Keep direct messages
+    keep_direct_hint: Doesn't delete any of your direct messages
+    keep_media: Keep posts with media attachments
+    keep_media_hint: Doesn't delete any of your posts that have media attachments
+    keep_pinned: Keep pinned posts
+    keep_pinned_hint: Doesn't delete any of your pinned posts
+    keep_polls: Keep polls
+    keep_polls_hint: Doesn't delete any of your polls
+    keep_self_bookmark: Keep posts you bookmarked
+    keep_self_bookmark_hint: Doesn't delete your own posts if you have bookmarked them
+    keep_self_fav: Keep posts you favourited
+    keep_self_fav_hint: Doesn't delete your own posts if you have favourited them
     min_age:
-      '1209600': 2 hefte
-      '15778476': 6 meh
-      '2629746': 1 meh
-      '31556952': 1 sal
-      '5259492': 2 meh
-      '604800': 1 hefte
-      '63113904': 2 sal
-      '7889238': 3 meh
-    min_age_label: Şêmûga demê
-    min_favs: Peyamên ku ji wê zêdetir hatine ecibandin veşêre
-    min_favs_hint: Şandî ku ji evqas hezkirin wergirtibe nayê jêbirin. Vala bihêle da ku şandiyan jê bibî tevlî ku çiqas hezkirin wergirtibe
-    min_reblogs: Şandiyên ku bêtir hatine bilindkirin veşêre
-    min_reblogs_hint: Şandî ku ji ji vê hejmarê bêtir bilindkirin wergirtibe nayê jêbirin. Vala bihêle da ku şandiyan jê bibî tevlî ku çiqas hezkirin wergirtibe
+      '1209600': 2 weeks
+      '15778476': 6 months
+      '2629746': 1 month
+      '31556952': 1 year
+      '5259492': 2 months
+      '604800': 1 week
+      '63113904': 2 years
+      '7889238': 3 months
+    min_age_label: Age threshold
+    min_favs: Keep posts favourited at least
+    min_favs_hint: Doesn't delete any of your posts that has received at least this number of favourites. Leave blank to delete posts regardless of their number of favourites
+    min_reblogs: Keep posts boosted at least
+    min_reblogs_hint: Doesn't delete any of your posts that has been boosted at least this number of times. Leave blank to delete posts regardless of their number of boosts
   stream_entries:
-    pinned: Şandiya derzîkirî
-    reblogged: bilindkirî
-    sensitive_content: Naveroka hestiyarî
+    pinned: Pinned post
+    reblogged: boosted
+    sensitive_content: Sensitive content
   strikes:
     errors:
-      too_late: Pir dereng e ji bo îtîrazê li ser vê binpêkirinê
+      too_late: It is too late to appeal this strike
   tags:
-    does_not_match_previous_name: bi navê berê re li hev nayê
+    does_not_match_previous_name: does not match the previous name
   themes:
-    contrast: Mastodon (Dijberiya bilind)
-    default: Mastodon (Tarî)
-    mastodon-light: Mastodon (Ronahî)
+    contrast: Mastodon (High contrast)
+    default: Mastodon (Dark)
+    mastodon-light: Mastodon (Light)
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
       month: "%b %Y"
       time: "%H:%M"
   two_factor_authentication:
-    add: Tevlî bike
-    disable: 2FA neçalak bike
-    disabled_success: Rastandina du-gavî bi serfirazî hate sekinandin
-    edit: Serrast bike
-    enabled: Rastandina du-gavî bi serfirazî hate çalak kirin
-    enabled_success: Rastandina du-gavî bi serfirazî hate çalak kirin
-    generate_recovery_codes: Kodên xilaskirinê çêbike
-    lost_recovery_codes: Ku telefon winda bibe kodên xilaskirinê derfet dide ku tu bigihijî ajimêra xwe. Ku te kodên xwe yê xilaskirinê winda kiribe tu dikarî ji vê derê dîsa ava bikî. Kodên te yê xilaskirinê ên kevin wê nederbasdar bibe.
-    methods: Rêbazên du-gavî
-    otp: Sepana Authenticator
-    recovery_codes: Kilîtên rizgarbûna hilanînê
-    recovery_codes_regenerated: Kilîtên rizgarbûna bi serkeftî hate nûvkirin
-    recovery_instructions_html: Ku gava te têlefona xwe winda kir, tu dikarî yek ji kodên rizgarkirinê yên jêrîn bi kar bîne da ku tu bigihîjî ajimêra xwe. <strong>Kodên rizgarkirinê li cihekî ewle biparêze </strong>. Mînakî, tu dikarî wan çap bikî û wan bi peldandkên din ên girîng re tomar bike.
-    webauthn: Kilîdên ewlehiyê
+    add: Add
+    disable: Disable 2FA
+    disabled_success: Two-factor authentication successfully disabled
+    edit: Edit
+    enabled: Two-factor authentication is enabled
+    enabled_success: Two-factor authentication successfully enabled
+    generate_recovery_codes: Generate recovery codes
+    lost_recovery_codes: Recovery codes allow you to regain access to your account if you lose your phone. If you've lost your recovery codes, you can regenerate them here. Your old recovery codes will be invalidated.
+    methods: Two-factor methods
+    otp: Authenticator app
+    recovery_codes: Backup recovery codes
+    recovery_codes_regenerated: Recovery codes successfully regenerated
+    recovery_instructions_html: If you ever lose access to your phone, you can use one of the recovery codes below to regain access to your account. <strong>Keep the recovery codes safe</strong>. For example, you may print them and store them with other important documents.
+    webauthn: Security keys
   user_mailer:
     appeal_approved:
-      action: Biçe ajimêra xwe
-      explanation: Îtîraza binpêkirinê ya li dijî ajimêrê te ya %{strike_date} ku te di %{appeal_date} de şandibû hate pejirandin. Ajimêrê te careke din di rewşek baş de ye.
-      subject: Îtîraza te ji %{date} hate pejirandin
-      title: Îtîraz hate pejirandin
+      action: Go to your account
+      explanation: The appeal of the strike against your account on %{strike_date} that you submitted on %{appeal_date} has been approved. Your account is once again in good standing.
+      subject: Your appeal from %{date} has been approved
+      title: Appeal approved
     appeal_rejected:
-      explanation: Îtîraza binpêkirinê ya li dijî ajimêrê te ya di %{strike_date} de ku te di %{appeal_date} de şandibû nehat pejirandin.
-      subject: Îtîraza te ji %{date} nehate pejirandin
-      title: Îtîraz nehate pejirandin
+      explanation: The appeal of the strike against your account on %{strike_date} that you submitted on %{appeal_date} has been rejected.
+      subject: Your appeal from %{date} has been rejected
+      title: Appeal rejected
     backup_ready:
-      explanation: Te yedekîya tijê ya ajimêrê xwe Mastodonê xwest. Niha ji daxistinê re amade ye!
-      subject: Arşîva te amede ye bo daxistinê
-      title: Pakêtkirina arşîvan
+      explanation: You requested a full backup of your Mastodon account. It's now ready for download!
+      subject: Your archive is ready for download
+      title: Archive takeout
     suspicious_sign_in:
-      change_password: borînpeyva xwe biguherîne
-      details: 'Li vir hûrgiliyên hewldanên têketinê hene:'
-      explanation: Me têketineke nû ji ajimêra te ji navnîşaneke IP ya nû dît.
-      further_actions_html: Ku ev ne tu ye, em pêşniyar dikin ku tu di tavilê de %{action} û piştrastkirina du-gavî çalak bikî da ku ajimêra te di ewlehiyê de bimîne.
-      subject: Ajimêra te ji navnîşaneke IP ya nû ve hatiye gihîştin
-      title: Têketineke nû
+      change_password: change your password
+      details: 'Here are details of the sign-in:'
+      explanation: We've detected a sign-in to your account from a new IP address.
+      further_actions_html: If this wasn't you, we recommend that you %{action} immediately and enable two-factor authentication to keep your account secure.
+      subject: Your account has been accessed from a new IP address
+      title: A new sign-in
     warning:
-      appeal: Îtîrazekê bişîne
-      appeal_description: Ku tu bawer dikî ku ev şaşetiyeke, tu dikarî îtîrazekê ji karmendên %{instance} re bişînî.
+      appeal: Submit an appeal
+      appeal_description: If you believe this is an error, you can submit an appeal to the staff of %{instance}.
       categories:
-        spam: Nexwestî (Spam)
-        violation: Naverok rêbazên civakê yên jêrîn binpê dike
+        spam: Spam
+        violation: Content violates the following community guidelines
       explanation:
-        delete_statuses: Hate dîtin ku hinek şandiyên te yek an jî çend rêwerzên civatê binpê dikin û dû re ji hêla çavdêrên %{instance} ve hatine rakirin.
-        disable: Tu êdî nikarî ajimêra xwe bi kar bînî, lê profîla te û daneyên din bê ziyan dimînin. Tu dikarî ji daneyên xwe hilanînê bixwazî, sazkariyên ajimêrê biguherîmî an jî ajimêrê xwe jê bibî.
-        mark_statuses_as_sensitive: Hinek şandiyên te ji hêla çavdêrên %{instance} ve wekî hestyar hatine nîşankirin. Ev tê vê wateyê ku berî ku pêşdîtinek were xuyang kirin pêdivî ye ku mirov di nav şandiyan de bitikînî. Dema ku di pêşerojê de bişînî tu dikarî medyayê wekî xwe hestyar nîşan bikî.
-        sensitive: Ji niha û pê ve, hemû pelên te yên medyayê yên hatine barkirin wê li piştî hişyariyek wekî hestyar û veşartî bêne nîşankirin.
-        silence: Tu hîn jî dikarî ajimêra xwe bi kar bînî lê tenê kesên ku jixwe te dişopînin wê şandiyên te li ser vê rajekarê bibînin, û dibe ku tu ji cûrbecûr taybetmendiyên vedîtinê werî bi dûrxistin. Lêbelê, yên din hîn jî dikarin bi destan te bişopînin.
-        suspend: Tu êdî nikarî têkevî ajimêra xwe, û profîla te û daneyên din êdî nayên gihîştin. Dîsa jî tu dikarî têkevî da ku hilanîna daneyên xwe daxwaz bikî heya ku dane bi tevahî werin rakirin di hundirê 30 roj de, lê em ê hin daneyan biparêzin da ku tu ji rawestandinê rizgar bikî.
-      reason: 'Sedem:'
-      statuses: 'Şandiyên binavkirî:'
+        delete_statuses: Some of your posts have been found to violate one or more community guidelines and have been subsequently removed by the moderators of %{instance}.
+        disable: You can no longer use your account, but your profile and other data remains intact. You can request a backup of your data, change account settings or delete your account.
+        mark_statuses_as_sensitive: Some of your posts have been marked as sensitive by the moderators of %{instance}. This means that people will need to tap the media in the posts before a preview is displayed. You can mark media as sensitive yourself when posting in the future.
+        sensitive: From now on, all your uploaded media files will be marked as sensitive and hidden behind a click-through warning.
+        silence: You can still use your account but only people who are already following you will see your posts on this server, and you may be excluded from various discovery features. However, others may still manually follow you.
+        suspend: You can no longer use your account, and your profile and other data are no longer accessible. You can still login to request a backup of your data until the data is fully removed in about 30 days, but we will retain some basic data to prevent you from evading the suspension.
+      reason: 'Reason:'
+      statuses: 'Posts cited:'
       subject:
-        delete_statuses: Şandiyên te yên li ser %{acct} hatin rakirin
-        disable: Ajimêra te a %{acct} hat qerisandin
-        mark_statuses_as_sensitive: Şandiyên te yên li ser %{acct} wekî hestyar hatine nîşankirin
-        none: Hişyarî bo %{acct}
-        sensitive: Şandiyên te yên li ser %{acct} wê ji niha û pê ve wekî hestyar bêne nîşankirin
-        silence: Ajimêra te ya %{acct} hate bisînorkirin
-        suspend: Ajimêra te %{acct} hate rawestandin
+        delete_statuses: Your posts on %{acct} have been removed
+        disable: Your account %{acct} has been frozen
+        mark_statuses_as_sensitive: Your posts on %{acct} have been marked as sensitive
+        none: Warning for %{acct}
+        sensitive: Your posts on %{acct} will be marked as sensitive from now on
+        silence: Your account %{acct} has been limited
+        suspend: Your account %{acct} has been suspended
       title:
-        delete_statuses: Şandî hatin rakirin
-        disable: Ajimêr hate qerisandin
-        mark_statuses_as_sensitive: Şandî wekî hestyar hatine nîşankirin
-        none: Hişyarî
-        sensitive: Ajimêr wekî hestyar hate nîşankirin
-        silence: Ajimêr sînor kiriye
-        suspend: Ajimêr hatiye rawestandin
+        delete_statuses: Posts removed
+        disable: Account frozen
+        mark_statuses_as_sensitive: Posts marked as sensitive
+        none: Warning
+        sensitive: Account marked as sensitive
+        silence: Account limited
+        suspend: Account suspended
     welcome:
-      edit_profile_action: Profîlê saz bike
-      edit_profile_step: Tu dikarî bi barkirina wêneyek profîlê, guhertina navê xwe ya xuyangê û bêtir profîla xwe kesane bikî. Berî ku mafê bidî ku te şopînerên nû te bişopînin, tu dikarî binirxînî.
-      explanation: Li vir çend serişte hene ku tu dest pê bike
-      final_action: Dest bi weşandinê bike
-      final_step: 'Dest bi weşandinê bike! Bêyî şopîneran jî dibe ku şandiyên te yên gelemperî ji hêla kesên din ve werin dîtin, mînakî li ser demjimêra herêmî û di hashtagan de. Dibe ku tu bixwazî xwe li ser hashtagê #nasname bidî nasandin.'
-      full_handle: Hemî destikê te
-      full_handle_hint: Ji hevalên xwe re, ji bona ji rajekarekê din peyam bişîne an jî ji bona ku te bikaribe bişopîne tişta ku tu bibêjî ev e.
-      subject: Tu bi xêr hatî Mastodon
-      title: Bi xêr hatî, %{name}!
+      edit_profile_action: Setup profile
+      edit_profile_step: You can customize your profile by uploading a profile picture, changing your display name and more. You can opt-in to review new followers before they’re allowed to follow you.
+      explanation: Here are some tips to get you started
+      final_action: Start posting
+      final_step: 'Start posting! Even without followers, your public posts may be seen by others, for example on the local timeline or in hashtags. You may want to introduce yourself on the #introductions hashtag.'
+      full_handle: Your full handle
+      full_handle_hint: This is what you would tell your friends so they can message or follow you from another server.
+      subject: Welcome to Mastodon
+      title: Welcome aboard, %{name}!
   users:
-    follow_limit_reached: Tu nikarî zêdetirî %{limit} kesan bişopînî
-    invalid_otp_token: Koda du-gavî ya nelê
-    otp_lost_help_html: Ku te gihîştina herduyan ji dest da, dibe ku tu bi %{email} re têkilî deyne
-    seamless_external_login: Te bi rajekarke biyanî re têketina xwe kir, ji ber vê yekê borînpeyv û e-name nayê bikaranîn.
-    signed_in_as: 'Têketin wekî:'
+    follow_limit_reached: You cannot follow more than %{limit} people
+    invalid_otp_token: Invalid two-factor code
+    otp_lost_help_html: If you lost access to both, you may get in touch with %{email}
+    seamless_external_login: You are logged in via an external service, so password and e-mail settings are not available.
+    signed_in_as: 'Signed in as:'
   verification:
-    explanation_html: 'Tu dikarî <strong>xwe wekî xwediyê girêdanên li daneyê meta profîla xwe piştrast bikî</strong>. Ji bo vê, hewceye girêda malperê di nav profîla te ya mastodonê de girêdanekî paş hebe. Girêdana paş<strong>hewceye</strong> taybetîyek <code>rel="me"</code>hebe. Naveroka nivîsa girêdanê ne girîng e. Ev jî mînakek e:'
-    verification: Piştrastkirin
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Mastodon profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
+    verification: Verification
   webauthn_credentials:
-    add: Kilîteke ewlehiyê nû tevlî bike
+    add: Add new security key
     create:
-      error: Gava Kilîteke ewlehiyê nû dihat tevlîkirin pirsgirêkek derket. Jkx dîsa biceribîne.
-      success: Tevlîkirina kilîteke ewlehiyê nû bi awayekî serkeftî qediya.
-    delete: Jê bibe
-    delete_confirmation: Ma tu bi rastî dixwazî ku ev kilîta ewlehiyê jê bibe?
-    description_html: Ku tu <strong> piştrastkirina kilîta ewlehiyê </strong> çalak bikî, Ji bo têketinê divê tu kilîtekî ewlehiyê bi kar bînî.
+      error: There was a problem adding your security key. Please try again.
+      success: Your security key was successfully added.
+    delete: Delete
+    delete_confirmation: Are you sure you want to delete this security key?
+    description_html: If you enable <strong>security key authentication</strong>, logging in will require you to use one of your security keys.
     destroy:
-      error: Dema kilîda ewlehiyê hate jêbirin pirsgirêkek peyda bû. Ji kerema xwe re careke din biceribîne.
-      success: Kilîda ewlehiyê bi awayekî serkeftî hatê jêbirin.
-    invalid_credential: Kilîda ewlehiyê a nelê
-    nickname_hint: Bernavka kilîda te ya ewlehiyê a nû têkevê
-    not_enabled: Te hê WebAuthn çalak nekiriye
-    not_supported: Ev gerok piştgiriya kilîtên ewlehiyê nakê
-    otp_required: Ji bo ku tu kilîtên ewlehiyê bikar bînî, ji kerema xwe re pêşî piştrastkirina du-gavî çalak bike.
-    registered_on: Di %{date} dîrokê de tomar bû
+      error: There was a problem deleting you security key. Please try again.
+      success: Your security key was successfully deleted.
+    invalid_credential: Invalid security key
+    nickname_hint: Enter the nickname of your new security key
+    not_enabled: You haven't enabled WebAuthn yet
+    not_supported: This browser doesn't support security keys
+    otp_required: To use security keys please enable two-factor authentication first.
+    registered_on: Registered on %{date}
