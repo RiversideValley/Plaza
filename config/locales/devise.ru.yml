@@ -1,117 +1,117 @@
 ---
-ru:
+ru-UA:
   devise:
     confirmations:
-      confirmed: Ваш адрес e-mail был успешно подтвержден.
-      send_instructions: Вы получите e-mail с инструкцией по подтверждению вашего адреса e-mail в течение нескольких минут.
-      send_paranoid_instructions: Если Ваш адрес e-mail есть в нашей базе данных, вы получите e-mail с инструкцией по подтверждению вашего адреса в течение нескольких минут.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: Вы уже авторизованы.
-      inactive: Ваша учётная запись ещё не активирована.
-      invalid: Неверно введены %{authentication_keys} или пароль.
-      last_attempt: У Вас есть последняя попытка, после чего вход будет заблокирован.
-      locked: Ваша учётная запись заблокирована.
-      not_found_in_database: Неверно введены %{authentication_keys} или пароль.
-      pending: Ваша заявка на вступление всё ещё рассматривается.
-      timeout: Ваша сессия истекла. Пожалуйста, войдите снова, чтобы продолжить.
-      unauthenticated: Вам необходимо войти или зарегистрироваться.
-      unconfirmed: Вам необходимо подтвердить ваш адрес e-mail для продолжения.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Подтвердить e-mail адрес
-        action_with_app: Подтвердить и вернуться в %{app}
-        explanation: Вы создали учётную запись на сайте %{host}, используя этот e-mail адрес. Остался лишь один шаг для активации. Если это были не вы, просто игнорируйте письмо.
-        explanation_when_pending: Вы подали заявку на %{host}, используя этот адрес e-mail. Как только вы его подтвердите, мы начнём изучать вашу заявку. До тех пор вы не сможете войти на сайт. Если ваша заявка будет отклонена, все данные будут автоматически удалены, от вас не потребуется никаких дополнительных действий. Если это были не вы, пожалуйста, проигнорируйте данное письмо.
-        extra_html: Пожалуйста, ознакомьтесь <a href="%{terms_path}">правилами узла</a> and <a href="%{policy_path}">условиями пользования Сервисом</a>.
-        subject: 'Mastodon: Инструкция по подтверждению на узле %{instance}'
-        title: Подтвердите e-mail адрес
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'E-mail адрес вашей учётной записи будет изменён на:'
-        extra: Если вы не меняли e-mail адрес, возможно кто-то получил доступ к вашей учётной записи. Пожалуйста, немедленно смените пароль или свяжитесь с администратором узла, если вы уже потеряли доступ к ней.
-        subject: 'Mastodon: Изменён e-mail адрес'
-        title: Новый адрес e-mail
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
+        title: New email address
       password_change:
-        explanation: Пароль Вашей учётной записи был изменён.
-        extra: Если вы не меняли пароль, возможно кто-то получил доступ к вашей учётной записи. Пожалуйста, немедленно смените пароль или свяжитесь с администратором узла, если вы уже потеряли доступ к ней.
-        subject: 'Mastodon: Пароль изменен'
-        title: Пароль изменён
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: Для завершения смены e-mail, нажмите кнопку ниже.
-        extra: Если вы не изменяли e-mail, пожалуйста, игнорируйте это письмо. Новый адрес не будет привязан к учётной записи, пока вы не перейдёте по ссылке ниже.
-        subject: 'Mastodon: Подтвердите свой новый e-mail на %{instance}'
-        title: Подтвердите e-mail адрес
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: Смена пароля
-        explanation: Вы запросили новый пароль для вашей учётной записи.
-        extra: Если это сделали не вы, пожалуйста, игнорируйте письмо. Ваш пароль не будет изменён, пока вы не перейдёте по ссылке выше и не создадите новый пароль.
-        subject: 'Mastodon: Инструкция по сбросу пароля'
-        title: Сброс пароля
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: Для вашей учётной записи была отключена двухфакторная авторизация. Выполнить вход теперь можно используя лишь e-mail и пароль.
-        subject: 'Mastodon: Двухфакторная авторизация отключена'
-        title: 2ФА отключена
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: Для вашей учётной записи была настроена двухфакторная авторизация. Отныне для входа потребуется также временный код из приложения-аутентификатора.
-        subject: 'Mastodon: Настроена двухфакторная авторизация'
-        title: 2ФА включена
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: Предыдущие резервные коды были аннулированы и созданы новые.
-        subject: 'Mastodon: Резервные коды двуфакторной авторизации обновлены'
-        title: Коды восстановления 2FA изменены
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'Mastodon: Инструкция по разблокировке'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: Следующий ключ безопасности был добавлен в вашу учётную запись
-          subject: 'Мастодон: Новый ключ безопасности'
-          title: Был добавлен новый ключ безопасности
+          explanation: The following security key has been added to your account
+          subject: 'Mastodon: New security key'
+          title: A new security key has been added
         deleted:
-          explanation: Следующий ключ безопасности был удален из вашей учётной записи
-          subject: 'Мастодон: Ключ Безопасности удален'
-          title: Один из ваших защитных ключей был удален
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: Аутентификация с помощью ключей безопасности отключена для вашей учётной записи. Теперь вход возможен с использованием только токена, сгенерированного в приложении TOTP.
-        subject: 'Мастодон: Аутентификация с ключами безопасности отключена'
-        title: Ключи безопасности отключены
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: Для вашей учётной записи включена аутентификация по ключу безопасности. Теперь ваш ключ безопасности может быть использован для входа.
-        subject: 'Мастодон: Включена аутентификация по ключу безопасности'
-        title: Ключи безопасности включены
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: Не получилось аутентифицировать вас с помощью %{kind} по следующей причине - "%{reason}".
-      success: Аутентификация с помощью учётной записи %{kind} прошла успешно.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: Вы можете получить доступ к этой странице, только перейдя по ссылке в e-mail для сброса пароля. Если вы действительно перешли по такой ссылке, пожалуйста, удостоверьтесь, что ссылка была введена полностью и без изменений.
-      send_instructions: Вы получите e-mail с инструкцией по сбросу пароля в течение нескольких минут.
-      send_paranoid_instructions: Если Ваш адрес e-mail есть в нашей базе данных, вы получите e-mail со ссылкой для сброса пароля в течение нескольких минут.
-      updated: Ваш пароль был успешно изменен. Вход выполнен.
-      updated_not_active: Ваш пароль был успешно изменен.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: До свидания! Ваша учётная запись была успешно удалена. Мы надеемся скоро увидеть вас снова.
-      signed_up: Добро пожаловать! Вы успешно зарегистрировались.
-      signed_up_but_inactive: Вы успешно зарегистрировались. Тем не менее, мы не можем авторизовать вас, поскольку ваша учётная запись еще не активирована.
-      signed_up_but_locked: Вы успешно зарегистрировались. Тем не менее, мы не можем авторизовать вас, поскольку ваша учётная запись заблокирована.
-      signed_up_but_pending: На ваш e-mail адрес было отправлено письмо с ссылкой для подтверждения. После перехода по ней, мы начнём рассматривать вашу заявку. В случае подтверждения, мы вас оповестим.
-      signed_up_but_unconfirmed: Сообщение со ссылкой для подтверждения было выслано на ваш адрес e-mail. Пожалуйста, пройдите по ссылке для активации вашей учётной записи.
-      update_needs_confirmation: Данные учётной записи обновлены, но нам необходимо подтвердить ваш новый e-mail адрес. Проверьте почту и перейдите по ссылке из письма. Если оно не приходит, проверьте папку «спам».
-      updated: Ваша учётная запись успешно обновлена.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: Выход прошел успешно.
-      signed_in: Вход прошел успешно.
-      signed_out: Выход прошел успешно.
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: Вы получите e-mail с инструкцией по разблокировке вашей учётной записи в течение нескольких минут.
-      send_paranoid_instructions: Если ваша учётная запись существует, вы получите e-mail с инструкцией по её разблокировке в течение нескольких минут.
-      unlocked: Ваша учётная запись был успешно разблокирована. Пожалуйста, войдите для продолжения.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: уже подтвержден, пожалуйста, попробуйте войти
-      confirmation_period_expired: не был подтвержден в течение %{period}, пожалуйста, запросите новый
-      expired: истек, пожалуйста, запросите новый
-      not_found: не найден
-      not_locked: не был заблокирован
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        one: '1 ошибка помешала сохранению этого %{resource}:'
-        few: "%{count} ошибки помешали сохранению этого %{resource}:"
-        many: "%{count} ошибок помешали сохранению этого %{resource}:"
-        other: "%{count} ошибок помешали сохранению этого %{resource}:"
+        one: '1 error prohibited this %{resource} from being saved:'
+        few: "%{count} errors prohibited this %{resource} from being saved:"
+        many: "%{count} errors prohibited this %{resource} from being saved:"
+        other: "%{count} errors prohibited this %{resource} from being saved:"
