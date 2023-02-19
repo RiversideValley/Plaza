@@ -1,5 +1,5 @@
 ---
-en-CB:
+en-ID:
   devise:
     confirmations:
       confirmed: Your email address has been successfully confirmed.
