@@ -2,118 +2,118 @@
 cy:
   devise:
     confirmations:
-      confirmed: Mae eich cyfeiriad e-bost wedi'i gadarnhau'n llwyddiannus.
-      send_instructions: Byddwch yn derbyn e-bost a chyfarwyddiadau am sut i gadarnhau eich cyfeiriad e-bost mewn rhai munudau. Os nad ydych wedi derbyn yr e-bost hwn, edrychwch yn eich ffolder sbam, os gwelwch yn dda.
-      send_paranoid_instructions: Os yw eich cyfeiriad e-bost yn bodoli yn ein cronfa ddata, byddwch yn derbyn e-bost gyda chyfarwyddiadau ar sut i gadarnhau eich cyfeiriad e-bost mewn ychydig funudau. Gwiriwch eich ffolder sbam os na dderbynioch yr e-bost hwn.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: Rydych chi eisoes wedi mewngofnodi.
-      inactive: Nid yw eich cyfrif yn weithredol eto.
-      invalid: "%{authentication_keys} neu gyfrinair annilys."
-      last_attempt: Mae gennych un cyfle arall cyn i'ch cyfrif gael ei gloi.
-      locked: Mae eich cyfrif wedi ei gloi.
-      not_found_in_database: "%{authentication_keys} neu gyfrinair annilys."
-      pending: Mae eich cyfrif dal o dan adolygiad.
-      timeout: Mae eich sesiwn wedi dod i ben. Mewngofnodwch eto i barhau.
-      unauthenticated: Mae angen i chi fewngofnodi neu gofrestru cyn parhau.
-      unconfirmed: Mae rhaid i chi gadarnhau eich cyfeiriad e-bost cyn parhau.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Gwiriwch eich cyfeiriad e-bost
-        action_with_app: Cadarnhau a dychwelyd i %{app}
-        explanation: Rydych chi wedi creu cyfrif ar %{host} gyda'r cyfeiriad e-bost hwn. Rydych chi un clic i ffwrdd o'i hagor. Os nad chi oedd hwn, anwybyddwch yr e-bost hwn.
-        explanation_when_pending: Gwnaethoch gais am wahoddiad i %{host} gyda'r cyfeiriad e-bost hwn. Unwaith y byddwch yn cadarnhau eich cyfeiriad e-bost, byddwn yn adolygu eich cais. Gallwch fewngofnodi i newid eich manylion neu ddileu eich cyfrif, ond ni allwch gael mynediad i'r rhan fwyaf o'r swyddogaethau nes bod eich cyfrif wedi'i gymeradwyo. Os caiff eich cais ei wrthod, bydd eich data yn cael ei ddileu, felly ni fydd angen unrhyw gamau pellach gennych. Os nad chi oedd hwn, anwybyddwch yr e-bost hwn.
-        extra_html: Edrychwch hefyd ar <a href="%{terms_path}">reolau'r gweinydd</a> <a href="%{policy_path}">a'n telerau gwasanaeth</a> .
-        subject: 'Mastodon: Cyfarwyddiadau cadarnhau ar gyfer %{instance}'
-        title: Gwirio cyfeiriad e-bost
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'Mae''r cyfeiriad e-bost ar gyfer eich cyfrif yn cael ei newid i:'
-        extra: Os nad ydych wedi newid eich e-bost, mae'n debygol fod rhywun wedi mewngofnodi i'ch cyfrif. Newidiwch eich cyfrinair cyn gynted â phosib neu gysylltwch â'r gweinyddwyr os ydych wedi cael eich cloi allan o'ch cyfrif.
-        subject: 'Mastodon: E-bost wedi''i newid'
-        title: Cyfeiriad e-bost newydd
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
+        title: New email address
       password_change:
-        explanation: Newidwyd cyfrinair eich cyfrif.
-        extra: Os nad ydych wedi newid eich cyfrinair, mae'n debygol fod rhywun wedi mewngofnodi i'ch cyfrif. Newidiwch eich cyfrinair cyn gynted â phosib neu gysylltwch â'r gweinyddwyr os ydych wedi cael eich cloi allan o'ch cyfrif.
-        subject: 'Mastodon: Cyfrinair wedi''i newid'
-        title: Newidwyd cyfrinair
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: Cadarnhewch y cyfeiriad newydd i newid eich e-bost.
-        extra: Os na chychwynnwyd y newid hwn gennych chi, anwybyddwch yr e-bost hwn. Ni fydd cyfeiriad e-bost y cyfrif Mastodon yn newid nes i chi gael mynediad i'r ddolen uchod.
-        subject: 'Mastodon: Cadarnhau e-bost ar gyfer %{instance}'
-        title: Gwirio cyfeiriad e-bost
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: Newid cyfrinair
-        explanation: Fe wnaethoch chi ofyn am gyfrinair newydd ar gyfer eich cyfrif.
-        extra: Os na wnaethoch ofyn am hyn, anwybyddwch yr e-bost hwn. Ni fydd eich cyfrinair yn newid nes i chi gyrchu'r ddolen uchod a chreu un newydd.
-        subject: 'Mastodon: Ailosod cyfarwyddiadau cyfrinair'
-        title: Ailosod cyfrinair
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: Mae dilysiad dau ffactor ar gyfer eich cyfrif wedi'i analluogi. Mae modd mewngofnodi nawr gan ddefnyddio cyfeiriad e-bost a chyfrinair yn unig.
-        subject: 'Mastodon: mae dilysu dau ffactor wedi''i alluogi'
-        title: Dilysu dau ffactor yn anabl
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: Mae dilysu dau ffactor wedi'i alluogi ar gyfer eich cyfrif. Bydd angen tocyn a gynhyrchir gan yr ap TOTP pâr i fewngofnodi.
-        subject: 'Mastodon: mae dilysu dau ffactor wedi''i alluogi'
-        title: Mae dilysu dau ffactor wedi'i alluogi
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: Mae'r codau adfer blaenorol wedi'u hannilysu a chynhyrchwyd rhai newydd.
-        subject: 'Mastodon: Mae codau adfer dau ffactor wedi''u hadfywio'
-        title: Newidiodd codau adfer 2FA
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'Mastodon: Cyfarwyddiadau datgloi'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: Mae'r allwedd ddiogelwch ganlynol wedi'i hychwanegu at eich cyfrif
-          subject: 'Mastodon: Allwedd ddiogelwch newydd'
-          title: Mae allwedd ddiogelwch newydd wedi'i hychwanegu
+          explanation: The following security key has been added to your account
+          subject: 'Mastodon: New security key'
+          title: A new security key has been added
         deleted:
-          explanation: Mae'r allwedd ddiogelwch ganlynol wedi'i dileu o'ch cyfrif
-          subject: 'Mastodon: Allwedd ddiogelwch wedi''i dileu'
-          title: Mae un o'ch allweddi diogelwch wedi'i ddileu
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: Mae dilysu gydag allweddi diogelwch wedi'i analluogi ar gyfer eich cyfrif. Mae mewngofnodi bellach yn bosibl gan ddefnyddio'r tocyn a gynhyrchir gan yr ap TOTP pâr yn unig.
-        subject: 'Mastodon: Dilysiad gydag allweddi diogelwch wedi''i analluogi'
-        title: Allweddi diogelwch wedi'u hanalluogi
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: Mae dilysiad allwedd diogelwch wedi'i alluogi ar gyfer eich cyfrif. Gellir defnyddio'ch allwedd ddiogelwch nawr ar gyfer mewngofnodi.
-        subject: 'Mastodon: Dilysiad allwedd diogelwch wedi''i alluogi'
-        title: Allweddi diogelwch wedi'u galluogi
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: Methu eich dilysu o %{kind} oherwydd "%{reason}".
-      success: Dilyswyd yn llwyddiannus o gyfrif %{kind}.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: Nid oes modd cael mynediad i'r dudalen hon heb ddod drwy e-bost ailosod cyfrinair. Os ydych yn dod o e-bost ailosod cyfrinair, gwnewch yn siŵr y defnyddioch chi'r URL a ddarparwyd yn ei gyfanrwydd.
-      send_instructions: Os yw eich cyfeiriad e-bost yn bodoli yn ein cronfa ddata, byddwch yn derbyn dolen adfer cyfrinair yn eich cyfeiriad e-bost mewn ychydig funudau. Gwiriwch eich ffolder sbam os na dderbynioch yr e-bost hwn.
-      send_paranoid_instructions: Os yw eich cyfeiriad e-bost yn bodoli yn ein cronfa ddata, byddwch yn derbyn dolen adfer cyfrinair yn eich cyfeiriad e-bost mewn ychydig funudau. Gwiriwch eich ffolder sbam os na dderbynioch yr e-bost hwn.
-      updated: Mae eich cyfrinair wedi'i newid yn llwyddiannus. Rydych chi bellach wedi mewngofnodi.
-      updated_not_active: Mae eich cyfrinair wedi ei newid yn llwyddiannus.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: Hwyl fawr! Mae eich cyfrif wedi ei ddiddymu'n llwyddiannus. Gobeithiwn eich gweld chi eto'n fuan.
-      signed_up: Croeso! Rydych wedi cofrestru'n llwyddiannus.
-      signed_up_but_inactive: Yr ydych wedi cofrestru'n llwyddiannus. Fodd bynnag, ni allwn eich mewngofnodi achos nid yw eich cyfrif wedi ei hagor eto.
-      signed_up_but_locked: Rydych chi wedi cofrestru'n llwyddiannus. Fodd bynnag, ni allem eich mewngofnodi oherwydd bod eich cyfrif wedi'i gloi.
-      signed_up_but_pending: Mae neges gyda dolen cadarnhau wedi'i hanfon i'ch cyfeiriad e-bost. Ar ôl i chi glicio ar y ddolen, byddwn yn adolygu eich cais. Byddwch yn cael gwybod os caiff ei gymeradwyo.
-      signed_up_but_unconfirmed: Mae neges gyda dolen cadarnhau wedi ei anfon i'ch cyfeiriad e-bost. Dilynwch y ddolen er mwyn agor eich cyfrif. Edrychwch yn eich ffolder sbam os na dderbynioch chi'r e-bost hwn, os gwelwch yn dda.
-      update_needs_confirmation: Rydych wedi diweddaru eich cyfrif yn llwyddiannus, ond mae angen i ni wirio'ch cyfeiriad e-bost newydd. Edrychwch ar eich e-byst a dilynwch y ddolen gadarnhau er mwyn cadarnhau eich cyfeiriad e-bost newydd. Edrychwch ar eich ffolder sbam os na dderbynioch chi yr e-bost hwn.
-      updated: Mae eich cyfrif wedi ei ddiweddaru yn llwyddiannus.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: Allgofnodwyd yn llwyddiannus.
-      signed_in: Mewngofnodwyd yn llwyddiannus.
-      signed_out: Allgofnodwyd yn llwyddiannus.
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: Mi fyddwch yn derbyn e-bost a chyfarwyddiadau ynghylch sut i ddatgloi eich cyfrif ymhen cwpl o funudau. Edrychwch yn eich ffolder sbam os na dderbynioch chi'r e-bost hwn os gwelwch yn dda.
-      send_paranoid_instructions: Os yw eich cyfrif yn bodoli, mi fyddwch yn derbyn e-bost a cyfarwyddiadau o sut i ddatgloi eich cyfrif ymhen cwpl o funudau. Edrychwch yn eich ffolder sbam os na dderbynioch chi'r e-bost hwn, os gwelwch yn dda.
-      unlocked: Mae eich cyfrif wedi ei ddatgloi'n llwyddiannus. Mewngofnodwch i barhau.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: wedi'i gadarnhau eisoes, ceisiwch fewngofnodi
-      confirmation_period_expired: angen ei gadarnhau o fewn %{period}, gwnewch gais am un newydd, os gwelwch yn dda
-      expired: wedi dod i ben, gwnewch gais am un newydd, os gwelwch yn dda
-      not_found: heb ei ganfod
-      not_locked: heb ei gloi
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        few: 'Gwaharddwyd yr %{resource} rhag cael ei gadw oherwydd %{count} gwall:'
-        many: 'Gwaharddwyd yr %{resource} rhag cael ei gadw oherwydd %{count} gwall:'
-        one: 'Gwaharddwyd yr %{resource} rhag cael ei gadw oherwydd 1 gwall:'
-        other: 'Gwaharddwyd yr %{resource} rhag cael ei gadw oherwydd %{count} gwall:'
-        two: 'Gwaharddwyd yr %{resource} rhag cael ei gadw oherwydd %{count} gwall:'
-        zero: 'Gwaharddwyd yr %{resource} rhag cael ei gadw oherwydd %{count} o wallau:'
+        zero: "%{count} errors prohibited this %{resource} from being saved:"
+        one: '1 error prohibited this %{resource} from being saved:'
+        two: "%{count} errors prohibited this %{resource} from being saved:"
+        few: "%{count} errors prohibited this %{resource} from being saved:"
+        many: "%{count} errors prohibited this %{resource} from being saved:"
+        other: "%{count} errors prohibited this %{resource} from being saved:"
