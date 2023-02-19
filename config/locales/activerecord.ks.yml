@@ -1,5 +1,5 @@
 ---
-ks-PK:
+ks:
   activerecord:
     attributes:
       poll:
