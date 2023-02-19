@@ -3,305 +3,315 @@ sco:
   simple_form:
     hints:
       account_alias:
-        acct: Gie the username@domain o the accoont thit ye'r wantin tae flit fae
+        acct: Specify the username@domain of the account you want to move from
       account_migration:
-        acct: Gie the username@domain o the accoont thit ye'r wantin tae flit tae
+        acct: Specify the username@domain of the account you want to move to
       account_warning_preset:
-        text: Ye kin uise post syntax, sic as URLs, hashtags an menshies
-        title: Optional. No visible tae the recipient
+        text: You can use post syntax, such as URLs, hashtags and mentions
+        title: Optional. Not visible to the recipient
       admin_account_action:
-        include_statuses: The uiser wull see whit posts causit the moderation action or warnin
-        send_email_notification: The uiser wull get a explanation o whit happent wi their accoont
-        text_html: Optional. Ye kin uise post syntax. Ye kin <a href="%{path}">add warnin presets</a> tae save time
-        type_html: Pick whit tae dae wi <strong>%{acct}</strong>
+        include_statuses: The user will see which posts have caused the moderation action or warning
+        send_email_notification: The user will receive an explanation of what happened with their account
+        text_html: Optional. You can use post syntax. You can <a href="%{path}">add warning presets</a> to save time
+        type_html: Choose what to do with <strong>%{acct}</strong>
         types:
-          disable: Stap the uiser fae uisin their accoont, but dinnae delete or hide their content.
-          none: Uise this fir tae sen a warnin tae the uiser, athoot stertin onie ither actions.
-          sensitive: Mak aw this uiser's media attachments hae a flag sayin it's sensitive.
-        warning_preset_id: Optional. Ye kin stull eik custom text tae the en o the preset
+          disable: Prevent the user from using their account, but do not delete or hide their contents.
+          none: Use this to send a warning to the user, without triggering any other action.
+          sensitive: Force all this user's media attachments to be flagged as sensitive.
+          silence: Prevent the user from being able to post with public visibility, hide their posts and notifications from people not following them. Closes all reports against this account.
+          suspend: Prevent any interaction from or to this account and delete its contents. Revertible within 30 days. Closes all reports against this account.
+        warning_preset_id: Optional. You can still add custom text to end of the preset
       announcement:
-        all_day: Whan ticked, ainly the dates o the time range'll get shawn
-        ends_at: Optional. Annooncement wull get automatically unpublishit at this time
-        scheduled_at: Lea blank fir tae publish the annooncement the noo
-        starts_at: Optional. In case yer annooncement is boont tae a specific time range
-        text: Ye kin uise post syntax. Please be mindfae o the space the annooncement'll tak up on the uiser's screen
+        all_day: When checked, only the dates of the time range will be displayed
+        ends_at: Optional. Announcement will be automatically unpublished at this time
+        scheduled_at: Leave blank to publish the announcement immediately
+        starts_at: Optional. In case your announcement is bound to a specific time range
+        text: You can use post syntax. Please be mindful of the space the announcement will take up on the user's screen
       appeal:
-        text: Ye kin ainly appeal a strike the wance
+        text: You can only appeal a strike once
       defaults:
-        autofollow: Fowk thit signs up throu the invite wull follae ye automatic
-        avatar: PNG, GIF or JPG. At maist %{size}. Wull get doonscaled tae %{dimensions}px
-        bot: Signal tae ithers thit the accoont maistly performs automatit actions an mibbie wullnae be monitort
-        context: Ae or mair contexts whaur the filter shuid apply
-        current_password: Fir security purposes please pit in the passwird o the current accoont
-        current_username: Fir tae confirm, please pit in the uisernemm o the current accoont
-        digest: Ainly sent efter a lang whilie o inactivity an ainly if ye'v gotten onie personal messages whilst ye wis awa
-        discoverable: Alloo yer accoont fir tae get discovert bi strangers throu recommendations, trends an ither features
-        email: Ye'll be sent a confirmation email
-        fields: Ye kin hae up tae 4 items displayed as a table on yer profile
-        header: PNG, GIF or JPG. At maist %{size}. Wull get doonscaled tae %{dimensions}px
-        inbox_url: Copy the URL fae the frontpage o the relay thit ye'r wantin tae uise
-        irreversible: Filtert posts wull dizappear irreversibly, even if filter is taen aff efter
-        locale: The leid o the uiser interface, emails an push notes
-        locked: Control bi haun wha kin follae ye bi approvin follae requests
-        password: Uise at least 8 chairecters
-        phrase: Wull get matched regairdless o case in text or content warnin o a post
-        scopes: Whit APIs the application wull be allooed tae access. Gin ye dinnae pick a tap-level scope, ye dinnae need tae pick anes ane at a time.
-        setting_aggregate_reblogs: Dinnae shaw new heezes fir posts thit haes been juist heezed (ainly affects new-received heezes)
-        setting_always_send_emails: Uisually email notes wullnae get sent whan ye'r uisin Mastodon at the time
-        setting_default_sensitive: Sensitive media is hid bi defaut an kin be revealt wi a chap
-        setting_display_media_default: Hide media mairked sensitive
-        setting_display_media_hide_all: Aye hide media
-        setting_display_media_show_all: Aye shaw media
-        setting_hide_network: Wha ye follae an thaim thit follaes ye wull get hid on yer profile
-        setting_noindex: Affects yer public profile an post pages
-        setting_show_application: The application thit ye uise fir tae post wull be displayed in the detailt view o yer posts
-        setting_use_blurhash: Gradients is based aff o the colors o the image thit's hid, but ye cannae see onie details
-        setting_use_pending_items: Plank timeline updates ahin a chap insteid o automatic scrowin o the feed
-        username: Yer uisernemm wull be a ane aff on %{domain}
-        whole_word: Whan the keywird or phrase is alphanumeric ainly, it wull ainly get applied if it matches the haill wird
+        autofollow: People who sign up through the invite will automatically follow you
+        avatar: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        bot: Signal to others that the account mainly performs automated actions and might not be monitored
+        context: One or multiple contexts where the filter should apply
+        current_password: For security purposes please enter the password of the current account
+        current_username: To confirm, please enter the username of the current account
+        digest: Only sent after a long period of inactivity and only if you have received any personal messages in your absence
+        discoverable: Allow your account to be discovered by strangers through recommendations, trends and other features
+        email: You will be sent a confirmation e-mail
+        fields: You can have up to 4 items displayed as a table on your profile
+        header: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        inbox_url: Copy the URL from the frontpage of the relay you want to use
+        irreversible: Filtered posts will disappear irreversibly, even if filter is later removed
+        locale: The language of the user interface, e-mails and push notifications
+        locked: Manually control who can follow you by approving follow requests
+        password: Use at least 8 characters
+        phrase: Will be matched regardless of casing in text or content warning of a post
+        scopes: Which APIs the application will be allowed to access. If you select a top-level scope, you don't need to select individual ones.
+        setting_aggregate_reblogs: Do not show new boosts for posts that have been recently boosted (only affects newly-received boosts)
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Mastodon
+        setting_default_sensitive: Sensitive media is hidden by default and can be revealed with a click
+        setting_display_media_default: Hide media marked as sensitive
+        setting_display_media_hide_all: Always hide media
+        setting_display_media_show_all: Always show media
+        setting_hide_network: Who you follow and who follows you will be hidden on your profile
+        setting_noindex: Affects your public profile and post pages
+        setting_show_application: The application you use to post will be displayed in the detailed view of your posts
+        setting_use_blurhash: Gradients are based on the colors of the hidden visuals but obfuscate any details
+        setting_use_pending_items: Hide timeline updates behind a click instead of automatically scrolling the feed
+        username: Your username will be unique on %{domain}
+        whole_word: When the keyword or phrase is alphanumeric only, it will only be applied if it matches the whole word
       domain_allow:
-        domain: This domain wull be able tae get data fae this server an data comin in fae it wull get processed an stowed
+        domain: This domain will be able to fetch data from this server and incoming data from it will be processed and stored
       email_domain_block:
-        domain: This kin be the domain nemm thit shaws up in the email address or the MX record thit it uises. They'll be checked on sign-up.
-        with_dns_records: An attempt fie tae resolve the gien domain's DNS records wull be made an the results will be dingied tae
+        domain: This can be the domain name that shows up in the e-mail address or the MX record it uses. They will be checked upon sign-up.
+        with_dns_records: An attempt to resolve the given domain's DNS records will be made and the results will also be blocked
       featured_tag:
-        name: 'Here some o the hashtags ye uised the maist o late:'
+        name: 'Here are some of the hashtags you used the most recently:'
       filters:
-        action: Pick whit action tae dae whan a post matches the filter
+        action: Chose which action to perform when a post matches the filter
         actions:
-          hide: Totally plank the filtert content, ackin as if it didnae exist
-          warn: Plank the filtert content ahin a warnin menshiein the filter's title
+          hide: Completely hide the filtered content, behaving as if it did not exist
+          warn: Hide the filtered content behind a warning mentioning the filter's title
       form_admin_settings:
-        backups_retention_period: Haud generatit uiser archives fir the specified nummer o days.
-        bootstrap_timeline_accounts: Thir accoonts wull get preenit tae the tap o new uisers' follae recommendations.
-        closed_registrations_message: Displayit whan sign-ups is shut
-        content_cache_retention_period: Posts fae ither servers wull get deletit efter the specified nummer o days whan set tae a positive value. This wull mibbie be irreversible.
-        custom_css: Ye kin pit custom styles on tae the web version o Mastodon.
-        mascot: Owerrides the illustration in the advanced web interface.
-        media_cache_retention_period: Doonloadit media files wull be deletit efter the specified nummer o days whan set tae a positive value, an re-doonloadit on demand.
-        profile_directory: The profile directory lists aw uisers thit hae opted-in fir tae be discoverable.
-        require_invite_text: Whan sign-ups require approval bi haun, mak the “Hou dae ye want tae jyne?” text input mandatory raither nor optional
-        site_contact_email: Hou fowk kin reach ye fir legal or support inquiries.
-        site_contact_username: Hou fowk kin reach ye on Mastodon.
-        site_extended_description: Onie mair information thit mibbie wad be uisefae tae visitors an yer uisers. Kin be structurt wi Mairkdoon syntax.
-        site_short_description: A wee description fir tae help uniquely identify yer server. Wha is rinnin it, wha is it fir?
-        site_terms: Uise yer ain privacy policy or lea blank fir tae uise the defaut. Kin be structurt wi Mairkdoon syntax.
-        site_title: Hou fowk kin refer tae yer server asides its domain nemm.
-        theme: Theme thit logged oot visitors an new uisers see.
-        thumbnail: A rochly 2:1 image displayit alangsides yer server information.
-        timeline_preview: Logged oot visitors wull be able tae broose the maist recent public posts available on the server.
-        trendable_by_default: Jouk the review bi haun o trendin content. Individual items kin stull get taen aff trends efter the fact.
-        trends: Trends shaw whit posts, hashtags an news stories is gettin traction on yer server.
+        activity_api_enabled: Counts of locally published posts, active users, and new registrations in weekly buckets
+        backups_retention_period: Keep generated user archives for the specified number of days.
+        bootstrap_timeline_accounts: These accounts will be pinned to the top of new users' follow recommendations.
+        closed_registrations_message: Displayed when sign-ups are closed
+        content_cache_retention_period: Posts from other servers will be deleted after the specified number of days when set to a positive value. This may be irreversible.
+        custom_css: You can apply custom styles on the web version of Mastodon.
+        mascot: Overrides the illustration in the advanced web interface.
+        media_cache_retention_period: Downloaded media files will be deleted after the specified number of days when set to a positive value, and re-downloaded on demand.
+        peers_api_enabled: A list of domain names this server has encountered in the fediverse. No data is included here about whether you federate with a given server, just that your server knows about it. This is used by services that collect statistics on federation in a general sense.
+        profile_directory: The profile directory lists all users who have opted-in to be discoverable.
+        require_invite_text: When sign-ups require manual approval, make the “Why do you want to join?” text input mandatory rather than optional
+        site_contact_email: How people can reach you for legal or support inquiries.
+        site_contact_username: How people can reach you on Mastodon.
+        site_extended_description: Any additional information that may be useful to visitors and your users. Can be structured with Markdown syntax.
+        site_short_description: A short description to help uniquely identify your server. Who is running it, who is it for?
+        site_terms: Use your own privacy policy or leave blank to use the default. Can be structured with Markdown syntax.
+        site_title: How people may refer to your server besides its domain name.
+        status_page_url: URL of a page where people can see the status of this server during an outage
+        theme: Theme that logged out visitors and new users see.
+        thumbnail: A roughly 2:1 image displayed alongside your server information.
+        timeline_preview: Logged out visitors will be able to browse the most recent public posts available on the server.
+        trendable_by_default: Skip manual review of trending content. Individual items can still be removed from trends after the fact.
+        trends: Trends show which posts, hashtags and news stories are gaining traction on your server.
+        trends_as_landing_page: Show trending content to logged-out users and visitors instead of a description of this server. Requires trends to be enabled.
       form_challenge:
-        current_password: Ye'r enterin a secure area
+        current_password: You are entering a secure area
       imports:
-        data: CSV file exportit fae anither Mastodon server
+        data: CSV file exported from another Mastodon server
       invite_request:
-        text: This'll help us luik ower yer application
+        text: This will help us review your application
       ip_block:
-        comment: Optional. Mind whit ye addit this rule fir.
-        expires_in: IP addresses is a finite resoorce, they'r sometimes shared an aften chynge hauns. Fir this raison, indefinite IP dingies urnae recommendit.
-        ip: Pit in a IPv4 or IPv6 address. Ye kin dingie entire ranges uisin the CIDR syntax. Be carefu no tae snib yersel oot!
+        comment: Optional. Remember why you added this rule.
+        expires_in: IP addresses are a finite resource, they are sometimes shared and often change hands. For this reason, indefinite IP blocks are not recommended.
+        ip: Enter an IPv4 or IPv6 address. You can block entire ranges using the CIDR syntax. Be careful not to lock yourself out!
         severities:
-          no_access: Dingie access tae aw resoorces
-          sign_up_block: New sign-ups wullnae be possible
-          sign_up_requires_approval: New sign-ups wull be wantin yer approval
-        severity: Pick whit'll happen wi requests fae this IP
+          no_access: Block access to all resources
+          sign_up_block: New sign-ups will not be possible
+          sign_up_requires_approval: New sign-ups will require your approval
+        severity: Choose what will happen with requests from this IP
       rule:
-        text: Describe a rule or requirement fir uisers on this server. Try tae keep it short an simple
+        text: Describe a rule or requirement for users on this server. Try to keep it short and simple
       sessions:
-        otp: 'Pit in the twa-factor code generatit bi yer phone app or uise ane o yer recovery codes:'
-        webauthn: Gin it's a USB key be sure fir tae insert it an, if necessary, tap it.
+        otp: 'Enter the two-factor code generated by your phone app or use one of your recovery codes:'
+        webauthn: If it's an USB key be sure to insert it and, if necessary, tap it.
       tag:
-        name: Ye kin ainly chynge the case o the letters, fir example, fir tae mak it mair readable
+        name: You can only change the casing of the letters, for example, to make it more readable
       user:
-        chosen_languages: Whan ticked, ainly posts in selectit leids wull be displayit in public timelines
-        role: The role controls whit permissions the uiser haes
+        chosen_languages: When checked, only posts in selected languages will be displayed in public timelines
+        role: The role controls which permissions the user has
       user_role:
-        color: Colour tae be uised fir the role throuoot the UI, as RGB in hex format
-        highlighted: This maks the role visible publicly
-        name: Public nemm o the role, if role is set tae be displayit as a badge
-        permissions_as_keys: Uisers wi this role wull hae access tae...
-        position: Heicher role decides stramash resolution in certain situations. Certain actions kin ainly be cairried oot on thaim wi roles wi a laicher priority
+        color: Color to be used for the role throughout the UI, as RGB in hex format
+        highlighted: This makes the role publicly visible
+        name: Public name of the role, if role is set to be displayed as a badge
+        permissions_as_keys: Users with this role will have access to...
+        position: Higher role decides conflict resolution in certain situations. Certain actions can only be performed on roles with a lower priority
       webhook:
-        events: Pick events fir tae sen
-        url: Whaur events'll be sent tae
+        events: Select events to send
+        url: Where events will be sent to
     labels:
       account:
         fields:
           name: Label
           value: Content
       account_alias:
-        acct: Haunnle o the auld accoont
+        acct: Handle of the old account
       account_migration:
-        acct: Haunnle o the new accoont
+        acct: Handle of the new account
       account_warning_preset:
         text: Preset text
         title: Title
       admin_account_action:
-        include_statuses: Pit the clyped posts in the email
-        send_email_notification: Tell the uiser bi email
-        text: Custom warnin
+        include_statuses: Include reported posts in the e-mail
+        send_email_notification: Notify the user per e-mail
+        text: Custom warning
         type: Action
         types:
           disable: Freeze
-          none: Sen a warnin
+          none: Send a warning
           sensitive: Sensitive
           silence: Limit
           suspend: Suspend
-        warning_preset_id: Uise a warnin preset
+        warning_preset_id: Use a warning preset
       announcement:
-        all_day: Aw-day event
-        ends_at: En o event
+        all_day: All-day event
+        ends_at: End of event
         scheduled_at: Schedule publication
-        starts_at: Stert o event
-        text: Annooncement
+        starts_at: Start of event
+        text: Announcement
       appeal:
-        text: Explain hou this decision shuid get reversed
+        text: Explain why this decision should be reversed
       defaults:
-        autofollow: Invite tae follae yer accoont
+        autofollow: Invite to follow your account
         avatar: Avatar
-        bot: This is a bot accoont
-        chosen_languages: Filter leids
-        confirm_new_password: Confirm new passwird
-        confirm_password: Confirm passwird
+        bot: This is a bot account
+        chosen_languages: Filter languages
+        confirm_new_password: Confirm new password
+        confirm_password: Confirm password
         context: Filter contexts
-        current_password: Current passwird
+        current_password: Current password
         data: Data
-        discoverable: Suggest accoont tae ithers
-        display_name: Display nemm
-        email: Email address
-        expires_in: Rin oot efter
+        discoverable: Suggest account to others
+        display_name: Display name
+        email: E-mail address
+        expires_in: Expire after
         fields: Profile metadata
-        header: Heider
-        honeypot: "%{label} (dinnae full oot)"
-        inbox_url: URL o the relay inbox
-        irreversible: Drap insteid o plank
-        locale: Interface leid
-        locked: Require follae requests
-        max_uses: Maist nummer o uises
-        new_password: New passwird
+        header: Header
+        honeypot: "%{label} (do not fill in)"
+        inbox_url: URL of the relay inbox
+        irreversible: Drop instead of hide
+        locale: Interface language
+        locked: Require follow requests
+        max_uses: Max number of uses
+        new_password: New password
         note: Bio
-        otp_attempt: Twa-factor code
-        password: Passwird
-        phrase: Keywird or phrase
-        setting_advanced_layout: Turn on advanced web interface
-        setting_aggregate_reblogs: Group heezes in timelines
-        setting_always_send_emails: Aye sen email notifications
-        setting_auto_play_gif: Auto-pley animatit GIFs
-        setting_boost_modal: Shaw confirmation dialog afore heezin
-        setting_crop_images: Crap images in non-expandit posts tae 16x9
-        setting_default_language: Postin leid
-        setting_default_privacy: Postin privacy
-        setting_default_sensitive: Aye mairk media as sensitive
-        setting_delete_modal: Shaw confirmation dialog afore deletin a post
-        setting_disable_swiping: Turn aff swipin motions
+        otp_attempt: Two-factor code
+        password: Password
+        phrase: Keyword or phrase
+        setting_advanced_layout: Enable advanced web interface
+        setting_aggregate_reblogs: Group boosts in timelines
+        setting_always_send_emails: Always send e-mail notifications
+        setting_auto_play_gif: Auto-play animated GIFs
+        setting_boost_modal: Show confirmation dialog before boosting
+        setting_crop_images: Crop images in non-expanded posts to 16x9
+        setting_default_language: Posting language
+        setting_default_privacy: Posting privacy
+        setting_default_sensitive: Always mark media as sensitive
+        setting_delete_modal: Show confirmation dialog before deleting a post
+        setting_disable_swiping: Disable swiping motions
         setting_display_media: Media display
-        setting_display_media_default: Defaut
-        setting_display_media_hide_all: Plank aw
-        setting_display_media_show_all: Shaw aw
-        setting_expand_spoilers: Aye expand posts mairked wi content warnins
-        setting_hide_network: Plank yer social graph
-        setting_noindex: Opt-oot o seirch engine indexin
+        setting_display_media_default: Default
+        setting_display_media_hide_all: Hide all
+        setting_display_media_show_all: Show all
+        setting_expand_spoilers: Always expand posts marked with content warnings
+        setting_hide_network: Hide your social graph
+        setting_noindex: Opt-out of search engine indexing
         setting_reduce_motion: Reduce motion in animations
-        setting_show_application: Disclose application uised fir tae sen posts
-        setting_system_font_ui: Uise system's defaut font
-        setting_theme: Steid theme
-        setting_trends: Shaw the day's trends
-        setting_unfollow_modal: Shaw confirmation dialog afore unfollaein somebody
-        setting_use_blurhash: Shaw colourfu gradients fir hid media
-        setting_use_pending_items: Slaw mode
+        setting_show_application: Disclose application used to send posts
+        setting_system_font_ui: Use system's default font
+        setting_theme: Site theme
+        setting_trends: Show today's trends
+        setting_unfollow_modal: Show confirmation dialog before unfollowing someone
+        setting_use_blurhash: Show colorful gradients for hidden media
+        setting_use_pending_items: Slow mode
         severity: Severity
         sign_in_token_attempt: Security code
         title: Title
         type: Import type
-        username: Uisernemm
-        username_or_email: Uisernemm or Email
-        whole_word: Hail wird
+        username: Username
+        username_or_email: Username or Email
+        whole_word: Whole word
       email_domain_block:
-        with_dns_records: Include MX records an IPs o the domain
+        with_dns_records: Include MX records and IPs of the domain
       featured_tag:
         name: Hashtag
       filters:
         actions:
-          hide: Plank awthegither
-          warn: Plank wi a warnin
+          hide: Hide completely
+          warn: Hide with a warning
       form_admin_settings:
-        backups_retention_period: Uiser archive retention period
-        bootstrap_timeline_accounts: Aye recommend thir accoonts tae new uisers
-        closed_registrations_message: Custom message whan sign-ups urnae available
+        activity_api_enabled: Publish aggregate statistics about user activity in the API
+        backups_retention_period: User archive retention period
+        bootstrap_timeline_accounts: Always recommend these accounts to new users
+        closed_registrations_message: Custom message when sign-ups are not available
         content_cache_retention_period: Content cache retention period
         custom_css: Custom CSS
         mascot: Custom mascot (legacy)
         media_cache_retention_period: Media cache retention period
+        peers_api_enabled: Publish list of discovered servers in the API
         profile_directory: Enable profile directory
-        registrations_mode: Wha kin sign-up
-        require_invite_text: Require a raison fir tae jyne
-        show_domain_blocks: Shaw domain dingies
-        show_domain_blocks_rationale: Shaw whit domains war dingied fir
-        site_contact_email: Contack email
-        site_contact_username: Contact uisernemm
-        site_extended_description: Extendit description
+        registrations_mode: Who can sign-up
+        require_invite_text: Require a reason to join
+        show_domain_blocks: Show domain blocks
+        show_domain_blocks_rationale: Show why domains were blocked
+        site_contact_email: Contact e-mail
+        site_contact_username: Contact username
+        site_extended_description: Extended description
         site_short_description: Server description
         site_terms: Privacy Policy
-        site_title: Server nemm
-        theme: Defaut theme
-        thumbnail: Server thoomnail
-        timeline_preview: Alloo unauthenticated access tae public timelines
-        trendable_by_default: Alloo trends athoot prior review
-        trends: Turn on trends
+        site_title: Server name
+        status_page_url: Status page URL
+        theme: Default theme
+        thumbnail: Server thumbnail
+        timeline_preview: Allow unauthenticated access to public timelines
+        trendable_by_default: Allow trends without prior review
+        trends: Enable trends
+        trends_as_landing_page: Use trends as the landing page
       interactions:
-        must_be_follower: Dingie notes fae non-follaers
-        must_be_following: Dingie notes fae fowk ye dinnae follae
-        must_be_following_dm: Fingie direct messages fae fowk thit ye dinnae follae
+        must_be_follower: Block notifications from non-followers
+        must_be_following: Block notifications from people you don't follow
+        must_be_following_dm: Block direct messages from people you don't follow
       invite:
         comment: Comment
       invite_request:
-        text: Whit dae ye want tae jyne fir?
+        text: Why do you want to join?
       ip_block:
         comment: Comment
         ip: IP
         severities:
-          no_access: Dingie access
-          sign_up_block: Dingie sign-ups
+          no_access: Block access
+          sign_up_block: Block sign-ups
           sign_up_requires_approval: Limit sign-ups
         severity: Rule
       notification_emails:
-        appeal: Somebody appeals a moderator decision
-        digest: Sen digest emails
-        favourite: Somebody favouritit yer post
-        follow: Somebody follaed ye
-        follow_request: Somebody requestit fir tae follae ye
-        mention: Somebody menshied ye
-        pending_account: New accoont is needin reviewit
-        reblog: Somebody heezed yer post
-        report: New clype is submittit
-        trending_tag: New trend requires reviewin
+        appeal: Someone appeals a moderator decision
+        digest: Send digest e-mails
+        favourite: Someone favourited your post
+        follow: Someone followed you
+        follow_request: Someone requested to follow you
+        mention: Someone mentioned you
+        pending_account: New account needs review
+        reblog: Someone boosted your post
+        report: New report is submitted
+        trending_tag: New trend requires review
       rule:
         text: Rule
       tag:
-        listable: Alloo this hashtag tae appear in seirches an suggestions
+        listable: Allow this hashtag to appear in searches and suggestions
         name: Hashtag
-        trendable: Alloo this hashtag fir tae appear unner trends
-        usable: Alloo posts fir tae uise this hashtag
+        trendable: Allow this hashtag to appear under trends
+        usable: Allow posts to use this hashtag
       user:
         role: Role
       user_role:
-        color: Badge colour
-        highlighted: Display role as badge on uiser profiles
-        name: Nemm
+        color: Badge color
+        highlighted: Display role as badge on user profiles
+        name: Name
         permissions_as_keys: Permissions
         position: Priority
       webhook:
-        events: Enabilt events
-        url: Enpynt URL
-    'no': Naw
-    not_recommended: No recommendit
-    recommended: Recommendit
+        events: Enabled events
+        url: Endpoint URL
+    'no': 'No'
+    not_recommended: Not recommended
+    recommended: Recommended
     required:
       mark: "*"
-      text: requirit
+      text: required
     title:
       sessions:
-        webauthn: Uise ane o yer security keys fir tae sign in
-    'yes': Ay
+        webauthn: Use one of your security keys to sign in
+    'yes': 'Yes'
