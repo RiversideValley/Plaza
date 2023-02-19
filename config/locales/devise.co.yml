@@ -2,114 +2,114 @@
 co:
   devise:
     confirmations:
-      confirmed: U vostru indirizzu email hè statu cunfirmatu.
-      send_instructions: Avete da riceve un’email cù l’istruzzione di cunfirmazione in qualchì minuta. Pensate à verificà u cartulare di spam s’ellu ùn c’hè nunda.
-      send_paranoid_instructions: S’ellu esiste u vostru indirizzu email in a database, avete da riceve l’istruzzione pè cunfirmà u vostru contu in qualchì minuta. Pensate à verificà u cartulare di spam s’ellu ùn c’hè nunda.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: Site digià cunnettatu·a.
-      inactive: U vostru contu ùn hè ancu attivatu.
-      invalid: L’ %{authentication_keys} o a chjave d’accessu ùn sò curretti.
-      last_attempt: Avete un’ultimu tintativu nanzu chì u vostru contu sia chjosu.
-      locked: U vostru contu hè chjosu.
-      not_found_in_database: L’ %{authentication_keys} o a chjave d’accessu ùn sò curretti.
-      pending: U vostru contu hè sempre in corsu di rivista.
-      timeout: A vostra sezzione hè spirata. Ricunnettatevi pè cuntinuà.
-      unauthenticated: Cunnettatevi o arregistratevi pè cuntinuà.
-      unconfirmed: Duvete cunfirmà u vostru contu pè cuntinuà.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Verificà l’indirizzu email
-        action_with_app: Cunfirmà è rivene à %{app}
-        explanation: Avete creatu un contu nant’à %{host} cù st’indirizzu email. Pudete attivallu cù un clic, o ignurà quessu missaghji s’ellu un era micca voi.
-        explanation_when_pending: Avete dumandatu un'invitazione à %{host}, cù st'indirizzu e-mail. Una volta ch'ellu hè cunfirmatu, avemu da dà un'ochjata à a vostra dumanda. Ùn pudete micca cunnettavi nanz'à quessa. S'ella hè righjittata a vostra dumanda, i vostri dati saranu sguassati è ùn duverete fà nund'altru. S'ellu ùn era micca voi, pudete ignurà quess'e-mail.
-        extra_html: Pensate à leghje <a href="%{terms_path}">e regule di u servore</a> è <a href="%{policy_path}">i termini d’usu</a>.
-        subject: 'Mastodon: Istruzzione di cunfirmazione per %{instance}'
-        title: Verificà l’indirizzu email
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'L’indirizzu email di u vostru contu hè stata cambiata per:'
-        extra: S’ellu un era micca voi ch’avete cambiatu u vostru email, qualch’un’altru hà accessu à u vostru contu. Duvete cambià a vostra chjave d’accessu o cuntattà l’amministratore di u servore s’ellu ùn hè più pussibule di cunnettavi.
-        subject: 'Mastodon: Email cambiatu'
-        title: Novu indirizzu email
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
+        title: New email address
       password_change:
-        explanation: A chjave d’accessu per u vostru contu hè stata cambiata.
-        extra: S’ellu un era micca voi ch’avete cambiatu a vostra chjave d’accessu, qualch’un’altru hà accessu à u vostru contu. Duvete cambià a vostra chjave d’accessu o cuntattà l’amministratore di u servore s’ellu ùn hè più pussibule di cunnettavi.
-        subject: 'Mastodon: Chjave d’accessu cambiata'
-        title: Chjave cambiata
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: Cunfirmà u novu indirizzu per cambià l’email.
-        extra: S’ellu ùn era micca voi, ignurate stu missaghju. L’email ùn cambiarà micca s’è voi ùn cliccate micca u ligame.
-        subject: 'Mastodon: Cunfirmà l’email per %{instance}'
-        title: Verificà indirizzu email
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: Cambià a chjave d’accessu
-        explanation: Avete dumandatu una nova chjave d’accessu per u vostru contu.
-        extra: S’ellu ùn era micca voi, ignurate stu missaghju. A chjave d’accessu ùn cambiarà micca s’è voi ùn cliccate micca u ligame.
-        subject: 'Mastodon: Cambià a chjave d’accessu'
-        title: Cambià a chjave
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: L'autentificazione à dui fattori per u vostru contu hè stata disattivata. A cunnessione hè avà pussibule cù l'usu solu di u vostru e-mail è di a chjave d'accessu.
-        subject: 'Mastodon: Autentificazione à dui fattori disattivata'
-        title: A2F disattivata
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: L'autentificazione à dui fattori hè stata attivata per u vostru contu. Un codice, o fiscia, generata da l'applicazione TOTP assuciata sarà dumandata per cunnettavvi.
-        subject: 'Mastodon: Autentificazione à dui fattori attivata'
-        title: A2F attivata
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: I codici di ricuperazione pricidenti ùn sò più validi è un novu inseme di codici hè statu creatu.
-        subject: 'Mastodon: Rigenerazione di i codici à dui fattori di ricuperazione'
-        title: Cambiamentu di i codici di ricuperazione d'A2F
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'Mastodon: Riapre u contu'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: A chjave di sicurità quì sottu hè stata aghjunta à u vostru contu
-          subject: 'Mastodon: Nova chjave di sicurità'
-          title: Una nova chjave di sicurità hè stata aghjunta
+          explanation: The following security key has been added to your account
+          subject: 'Mastodon: New security key'
+          title: A new security key has been added
         deleted:
-          explanation: A chjave di sicurità quì sottu hè stata sguassata di u vostru contu
-          subject: 'Mastodon: Chjave di sicurità sguassata'
-          title: Una di e vostre chjave di sicurità hè stata sguassata
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: L'autentificazione cù una chjave di sicurità hè stata disattivata per u vostru contu. Avà pudete solu cunnettavi cù u codice di cunnessione generatu da l'applicazione TOTP appaghjata.
-        subject: 'Mastodon: Autentificazione cù chjave di sicurità disattivata'
-        title: Chjave di sicurità disattivate
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: L'autentificazione cù una chjave di sicurità hè stata attivata per u vostru contu. Avà a vostra chjave pò esse utilizata per cunnettavi.
-        subject: 'Mastodon: Identificazione cù chjave di sicurità attivata'
-        title: Chjave di sicurità attivate
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: Ùn pudemu micca cunnettavi da %{kind} perchè "%{reason}".
-      success: Vi site cunnettatu·a da %{kind}.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: Ùn pudete micca vede sta pagina senza vene d’un e-mail di cambiamentu di chjave d’accessu. S’è voi venite quì dapoi st’e-mail, assicuratevi ch’avete utilizatu l’indirizzu URL cumpletu.
-      send_instructions: Avete da riceve l’istruzzione di cambiamentu di a chjave d’accessu in qualchì minuta.
-      send_paranoid_instructions: S’ellu esiste u vostr’e-mail in a database, avete da riceve un ligame di reinizialisazione.
-      updated: A vostra chjave d’accessu hè stata cambiata, è site cunnettatu·a.
-      updated_not_active: A vostra chjave d’accessu hè stata cambiata.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: Avvedeci! U vostru contu hè statu sguassatu. Speremu di vi rivede da prestu.
-      signed_up: Benvinutu! Site cunnettatu·a.
-      signed_up_but_inactive: Site arregistratu·a, mà ùn pudete micca cunnettavi perchè u vostru contu deve esse attivatu.
-      signed_up_but_locked: Site arregistratu·a, mà ùn pudete micca cunnettavi perchè u vostru contu hè chjosu.
-      signed_up_but_pending: Un missaghju cù un ligame di cunfirmazione hè statu mandatu à u vostr'indirizzu e-mail. Dop'à avè cliccatu u ligame, avemu da rivede a vostra dumanda - sarete nutificatu·a s'ella hè appruvata.
-      signed_up_but_unconfirmed: Un missaghju cù un ligame di cunfirmazione hè statu mandatu à u vostru indirizzu e-mail. Aprite stu ligame pè attivà u vostru contu. Pensate à verificà u cartulare di spam s’ellu ùn c’hè nunda.
-      update_needs_confirmation: U vostru contu hè statu messu à ghjornu mà duvemu verificà u vostru novu e-mail. Un missaghju cù un ligame di cunfirmazione hè statu mandatu. Pensate à verificà u cartulare di spam s’ellu ùn c’hè nunda.
-      updated: U vostru contu hè statu messu à ghjornu.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: Scunnettatu·a.
-      signed_in: Cunnettatu·a.
-      signed_out: Scunnettatu·a.
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: Avete da riceve un’e-mail cù l’istruzzione pè riapre u vostru contu in qualchì minuta.
-      send_paranoid_instructions: S’ellu esiste u vostru contu, avete da riceve un’e-mail dù l’istruzzione pè riapre u vostru contu.
-      unlocked: U vostru contu hè statu riapertu, pudete cunnettavi pè cuntinuà.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: hè digià cunfirmatu, pudete pruvà à cunnettà vi
-      confirmation_period_expired: deve esse cunfirmatu nanz’à %{period}, duvete fà un’altra dumanda
-      expired: hè spiratu, duvete fà un’altra dumanda
-      not_found: ùn hè micca statu trovu
-      not_locked: ùn era micca chjosu
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        one: 'Un prublemu hà impeditu a cunservazione di stu/sta %{resource}:'
-        other: "%{count} prublemi anu impeditu a cunservazione di stu/sta %{resource} :"
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: "%{count} errors prohibited this %{resource} from being saved:"
