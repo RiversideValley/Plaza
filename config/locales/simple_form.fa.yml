@@ -3,259 +3,315 @@ fa:
   simple_form:
     hints:
       account_alias:
-        acct: مشخّص کردن username@domain حسابی که می‌خواهید از آن منتقل شوید
+        acct: Specify the username@domain of the account you want to move from
       account_migration:
-        acct: مشخّص کردن username@domain حسابی که می‌خواهید به آن منتقل شوید
+        acct: Specify the username@domain of the account you want to move to
       account_warning_preset:
-        text: می‌توانید مانند فرسته‌های معمولی کاربران دیگر را نام ببرید یا پیوند و برچسب بگذارید
-        title: اختیاری. برای گیرنده قابل مشاهده نیست
+        text: You can use post syntax, such as URLs, hashtags and mentions
+        title: Optional. Not visible to the recipient
       admin_account_action:
-        include_statuses: این کاربر خواهد دید که کدام فرسته او موجب اقدام مدیریتی یا هشدار شده است
-        send_email_notification: توضیحی که کاربر می‌بینید که برای حسابش چه رخ داده است
-        text_html: اختیاری. می‌توانید مثل فرسته‌های معمولی بنویسید. می‌توانید برای صرفه‌جویی در زمان <a href="%{path}">هشدارهای ازپیش‌آماده بیفزایید</a>
-        type_html: با حساب <strong>%{acct}</strong> می‌خواهید چه کار کنید؟‌
+        include_statuses: The user will see which posts have caused the moderation action or warning
+        send_email_notification: The user will receive an explanation of what happened with their account
+        text_html: Optional. You can use post syntax. You can <a href="%{path}">add warning presets</a> to save time
+        type_html: Choose what to do with <strong>%{acct}</strong>
         types:
-          disable: از استفادهٔ کاربر از حسابش جلوگیری می‌کند، ولی محتوایش را حذف یا پنهان نمی‌کند.
-          none: برای فرستادن هشداری به کاربر، بدون هیچ کنش دیگری استفاده کنید.
-          sensitive: اجبار همهٔ پیوست‌های رسانه‌ای این کاربر برای نشانه‌گذاری به عنوان حساس.
-          silence: جلوگیری از توانایی کاربر برای فرستادن با نمایانی عمومی، نهفتن فرسته‌ها و آگاهی‌هایش از افرادی که دنبالش نمی‌کنند. تمامی گزارش‌ها در مورد این حساب را می‌بندد.
-          suspend: جلوگیری از هر برهم‌کنشی از یا به این حساب و حذف محتواهایش. قابل بازگشت در عرض ۳۰ روز. تمامی گزارش‌ها در مورد این حساب را می‌بندد.
-        warning_preset_id: اختیاری. همچنان می‌توانید در پایان متن آماده چیزی بیفزایید
+          disable: Prevent the user from using their account, but do not delete or hide their contents.
+          none: Use this to send a warning to the user, without triggering any other action.
+          sensitive: Force all this user's media attachments to be flagged as sensitive.
+          silence: Prevent the user from being able to post with public visibility, hide their posts and notifications from people not following them. Closes all reports against this account.
+          suspend: Prevent any interaction from or to this account and delete its contents. Revertible within 30 days. Closes all reports against this account.
+        warning_preset_id: Optional. You can still add custom text to end of the preset
       announcement:
-        all_day: هنگام گزینش، تنها تاریخ‌های بازهٔ زمانی نمایش داده خواهند شد
-        ends_at: اختیاری. اعلامیه در این به صورت خودکار نامنتشر خواهد شد
-        scheduled_at: برای انتشار فوری اعلامیه، خالی بگذارید
-        starts_at: اختیاری. در صورتی که اعلامیه‌تان محدود به بازهٔ زمانی خاصی است
-        text: می‌توانید مانند یک فرسته‌ معمولی بنویسید. یادتان باشد که اعلامیهٔ شما فضای صفحهٔ کاربران را اشغال خواهد کرد
+        all_day: When checked, only the dates of the time range will be displayed
+        ends_at: Optional. Announcement will be automatically unpublished at this time
+        scheduled_at: Leave blank to publish the announcement immediately
+        starts_at: Optional. In case your announcement is bound to a specific time range
+        text: You can use post syntax. Please be mindful of the space the announcement will take up on the user's screen
       appeal:
-        text: فقط یک بار می‌توانید برای اخطار درخواست تجدیدنظر کنید
+        text: You can only appeal a strike once
       defaults:
-        autofollow: کسانی که از راه دعوت‌نامه عضو می‌شوند به طور خودکار پیگیر شما خواهند شد
-        avatar: یکی از قالب‌های PNG یا  GIF یا JPG. بیشترین اندازه %{size}. تصویر به اندازهٔ %{dimensions} پیکسل تبدیل خواهد شد
-        bot: این حساب بیشتر به طور خودکار فعالیت می‌کند و نظارت پیوسته‌ای روی آن وجود ندارد
-        context: یک یا چند زمینه که پالایه باید در آن‌ها اعمال شود
-        current_password: به دلایل امنیتی لطفاً رمز این حساب را وارد کنید
-        current_username: برای تأیید، لطفاً نام کاربری حساب فعلی را وارد کنید
-        digest: تنها وقتی فرستاده می‌شود که مدتی طولانی فعالیتی نداشته باشید و در این مدت برای شما پیغام خصوصی‌ای نوشته شده باشد
-        discoverable: اجازه دهید حساب‌تان از طریق پیشنهادها، پرطرفدارها و سایر قابلیت‌ها، توسط افراد غریبه قابل کشف باشد
-        email: به شما ایمیل تأییدی فرستاده خواهد شد
-        fields: شما می‌توانید تا چهار مورد را در یک جدول در نمایهٔ خود نمایش دهید
-        header: یکی از قالب‌های PNG یا  GIF یا JPG. بیشترین اندازه %{size}. تصویر به اندازهٔ %{dimensions} پیکسل تبدیل خواهد شد
-        inbox_url: نشانی صفحهٔ اصلی رله‌ای را که می‌خواهید به کار ببرید کپی کنید
-        irreversible: فرسته‌های پالوده به طور برگشت‌ناپذیری ناپدید می‌شوند، حتا اگر بعدها پالایه برداشته شود
-        locale: زبان واسط کاربری، رایانامه‌ها و آگاهی‌های ارسالی
-        locked: باید پیگیران تازه را خودتان تأیید کنید
-        password: دست‌کم باید ۸ نویسه داشته باشد
-        phrase: مستقل از کوچکی و بزرگی حروف، با متن اصلی یا هشدار محتوای فرسته‌ها مقایسه می‌شود
-        scopes: واسط‌های برنامه‌نویسی که این برنامه به آن دسترسی دارد. اگر بالاترین سطح دسترسی را انتخاب کنید، دیگر نیازی به انتخاب سطح‌های پایینی ندارید.
-        setting_aggregate_reblogs: برای تقویت‌هایی که به تازگی برایتان نمایش داده شده‌اند، تقویت‌های بیشتر را نمایش نده (فقط روی تقویت‌های اخیر تأثیر می‌گذارد)
-        setting_always_send_emails: در حالت عادی آگاهی‌های رایانامه‌ای هنگامی که فعّالانه از ماستودون استفاده می‌کنید فرستاده نمی‌شوند
-        setting_default_sensitive: تصاویر حساس به طور پیش‌فرض پنهان هستند و می‌توانند با یک کلیک آشکار شوند
-        setting_display_media_default: تصویرهایی را که به عنوان حساس علامت زده شده‌اند پنهان کن
-        setting_display_media_hide_all: همیشه همهٔ عکس‌ها و ویدیوها را پنهان کن
-        setting_display_media_show_all: همیشه تصویرهایی را که به عنوان حساس علامت زده شده‌اند را نشان بده
-        setting_hide_network: فهرست پیگیران شما و فهرست کسانی که شما پی می‌گیرید روی نمایهٔ شما دیده نخواهد شد
-        setting_noindex: روی نمایهٔ عمومی و صفحهٔ نوشته‌های شما تأثیر می‌گذارد
-        setting_show_application: برنامه‌ای که به کمک آن فرسته می‌زنید، در جزئیات فرسته شما نمایش خواهد یافت
-        setting_use_blurhash: سایه‌ها بر اساس رنگ‌های به‌کاررفته در تصویر پنهان‌شده ساخته می‌شوند ولی جزئیات تصویر در آن‌ها آشکار نیست
-        setting_use_pending_items: به جای پیش‌رفتن خودکار در فهرست، به‌روزرسانی فهرست نوشته‌ها را پشت یک کلیک پنهان کن
-        username: نام کاربری شما روی %{domain} یکتا خواهد بود
-        whole_word: اگر کلیدواژه فقط دارای حروف و اعداد باشد، تنها وقتی پیدا می‌شود که با کل یک واژه در متن منطبق باشد، نه با بخشی از یک واژه
+        autofollow: People who sign up through the invite will automatically follow you
+        avatar: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        bot: Signal to others that the account mainly performs automated actions and might not be monitored
+        context: One or multiple contexts where the filter should apply
+        current_password: For security purposes please enter the password of the current account
+        current_username: To confirm, please enter the username of the current account
+        digest: Only sent after a long period of inactivity and only if you have received any personal messages in your absence
+        discoverable: Allow your account to be discovered by strangers through recommendations, trends and other features
+        email: You will be sent a confirmation e-mail
+        fields: You can have up to 4 items displayed as a table on your profile
+        header: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        inbox_url: Copy the URL from the frontpage of the relay you want to use
+        irreversible: Filtered posts will disappear irreversibly, even if filter is later removed
+        locale: The language of the user interface, e-mails and push notifications
+        locked: Manually control who can follow you by approving follow requests
+        password: Use at least 8 characters
+        phrase: Will be matched regardless of casing in text or content warning of a post
+        scopes: Which APIs the application will be allowed to access. If you select a top-level scope, you don't need to select individual ones.
+        setting_aggregate_reblogs: Do not show new boosts for posts that have been recently boosted (only affects newly-received boosts)
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Mastodon
+        setting_default_sensitive: Sensitive media is hidden by default and can be revealed with a click
+        setting_display_media_default: Hide media marked as sensitive
+        setting_display_media_hide_all: Always hide media
+        setting_display_media_show_all: Always show media
+        setting_hide_network: Who you follow and who follows you will be hidden on your profile
+        setting_noindex: Affects your public profile and post pages
+        setting_show_application: The application you use to post will be displayed in the detailed view of your posts
+        setting_use_blurhash: Gradients are based on the colors of the hidden visuals but obfuscate any details
+        setting_use_pending_items: Hide timeline updates behind a click instead of automatically scrolling the feed
+        username: Your username will be unique on %{domain}
+        whole_word: When the keyword or phrase is alphanumeric only, it will only be applied if it matches the whole word
       domain_allow:
-        domain: این دامین خواهد توانست داده‌ها از این سرور را دریافت کند و داده‌های از این دامین در این‌جا پردازش و ذخیره خواهند شد
+        domain: This domain will be able to fetch data from this server and incoming data from it will be processed and stored
       email_domain_block:
-        domain: این می‌تواند نام دامنه‌ای باشد که در نشانی رایانامه یا رکورد MX استفاده می‌شود. پس از ثبت نام بررسی خواهند شد.
-        with_dns_records: تلاشی برای resolve کردن رکوردهای ساناد دامنهٔ داده‌شده انجام شده و نتیجه نیز مسدود خواهد شد
+        domain: This can be the domain name that shows up in the e-mail address or the MX record it uses. They will be checked upon sign-up.
+        with_dns_records: An attempt to resolve the given domain's DNS records will be made and the results will also be blocked
       featured_tag:
-        name: 'این‌ها برخی از برچسب‌هایی هستند که به تازگی استفاده کرده‌اید:'
+        name: 'Here are some of the hashtags you used the most recently:'
       filters:
-        action: گزینش کنشی که هنگام تطابق فرسته‌ای با پالایه انجام شود
+        action: Chose which action to perform when a post matches the filter
         actions:
-          hide: نهفتن کامل محتوای پالوده، گویی وجود ندارد
-          warn: نهفتن محتوای پالوده پشت هشداری که به عنوان پالایه اشاره می‌کند
+          hide: Completely hide the filtered content, behaving as if it did not exist
+          warn: Hide the filtered content behind a warning mentioning the filter's title
       form_admin_settings:
-        backups_retention_period: نگه داشتن بایگانی‌های کاربری برای روزهای مشخّص شده.
+        activity_api_enabled: Counts of locally published posts, active users, and new registrations in weekly buckets
+        backups_retention_period: Keep generated user archives for the specified number of days.
+        bootstrap_timeline_accounts: These accounts will be pinned to the top of new users' follow recommendations.
+        closed_registrations_message: Displayed when sign-ups are closed
+        content_cache_retention_period: Posts from other servers will be deleted after the specified number of days when set to a positive value. This may be irreversible.
+        custom_css: You can apply custom styles on the web version of Mastodon.
+        mascot: Overrides the illustration in the advanced web interface.
+        media_cache_retention_period: Downloaded media files will be deleted after the specified number of days when set to a positive value, and re-downloaded on demand.
+        peers_api_enabled: A list of domain names this server has encountered in the fediverse. No data is included here about whether you federate with a given server, just that your server knows about it. This is used by services that collect statistics on federation in a general sense.
+        profile_directory: The profile directory lists all users who have opted-in to be discoverable.
+        require_invite_text: When sign-ups require manual approval, make the “Why do you want to join?” text input mandatory rather than optional
+        site_contact_email: How people can reach you for legal or support inquiries.
+        site_contact_username: How people can reach you on Mastodon.
+        site_extended_description: Any additional information that may be useful to visitors and your users. Can be structured with Markdown syntax.
+        site_short_description: A short description to help uniquely identify your server. Who is running it, who is it for?
+        site_terms: Use your own privacy policy or leave blank to use the default. Can be structured with Markdown syntax.
+        site_title: How people may refer to your server besides its domain name.
+        status_page_url: URL of a page where people can see the status of this server during an outage
+        theme: Theme that logged out visitors and new users see.
+        thumbnail: A roughly 2:1 image displayed alongside your server information.
+        timeline_preview: Logged out visitors will be able to browse the most recent public posts available on the server.
+        trendable_by_default: Skip manual review of trending content. Individual items can still be removed from trends after the fact.
+        trends: Trends show which posts, hashtags and news stories are gaining traction on your server.
+        trends_as_landing_page: Show trending content to logged-out users and visitors instead of a description of this server. Requires trends to be enabled.
       form_challenge:
-        current_password: شما در حال ورود به یک منطقهٔ‌ حفاظت‌شده هستید
+        current_password: You are entering a secure area
       imports:
-        data: پروندهٔ CSV برون‌ریخته از دیگر کارساز ماستودون
+        data: CSV file exported from another Mastodon server
       invite_request:
-        text: این برای بررسی درخواست شما به ما کمک خواهد کرد
+        text: This will help us review your application
       ip_block:
-        comment: اختیاری. یادتان بماند چرا این قاعده را افزودید.
-        expires_in: نشانی‌های آی‌پی، منبعی محدودند. گاهی هم‌رسانی شده و اغلب دست‌به‌دست می‌شوند. به این دلیل، مسدودیت‌های مبتنی بر آی‌پی پیشنهاد نمی‌شوند.
-        ip: یک آی‌پی نکارش ۴ یا ۶ وارد کنید. می‌توانید تمامی دامنه‌ای را با استفاده از ساختار CIDR مسدود کنید. مراقب باشید خودتان را بیرون نیندازید!
+        comment: Optional. Remember why you added this rule.
+        expires_in: IP addresses are a finite resource, they are sometimes shared and often change hands. For this reason, indefinite IP blocks are not recommended.
+        ip: Enter an IPv4 or IPv6 address. You can block entire ranges using the CIDR syntax. Be careful not to lock yourself out!
         severities:
-          no_access: انسداد دسترسی به تمامی منابع
-          sign_up_requires_approval: ثبت‌نام‌های جدید، نیازمند تأییدتان خواهند بود
-        severity: بگزنید با درخواست‌ها از این آی‌پی چه شود
+          no_access: Block access to all resources
+          sign_up_block: New sign-ups will not be possible
+          sign_up_requires_approval: New sign-ups will require your approval
+        severity: Choose what will happen with requests from this IP
       rule:
-        text: قائده یا نیازمندی‌هایی را برای کاربران این کارساز تشریح کنید. سعی کنید آن را ساده و کوتاه نگاه دارید
+        text: Describe a rule or requirement for users on this server. Try to keep it short and simple
       sessions:
-        otp: 'کد تأیید دومرحله‌ای که اپ روی تلفن شما ساخته را وارد کنید یا یکی از کدهای بازیابی را به کار ببرید:'
-        webauthn: اگر کلید USB باشد ، از اتصاڵ آن مطمئن شوید و، اگر لازم باشد، به آن ضربه‌ایی بزنید.
+        otp: 'Enter the two-factor code generated by your phone app or use one of your recovery codes:'
+        webauthn: If it's an USB key be sure to insert it and, if necessary, tap it.
       tag:
-        name: شما تنها می‌توانید بزرگی و کوچکی حروف را تغییر دهید تا مثلاً آن را خواناتر کنید
+        name: You can only change the casing of the letters, for example, to make it more readable
       user:
-        chosen_languages: اگر انتخاب کنید، تنها نوشته‌هایی که به زبان‌های برگزیدهٔ شما نوشته شده‌اند در فهرست نوشته‌های عمومی نشان داده می‌شوند
+        chosen_languages: When checked, only posts in selected languages will be displayed in public timelines
+        role: The role controls which permissions the user has
+      user_role:
+        color: Color to be used for the role throughout the UI, as RGB in hex format
+        highlighted: This makes the role publicly visible
+        name: Public name of the role, if role is set to be displayed as a badge
+        permissions_as_keys: Users with this role will have access to...
+        position: Higher role decides conflict resolution in certain situations. Certain actions can only be performed on roles with a lower priority
+      webhook:
+        events: Select events to send
+        url: Where events will be sent to
     labels:
       account:
         fields:
-          name: برچسب
-          value: محتوا
+          name: Label
+          value: Content
       account_alias:
-        acct: نشانی حساب قدیمی
+        acct: Handle of the old account
       account_migration:
-        acct: نشانی حساب تازه
+        acct: Handle of the new account
       account_warning_preset:
-        text: متن از پیش آماده‌شده
-        title: عنوان
+        text: Preset text
+        title: Title
       admin_account_action:
-        include_statuses: فرسته‌های گزارش‌شده را در ایمیل بگنجان
-        send_email_notification: اطلاع‌رسانی به کاربر از راه ایمیل
-        text: هشدار موردی
-        type: کنش
+        include_statuses: Include reported posts in the e-mail
+        send_email_notification: Notify the user per e-mail
+        text: Custom warning
+        type: Action
         types:
-          disable: غیرفعال‌کردن
-          none: کاری نکن
-          sensitive: حساس
-          silence: بی‌صدا کردن
-          suspend: تعلیق و پاک‌کردن کامل همهٔ اطلاعات حساب
-        warning_preset_id: یک هشدار از پیش‌آماده را به کار ببرید
+          disable: Freeze
+          none: Send a warning
+          sensitive: Sensitive
+          silence: Limit
+          suspend: Suspend
+        warning_preset_id: Use a warning preset
       announcement:
-        all_day: رویداد تمام‌روز
-        ends_at: پایان رویداد
-        scheduled_at: زمان‌بندی انتشار
-        starts_at: آغاز رویداد
-        text: اعلامیه
+        all_day: All-day event
+        ends_at: End of event
+        scheduled_at: Schedule publication
+        starts_at: Start of event
+        text: Announcement
       appeal:
-        text: توضیح دهید که چرا این تصمیم باید معکوس شود
+        text: Explain why this decision should be reversed
       defaults:
-        autofollow: دعوت از دیگران برای عضو شدن و پیگیری حساب شما
-        avatar: تصویر نمایه
-        bot: این حساب یک ربات است
-        chosen_languages: جدا کردن زبان‌ها
-        confirm_new_password: تأیید رمز تازه
-        confirm_password: تأیید رمز
-        context: زمینه‌های پالایش
-        current_password: رمز فعلی
-        data: داده‌ها
-        discoverable: پیشنهاد حساب به دیگران
-        display_name: نمایش به نام
-        email: نشانی ایمیل
-        expires_in: تاریخ انقضا
-        fields: اطلاعات تکمیلی نمایه
-        header: تصویر زمینه
-        honeypot: "%{label} (پر نکنید)"
-        inbox_url: نشانی صندوق ورودی رله
-        irreversible: به جای پنهان‌سازی، حذف کن
-        locale: زبان محیط کاربری
-        locked: خصوصی‌کردن حساب
-        max_uses: بیشترین شمار استفاده
-        new_password: رمز تازه
-        note: دربارهٔ شما
-        otp_attempt: کد ورود دومرحله‌ای
-        password: رمز
-        phrase: کلیدواژه یا عبارت
-        setting_advanced_layout: فعال‌سازی رابط کاربری پیشرفته
-        setting_aggregate_reblogs: تقویت‌ها را در خط‌زمانی گروه‌بندی کن
-        setting_auto_play_gif: پخش خودکار تصویرهای متحرک
-        setting_boost_modal: نمایش پیغام تأیید پیش از تقویت کردن
-        setting_crop_images: در فرسته‌های ناگسترده، تصویرها را به ابعاد ‎۱۶×۹ کوچک کن
-        setting_default_language: زبان نوشته‌های شما
-        setting_default_privacy: حریم خصوصی نوشته‌ها
-        setting_default_sensitive: همیشه تصاویر را به عنوان حساس علامت بزن
-        setting_delete_modal: نمایش پیغام تأیید پیش از پاک کردن یک نوشته
-        setting_disable_swiping: از کار انداختن حرکت‌های کشیدنی
-        setting_display_media: نمایش عکس و ویدیو
-        setting_display_media_default: پیش‌فرض
-        setting_display_media_hide_all: نهفتن همه
-        setting_display_media_show_all: نمایش همه
-        setting_expand_spoilers: همیشه فرسته‌هایی را که هشدار محتوا دارند کامل نشان بده
-        setting_hide_network: نهفتن شبکهٔ ارتباطی
-        setting_noindex: درخواست از موتورهای جستجوگر برای ظاهر نشدن در نتایج جستجو
-        setting_reduce_motion: کاستن از حرکت در پویانمایی‌ها
-        setting_show_application: برنامه‌ای که به کار می‌برید آشکار شود
-        setting_system_font_ui: به‌کاربردن قلم پیش‌فرض سیستم
-        setting_theme: تم سایت
-        setting_trends: نشان‌دادن موضوعات پرطرفدار روز
-        setting_unfollow_modal: نمایش پیغام تأیید پیش از لغو پیگیری دیگران
-        setting_use_blurhash: به جای تصویرهای پنهان‌شده، سایه‌های رنگی نشان بده
-        setting_use_pending_items: حالت آهسته
-        severity: شدت
-        sign_in_token_attempt: کد امنیتی
-        title: عنوان
-        type: نوع درون‌ریزی
-        username: نام کاربری (لاتین)
-        username_or_email: نام کاربری یا ایمیل
-        whole_word: تطابق واژهٔ کامل
+        autofollow: Invite to follow your account
+        avatar: Avatar
+        bot: This is a bot account
+        chosen_languages: Filter languages
+        confirm_new_password: Confirm new password
+        confirm_password: Confirm password
+        context: Filter contexts
+        current_password: Current password
+        data: Data
+        discoverable: Suggest account to others
+        display_name: Display name
+        email: E-mail address
+        expires_in: Expire after
+        fields: Profile metadata
+        header: Header
+        honeypot: "%{label} (do not fill in)"
+        inbox_url: URL of the relay inbox
+        irreversible: Drop instead of hide
+        locale: Interface language
+        locked: Require follow requests
+        max_uses: Max number of uses
+        new_password: New password
+        note: Bio
+        otp_attempt: Two-factor code
+        password: Password
+        phrase: Keyword or phrase
+        setting_advanced_layout: Enable advanced web interface
+        setting_aggregate_reblogs: Group boosts in timelines
+        setting_always_send_emails: Always send e-mail notifications
+        setting_auto_play_gif: Auto-play animated GIFs
+        setting_boost_modal: Show confirmation dialog before boosting
+        setting_crop_images: Crop images in non-expanded posts to 16x9
+        setting_default_language: Posting language
+        setting_default_privacy: Posting privacy
+        setting_default_sensitive: Always mark media as sensitive
+        setting_delete_modal: Show confirmation dialog before deleting a post
+        setting_disable_swiping: Disable swiping motions
+        setting_display_media: Media display
+        setting_display_media_default: Default
+        setting_display_media_hide_all: Hide all
+        setting_display_media_show_all: Show all
+        setting_expand_spoilers: Always expand posts marked with content warnings
+        setting_hide_network: Hide your social graph
+        setting_noindex: Opt-out of search engine indexing
+        setting_reduce_motion: Reduce motion in animations
+        setting_show_application: Disclose application used to send posts
+        setting_system_font_ui: Use system's default font
+        setting_theme: Site theme
+        setting_trends: Show today's trends
+        setting_unfollow_modal: Show confirmation dialog before unfollowing someone
+        setting_use_blurhash: Show colorful gradients for hidden media
+        setting_use_pending_items: Slow mode
+        severity: Severity
+        sign_in_token_attempt: Security code
+        title: Title
+        type: Import type
+        username: Username
+        username_or_email: Username or Email
+        whole_word: Whole word
       email_domain_block:
-        with_dns_records: شامل رکوردهای MX و‌IPهای دامنه
+        with_dns_records: Include MX records and IPs of the domain
       featured_tag:
-        name: برچسب
+        name: Hashtag
       filters:
         actions:
-          hide: نهفتن کامل
-          warn: نهفتن با هشدار
+          hide: Hide completely
+          warn: Hide with a warning
       form_admin_settings:
-        backups_retention_period: دورهٔ نگه‌داری بایگانی کاربری
-        theme: زمینهٔ پیش‌گزیده
-        thumbnail: بندانگشتی کارساز
-        timeline_preview: اجازهٔ دسترسی بدون تأیید هویت به خط‌زمانی‌های عمومی
-        trendable_by_default: اجازهٔ پرطرفدار شدن بدون بازبینی پیشین
-        trends: به کار انداختن پرطرفدارها
+        activity_api_enabled: Publish aggregate statistics about user activity in the API
+        backups_retention_period: User archive retention period
+        bootstrap_timeline_accounts: Always recommend these accounts to new users
+        closed_registrations_message: Custom message when sign-ups are not available
+        content_cache_retention_period: Content cache retention period
+        custom_css: Custom CSS
+        mascot: Custom mascot (legacy)
+        media_cache_retention_period: Media cache retention period
+        peers_api_enabled: Publish list of discovered servers in the API
+        profile_directory: Enable profile directory
+        registrations_mode: Who can sign-up
+        require_invite_text: Require a reason to join
+        show_domain_blocks: Show domain blocks
+        show_domain_blocks_rationale: Show why domains were blocked
+        site_contact_email: Contact e-mail
+        site_contact_username: Contact username
+        site_extended_description: Extended description
+        site_short_description: Server description
+        site_terms: Privacy Policy
+        site_title: Server name
+        status_page_url: Status page URL
+        theme: Default theme
+        thumbnail: Server thumbnail
+        timeline_preview: Allow unauthenticated access to public timelines
+        trendable_by_default: Allow trends without prior review
+        trends: Enable trends
+        trends_as_landing_page: Use trends as the landing page
       interactions:
-        must_be_follower: انسداد آگاهی‌ها از ناپی‌گیران
-        must_be_following: انسداد آگاهی‌ها از افرادی که پی نمی‌گیرید
-        must_be_following_dm: مسدودکردن پیغام‌های خصوصی کسانی که شما پی نمی‌گیرید
+        must_be_follower: Block notifications from non-followers
+        must_be_following: Block notifications from people you don't follow
+        must_be_following_dm: Block direct messages from people you don't follow
       invite:
-        comment: توضیح
+        comment: Comment
       invite_request:
-        text: چرا می‌خواهید عضو شوید؟
+        text: Why do you want to join?
       ip_block:
-        comment: توضیح
-        ip: آی‌پی
+        comment: Comment
+        ip: IP
         severities:
-          no_access: بن کردن دسترسی
-          sign_up_block: مسدود کردن ثبت‌نام‌ها
-          sign_up_requires_approval: محدود کردن ثبت نام‌ها
-        severity: قانون
+          no_access: Block access
+          sign_up_block: Block sign-ups
+          sign_up_requires_approval: Limit sign-ups
+        severity: Rule
       notification_emails:
-        appeal: شخصی به تصمیم مدیر اعتراض کرد
-        digest: فرستادن رایانامه‌های خلاصه
-        favourite: وقتی کسی نوشتهٔ شما را پسندید ایمیل بفرست
-        follow: وقتی کسی پیگیر شما شد ایمیل بفرست
-        follow_request: وقتی کسی درخواست پیگیری کرد ایمیل بفرست
-        mention: وقتی کسی از شما نام برد ایمیل بفرست
-        pending_account: وقتی حساب تازه‌ای نیاز به بازبینی داشت ایمیل بفرست
-        reblog: وقتی کسی فرستهٔ شما را تقویت کرد ایمیل بفرست
-        report: گزارش جدیدی فرستاده شد
-        trending_tag: روند جدیدی نیازمند بازبینی است
+        appeal: Someone appeals a moderator decision
+        digest: Send digest e-mails
+        favourite: Someone favourited your post
+        follow: Someone followed you
+        follow_request: Someone requested to follow you
+        mention: Someone mentioned you
+        pending_account: New account needs review
+        reblog: Someone boosted your post
+        report: New report is submitted
+        trending_tag: New trend requires review
       rule:
-        text: قانون
+        text: Rule
       tag:
-        listable: اجازه به این برچسب برای ظاهر شدن در جست‌وجوها و پیشنهادها
-        name: برچسب
-        trendable: بگذارید که این برچسب در موضوعات پرطرفدار دیده شود
-        usable: بگذارید که این برچسب در فرسته‌ها به کار بروند
+        listable: Allow this hashtag to appear in searches and suggestions
+        name: Hashtag
+        trendable: Allow this hashtag to appear under trends
+        usable: Allow posts to use this hashtag
       user:
-        role: نقش
+        role: Role
       user_role:
-        color: رنگ نشان
-        highlighted: نمایش نقش به شکل نشان روی نمایهً کاربری
-        name: نام
-        permissions_as_keys: اجازه‌ها
-        position: اولویت
+        color: Badge color
+        highlighted: Display role as badge on user profiles
+        name: Name
+        permissions_as_keys: Permissions
+        position: Priority
       webhook:
-        events: رویدادهای به کار افتاده
-        url: نشانی نقطهٔ پایانی
-    'no': خیر
-    not_recommended: پیشنهاد نشده
-    recommended: توصیه می‌شود
+        events: Enabled events
+        url: Endpoint URL
+    'no': 'No'
+    not_recommended: Not recommended
+    recommended: Recommended
     required:
       mark: "*"
-      text: ضروری
+      text: required
     title:
       sessions:
-        webauthn: برای ورود از یکی از کلیدهای امنیتیتان استفاده کنید
-    'yes': بله
+        webauthn: Use one of your security keys to sign in
+    'yes': 'Yes'
