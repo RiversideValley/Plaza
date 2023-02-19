@@ -3,53 +3,53 @@ ms:
   activerecord:
     attributes:
       poll:
-        expires_at: Tarikh akhir
-        options: Pilihan
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Perjanjian perkhidmatan
-        email: Alamat e-mel
-        locale: Tempatan
-        password: Kata laluan
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Nama pengguna
+        username: Username
       user/invite_request:
-        text: Sebab
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: hanya mengandungi aksara, nombor dan garis bawah sahaja
-              reserved: dikhaskan
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: bukanlah URL yang sah
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: bukanlah URL yang sah
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: tersalah bentuk
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: hantaran sudah wujud
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: menggunakan pembekal e-mel yang tidak dibenarkan
-              unreachable: nampaknya tidak wujud
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: tidak boleh lebih tinggi daripada peranan semasa anda
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: termasuklah keizinan yang tidak selamat untuk peranan asas
-              elevated: tidak boleh memasukkan kebenaran yang tidak dimiliki oleh peranan semasa anda
-              own_role: tidak boleh diubah dengan peranan semasa anda
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: tidak boleh lebih tinggi daripada peranan semasa anda
-              own_role: tidak boleh diubah dengan peranan semasa anda
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
