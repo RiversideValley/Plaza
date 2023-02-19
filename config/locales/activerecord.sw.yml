@@ -1,5 +1,5 @@
 ---
-sw-TZ:
+sw:
   activerecord:
     attributes:
       poll:
