@@ -925,7 +925,7 @@ fi:
     new_report:
       body: "%{reporter} on raportoinut kohteen %{target}"
       body_remote: Joku osoitteesta %{domain} on raportoinut kohteen %{target}
-      subject: Uusi raportti instanssista %{instance} (nro %{id})
+      subject: 'Uusi raportti instanssista %{instance} (nro %{id})'
     new_trends:
       body: 'Seuraavat kohteet on tarkistettava ennen kuin ne voidaan näyttää julkisesti:'
       new_trending_links:
