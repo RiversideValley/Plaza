@@ -3,53 +3,53 @@ fo:
   activerecord:
     attributes:
       poll:
-        expires_at: Freist
-        options: Val
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Tænastuavtala
-        email: Teldupostur
-        locale: Staðbundið
-        password: Loyniorð
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Brúkaranavn
+        username: Username
       user/invite_request:
-        text: Orsøk
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: kann bara innihalda bókstavir, tøl og botnstriku
-              reserved: er umbiðið
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: er ikki eitt rætt leinki
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: er ikki eitt rætt leinki
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: er avskeplað
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: frá posti sum longu finst
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: brúkar ein ikki loyvdan teldopostveitara
-              unreachable: tykist ikki at vera til
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: kann ikki vera hægri enn verandi støða
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: inniheldur loyvi, ið ikki eru trygg, á grundstøði
-              elevated: rúmar ikki loyvum ið tín verandi støða loyvir
-              own_role: kann ikki verða broytt við verandi rættindum
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: loyvi kunnu ikki setast hægri, við verandi rættindum
-              own_role: kann ikki verða broytt við tínum verandi rættindum
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
