@@ -2,114 +2,114 @@
 et:
   devise:
     confirmations:
-      confirmed: Sinu e-postiaadress on edukalt kinnitatud.
-      send_instructions: Saad paari minuti pärast juhistega e-kirja, kuidas oma e-posti aadress kinnitada. Palun kontrolli oma rämpsposti kausta, kui selline e-kiri ei saabunud.
-      send_paranoid_instructions: Kui sinu e-postiaadress on meie andmebaasis, saad paari minuti pärast juhistega e-kirja, kuidas oma e-posti aadress kinnitada. Palun kontrolli oma rämpsposti kausta, kui selline e-kiri ei saabunud.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: Oled juba sisse loginud.
-      inactive: Sinu konto pole veel aktiveeritud.
-      invalid: Valed %{authentication_keys} või salasõna.
-      last_attempt: Sul on veel üks katse, enne kui konto lukustatakse.
-      locked: Konto on lukustatud.
-      not_found_in_database: Valed %{authentication_keys} või salasõna.
-      pending: Sinu konto on siiani läbivaatamisel.
-      timeout: Sinu sessioon on aegunud. Jätkamiseks palun sisene uuesti.
-      unauthenticated: Pead sisenema või looma konto enne kui jätkad.
-      unconfirmed: Pead kinnitama oma e-postiaadressi enne kui jätkad.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Kinnita e-postiaadress
-        action_with_app: Kinnita ja naase %{app}
-        explanation: Oled loonud %{host} konto selle e-postiaadressiga. Oled konto aktiveerimisest ühe kliki kaugusel. Kui see polnud sina, palun eira seda kirja.
-        explanation_when_pending: "Selle e-postiaadressiga on esitatud taotlus saada %{host} kasutajaks. E-postiaadress vajab kinnitamist. Pärast seda vaatame me taotluse üle. Saad siseneda, et oma andmeid muuta või konto kustutada, aga enamustele tegevustele ei pääse enne ligi, kui konto on meie moderaatorite poolt kinnitatud. Kui konto on kinnitatud, saabub selle kohta eraldi e-kiri.\nKui taotlus lükatakse aga tagasi, kustutatakse ka andmed ja mingit järeltegevust pole vaja. \nKui see polnud sina, siis palume seda kirja eirata."
-        extra_html: Palun tutvu <a href="%{terms_path}">meie serveri reeglitega</a> ning <a href="%{policy_path}">meie kasutustingimustega</a>.
-        subject: 'Mastodon: %{instance} kinnitamisjuhised'
-        title: Kinnita e-postiaadress
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'Sinu konto e-postiaadress muudetakse:'
-        extra: Kui sa ei muutnud oma e-posti, on tõenäoline, et kellelgi on ligipääs su kontole. Palun muuda koheselt oma salasõna. Kui oled aga oma kontost välja lukustatud, võta ühendust oma serveri administraatoriga.
-        subject: 'Mastodon: e-post muudetud'
-        title: Uus e-postiaadress
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
+        title: New email address
       password_change:
-        explanation: Konto salasõna on vahetatud.
-        extra: Kui sa ei muutnud oma salasõna, on tõenäoline, et keegi on su kontole ligi pääsenud. Palun muuda viivitamata oma salasõna. Kui sa oma kontole ligi ei pääse, võta ühendust serveri haldajaga.
-        subject: 'Mastodon: salasõna muudetud'
-        title: Salasõna muudetud
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: Kinnita uus aadress, et oma e-posti aadress muuta.
-        extra: Kui see muudatus pole sinu poolt algatatud, palun eira seda kirja. Selle Mastodoni konto e-postiaadress ei muutu enne, kui vajutad üleval olevale lingile.
-        subject: 'Mastodon: kinnita e-postiaadress %{instance} jaoks'
-        title: Kinnita e-postiaadress
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: Salasõna muutmine
-        explanation: Kontole on küsitud uut salasõna.
-        extra: Kui see tuleb üllatusena, võib seda kirja eirata. Salasõna ei muutu enne ülaoleva lingi külastamist ja uue salasõna määramist.
-        subject: 'Mastodon: salasõna lähtestamisjuhendid'
-        title: Salasõna lähtestamine
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: Kontol on kaheastmeline autentimine välja lülitatud. Sisenemine on võimalik ainult kasutades e-postiaadressi ja salasõna.
-        subject: 'Mastodon: Kahe-etapine autentimine välja lülitatud'
-        title: 2FA keelatud
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: Kontol on sisse lülitatud kaheastmeline autentimine. Sisenemiseks on vajalik ühekordne aeguv võti TOTP-rakenduse poolt.
-        subject: 'Mastodon: Kahe-etapine autentimine sisse lülitatud'
-        title: 2FA lubatud
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: Eelmised taastekoodid on nüüd kehtetud ning loodud uued.
-        subject: 'Mastodon: Kahe-etapise autentimise taastuskoodid taasloodud'
-        title: 2FA taastekoodid muudetud
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'Mastodon: Lahti lukustamis juhendid'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: Kontole on lisatud järgnev turvavõti
-          subject: 'Mastodon: uus turvavõti'
-          title: Uus turvavõti on lisatud
+          explanation: The following security key has been added to your account
+          subject: 'Mastodon: New security key'
+          title: A new security key has been added
         deleted:
-          explanation: Järgnev turvavõti on kontolt kustutatud
-          subject: 'Mastodon: turvavõti kustutatud'
-          title: Üks sinu turvavõtmetest on kustutatud
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: Autentimine turvavõtmetega on kontol välja lülitatud. Sisse logimine on nüüd võimalik ainult kasutades seotud TOTP rakenduse poolt genereeritud võtit.
-        subject: 'Mastodon: autentimine turvavõtmega on välja lülitatud'
-        title: Turvavõtmed on välja lülitatud
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: Turvavõtmega autentimine on nüüd kontol sisse lülitatud. Nüüd saab kasutada sisse logimiseks sinu turvavõtit.
-        subject: 'Mastodon: turvavõtme autentimine sisse lülitatud'
-        title: Turvavõtmed on sisse lülitatud
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: Ei saanud teid tuvastada %{kind} kaudu, kuna "%{reason}".
-      success: Tuvastamine %{kind} konto järgi õnnestus.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: Sellele leheküljele ei pääse tulemata salasõna lähtestamise e-kirjast. Kui tuled salasõna lähtestamise e-kirjast, palun veendu, et kasutasid tervet saadetud URLi.
-      send_instructions: Kui sinu e-postiaadress on meie andmebaasis, saad paari minuti pärast juhistega e-kirja, kuidas oma salasõna taastada. Palun kontrolli rämpsposti kausta, kui selline e-kiri ei saabunud.
-      send_paranoid_instructions: Kui sinu e-postiaadress on meie andmebaasis, saad paari minuti pärast juhistega e-kirja, kuidas oma salasõna taastada. Palun kontrolli rämpsposti kausta, kui selline e-kiri ei saabunud.
-      updated: Salasõna muutmine õnnestus. Oled nüüd sisse logitud.
-      updated_not_active: Sinu salasõna muutmine õnnestus.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: Nägemist! sinu konto sulgemine õnnestus. Me loodame sind varsti taas näha.
-      signed_up: Tere tulemast! Sinu konto loomine õnnestus.
-      signed_up_but_inactive: Sinu konto loodi edukalt, kuid me ei saanud sind sisse logida, kuna konto pole veel aktiveeritud.
-      signed_up_but_locked: Sinu konto loodi edukalt, kuid me ei saanud sind sisse logida, kuna konto on lukustatud.
-      signed_up_but_pending: Kiri kinnituslingiga saadeti sinu e-postile. Pärast seda, kui oled vajutanud kinnituslingile, vaatame me taotluse üle. Saad teavituse, kui taotlus on vastu võetud.
-      signed_up_but_unconfirmed: Kiri kinnituslingiga saadeti sinu e-postile. Palun järgi linki, et oma konto aktiveerida. Palun kontrolli rämpspostikausta, kui selline kiri ei saabunud.
-      update_needs_confirmation: Konto uuendamine õnnestus, kuid e-postiaadress tuleb veel kinnitada. Palun kontrolli oma e-posti ning järgi kirjas olevat kinnituslinki, et e-postiaadress kinnitada. Palun kontrolli rämpspostikausta, kui selline kiri ei saabunud.
-      updated: Konto uuendamine õnnestus.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: Väljumine õnnestus.
-      signed_in: Sisenemine õnnestus.
-      signed_out: Väljumine õnnestus.
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: Saad paari minuti pärast juhistega e-kirja, kuidas oma konto lukust lahti teha. Palun kontrolli oma rämpsposti kausta, kui selline kiri ei saabunud.
-      send_paranoid_instructions: Kui konto on olemas, saabub paari minuti pärast e-kiri juhistega, kuidas konto lukust lahti teha. Palun kontrolli rämpsposti kausta, kui selline e-kiri ei saabunud.
-      unlocked: Sinu konto avamine õnnestus. Jätkamiseks palun logi sisse.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: on juba kinnitatud, palun proovi sisse logida
-      confirmation_period_expired: peab olema kinnitatud ajavahemikus %{period}, palun taotle uuesti
-      expired: on aegunud, palun taotle uuesti
-      not_found: ei leitud
-      not_locked: ei olnud lukustatud
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        one: '1 viga takistas seda %{resource} salvestamast:'
-        other: "%{count} viga takistas seda %{resource} salvestamast:"
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: "%{count} errors prohibited this %{resource} from being saved:"
