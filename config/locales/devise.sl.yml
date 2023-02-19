@@ -2,116 +2,116 @@
 sl:
   devise:
     confirmations:
-      confirmed: Vaš e-poštni naslov je bil uspešno potrjen.
-      send_instructions: V nekaj minutah boste prejeli e-poštno sporočilo z navodili za potrditev vašega e-poštnega naslova. Če niste prejeli e-poštnega sporočila, preverite mapo neželena pošta.
-      send_paranoid_instructions: Če vaš e-poštni naslov obstaja v naši zbirki podatkov, boste v nekaj minutah prejeli e-poštno sporočilo z navodili za potrditev vašega e-poštnega naslova. Če niste prejeli e-poštnega sporočila, preverite mapo neželena pošta.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: Ste že prijavljeni.
-      inactive: Vaš račun še ni aktiviran.
-      invalid: Neveljavno %{authentication_keys} ali geslo.
-      last_attempt: Pred zaklepom računa imate še en poskus.
-      locked: Vaš račun je zaklenjen.
-      not_found_in_database: Neveljavno %{authentication_keys} ali geslo.
-      pending: Vaš račun je še vedno pod drobnogledom.
-      timeout: Vaša seja je potekla. Če želite nadaljevati, se znova prijavite.
-      unauthenticated: Pred nadaljevanjem se morate prijaviti ali vpisati.
-      unconfirmed: Pred nadaljevanjem morate potrditi svoj e-poštni naslov.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Potrdi e-poštni naslov
-        action_with_app: Potrdi in se vrni v %{app}
-        explanation: S tem e-poštnim naslovom ste ustvarili račun na %{host}. Z enim samim klikom ga aktivirate. Če to niste bili vi, prosimo, prezrite to e-poštno sporočilo.
-        explanation_when_pending: S tem e-poštnim naslovom ste zaprosili za povabilo na %{host}. Ko potrdite svoj e-poštni naslov, bomo pregledali vašo prijavo. Do takrat se ne morete prijaviti. Če bo vaša prijava zavrnjena, bodo vaši podatki odstranjeni, zato nadaljnje ukrepanje ne bo potrebno. Če to niste bili vi, prezrite to e-poštno sporočilo.
-        extra_html: Preverite tudi <a href="%{terms_path}">pravila strežnika</a> in <a href="%{policy_path}">naše pogoje storitve</a>.
-        subject: 'Mastodon: Navodila za potrditev za %{instance}'
-        title: Potrdi e-poštni naslov
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'E-poštni naslov za vaš račun je spremenjen v:'
-        extra: Če niste spremenili e-pošte, je verjetno, da je nekdo pridobil dostop do vašega računa. Prosimo, zamenjajte geslo takoj ali se obrnite na skbrnika, če ste izklopljeni iz svojega računa.
-        subject: 'Mastodon: e-poštni naslov je spremenjen'
-        title: Novi e-poštni naslov
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
+        title: New email address
       password_change:
-        explanation: Geslo za vaš račun je bilo spremenjeno.
-        extra: Če niste spremenili gesla, je verjetno, da je nekdo pridobil dostop do vašega računa. Prosimo, zamenjajte geslo takoj. Če ste blokirani iz svojega računa, se obrnite na skrbnika strežnika.
-        subject: 'Mastodon: geslo je spremenjeno'
-        title: Geslo je spremenjeno
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: Potrdite novi naslov, da spremenite svoj e-poštni naslov.
-        extra: Če te spremembe niste sprožili, prezrite to e-poštno sporočilo. E-poštni naslov za račun Mastodon se ne bo spremenil, dokler ne kliknete zgornje povezave.
-        subject: 'Mastodon: potrdite e-pošto za %{instance}'
-        title: Potrdi e-poštni naslov
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: Spremeni geslo
-        explanation: Zahtevali ste novo geslo za svoj račun.
-        extra: Če tega niste zahtevali, prezrite to e-poštno sporočilo. Vaše geslo se ne bo spremenilo, dokler ne kliknete zgornje povezave in ustvarite novega.
-        subject: 'Mastodon: navodila za ponastavitev gesla'
-        title: Ponastavitev gesla
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: Dvojno oz. dvofazno preverjanje pristnosti je za vaš račun onemogočeno. Prijava je zdaj možna le z e-poštnim naslovom in geslom.
-        subject: 'Mastodon: dvojno preverjanje pristnosti je onemogočeno'
-        title: 2FA onemogočeno
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: Dvojno oz. dvofazno preverjanje pristnosti je za vaš račun omogočeno. Žeton, izdelan z aplikacijo TOTP, bo zahtevan zs prijavo.
-        subject: 'Mastodon: dvojno preverjanje pristnosti je omogočeno'
-        title: 2FA omogočeno
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: Prejšnje obnovitvene kode so postale neveljavne in ustvarjene so bile nove.
-        subject: 'Mastodon: varnostne obnovitvene kode za dvojno preverjanje pristnosti so ponovno izdelane'
-        title: obnovitvene kode 2FA spremenjene
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'Mastodon: navodila za odklepanje'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: Naslednja varnostna koda je dodana vašemu računu
-          subject: 'Mastodon: nova varnostna koda'
-          title: Dodana je nova varnostna koda
+          explanation: The following security key has been added to your account
+          subject: 'Mastodon: New security key'
+          title: A new security key has been added
         deleted:
-          explanation: Naslednja varnostna koda je izbrisana iz vašega računa
-          subject: 'Mastodon: varnostna koda izbrisana'
-          title: Ena od vaših varnostnih kod je bila izbrisana
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: Overjanje pristnosti z varnostnimi kodami je za vaš račun onemogočeno. Prijava je zdaj možna le z uporabo žetona, ki ga izdela oparjena aplikacija TOTP.
-        subject: 'Mastodon: overjanje pristnosti z varnosnimi kodami je onemogočeno'
-        title: Varnostne kode onemogočene
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: Overjanje z varnostno kodo je za vaš račun omogočeno. Svojo varnostno kodo lahko zdaj uporabite za prijavo.
-        subject: 'Mastodon: preverjanje pristnosti z varnostno kodo je omogočeno'
-        title: Varnostne kode omogočene
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: Overitev iz %{kind} ni možna zaradi "%{reason}".
-      success: Overitev iz računa %{kind} je bila uspešna.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: Do te strani ne morete dostopati, ne da bi prišli iz e-pošte za ponastavitev gesla. Če prihajate iz e-pošte za ponastavitev gesla, se prepričajte, da ste uporabili celoten navedeni URL.
-      send_instructions: Če vaš e-poštni naslov obstaja v naši zbirki podatkov, boste v nekaj minutah na svoj e-poštni naslov prejeli povezavo za obnovitev gesla. Če niste prejeli e-pošte, preverite mapo z neželeno pošto.
-      send_paranoid_instructions: Če vaš e-poštni naslov obstaja v naši zbirki podatkov, boste v nekaj minutah na svoj e-poštni naslov prejeli povezavo za obnovitev gesla. Če niste prejeli e-pošte, preverite mapo z neželeno pošto.
-      updated: Vaše geslo je bilo uspešno spremenjeno. Zdaj ste prijavljeni.
-      updated_not_active: Vaše geslo je bilo uspešno spremenjeno.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: Srečno! Vaš račun je bil uspešno preklican. Upamo, da vas bomo kmalu spet videli.
-      signed_up: Dobrodošli! Uspešno ste se vpisali.
-      signed_up_but_inactive: Uspešno ste se vpisali. Vendar vas nismo mogli prijaviti, ker vaš račun še ni aktiviran.
-      signed_up_but_locked: Uspešno ste se vpisali. Vendar vas nismo mogli prijaviti, ker je vaš račun zaklenjen.
-      signed_up_but_pending: Na vaš e-poštni naslov je bilo poslano sporočilo s povezavo za potrditev. Ko kliknete povezavo, bomo pregledali vašo prijavo. Obveščeni boste, če bo odobrena.
-      signed_up_but_unconfirmed: Na vaš e-poštni naslov je bilo poslano sporočilo s povezavo za potrditev. Sledite povezavi, da aktivirate svoj račun. Če niste prejeli te e-pošte, preverite mapo z neželeno pošto.
-      update_needs_confirmation: Uspešno ste posodobili račun, vendar moramo potrditi vaš novi e-poštni naslov. Preverite svojo e-pošto in sledite povezavi za potrditev, da potrdite nov e-poštni naslov. Če niste prejeli te e-pošte, preverite mapo z neželeno pošto.
-      updated: Vaš račun je bil uspešno posodobljen.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: Uspešno ste se odjavili.
-      signed_in: Uspešno ste se prijavili.
-      signed_out: Uspešno ste se odjavili.
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: Prejeli boste e-pošto z navodili o tem, kako v nekaj minutah odklenete svoj račun. Če niste prejeli te e-pošte, preverite mapo z neželeno pošto.
-      send_paranoid_instructions: Če vaš račun obstaja, boste prejeli e-pošto z navodili za njegovo odklepanje v nekaj minutah. Če niste prejeli te e-pošte, preverite mapo z neželeno pošto.
-      unlocked: Vaš račun je bil uspešno odklenjen. Če želite nadaljevati, se prijavite.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: je bil potrjen, poskusite se prijaviti
-      confirmation_period_expired: mora biti potrjena v %{period}, zahtevajte novo
-      expired: je potekla, zahtevajte novo
-      not_found: ni najdeno
-      not_locked: ni bil zaklenjen
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        few: "%{count} napake so preprečile shranjevanje vira %{resource}:"
-        one: '1 napaka je preprečila shranjevanje %{resource}:'
-        other: "%{count} napak je preprečilo shranjevanje vira %{resource}:"
-        two: "%{count} napaki sta preprečili shranjevanje vira %{resource}:"
+        one: '1 error prohibited this %{resource} from being saved:'
+        two: "%{count} errors prohibited this %{resource} from being saved:"
+        few: "%{count} errors prohibited this %{resource} from being saved:"
+        other: "%{count} errors prohibited this %{resource} from being saved:"
