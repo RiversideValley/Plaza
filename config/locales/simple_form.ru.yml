@@ -1,317 +1,317 @@
 ---
-ru-MD:
+ru-BY:
   simple_form:
     hints:
       account_alias:
-        acct: Specify the username@domain of the account you want to move from
+        acct: Укажите ник@домен учётной записи, с которой вы собираетесь мигрировать
       account_migration:
-        acct: Specify the username@domain of the account you want to move to
+        acct: Укажите имя_пользователя@домен учётной записи, на которую вы собираетесь мигрировать
       account_warning_preset:
-        text: You can use post syntax, such as URLs, hashtags and mentions
-        title: Optional. Not visible to the recipient
+        text: Вы можете использовать всё, что в обычных постах — ссылки, хэштеги, упоминания и т.д.
+        title: Необязательно. Не видно получателю
       admin_account_action:
-        include_statuses: The user will see which posts have caused the moderation action or warning
-        send_email_notification: The user will receive an explanation of what happened with their account
-        text_html: Optional. You can use post syntax. You can <a href="%{path}">add warning presets</a> to save time
-        type_html: Choose what to do with <strong>%{acct}</strong>
+        include_statuses: Пользователь будет видеть к каким постами применялись модераторские действия и выносились предупреждения
+        send_email_notification: Пользователь получит сообщение о том, что случилось с его/её учётной записью
+        text_html: Необязательно. Вы можете использовать синтаксис постов. Для экономии времени, <a href="%{path}">добавьте шаблоны предупреждений</a>
+        type_html: Выберите применяемое к <strong>%{acct}</strong> действие
         types:
-          disable: Prevent the user from using their account, but do not delete or hide their contents.
-          none: Use this to send a warning to the user, without triggering any other action.
-          sensitive: Force all this user's media attachments to be flagged as sensitive.
-          silence: Prevent the user from being able to post with public visibility, hide their posts and notifications from people not following them. Closes all reports against this account.
-          suspend: Prevent any interaction from or to this account and delete its contents. Revertible within 30 days. Closes all reports against this account.
-        warning_preset_id: Optional. You can still add custom text to end of the preset
+          disable: Запретить пользователю использование своей учётной записи, без удаления или скрытия контента.
+          none: Отправить пользователю предупреждение, не принимая иных действий.
+          sensitive: Принудительно отметить опубликованное пользователем содержимое как «деликатного характера».
+          silence: Запретить пользователю публиковать посты с открытой видимостью, а также скрыть все прошлые посты и уведомления от людей, не читающих этого пользователя. Закрыть все отчеты по этому счету.
+          suspend: Предотвратить любое взаимодействие с этой учётной записью, удалив всё содержимое опубликованное с неё. Это действие можно отменить в течение 30 дней. Закрывает все отчеты против этого аккаунта.
+        warning_preset_id: Необязательно. Вы можете добавить собственный текст в конце шаблона
       announcement:
-        all_day: When checked, only the dates of the time range will be displayed
-        ends_at: Optional. Announcement will be automatically unpublished at this time
-        scheduled_at: Leave blank to publish the announcement immediately
-        starts_at: Optional. In case your announcement is bound to a specific time range
-        text: You can use post syntax. Please be mindful of the space the announcement will take up on the user's screen
+        all_day: Если выбрано, часы начала и завершения будут скрыты
+        ends_at: Необязательно. Объявление будет автоматически отменено в это время
+        scheduled_at: Оставьте поля незаполненными, чтобы опубликовать объявление сразу
+        starts_at: Необязательно. На случай, если ваше объявление привязано к какому-то временному интервалу
+        text: Вы можете использовать тот же синтаксис, что и в постах. Будьте предусмотрительны насчёт места, которое займёт объявление на экране пользователей
       appeal:
-        text: You can only appeal a strike once
+        text: Вы можете обжаловать замечание только один раз
       defaults:
-        autofollow: People who sign up through the invite will automatically follow you
-        avatar: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
-        bot: Signal to others that the account mainly performs automated actions and might not be monitored
-        context: One or multiple contexts where the filter should apply
-        current_password: For security purposes please enter the password of the current account
-        current_username: To confirm, please enter the username of the current account
-        digest: Only sent after a long period of inactivity and only if you have received any personal messages in your absence
-        discoverable: Allow your account to be discovered by strangers through recommendations, trends and other features
-        email: You will be sent a confirmation e-mail
-        fields: You can have up to 4 items displayed as a table on your profile
-        header: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
-        inbox_url: Copy the URL from the frontpage of the relay you want to use
-        irreversible: Filtered posts will disappear irreversibly, even if filter is later removed
-        locale: The language of the user interface, e-mails and push notifications
-        locked: Manually control who can follow you by approving follow requests
-        password: Use at least 8 characters
-        phrase: Will be matched regardless of casing in text or content warning of a post
-        scopes: Which APIs the application will be allowed to access. If you select a top-level scope, you don't need to select individual ones.
-        setting_aggregate_reblogs: Do not show new boosts for posts that have been recently boosted (only affects newly-received boosts)
-        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Mastodon
-        setting_default_sensitive: Sensitive media is hidden by default and can be revealed with a click
-        setting_display_media_default: Hide media marked as sensitive
-        setting_display_media_hide_all: Always hide media
-        setting_display_media_show_all: Always show media
-        setting_hide_network: Who you follow and who follows you will be hidden on your profile
-        setting_noindex: Affects your public profile and post pages
-        setting_show_application: The application you use to post will be displayed in the detailed view of your posts
-        setting_use_blurhash: Gradients are based on the colors of the hidden visuals but obfuscate any details
-        setting_use_pending_items: Hide timeline updates behind a click instead of automatically scrolling the feed
-        username: Your username will be unique on %{domain}
-        whole_word: When the keyword or phrase is alphanumeric only, it will only be applied if it matches the whole word
+        autofollow: Люди, пришедшие по этому приглашению, автоматически будут подписаны на вас.
+        avatar: Поддерживается PNG, GIF и JPG. Максимальный размер — %{size}. Будет уменьшен до %{dimensions}px.
+        bot: Отметьте, если с этой учётной записи выполняются автоматизированные действия и она может не просматриваться владельцем.
+        context: Один или несколько контекстов, к которым должны быть применены фильтры
+        current_password: В целях безопасности введите пароль текущей учётной записи
+        current_username: Для подтверждения, пожалуйста, введите имя пользователя текущей учётной записи
+        digest: Если вы долго не заглядывали, отправим вам дайджест событий, которые происходили в период вашего отсутствия.
+        discoverable: Разрешить другим людям находить ваш профиль через рекомендации, тренды и другие функции.
+        email: Вам будет отправлено электронное письмо с подтверждением.
+        fields: В профиле можно отобразить до 4 пунктов в виде таблицы. Например, ваши местоимения, часовой пояс или ссылку на свой сайт.
+        header: Поддерживается PNG, GIF и JPG. Максимальный размер — %{size}. Будет уменьшена до %{dimensions}px.
+        inbox_url: Копировать URL с главной страницы ретранслятора, который вы хотите использовать
+        irreversible: Отфильтрованные посты будут утеряны навсегда, даже если в будущем фильтр будет убран
+        locale: Язык интерфейса, e-mail писем и push-уведомлений
+        locked: Вручную контролируйте, кто может подписываться на вас, утверждая запросы на подписку
+        password: Укажите не менее 8 символов.
+        phrase: Будет сопоставлено независимо от присутствия в тексте или предупреждения о содержании поста
+        scopes: Какие API приложению будет позволено использовать. Если вы выберете самый верхний, нижестоящие будут выбраны автоматически.
+        setting_aggregate_reblogs: Не показывать новые продвижения постов, которые уже были недавно продвинуты (относится только к новым продвижениям).
+        setting_always_send_emails: По умолчанию, когда вы активно используете Mastodon, уведомления по электронной почте не отправляются
+        setting_default_sensitive: Медиафайлы «деликатного характера» скрыты по умолчанию и могут быть показаны по нажатию на них.
+        setting_display_media_default: Скрывать файлы «деликатного характера»
+        setting_display_media_hide_all: Всегда скрывать любые медиафайлы
+        setting_display_media_show_all: Всегда показывать любые медиафайлы
+        setting_hide_network: Другие не смогут видеть ни ваши подписки, ни ваших подписчиков.
+        setting_noindex: Ваш публичный профиль и публикации будут скрыты от поисковых систем.
+        setting_show_application: При просмотре поста будет видно из какого приложения он отправлен.
+        setting_use_blurhash: Градиенты основаны на цветах скрытых медиа, но скрывают любые детали.
+        setting_use_pending_items: Показывать обновления в ленте только после клика вместо автоматической прокрутки.
+        username: Ваше имя пользователя будет уникальным на %{domain}
+        whole_word: Если слово или фраза состоит только из букв и цифр, сопоставление произойдёт только по полному совпадению
       domain_allow:
-        domain: This domain will be able to fetch data from this server and incoming data from it will be processed and stored
+        domain: Этот домен сможет получать данные с этого сервера и его входящие данные будут обрабатываться и сохранены
       email_domain_block:
-        domain: This can be the domain name that shows up in the e-mail address or the MX record it uses. They will be checked upon sign-up.
-        with_dns_records: An attempt to resolve the given domain's DNS records will be made and the results will also be blocked
+        domain: Это может быть доменное имя, которое отображается в адресе электронной почты или используемая MX запись. Они будут проверяться при регистрации.
+        with_dns_records: Будет сделана попытка разрешить DNS-записи данного домена и результаты также будут внесены в чёрный список
       featured_tag:
-        name: 'Here are some of the hashtags you used the most recently:'
+        name: 'Вот некоторые хэштеги, которые вы использовали в последнее время:'
       filters:
-        action: Chose which action to perform when a post matches the filter
+        action: Выберите действие, которое нужно выполнить, когда сообщение соответствует фильтру
         actions:
-          hide: Completely hide the filtered content, behaving as if it did not exist
-          warn: Hide the filtered content behind a warning mentioning the filter's title
+          hide: Полностью скрыть отфильтрованный контент так, как будто его не существует
+          warn: Скрыть отфильтрованный контент за предупреждением с указанием названия фильтра
       form_admin_settings:
-        activity_api_enabled: Counts of locally published posts, active users, and new registrations in weekly buckets
-        backups_retention_period: Keep generated user archives for the specified number of days.
-        bootstrap_timeline_accounts: These accounts will be pinned to the top of new users' follow recommendations.
-        closed_registrations_message: Displayed when sign-ups are closed
-        content_cache_retention_period: Posts from other servers will be deleted after the specified number of days when set to a positive value. This may be irreversible.
-        custom_css: You can apply custom styles on the web version of Mastodon.
-        mascot: Overrides the illustration in the advanced web interface.
-        media_cache_retention_period: Downloaded media files will be deleted after the specified number of days when set to a positive value, and re-downloaded on demand.
-        peers_api_enabled: A list of domain names this server has encountered in the fediverse. No data is included here about whether you federate with a given server, just that your server knows about it. This is used by services that collect statistics on federation in a general sense.
-        profile_directory: The profile directory lists all users who have opted-in to be discoverable.
-        require_invite_text: When sign-ups require manual approval, make the “Why do you want to join?” text input mandatory rather than optional
-        site_contact_email: How people can reach you for legal or support inquiries.
-        site_contact_username: How people can reach you on Mastodon.
-        site_extended_description: Any additional information that may be useful to visitors and your users. Can be structured with Markdown syntax.
-        site_short_description: A short description to help uniquely identify your server. Who is running it, who is it for?
-        site_terms: Use your own privacy policy or leave blank to use the default. Can be structured with Markdown syntax.
-        site_title: How people may refer to your server besides its domain name.
-        status_page_url: URL of a page where people can see the status of this server during an outage
-        theme: Theme that logged out visitors and new users see.
-        thumbnail: A roughly 2:1 image displayed alongside your server information.
-        timeline_preview: Logged out visitors will be able to browse the most recent public posts available on the server.
-        trendable_by_default: Skip manual review of trending content. Individual items can still be removed from trends after the fact.
-        trends: Trends show which posts, hashtags and news stories are gaining traction on your server.
-        trends_as_landing_page: Show trending content to logged-out users and visitors instead of a description of this server. Requires trends to be enabled.
+        activity_api_enabled: Подсчёт количества локальных постов, активных пользователей и новых регистраций на еженедельной основе
+        backups_retention_period: Сохранять сгенерированные пользовательские архивы для указанного количества дней.
+        bootstrap_timeline_accounts: Эти аккаунты будут рекомендованы для подписки новым пользователям.
+        closed_registrations_message: Отображается, когда регистрация закрыта
+        content_cache_retention_period: Записи с других серверов будут удалены после указанного количества дней, когда установлено положительное значение. Это может быть необратимо.
+        custom_css: Вы можете применять пользовательские стили в веб-версии Mastodon.
+        mascot: Заменяет иллюстрацию в расширенном веб-интерфейсе.
+        media_cache_retention_period: Скачанные медиа-файлы будут удалены после указанного количества дней, когда установлено положительное значение и повторно загружены по требованию.
+        peers_api_enabled: Список доменных имен, с которыми сервер столкнулся в fediverse. Здесь нет данных о том, федерировались ли вы с данным сервером, только что ваш сервер знает об этом. Это используется службами, которые собирают статистику по федерации в общем смысле.
+        profile_directory: В каталоге профилей перечислены все пользователи, которые согласились быть доступными для обнаружения.
+        require_invite_text: Когда регистрация требует ручного одобрения, сделайте текстовый ввод "Почему вы хотите присоединиться?" обязательным, а не опциональным
+        site_contact_email: Как люди могут связаться с вами по юридическим вопросам или вопросам поддержки.
+        site_contact_username: Как люди могут связаться с вами на Mastodon.
+        site_extended_description: Любая дополнительная информация, которая может быть полезна посетителям и вашим пользователям. Можно использовать синтаксис Markdown.
+        site_short_description: Краткое описание, помогающее однозначно идентифицировать ваш сервер. Кто им управляет, для кого он предназначен?
+        site_terms: Используйте свою собственную политику конфиденциальности или оставьте пустым, чтобы использовать политику по умолчанию. Можно использовать синтаксис Markdown.
+        site_title: Как люди могут ссылаться на ваш сервер, помимо его доменного имени.
+        status_page_url: URL страницы, на которой люди могут видеть статус этого сервера во время отключения
+        theme: Тема, которую видят вышедшие из системы посетители и новые пользователи.
+        thumbnail: Изображение примерно 2:1, отображаемое рядом с информацией о вашем сервере.
+        timeline_preview: Посетители, вышедшие из системы, смогут просматривать последние публичные сообщения, имеющиеся на сервере.
+        trendable_by_default: Пропустить ручной просмотр трендового контента. Отдельные элементы могут быть удалены из трендов уже постфактум.
+        trends: Тренды показывают, какие посты, хэштеги и новостные истории набирают обороты на вашем сервере.
+        trends_as_landing_page: Показывать популярный контент для выходов пользователей и посетителей, а не для описания этого сервера. Требует включения тенденций.
       form_challenge:
-        current_password: You are entering a secure area
+        current_password: Вы переходите к настройкам безопасности
       imports:
-        data: CSV file exported from another Mastodon server
+        data: Файл CSV, экспортированный с другого узла Mastodon.
       invite_request:
-        text: This will help us review your application
+        text: Это поможет нам рассмотреть вашу заявку
       ip_block:
-        comment: Optional. Remember why you added this rule.
-        expires_in: IP addresses are a finite resource, they are sometimes shared and often change hands. For this reason, indefinite IP blocks are not recommended.
-        ip: Enter an IPv4 or IPv6 address. You can block entire ranges using the CIDR syntax. Be careful not to lock yourself out!
+        comment: Необязательно. Заметка на будущее, почему вы добавили это правило.
+        expires_in: IP адреса — весьма ограниченный ресурс, иногда они разделяются между абонентами и часто меняют владельца. По этой причине блокировки на неопределённые сроки не рекомендуются.
+        ip: Введите IPv4 или IPv6 адрес. Вы можете блокировать целые диапазоны, используя синтаксис CIDR. Будьте осторожны, не заблокируйте самого себя!
         severities:
-          no_access: Block access to all resources
-          sign_up_block: New sign-ups will not be possible
-          sign_up_requires_approval: New sign-ups will require your approval
-        severity: Choose what will happen with requests from this IP
+          no_access: Заблокировать доступ ко всем ресурсам
+          sign_up_block: Новые регистрации будут невозможны
+          sign_up_requires_approval: Новые регистрации потребуют вашего одобрения
+        severity: Выберите, что будет происходить с запросами с этого IP
       rule:
-        text: Describe a rule or requirement for users on this server. Try to keep it short and simple
+        text: Опишите правило или требование для пользователей на этом сервере. Постарайтесь сделать его коротким и простым
       sessions:
-        otp: 'Enter the two-factor code generated by your phone app or use one of your recovery codes:'
-        webauthn: If it's an USB key be sure to insert it and, if necessary, tap it.
+        otp: 'Введите код двухфакторной аутентификации, сгенерированный в мобильном приложении, или используйте один из ваших кодов восстановления:'
+        webauthn: Если это ключ USB, не забудьте его вставить и, при необходимости, нажмите на него.
       tag:
-        name: You can only change the casing of the letters, for example, to make it more readable
+        name: Вы можете изменить только регистр букв чтобы, например, сделать тег более читаемым
       user:
-        chosen_languages: When checked, only posts in selected languages will be displayed in public timelines
-        role: The role controls which permissions the user has
+        chosen_languages: Если выбрано, то в публичных лентах будут показаны только посты на выбранных языках.
+        role: Роль определяет, какие разрешения есть у пользователя
       user_role:
-        color: Color to be used for the role throughout the UI, as RGB in hex format
-        highlighted: This makes the role publicly visible
-        name: Public name of the role, if role is set to be displayed as a badge
-        permissions_as_keys: Users with this role will have access to...
-        position: Higher role decides conflict resolution in certain situations. Certain actions can only be performed on roles with a lower priority
+        color: Цвет, который будет использоваться для роли в интерфейсе (UI), как RGB в формате HEX
+        highlighted: Это действие сделает роль публичной
+        name: Публичное имя роли, если роль настроена на отображение в виде значка
+        permissions_as_keys: Пользователи с этой ролью будут иметь доступ...
+        position: Повышение роли разрешают конфликты интересов в некоторых ситуациях. Некоторые действия могут выполняться только на ролях с более низким приоритетом
       webhook:
-        events: Select events to send
-        url: Where events will be sent to
+        events: Выберите события для отправки
+        url: Куда события будут отправляться
     labels:
       account:
         fields:
-          name: Label
-          value: Content
+          name: Пункт
+          value: Значение
       account_alias:
-        acct: Handle of the old account
+        acct: Имя старой учётной записи
       account_migration:
-        acct: Handle of the new account
+        acct: Имя новой учётной записи
       account_warning_preset:
-        text: Preset text
-        title: Title
+        text: Текст шаблона
+        title: Заголовок
       admin_account_action:
-        include_statuses: Include reported posts in the e-mail
-        send_email_notification: Notify the user per e-mail
-        text: Custom warning
-        type: Action
+        include_statuses: Включать в письмо жалобы на посты
+        send_email_notification: Уведомить пользователя по e-mail
+        text: Текст предупреждения
+        type: Действие
         types:
-          disable: Freeze
-          none: Send a warning
-          sensitive: Sensitive
-          silence: Limit
-          suspend: Suspend
-        warning_preset_id: Use a warning preset
+          disable: Заморозить
+          none: Ничего не делать
+          sensitive: Отметить как «деликатного характера»
+          silence: Скрыть
+          suspend: Заблокировать и безвозвратно удалить все данные учётной записи
+        warning_preset_id: Использовать шаблон
       announcement:
-        all_day: All-day event
-        ends_at: End of event
-        scheduled_at: Schedule publication
-        starts_at: Start of event
-        text: Announcement
+        all_day: Весь день
+        ends_at: Время завершения
+        scheduled_at: Отложенная публикация
+        starts_at: Время начала
+        text: Объявление
       appeal:
-        text: Explain why this decision should be reversed
+        text: Объясните, почему это решение должно быть отменено
       defaults:
-        autofollow: Invite to follow your account
-        avatar: Avatar
-        bot: This is a bot account
-        chosen_languages: Filter languages
-        confirm_new_password: Confirm new password
-        confirm_password: Confirm password
-        context: Filter contexts
-        current_password: Current password
-        data: Data
-        discoverable: Suggest account to others
-        display_name: Display name
-        email: E-mail address
-        expires_in: Expire after
-        fields: Profile metadata
-        header: Header
-        honeypot: "%{label} (do not fill in)"
-        inbox_url: URL of the relay inbox
-        irreversible: Drop instead of hide
-        locale: Interface language
-        locked: Require follow requests
-        max_uses: Max number of uses
-        new_password: New password
-        note: Bio
-        otp_attempt: Two-factor code
-        password: Password
-        phrase: Keyword or phrase
-        setting_advanced_layout: Enable advanced web interface
-        setting_aggregate_reblogs: Group boosts in timelines
-        setting_always_send_emails: Always send e-mail notifications
-        setting_auto_play_gif: Auto-play animated GIFs
-        setting_boost_modal: Show confirmation dialog before boosting
-        setting_crop_images: Crop images in non-expanded posts to 16x9
-        setting_default_language: Posting language
-        setting_default_privacy: Posting privacy
-        setting_default_sensitive: Always mark media as sensitive
-        setting_delete_modal: Show confirmation dialog before deleting a post
-        setting_disable_swiping: Disable swiping motions
-        setting_display_media: Media display
-        setting_display_media_default: Default
-        setting_display_media_hide_all: Hide all
-        setting_display_media_show_all: Show all
-        setting_expand_spoilers: Always expand posts marked with content warnings
-        setting_hide_network: Hide your social graph
-        setting_noindex: Opt-out of search engine indexing
-        setting_reduce_motion: Reduce motion in animations
-        setting_show_application: Disclose application used to send posts
-        setting_system_font_ui: Use system's default font
-        setting_theme: Site theme
-        setting_trends: Show today's trends
-        setting_unfollow_modal: Show confirmation dialog before unfollowing someone
-        setting_use_blurhash: Show colorful gradients for hidden media
-        setting_use_pending_items: Slow mode
-        severity: Severity
-        sign_in_token_attempt: Security code
-        title: Title
-        type: Import type
-        username: Username
-        username_or_email: Username or Email
-        whole_word: Whole word
+        autofollow: С подпиской на вашу учётную запись
+        avatar: Аватар
+        bot: Это учётная запись бота
+        chosen_languages: Фильтр языков
+        confirm_new_password: Повторите новый пароль
+        confirm_password: Повторите пароль
+        context: Контекст фильтра
+        current_password: Текущий пароль
+        data: Данные
+        discoverable: Рекомендовать учётную запись другим пользователям
+        display_name: Отображаемое имя
+        email: Адрес e-mail
+        expires_in: Истекает через
+        fields: Таблица деталей
+        header: Шапка
+        honeypot: "%{label} (не заполнять)"
+        inbox_url: URL для входящих от ретрансляторов
+        irreversible: Удалять, а не скрывать
+        locale: Язык интерфейса
+        locked: Сделать учётную запись закрытой
+        max_uses: Максимальное кол-во использований
+        new_password: Новый пароль
+        note: О себе
+        otp_attempt: Код из приложения-аутентификатора
+        password: Пароль
+        phrase: Слово или фраза
+        setting_advanced_layout: Включить многоколоночный интерфейс
+        setting_aggregate_reblogs: Группировать продвижения в лентах
+        setting_always_send_emails: Всегда отправлять уведомления по электронной почте
+        setting_auto_play_gif: Автоматически проигрывать GIF анимации
+        setting_boost_modal: Всегда спрашивать перед продвижением
+        setting_crop_images: Кадрировать изображения в нераскрытых постах до 16:9
+        setting_default_language: Язык публикуемых постов
+        setting_default_privacy: Видимость постов
+        setting_default_sensitive: Всегда отмечать медиафайлы как «деликатного характера»
+        setting_delete_modal: Всегда спрашивать перед удалении поста
+        setting_disable_swiping: Отключить анимацию смахивания
+        setting_display_media: Отображение медиафайлов
+        setting_display_media_default: По умолчанию
+        setting_display_media_hide_all: Скрывать все
+        setting_display_media_show_all: Показывать все
+        setting_expand_spoilers: Всегда раскрывать посты, имеющие предупреждение о содержании
+        setting_hide_network: Скрыть свои связи
+        setting_noindex: Отказаться от индексации в поисковых машинах
+        setting_reduce_motion: Уменьшить движение в анимации
+        setting_show_application: Указывать приложение, с которого отправлен пост
+        setting_system_font_ui: Использовать шрифт системы по умолчанию
+        setting_theme: Тема сайта
+        setting_trends: Показывать сегодняшние тренды
+        setting_unfollow_modal: Всегда спрашивать перед отпиской от учётной записи
+        setting_use_blurhash: Показать цветные градиенты для скрытых медиафайлов
+        setting_use_pending_items: Медленный режим
+        severity: Накладываемые ограничения
+        sign_in_token_attempt: Код безопасности
+        title: Название
+        type: Тип импорта
+        username: Имя пользователя
+        username_or_email: Имя пользователя или e-mail
+        whole_word: Слово целиком
       email_domain_block:
-        with_dns_records: Include MX records and IPs of the domain
+        with_dns_records: Включить MX-записи и IP-адреса домена
       featured_tag:
-        name: Hashtag
+        name: Добавить хэштег
       filters:
         actions:
-          hide: Hide completely
-          warn: Hide with a warning
+          hide: Скрыть полностью
+          warn: Скрыть с предупреждением
       form_admin_settings:
-        activity_api_enabled: Publish aggregate statistics about user activity in the API
-        backups_retention_period: User archive retention period
-        bootstrap_timeline_accounts: Always recommend these accounts to new users
-        closed_registrations_message: Custom message when sign-ups are not available
-        content_cache_retention_period: Content cache retention period
-        custom_css: Custom CSS
-        mascot: Custom mascot (legacy)
-        media_cache_retention_period: Media cache retention period
-        peers_api_enabled: Publish list of discovered servers in the API
-        profile_directory: Enable profile directory
-        registrations_mode: Who can sign-up
-        require_invite_text: Require a reason to join
-        show_domain_blocks: Show domain blocks
-        show_domain_blocks_rationale: Show why domains were blocked
-        site_contact_email: Contact e-mail
-        site_contact_username: Contact username
-        site_extended_description: Extended description
-        site_short_description: Server description
-        site_terms: Privacy Policy
-        site_title: Server name
-        status_page_url: Status page URL
-        theme: Default theme
-        thumbnail: Server thumbnail
-        timeline_preview: Allow unauthenticated access to public timelines
-        trendable_by_default: Allow trends without prior review
-        trends: Enable trends
-        trends_as_landing_page: Use trends as the landing page
+        activity_api_enabled: Публикация агрегированной статистики активности пользователей в API
+        backups_retention_period: Период хранения архива пользователя
+        bootstrap_timeline_accounts: Всегда рекомендовать эти учетные записи новым пользователям
+        closed_registrations_message: Сообщение, когда регистрация недоступна
+        content_cache_retention_period: Период хранения кэша содержимого
+        custom_css: Пользовательский CSS
+        mascot: Пользовательский маскот (устаревшее)
+        media_cache_retention_period: Период хранения кэша медиафайлов
+        peers_api_enabled: Публикация списка обнаруженных узлов в API
+        profile_directory: Включить каталог профилей
+        registrations_mode: Кто может зарегистрироваться
+        require_invite_text: Требуется причина для присоединения
+        show_domain_blocks: Показать блокировки домена
+        show_domain_blocks_rationale: Показать причину блокировки доменов
+        site_contact_email: Контактный e-mail
+        site_contact_username: Контактное имя пользователя
+        site_extended_description: Подробное описание
+        site_short_description: Описание сервера
+        site_terms: Политика конфиденциальности
+        site_title: Имя сервера
+        status_page_url: Страница уведомлений
+        theme: Тема по умолчанию
+        thumbnail: Изображение сервера
+        timeline_preview: Разрешить доступ к публичным лентам без авторизации
+        trendable_by_default: Разрешить треды без предварительной проверки
+        trends: Включить тренды
+        trends_as_landing_page: Использовать тенденции в качестве целевой страницы
       interactions:
-        must_be_follower: Block notifications from non-followers
-        must_be_following: Block notifications from people you don't follow
-        must_be_following_dm: Block direct messages from people you don't follow
+        must_be_follower: Присылать уведомления только от подписчиков
+        must_be_following: Присылать уведомления только от людей на которых вы подписаны
+        must_be_following_dm: Разрешить присылать личные сообщения только людям, на которых вы подписаны
       invite:
-        comment: Comment
+        comment: Комментарий
       invite_request:
-        text: Why do you want to join?
+        text: Почему вы хотите присоединиться к нам?
       ip_block:
-        comment: Comment
+        comment: Комментарий
         ip: IP
         severities:
-          no_access: Block access
-          sign_up_block: Block sign-ups
-          sign_up_requires_approval: Limit sign-ups
-        severity: Rule
+          no_access: Блокировать доступ
+          sign_up_block: Заблокировать регистрацию
+          sign_up_requires_approval: Ограничить регистрации
+        severity: Правило
       notification_emails:
-        appeal: Someone appeals a moderator decision
-        digest: Send digest e-mails
-        favourite: Someone favourited your post
-        follow: Someone followed you
-        follow_request: Someone requested to follow you
-        mention: Someone mentioned you
-        pending_account: New account needs review
-        reblog: Someone boosted your post
-        report: New report is submitted
-        trending_tag: New trend requires review
+        appeal: Кто-то обжалует решение модератора
+        digest: Присылать дайджест по e-mail
+        favourite: Ваш пост добавили в избранное
+        follow: Новый подписчик
+        follow_request: Новый запрос на подписку
+        mention: Новое упоминание
+        pending_account: Новая заявка на создание аккаунта
+        reblog: Ваш пост продвинули
+        report: Новое обращение отправлено
+        trending_tag: Новый тренд требует рассмотрения
       rule:
-        text: Rule
+        text: Правило
       tag:
-        listable: Allow this hashtag to appear in searches and suggestions
-        name: Hashtag
-        trendable: Allow this hashtag to appear under trends
-        usable: Allow posts to use this hashtag
+        listable: Разрешить показ хэштега в поиске или в каталоге профилей
+        name: Хэштег
+        trendable: Разрешить показ хэштега в трендах
+        usable: Разрешить использовать этот хэштег в постах
       user:
-        role: Role
+        role: Роль
       user_role:
-        color: Badge color
-        highlighted: Display role as badge on user profiles
-        name: Name
-        permissions_as_keys: Permissions
-        position: Priority
+        color: Цвет значка
+        highlighted: Отображать роль в качестве значка в профилях пользователей
+        name: Название
+        permissions_as_keys: Разрешения
+        position: Приоритет
       webhook:
-        events: Enabled events
+        events: Включенные события
         url: Endpoint URL
-    'no': 'No'
-    not_recommended: Not recommended
-    recommended: Recommended
+    'no': 'Нет'
+    not_recommended: Не рекомендуется
+    recommended: Рекомендуем
     required:
       mark: "*"
-      text: required
+      text: обязательно
     title:
       sessions:
-        webauthn: Use one of your security keys to sign in
-    'yes': 'Yes'
+        webauthn: Используйте один из ваших ключей безопасности для входа в систему
+    'yes': 'Да'
