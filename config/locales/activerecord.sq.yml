@@ -3,53 +3,53 @@ sq:
   activerecord:
     attributes:
       poll:
-        expires_at: Afat
-        options: Mundësi
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Marrëveshje shërbimi
-        email: Adresë email
-        locale: Gjuhë
-        password: Fjalëkalim
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Emër përdoruesi
+        username: Username
       user/invite_request:
-        text: Arsye
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: duhet të përmbajë vetëm shkronja, numra dhe nënvija
-              reserved: është i rezervuar
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: s’është URL e vlefshme
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: s’është URL
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: janë të keqformuara
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: e gjendjes ekziston tashmë
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: përdor një shërbim email të palejuar
-              unreachable: s’duket se ekziston
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: s’mund të jetë më i lartë sesa roli juaj i tanishëm
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: përfshi leje që s’janë të parrezik për rolin bazë
-              elevated: s’mund të përfshijë leje të cilat roli juaj i tanishëm s’i përfshin
-              own_role: s’mund të ndryshohet me rolin tuaj të tanishëm
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: s’mund të jetë më i lartë sesa roli juaj i tanishëm
-              own_role: s’mund të ndryshohet me rolin tuaj të tanishëm
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
