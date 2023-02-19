@@ -3,53 +3,53 @@ ku:
   activerecord:
     attributes:
       poll:
-        expires_at: Dîroka dawîbûnê
-        options: Hilbijark
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Peymana karûbarê
-        email: Navnîşana E-nameyê
-        locale: Herêmî
-        password: Borînpeyv
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Navê bikarhêneriyê
+        username: Username
       user/invite_request:
-        text: Sedem
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: pêdivî ye ku tenê tîp, hejmar û xêzikên jêrîn hebin
-              reserved: hatiye bikaranîn
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: ev girêdaneke nederbasdar e
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: ev girêdaneke nederbasdar e
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: xerab bûye
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: ev nivîs berê heye jixwe
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: dabînkerê e-nameya qedexe bi kar tîne
-              unreachable: xuya ye ku tune ye
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: nabe ku ji rola te ya heyî bilindtir be
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: mafdayînên ku ji bo rola bingehîn ne ewle ne tê de hene
-              elevated: di rola te ya heyî de nabe mafdayîn tê de hebin
-              own_role: bi rola te ya heyî nayê guhertin
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: nabe ku ji rola te ya heyî bilindtir be
-              own_role: bi rola te ya heyî nayê guhertin
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
