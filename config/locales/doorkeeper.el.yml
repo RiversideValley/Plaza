@@ -1,5 +1,5 @@
 ---
-el:
+el-CY:
   activerecord:
     attributes:
       doorkeeper/application:
