@@ -3,53 +3,53 @@ nn:
   activerecord:
     attributes:
       poll:
-        expires_at: Frist
-        options: Val
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Serviceavtale
-        email: Epostadresse
-        locale: Lokale
-        password: Passord
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Brukarnamn
+        username: Username
       user/invite_request:
-        text: Grunn
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: kan berre innehalda bokstavar, tal og understrekar
-              reserved: er reservert
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: er ikkje ein gyldig URL
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: er ikkje ein gyldig URL
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: er feilutforma
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: av innlegg eksisterer allereie
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: bruker ein forboden epostleverandør
-              unreachable: ser ikkje ut til å eksistere
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: kan ikkje vere høgare enn di noverande rolle
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: inkluder tillatingar som ikkje er trygge for basisrolla
-              elevated: kan ikkje inkludere rettigheiter di noverande rolle ikkje innehar
-              own_role: kan ikkje endrast med di noverande rolle
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: kan ikkje vere høgare enn di noverande rolle
-              own_role: kan ikkje endrast med di noverande rolle
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
