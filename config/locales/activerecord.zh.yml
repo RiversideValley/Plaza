@@ -1,5 +1,5 @@
 ---
-zh-SG:
+zh:
   activerecord:
     attributes:
       poll:
