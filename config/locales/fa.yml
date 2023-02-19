@@ -9,7 +9,6 @@ fa:
   accounts:
     follow: Follow
     followers:
-      one: Follower
       other: Followers
     following: Following
     instance_actor_flash: This account is a virtual actor used to represent the server itself and not any individual user. It is used for federation purposes and should not be suspended.
@@ -19,7 +18,6 @@ fa:
     pin_errors:
       following: You must be already following the person you want to endorse
     posts:
-      one: Post
       other: Posts
     posts_tab_heading: Posts
   admin:
@@ -107,7 +105,6 @@ fa:
       perform_full_suspension: Suspend
       previous_strikes: Previous strikes
       previous_strikes_description_html:
-        one: This account has <strong>one</strong> strike.
         other: This account has <strong>%{count}</strong> strikes.
       promote: Promote
       protocol: Protocol
@@ -350,16 +347,12 @@ fa:
       new_users: new users
       opened_reports: reports opened
       pending_appeals_html:
-        one: "<strong>%{count}</strong> pending appeal"
         other: "<strong>%{count}</strong> pending appeals"
       pending_reports_html:
-        one: "<strong>%{count}</strong> pending report"
         other: "<strong>%{count}</strong> pending reports"
       pending_tags_html:
-        one: "<strong>%{count}</strong> pending hashtag"
         other: "<strong>%{count}</strong> pending hashtags"
       pending_users_html:
-        one: "<strong>%{count}</strong> pending user"
         other: "<strong>%{count}</strong> pending users"
       resolved_reports: reports resolved
       software: Software
@@ -416,7 +409,6 @@ fa:
     email_domain_blocks:
       add_new: Add new
       attempts_over_week:
-        one: "%{count} attempt over the last week"
         other: "%{count} sign-up attempts over the last week"
       created_msg: Successfully blocked e-mail domain
       delete: Delete
@@ -459,11 +451,9 @@ fa:
     instances:
       availability:
         description_html:
-          one: If delivering to the domain fails <strong>%{count} day</strong> without succeeding, no further delivery attempts will be made unless a delivery <em>from</em> the domain is received.
           other: If delivering to the domain fails on <strong>%{count} different days</strong> without succeeding, no further delivery attempts will be made unless a delivery <em>from</em> the domain is received.
         failure_threshold_reached: Failure threshold reached on %{date}.
         failures_recorded:
-          one: Failed attempt on %{count} day.
           other: Failed attempts on %{count} different days.
         no_failures_recorded: No failures on record.
         title: Availability
@@ -507,7 +497,6 @@ fa:
       destroyed_msg: Data from %{domain} is now queued for imminent deletion.
       empty: No domains found.
       known_accounts:
-        one: "%{count} known account"
         other: "%{count} known accounts"
       moderation:
         all: All
@@ -571,7 +560,6 @@ fa:
     reports:
       account:
         notes:
-          one: "%{count} note"
           other: "%{count} notes"
       action_log: Audit log
       action_taken_by: Action taken by
@@ -654,7 +642,6 @@ fa:
     roles:
       add_new: Add role
       assigned_users:
-        one: "%{count} user"
         other: "%{count} users"
       categories:
         administration: Administration
@@ -668,7 +655,6 @@ fa:
       everyone: Default permissions
       everyone_full_description_html: This is the <strong>base role</strong> affecting <strong>all users</strong>, even those without an assigned role. All other roles inherit permissions from it.
       permissions_count:
-        one: "%{count} permission"
         other: "%{count} permissions"
       privileges:
         administrator: Administrator
@@ -830,7 +816,6 @@ fa:
         publishers:
           no_publisher_selected: No publishers were changed as none were selected
         shared_by_over_week:
-          one: Shared by one person over the last week
           other: Shared by %{count} people over the last week
         title: Trending links
         usage_comparison: Shared %{today} times today, compared to %{yesterday} yesterday
@@ -852,7 +837,6 @@ fa:
         no_status_selected: No trending posts were changed as none were selected
         not_discoverable: Author has not opted-in to being discoverable
         shared_by:
-          one: Shared or favourited one time
           other: Shared and favourited %{friendly_count} times
         title: Trending posts
       tags:
@@ -876,7 +860,6 @@ fa:
         usable: Can be used
         usage_comparison: Used %{today} times today, compared to %{yesterday} yesterday
         used_by_over_week:
-          one: Used by one person over the last week
           other: Used by %{count} people over the last week
       title: Trends
       trending: Trending
@@ -897,7 +880,6 @@ fa:
       enable: Enable
       enabled: Active
       enabled_events:
-        one: 1 enabled event
         other: "%{count} enabled events"
       events: Events
       new: New webhook
@@ -1177,13 +1159,10 @@ fa:
       expires_in: Expires in %{distance}
       expires_on: Expires on %{date}
       keywords:
-        one: "%{count} keyword"
         other: "%{count} keywords"
       statuses:
-        one: "%{count} post"
         other: "%{count} posts"
       statuses_long:
-        one: "%{count} individual post hidden"
         other: "%{count} individual posts hidden"
       title: Filters
     new:
@@ -1201,10 +1180,8 @@ fa:
   generic:
     all: All
     all_items_on_page_selected_html:
-      one: "<strong>%{count}</strong> item on this page is selected."
       other: All <strong>%{count}</strong> items on this page are selected.
     all_matching_items_selected_html:
-      one: "<strong>%{count}</strong> item matching your search is selected."
       other: All <strong>%{count}</strong> items matching your search are selected.
     changes_saved_msg: Changes successfully saved!
     copy: Copy
@@ -1214,11 +1191,9 @@ fa:
     order_by: Order by
     save_changes: Save changes
     select_all_matching_items:
-      one: Select %{count} item matching your search.
       other: Select all %{count} items matching your search.
     today: today
     validation_errors:
-      one: Something isn't quite right yet! Please review the error below
       other: Something isn't quite right yet! Please review %{count} errors below
   html_validator:
     invalid_markup: 'contains invalid HTML markup: %{error}'
@@ -1254,7 +1229,6 @@ fa:
     generate: Generate invite link
     invited_by: 'You were invited by:'
     max_uses:
-      one: 1 use
       other: "%{count} uses"
     max_uses_prompt: No limit
     prompt: Generate and share links with others to grant access to this server
@@ -1506,20 +1480,16 @@ fa:
   statuses:
     attached:
       audio:
-        one: "%{count} audio"
         other: "%{count} audio"
       description: 'Attached: %{attached}'
       image:
-        one: "%{count} image"
         other: "%{count} images"
       video:
-        one: "%{count} video"
         other: "%{count} videos"
     boosted_from_html: Boosted from %{acct_link}
     content_warning: 'Content warning: %{warning}'
     default_language: Same as interface language
     disallowed_hashtags:
-      one: 'contained a disallowed hashtag: %{tags}'
       other: 'contained the disallowed hashtags: %{tags}'
     edited_at_html: Edited %{date}
     errors:
@@ -1533,10 +1503,8 @@ fa:
       reblog: A boost cannot be pinned
     poll:
       total_people:
-        one: "%{count} person"
         other: "%{count} people"
       total_votes:
-        one: "%{count} vote"
         other: "%{count} votes"
       vote: Vote
     show_more: Show more
