@@ -1,5 +1,5 @@
 ---
-bn:
+bn-IN:
   activerecord:
     attributes:
       poll:
