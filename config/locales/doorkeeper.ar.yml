@@ -1,5 +1,5 @@
 ---
-ar-BH:
+ar-SA:
   activerecord:
     attributes:
       doorkeeper/application:
