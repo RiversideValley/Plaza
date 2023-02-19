@@ -3,53 +3,53 @@ oc:
   activerecord:
     attributes:
       poll:
-        expires_at: Data limita
-        options: Opcions
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Acòrd de servici
-        email: Corrièl
-        locale: Lenga
-        password: Senhal
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Nom d’utilizaire
+        username: Username
       user/invite_request:
-        text: Motiu
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: solament letras, nombres e tirets basses
-              reserved: es reservat
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: es pas una URL valida
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: es pas una URL valida
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: es mal formatat
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: de l’estatut existís ja
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: utilizar un provesidor d’email pas autorizat
-              unreachable: semblar pas existir
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: pòt pas èsser superior a vòstre ròtle actual
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: inclure d’autorizacions que son pas seguras pel ròtle de basa
-              elevated: pòt pas inclure d’autorizacions que vòstre ròtle possedís pas
-              own_role: se pòt pas modificar amb vòstre ròtle actual
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: pòt pas èsser superior a vòstre ròtle actual
-              own_role: se pòt pas modificar amb vòstre ròtle actual
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
