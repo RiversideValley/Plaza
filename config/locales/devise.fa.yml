@@ -2,114 +2,114 @@
 fa:
   devise:
     confirmations:
-      confirmed: نشانی ایمیل شما با موفقیت تأیید شد.
-      send_instructions: تا دقایقی دیگر ایمیلی خواهید گرفت که به شما می‌گوید چگونه باید نشانی ایمیل خود را تأیید کنید. اگر این ایمیل نیامد، لطفاً پوشهٔ هرزنامه‌هایتان را بررسی کنید.
-      send_paranoid_instructions: اگر ایمیل شما در پایگاه دادهٔ ما موجود باشد، تا دقایقی دیگر ایمیلی خواهید گرفت که به شما می‌گوید چگونه باید نشانی ایمیل خود را تأیید کنید. اگر این ایمیل نیامد، لطفاً پوشهٔ هرزنامه‌هایتان را بررسی کنید.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: همین الآن هم وارد شده‌اید.
-      inactive: حساب شما هنوز فعال نشده است.
-      invalid: "%{authentication_keys} یا رمز نامعتبر."
-      last_attempt: پیش از آن که حساب شما قفل شود، یک فرصت دیگر دارید.
-      locked: حساب شما قفل شده است.
-      not_found_in_database: "%{authentication_keys} یا رمز نامعتبر."
-      pending: حساب شما همچنان در دست بررسی است.
-      timeout: مهلت این ورود شما به سر رسید. برای ادامه، دوباره وارد شوید.
-      unauthenticated: برای ادامه باید وارد شوید یا ثبت نام کنید.
-      unconfirmed: برای ادامه باید نشانی ایمیل خود را تأیید کنید.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: تأیید نشانی ایمیل
-        action_with_app: پذیرش و بازگشت به %{app}
-        explanation: شما با این نشانی ایمیل حسابی در %{host} باز کرده‌اید. با یک کلیک می‌توانید این حساب را فعال کنید. اگر شما چنین کاری نکردید، لطفاً این ایمیل را نادیده بگیرید.
-        explanation_when_pending: شما با این نشانی ایمیل برای %{host} درخواست دعوت‌نامه داده‌اید. اگر ایمیل خود را تأیید کنید، ما درخواست شما را بررسی خواهیم کرد. تا وقتی بررسی تمام نشده، شما نمی‌توانید به حساب خود وارد شوید. اگر درخواست شما رد شود، ما اطلاعاتی را که از شما داریم پاک خواهیم کرد پس نیازی به کاری از سمت شما نخواهد بود. اگر شما چنین درخواستی نداده‌اید، لطفاً این ایمیل را نادیده بگیرید.
-        extra_html: لطفاً همچنین <a href="%{terms_path}">قوانین کارساز</a> و <a href="%{policy_path}">شرایط خدمتمان</a> را بررسی کنید.
-        subject: 'ماستودون: دستورالعمل تأیید برای %{instance}'
-        title: تأیید نشانی ایمیل
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'نشانی ایمیل حساب شما تغییر می‌کند به:'
-        extra: اگر شما ایمیل خود را عوض نکردید، شاید کسی به حساب شما دسترسی پیدا کرده است. در این صورت لطفاً هر چه زودتر رمز حسابتان را عوض کنید. اگر رمزتان دیگر کار نمی‌کند، لطفاً با مدیر سرور تماس بگیرید.
-        subject: 'ماستودون: نشانی ایمیل عوض شد'
-        title: نشانی ایمیل تازه
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
+        title: New email address
       password_change:
-        explanation: رمز حساب شما تغییر کرد.
-        extra: اگر شما رمز حسابتان را تغییر ندادید، شاید کسی به حساب شما دسترسی پیدا کرده است. در این صورت لطفاً هر چه زودتر رمز حسابتان را عوض کنید. اگر رمزتان دیگر کار نمی‌کند، لطفاً با مدیر سرور تماس بگیرید.
-        subject: 'ماستودون: رمزتان عوض شد'
-        title: رمزتان عوض شد
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: نشانی تازه را تأیید کنید تا ایمیل‌تان عوض شود.
-        extra: اگر شما باعث این تغییر نبودید، لطفاً این ایمیل را نادیده بگیرید. تا زمانی که شما پیوند بالا را باز نکنید، نشانی ایمیل مربوط به حساب شما عوض نخواهد شد.
-        subject: 'ماستودون: تأیید رایانامه برای %{instance}'
-        title: تأیید نشانی ایمیل
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: تغییر رمز
-        explanation: شما رمز تازه‌ای برای حسابتان درخواست کردید.
-        extra: اگر شما چنین درخواستی نکردید، لطفاً این ایمیل را نادیده بگیرید. تا زمانی که شما پیوند بالا را باز نکنید و رمز تازه‌ای نسازید، رمز شما عوض نخواهد شد.
-        subject: 'ماستودون: راهنمایی برای بازنشانی رمز'
-        title: بازنشانی رمز
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: ورود دومرحله‌ای برای حساب شما غیرفعال شده است. از الان می‌توانید تنها با نشانی ایمیل و رمز وارد حساب خود شوید.
-        subject: 'ماستودون: تأیید هویت دو مرحله‌ای از کار افتاد'
-        title: ورود دومرحله‌ای غیرفعال
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: ورود دومرحله‌ای برای حساب شما فعال شده است. برای ورود به کدی نیاز خواهید داشت که نرم‌افزار TOTP از پیش تنظیم شده برایتان می‌سازد.
-        subject: 'ماستودون: تأیید هویت دومرحله‌ای به کار افتاد'
-        title: ورود دومرحله‌ای فعال
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: کدهای بازیابی پیشین نامعتبر شده و کدهای جدیدی ساخته شدند.
-        subject: 'ماستودون: کدهای بازیابی برای تأیید هویت دو مرحله‌ای دوباره ساخته شدند'
-        title: کدهای بازیابی تأیید هویت دو مرحله‌ای عوض شده‌اند
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'ماستودون: دستورالعمل‌های قفل‌گشایی'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: کلید امنیتی زیر به حسابتان افزوده شد
-          subject: 'ماستودون: کلید امنیتی جدید'
-          title: کلید امنیتی جدیدی افزوده شد
+          explanation: The following security key has been added to your account
+          subject: 'Mastodon: New security key'
+          title: A new security key has been added
         deleted:
-          explanation: کلید امنیتی زیر از حسابتان حذف شد
-          subject: 'ماستودون: کلید امنیتی حذف شد'
-          title: یکی از کلیدهای امنیتیتان حذف شد
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: تأیید هویت با کلیدهای امنیتی برای حسابتان از کار افتاده است. ورود اکنون فقط با ژتون ایجاد شده با کارهٔ TOTP جفت‌شده امکان‌پذیر است.
-        subject: 'ماستودون: تأیید هویت با کلیدهای امنیتی از کار افتاد'
-        title: کلیدهای امنیتی از کار افتادند
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: تأیید هویت با کلید امنیتی برای حسابتان به کار افتاده است. اکنون کلید امنیتیتان می‌تواند برای ورود استفاده شود.
-        subject: 'ماستودون: تأیید هویت با کلید امنیتی به کار افتاد'
-        title: کلیدهای امنیتی به کار افتادند
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: تآیید هویتتان از %{kind} نتوانست انجام شود چرا که «%{reason}».
-      success: تأیید هویت از حساب %{kind} با موفقیت انجام شد.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: این صفحه را تنها از راه یک ایمیل بازنشانی رمز می‌شود دید. اگر از چنین ایمیلی می‌آیید، لطفاً مطمئن شوید که نشانی موجود در ایمیل را کامل به کار برده‌اید.
-      send_instructions: اگر ایمیل شما در پایگاه دادهٔ ما موجود باشد، تا دقایقی دیگر یک ایمیل بازیابی رمز دریافت خواهید کرد. اگر این ایمیل نیامد، لطفاً پوشهٔ هرزنامه‌هایتان را بررسی کنید.
-      send_paranoid_instructions: اگر ایمیل شما در پایگاه دادهٔ ما موجود باشد، تا دقایقی دیگر یک ایمیل بازیابی رمز دریافت خواهید کرد. اگر این ایمیل نیامد، لطفاً پوشهٔ هرزنامه‌هایتان را بررسی کنید.
-      updated: رمز شما با موفقیت تغییر کرد. شما الان وارد سیستم هستید.
-      updated_not_active: رمز شما با موفقیت تغییر کرد.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: بدرود! حساب شما با موفقیت لغو شد. امیدواریم دوباره شما را ببینیم.
-      signed_up: خوش آمدید! شما با موفقیت ثبت نام کردید.
-      signed_up_but_inactive: خوش آمدید! با موفقیت ثبت نام کردید. ولی هنوز وارد نشده‌اید؛ چرا که حسابتان هنوز فعال نشده است.
-      signed_up_but_locked: خوش آمدید! با موفقیت ثبت نام کردید. ولی هنوز وارد نشده‌اید؛ چرا که حسابتان قفل است.
-      signed_up_but_pending: پیغامی که دارای یک پیوند برای تأیید است به نشانی ایمیل شما فرستاده شده. پس از این‌که پیوند را باز کردید، ما درخواست شما را بررسی خواهیم کرد. اگر درخواست شما پذیرفته شود، به شما خواهیم گفت.
-      signed_up_but_unconfirmed: پیامی با یک پیوند تأیید به نشانی ایمیل شما فرستاده شده. لطفاً پیوند موجود در ایمیل را دنبال کنید تا حسابتان فعال شود. اگر این ایمیل نیامد، لطفاً پوشهٔ هرزنامه‌هایتان را بررسی کنید.
-      update_needs_confirmation: شما با موفقیت حسابتان را به‌روز کردید، ولی لازم است که ما نشانی ایمیل تازهٔ شما را تأیید کنیم. لطفاً ایمیل خود را ببینید و پیوند موجود در ایمیل را دنبال کنید تا تا نشانی ایمیل تازهٔ شما تأیید شود. اگر این ایمیل نیامد، لطفاً پوشهٔ هرزنامه‌هایتان را بررسی کنید.
-      updated: حسابتان با موفقبت به‌روز شد.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: با موفقیت خارج شدید.
-      signed_in: با موفقیت وارد شدید.
-      signed_out: با موفقیت خارج شدید.
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: تا دقایقی دیگر ایمیلی خواهید گرفت که به شما می‌گوید چگونه باید قفل حساب خود را باز کنید. اگر این ایمیل نیامد، لطفاً پوشهٔ هرزنامه‌هایتان را بررسی کنید.
-      send_paranoid_instructions: اگر حساب شما موجود باشد، تا دقایقی دیگر ایمیلی خواهید گرفت که به شما می‌گوید چگونه باید قفل آن را باز کنید. اگر این ایمیل نیامد، لطفاً پوشهٔ هرزنامه‌هایتان را بررسی کنید.
-      unlocked: قفل حساب شما با موفقیت باز شد. لطفاً برای ادامه وارد سیستم شوید.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: تأیید شده، لطفاً وارد شوید
-      confirmation_period_expired: باید ظرف %{period} تأیید شود، لطفاً دوباره درخواست دهید
-      expired: مهلتش به سر رسید، لطفاً دوباره درخواست دهید
-      not_found: پیدا نشد
-      not_locked: قفل نبود
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        one: 'خطایی مانع از ذخیرهٔ %{resource} شد:'
-        other: "%{count} خطا مانع از ذخیرهٔ %{resource} شدند:"
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: "%{count} errors prohibited this %{resource} from being saved:"
