@@ -1,5 +1,5 @@
 ---
-sw:
+sw-KE:
   activerecord:
     attributes:
       doorkeeper/application:
