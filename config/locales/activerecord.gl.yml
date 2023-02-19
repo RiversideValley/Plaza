@@ -3,53 +3,53 @@ gl:
   activerecord:
     attributes:
       poll:
-        expires_at: Remata en
-        options: Opcións
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Acordo do Servizo
-        email: Enderezo de email
+        agreement: Service agreement
+        email: E-mail address
         locale: Locale
-        password: Contrasinal
+        password: Password
       user/account:
-        username: Nome de usuaria
+        username: Username
       user/invite_request:
-        text: Razón
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: só letras, números e trazo baixo
-              reserved: está reservado
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: non é un URL válido
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: non é un URL válido
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: ten formato incorrecto
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: do estado xa existe
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: utiliza un provedor de email non autorizado
-              unreachable: semella que non existe
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: non pode superar o teu rol actual
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: inclúe permisos que non son seguros para o rol básico
-              elevated: non pode incluir permisos que o teu rol actual non posúe
-              own_role: non pode ser modificado co teu rol actual
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: non pode superar ao teu rol actual
-              own_role: non pode ser modificado co teu rol actual
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
