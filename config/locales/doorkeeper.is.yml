@@ -3,193 +3,193 @@ is:
   activerecord:
     attributes:
       doorkeeper/application:
-        name: Heiti forrits
-        redirect_uri: Slóð endurbeiningar
-        scopes: Gildissvið
-        website: Vefsvæði forrits
+        name: Application name
+        redirect_uri: Redirect URI
+        scopes: Scopes
+        website: Application website
     errors:
       models:
         doorkeeper/application:
           attributes:
             redirect_uri:
-              fragment_present: má ekki innihalda brot.
-              invalid_uri: verður að vera gild URI-slóð.
-              relative_uri: verður að vera algild URI-slóð.
-              secured_uri: verður að vera HTTPS/SSL URI-slóð.
+              fragment_present: cannot contain a fragment.
+              invalid_uri: must be a valid URI.
+              relative_uri: must be an absolute URI.
+              secured_uri: must be an HTTPS/SSL URI.
   doorkeeper:
     applications:
       buttons:
-        authorize: Heimila
-        cancel: Hætta við
-        destroy: Eyðileggja
-        edit: Breyta
-        submit: Senda inn
+        authorize: Authorize
+        cancel: Cancel
+        destroy: Destroy
+        edit: Edit
+        submit: Submit
       confirmations:
-        destroy: Ertu viss?
+        destroy: Are you sure?
       edit:
-        title: Breyta forriti
+        title: Edit application
       form:
-        error: Úbbs! Athugaðu með mögulegar villur í útfyllingarreitum
+        error: Whoops! Check your form for possible errors
       help:
-        native_redirect_uri: Notaðu %{native_redirect_uri} fyrir staðværar prófanir
-        redirect_uri: Nota eina línu á hverja URI-slóð
-        scopes: Aðgreindu gildissviðin með bilum. Skildu þetta eftir autt til að nota sjálfgefin gildissvið.
+        native_redirect_uri: Use %{native_redirect_uri} for local tests
+        redirect_uri: Use one line per URI
+        scopes: Separate scopes with spaces. Leave blank to use the default scopes.
       index:
-        application: Forrit
-        callback_url: URL-slóð baksvörunar (callback)
-        delete: Eyða
-        empty: Þú ert ekki með nein forrit.
-        name: Heiti
-        new: Nýtt forrit
-        scopes: Gildissvið
-        show: Sýna
-        title: Forritin þín
+        application: Application
+        callback_url: Callback URL
+        delete: Delete
+        empty: You have no applications.
+        name: Name
+        new: New application
+        scopes: Scopes
+        show: Show
+        title: Your applications
       new:
-        title: Nýtt forrit
+        title: New application
       show:
-        actions: Aðgerðir
-        application_id: Lykill biðlara
-        callback_urls: URL-slóðir baksvörunar (callback)
-        scopes: Gildissvið
-        secret: Leynilykill biðlara
-        title: 'Forrit: %{name}'
+        actions: Actions
+        application_id: Client key
+        callback_urls: Callback URLs
+        scopes: Scopes
+        secret: Client secret
+        title: 'Application: %{name}'
     authorizations:
       buttons:
-        authorize: Heimila
-        deny: Neita
+        authorize: Authorize
+        deny: Deny
       error:
-        title: Villa kom upp
+        title: An error has occurred
       new:
-        prompt_html: "%{client_name} biður um heimild til að fara inn á notandaaðganginn þinn. Þetta er utanaðkomandi hugbúnaður. <strong>Ef þú treystir ekki viðkomandi, þá ættir þú ekki að heimila þetta.</strong>"
-        review_permissions: Yfirfara heimildir
-        title: Auðkenning er nauðsynleg
+        prompt_html: "%{client_name} would like permission to access your account. It is a third-party application. <strong>If you do not trust it, then you should not authorize it.</strong>"
+        review_permissions: Review permissions
+        title: Authorization required
       show:
-        title: Afritaðu þennan auðkenningarkóða og límdu hann inn hjá forritinu.
+        title: Copy this authorization code and paste it to the application.
     authorized_applications:
       buttons:
-        revoke: Afturkalla
+        revoke: Revoke
       confirmations:
-        revoke: Ertu viss?
+        revoke: Are you sure?
       index:
-        authorized_at: Heimilað þann %{date}
-        description_html: Þetta eru forrit sem hafa aðgang að notandaaðgangnum þínum í gegnum API-forritsviðmótið. Ef hér eru forrit sem þú kannast ekki við, eða ef eitthvað forrit er til vandræða, skaltu afturkalla himildir þess.
-        last_used_at: Síðast notað þann %{date}
-        never_used: Aldrei notað
-        scopes: Heimildir
-        superapp: Innri
-        title: Heimiluðu forritin þín
+        authorized_at: Authorized on %{date}
+        description_html: These are applications that can access your account using the API. If there are applications you do not recognize here, or an application is misbehaving, you can revoke its access.
+        last_used_at: Last used on %{date}
+        never_used: Never used
+        scopes: Permissions
+        superapp: Internal
+        title: Your authorized applications
     errors:
       messages:
-        access_denied: Eigandi tilfangs eða auðkenningarþjónn höfnuðu beininni.
-        credential_flow_not_configured: Flæði á lykilorðsauðkennum eiganda tilfangs (Resource Owner) brást vegna þess að Doorkeeper.configure.resource_owner_from_credentials er óskilgreint.
-        invalid_client: Auðkenning á biðlara brást vegna þess að biðlarinn er óþekktur, að auðkenning biðlarans fylgdi ekki með, eða að notuð var óstudd auðkenningaraðferð.
-        invalid_grant: Uppgefin auðkenningarheimild er ógild, útrunnin, afturkölluð, samsvarar ekki endurbirtingarslóðinni í auðkenningarbeiðninni, eða var gefin út til annars biðlara.
-        invalid_redirect_uri: Endurbeiningarslóðin sem fylgdi er ekki gild.
+        access_denied: The resource owner or authorization server denied the request.
+        credential_flow_not_configured: Resource Owner Password Credentials flow failed due to Doorkeeper.configure.resource_owner_from_credentials being unconfigured.
+        invalid_client: Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.
+        invalid_grant: The provided authorization grant is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client.
+        invalid_redirect_uri: The redirect uri included is not valid.
         invalid_request:
-          missing_param: 'Vantar nauðsynlega færibreytu: %{value}.'
-          request_not_authorized: Beiðnina þarf að heimila. Nauðsynlega færibreytu svo hægt sé að heimila hana vantar eða að hún er gölluð.
-          unknown: Í beiðnina vantar nauðsynlega færibreytu, hún inniheldur óleyfilegt gildi á færibreytu, eða er gölluð á einhvern annan hátt.
-        invalid_resource_owner: Uppgefin auðkenni eiganda tilfangs eru ekki gild, eða að eigandi tilfangs finnst ekki
-        invalid_scope: Umbeðið gildissvið er ógilt, óþekkt eða rangt uppsett.
+          missing_param: 'Missing required parameter: %{value}.'
+          request_not_authorized: Request need to be authorized. Required parameter for authorizing request is missing or invalid.
+          unknown: The request is missing a required parameter, includes an unsupported parameter value, or is otherwise malformed.
+        invalid_resource_owner: The provided resource owner credentials are not valid, or resource owner cannot be found
+        invalid_scope: The requested scope is invalid, unknown, or malformed.
         invalid_token:
-          expired: Auðkenningarteiknið er útrunnið
-          revoked: Auðkenningarteiknið var aturkallað
-          unknown: Auðkenningarteiknið er ógilt
-        resource_owner_authenticator_not_configured: Leit að eiganda tilfangs (Resource Owner) brást vegna þess að Doorkeeper.configure.resource_owner_authenticator er óskilgreint.
-        server_error: Auðkenningarþjónninn rakst á óvænt skilyrði sem kom í veg fyrir að hægt væri að uppfylla beiðnina.
-        temporarily_unavailable: Auðkenningarþjónninn hefur ekki tök á að meðhöndla beiðnina vegna of mikils tímabundins álags eða viðhalds á vefþvóninum.
-        unauthorized_client: Biðlaraforritið hefur ekki heimild til að framkvæma beiðnina með þessari aðferð.
-        unsupported_grant_type: Þessi gerð auðkenningaraðferðar er ekki studd af auðkenningarþjóninum.
-        unsupported_response_type: Auðkenningarþjónninn styður ekki þessa tegund svars.
+          expired: The access token expired
+          revoked: The access token was revoked
+          unknown: The access token is invalid
+        resource_owner_authenticator_not_configured: Resource Owner find failed due to Doorkeeper.configure.resource_owner_authenticator being unconfiged.
+        server_error: The authorization server encountered an unexpected condition which prevented it from fulfilling the request.
+        temporarily_unavailable: The authorization server is currently unable to handle the request due to a temporary overloading or maintenance of the server.
+        unauthorized_client: The client is not authorized to perform this request using this method.
+        unsupported_grant_type: The authorization grant type is not supported by the authorization server.
+        unsupported_response_type: The authorization server does not support this response type.
     flash:
       applications:
         create:
-          notice: Forrit útbúið.
+          notice: Application created.
         destroy:
-          notice: Forriti eytt.
+          notice: Application deleted.
         update:
-          notice: Forrit uppfært.
+          notice: Application updated.
       authorized_applications:
         destroy:
-          notice: Forrit afturkallað.
+          notice: Application revoked.
     grouped_scopes:
       access:
-        read: Einungis lesaðgangur
-        read/write: Heimilt að lesa og skrifa
-        write: Einungis skrifaðgangur
+        read: Read-only access
+        read/write: Read and write access
+        write: Write-only access
       title:
-        accounts: Notandaaðgangar
-        admin/accounts: Stjórnun aðganga
-        admin/all: Allar stjórnunaraðgerðir
-        admin/reports: Stjórnun kæra
-        all: Fullur aðgangur að Mastodon-aðgangnum þínum
-        blocks: Útilokanir
-        bookmarks: Bókamerki
-        conversations: Samtöl
-        crypto: Enda-í-enda dulritun
-        favourites: Eftirlæti
-        filters: Síur
-        follow: Fylgist með, þagganir og útilokanir
-        follows: Fylgist með
-        lists: Listar
-        media: Myndefnisviðhengi
-        mutes: Þagganir
-        notifications: Tilkynningar
-        push: Ýti-tilkynningar
-        reports: Kærur
-        search: Leita
-        statuses: Færslur
+        accounts: Accounts
+        admin/accounts: Administration of accounts
+        admin/all: All administrative functions
+        admin/reports: Administration of reports
+        all: Full access to your Mastodon account
+        blocks: Blocks
+        bookmarks: Bookmarks
+        conversations: Conversations
+        crypto: End-to-end encryption
+        favourites: Favourites
+        filters: Filters
+        follow: Follows, Mutes and Blocks
+        follows: Follows
+        lists: Lists
+        media: Media attachments
+        mutes: Mutes
+        notifications: Notifications
+        push: Push notifications
+        reports: Reports
+        search: Search
+        statuses: Posts
     layouts:
       admin:
         nav:
-          applications: Forrit
-          oauth2_provider: OAuth þjónusta
+          applications: Applications
+          oauth2_provider: OAuth2 Provider
       application:
-        title: Krafist er OAuth auðkenningar við að
+        title: OAuth authorization required
     scopes:
-      admin:read: lesa öll gögn á netþjóninum
-      admin:read:accounts: lesa viðkvæmar upplýsingar á öllum notendaaðgöngum
-      admin:read:canonical_email_blocks: lesa viðkvæmar upplýsingar um allar stafréttar útilokanir tölvupósts
-      admin:read:domain_allows: lesa viðkvæmar upplýsingar um öll leyfð lén
-      admin:read:domain_blocks: lesa viðkvæmar upplýsingar um öll útilokuð lén
-      admin:read:email_domain_blocks: lesa viðkvæmar upplýsingar um öll útilokuð tölvupóstlén
-      admin:read:ip_blocks: lesa viðkvæmar upplýsingar um allar útilokanir IP-vistfanga
-      admin:read:reports: lesa viðkvæmar upplýsingar í öllum skýrslum og kærðum notendaaðgöngum
-      admin:write: breyta öllum gögnum á netþjóninum
-      admin:write:accounts: framkvæma umsjónaraðgerðir á notendaaðganga
-      admin:write:canonical_email_blocks: framkvæma umsjónaraðgerðir á stafréttar útilokanir tölvupósts
-      admin:write:domain_allows: framkvæma umsjónaraðgerðir á leyfð lén
-      admin:write:domain_blocks: framkvæma umsjónaraðgerðir á útilokuð lén
-      admin:write:email_domain_blocks: framkvæma umsjónaraðgerðir á útilokuð tölvupóstlén
-      admin:write:ip_blocks: framkvæma umsjónaraðgerðir á útilokuð IP-vistföng
-      admin:write:reports: framkvæma umsjónaraðgerðir á kærur
-      crypto: nota enda-í-enda dulritun
-      follow: breyta venslum aðgangs
-      push: taka á móti ýti-tilkynningum til þín
-      read: lesa öll gögn á notandaaðgangnum þínum
-      read:accounts: sjá upplýsingar í notendaaðgöngum
-      read:blocks: skoða útilokanirnar þínar
-      read:bookmarks: skoða bókamerki
-      read:favourites: skoða eftirlætin þín
-      read:filters: skoða síurnar þínar
-      read:follows: sjá hverjum þú fylgist með
-      read:lists: skoða listana þína
-      read:mutes: skoða hverja þú þaggar
-      read:notifications: sjá tilkynningarnar þínar
-      read:reports: skoða skýrslurnar þína
-      read:search: leita fyrir þína hönd
-      read:statuses: sjá allar færslur
-      write: breyta öllum gögnum á notandaaðgangnum þínum
-      write:accounts: breyta notandasniðinu þínu
-      write:blocks: útiloka notandaaðganga og lén
-      write:bookmarks: bókamerkja færslur
-      write:conversations: þagga og eyða samtölum
-      write:favourites: setja færslur í eftirlæti
-      write:filters: útbúa síur
-      write:follows: fylgjast með fólki
-      write:lists: búa til lista
-      write:media: senda inn myndefnisskrár
-      write:mutes: þagga niður í fólki og samtölum
-      write:notifications: hreinsa tilkynningarnar þínar
-      write:reports: kæra annað fólk
-      write:statuses: gefa út færslur
+      "admin:read": read all data on the server
+      "admin:read:accounts": read sensitive information of all accounts
+      "admin:read:canonical_email_blocks": read sensitive information of all canonical email blocks
+      "admin:read:domain_allows": read sensitive information of all domain allows
+      "admin:read:domain_blocks": read sensitive information of all domain blocks
+      "admin:read:email_domain_blocks": read sensitive information of all email domain blocks
+      "admin:read:ip_blocks": read sensitive information of all IP blocks
+      "admin:read:reports": read sensitive information of all reports and reported accounts
+      "admin:write": modify all data on the server
+      "admin:write:accounts": perform moderation actions on accounts
+      "admin:write:canonical_email_blocks": perform moderation actions on canonical email blocks
+      "admin:write:domain_allows": perform moderation actions on domain allows
+      "admin:write:domain_blocks": perform moderation actions on domain blocks
+      "admin:write:email_domain_blocks": perform moderation actions on email domain blocks
+      "admin:write:ip_blocks": perform moderation actions on IP blocks
+      "admin:write:reports": perform moderation actions on reports
+      crypto: use end-to-end encryption
+      follow: modify account relationships
+      push: receive your push notifications
+      read: read all your account's data
+      "read:accounts": see accounts information
+      "read:blocks": see your blocks
+      "read:bookmarks": see your bookmarks
+      "read:favourites": see your favourites
+      "read:filters": see your filters
+      "read:follows": see your follows
+      "read:lists": see your lists
+      "read:mutes": see your mutes
+      "read:notifications": see your notifications
+      "read:reports": see your reports
+      "read:search": search on your behalf
+      "read:statuses": see all posts
+      write: modify all your account's data
+      "write:accounts": modify your profile
+      "write:blocks": block accounts and domains
+      "write:bookmarks": bookmark posts
+      "write:conversations": mute and delete conversations
+      "write:favourites": favourite posts
+      "write:filters": create filters
+      "write:follows": follow people
+      "write:lists": create lists
+      "write:media": upload media files
+      "write:mutes": mute people and conversations
+      "write:notifications": clear your notifications
+      "write:reports": report other people
+      "write:statuses": publish posts
