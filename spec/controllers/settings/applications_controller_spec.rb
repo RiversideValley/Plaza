@@ -112,11 +112,11 @@ describe Settings::ApplicationsController do
 
   describe 'PATCH #update' do
     context 'success' do
-      let(:opts) {
+      let(:opts) do
         {
           website: 'https://foo.bar/',
         }
-      }
+      end
 
       def call_update
         patch :update, params: {
@@ -175,6 +175,7 @@ describe Settings::ApplicationsController do
 
   describe 'regenerate' do
     let(:token) { user.token_for_app(app) }
+
     before do
       expect(token).to_not be_nil
       post :regenerate, params: { id: app.id }
