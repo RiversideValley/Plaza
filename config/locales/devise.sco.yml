@@ -2,114 +2,114 @@
 sco:
   devise:
     confirmations:
-      confirmed: Yer email address haes been successfully confirmt.
-      send_instructions: Ye'll get a email tellin ye hou tae confirm yer email address in a wee minute. Please tak a luik in yer mince folder if ye didnae get this email.
-      send_paranoid_instructions: Gin yer email address exists in wir database, ye'll get a email tellin ye hou tae mak siccar yer email address in a wee minute. Please check yer mince folder if ye didnae get this email.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: Ye'r signed in awriddy.
-      inactive: Yer accoont isnae activatit yit.
-      invalid: No a valid %{authentication_keys} or passwird.
-      last_attempt: Ye'v juist the ae mair attempt afore yer accoont is snibbed.
-      locked: Yer accoont is snibbed.
-      not_found_in_database: No a valid %{authentication_keys} or passwird.
-      pending: Yer accoont is stull gettin luiked at the noo.
-      timeout: Yer session is expirit. Please sign in again fit tae gae forret.
-      unauthenticated: Ye'r needin tae sign in or sign up afore gaein forret.
-      unconfirmed: Ye hae tae confirm yer email address afore gaun forret.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Verify yer email address
-        action_with_app: Mak siccar an return tae %{app}
-        explanation: Ye'v makkit a accoont on %{host} wi this email address. Ye'r ae click awa fae activatin it. If this wisnae yersel, please dinnae bother aboot this email.
-        explanation_when_pending: Ye applied fir a invite tae %{host} wi this email address. Ance ye mak siccar yer email address, we wull luik ower yer application. Ye kin log in tae chynge yer details or fir tae delete yer accoont, but ye cannae uise maist o the functions tae yer accoont is appruived. Gin yer application isnae taen on yer data wull get deletit, sae nae mair action wull be needit fae ye. Gin this wisnae yersel, please dinnae bother aboot this email.
-        extra_html: Please tak a deek at <a href="%{terms_path}">the rules o the server tae</a> an <a href="%{policy_path}">oor terms o service</a>.
-        subject: 'Mastodon: Confirmation instructions fir %{instance}'
-        title: Verify yer email address
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'The email address fir yer accoont is gettin chynged tae:'
-        extra: Gin ye didnae chynge yer email, it's mibbie the case thit somebody haes got access tae yer accoont. Please chynge yer passwird richt noo or get in touch wi the server admin if ye'r snibbed oot yer accoont.
-        subject: 'Mastodon: Email chynged'
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
         title: New email address
       password_change:
-        explanation: The passwird fir yer accoont haes been chynged.
-        extra: Gin ye didnae chynge yer passwird, it's mibbie the case thit somebody haes got access tae yer accoont. Please chynge yer passwird richt noo or get in touch wi the server admin if ye'r snibbed oot yer accoont.
-        subject: 'Mastodon: Passwird chynged'
-        title: Passwird chynged
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: Mak siccar the new address fir tae chynge yer email.
-        extra: Gin this chynge wisnae stertit bi yersel, please dingie this email. The email address fir the Mastodon accoont wullnae chynge tae ye chap the link abuin.
-        subject: 'Mastodon: Mak siccar email fir %{instance}'
-        title: Mak siccar email address
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: Chynge passwird
-        explanation: Ye speirt fir a new passwird fir yer accoont.
-        extra: Gin ye didnae speir fir this, please dingie this email. Yer passwird wullnae chynge tae ye chap the link abuin an mak a new ane.
-        subject: 'Mastodon: Reset passwird instructions'
-        title: Passwird reset
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: Twa factor authentication fir yer accoont haes been turnt aff. Login is noo possible uisin ainly a email address an passwird.
-        subject: 'Mastodon: Twa-factor authentication turnt aff'
-        title: 2FA turnt aff
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: Twa-factor authentication haes been turnt on fir yer accoont. A token gien bi the pairt TOTP app wull be needit fir login.
-        subject: 'Mastodon: Twa-factor authentication turnt on'
-        title: 2FA turnt on
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: The last recovery codes haes been pit in the bucket an new anes makkit.
-        subject: 'Mastodon: Twa-factor recovery codes re-jigged'
-        title: 2FA recovery codes chynged
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'Mastodon: Unsnib instructions'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: The follaein security key haes been addit tae yer accoont
+          explanation: The following security key has been added to your account
           subject: 'Mastodon: New security key'
-          title: A new security key haes been addit
+          title: A new security key has been added
         deleted:
-          explanation: The follaein security key haes been deletit fae yer accoont
-          subject: 'Mastodon: Security key deletit'
-          title: Ane o yer security keys haes been deletit
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: Authentication wi security keys haes been turnt aff on yer accoont. Login is noo possible uisin ainly the token generatit bi the pairt TOTP app.
-        subject: 'Mastodon: Authentication wi security keys turnt aff'
-        title: Security keys turnt aff
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: Security key authentication haes been turnt on fir yer accoont. Yer security key kin noo be uised fir login.
-        subject: 'Mastodon: Security key authentication turnt on'
-        title: Security keys turnt on
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: Cuidnae authenticate ye fae %{kind} acause “%{reason}”.
-      success: Successfully authenticatit fae %{kind} accoont.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: Ye cannae access this page athoot comin in fae a passwird reset email. Gin ye dae come fae a passwird reset email, please mak siccar ye uised the hail URL sent ye.
-      send_instructions: Gin yer email address exists in wir database, ye'll get a passwird recovery link in yer email in a wee minute. Please check yer mince folder if ye didnae get this email.
-      send_paranoid_instructions: Gin yer email address exists in wir database, ye'll get a passwird recovery link in yer email in a wee minute. Please check yer mince folder if ye didnae get this email.
-      updated: Yer passwird haes been chynged successfully. Ye'r noo signed in.
-      updated_not_active: Yer passwird haes been chynged successfully.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: Cheerio! Yer accoont haes been successfully shut doon. We howp fir tae see ye again suin.
-      signed_up: Hullo! Ye'v signed up successfully.
-      signed_up_but_inactive: Ye'v signed up successfully. Hou an iver, we cuidnae sign ye in acause yer accoont isnae activatit yit.
-      signed_up_but_locked: Ye'v signed up successfully. Hou an iver, we cuidnae sign ye in acause yer accoont is snibbed.
-      signed_up_but_pending: A email wi a confirmation link haes been sent tae yer email address. Efter ye chap on the link, we'll luik ower yer application. Ye'll be sent a note gin it's approved.
-      signed_up_but_unconfirmed: A message wi a confirmation link haes been sent tae yer email address. Please follae the link fir tae activate yer accoont. Please check yer mince folder if ye didnae get this email.
-      update_needs_confirmation: Ye updatit yer accoont successfully, but we need tae verify yer new email address. Please tak a deek at yer email an follae the confirm link fir tae confirm yer new email address. Please tak a deek at yer mince folder if ye didnae get this email.
-      updated: Yer accoont haes been updatit successfully.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: Signed oot successfully.
+      already_signed_out: Signed out successfully.
       signed_in: Signed in successfully.
-      signed_out: Signed oot successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: Ye'll get a email wi instructions fir hou tae unsnib yer accoont in a wee minute. Please tak a deek at yer mince folder if ye didnae get this email.
-      send_paranoid_instructions: Gin yer accoont exists, ye'll get a email wi instructions fir hou tae unsnib it in a wee minute. Please tak a deek at yer mince folder if ye didnae get this email.
-      unlocked: Yer accoont haes been unsnibbed successfully. Please sign in fir tae gae forret.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: wis awriddy confirmt, please try signing in
-      confirmation_period_expired: needs tae be confirmt athin %{period}, please request a new ane
-      expired: haes expirt, please request a new ane
-      not_found: no fun
-      not_locked: wisnae snibbed
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        one: '1 error prohibitit this %{resource} fae bein saved:'
-        other: "%{count} errors prohibitit this %{resource} fae bein saved:"
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: "%{count} errors prohibited this %{resource} from being saved:"
