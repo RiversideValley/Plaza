@@ -1,1343 +1,1711 @@
 ---
 fa:
   about:
-    about_mastodon_html: 'شبکهٔ اجتماعی آینده: بدون تبلیغات، بدون شنود از طرف شرکت‌ها، طراحی اخلاق‌مدار، و معماری غیرمتمرکز! با ماستودون صاحب داده‌های خودتان باشید!'
-    contact_missing: تنظیم نشده
-    contact_unavailable: موجود نیست
-    hosted_on: ماستودون، میزبانی‌شده روی %{domain}
-    title: درباره
+    about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon!'
+    contact_missing: Not set
+    contact_unavailable: N/A
+    hosted_on: Mastodon hosted on %{domain}
+    title: About
   accounts:
-    follow: پیگیری
+    follow: Follow
     followers:
-      one: پیگیر
-      other: پیگیر
-    following: پی می‌گیرد
-    instance_actor_flash: این حساب یک عامل مجازی است که به نمایندگی از خود کارساز استفاده می‌شود و نه هیچ یکی از کاربران. این حساب به منظور اتصال به فدراسیون استفاده می‌شود و نباید معلق شود.
-    last_active: آخرین فعالیت
-    link_verified_on: مالکیت این پیوند در %{date} بررسی شد
-    nothing_here: این‌جا چیزی نیست!
+      one: Follower
+      other: Followers
+    following: Following
+    instance_actor_flash: This account is a virtual actor used to represent the server itself and not any individual user. It is used for federation purposes and should not be suspended.
+    last_active: last active
+    link_verified_on: Ownership of this link was checked on %{date}
+    nothing_here: There is nothing here!
     pin_errors:
-      following: باید کاربری که می‌خواهید پیشنهاد دهید را دنبال کرده باشید
+      following: You must be already following the person you want to endorse
     posts:
-      one: فرسته
-      other: فرسته‌ها
-    posts_tab_heading: فرسته‌ها
+      one: Post
+      other: Posts
+    posts_tab_heading: Posts
   admin:
     account_actions:
-      action: انجامِ کنش
-      title: انجام کنش مدیریتی روی %{acct}
+      action: Perform action
+      title: Perform moderation action on %{acct}
     account_moderation_notes:
-      create: افزودن یادداشت
-      created_msg: یادداشت مدیر با موفقیت ساخته شد!
-      destroyed_msg: یادداشت نظارتی با موفقیت نابود شد!
+      create: Leave note
+      created_msg: Moderation note successfully created!
+      destroyed_msg: Moderation note successfully destroyed!
     accounts:
-      add_email_domain_block: مسدود کردن دامنهٔ رایانامه
-      approve: پذیرفتن
-      approved_msg: کارهٔ ثبت‌نام %{username} با موفقیت تأیید شد
-      are_you_sure: مطمئنید؟
-      avatar: تصویر نمایه
-      by_domain: دامین
+      add_email_domain_block: Block e-mail domain
+      approve: Approve
+      approved_msg: Successfully approved %{username}'s sign-up application
+      are_you_sure: Are you sure?
+      avatar: Avatar
+      by_domain: Domain
       change_email:
-        changed_msg: رایانامه با موفقیت تغییر کرد!
-        current_email: رایانامهٔ کنونی
-        label: تغییر رایانامه
-        new_email: رایانامهٔ جدید
-        submit: تغییر رایانامه
-        title: تغییر رایانامه برای %{username}
+        changed_msg: Email successfully changed!
+        current_email: Current email
+        label: Change email
+        new_email: New email
+        submit: Change email
+        title: Change email for %{username}
       change_role:
-        changed_msg: نقش با موفقیت تغییر کرد!
-        label: تغییر نقش
-        no_role: بدون نقش
-        title: تغییر نقش برای %{username}
-      confirm: تأیید
-      confirmed: تأیید شد
-      confirming: تأیید
-      custom: سفارشی
-      delete: حذف داده‌ها
-      deleted: حذف شده
-      demote: تنزل‌دادن
-      destroyed_msg: داده‌های %{username} در صف حدف قرار گرفتند
-      disable: از کار انداختن
-      disable_sign_in_token_auth: از کار انداختن تأیید هویت ژتون رایانامه‌ای
-      disable_two_factor_authentication: از کار انداختن ورود دومرحله‌ای
-      disabled: از کار افتاده
-      display_name: نام نمایشی
-      domain: دامنه
-      edit: ویرایش
-      email: رایانامه
-      email_status: وضعیت رایانامه
-      enable: به کار انداختن
-      enable_sign_in_token_auth: به کار انداختن تأیید هویت ژتون رایانامه‌ای
-      enabled: به کار افتاده
-      enabled_msg: حساب %{username} با موفقیت به کار انداخته شد
-      followers: پیگیران
-      follows: پی می‌گیرد
-      header: تصویر زمینه
-      inbox_url: نشانی صندوق ورودی
-      invite_request_text: دلایل‌تان برای پیوستن
-      invited_by: دعوت‌شده از طرف
-      ip: آی‌پی
-      joined: عضو شده در
+        changed_msg: Role successfully changed!
+        label: Change role
+        no_role: No role
+        title: Change role for %{username}
+      confirm: Confirm
+      confirmed: Confirmed
+      confirming: Confirming
+      custom: Custom
+      delete: Delete data
+      deleted: Deleted
+      demote: Demote
+      destroyed_msg: "%{username}'s data is now queued to be deleted imminently"
+      disable: Freeze
+      disable_sign_in_token_auth: Disable e-mail token authentication
+      disable_two_factor_authentication: Disable 2FA
+      disabled: Frozen
+      display_name: Display name
+      domain: Domain
+      edit: Edit
+      email: Email
+      email_status: Email status
+      enable: Unfreeze
+      enable_sign_in_token_auth: Enable e-mail token authentication
+      enabled: Enabled
+      enabled_msg: Successfully unfroze %{username}'s account
+      followers: Followers
+      follows: Follows
+      header: Header
+      inbox_url: Inbox URL
+      invite_request_text: Reasons for joining
+      invited_by: Invited by
+      ip: IP
+      joined: Joined
       location:
-        all: همه
-        local: محلّی
-        remote: کارسازهای دیگر
-        title: مکان
-      login_status: وضعیت ورود
-      media_attachments: پیوست‌های رسانه‌ای
-      memorialize: تبدیل به یادمان
-      memorialized: یادمان‌سازی شده
-      memorialized_msg: "%{username} با موفقیت به یک حساب یادمانی تبدیل شد"
+        all: All
+        local: Local
+        remote: Remote
+        title: Location
+      login_status: Login status
+      media_attachments: Media attachments
+      memorialize: Turn into memoriam
+      memorialized: Memorialized
+      memorialized_msg: Successfully turned %{username} into a memorial account
       moderation:
-        active: فعّال
-        all: همه
-        pending: منتظر
-        silenced: محدود
-        suspended: تعلیق شده
-        title: مدیریت
-      moderation_notes: یادداشت‌های مدیریتی
-      most_recent_activity: آخرین فعالیت
-      most_recent_ip: آخرین IP
-      no_account_selected: هیچ حسابی تغییر نکرد زیرا حسابی انتخاب نشده بود
-      no_limits_imposed: بدون محدودیت
-      no_role_assigned: هیچ نقشی اعطا نشده
-      not_subscribed: مشترک نیست
-      pending: در انتظار بررسی
-      perform_full_suspension: تعلیق
-      previous_strikes: اخطارهای پیشین
-      promote: ترفیع‌دادن
-      protocol: پروتکل
-      public: عمومی
-      push_subscription_expires: عضویت از راه PuSH منقضی شد
-      redownload: نوسازی نمایه
-      redownloaded_msg: حساب %{username} با موفقیت از ابتدا نوسازی شد
-      reject: نپذیرفتن
-      rejected_msg: کارهٔ ثبت‌نام %{username} با موفقیت رد شد
-      remove_avatar: حذف تصویر نمایه
-      remove_header: برداشتن تصویر زمینه
-      removed_avatar_msg: تصویر آواتار %{username} با موفّقیت برداشته شد
-      removed_header_msg: تصویر سرایند %{username} با موفّقیت برداشته شد
+        active: Active
+        all: All
+        disabled: Disabled
+        pending: Pending
+        silenced: Limited
+        suspended: Suspended
+        title: Moderation
+      moderation_notes: Moderation notes
+      most_recent_activity: Most recent activity
+      most_recent_ip: Most recent IP
+      no_account_selected: No accounts were changed as none were selected
+      no_limits_imposed: No limits imposed
+      no_role_assigned: No role assigned
+      not_subscribed: Not subscribed
+      pending: Pending review
+      perform_full_suspension: Suspend
+      previous_strikes: Previous strikes
+      previous_strikes_description_html:
+        one: This account has <strong>one</strong> strike.
+        other: This account has <strong>%{count}</strong> strikes.
+      promote: Promote
+      protocol: Protocol
+      public: Public
+      push_subscription_expires: PuSH subscription expires
+      redownload: Refresh profile
+      redownloaded_msg: Successfully refreshed %{username}'s profile from origin
+      reject: Reject
+      rejected_msg: Successfully rejected %{username}'s sign-up application
+      remote_suspension_irreversible: The data of this account has been irreversibly deleted.
+      remote_suspension_reversible_hint_html: The account has been suspended on their server, and the data will be fully removed on %{date}. Until then, the remote server can restore this account without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
+      remove_avatar: Remove avatar
+      remove_header: Remove header
+      removed_avatar_msg: Successfully removed %{username}'s avatar image
+      removed_header_msg: Successfully removed %{username}'s header image
       resend_confirmation:
-        already_confirmed: این کاربر قبلا تایید شده است
-        send: ارسال دوبارهٔ رایانامهٔ تأیید
-        success: رایانامه تأیید با موفقیت ارسال شد!
-      reset: بازنشانی
-      reset_password: بازنشانی رمز
-      resubscribe: اشتراک دوباره
-      role: نقش
-      search: جستجو
-      search_same_email_domain: دیگر کاربران با دامنهٔ رایانامهٔ یکسان
-      search_same_ip: دیگر کاربران با IP یکسان
+        already_confirmed: This user is already confirmed
+        send: Resend confirmation email
+        success: Confirmation email successfully sent!
+      reset: Reset
+      reset_password: Reset password
+      resubscribe: Resubscribe
+      role: Role
+      search: Search
+      search_same_email_domain: Other users with the same e-mail domain
+      search_same_ip: Other users with the same IP
+      security: Security
       security_measures:
-        only_password: فقط گذرواژه
-        password_and_2fa: گذرواژه و ۲عاملی
-      sensitive: حساس
-      sensitized: علامت‌زده به عنوان حساس
-      shared_inbox_url: نشانی صندوق ورودی مشترک
+        only_password: Only password
+        password_and_2fa: Password and 2FA
+      sensitive: Force-sensitive
+      sensitized: Marked as sensitive
+      shared_inbox_url: Shared inbox URL
       show:
-        created_reports: گزارش‌های ثبت کرده
-        targeted_reports: گزارش‌های دیگران
-      silence: خموشاندن
-      silenced: خموشانده
-      statuses: نوشته‌ها
-      strikes: اخطارهای پیشین
-      subscribe: اشتراک
-      suspend: تعلیق
-      suspended: تعلیق‌شده
-      suspension_irreversible: داده‌های این حساب به صورت بی‌بازگشت حذف شد. می‌توانید برای قابل استفاده کردنش، آن را نامعلّق کنید، ولی این کار هیچ داده‌ای را که از پیش داده، برنخواهد گرداند.
-      suspension_reversible_hint_html: حساب معلّق شد و داده‌ها به صورت کامل در %{date} برداشته خواهند شد. تا آن زمان، حساب می‌تواند بی هیچ عوارضی بازگردانده شود. اگر می‌خواهید فوراً همهٔ داده‌های حساب را بردارید، می‌توانید در پایین این کار را بکنید.
-      title: حساب‌ها
-      unblock_email: رفع مسدودیت نشانی رایانامه
-      unblocked_email_msg: مسدودیت نشانی رایانامهٔ %{username} با موفقیت رفع شد
-      unconfirmed_email: رایانامهٔ تأیید نشده
-      undo_sensitized: بازگردانی حساس
-      undo_silenced: واگردانی بی‌صداکردن
-      undo_suspension: واگردانی تعلیق
-      unsilenced_msg: حساب %{username} با موفّقیت نامحدود شد
-      unsubscribe: لغو اشتراک
-      unsuspended_msg: حساب %{username} با موفّقیت نامعلّق شد
-      username: نام کاربری
-      view_domain: نمایش خلاصهٔ دامنه
-      warn: هشدار
-      web: وب
-      whitelisted: فهرست مجاز
+        created_reports: Made reports
+        targeted_reports: Reported by others
+      silence: Limit
+      silenced: Limited
+      statuses: Posts
+      strikes: Previous strikes
+      subscribe: Subscribe
+      suspend: Suspend
+      suspended: Suspended
+      suspension_irreversible: The data of this account has been irreversibly deleted. You can unsuspend the account to make it usable but it will not recover any data it previously had.
+      suspension_reversible_hint_html: The account has been suspended, and the data will be fully removed on %{date}. Until then, the account can be restored without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
+      title: Accounts
+      unblock_email: Unblock email address
+      unblocked_email_msg: Successfully unblocked %{username}'s email address
+      unconfirmed_email: Unconfirmed email
+      undo_sensitized: Undo force-sensitive
+      undo_silenced: Undo limit
+      undo_suspension: Undo suspension
+      unsilenced_msg: Successfully undid limit of %{username}'s account
+      unsubscribe: Unsubscribe
+      unsuspended_msg: Successfully unsuspended %{username}'s account
+      username: Username
+      view_domain: View summary for domain
+      warn: Warn
+      web: Web
+      whitelisted: Allowed for federation
     action_logs:
       action_types:
-        approve_appeal: پذیرش درخواست تجدیدنظر
-        approve_user: تایید کاربر
-        assigned_to_self_report: واگذاری گزارش
-        change_email_user: تغییر رایانامه برای کاربر
-        confirm_user: تأیید کاربر
-        create_account_warning: ایجاد هشدار
-        create_announcement: ایجاد اعلامیه
-        create_custom_emoji: ایجاد اموجی سفارشی
-        create_domain_allow: ایجاد اجازهٔ دامنه
-        create_domain_block: ایجاد انسداد دامنه
-        create_email_domain_block: ایجاد انسداد دامنهٔ رایانامه
-        create_ip_block: ایجاد قاعدهٔ آی‌پی
-        create_unavailable_domain: ایجاد دامنهٔ ناموجود
-        create_user_role: ایجاد نقش
-        demote_user: تنزل کاربر
-        destroy_announcement: حذف اعلامیه
-        destroy_canonical_email_block: پاک کردن انسداد ایمیل
-        destroy_custom_emoji: حذف اموجی سفارشی
-        destroy_domain_allow: حذف اجازهٔ دامنه
-        destroy_domain_block: حذف انسداد دامنه
-        destroy_email_domain_block: حذف انسداد دامنهٔ رایانامه
-        destroy_instance: پاکسازی دامنه
-        destroy_ip_block: حذف قاعدهٔ آی‌پی
-        destroy_status: حذف وضعیت
-        destroy_unavailable_domain: حذف دامنهٔ ناموجود
-        disable_2fa_user: از کار انداختن ورود دومرحله‌ای
-        disable_custom_emoji: از کار انداختن اموجی سفارشی
-        disable_sign_in_token_auth_user: از کار انداختن تأیید هویت ژتون رایانامه‌ای برای کاربر
-        disable_user: از کار انداختن کاربر
-        enable_custom_emoji: به کار انداختن اموجی سفارشی
-        enable_sign_in_token_auth_user: به کار انداختن تأیید هویت ژتون رایانامه‌ای برای کاربر
-        enable_user: به کار انداختن کاربر
-        memorialize_account: یادسپاری حساب
-        promote_user: ترفیع کاربر
-        reject_appeal: رد کردن درخواست تجدیدنظر
-        reject_user: رد کاربر
-        remove_avatar_user: برداشتن تصویر نمایه
-        reopen_report: بازگشایی گزارش
-        reset_password_user: بازنشانی گذرواژه
-        resolve_report: رفع گزارش
-        sensitive_account: علامت‌گذاری رسانه در حسابتان به عنوان حساس
-        silence_account: خموشی حساب
-        suspend_account: تعلیق حساب
-        unassigned_report: رفع واگذاری گزارش
-        unblock_email_account: رفع مسدودیت رایانامه
-        unsensitive_account: برداشتن علامت رسانه در حسابتان به عنوان حساس
-        unsilence_account: رفع خموشی حساب
-        unsuspend_account: رفع تعلیق حساب
-        update_announcement: به‌روز رسانی اعلامیه
-        update_custom_emoji: به‌روز رسانی اموجی سفارشی
-        update_domain_block: به‌روزرسانی مسدودسازی دامنه
-        update_status: به‌روز رسانی وضعیت
+        approve_appeal: Approve Appeal
+        approve_user: Approve User
+        assigned_to_self_report: Assign Report
+        change_email_user: Change E-mail for User
+        change_role_user: Change Role of User
+        confirm_user: Confirm User
+        create_account_warning: Create Warning
+        create_announcement: Create Announcement
+        create_canonical_email_block: Create E-mail Block
+        create_custom_emoji: Create Custom Emoji
+        create_domain_allow: Create Domain Allow
+        create_domain_block: Create Domain Block
+        create_email_domain_block: Create E-mail Domain Block
+        create_ip_block: Create IP rule
+        create_unavailable_domain: Create Unavailable Domain
+        create_user_role: Create Role
+        demote_user: Demote User
+        destroy_announcement: Delete Announcement
+        destroy_canonical_email_block: Delete E-mail Block
+        destroy_custom_emoji: Delete Custom Emoji
+        destroy_domain_allow: Delete Domain Allow
+        destroy_domain_block: Delete Domain Block
+        destroy_email_domain_block: Delete E-mail Domain Block
+        destroy_instance: Purge Domain
+        destroy_ip_block: Delete IP rule
+        destroy_status: Delete Post
+        destroy_unavailable_domain: Delete Unavailable Domain
+        destroy_user_role: Destroy Role
+        disable_2fa_user: Disable 2FA
+        disable_custom_emoji: Disable Custom Emoji
+        disable_sign_in_token_auth_user: Disable E-mail Token Authentication for User
+        disable_user: Disable User
+        enable_custom_emoji: Enable Custom Emoji
+        enable_sign_in_token_auth_user: Enable E-mail Token Authentication for User
+        enable_user: Enable User
+        memorialize_account: Memorialize Account
+        promote_user: Promote User
+        reject_appeal: Reject Appeal
+        reject_user: Reject User
+        remove_avatar_user: Remove Avatar
+        reopen_report: Reopen Report
+        resend_user: Resend Confirmation Mail
+        reset_password_user: Reset Password
+        resolve_report: Resolve Report
+        sensitive_account: Force-Sensitive Account
+        silence_account: Limit Account
+        suspend_account: Suspend Account
+        unassigned_report: Unassign Report
+        unblock_email_account: Unblock email address
+        unsensitive_account: Undo Force-Sensitive Account
+        unsilence_account: Undo Limit Account
+        unsuspend_account: Unsuspend Account
+        update_announcement: Update Announcement
+        update_custom_emoji: Update Custom Emoji
+        update_domain_block: Update Domain Block
+        update_ip_block: Update IP rule
+        update_status: Update Post
+        update_user_role: Update Role
       actions:
-        approve_appeal_html: "%{name} درخواست تجدیدنظر تصمیم مدیر را از %{target} پذیرفت"
-        approve_user_html: "%{name} ثبت نام %{target} را تایید کرد"
-        assigned_to_self_report_html: "%{name} رسیدگی به گزارش %{target} را به عهده گرفت"
-        change_email_user_html: "%{name} نشانی رایانامهٔ کاربر %{target} را عوض کرد"
-        confirm_user_html: "%{name} نشانی رایانامهٔ کاربر %{target} را تأیید کرد"
-        create_account_warning_html: "%{name} هشداری برای %{target} فرستاد"
-        create_announcement_html: "%{name} اعلامیه‌ای جدید ایجاد کرد %{target}"
-        create_custom_emoji_html: "%{name} اموجی تازهٔ %{target} را بارگذاشت"
-        create_domain_allow_html: "%{name} دامنهٔ %{target} را مجاز کرد"
-        create_domain_block_html: "%{name} دامنهٔ %{target} را مسدود کرد"
-        create_email_domain_block_html: "%{name} دامنهٔ رایانامهٔ %{target} را مسدود کرد"
-        create_ip_block_html: "%{name} برای آی‌پی %{target} قانونی ایجاد کرد"
-        create_unavailable_domain_html: "%{name} تحویل محتوا به دامنه %{target} را متوقف کرد"
-        demote_user_html: "%{name} کاربر %{target} را تنزل داد"
-        destroy_announcement_html: "%{name} اعلامیهٔ %{target} را حذف کرد"
-        destroy_domain_allow_html: "%{name} دامنهٔ %{target} را از فهرست مجاز برداشت"
-        destroy_domain_block_html: "%{name} انسداد دامنهٔ %{target} را رفع کرد"
-        destroy_email_domain_block_html: "%{name} انسداد دامنهٔ رایانامهٔ %{target} را برداشت"
-        destroy_instance_html: "%{name} دامنه %{target} را پاکسازی کرد"
-        destroy_ip_block_html: "%{name} قاعدهٔ آی‌پی %{target} را حذف کرد"
-        destroy_status_html: "%{name} وضعیت %{target} را برداشت"
-        destroy_unavailable_domain_html: "%{name} تحویل محتوا به دامنه %{target} را از سر گرفت"
-        disable_2fa_user_html: "%{name} ضرورت ورود دو مرحله‌ای را برای کاربر %{target} غیر فعال کرد"
-        disable_custom_emoji_html: "%{name} شکلک %{target} را غیرفعال کرد"
-        disable_sign_in_token_auth_user_html: "%{name}، احراز هویت با توکن رایانامه را برای %{target} غیرفعال کرد"
-        disable_user_html: "%{name} ورود را برای کاربر %{target} غیرفعال کرد"
-        enable_custom_emoji_html: "%{name} شکلک %{target} را فعال کرد"
-        enable_sign_in_token_auth_user_html: "%{name}، احراز هویت با توکن رایانامه را برای %{target} فعال کرد"
-        enable_user_html: "%{name} ورود را برای کاربر %{target} فعال کرد"
-        memorialize_account_html: "%{name} حساب %{target} را تبدیل به صفحهٔ یادمان کرد"
-        promote_user_html: "%{name} کاربر %{target} را ترفیع داد"
-        reject_appeal_html: "%{name} درخواست تجدیدنظر تصمیم مدیر را از %{target} رد کرد"
-        reject_user_html: "%{name} ثبت نام %{target} را رد کرد"
-        remove_avatar_user_html: "%{name} تصویر نمایهٔ %{target} را حذف کرد"
-        reopen_report_html: "%{name} گزارش %{target} را دوباره به جریان انداخت"
-        reset_password_user_html: "%{name} گذرواژه کاربر %{target} را بازنشاند"
-        resolve_report_html: "%{name} گزارش %{target} را رفع کرد"
-        sensitive_account_html: "%{name} رسانهٔ %{target} را به عنوان حساس علامت‌گذاری کرد"
-        silence_account_html: "%{name} حساب %{target} را محدود کرد"
-        suspend_account_html: "%{name} حساب %{target} را تعلیق کرد"
-        unassigned_report_html: "%{name} گزارش %{target} را از حالت محول شده خارج کرد"
-        unblock_email_account_html: "%{name} نشانی رایانامهٔ %{target} را رفع مسدودیت کرد"
-        unsensitive_account_html: "%{name} علامت حساس رسانهٔ %{target} را برداشت"
-        unsilence_account_html: "%{name} محدودیت حساب %{target} را برداشت"
-        unsuspend_account_html: "%{name} حساب %{target} را از تعلیق خارج کرد"
-        update_announcement_html: "%{name} اعلامیهٔ %{target} را به‌روز کرد"
-        update_custom_emoji_html: "%{name} شکلک %{target} را به‌روز کرد"
-        update_domain_block_html: "%{name} مسدودسازی دامنه را برای %{target} به‌روزرسانی کرد"
-        update_status_html: "%{name} نوشتهٔ %{target} را به‌روز کرد"
-      deleted_account: حساب حذف شد
-      empty: هیچ گزارشی پیدا نشد.
-      filter_by_action: پالایش بر اساس کنش
-      filter_by_user: پالایش بر اساس کاربر
-      title: سیاههٔ بازرسی
+        approve_appeal_html: "%{name} approved moderation decision appeal from %{target}"
+        approve_user_html: "%{name} approved sign-up from %{target}"
+        assigned_to_self_report_html: "%{name} assigned report %{target} to themselves"
+        change_email_user_html: "%{name} changed the e-mail address of user %{target}"
+        change_role_user_html: "%{name} changed role of %{target}"
+        confirm_user_html: "%{name} confirmed e-mail address of user %{target}"
+        create_account_warning_html: "%{name} sent a warning to %{target}"
+        create_announcement_html: "%{name} created new announcement %{target}"
+        create_canonical_email_block_html: "%{name} blocked e-mail with the hash %{target}"
+        create_custom_emoji_html: "%{name} uploaded new emoji %{target}"
+        create_domain_allow_html: "%{name} allowed federation with domain %{target}"
+        create_domain_block_html: "%{name} blocked domain %{target}"
+        create_email_domain_block_html: "%{name} blocked e-mail domain %{target}"
+        create_ip_block_html: "%{name} created rule for IP %{target}"
+        create_unavailable_domain_html: "%{name} stopped delivery to domain %{target}"
+        create_user_role_html: "%{name} created %{target} role"
+        demote_user_html: "%{name} demoted user %{target}"
+        destroy_announcement_html: "%{name} deleted announcement %{target}"
+        destroy_canonical_email_block_html: "%{name} unblocked e-mail with the hash %{target}"
+        destroy_custom_emoji_html: "%{name} deleted emoji %{target}"
+        destroy_domain_allow_html: "%{name} disallowed federation with domain %{target}"
+        destroy_domain_block_html: "%{name} unblocked domain %{target}"
+        destroy_email_domain_block_html: "%{name} unblocked e-mail domain %{target}"
+        destroy_instance_html: "%{name} purged domain %{target}"
+        destroy_ip_block_html: "%{name} deleted rule for IP %{target}"
+        destroy_status_html: "%{name} removed post by %{target}"
+        destroy_unavailable_domain_html: "%{name} resumed delivery to domain %{target}"
+        destroy_user_role_html: "%{name} deleted %{target} role"
+        disable_2fa_user_html: "%{name} disabled two factor requirement for user %{target}"
+        disable_custom_emoji_html: "%{name} disabled emoji %{target}"
+        disable_sign_in_token_auth_user_html: "%{name} disabled e-mail token authentication for %{target}"
+        disable_user_html: "%{name} disabled login for user %{target}"
+        enable_custom_emoji_html: "%{name} enabled emoji %{target}"
+        enable_sign_in_token_auth_user_html: "%{name} enabled e-mail token authentication for %{target}"
+        enable_user_html: "%{name} enabled login for user %{target}"
+        memorialize_account_html: "%{name} turned %{target}'s account into a memoriam page"
+        promote_user_html: "%{name} promoted user %{target}"
+        reject_appeal_html: "%{name} rejected moderation decision appeal from %{target}"
+        reject_user_html: "%{name} rejected sign-up from %{target}"
+        remove_avatar_user_html: "%{name} removed %{target}'s avatar"
+        reopen_report_html: "%{name} reopened report %{target}"
+        resend_user_html: "%{name} resent confirmation e-mail for %{target}"
+        reset_password_user_html: "%{name} reset password of user %{target}"
+        resolve_report_html: "%{name} resolved report %{target}"
+        sensitive_account_html: "%{name} marked %{target}'s media as sensitive"
+        silence_account_html: "%{name} limited %{target}'s account"
+        suspend_account_html: "%{name} suspended %{target}'s account"
+        unassigned_report_html: "%{name} unassigned report %{target}"
+        unblock_email_account_html: "%{name} unblocked %{target}'s email address"
+        unsensitive_account_html: "%{name} unmarked %{target}'s media as sensitive"
+        unsilence_account_html: "%{name} undid limit of %{target}'s account"
+        unsuspend_account_html: "%{name} unsuspended %{target}'s account"
+        update_announcement_html: "%{name} updated announcement %{target}"
+        update_custom_emoji_html: "%{name} updated emoji %{target}"
+        update_domain_block_html: "%{name} updated domain block for %{target}"
+        update_ip_block_html: "%{name} changed rule for IP %{target}"
+        update_status_html: "%{name} updated post by %{target}"
+        update_user_role_html: "%{name} changed %{target} role"
+      deleted_account: deleted account
+      empty: No logs found.
+      filter_by_action: Filter by action
+      filter_by_user: Filter by user
+      title: Audit log
     announcements:
-      destroyed_msg: اعلامیه با موفقیت حذف شد!
+      destroyed_msg: Announcement successfully deleted!
       edit:
-        title: ویرایش اعلامیه
-      empty: هیچ اعلامیه‌ای پیدا نشد.
-      live: فعال
+        title: Edit announcement
+      empty: No announcements found.
+      live: Live
       new:
-        create: ساختن اعلامیه
-        title: اعلامیهٔ تازه
-      publish: انتشار
-      published_msg: اعلامیه با موفقیت منتشر شد!
-      scheduled_for: زمان‌بسته برای %{time}
-      scheduled_msg: اعلامیه برای نشر، زمان‌بندی شد!
-      title: اعلامیه‌ها
-      unpublish: عدم انتشار
-      unpublished_msg: انتشار اعلامیه با موفقیت لغو شد!
-      updated_msg: اعلامیه با موفقیت به‌روز شد!
+        create: Create announcement
+        title: New announcement
+      publish: Publish
+      published_msg: Announcement successfully published!
+      scheduled_for: Scheduled for %{time}
+      scheduled_msg: Announcement scheduled for publication!
+      title: Announcements
+      unpublish: Unpublish
+      unpublished_msg: Announcement successfully unpublished!
+      updated_msg: Announcement successfully updated!
     custom_emojis:
-      assign_category: تعیین دسته
-      by_domain: دامنه
-      copied_msg: نسخهٔ محلی شکلک با موفقیت ساخته شد
-      copy: رونوشت
-      copy_failed_msg: نشد که نسخهٔ محلی این شکلک ساخته شود
-      create_new_category: ساختن دستهٔ تازه
-      created_msg: شکلک با موفقیت ساخته شد!
-      delete: حذف
-      destroyed_msg: شکلک با موفقیت پاک شد!
-      disable: از کار انداختن
-      disabled: از کار افتاده
-      disabled_msg: شکلک با موفقیت از کار افتاد
-      emoji: شکلک
-      enable: به کار انداختن
-      enabled: فعال
-      enabled_msg: این شکلک با موفقیت فعال شد
-      image_hint: پی‌ان‌چی یا جیف تا %{size}
-      list: فهرست
-      listed: فهرست شده
+      assign_category: Assign category
+      by_domain: Domain
+      copied_msg: Successfully created local copy of the emoji
+      copy: Copy
+      copy_failed_msg: Could not make a local copy of that emoji
+      create_new_category: Create new category
+      created_msg: Emoji successfully created!
+      delete: Delete
+      destroyed_msg: Emojo successfully destroyed!
+      disable: Disable
+      disabled: Disabled
+      disabled_msg: Successfully disabled that emoji
+      emoji: Emoji
+      enable: Enable
+      enabled: Enabled
+      enabled_msg: Successfully enabled that emoji
+      image_hint: PNG or GIF up to %{size}
+      list: List
+      listed: Listed
       new:
-        title: افزودن شکلک سفارشی
-      not_permitted: مجاز به انجام این کنش نیستید
-      overwrite: بازنویسی
-      shortcode: کد کوتاه
-      shortcode_hint: دست‌کم ۲ نویسه و تنها شامل حروف، اعداد و زیرخط
-      title: شکلک‌های سفارشی
-      uncategorized: دسته‌بندی نشده
-      unlist: نافهرست
-      unlisted: فهرست نشده
-      update_failed_msg: این شکلک نتوانست به‌روز شود
-      updated_msg: شکلک با موفقیت به‌روز شد!
-      upload: بارگذاری
+        title: Add new custom emoji
+      no_emoji_selected: No emojis were changed as none were selected
+      not_permitted: You are not permitted to perform this action
+      overwrite: Overwrite
+      shortcode: Shortcode
+      shortcode_hint: At least 2 characters, only alphanumeric characters and underscores
+      title: Custom emojis
+      uncategorized: Uncategorized
+      unlist: Unlist
+      unlisted: Unlisted
+      update_failed_msg: Could not update that emoji
+      updated_msg: Emoji successfully updated!
+      upload: Upload
     dashboard:
-      active_users: کاربران فعّال
-      interactions: برهم‌کنش‌ها
-      media_storage: ذخیره‌ساز رسانه
-      new_users: کاربران جدید
-      opened_reports: گزارش باز شده
+      active_users: active users
+      interactions: interactions
+      media_storage: Media storage
+      new_users: new users
+      opened_reports: reports opened
       pending_appeals_html:
-        one: "<strong>%{count}</strong> درخواست تجدیدنظر در انتظار"
-        other: "<strong>%{count}</strong> درخواست تجدیدنظر در انتظار"
+        one: "<strong>%{count}</strong> pending appeal"
+        other: "<strong>%{count}</strong> pending appeals"
       pending_reports_html:
-        one: "<strong>%{count}</strong> گزارش در انتظار"
-        other: "<strong>%{count}</strong> گزارش در انتظار"
+        one: "<strong>%{count}</strong> pending report"
+        other: "<strong>%{count}</strong> pending reports"
       pending_tags_html:
-        one: "<strong>%{count}</strong> هشتگ در انتظار"
-        other: "<strong>%{count}</strong> برچسب منتظر"
+        one: "<strong>%{count}</strong> pending hashtag"
+        other: "<strong>%{count}</strong> pending hashtags"
       pending_users_html:
-        one: "<strong>%{count}</strong> کاربر در انتظار"
-        other: "<strong>%{count}</strong> کاربر در انتظار"
-      resolved_reports: گزارش حل شده
-      software: نرم‌افزار
-      sources: منابع ثبت‌نام
-      space: فضای مصرف‌شده
-      title: ابزارهای مدیریت
-      top_languages: زبان‌های فعّال‌تر
-      top_servers: کاربران فعّال‌تر
-      website: پایگاه وب
+        one: "<strong>%{count}</strong> pending user"
+        other: "<strong>%{count}</strong> pending users"
+      resolved_reports: reports resolved
+      software: Software
+      sources: Sign-up sources
+      space: Space usage
+      title: Dashboard
+      top_languages: Top active languages
+      top_servers: Top active servers
+      website: Website
     disputes:
       appeals:
-        empty: هیچ درخواست تجدیدنظری یافت نشد
-        title: درخواست‌های تجدیدنظر
+        empty: No appeals found.
+        title: Appeals
     domain_allows:
-      add_new: مجاز کردن دامنه
-      created_msg: دامنه با موفقیت مجاز شد
-      destroyed_msg: دامنه از فهرست مجاز برداشته شد
-      export: برون‌ریزی
-      import: درون‌ریزی
-      undo: برداشتن از فهرست مجاز
+      add_new: Allow federation with domain
+      created_msg: Domain has been successfully allowed for federation
+      destroyed_msg: Domain has been disallowed from federation
+      export: Export
+      import: Import
+      undo: Disallow federation with domain
     domain_blocks:
-      add_new: افزودن مسدودسازی دامین تازه
-      created_msg: مسدودسازی دامنه در حال پردازش است
-      destroyed_msg: مسدودکردن دامنه واگردانده شد
-      domain: دامنه
-      edit: ویرایش مسدودسازی دامنه
-      existing_domain_block_html: شما پیش‌تر محدودیت‌های سخت‌تری روی %{name} اعمال کرده‌اید، و باید نخست <a href="%{unblock_url}">مسدودسازی را لغو کنید</a>.
-      export: برون‌ریزی
-      import: درون‌ریزی
+      add_new: Add new domain block
+      created_msg: Domain block is now being processed
+      destroyed_msg: Domain block has been undone
+      domain: Domain
+      edit: Edit domain block
+      existing_domain_block: You have already imposed stricter limits on %{name}.
+      existing_domain_block_html: You have already imposed stricter limits on %{name}, you need to <a href="%{unblock_url}">unblock it</a> first.
+      export: Export
+      import: Import
       new:
-        create: مسدودسازی
-        hint: مسدودسازی دامنه جلوی ایجاد ورودی‌های حساب در پایگاه داده را نمی‌گیرد، بلکه به طور خودکار روش‌های مدیریتی را روی فعالیت‌های فعلی و گذشتهٔ آن حساب‌ها اعمال می‌کند.
+        create: Create block
+        hint: The domain block will not prevent creation of account entries in the database, but will retroactively and automatically apply specific moderation methods on those accounts.
         severity:
-          noop: هیچ
-          silence: محدود
-          suspend: تعلیق
-        title: مسدودسازی دامین تازه
-      obfuscate: مبهم‌سازی نام دامنهٔ
-      obfuscate_hint: در صورت به کار افتاده بودن اعلام فهرست محدودیت‌های دامنه، نام دامنه در فهرست را به صورت جزیی مبهم می‌کند
-      private_comment: یادداشت خصوصی
-      private_comment_hint: یادداشتی دربارهٔ محدودیت روی این دامین برای سایر ناظمان.
-      public_comment: یادداشت عمومی
-      public_comment_hint: یادداشتی دربارهٔ محدودیت روی این دامین برای عموم، در صورتی که فهرست دامین‌های محدود شده منتشر شود.
-      reject_media: نپذیرفتن پرونده‌های رسانه‌ای
-      reject_media_hint: پرونده‌های رسانه‌ای ذخیره‌شدهٔ محلّی را پاک کرده و از بارگیریشان در آینده خودداری می‌کند. بی‌تأثیر روی معلق‌ها
-      reject_reports: نپذیرفتن گزارش‌ها
-      reject_reports_hint: گزارش‌هایی را که از این دامنه می‌آید نادیده می‌گیرد. بی‌تأثیر برای معلق‌شده‌ها
-      undo: واگردانی مسدودسازی دامین
-      view: دیدن مسدودسازی دامنه
+          desc_html: "<strong>Limit</strong> will make posts from accounts at this domain invisible to anyone who isn't following them. <strong>Suspend</strong> will remove all content, media, and profile data for this domain's accounts from your server. Use <strong>None</strong> if you just want to reject media files."
+          noop: None
+          silence: Limit
+          suspend: Suspend
+        title: New domain block
+      no_domain_block_selected: No domain blocks were changed as none were selected
+      not_permitted: You are not permitted to perform this action
+      obfuscate: Obfuscate domain name
+      obfuscate_hint: Partially obfuscate the domain name in the list if advertising the list of domain limitations is enabled
+      private_comment: Private comment
+      private_comment_hint: Comment about this domain limitation for internal use by the moderators.
+      public_comment: Public comment
+      public_comment_hint: Comment about this domain limitation for the general public, if advertising the list of domain limitations is enabled.
+      reject_media: Reject media files
+      reject_media_hint: Removes locally stored media files and refuses to download any in the future. Irrelevant for suspensions
+      reject_reports: Reject reports
+      reject_reports_hint: Ignore all reports coming from this domain. Irrelevant for suspensions
+      undo: Undo domain block
+      view: View domain block
     email_domain_blocks:
-      add_new: افزودن تازه
-      created_msg: دامنهٔ رایانامه با موفقیت مسدود شد
-      delete: پاک‌کردن
+      add_new: Add new
+      attempts_over_week:
+        one: "%{count} attempt over the last week"
+        other: "%{count} sign-up attempts over the last week"
+      created_msg: Successfully blocked e-mail domain
+      delete: Delete
       dns:
         types:
-          mx: رکورد MX
-      domain: دامین
+          mx: MX record
+      domain: Domain
       new:
-        create: ساختن مسدودسازی
-        title: مسدودسازی دامنهٔ رایانامهٔ جدید
-      title: دامنه‌های رایانامهٔ مسدود شده
+        create: Add domain
+        resolve: Resolve domain
+        title: Block new e-mail domain
+      no_email_domain_block_selected: No e-mail domain blocks were changed as none were selected
+      not_permitted: Not permitted
+      resolved_dns_records_hint_html: The domain name resolves to the following MX domains, which are ultimately responsible for accepting e-mail. Blocking an MX domain will block sign-ups from any e-mail address which uses the same MX domain, even if the visible domain name is different. <strong>Be careful not to block major e-mail providers.</strong>
+      resolved_through_html: Resolved through %{domain}
+      title: Blocked e-mail domains
+    export_domain_allows:
+      new:
+        title: Import domain allows
+      no_file: No file selected
+    export_domain_blocks:
+      import:
+        description_html: You are about to import a list of domain blocks. Please review this list very carefully, especially if you have not authored this list yourself.
+        existing_relationships_warning: Existing follow relationships
+        private_comment_description_html: 'To help you track where imported blocks come from, imported blocks will be created with the following private comment: <q>%{comment}</q>'
+        private_comment_template: Imported from %{source} on %{date}
+        title: Import domain blocks
+      invalid_domain_block: 'One or more domain blocks were skipped because of the following error(s): %{error}'
+      new:
+        title: Import domain blocks
+      no_file: No file selected
     follow_recommendations:
-      description_html: "<strong>پیشنهادات پیگیری به کاربران جدید کک می‌کند تا سریع‌تر محتوای جالب را پیدا کنند</strong>. زمانی که کاربری هنوز به اندازه کافی با دیگران تعامل نداشته است تا پیشنهادات پیگیری شخصی‌سازی‌شده دریافت کند، این حساب‌ها را به جای آن فهرست مشاهده خواهد کرد. این حساب‌ها به صورت روزانه و در ترکیب با بیشتری تعاملات و بالاترین دنبال‌کنندگان محلی برای یک زبان مشخص بازمحاسبه می‌شوند."
-      language: برای زبان
-      status: وضعیت
-      suppress: غیرفعال کردن پیشنهاد پیگیری
-      suppressed: غیرفعال شد
-      title: پیشنهادهای پی‌گیری
-      unsuppress: بازگردانی پیشنهادهای پی‌گیری
+      description_html: "<strong>Follow recommendations help new users quickly find interesting content</strong>. When a user has not interacted with others enough to form personalized follow recommendations, these accounts are recommended instead. They are re-calculated on a daily basis from a mix of accounts with the highest recent engagements and highest local follower counts for a given language."
+      language: For language
+      status: Status
+      suppress: Suppress follow recommendation
+      suppressed: Suppressed
+      title: Follow recommendations
+      unsuppress: Restore follow recommendation
     instances:
       availability:
-        no_failures_recorded: هیچ شکستی در سابقه نیست.
-        title: موجود بودن
-      back_to_all: همه
-      back_to_limited: محدود
-      back_to_warning: هشدار
-      by_domain: دامین
-      confirm_purge: آیا مطمئن هستید می‌خواهید داده را از این دامنه برای همیشه پاک کنید؟
+        description_html:
+          one: If delivering to the domain fails <strong>%{count} day</strong> without succeeding, no further delivery attempts will be made unless a delivery <em>from</em> the domain is received.
+          other: If delivering to the domain fails on <strong>%{count} different days</strong> without succeeding, no further delivery attempts will be made unless a delivery <em>from</em> the domain is received.
+        failure_threshold_reached: Failure threshold reached on %{date}.
+        failures_recorded:
+          one: Failed attempt on %{count} day.
+          other: Failed attempts on %{count} different days.
+        no_failures_recorded: No failures on record.
+        title: Availability
+        warning: The last attempt to connect to this server has been unsuccessful
+      back_to_all: All
+      back_to_limited: Limited
+      back_to_warning: Warning
+      by_domain: Domain
+      confirm_purge: Are you sure you want to permanently delete data from this domain?
       content_policies:
-        comment: یادداشت داخلی
+        comment: Internal note
+        description_html: You can define content policies that will be applied to all accounts from this domain and any of its subdomains.
+        limited_federation_mode_description_html: You can chose whether to allow federation with this domain.
         policies:
-          silence: کران
-          suspend: تعلیق
-        policy: سیاست
-        reason: دلیل عمومی
-        title: سیاست‌های محتوا
+          reject_media: Reject media
+          reject_reports: Reject reports
+          silence: Limit
+          suspend: Suspend
+        policy: Policy
+        reason: Public reason
+        title: Content policies
       dashboard:
-        instance_accounts_dimension: حساب‌های پیش‌تر پی‌گیری شده
-        instance_followers_measure: پی‌گیرندگانمان در آن‌جا
-        instance_follows_measure: پی‌گیرندگانشان در این‌جا
-        instance_languages_dimension: زبان‌های برتر
-        instance_reports_measure: گزارش‌ها درباره‌شان
+        instance_accounts_dimension: Most followed accounts
+        instance_accounts_measure: stored accounts
+        instance_followers_measure: our followers there
+        instance_follows_measure: their followers here
+        instance_languages_dimension: Top languages
+        instance_media_attachments_measure: stored media attachments
+        instance_reports_measure: reports about them
+        instance_statuses_measure: stored posts
       delivery:
-        all: همه
-        clear: پاک کردن خطاهای تحول محتوا
-        restart: بازراه‌اندازی تحویل محتوا
-        stop: متوقف‌کردن تحویل محتوا
-        unavailable: ناموجود
-      delivery_available: پیام آماده است
-      delivery_error_days: زورهای خطای تحویل محتوا
-      delivery_error_hint: اگر تحویل محتوا به مدت %{count} روز ممکن نباشد، به طور خودکار به عنوان تحویل‌ناشونده علامت‌گذاری خواهد شد.
-      destroyed_msg: هم اکنون داده دامنه %{domain} در صف حذف حتمی است.
-      empty: هیج دامنه‌ای پیدا نشد.
+        all: All
+        clear: Clear delivery errors
+        failing: Failing
+        restart: Restart delivery
+        stop: Stop delivery
+        unavailable: Unavailable
+      delivery_available: Delivery is available
+      delivery_error_days: Delivery error days
+      delivery_error_hint: If delivery is not possible for %{count} days, it will be automatically marked as undeliverable.
+      destroyed_msg: Data from %{domain} is now queued for imminent deletion.
+      empty: No domains found.
+      known_accounts:
+        one: "%{count} known account"
+        other: "%{count} known accounts"
       moderation:
-        all: همه
-        limited: محدود
-        title: مدیریت
-      private_comment: یادداشت خصوصی
-      public_comment: یادداشت عمومی
-      purge: پاکسازی
-      title: ارتباط میان‌سروری
-      total_blocked_by_us: مسدودشده از طرف ما
-      total_followed_by_them: ما را پی می‌گیرند
-      total_followed_by_us: ما پیگیرشان هستیم
-      total_reported: گزارش‌ها درباره‌شان
-      total_storage: عکس‌ها و ویدیوها
+        all: All
+        limited: Limited
+        title: Moderation
+      private_comment: Private comment
+      public_comment: Public comment
+      purge: Purge
+      purge_description_html: If you believe this domain is offline for good, you can delete all account records and associated data from this domain from your storage. This may take a while.
+      title: Federation
+      total_blocked_by_us: Blocked by us
+      total_followed_by_them: Followed by them
+      total_followed_by_us: Followed by us
+      total_reported: Reports about them
+      total_storage: Media attachments
+      totals_time_period_hint_html: The totals displayed below include data for all time.
     invites:
-      deactivate_all: غیرفعال‌کردن همه
+      deactivate_all: Deactivate all
       filter:
-        all: همه
-        available: در دسترس
-        expired: منقضی‌شده
-        title: پالایه
-      title: دعوت‌ها
+        all: All
+        available: Available
+        expired: Expired
+        title: Filter
+      title: Invites
     ip_blocks:
-      add_new: ایجاد قانون
-      created_msg: قانون IP جدید با موفقیت افزوده شد
-      delete: پاک کردن
+      add_new: Create rule
+      created_msg: Successfully added new IP rule
+      delete: Delete
       expires_in:
-        '1209600': ۲ هفته
-        '15778476': ۶ ماه
-        '2629746': ۱ ماه
-        '31556952': ۱ سال
-        '86400': ۱ روز
-        '94670856': ۳ سال
+        '1209600': 2 weeks
+        '15778476': 6 months
+        '2629746': 1 month
+        '31556952': 1 year
+        '86400': 1 day
+        '94670856': 3 years
       new:
-        title: ایجاد قانون جدید IP
-      no_ip_block_selected: هیچ قاعدهٔ آی‌پی‌ای تغییری نکرد زیرا هیچ‌کدام گزیده نشده بودند
-      title: قوانین IP
+        title: Create new IP rule
+      no_ip_block_selected: No IP rules were changed as none were selected
+      title: IP rules
     relationships:
-      title: روابط %{acct}
+      title: "%{acct}'s relationships"
     relays:
-      add_new: افزودن رلهٔ تازه
-      delete: حذف
-      description_html: یک <strong>رلهٔ میان‌سروری</strong> (federation relay) یک سرور میانجی است که حجم زیادی از فرسته‌های عمومی را بین سرورهای گوناگونی که عضوش می‌شوند جابه‌جا می‌کند. <strong>رله‌ها به سرورهای کوچک و متوسط کمک می‌کنند تا مطالب عمومی بیشتری را بیابند.</strong> اگر رله نباشد، این مطالب عمومی تنها وقتی پیدا می‌شوند که کاربران محلی خودشان پیگیر کاربران روی سرورهای دیگر شوند.
-      disable: از کار انداختن
-      disabled: از کار افتاده
-      enable: به کار انداختن
-      enable_hint: اگر فعال باشد، کارساز شما عضو همهٔ فرسته‌های عمومی‌ای را که از این رله می‌آید می‌گیرد، و فرسته‌های عمومی این کارساز را به آن می‌فرستند.
-      enabled: فعال
-      inbox_url: نشانی رله
-      pending: در انتظار پذیرش رله
-      save_and_enable: ذخیره و فعال‌سازی
-      setup: برپا سازی یک اتّصال رله
-      signatures_not_enabled: رله‌ها در حالت امن یا حالت فهرست مجاز، درست کار نخواهند کرد
-      status: وضعیت
-      title: رله‌ها
+      add_new: Add new relay
+      delete: Delete
+      description_html: A <strong>federation relay</strong> is an intermediary server that exchanges large volumes of public posts between servers that subscribe and publish to it. <strong>It can help small and medium servers discover content from the fediverse</strong>, which would otherwise require local users manually following other people on remote servers.
+      disable: Disable
+      disabled: Disabled
+      enable: Enable
+      enable_hint: Once enabled, your server will subscribe to all public posts from this relay, and will begin sending this server's public posts to it.
+      enabled: Enabled
+      inbox_url: Relay URL
+      pending: Waiting for relay's approval
+      save_and_enable: Save and enable
+      setup: Setup a relay connection
+      signatures_not_enabled: Relays may not work correctly while secure mode or limited federation mode is enabled
+      status: Status
+      title: Relays
     report_notes:
-      created_msg: یادداشت گزارش با موفقیت ساخته شد!
-      destroyed_msg: یادداشت گزارش با موفقیت حذف شد!
+      created_msg: Report note successfully created!
+      destroyed_msg: Report note successfully deleted!
     reports:
       account:
         notes:
-          one: "%{count} یادداشت"
-          other: "%{count} یادداشت"
-      action_log: گزارش حسابرسی
-      action_taken_by: انجام‌دهنده
+          one: "%{count} note"
+          other: "%{count} notes"
+      action_log: Audit log
+      action_taken_by: Action taken by
       actions:
-        other_description_html: دیدن انتخاب های بیشتر برای کنترل رفتار حساب و سفارشی سازی ارتباط با حساب گزارش شده.
-      add_to_report: افزودن بیش‌تر به گزارش
-      are_you_sure: مطمئنید؟
-      assign_to_self: به عهدهٔ من بگذار
-      assigned: مدیر عهده‌دار
-      by_target_domain: دامنهٔ حساب گزارش‌شده
-      category: دسته
+        delete_description_html: The reported posts will be deleted and a strike will be recorded to help you escalate on future infractions by the same account.
+        mark_as_sensitive_description_html: The media in the reported posts will be marked as sensitive and a strike will be recorded to help you escalate on future infractions by the same account.
+        other_description_html: See more options for controlling the account's behaviour and customize communication to the reported account.
+        resolve_description_html: No action will be taken against the reported account, no strike recorded, and the report will be closed.
+        silence_description_html: The account will be visible only to those who already follow it or manually look it up, severely limiting its reach. Can always be reverted. Closes all reports against this account.
+        suspend_description_html: The account and all its contents will be inaccessible and eventually deleted, and interacting with it will be impossible. Reversible within 30 days. Closes all reports against this account.
+      actions_description_html: Decide which action to take to resolve this report. If you take a punitive action against the reported account, an e-mail notification will be sent to them, except when the <strong>Spam</strong> category is selected.
+      actions_description_remote_html: Decide which action to take to resolve this report. This will only affect how <strong>your</strong> server communicates with this remote account and handle its content.
+      add_to_report: Add more to report
+      are_you_sure: Are you sure?
+      assign_to_self: Assign to me
+      assigned: Assigned moderator
+      by_target_domain: Domain of reported account
+      cancel: Cancel
+      category: Category
+      category_description_html: The reason this account and/or content was reported will be cited in communication with the reported account
       comment:
-        none: هیچ
-      created_at: گزارش‌شده
-      delete_and_resolve: حذف فرسته‌ها
-      forwarded: هدایت شده
-      forwarded_to: هدایت شده به %{domain}
-      mark_as_resolved: علامت‌گذاری به عنوان حل‌شده
-      mark_as_sensitive: علامت به حساس
-      mark_as_unresolved: علامت‌گذاری به عنوان حل‌نشده
-      no_one_assigned: هیچ‌کس
+        none: None
+      comment_description_html: 'To provide more information, %{name} wrote:'
+      confirm: Confirm
+      confirm_action: Confirm moderation action against @%{acct}
+      created_at: Reported
+      delete_and_resolve: Delete posts
+      forwarded: Forwarded
+      forwarded_to: Forwarded to %{domain}
+      mark_as_resolved: Mark as resolved
+      mark_as_sensitive: Mark as sensitive
+      mark_as_unresolved: Mark as unresolved
+      no_one_assigned: No one
       notes:
-        create: افزودن یادداشت
-        create_and_resolve: حل کردن با یادداشت
-        create_and_unresolve: دوباره گشودن با یادداشت
-        delete: حذف
-        placeholder: کارهایی را که در این باره انجام شده، یا هر به‌روزرسانی دیگری را بنویسید...
-        title: یادداشت‌ها
-      remote_user_placeholder: کاربر دوردست از %{instance}
-      reopen: دوباره به جریان بیندازید
-      report: 'گزارش #%{id}'
-      reported_account: حساب گزارش‌شده
-      reported_by: گزارش از طرف
-      resolved: حل‌شده
-      resolved_msg: گزارش با موفقیت حل شد!
-      skip_to_actions: پرش به کنش‌ها
-      status: نوشته
-      statuses: محتوای گزارش شده
-      target_origin: خاستگاه حساب گزارش‌شده
-      title: گزارش‌ها
-      unassign: پس‌گرفتن مسئولیت
-      unresolved: حل‌نشده
-      updated_at: به‌روز شد
-      view_profile: دیدن نمایه
+        create: Add note
+        create_and_resolve: Resolve with note
+        create_and_unresolve: Reopen with note
+        delete: Delete
+        placeholder: Describe what actions have been taken, or any other related updates...
+        title: Notes
+      notes_description_html: View and leave notes to other moderators and your future self
+      processed_msg: 'Report #%{id} successfully processed'
+      quick_actions_description_html: 'Take a quick action or scroll down to see reported content:'
+      remote_user_placeholder: the remote user from %{instance}
+      reopen: Reopen report
+      report: 'Report #%{id}'
+      reported_account: Reported account
+      reported_by: Reported by
+      resolved: Resolved
+      resolved_msg: Report successfully resolved!
+      skip_to_actions: Skip to actions
+      status: Status
+      statuses: Reported content
+      statuses_description_html: Offending content will be cited in communication with the reported account
+      summary:
+        action_preambles:
+          delete_html: 'You are about to <strong>remove</strong> some of <strong>@%{acct}</strong>''s posts. This will:'
+          mark_as_sensitive_html: 'You are about to <strong>mark</strong> some of <strong>@%{acct}</strong>''s posts as <strong>sensitive</strong>. This will:'
+          silence_html: 'You are about to <strong>limit</strong> <strong>@%{acct}</strong>''s account. This will:'
+          suspend_html: 'You are about to <strong>suspend</strong> <strong>@%{acct}</strong>''s account. This will:'
+        actions:
+          delete_html: Remove the offending posts
+          mark_as_sensitive_html: Mark the offending posts' media as sensitive
+          silence_html: Severely limit <strong>@%{acct}</strong>'s reach by making their profile and contents only visible to people already following them or manually looking it profile up
+          suspend_html: Suspend <strong>@%{acct}</strong>, making their profile and contents inaccessible and impossible to interact with
+        close_report: 'Mark report #%{id} as resolved'
+        close_reports_html: Mark <strong>all</strong> reports against <strong>@%{acct}</strong> as resolved
+        delete_data_html: Delete <strong>@%{acct}</strong>'s profile and contents 30 days from now unless they get unsuspended in the meantime
+        preview_preamble_html: "<strong>@%{acct}</strong> will receive a warning with the following contents:"
+        record_strike_html: Record a strike against <strong>@%{acct}</strong> to help you escalate on future violations from this account
+        send_email_html: Send <strong>@%{acct}</strong> a warning e-mail
+        warning_placeholder: Optional additional reasoning for the moderation action.
+      target_origin: Origin of reported account
+      title: Reports
+      unassign: Unassign
+      unknown_action_msg: 'Unknown action: %{action}'
+      unresolved: Unresolved
+      updated_at: Updated
+      view_profile: View profile
     roles:
-      add_new: افزودن نقش
+      add_new: Add role
+      assigned_users:
+        one: "%{count} user"
+        other: "%{count} users"
       categories:
-        administration: مدیریت
-        invites: دعوت‌ها
-        moderation: نظارت
-        special: ویژه
-      delete: حذف
-      edit: ویراش نقش %{name}
-      everyone: اجازه‌های پیش‌گزیده
+        administration: Administration
+        devops: DevOps
+        invites: Invites
+        moderation: Moderation
+        special: Special
+      delete: Delete
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Mastodon your users can access.
+      edit: Edit '%{name}' role
+      everyone: Default permissions
+      everyone_full_description_html: This is the <strong>base role</strong> affecting <strong>all users</strong>, even those without an assigned role. All other roles inherit permissions from it.
+      permissions_count:
+        one: "%{count} permission"
+        other: "%{count} permissions"
       privileges:
-        administrator: مدیر
-        delete_user_data: حذف داده‌های کاربر
-        invite_users: دعوت کاربران
-        manage_announcements: مدیریت اعلامیه‌ها
-        manage_blocks: مدیریت مسدودی‌ها
-        manage_custom_emojis: مدیریت ایموجی‌های سفارشی
-        manage_invites: مدیریت دعوت‌ها
-        manage_reports: مدیریت گزارش‌ها
-        manage_roles: مدیریت نقش‌ها
-        manage_rules: مدیریت قوانین
-        manage_settings: مدیریت تنظیمات
+        administrator: Administrator
+        administrator_description: Users with this permission will bypass every permission
+        delete_user_data: Delete User Data
+        delete_user_data_description: Allows users to delete other users' data without delay
+        invite_users: Invite Users
+        invite_users_description: Allows users to invite new people to the server
+        manage_announcements: Manage Announcements
+        manage_announcements_description: Allows users to manage announcements on the server
+        manage_appeals: Manage Appeals
+        manage_appeals_description: Allows users to review appeals against moderation actions
+        manage_blocks: Manage Blocks
+        manage_blocks_description: Allows users to block e-mail providers and IP addresses
+        manage_custom_emojis: Manage Custom Emojis
+        manage_custom_emojis_description: Allows users to manage custom emojis on the server
+        manage_federation: Manage Federation
+        manage_federation_description: Allows users to block or allow federation with other domains, and control deliverability
+        manage_invites: Manage Invites
+        manage_invites_description: Allows users to browse and deactivate invite links
+        manage_reports: Manage Reports
+        manage_reports_description: Allows users to review reports and perform moderation actions against them
+        manage_roles: Manage Roles
+        manage_roles_description: Allows users to manage and assign roles below theirs
+        manage_rules: Manage Rules
+        manage_rules_description: Allows users to change server rules
+        manage_settings: Manage Settings
+        manage_settings_description: Allows users to change site settings
+        manage_taxonomies: Manage Taxonomies
+        manage_taxonomies_description: Allows users to review trending content and update hashtag settings
+        manage_user_access: Manage User Access
+        manage_user_access_description: Allows users to disable other users' two-factor authentication, change their e-mail address, and reset their password
+        manage_users: Manage Users
+        manage_users_description: Allows users to view other users' details and perform moderation actions against them
+        manage_webhooks: Manage Webhooks
+        manage_webhooks_description: Allows users to set up webhooks for administrative events
+        view_audit_log: View Audit Log
+        view_audit_log_description: Allows users to see a history of administrative actions on the server
+        view_dashboard: View Dashboard
+        view_dashboard_description: Allows users to access the dashboard and various metrics
+        view_devops: DevOps
+        view_devops_description: Allows users to access Sidekiq and pgHero dashboards
+      title: Roles
     rules:
-      add_new: افزودن قانون
-      delete: حذف
-      description_html: در حالی که اکثر افراد ادعا می‌کنند که شرایط استفاده را خوانده و پذیرفته‌اند، افراد معمولا تا پیش از بروز مشکل این متن را مطالعه نمی‌کنند. <strong>پیدا کردن قوانین کارساز‌تان را با تبدیل‌شان به صورت فهرست برای کاربران تسهیل کنید.</strong> سعی کنید هر قانون را کوتاه و ساده نگاه دارید اما از آن طرف هم تلاش نکنید که آن‌ها به تعداد زیادی مورد جدا از هم تقسیم کنید.
-      edit: ویرایش قانون
-      empty: هنوز هیچ قانونی برای کارساز تعریف نشده.
-      title: قوانین کارساز
+      add_new: Add rule
+      delete: Delete
+      description_html: While most claim to have read and agree to the terms of service, usually people do not read through until after a problem arises. <strong>Make it easier to see your server's rules at a glance by providing them in a flat bullet point list.</strong> Try to keep individual rules short and simple, but try not to split them up into many separate items either.
+      edit: Edit rule
+      empty: No server rules have been defined yet.
+      title: Server rules
     settings:
+      about:
+        manage_rules: Manage server rules
+        preamble: Provide in-depth information about how the server is operated, moderated, funded.
+        rules_hint: There is a dedicated area for rules that your users are expected to adhere to.
+        title: About
+      appearance:
+        preamble: Customize Mastodon's web interface.
+        title: Appearance
+      branding:
+        preamble: Your server's branding differentiates it from other servers in the network. This information may be displayed across a variety of environments, such as Mastodon's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
+        title: Branding
+      content_retention:
+        preamble: Control how user-generated content is stored in Mastodon.
+        title: Content retention
+      default_noindex:
+        desc_html: Affects all users who have not changed this setting themselves
+        title: Opt users out of search engine indexing by default
       discovery:
-        follow_recommendations: پیروی از پیشنهادها
-        profile_directory: شاخهٔ نمایه
-        public_timelines: خط زمانی‌های عمومی
-        title: کشف
-        trends: پرطرفدارها
+        follow_recommendations: Follow recommendations
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Mastodon. Control how various discovery features work on your server.
+        profile_directory: Profile directory
+        public_timelines: Public timelines
+        publish_discovered_servers: Publish discovered servers
+        publish_statistics: Publish statistics
+        title: Discovery
+        trends: Trends
       domain_blocks:
-        all: برای همه
-        disabled: برای هیچ‌کدام
-        users: برای کاربران محلی واردشده
+        all: To everyone
+        disabled: To no one
+        users: To logged-in local users
       registrations:
-        title: ثبت‌نام‌ها
+        preamble: Control who can create an account on your server.
+        title: Registrations
       registrations_mode:
         modes:
-          approved: ثبت نام نیازمند تأیید مدیران است
-          none: کسی نمی‌تواند ثبت نام کند
-          open: همه می‌توانند ثبت نام کنند
-      title: تنظیمات کارساز
+          approved: Approval required for sign up
+          none: Nobody can sign up
+          open: Anyone can sign up
+      title: Server Settings
     site_uploads:
-      delete: پرونده بارگذاری شده را پاک کنید
-      destroyed_msg: بارگذاری پایگاه با موفقیت حذف شد!
+      delete: Delete uploaded file
+      destroyed_msg: Site upload successfully deleted!
     statuses:
-      account: نگارنده
-      application: برنامه
-      back_to_account: بازگشت به صفحهٔ حساب
-      back_to_report: بازگشت به صفحهٔ گزارش
+      account: Author
+      application: Application
+      back_to_account: Back to account page
+      back_to_report: Back to report page
       batch:
-        remove_from_report: برداشتن از گزارش
-        report: گزارش
-      deleted: پاک‌شده
-      favourites: برگزیده‌ها
-      history: تاریخچهٔ نگارش
-      in_reply_to: در پاسخ به
-      language: زبان
+        remove_from_report: Remove from report
+        report: Report
+      deleted: Deleted
+      favourites: Favourites
+      history: Version history
+      in_reply_to: Replying to
+      language: Language
       media:
-        title: رسانه
-      metadata: فراداده
-      no_status_selected: هیچ فرسته‌ای تغییری نکرد زیرا هیچ‌کدام از آن‌ها انتخاب نشده بودند
-      open: گشودن فرسته
-      original_status: فرستهٔ اصلی
-      reblogs: تقویت‌ها
-      status_changed: فرسته تغییر کرد
-      title: نوشته‌های حساب
-      trending: پرطرفدار
-      visibility: نمایانی
-      with_media: دارای عکس یا ویدیو
+        title: Media
+      metadata: Metadata
+      no_status_selected: No posts were changed as none were selected
+      open: Open post
+      original_status: Original post
+      reblogs: Reblogs
+      status_changed: Post changed
+      title: Account posts
+      trending: Trending
+      visibility: Visibility
+      with_media: With media
     strikes:
       actions:
-        delete_statuses: "%{name} فرستهٔ %{target} را حذف کرد"
-      appeal_approved: درخواست تجدیدنظر کرد
-      appeal_pending: درخواست تجدیدنظر در انتظار
+        delete_statuses: "%{name} deleted %{target}'s posts"
+        disable: "%{name} froze %{target}'s account"
+        mark_statuses_as_sensitive: "%{name} marked %{target}'s posts as sensitive"
+        none: "%{name} sent a warning to %{target}"
+        sensitive: "%{name} marked %{target}'s account as sensitive"
+        silence: "%{name} limited %{target}'s account"
+        suspend: "%{name} suspended %{target}'s account"
+      appeal_approved: Appealed
+      appeal_pending: Appeal pending
+      appeal_rejected: Appeal rejected
     system_checks:
       database_schema_check:
-        message_html: تعداد مهاجرت پایگاه داده در انتظار انجام هستند. لطفا آن‌ها را اجرا کنید تا اطمینان یابید که برنامه مطابق انتظار رفتار خواهد کرد
+        message_html: There are pending database migrations. Please run them to ensure the application behaves as expected
+      elasticsearch_running_check:
+        message_html: Could not connect to Elasticsearch. Please check that it is running, or disable full-text search
+      elasticsearch_version_check:
+        message_html: 'Incompatible Elasticsearch version: %{value}'
+        version_comparison: Elasticsearch %{running_version} is running while %{required_version} is required
       rules_check:
-        action: مدیریت قانون‌های کارساز
-        message_html: هیچ قانون کارسازی تعریف نکرده‌اید.
+        action: Manage server rules
+        message_html: You haven't defined any server rules.
       sidekiq_process_check:
-        message_html: صف(های) %{value} فاقد هیچونه فرایند Sidekiq هستند. لطفا تنظیمات Sidekiq خود را بازبینی کنید
+        message_html: No Sidekiq process running for the %{value} queue(s). Please review your Sidekiq configuration
     tags:
-      review: وضعیت بازبینی
-      updated_msg: تنظیمات برچسب‌ها با موفقیت به‌روز شد
-    title: مدیریت
+      review: Review status
+      updated_msg: Hashtag settings updated successfully
+    title: Administration
     trends:
-      allow: اجازه
-      approved: تأیید شده
-      disallow: اجازه ندادن
+      allow: Allow
+      approved: Approved
+      disallow: Disallow
       links:
-        allow: اجازه به پیوند
-        allow_provider: اجازه به ناشر
-        disallow: اجازه ندادن به پیوند
-        disallow_provider: اجازه ندادن به ناشر
-        title: پیوندهای داغ
-      pending_review: بازبینی منتظر
+        allow: Allow link
+        allow_provider: Allow publisher
+        description_html: These are links that are currently being shared a lot by accounts that your server sees posts from. It can help your users find out what's going on in the world. No links are displayed publicly until you approve the publisher. You can also allow or reject individual links.
+        disallow: Disallow link
+        disallow_provider: Disallow publisher
+        no_link_selected: No links were changed as none were selected
+        publishers:
+          no_publisher_selected: No publishers were changed as none were selected
+        shared_by_over_week:
+          one: Shared by one person over the last week
+          other: Shared by %{count} people over the last week
+        title: Trending links
+        usage_comparison: Shared %{today} times today, compared to %{yesterday} yesterday
+      not_allowed_to_trend: Not allowed to trend
+      only_allowed: Only allowed
+      pending_review: Pending review
       preview_card_providers:
-        title: ناشران
-      rejected: رد شده
+        allowed: Links from this publisher can trend
+        description_html: These are domains from which links are often shared on your server. Links will not trend publicly unless the domain of the link is approved. Your approval (or rejection) extends to subdomains.
+        rejected: Links from this publisher won't trend
+        title: Publishers
+      rejected: Rejected
       statuses:
-        title: فرسته‌های داغ
+        allow: Allow post
+        allow_account: Allow author
+        description_html: These are posts that your server knows about that are currently being shared and favourited a lot at the moment. It can help your new and returning users to find more people to follow. No posts are displayed publicly until you approve the author, and the author allows their account to be suggested to others. You can also allow or reject individual posts.
+        disallow: Disallow post
+        disallow_account: Disallow author
+        no_status_selected: No trending posts were changed as none were selected
+        not_discoverable: Author has not opted-in to being discoverable
+        shared_by:
+          one: Shared or favourited one time
+          other: Shared and favourited %{friendly_count} times
+        title: Trending posts
       tags:
-        current_score: امتیاز کنونی %{score}
+        current_score: Current score %{score}
         dashboard:
-          tag_accounts_measure: استفادهٔ یکتا
-          tag_languages_dimension: زبان‌های برتر
-          tag_servers_dimension: کارسازهای برتر
-          tag_servers_measure: کارسازهای گوناگون
-          tag_uses_measure: کل استفاده‌ّا
-        listable: می‌تواند پیشنهاد شود
-        not_listable: پیشنهاد نخواهد شد
-        not_usable: غیر قابل استفاده
-        title: برچسب‌های پرطرفدار
-        trending_rank: 'پرطرفدار #%{rank}'
-        usable: قابل استفاده
-      title: پرطرفدار
+          tag_accounts_measure: unique uses
+          tag_languages_dimension: Top languages
+          tag_servers_dimension: Top servers
+          tag_servers_measure: different servers
+          tag_uses_measure: total uses
+        description_html: These are hashtags that are currently appearing in a lot of posts that your server sees. It can help your users find out what people are talking the most about at the moment. No hashtags are displayed publicly until you approve them.
+        listable: Can be suggested
+        no_tag_selected: No tags were changed as none were selected
+        not_listable: Won't be suggested
+        not_trendable: Won't appear under trends
+        not_usable: Cannot be used
+        peaked_on_and_decaying: Peaked on %{date}, now decaying
+        title: Trending hashtags
+        trendable: Can appear under trends
+        trending_rank: 'Trending #%{rank}'
+        usable: Can be used
+        usage_comparison: Used %{today} times today, compared to %{yesterday} yesterday
+        used_by_over_week:
+          one: Used by one person over the last week
+          other: Used by %{count} people over the last week
+      title: Trends
+      trending: Trending
     warning_presets:
-      add_new: افزودن تازه
-      delete: زدودن
-      edit_preset: ویرایش هشدار پیش‌فرض
-      empty: هنز هیچ پیش‌تنظیم هشداری را تعریف نکرده‌اید.
-      title: مدیریت هشدارهای پیش‌فرض
+      add_new: Add new
+      delete: Delete
+      edit_preset: Edit warning preset
+      empty: You haven't defined any warning presets yet.
+      title: Manage warning presets
     webhooks:
-      new: قلاب وب جدید
+      add_new: Add endpoint
+      delete: Delete
+      description_html: A <strong>webhook</strong> enables Mastodon to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
+      disable: Disable
+      disabled: Disabled
+      edit: Edit endpoint
+      empty: You don't have any webhook endpoints configured yet.
+      enable: Enable
+      enabled: Active
+      enabled_events:
+        one: 1 enabled event
+        other: "%{count} enabled events"
+      events: Events
+      new: New webhook
+      rotate_secret: Rotate secret
+      secret: Signing secret
+      status: Status
+      title: Webhooks
+      webhook: Webhook
   admin_mailer:
     new_appeal:
       actions:
-        none: یک هشدار
-        silence: برای محدود کردن حساب آنها
+        delete_statuses: to delete their posts
+        disable: to freeze their account
+        mark_statuses_as_sensitive: to mark their posts as sensitive
+        none: a warning
+        sensitive: to mark their account as sensitive
+        silence: to limit their account
+        suspend: to suspend their account
+      body: "%{target} is appealing a moderation decision by %{action_taken_by} from %{date}, which was %{type}. They wrote:"
+      next_steps: You can approve the appeal to undo the moderation decision, or ignore it.
+      subject: "%{username} is appealing a moderation decision on %{instance}"
     new_pending_account:
-      body: جزئیات حساب تازه این‌جاست. شما می‌توانید آن را تأیید یا رد کنید.
-      subject: حساب تازه‌ای در %{instance} نیازمند بررسی است (%{username})
+      body: The details of the new account are below. You can approve or reject this application.
+      subject: New account up for review on %{instance} (%{username})
     new_report:
-      body: کاربر %{reporter} کاربر %{target} را گزارش داد
-      body_remote: کسی از %{domain} گزارش %{target} را فرستاده
-      subject: گزارش تازه‌ای برای %{instance} (#%{id})
+      body: "%{reporter} has reported %{target}"
+      body_remote: Someone from %{domain} has reported %{target}
+      subject: 'New report for %{instance} (#%{id})'
     new_trends:
+      body: 'The following items need a review before they can be displayed publicly:'
       new_trending_links:
-        title: پیوندهای داغ
+        title: Trending links
       new_trending_statuses:
-        title: فرسته‌های داغ
+        title: Trending posts
+      new_trending_tags:
+        no_approved_tags: There are currently no approved trending hashtags.
+        requirements: 'Any of these candidates could surpass the #%{rank} approved trending hashtag, which is currently #%{lowest_tag_name} with a score of %{lowest_tag_score}.'
+        title: Trending hashtags
+      subject: New trends up for review on %{instance}
   aliases:
-    add_new: ساختن نام مستعار
-    created_msg: نام مستعار تازه با موفقیت ساخته شد. الان می‌توانید انتقال از حساب قدیمی را آغاز کنید.
-    deleted_msg: نام مستعار با موفقیت حذف شد. انتقال از آن حساب به حساب فعلی دیگر ممکن نیست.
-    empty: هیچ نام مستعاری ندارید.
-    hint_html: اگر می‌خواهید از حساب دیگری به این حساب منتقل شوید، این‌جا می‌توانید یک نام مستعار بسازید که برای انتقال از حساب قدیمی به این حساب لازم است. این کار به تنهایی <strong>بی‌ضرر و قابل بازگشت</strong> است. <strong>فرایند انتقال حساب از حساب قدیمی آغاز خواهد شد</strong>.
-    remove: حذف ارتباط نام مستعار
+    add_new: Create alias
+    created_msg: Successfully created a new alias. You can now initiate the move from the old account.
+    deleted_msg: Successfully removed the alias. Moving from that account to this one will no longer be possible.
+    empty: You have no aliases.
+    hint_html: If you want to move from another account to this one, here you can create an alias, which is required before you can proceed with moving followers from the old account to this one. This action by itself is <strong>harmless and reversible</strong>. <strong>The account migration is initiated from the old account</strong>.
+    remove: Unlink alias
   appearance:
-    advanced_web_interface: رابط کاربری پیشرفته
-    advanced_web_interface_hint: اگر می‌خواهید از تمامی پهنای صفحه‌تان استفاده کنید، رابط پیش‌رفتهٔ وب می‌گذارد هر چند ستون را که می‌خواهید، برای دیدن اطّلاعات بیش‌تر در یک زمان، پیکربندی کنید:‌خانه، آگاهی‌ها، خط زمانی عمومی،‌ هرتعدادی از سیاهه‌ها و برچسب‌ها.
-    animations_and_accessibility: پویانمایی‌های و دسترسی‌پذیری
-    confirmation_dialogs: پیغام‌های تأیید
-    discovery: کاوش
+    advanced_web_interface: Advanced web interface
+    advanced_web_interface_hint: 'If you want to make use of your entire screen width, the advanced web interface allows you to configure many different columns to see as much information at the same time as you want: Home, notifications, federated timeline, any number of lists and hashtags.'
+    animations_and_accessibility: Animations and accessibility
+    confirmation_dialogs: Confirmation dialogs
+    discovery: Discovery
     localization:
-      body: ماستودون توسط داوطلبان ترجمه شده است.
+      body: Mastodon is translated by volunteers.
       guide_link: https://crowdin.com/project/mastodon
-      guide_link_text: همه می‌توانند کمک کنند.
-    sensitive_content: محتوای حساس
-    toot_layout: آرایش فرسته
+      guide_link_text: Everyone can contribute.
+    sensitive_content: Sensitive content
+    toot_layout: Post layout
   application_mailer:
-    notification_preferences: تغییر ترجیحات ایمیل
-    salutation: "%{name}،"
-    settings: 'تغییر تنظیمات ایمیل: %{link}'
-    view: 'نمایش:'
-    view_profile: دیدن نمایه
-    view_status: دیدن نوشته‌ها
+    notification_preferences: Change e-mail preferences
+    salutation: "%{name},"
+    settings: 'Change e-mail preferences: %{link}'
+    view: 'View:'
+    view_profile: View profile
+    view_status: View post
   applications:
-    created: برنامه با موفقیت ساخته شد
-    destroyed: برنامه با موفقیت پاک شد
-    regenerate_token: دوباره‌سازی کد دسترسی
-    token_regenerated: کد دسترسی با موفقیت ساخته شد
-    warning: خیلی مواظب این اطلاعات باشید و آن را به هیچ کس ندهید!
-    your_token: کد دسترسی شما
+    created: Application successfully created
+    destroyed: Application successfully deleted
+    logout: Logout
+    regenerate_token: Regenerate access token
+    token_regenerated: Access token successfully regenerated
+    warning: Be very careful with this data. Never share it with anyone!
+    your_token: Your access token
   auth:
-    change_password: رمز
-    delete_account: پاک‌کردن حساب
-    delete_account_html: اگر می‌خواهید حساب خود را پاک کنید، از <a href="%{path}">این‌جا</a> پیش بروید. از شما درخواست تأیید خواهد شد.
+    apply_for_account: Request an account
+    change_password: Password
+    confirmations:
+      wrong_email_hint: If that e-mail address is not correct, you can change it in account settings.
+    delete_account: Delete account
+    delete_account_html: If you wish to delete your account, you can <a href="%{path}">proceed here</a>. You will be asked for confirmation.
     description:
-      prefix_invited_by_user: "@%{name} شما را به عضویت در این کارساز ماستودون دعوت کرده است!"
-      prefix_sign_up: همین امروز عضو ماستودون شوید!
-      suffix: با داشتن حساب می‌توانید دیگران را پی بگیرید، نوشته‌های تازه منتشر کنید، و با کاربران دیگر از هر سرور ماستودون دیگری و حتی سرورهای دیگر در ارتباط باشید!
-    didnt_get_confirmation: راهنمایی برای تأیید را دریافت نکردید؟
-    dont_have_your_security_key: کلید امنیتیتان را ندارید؟
-    forgot_password: رمزتان را گم کرده‌اید؟
-    invalid_reset_password_token: کد بازنشانی رمز نامعتبر یا منقضی شده است. لطفاً کد دیگری درخواست کنید.
-    link_to_otp: رمز بازگردانی یا رمز دوعاملی را از تلفنتان وارد کنید
-    link_to_webauth: استفاده از افزارهٔ امنیتیتان
-    log_in_with: ورود با
-    login: ورود
-    logout: خروج
-    migrate_account: نقل مکان به یک حساب دیگر
-    migrate_account_html: اگر می‌خواهید این حساب را به حساب دیگری منتقل کنید، <a href="%{path}">این‌جا را کلیک کنید</a>.
-    or_log_in_with: یا ورود به وسیلهٔ
+      prefix_invited_by_user: "@%{name} invites you to join this server of Mastodon!"
+      prefix_sign_up: Sign up on Mastodon today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any Mastodon server and more!
+    didnt_get_confirmation: Didn't receive confirmation instructions?
+    dont_have_your_security_key: Don't have your security key?
+    forgot_password: Forgot your password?
+    invalid_reset_password_token: Password reset token is invalid or expired. Please request a new one.
+    link_to_otp: Enter a two-factor code from your phone or a recovery code
+    link_to_webauth: Use your security key device
+    log_in_with: Log in with
+    login: Log in
+    logout: Logout
+    migrate_account: Move to a different account
+    migrate_account_html: If you wish to redirect this account to a different one, you can <a href="%{path}">configure it here</a>.
+    or_log_in_with: Or log in with
+    privacy_policy_agreement_html: I have read and agree to the <a href="%{privacy_policy_path}" target="_blank">privacy policy</a>
     providers:
       cas: CAS
       saml: SAML
-    register: عضو شوید
-    registration_closed: سرور %{instance} عضو تازه‌ای نمی‌پذیرد
-    resend_confirmation: راهنمایی برای تأیید را دوباره بفرست
-    reset_password: بازنشانی رمز
-    security: امنیت
-    set_new_password: تعیین رمز تازه
+    register: Sign up
+    registration_closed: "%{instance} is not accepting new members"
+    resend_confirmation: Resend confirmation instructions
+    reset_password: Reset password
+    rules:
+      accept: Accept
+      back: Back
+      preamble: These are set and enforced by the %{domain} moderators.
+      title: Some ground rules.
+    security: Security
+    set_new_password: Set new password
     setup:
-      email_below_hint_html: اگر نشانی ایمیل زیر نادرست است، می‌توانید آن را تغییر دهید و ایمیل تأیید دوباره‌ای دریافت کنید.
-      email_settings_hint_html: ایمیل تأیید به %{email} فرستاده شد. اگر این نشانی ایمیل درست نیست، می‌توانید از تنظیمات حساب آن را تغییر دهید.
-      title: راه اندازی
+      email_below_hint_html: If the below e-mail address is incorrect, you can change it here and receive a new confirmation e-mail.
+      email_settings_hint_html: The confirmation e-mail was sent to %{email}. If that e-mail address is not correct, you can change it in account settings.
+      title: Setup
+    sign_in:
+      preamble_html: Sign in with your <strong>%{domain}</strong> credentials. If your account is hosted on a different server, you will not be able to log in here.
+      title: Sign in to %{domain}
+    sign_up:
+      preamble: With an account on this Mastodon server, you'll be able to follow any other person on the network, regardless of where their account is hosted.
+      title: Let's get you set up on %{domain}.
     status:
-      account_status: وضعیت حساب
-      confirming: در حال انتظار برای کامل شدن تأیید ایمیل.
-      pending: درخواست شما منتظر تأیید مسئولان سایت است و این فرایند ممکن است کمی طول بکشد. اگر درخواست شما پذیرفته شود به شما ایمیلی فرستاده خواهد شد.
-      redirecting_to: حساب شما غیرفعال است زیرا هم‌اکنون به %{acct} منتقل شده است.
-    too_fast: فرم با سرعت بسیار زیادی فرستاده شد، دوباره تلاش کنید.
-    use_security_key: استفاده از کلید امنیتی
+      account_status: Account status
+      confirming: Waiting for e-mail confirmation to be completed.
+      functional: Your account is fully operational.
+      pending: Your application is pending review by our staff. This may take some time. You will receive an e-mail if your application is approved.
+      redirecting_to: Your account is inactive because it is currently redirecting to %{acct}.
+      view_strikes: View past strikes against your account
+    too_fast: Form submitted too fast, try again.
+    use_security_key: Use security key
   authorize_follow:
-    already_following: شما همین الان هم این حساب را پی‌می‌گیرید
-    already_requested: درخواست پی‌گیری‌ای برای آن حساب فرستاده‌ بودید
-    error: متأسفانه حین یافتن آن حساب خطایی رخ داد
-    follow: پی بگیرید
-    follow_request: 'شما درخواست پیگیری فرستاده‌اید به:'
-    following: 'انجام شد! شما هم‌اینک پیگیر این کاربر هستید:'
+    already_following: You are already following this account
+    already_requested: You have already sent a follow request to that account
+    error: Unfortunately, there was an error looking up the remote account
+    follow: Follow
+    follow_request: 'You have sent a follow request to:'
+    following: 'Success! You are now following:'
     post_follow:
-      close: یا این پنجره را ببندید.
-      return: نمایهٔ این کاربر را نشان بده
-      web: رفتن به وب
-    title: پیگیری %{acct}
+      close: Or, you can just close this window.
+      return: Show the user's profile
+      web: Go to web
+    title: Follow %{acct}
   challenge:
-    confirm: ادامه
-    hint_html: "<strong>نکته:</strong> ما در یک ساعت آینده رمزتان را از شما نخواهیم پرسید."
-    invalid_password: رمز نامعتبر
-    prompt: برای ادامه رمزتان را تأیید کنید
+    confirm: Continue
+    hint_html: "<strong>Tip:</strong> We won't ask you for your password again for the next hour."
+    invalid_password: Invalid password
+    prompt: Confirm password to continue
   crypto:
     errors:
-      invalid_key: یک کلید معتبر Ed25519 یا Curve25519 نیست
-      invalid_signature: یک امضای معتبر Ed25519 نیست
+      invalid_key: is not a valid Ed25519 or Curve25519 key
+      invalid_signature: is not a valid Ed25519 signature
   date:
     formats:
-      default: "%d %b %Y"
-      with_month_name: "%d %B %Y"
+      default: "%b %d, %Y"
+      with_month_name: "%B %d, %Y"
   datetime:
     distance_in_words:
-      about_x_hours: "%{count} ساعت"
-      about_x_months: "%{count} ماه"
-      about_x_years: "%{count} سال"
-      almost_x_years: "%{count} سال"
-      half_a_minute: همین الان
-      less_than_x_minutes: "%{count} دقیقه"
-      less_than_x_seconds: همین الان
-      over_x_years: "%{count} سال"
-      x_days: "%{count} روز"
-      x_minutes: "%{count} دقیقه"
-      x_months: "%{count} ماه"
-      x_seconds: "%{count} ثانیه"
+      about_x_hours: "%{count}h"
+      about_x_months: "%{count}mo"
+      about_x_years: "%{count}y"
+      almost_x_years: "%{count}y"
+      half_a_minute: Just now
+      less_than_x_minutes: "%{count}m"
+      less_than_x_seconds: Just now
+      over_x_years: "%{count}y"
+      x_days: "%{count}d"
+      x_minutes: "%{count}m"
+      x_months: "%{count}mo"
+      x_seconds: "%{count}s"
   deletes:
-    challenge_not_passed: اطلاعاتی که وارد کردید اشتباه بود
-    confirm_password: رمز فعلی خود را وارد کنید تا معلوم شود که خود شمایید
-    confirm_username: برای تأیید این فرایند نام کاربری خود را وارد کنید
-    proceed: پاک‌کردن حساب
-    success_msg: حساب شما با موفقیت پاک شد
+    challenge_not_passed: The information you entered was not correct
+    confirm_password: Enter your current password to verify your identity
+    confirm_username: Enter your username to confirm the procedure
+    proceed: Delete account
+    success_msg: Your account was successfully deleted
     warning:
-      before: 'پیش از ادامه،‌ لطفاً نکته‌های زیر را به دقت بخوانید:'
-      caches: ممکن است محتواهایی که دیگر کارسازها ذخیره کرده‌اند، همچنان باقی بماند
-      data_removal: نوشته‌ها و داده‌های شما برای همیشه پاک خواهند شد
-      email_change_html: شما می‌توانید بدون پاک کردن حساب <a href="%{path}">نشانی ایمیل خود را تغییر دهید</a>
-      email_contact_html: اگر ایمیل همچنان نرسیده، برای درخواست کمک به <a href="mailto:%{email}">%{email}</a> پیغام دهید
-      email_reconfirmation_html: اگر ایمیل تأیید به دستتان نرسیده، می‌توانید <a href="%{path}">یک بار دیگر برایش درخواست بدهید</a>
-      irreversible: شما نخواهید توانست حساب خود را بازیابی یا فعال‌سازی کنید
-      more_details_html: برای اطلاعات بیشتر <a href="%{terms_path}">سیاست رازداری</a> را ببینید.
-      username_available: نام کاربری شما دوباره در دسترس خواهد بود
-      username_unavailable: نام کاربری شما برای دیگران غیرقابل دسترس خواهد ماند
+      before: 'Before proceeding, please read these notes carefully:'
+      caches: Content that has been cached by other servers may persist
+      data_removal: Your posts and other data will be permanently removed
+      email_change_html: You can <a href="%{path}">change your e-mail address</a> without deleting your account
+      email_contact_html: If it still doesn't arrive, you can e-mail <a href="mailto:%{email}">%{email}</a> for help
+      email_reconfirmation_html: If you are not receiving the confirmation e-mail, you can <a href="%{path}">request it again</a>
+      irreversible: You will not be able to restore or reactivate your account
+      more_details_html: For more details, see the <a href="%{terms_path}">privacy policy</a>.
+      username_available: Your username will become available again
+      username_unavailable: Your username will remain unavailable
   disputes:
     strikes:
-      appeal: درخواست تجدیدنظر
-      appeal_rejected: درخواست تجدیدنظر رد شده است
-      appeal_submitted_at: درخواست تجدیدنظر فرستاده شد
+      action_taken: Action taken
+      appeal: Appeal
+      appeal_approved: This strike has been successfully appealed and is no longer valid
+      appeal_rejected: The appeal has been rejected
+      appeal_submitted_at: Appeal submitted
+      appealed_msg: Your appeal has been submitted. If it is approved, you will be notified.
       appeals:
-        submit: فرستادن درخواست تجدیدنظر
+        submit: Submit appeal
+      approve_appeal: Approve appeal
+      associated_report: Associated report
+      created_at: Dated
+      description_html: These are actions taken against your account and warnings that have been sent to you by the staff of %{instance}.
+      recipient: Addressed to
+      reject_appeal: Reject appeal
+      status: 'Post #%{id}'
+      status_removed: Post already removed from system
+      title: "%{action} from %{date}"
       title_actions:
-        none: هشدار
-      your_appeal_approved: درخواست تجدیدنظر شما پذیرفته شد
-      your_appeal_pending: شما یک درخواست تجدیدنظر فرستادید
-      your_appeal_rejected: درخواست تجدیدنظر شما رد شد
+        delete_statuses: Post removal
+        disable: Freezing of account
+        mark_statuses_as_sensitive: Marking of posts as sensitive
+        none: Warning
+        sensitive: Marking of account as sensitive
+        silence: Limitation of account
+        suspend: Suspension of account
+      your_appeal_approved: Your appeal has been approved
+      your_appeal_pending: You have submitted an appeal
+      your_appeal_rejected: Your appeal has been rejected
   domain_validator:
-    invalid_domain: نام دامین معتبر نیست
+    invalid_domain: is not a valid domain name
   errors:
-    '400': درخواستی که فرستادید نامعتبر یا اشتباه بود.
-    '403': شما اجازهٔ دیدن این صفحه را ندارید.
-    '404': صفحه‌ای که به دنبالش هستید این‌جا نیست.
-    '406': این صفحه در قالبی که درخواست کرده‌اید موجود نیست.
-    '410': صفحه‌ای که به دنبالش بودید دیگر این‌جا وجود ندارد.
+    '400': The request you submitted was invalid or malformed.
+    '403': You don't have permission to view this page.
+    '404': The page you are looking for isn't here.
+    '406': This page is not available in the requested format.
+    '410': The page you were looking for doesn't exist here anymore.
     '422':
-      content: تأیید امنیتی انجام نشد. آیا مرورگر شما کوکی‌ها را مسدود می‌کند؟
-      title: تأیید امنیتی کار نکرد
-    '429': درخواست‌های بیش از حد
+      content: Security verification failed. Are you blocking cookies?
+      title: Security verification failed
+    '429': Too many requests
     '500':
-      content: شرمنده، یک چیزی از سمت ما اشتباه شده.
-      title: این صفحه درست نیست
-    '503': این صفحه به خاطر یک مشکل موقت در کارساز در دسترس نیست.
-    noscript_html: برای استفاده از نسخهٔ تحت وب ماستودون، لطفاً جاوااسکریپت را فعال کنید. یا به جایش می‌توانید <a href="%{apps_path}">یک کارهٔ ماستودون</a> را به کار ببرید.
+      content: We're sorry, but something went wrong on our end.
+      title: This page is not correct
+    '503': The page could not be served due to a temporary server failure.
+    noscript_html: To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the <a href="%{apps_path}">native apps</a> for Mastodon for your platform.
   existing_username_validator:
-    not_found: کاربری با این نام کاربری در این کارساز پیدا نشد
-    not_found_multiple: "%{usernames} پیدا نشد"
+    not_found: could not find a local user with that username
+    not_found_multiple: could not find %{usernames}
   exports:
     archive_takeout:
-      date: تاریخ
-      download: بایگانی خود را باربگیرید
-      hint_html: شما می‌توانید بایگانی <strong>نوشته‌ها و پرونده‌های بارگذاری‌شدهٔ</strong> خود را درخواست کنید. داده‌های برون‌بری‌شده در قالب ActivityPub خواهند بود و همهٔ نرم‌افزارهای سازگار خواهند توانست آن را بخوانند. شما هر ۷ روز می‌توانید یک بار برای چنین بایگانی‌ای درخواست دهید.
-      in_progress: در حال ساختن بایگانی شما...
-      request: درخواست بایگانی داده‌هایتان
-      size: اندازه
-    blocks: حساب‌های مسدودشده
-    bookmarks: نشانک‌ها
+      date: Date
+      download: Download your archive
+      hint_html: You can request an archive of your <strong>posts and uploaded media</strong>. The exported data will be in the ActivityPub format, readable by any compliant software. You can request an archive every 7 days.
+      in_progress: Compiling your archive...
+      request: Request your archive
+      size: Size
+    blocks: You block
+    bookmarks: Bookmarks
     csv: CSV
-    domain_blocks: دامنه‌های مسدود شده
-    lists: سیاهه‌ها
-    mutes: حساب‌های بی‌صداشده
-    storage: تصویرهای ذخیره‌شده
+    domain_blocks: Domain blocks
+    lists: Lists
+    mutes: You mute
+    storage: Media storage
   featured_tags:
-    add_new: افزودن تازه
+    add_new: Add new
     errors:
-      limit: شما بیشترین تعداد مجاز برچسب‌ها را دارید
-    hint_html: "<strong>برچسب‌های برگزیده چیستند؟</strong> این برچسب‌ها به طور واضحی روی نمایهٔ عمومیتان نمایش یافته می‌گذارد افراد فرسته‌های عمومیتان زیرشان را مرور کنند. ابزاری عالی برای دنبال کردن آثار خلاقانه یا پروژه‌های بلندمدت است."
+      limit: You have already featured the maximum number of hashtags
+    hint_html: "<strong>What are featured hashtags?</strong> They are displayed prominently on your public profile and allow people to browse your public posts specifically under those hashtags. They are a great tool for keeping track of creative works or long-term projects."
   filters:
     contexts:
-      account: نمایه‌ها
-      home: خانه
-      notifications: آگاهی‌ها
-      public: خط زمانی‌های عمومی
-      thread: گفتگوها
+      account: Profiles
+      home: Home and lists
+      notifications: Notifications
+      public: Public timelines
+      thread: Conversations
     edit:
-      title: ویرایش پالایه
+      add_keyword: Add keyword
+      keywords: Keywords
+      statuses: Individual posts
+      statuses_hint_html: This filter applies to select individual posts regardless of whether they match the keywords below. <a href="%{path}">Review or remove posts from the filter</a>.
+      title: Edit filter
     errors:
-      invalid_context: زمینه‌ای موجود نیست یا نامعتبر است
+      deprecated_api_multiple_keywords: These parameters cannot be changed from this application because they apply to more than one filter keyword. Use a more recent application or the web interface.
+      invalid_context: None or invalid context supplied
     index:
-      delete: پاک‌کردن
-      empty: هیچ پالایه‌ای ندارید.
-      title: پالایه‌ها
+      contexts: Filters in %{contexts}
+      delete: Delete
+      empty: You have no filters.
+      expires_in: Expires in %{distance}
+      expires_on: Expires on %{date}
+      keywords:
+        one: "%{count} keyword"
+        other: "%{count} keywords"
+      statuses:
+        one: "%{count} post"
+        other: "%{count} posts"
+      statuses_long:
+        one: "%{count} individual post hidden"
+        other: "%{count} individual posts hidden"
+      title: Filters
     new:
-      title: افزودن پالایهٔ جدید
+      save: Save new filter
+      title: Add new filter
+    statuses:
+      back_to_filter: Back to filter
+      batch:
+        remove: Remove from filter
+      index:
+        hint: This filter applies to select individual posts regardless of other criteria. You can add more posts to this filter from the web interface.
+        title: Filtered posts
   footer:
-    trending_now: پرطرفدار
+    trending_now: Trending now
   generic:
-    all: همه
-    changes_saved_msg: تغییرات با موفقیت ذخیره شدند!
-    copy: رونوشت
-    delete: حذف
-    none: هیچ‌کدام
-    order_by: مرتب‌سازی
-    save_changes: ذخیرهٔ تغییرات
-    today: امروز
+    all: All
+    all_items_on_page_selected_html:
+      one: "<strong>%{count}</strong> item on this page is selected."
+      other: All <strong>%{count}</strong> items on this page are selected.
+    all_matching_items_selected_html:
+      one: "<strong>%{count}</strong> item matching your search is selected."
+      other: All <strong>%{count}</strong> items matching your search are selected.
+    changes_saved_msg: Changes successfully saved!
+    copy: Copy
+    delete: Delete
+    deselect: Deselect all
+    none: None
+    order_by: Order by
+    save_changes: Save changes
+    select_all_matching_items:
+      one: Select %{count} item matching your search.
+      other: Select all %{count} items matching your search.
+    today: today
     validation_errors:
-      one: یک چیزی هنوز درست نیست! لطفاً خطاهای زیر را ببینید
-      other: یک چیزی هنوز درست نیست! لطفاً %{count} خطای زیر را ببینید
+      one: Something isn't quite right yet! Please review the error below
+      other: Something isn't quite right yet! Please review %{count} errors below
   html_validator:
-    invalid_markup: 'دارای نشانه‌گذاری نامعتبر HTML است: %{error}'
+    invalid_markup: 'contains invalid HTML markup: %{error}'
   imports:
     errors:
-      over_rows_processing_limit: دارای بیش از %{count} ردیف
+      invalid_csv_file: 'Invalid CSV file. Error: %{error}'
+      over_rows_processing_limit: contains more than %{count} rows
     modes:
-      merge: ادغام
-      merge_long: داده‌های فعلی را داشته باشید و داده‌های تازه‌ای بیفزایید
-      overwrite: بازنویسی
-      overwrite_long: داده‌های فعلی را پاک کنید و داده‌های تازه‌ای بیفزایید
-    preface: می‌توانید داده‌هایی را که از کارسازی دیگر برون‌ریخته‌اید، چون سیاهه‌ای از افرادی که پی گرفته یا مسدود می‌کنید را درون‌ریزی کنید.
-    success: داده‌های شما با موفقیت بارگذاری شد و به زودی پردازش می‌شود
+      merge: Merge
+      merge_long: Keep existing records and add new ones
+      overwrite: Overwrite
+      overwrite_long: Replace current records with the new ones
+    preface: You can import data that you have exported from another server, such as a list of the people you are following or blocking.
+    success: Your data was successfully uploaded and will be processed in due time
     types:
-      blocking: سیاههٔ انسداد
-      bookmarks: نشانک‌ها
-      domain_blocking: سیاههٔ انسداد دامنه
-      following: سیاههٔ پی‌گیری
-      muting: سیاههٔ خموشی
-    upload: بارگذاری
+      blocking: Blocking list
+      bookmarks: Bookmarks
+      domain_blocking: Domain blocking list
+      following: Following list
+      muting: Muting list
+    upload: Upload
   invites:
-    delete: غیرفعال‌سازی
-    expired: منقضی‌شده
+    delete: Deactivate
+    expired: Expired
     expires_in:
-      '1800': ۳۰ دقیقه
-      '21600': ۶ ساعت
-      '3600': ۱ ساعت
-      '43200': ۱۲ ساعت
-      '604800': ۱ هفته
-      '86400': ۱ روز
-    expires_in_prompt: هیچ وقت
-    generate: ساختن
-    invited_by: 'دعوت‌کنندهٔ شما:'
+      '1800': 30 minutes
+      '21600': 6 hours
+      '3600': 1 hour
+      '43200': 12 hours
+      '604800': 1 week
+      '86400': 1 day
+    expires_in_prompt: Never
+    generate: Generate invite link
+    invited_by: 'You were invited by:'
     max_uses:
-      one: ۱ بار
-      other: "%{count} بار"
-    max_uses_prompt: نامحدود
-    prompt: با ساختن و اشتراک‌گذاری یک پیوند، اجازهٔ دسترسی به این کارساز را به دیگران بدهید
+      one: 1 use
+      other: "%{count} uses"
+    max_uses_prompt: No limit
+    prompt: Generate and share links with others to grant access to this server
     table:
-      expires_at: تاریخ انقضا
-      uses: استفاده‌ها
-    title: دعوت دیگران
+      expires_at: Expires
+      uses: Uses
+    title: Invite people
   lists:
     errors:
-      limit: به بیشینهٔ مقدار سیاهه‌ها رسیدید
+      limit: You have reached the maximum number of lists
   login_activities:
     authentication_methods:
-      otp: کارهٔ تأیید هویت دوعاملی
-      password: گذرواژه
-      sign_in_token: کد امنیتی رایانامه‌ای
-      webauthn: کلیدهای امنیتی
-    description_html: اگر فعالیتی می‌بینید که تشخیصش نمی‌دهید، تغییر گذرواژه و به کار انداختن تأیید هویت دوعاملی را در نظر داشته باشید.
-    empty: هیچ تاریخچه‌ای از تأییدهویت موجود نیست
-    failed_sign_in_html: تلاش‌های شکست‌خوردهٔ ورود با %{method} از %{ip} (%{browser})
-    successful_sign_in_html: ورودهای موفق با %{method} از %{ip} (%{browser})
-    title: تاریخچهٔ تأیید هویت
+      otp: two-factor authentication app
+      password: password
+      sign_in_token: e-mail security code
+      webauthn: security keys
+    description_html: If you see activity that you don't recognize, consider changing your password and enabling two-factor authentication.
+    empty: No authentication history available
+    failed_sign_in_html: Failed sign-in attempt with %{method} from %{ip} (%{browser})
+    successful_sign_in_html: Successful sign-in with %{method} from %{ip} (%{browser})
+    title: Authentication history
   media_attachments:
     validations:
-      images_and_video: نمی‌توان برای نوشته‌ای که تصویر دارد ویدیو بارگذاری کرد
-      not_ready: پرونده‌هایی که پردازش را تمام نکرده‌اند نمی‌توانند پیوست شوند. یکبار دیگر امتحان کنید!
-      too_many: نمی‌توان بیشتر از ۴ تصویر بارگذاری کرد
+      images_and_video: Cannot attach a video to a post that already contains images
+      not_ready: Cannot attach files that have not finished processing. Try again in a moment!
+      too_many: Cannot attach more than 4 files
   migrations:
-    acct: جابه‌جایی به
-    cancel: لغو انتقال
-    cancel_explanation: با لغو انتقال، حساب شما دوباره فعال می‌شود، ولی این کار پیگیران شما را که به حساب دیگر منتقل شده‌اند برنمی‌گرداند.
-    cancelled_msg: انتقال حساب با موفقیت لغو شد.
+    acct: Moved to
+    cancel: Cancel redirect
+    cancel_explanation: Cancelling the redirect will re-activate your current account, but will not bring back followers that have been moved to that account.
+    cancelled_msg: Successfully cancelled the redirect.
     errors:
-      already_moved: این همان حسابی است که به آن منتقل شده‌اید
-      missing_also_known_as: به حساب شما اشاره نمی‌کند
-      move_to_self: نمی‌تواند حساب فعلی شما باشد
-      not_found: چنین حسابی پیدا نشد
-      on_cooldown: شما باید صبر کنید
-    followers_count: شمار پیگیران در زمان انتقال
-    incoming_migrations: انتقال از یک حساب دیگر
-    incoming_migrations_html: برای انتقال از یک حساب دیگر به این حساب، شما باید نخست <a href="%{path}">یک نام مستعار بسازید</a>.
-    moved_msg: حساب شما هم‌اینک به %{acct} منتقل شده است و پیگیران شما در حال انتقال به آن‌جا هستند.
-    not_redirecting: حساب شما هم‌اینک به هیچ حساب دیگری منتقل نشده است یا اشاره نمی‌کند.
-    on_cooldown: شما به تازگی حساب خود را منتقل کرده‌اید. این ویژگی برای شما دوباره در %{count} روز فعال خواهد شد.
-    past_migrations: انتقال‌های پیشین
-    proceed_with_move: انتقال پیگیران
-    redirected_msg: حسابتان اکنون به %{acct} هدایت می‌شود.
-    redirecting_to: حساب شما هم‌اینک به %{acct} منتقل شده است.
-    set_redirect: اشاره به حساب دیگر
+      already_moved: is the same account you have already moved to
+      missing_also_known_as: is not an alias of this account
+      move_to_self: cannot be current account
+      not_found: could not be found
+      on_cooldown: You are on cooldown
+    followers_count: Followers at time of move
+    incoming_migrations: Moving from a different account
+    incoming_migrations_html: To move from another account to this one, first you need to <a href="%{path}">create an account alias</a>.
+    moved_msg: Your account is now redirecting to %{acct} and your followers are being moved over.
+    not_redirecting: Your account is not redirecting to any other account currently.
+    on_cooldown: You have recently migrated your account. This function will become available again in %{count} days.
+    past_migrations: Past migrations
+    proceed_with_move: Move followers
+    redirected_msg: Your account is now redirecting to %{acct}.
+    redirecting_to: Your account is redirecting to %{acct}.
+    set_redirect: Set redirect
     warning:
-      backreference_required: حساب تازهٔ شما نخست باید تنظیم شود تا به این حساب اشاره کند
-      before: 'پیش از ادامه،‌ لطفاً نکته‌های زیر را به دقت بخوانید:'
-      cooldown: پس از انتقال حساب، یک دورهٔ انتظار وجود دارد که در این مدت نخواهید توانست دوباره حسابتان را منتقل کنید
-      disabled_account: حساب فعلی شما پس از این کار دیگر قابل استفاده نخواهد بود. شما فقط خواهید توانست داده‌های خود را بیرون ببرید یا حساب را دوباره فعال کنید.
-      followers: این کار همهٔ پیگیران شما را از حساب فعلی به حساب تازه منتقل خواهد کرد
-      only_redirect_html: شما همچنین می‌توانید حساب خود را <a href="%{path}">به یک حساب دیگر اشاره دهید</a>.
-      other_data: هیچ دادهٔ دیگری خودبه‌خود منتقل نخواهد شد
-      redirect: نمایهٔ حساب فعلی شما به حساب تازه اشاره خواهد کرد و خودش در نتیجهٔ جستجوها ظاهر نخواهد شد
+      backreference_required: The new account must first be configured to back-reference this one
+      before: 'Before proceeding, please read these notes carefully:'
+      cooldown: After moving there is a waiting period during which you will not be able to move again
+      disabled_account: Your current account will not be fully usable afterwards. However, you will have access to data export as well as re-activation.
+      followers: This action will move all followers from the current account to the new account
+      only_redirect_html: Alternatively, you can <a href="%{path}">only put up a redirect on your profile</a>.
+      other_data: No other data will be moved automatically
+      redirect: Your current account's profile will be updated with a redirect notice and be excluded from searches
   moderation:
-    title: مدیریت کاربران
+    title: Moderation
   move_handler:
-    carry_blocks_over_text: این کاربر از %{acct} که مسدودش کرده‌اید، جابه‌جا شد.
-    carry_mutes_over_text: این کاربر از %{acct} که خموشش کرده‌اید، جابه‌جا شد.
-    copy_account_note_text: 'این کاربر از %{acct} جابه‌جا شده است. یادداشت‌های پیشینتان درباره‌اش این‌هاست:'
+    carry_blocks_over_text: This user moved from %{acct}, which you had blocked.
+    carry_mutes_over_text: This user moved from %{acct}, which you had muted.
+    copy_account_note_text: 'This user moved from %{acct}, here were your previous notes about them:'
+  navigation:
+    toggle_menu: Toggle menu
   notification_mailer:
     admin:
+      report:
+        subject: "%{name} submitted a report"
       sign_up:
-        subject: "%{name} ثبت نام کرد"
+        subject: "%{name} signed up"
     favourite:
-      body: "%{name} این نوشتهٔ شما را پسندید:"
-      subject: "%{name} نوشتهٔ شما را پسندید"
-      title: پسندیده‌شدن تازه
+      body: 'Your post was favourited by %{name}:'
+      subject: "%{name} favourited your post"
+      title: New favourite
     follow:
-      body: "%{name} هم‌اینک پیگیر شماست!"
-      subject: "%{name} هم‌اینک پیگیر شماست"
-      title: پیگیر تازه
+      body: "%{name} is now following you!"
+      subject: "%{name} is now following you"
+      title: New follower
     follow_request:
-      action: مدیریت درخواست‌های پیگیری
-      body: "%{name} می‌خواهد پیگیر نوشته‌های شما باشد"
-      subject: 'منتظر پیگیری: %{name}'
-      title: درخواست پیگیری تازه
+      action: Manage follow requests
+      body: "%{name} has requested to follow you"
+      subject: 'Pending follower: %{name}'
+      title: New follow request
     mention:
-      action: پاسخ
-      body: "%{name} در این‌جا از شما نام برد:"
-      subject: "%{name} از شما نام برد"
-      title: نام‌برده‌شدن تازه
+      action: Reply
+      body: 'You were mentioned by %{name} in:'
+      subject: You were mentioned by %{name}
+      title: New mention
     poll:
-      subject: نظرسنجی‌ای از %{name} پایان یافت
+      subject: A poll by %{name} has ended
     reblog:
-      body: "%{name} فرستهٔ شما را تقویت کرد:"
-      subject: "%{name} فرستهٔ شما را تقویت کرد"
-      title: تقویت تازه
+      body: 'Your post was boosted by %{name}:'
+      subject: "%{name} boosted your post"
+      title: New boost
     status:
-      subject: "%{name} چیزی فرستاد"
+      subject: "%{name} just posted"
+    update:
+      subject: "%{name} edited a post"
   notifications:
-    email_events: رویدادها برای آگاهی‌های رایانامه‌ای
-    email_events_hint: 'گزینش رویدادهایی که می‌خواهید برایشان آگاهی دریافت کنید:'
-    other_settings: سایر تنظیمات آگاهی‌ها
+    email_events: Events for e-mail notifications
+    email_events_hint: 'Select events that you want to receive notifications for:'
+    other_settings: Other notifications settings
   number:
     human:
       decimal_units:
         format: "%n%u"
         units:
-          billion: ب
-          million: م
-          quadrillion: ک
-          thousand: ه
-          trillion: ت
+          billion: B
+          million: M
+          quadrillion: Q
+          thousand: K
+          trillion: T
+          unit: ''
   otp_authentication:
-    code_hint: برای تأیید، کدی را که برنامهٔ تأییدکننده ساخته است وارد کنید
-    description_html: اگر <strong>ورود دومرحله‌ای</strong> را با استفاده از از یک کارهٔ تأییدکننده به کار بیندازید، لازم است برای ورود، به تلفن خود که برایتان یک ژتون خواهد ساخت دسترسی داشته باشید.
-    enable: به کار انداختن
-    instructions_html: "<strong>این کد QR را با برنامهٔ Google Authenticator یا برنامه‌های TOTP مشابه اسکن کنید</strong>. از این به بعد، آن برنامه کدهایی موقتی خواهد ساخت که برای ورود باید آن‌ها را وارد کنید."
-    manual_instructions: 'اگر نمی‌توانید رمز QR را بپویید و باید دستی واردظ کنید، متن رمز این‌جاست:'
-    setup: برپا سازی
-    wrong_code: رمز وارد شده نامعتبر بود! آیا زمان کارساز و زمان افزاره درستند؟
+    code_hint: Enter the code generated by your authenticator app to confirm
+    description_html: If you enable <strong>two-factor authentication</strong> using an authenticator app, logging in will require you to be in possession of your phone, which will generate tokens for you to enter.
+    enable: Enable
+    instructions_html: "<strong>Scan this QR code into Google Authenticator or a similar TOTP app on your phone</strong>. From now on, that app will generate tokens that you will have to enter when logging in."
+    manual_instructions: 'If you can''t scan the QR code and need to enter it manually, here is the plain-text secret:'
+    setup: Set up
+    wrong_code: The entered code was invalid! Are server time and device time correct?
   pagination:
-    newer: تازه‌تر
-    next: بعدی
-    older: قدیمی‌تر
-    prev: قبلی
-    truncate: "…"
+    newer: Newer
+    next: Next
+    older: Older
+    prev: Prev
+    truncate: "&hellip;"
   polls:
     errors:
-      already_voted: شما قبلاً در این نظرسنجی رأی داده‌اید
-      duplicate_options: دارای موارد تکراری است
-      duration_too_long: در آیندهٔ خیلی دور است
-      duration_too_short: در آیندهٔ خیلی نزدیک است
-      expired: این نظرسنجی به پایان رسیده است
-      invalid_choice: گزینه رای دادن وجود ندارد
-      over_character_limit: هر کدام نمی‌تواند از %{max} نویسه طولانی‌تر باشد
-      too_few_options: حتماً باید بیش از یک گزینه داشته باشد
-      too_many_options: نمی‌تواند بیشتر از %{max} گزینه داشته باشد
+      already_voted: You have already voted on this poll
+      duplicate_options: contain duplicate items
+      duration_too_long: is too far into the future
+      duration_too_short: is too soon
+      expired: The poll has already ended
+      invalid_choice: The chosen vote option does not exist
+      over_character_limit: cannot be longer than %{max} characters each
+      too_few_options: must have more than one item
+      too_many_options: can't contain more than %{max} items
   preferences:
-    other: سایر تنظیمات
-    posting_defaults: تنظیمات پیش‌فرض انتشار
-    public_timelines: خط زمانی‌های عمومی
+    other: Other
+    posting_defaults: Posting defaults
+    public_timelines: Public timelines
+  privacy_policy:
+    title: Privacy Policy
   reactions:
     errors:
-      limit_reached: تجاوز از کران واکنش‌های مختلف
-      unrecognized_emoji: شکلک شناخته‌شده‌ای نیست
+      limit_reached: Limit of different reactions reached
+      unrecognized_emoji: is not a recognized emoji
   relationships:
-    activity: فعالیت حساب
-    dormant: غیرفعال
-    follow_selected_followers: پیگیری پیگیران انتخاب شده
-    followers: پی‌گیران
-    following: پی می‌گیرد
-    invited: مدعو
-    last_active: آخرین فعالیت
-    most_recent: تازه‌ترین
-    moved: منتقل‌شده
-    mutual: دوطرفه
-    primary: اصلی
-    relationship: رابطه
-    remove_selected_domains: همهٔ پیگیران از این دامنه را بردار
-    remove_selected_followers: پیگیران انتخاب‌شده را بردار
-    remove_selected_follows: به پیگیری از کاربران انتخاب‌شده پایان بده
-    status: وضعیت حساب
+    activity: Account activity
+    confirm_follow_selected_followers: Are you sure you want to follow selected followers?
+    confirm_remove_selected_followers: Are you sure you want to remove selected followers?
+    confirm_remove_selected_follows: Are you sure you want to remove selected follows?
+    dormant: Dormant
+    follow_selected_followers: Follow selected followers
+    followers: Followers
+    following: Following
+    invited: Invited
+    last_active: Last active
+    most_recent: Most recent
+    moved: Moved
+    mutual: Mutual
+    primary: Primary
+    relationship: Relationship
+    remove_selected_domains: Remove all followers from the selected domains
+    remove_selected_followers: Remove selected followers
+    remove_selected_follows: Unfollow selected users
+    status: Account status
   remote_follow:
-    missing_resource: نشانی اینترنتی برای رسیدن به حساب شما پیدا نشد
+    missing_resource: Could not find the required redirect URL for your account
+  reports:
+    errors:
+      invalid_rules: does not reference valid rules
+  rss:
+    content_warning: 'Content warning:'
+    descriptions:
+      account: Public posts from @%{acct}
+      tag: 'Public posts tagged #%{hashtag}'
   scheduled_statuses:
-    over_daily_limit: شما از حد مجاز %{limit} فرسته زمان‌بندی‌شده در آن روز فراتر رفته‌اید
-    over_total_limit: شما از حد مجاز %{limit} فرسته زمان‌بندی‌شده فراتر رفته‌اید
-    too_soon: زمان تعیین‌شده باید در آینده باشد
+    over_daily_limit: You have exceeded the limit of %{limit} scheduled posts for today
+    over_total_limit: You have exceeded the limit of %{limit} scheduled posts
+    too_soon: The scheduled date must be in the future
   sessions:
-    activity: آخرین فعالیت
-    browser: مرورگر
+    activity: Last activity
+    browser: Browser
     browsers:
-      alipay: علی‌پی
-      chrome: کروم
-      edge: مایکروسافت اج
-      electron: الکترون
-      firefox: فایرفاکس
-      generic: مرورگر ناشناخته
-      ie: اینترنت اکسپلورر
-      micro_messenger: مایکرومسنجر
-      nokia: مرورگر اوی نوکیا اس۴۰
-      opera: اپرا
-      otter: دیگر
-      phantom_js: فنتوم‌جی‌اس
-      qq: مرورگر کیوکیو
-      safari: سافاری
-      weibo: وبیو
-    current_session: نشست فعلی
-    description: "%{browser} روی %{platform}"
-    explanation: مرورگرهای زیر هم‌اینک به حساب شما وارد شده‌اند.
-    ip: آی‌پی
+      alipay: Alipay
+      blackberry: BlackBerry
+      chrome: Chrome
+      edge: Microsoft Edge
+      electron: Electron
+      firefox: Firefox
+      generic: Unknown browser
+      ie: Internet Explorer
+      micro_messenger: MicroMessenger
+      nokia: Nokia S40 Ovi Browser
+      opera: Opera
+      otter: Otter
+      phantom_js: PhantomJS
+      qq: QQ Browser
+      safari: Safari
+      uc_browser: UC Browser
+      weibo: Weibo
+    current_session: Current session
+    description: "%{browser} on %{platform}"
+    explanation: These are the web browsers currently logged in to your Mastodon account.
+    ip: IP
     platforms:
-      adobe_air: ایر ادوبی
-      android: اندروید
-      firefox_os: سیستم‌عامل فایرفاکس
-      ios: آی‌اواس
-      linux: لینوکس
-      mac: مک
-      other: سیستم ناشناخته
-      windows: ویندوز
-      windows_mobile: ویندوز همراه
-      windows_phone: تلفن ویندوزی
-    revoke: لغو کردن
-    revoke_success: نشست با موفقیت لغو شد
-    title: نشست‌ها
-    view_authentication_history: دیدن تاریخچهٔ تأییدهویت حسابتان
+      adobe_air: Adobe Air
+      android: Android
+      blackberry: BlackBerry
+      chrome_os: ChromeOS
+      firefox_os: Firefox OS
+      ios: iOS
+      linux: Linux
+      mac: macOS
+      other: unknown platform
+      windows: Windows
+      windows_mobile: Windows Mobile
+      windows_phone: Windows Phone
+    revoke: Revoke
+    revoke_success: Session successfully revoked
+    title: Sessions
+    view_authentication_history: View authentication history of your account
   settings:
-    account: حساب
-    account_settings: تنظیمات حساب
-    aliases: نام‌های مستعار
-    appearance: نما
-    authorized_apps: برنامه‌های مجاز
-    back: بازگشت به ماستودون
-    delete: پاک‌کردن حساب
-    development: فرابری
-    edit_profile: ویرایش نمایه
-    export: برون‌سپاری داده‌ها
-    featured_tags: برچسب‌های برگزیده
-    import: درون‌ریزی
-    import_and_export: درون‌ریزی و برون‌بری
-    migrate: انتقال حساب
-    notifications: آگاهی‌ها
-    preferences: ترجیحات
-    profile: نمایه
-    relationships: پیگیری‌ها و پیگیران
-    statuses_cleanup: حذف فرستهٔ خودکار
-    two_factor_authentication: ورود دومرحله‌ای
-    webauthn_authentication: کلیدهای امنیتی
+    account: Account
+    account_settings: Account settings
+    aliases: Account aliases
+    appearance: Appearance
+    authorized_apps: Authorized apps
+    back: Back to Mastodon
+    delete: Account deletion
+    development: Development
+    edit_profile: Edit profile
+    export: Data export
+    featured_tags: Featured hashtags
+    import: Import
+    import_and_export: Import and export
+    migrate: Account migration
+    notifications: Notifications
+    preferences: Preferences
+    profile: Profile
+    relationships: Follows and followers
+    statuses_cleanup: Automated post deletion
+    strikes: Moderation strikes
+    two_factor_authentication: Two-factor Auth
+    webauthn_authentication: Security keys
   statuses:
     attached:
       audio:
-        one: "%{count} صدا"
-        other: "%{count} صدا"
-      description: 'پیوست‌شده: %{attached}'
+        one: "%{count} audio"
+        other: "%{count} audio"
+      description: 'Attached: %{attached}'
       image:
-        one: "%{count} تصویر"
-        other: "%{count} تصویر"
+        one: "%{count} image"
+        other: "%{count} images"
       video:
-        one: "%{count} ویدیو"
-        other: "%{count} ویدیو"
-    boosted_from_html: تقویت شده از طرف %{acct_link}
-    content_warning: 'هشدا محتوا: %{warning}'
+        one: "%{count} video"
+        other: "%{count} videos"
+    boosted_from_html: Boosted from %{acct_link}
+    content_warning: 'Content warning: %{warning}'
+    default_language: Same as interface language
     disallowed_hashtags:
-      one: 'دارای برچسبی غیرمجاز: %{tags}'
-      other: 'دارای برچسب‌های غیرمجاز: %{tags}'
+      one: 'contained a disallowed hashtag: %{tags}'
+      other: 'contained the disallowed hashtags: %{tags}'
+    edited_at_html: Edited %{date}
     errors:
-      in_reply_not_found: به نظر نمی‌رسد وضعیتی که می‌خواهید به آن پاسخ دهید، وجود داشته باشد.
-    open_in_web: گشودن در وب
-    over_character_limit: از حد مجاز %{max} حرف فراتر رفتید
+      in_reply_not_found: The post you are trying to reply to does not appear to exist.
+    open_in_web: Open in web
+    over_character_limit: character limit of %{max} exceeded
     pin_errors:
-      direct: فرسته‌هایی که فقط برای کاربران اشاره شده نمایانند نمی‌توانند سنجاق شوند
-      limit: از این بیشتر نمی‌شود نوشته‌های ثابت داشت
-      ownership: نوشته‌های دیگران را نمی‌توان ثابت کرد
-      reblog: تقویت نمی‌تواند سنجاق شود
+      direct: Posts that are only visible to mentioned users cannot be pinned
+      limit: You have already pinned the maximum number of posts
+      ownership: Someone else's post cannot be pinned
+      reblog: A boost cannot be pinned
     poll:
       total_people:
-        one: "%{count} نفر"
-        other: "%{count} نفر"
+        one: "%{count} person"
+        other: "%{count} people"
       total_votes:
-        one: "%{count} رأی"
-        other: "%{count} رأی"
-      vote: رأی
-    show_more: نمایش
-    show_newer: نمایش جدیدتر
-    show_older: نمایش قدیمی‌تر
-    show_thread: نمایش رشته
-    sign_in_to_participate: برای شرکت در گفتگو وارد حساب خود شوید
-    title: "%{name}: «%{quote}»"
+        one: "%{count} vote"
+        other: "%{count} votes"
+      vote: Vote
+    show_more: Show more
+    show_newer: Show newer
+    show_older: Show older
+    show_thread: Show thread
+    sign_in_to_participate: Sign in to participate in the conversation
+    title: '%{name}: "%{quote}"'
     visibilities:
-      direct: مستقیم
-      private: خصوصی
-      private_long: تنها پیگیران شما می‌بینند
-      public: عمومی
-      public_long: همه می‌توانند ببینند
-      unlisted: فهرست نشده
-      unlisted_long: عمومی، ولی در فهرست نوشته‌ها نمایش نمی‌یابد
+      direct: Direct
+      private: Followers-only
+      private_long: Only show to followers
+      public: Public
+      public_long: Everyone can see
+      unlisted: Unlisted
+      unlisted_long: Everyone can see, but not listed on public timelines
   statuses_cleanup:
-    enabled: حذف خودکار فرسته‌های قدیمی
-    enabled_hint: فرسته‌هایتان را هنگام رسیدن به کرانهٔ سن خاصی به صورت خودکار حذف می‌کند، مگر این که با یکی از استثناهای زیر مطابق باشند
-    exceptions: استثناها
-    explanation: از آن‌جا که حذف فرسته‌ها، عملی پرهزینه است، این کار به آرامی در هنگام پرکار نبودن کارساز انجام می‌شود. به این خاطر، ممکن است فرسته‌هایتان مدّتی پس از رسیدن به آستانهٔ سن حذف شوند.
-    ignore_favs: چشم‌پوشی از برگزیده‌ها
-    ignore_reblogs: چشم‌پوشی از تقویت‌ها
-    interaction_exceptions: استثناها بر پایهٔ برهم‌کنش‌ها
-    interaction_exceptions_explanation: توجّه داشته باشید که ضمانتی بر حذف شدن فرسته‌هایی که پس از یک بار گذشتن زمان از آن‌ها، به زیر کرانهٔ برگزیدن یا تقویت می‌روند نیست.
-    keep_direct: نگه داشتن پیام‌های خصوصی
-    keep_direct_hint: هیچ یک از پیام‌های خصوصیتان را حذف نمی‌کند
-    keep_media: نگه داشتن فرسته‌ها با پیوست‌های رسانه‌ای
-    keep_media_hint: هیچ یک از فرسته‌هایتان که پیوست‌های رسانه‌ای داشته باشند را حذف نمی‌کند
-    keep_pinned: نگه داشتن فرسته‌های سنجاق شده
-    keep_pinned_hint: هیچ یک از فرسته‌های سنجاقش شده‌تان را حذف نمی‌کند
-    keep_polls: نگه داشتن نظرسنجی‌ها
-    keep_polls_hint: هیچ یک از نظرسنجی‌هایتان را حذف نمی‌کند
-    keep_self_bookmark: نگه داشتن فرسته‌هایی که نشانه‌گذاری کرده‌اید
-    keep_self_bookmark_hint: فرسته‌های خودتان را که نشانه‌گذاری کرده‌اید، حذف نمی‌کند
-    keep_self_fav: نگه داشتن فرستاده‌هایی که برگزیده‌اید
-    keep_self_fav_hint: فرسته‌های خودتان را که برگزیده‌اید، حذف نمی‌کند
+    enabled: Automatically delete old posts
+    enabled_hint: Automatically deletes your posts once they reach a specified age threshold, unless they match one of the exceptions below
+    exceptions: Exceptions
+    explanation: Because deleting posts is an expensive operation, this is done slowly over time when the server is not otherwise busy. For this reason, your posts may be deleted a while after they reach the age threshold.
+    ignore_favs: Ignore favourites
+    ignore_reblogs: Ignore boosts
+    interaction_exceptions: Exceptions based on interactions
+    interaction_exceptions_explanation: Note that there is no guarantee for posts to be deleted if they go below the favourite or boost threshold after having once gone over them.
+    keep_direct: Keep direct messages
+    keep_direct_hint: Doesn't delete any of your direct messages
+    keep_media: Keep posts with media attachments
+    keep_media_hint: Doesn't delete any of your posts that have media attachments
+    keep_pinned: Keep pinned posts
+    keep_pinned_hint: Doesn't delete any of your pinned posts
+    keep_polls: Keep polls
+    keep_polls_hint: Doesn't delete any of your polls
+    keep_self_bookmark: Keep posts you bookmarked
+    keep_self_bookmark_hint: Doesn't delete your own posts if you have bookmarked them
+    keep_self_fav: Keep posts you favourited
+    keep_self_fav_hint: Doesn't delete your own posts if you have favourited them
     min_age:
-      '1209600': ۲ هفته
-      '15778476': ۶ ماه
-      '2629746': ۱ ماه
-      '31556952': ۱ سال
-      '5259492': ۲ ماه
-      '604800': ۱ هفته
-      '63113904': ۲ سال
-      '7889238': ۳ ماه
-    min_age_label: کرانهٔ سن
-    min_favs: نگه داشتن فرسته‌هایی با برگزینش بیش از
-    min_favs_hint: هیچ یک از فرسته‌هایتان را که بیش از این تعداد برگزیده شده باشند، حذف نمی‌کند. برای حذف فرسته‌ها فارغ از تعداد برگزینش‌هایشان، خالی بگذارید
-    min_reblogs: نگه داشتن فرسته‌هایی با تقویت بیش از
-    min_reblogs_hint: هیچ یک از فرسته‌هایتان را که بیش از این تعداد تقویت شده باشند، حذف نمی‌کند. برای حذف فرسته‌ها فارغ از تعداد تقویت‌هایشان، خالی بگذارید
+      '1209600': 2 weeks
+      '15778476': 6 months
+      '2629746': 1 month
+      '31556952': 1 year
+      '5259492': 2 months
+      '604800': 1 week
+      '63113904': 2 years
+      '7889238': 3 months
+    min_age_label: Age threshold
+    min_favs: Keep posts favourited at least
+    min_favs_hint: Doesn't delete any of your posts that has received at least this number of favourites. Leave blank to delete posts regardless of their number of favourites
+    min_reblogs: Keep posts boosted at least
+    min_reblogs_hint: Doesn't delete any of your posts that has been boosted at least this number of times. Leave blank to delete posts regardless of their number of boosts
   stream_entries:
-    pinned: نوشته‌های ثابت
-    reblogged: تقویت شده
-    sensitive_content: محتوای حساس
+    pinned: Pinned post
+    reblogged: boosted
+    sensitive_content: Sensitive content
+  strikes:
+    errors:
+      too_late: It is too late to appeal this strike
   tags:
-    does_not_match_previous_name: با نام پیشین مطابق نیست
+    does_not_match_previous_name: does not match the previous name
   themes:
-    contrast: ماستودون (سایه‌روشن بالا)
-    default: ماستودون (تیره)
-    mastodon-light: ماستودون (روشن)
+    contrast: Mastodon (High contrast)
+    default: Mastodon (Dark)
+    mastodon-light: Mastodon (Light)
   time:
     formats:
-      default: "%d %b %Y, %H:%M"
+      default: "%b %d, %Y, %H:%M"
       month: "%b %Y"
-      time: "%OH:%OM"
+      time: "%H:%M"
   two_factor_authentication:
-    add: افزودن
-    disable: غیرفعال‌کردن
-    disabled_success: ورود دومرحله‌ای با موفقیت از کار افتاد
-    edit: ویرایش
-    enabled: ورود دومرحله‌ای فعال است
-    enabled_success: ورود دومرحله‌ای با موفقیت فعال شد
-    generate_recovery_codes: ساخت کدهای بازیابی
-    lost_recovery_codes: با کدهای بازیابی می‌توانید اگر تلفن خود را گم کردید به حساب خود دسترسی داشته باشید. اگر کدهای بازیابی خود را گم کردید، آن‌ها را این‌جا دوباره بسازید. کدهای بازیابی قبلی شما نامعتبر خواهند شد.
-    methods: روش‌های ورود دومرحله‌ای
-    otp: کارهٔ تأیید کننده
-    recovery_codes: پشتیبان‌گیری از کدهای بازیابی
-    recovery_codes_regenerated: کدهای بازیابی با موفقیت ساخته شدند
-    recovery_instructions_html: اگر تلفن خود را گم کردید، می‌توانید با یکی از کدهای بازیابی زیر کنترل حساب خود را به دست بگیرید. <strong>این کدها را در جای امنی نگه دارید.</strong> مثلاً آن‌ها را چاپ کنید و کنار سایر مدارک مهم خود قرار دهید.
-    webauthn: کلیدهای امنیتی
+    add: Add
+    disable: Disable 2FA
+    disabled_success: Two-factor authentication successfully disabled
+    edit: Edit
+    enabled: Two-factor authentication is enabled
+    enabled_success: Two-factor authentication successfully enabled
+    generate_recovery_codes: Generate recovery codes
+    lost_recovery_codes: Recovery codes allow you to regain access to your account if you lose your phone. If you've lost your recovery codes, you can regenerate them here. Your old recovery codes will be invalidated.
+    methods: Two-factor methods
+    otp: Authenticator app
+    recovery_codes: Backup recovery codes
+    recovery_codes_regenerated: Recovery codes successfully regenerated
+    recovery_instructions_html: If you ever lose access to your phone, you can use one of the recovery codes below to regain access to your account. <strong>Keep the recovery codes safe</strong>. For example, you may print them and store them with other important documents.
+    webauthn: Security keys
   user_mailer:
     appeal_approved:
-      action: به حساب خودتان بروید
-      explanation: درخواست تجدیدنظر اخطار علیه حساب شما در %{strike_date} که در %{appeal_date} ارسال کرده‌اید، پذیرفته شده است. حساب شما بار دیگر در وضعیت خوبی قرار دارد.
-      subject: درخواست تجدیدنظر شما در %{date} پذیرفته شد
-      title: درخواست تجدیدنظر پذیرفته شد
+      action: Go to your account
+      explanation: The appeal of the strike against your account on %{strike_date} that you submitted on %{appeal_date} has been approved. Your account is once again in good standing.
+      subject: Your appeal from %{date} has been approved
+      title: Appeal approved
     appeal_rejected:
-      explanation: درخواست تجدیدنظر اخطار علیه حساب شما در %{strike_date} که در %{appeal_date} ارسال کرده‌اید، رد شده است.
-      subject: درخواست تجدیدنظر شما در %{date} رد شده است
-      title: درخواست تجدیدنظر رد شد
+      explanation: The appeal of the strike against your account on %{strike_date} that you submitted on %{appeal_date} has been rejected.
+      subject: Your appeal from %{date} has been rejected
+      title: Appeal rejected
     backup_ready:
-      explanation: شما یک نسخهٔ پشتیبان کامل از حساب خود را درخواست کردید. این پشتیبان الان آمادهٔ بارگیری است!
-      subject: بایگانی شما آمادهٔ دریافت است
-      title: گرفتن بایگانی
+      explanation: You requested a full backup of your Mastodon account. It's now ready for download!
+      subject: Your archive is ready for download
+      title: Archive takeout
+    suspicious_sign_in:
+      change_password: change your password
+      details: 'Here are details of the sign-in:'
+      explanation: We've detected a sign-in to your account from a new IP address.
+      further_actions_html: If this wasn't you, we recommend that you %{action} immediately and enable two-factor authentication to keep your account secure.
+      subject: Your account has been accessed from a new IP address
+      title: A new sign-in
     warning:
-      appeal: فرستادن یک درخواست تجدیدنظر
-      appeal_description: اگر فکر می‌کنید این یک خطا است، می‌توانید یک درخواست تجدیدنظر به کارکنان %{instance} ارسال کنید.
+      appeal: Submit an appeal
+      appeal_description: If you believe this is an error, you can submit an appeal to the staff of %{instance}.
       categories:
-        spam: هرزنامه
-      reason: 'دلیل:'
+        spam: Spam
+        violation: Content violates the following community guidelines
+      explanation:
+        delete_statuses: Some of your posts have been found to violate one or more community guidelines and have been subsequently removed by the moderators of %{instance}.
+        disable: You can no longer use your account, but your profile and other data remains intact. You can request a backup of your data, change account settings or delete your account.
+        mark_statuses_as_sensitive: Some of your posts have been marked as sensitive by the moderators of %{instance}. This means that people will need to tap the media in the posts before a preview is displayed. You can mark media as sensitive yourself when posting in the future.
+        sensitive: From now on, all your uploaded media files will be marked as sensitive and hidden behind a click-through warning.
+        silence: You can still use your account but only people who are already following you will see your posts on this server, and you may be excluded from various discovery features. However, others may still manually follow you.
+        suspend: You can no longer use your account, and your profile and other data are no longer accessible. You can still login to request a backup of your data until the data is fully removed in about 30 days, but we will retain some basic data to prevent you from evading the suspension.
+      reason: 'Reason:'
+      statuses: 'Posts cited:'
       subject:
-        disable: حساب %{acct} شما متوقف شده است
-        none: هشدار برای %{acct}
-        silence: حساب %{acct} شما محدود شده است
-        suspend: حساب %{acct}  شما معلق شده است
+        delete_statuses: Your posts on %{acct} have been removed
+        disable: Your account %{acct} has been frozen
+        mark_statuses_as_sensitive: Your posts on %{acct} have been marked as sensitive
+        none: Warning for %{acct}
+        sensitive: Your posts on %{acct} will be marked as sensitive from now on
+        silence: Your account %{acct} has been limited
+        suspend: Your account %{acct} has been suspended
       title:
-        delete_statuses: فرسته‌ها برداشته شدند
-        disable: حساب متوقف شده است
-        none: هشدار
-        silence: حساب محدود شده است
-        suspend: حساب معلق شده است
+        delete_statuses: Posts removed
+        disable: Account frozen
+        mark_statuses_as_sensitive: Posts marked as sensitive
+        none: Warning
+        sensitive: Account marked as sensitive
+        silence: Account limited
+        suspend: Account suspended
     welcome:
-      edit_profile_action: تنظیم نمایه
-      explanation: نکته‌هایی که برای آغاز کار به شما کمک می‌کنند
-      final_action: چیزی منتشر کنید
-      full_handle: نام کاربری کامل شما
-      full_handle_hint: این چیزی است که باید به دوستانتان بگویید تا بتوانند از کارسازی دیگر به شما پیام داده یا پی‌گیرتان شوند.
-      subject: به ماستودون خوش آمدید
-      title: خوش آمدید، کاربر %{name}!
+      edit_profile_action: Setup profile
+      edit_profile_step: You can customize your profile by uploading a profile picture, changing your display name and more. You can opt-in to review new followers before they’re allowed to follow you.
+      explanation: Here are some tips to get you started
+      final_action: Start posting
+      final_step: 'Start posting! Even without followers, your public posts may be seen by others, for example on the local timeline or in hashtags. You may want to introduce yourself on the #introductions hashtag.'
+      full_handle: Your full handle
+      full_handle_hint: This is what you would tell your friends so they can message or follow you from another server.
+      subject: Welcome to Mastodon
+      title: Welcome aboard, %{name}!
   users:
-    follow_limit_reached: شما نمی‌توانید بیش از %{limit} نفر را پی بگیرید
-    invalid_otp_token: کد ورود دومرحله‌ای نامعتبر است
-    otp_lost_help_html: اگر شما دسترسی به هیچ‌کدامشان ندارید، باید با ایمیل %{email} تماس بگیرید
-    seamless_external_login: شما با یک سرویس خارج از مجموعه وارد شده‌اید، به همین دلیل تنظیمات ایمیل و رمز برای شما در دسترس نیست.
-    signed_in_as: 'واردشده به نام:'
+    follow_limit_reached: You cannot follow more than %{limit} people
+    invalid_otp_token: Invalid two-factor code
+    otp_lost_help_html: If you lost access to both, you may get in touch with %{email}
+    seamless_external_login: You are logged in via an external service, so password and e-mail settings are not available.
+    signed_in_as: 'Signed in as:'
   verification:
-    explanation_html: 'شما می‌توانید <strong>خود را به عنوان مالک صفحه‌ای که در نمایه‌تان به آن پیوند داده‌اید تأیید کنید.</strong> برای این کار، صفحه‌ای که به آن پیوند داده‌اید، خودش باید پیوندی به نمایهٔ ماستودون شما داشته باشد. پیوند در آن صفحه <strong>باید</strong> عبارت <code>rel="me"‎</code> را به عنوان مشخّصهٔ (attribute) در خود داشته باشد. محتوای متن پیوند اهمتی ندارد. یک نمونه از چنین پیوندی:'
-    verification: تأیید
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Mastodon profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
+    verification: Verification
   webauthn_credentials:
-    add: افزودن کلید امنیتی
+    add: Add new security key
     create:
-      error: افزودن کلید امنیتیتان با مشکل مواجه شد. لطفاً دوباره تلاش کنید.
-      success: کلید امنیتیتان با موفّقیت افزوده شد.
-    delete: حذف
-    delete_confirmation: مطمئنید که می‌خواهید این کلید امنیتی را حذف کنید؟
-    description_html: اگر <strong>احراز هویت کلید امنیتی</strong> را فعال کنید، ورود نیازمند این خواهد بود که یکی از کلیدهای امنیتی‌تان را استفاده کنید.
+      error: There was a problem adding your security key. Please try again.
+      success: Your security key was successfully added.
+    delete: Delete
+    delete_confirmation: Are you sure you want to delete this security key?
+    description_html: If you enable <strong>security key authentication</strong>, logging in will require you to use one of your security keys.
     destroy:
-      error: حذف کلید امنیتیتان با مشکل مواجه شد. لطفاً دوباره تلاش کنید.
-      success: کلید امنیتیتان با موفّقیت حذف شد.
-    invalid_credential: کلید امنیتی نامعتبر
-    nickname_hint: نام مستعار کلید امنیتی جدیدتان را وارد کنید
-    not_enabled: شما هنوز WebAuthn را فعال نکرده‌اید
-    not_supported: این مرورگر از کلیدهای امنیتی پشتیبانی نمی‌کند
-    otp_required: برای استفاده از کلیدهای امنیتی، لطفاً ابتدا تأیید هویت دو عاملی را به کار بیندازید.
-    registered_on: ثبت‌شده در %{date}
+      error: There was a problem deleting you security key. Please try again.
+      success: Your security key was successfully deleted.
+    invalid_credential: Invalid security key
+    nickname_hint: Enter the nickname of your new security key
+    not_enabled: You haven't enabled WebAuthn yet
+    not_supported: This browser doesn't support security keys
+    otp_required: To use security keys please enable two-factor authentication first.
+    registered_on: Registered on %{date}
