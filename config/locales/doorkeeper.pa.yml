@@ -1,5 +1,5 @@
 ---
-pa:
+pa-PK:
   activerecord:
     attributes:
       doorkeeper/application:
