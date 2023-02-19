@@ -1,5 +1,5 @@
 ---
-ks:
+ks-PK:
   activerecord:
     attributes:
       doorkeeper/application:
