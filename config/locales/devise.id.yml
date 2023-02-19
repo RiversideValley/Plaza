@@ -2,113 +2,113 @@
 id:
   devise:
     confirmations:
-      confirmed: Alamat email anda berhasil dikonfirmasi.
-      send_instructions: Anda akan menerima email berisi instruksi untuk mengkonfirmasi alamat email anda dalam beberapa menit.
-      send_paranoid_instructions: Jika email anda sudah ada dalam database kami, Anda akan menerima email berisi instruksi untuk mengkonfirmasi alamat email anda dalam beberapa menit.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: Anda sudak masuk.
-      inactive: Akun anda masih belum diaktifkan.
-      invalid: Ada %{authentication_keys} atau kata sandi yang tidak cocok.
-      last_attempt: Anda memiliki beberapa kali mencoba sebelum akun anda dikunci.
-      locked: Akun anda dikunci.
-      not_found_in_database: Ada %{authentication_keys} atau kata sandi yang tidak cocok.
-      pending: Akun Anda masih dalam peninjauan.
-      timeout: Sesi anda telah berakhir. Silahkan coba masuk lagi.
-      unauthenticated: Anda harus masuk atau mendaftar terlebih dahulu.
-      unconfirmed: Anda harus mengkonfirmasi alamat email terlebih dahulu.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Verifikasi alamat email
-        action_with_app: Konfirmasi dan kembali ke %{app}
-        explanation: Anda membuat akun di %{host} dengan email ini. Anda hanya perlu satu klik untuk mengaktifkannya. Jika ini bukan Anda, abaikan email ini.
-        explanation_when_pending: Anda melamar undangan ke %{host} dengan email ini. Saat Anda mengonfirmasi alamat email Anda, kami akan meninjaunya. Anda dapat masuk untuk mengubah detail Anda atau menghapus akun Anda, tapi Anda tak dapat mengakses mayoritas fungsi sampai akun disetujui. Jika lamaran Anda ditolak, data Anda akan dihapus, jadi Anda tak perlu melakukan apa-apa. Jika ini bukan Anda, abaikan email ini.
-        extra_html: Tolong cek juga <a href="%{terms_path}">peraturan server</a> dan <a href="%{policy_path}">ketentuan layanan kami</a>.
-        subject: 'Mastodon: Petunjuk mengkonfirmasi untuk %{instance}'
-        title: Verifikasi alamat email
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'Alamat email akun Anda diubah menjadi:'
-        extra: Jika Anda tak mengganti email Anda, mungkin seseorang telah mendapatkan akses ke akun Anda. Mohon ubah kata sandi secepatnya atau hubungi admin server jika akun Anda terkunci.
-        subject: 'Mastodon: Email diganti'
-        title: Alamat email baru
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
+        title: New email address
       password_change:
-        explanation: Kata sandi akun Anda telah diganti.
-        extra: Jika Anda tak mengubah kata sandi Anda, mungkin seseorang telah mendapatkan akses ke akun Anda. Mohon ubah kata sandi secepatnya atau hubungi admin server jika Anda dikunci dari akun Anda.
-        subject: 'Mastodon: Kata sandi telah diubah'
-        title: Kata sandi diubah
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: Konfirmasi alamat baru untuk mengubah email Anda.
-        extra: Jika perubahan ini tidak dimulai dari Anda, abaikan email ini. Alamat email untuk akun Mastodon tak berubah sampai Anda mengakses tautan di atas.
-        subject: 'Mastodon: Konfirmasi email untuk %{instance}'
-        title: Verifikasi alamat email
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: Ubah kata sandi
-        explanation: Kata sandi baru yang diminta untuk akun Anda.
-        extra: Jika Anda tak meminta ini, abaikan email ini. Kata sandi tak berubah sampai Anda mengakses tautan di atas dan membuatnya yang baru.
-        subject: 'Mastodon: Petunjuk mereset kata sandi'
-        title: Reset kata sandi
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: Otentifikasi dua-faktor untuk akun Anda dimatikan. Kini Masuk dapat dilakukan hanya dengan alamat email dan kata sandi.
-        subject: 'Mastodon: Otentifikasi dua-faktor dimatikan'
-        title: 2FA dimatikan
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: Otentifikasi dua-faktor telah dimatikan untuk Akun Anda. Token yang dibuat menggunakan aplikasi TOTP berpasangan akan diperlukan untuk masuk.
-        subject: 'Mastodon: Otentifikasi dua-faktor diaktifkan'
-        title: 2FA diaktifkan
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: Kode pemulihan sebelumnya telah dibatalkan dan yang baru telah dibuat.
-        subject: 'Mastodon: Kode pemulihan dua-faktor dibuat ulang'
-        title: Kode pemulihan 2FA diubah
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'Mastodon: Petunjuk membuka'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: Kunci keamanan berikut telah ditambahkan ke akun Anda
-          subject: 'Mastodon: Kunci keamanan baru'
-          title: Kunci keamanan baru telah ditambahkan
+          explanation: The following security key has been added to your account
+          subject: 'Mastodon: New security key'
+          title: A new security key has been added
         deleted:
-          explanation: Kunci keamanan berikut telah dihapus dari akun Anda
-          subject: 'Mastodon: Kunci keamanan dihapus'
-          title: Salah satu dari kunci keamanan Anda telah dihapus
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: Autentikasi dengan kunci keamanan telah dinonaktifkan untuk akun ini. Proses masuk akun hanya mungkin menggunakan token yang dibuat dengan aplikasi TOTP.
-        subject: 'Mastodon: Autentikasi dengan kunci keamanan dinoaktifkan'
-        title: Kunci keamanan dinonaktifkan
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: Autentikasi kunci keamanan telah diaktifkan untuk akun Anda. Kunci keamanan Anda kini dapat dipakai untuk masuk.
-        subject: 'Mastodon: Autentikasi kunci keamanan aktif'
-        title: Kunci keamanan aktif
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: Tidak dapat mengautentikasi anda dari %{kind} karena "%{reason}".
-      success: Autentikasi dari akun %{kind} berhasil dilakukan.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: Anda tidak dapat mengakses halaman ini jika tidak berasal dari email berisi reset kata sandi. Jika anda datang dari email berisi reset kata sandi, mohon masukkan URL selengkapnya.
-      send_instructions: Jika alamat email anda telah ada dalam database kami, anda akan menerima sebuah link pemulihan kata sandi pada alamat email anda dalam beberapa menit.
-      send_paranoid_instructions: Jika alamat email anda telah ada dalam database kami, anda akan menerima sebuah link pemulihan kata sandi pada alamat email anda dalam beberapa menit.
-      updated: Kata sandi anda berhasil diubah. Anda telah masuk sekarang.
-      updated_not_active: Kata sandi anda berhasil diubah.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: Selamat tinggal! Akun anda berhasil dibatalkan. Kami harap berjumpa lagi dengan anda dilain waktu.
-      signed_up: Selamat datang! Pendaftaran anda berhasil.
-      signed_up_but_inactive: Anda berhasil melakukan pendaftaran. Tetapi kami tidak dapat memasukkan anda karena akun anda belum diaktifkan.
-      signed_up_but_locked: Anda berhasil melakukan pendaftaran. Tetapi kami tidak dapat memasukkan anda karena akun anda dikunci.
-      signed_up_but_pending: Pesan dengan tautan konfirmasi telah dikirim ke alamat email Anda. Setelah Anda mengklik tautan, kami akan meninjau lamaran Anda. Anda akan diberitahu jika diterima.
-      signed_up_but_unconfirmed: Sebuah pesan berisi link konfirmasi telah dikirim ke alamat email anda. Silakan ikuti link tersebut untuk mengaktifkan akun anda.
-      update_needs_confirmation: Akun anda telah berhasil diubah, tetapi kami harus memverifikasi alamat email anda yang baru. Mohon cek email anda dan ikuti link untuk mengkonfirmasi alamat email anda yang baru.
-      updated: Akun anda berhasil diubah.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: Berhasil logout.
-      signed_in: Berhasil masuk.
-      signed_out: Berhasil keluar.
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: Anda akan menerima sebuah email berisi petunjuk bagaimana cara membuka akun anda dalam beberapa menit.
-      send_paranoid_instructions: Jika akun anda telah terdaftar, anda akan menerima email berisi petunjuk cara membuka akun anda dalam beberapa menit.
-      unlocked: Akun anda berhasil dibuka. Silakan masuk untuk melanjutkan.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: sudah dikonfirmasikan, silakan coba masuk
-      confirmation_period_expired: harus dikonfirmasi dalam %{period}, silakan buat permintaan baru
-      expired: sudah kadaluarsa, silakan buat permintaan baru
-      not_found: tidak ditemukan
-      not_locked: tidak dikunci
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        other: "%{count} error yang membuat %{resource} ini tidak dapat disimpan:"
+        other: "%{count} errors prohibited this %{resource} from being saved:"
