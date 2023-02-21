@@ -1,5 +1,5 @@
 ---
-wa:
+wa-BE:
   activerecord:
     attributes:
       poll:
