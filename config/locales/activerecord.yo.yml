@@ -1,5 +1,5 @@
 ---
-yo:
+yo-NG:
   activerecord:
     attributes:
       poll:
