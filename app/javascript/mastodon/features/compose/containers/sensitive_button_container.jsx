@@ -53,7 +53,6 @@ class SensitiveButton extends React.PureComponent {
             onChange={onClick}
             disabled={disabled}
           />
-
           <FormattedMessage
             id='compose_form.sensitive.hide'
             defaultMessage='{count, plural, one {Mark media as sensitive} other {Mark media as sensitive}}'

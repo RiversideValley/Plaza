@@ -3,53 +3,53 @@ id:
   activerecord:
     attributes:
       poll:
-        expires_at: Tenggat waktu
-        options: Pilihan
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Persetujuan layanan
-        email: Alamat email
+        agreement: Service agreement
+        email: E-mail address
         locale: Locale
-        password: Kata sandi
+        password: Password
       user/account:
-        username: Nama pengguna
+        username: Username
       user/invite_request:
-        text: Alasan
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: hanya boleh berisi huruf, angka, dan garis bawah
-              reserved: sudah dipesan
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: bukan URL valid
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: bukan URL valid
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: dalam bentuk yang salah
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: status sudah ada
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: menggunakan layanan email yang tidak diizinkan
-              unreachable: sepertinya tidak ada
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: tidak dapat lebih tinggi dari peran Anda saat ini
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: berisi izin yang tidak aman untuk peran dasaran
-              elevated: tidak dapat berisi izin yang peran Anda tidak miliki
-              own_role: tidak dapat diubah dengan peran Anda saat ini
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: tidak bisa lebih tinggi dari peran Anda saat ini
-              own_role: tidak dapat diubah dengan peran Anda saat ini
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
