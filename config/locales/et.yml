@@ -1,1442 +1,1454 @@
 ---
 et:
   about:
-    about_mastodon_html: 'Tuleviku sotsiaalvõrgustik: Reklaamivaba, korporatiivse järelvalveta, eetiline kujundus ning detsentraliseeritus! Oma enda andmeid Mastodonis!'
-    contact_missing: Määramata
-    contact_unavailable: Pole saadaval
-    hosted_on: Mastodon majutatud %{domain}-is
-    title: Teave
+    about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon!'
+    contact_missing: Not set
+    contact_unavailable: N/A
+    hosted_on: Mastodon hosted on %{domain}
+    title: About
   accounts:
-    follow: Jälgi
+    follow: Follow
     followers:
-      one: Jälgija
-      other: Jälgijaid
-    following: Jälgib
-    instance_actor_flash: See on serveri enda virtuaalne konto. See ei esinda ühtegi kindlat kasutajat, vaid seda kasutatakse födereerumisel. Seda kontot ei tohi kustutada.
-    last_active: viimati aktiivne
-    link_verified_on: Selle lingi autorsust kontrolliti %{date}
-    nothing_here: Siin pole midagi!
+      one: Follower
+      other: Followers
+    following: Following
+    instance_actor_flash: This account is a virtual actor used to represent the server itself and not any individual user. It is used for federation purposes and should not be suspended.
+    last_active: last active
+    link_verified_on: Ownership of this link was checked on %{date}
+    nothing_here: There is nothing here!
     pin_errors:
-      following: Pead olema juba selle kasutaja jälgija, keda soovitad
+      following: You must be already following the person you want to endorse
     posts:
-      one: Postitus
-      other: Postitused
-    posts_tab_heading: Postitused
+      one: Post
+      other: Posts
+    posts_tab_heading: Posts
   admin:
     account_actions:
-      action: Täida tegevus
-      title: Rakenda moderaatori tegevus kasutajale %{acct}
+      action: Perform action
+      title: Perform moderation action on %{acct}
     account_moderation_notes:
-      create: Jäta teade
-      created_msg: Modereerimisteade edukalt koostatud!
-      destroyed_msg: Modereerimisteade edukalt kustutatud!
+      create: Leave note
+      created_msg: Moderation note successfully created!
+      destroyed_msg: Moderation note successfully destroyed!
     accounts:
-      add_email_domain_block: Keela e-posti domeen
-      approve: Võta vastu
-      approved_msg: Kasutaja %{username} liitumisavaldus rahuldatud
-      are_you_sure: Oled kindel?
-      avatar: Profiilipilt
-      by_domain: Domeen
+      add_email_domain_block: Block e-mail domain
+      approve: Approve
+      approved_msg: Successfully approved %{username}'s sign-up application
+      are_you_sure: Are you sure?
+      avatar: Avatar
+      by_domain: Domain
       change_email:
-        changed_msg: E-postiaadress vahetatud!
-        current_email: Praegune e-postiaadress
-        label: Muuda e-posti aadressi
-        new_email: Uus е-posti aadress
-        submit: Muuda e-posti aadressi
-        title: Muuda e-postiaadressi kasutajale %{username}
+        changed_msg: Email successfully changed!
+        current_email: Current email
+        label: Change email
+        new_email: New email
+        submit: Change email
+        title: Change email for %{username}
       change_role:
-        changed_msg: Roll on muudetud!
-        label: Muuda rolli
-        no_role: Roll puudub
-        title: "%{username} rolli muutmine"
-      confirm: Kinnita
-      confirmed: Kinnitatud
-      confirming: Kinnitamisel
-      custom: Kohandatud
-      delete: Kustuta andmed
-      deleted: Kustutatud
-      demote: Alanda
-      destroyed_msg: "%{username} andmed on nüüd lõpliku kustutamise ootel"
-      disable: Lukusta
-      disable_sign_in_token_auth: Keela e-posti võtmetega autentimine
-      disable_two_factor_authentication: Keela 2FA
-      disabled: Keelatud
-      display_name: Kuvanimi
-      domain: Domeen
-      edit: Muuda
-      email: E-post
-      email_status: E-posti olek
-      enable: Luba
-      enable_sign_in_token_auth: Luba e-posti võtmetega autentimine
-      enabled: Lubatud
-      enabled_msg: Kasutaja %{username} konto taastatud
-      followers: Jälgijad
-      follows: Jälgib
-      header: Päis
-      inbox_url: Sisendkausta URL
-      invite_request_text: Põhjendused liitumiseks
-      invited_by: Kutsuja
+        changed_msg: Role successfully changed!
+        label: Change role
+        no_role: No role
+        title: Change role for %{username}
+      confirm: Confirm
+      confirmed: Confirmed
+      confirming: Confirming
+      custom: Custom
+      delete: Delete data
+      deleted: Deleted
+      demote: Demote
+      destroyed_msg: "%{username}'s data is now queued to be deleted imminently"
+      disable: Freeze
+      disable_sign_in_token_auth: Disable e-mail token authentication
+      disable_two_factor_authentication: Disable 2FA
+      disabled: Frozen
+      display_name: Display name
+      domain: Domain
+      edit: Edit
+      email: Email
+      email_status: Email status
+      enable: Unfreeze
+      enable_sign_in_token_auth: Enable e-mail token authentication
+      enabled: Enabled
+      enabled_msg: Successfully unfroze %{username}'s account
+      followers: Followers
+      follows: Follows
+      header: Header
+      inbox_url: Inbox URL
+      invite_request_text: Reasons for joining
+      invited_by: Invited by
       ip: IP
-      joined: Liitus
+      joined: Joined
       location:
-        all: Kõik
-        local: Kohalik
-        remote: Kaug
-        title: Asukoht
-      login_status: Sisselogimise olek
-      media_attachments: Lisatud meedia
-      memorialize: Igaveseks lahkunud
-      memorialized: Igaveselt lahkunuks märgitud
-      memorialized_msg: "%{username} on märgitud igavaselt lahkunuks"
+        all: All
+        local: Local
+        remote: Remote
+        title: Location
+      login_status: Login status
+      media_attachments: Media attachments
+      memorialize: Turn into memoriam
+      memorialized: Memorialized
+      memorialized_msg: Successfully turned %{username} into a memorial account
       moderation:
-        active: Aktiivne
-        all: Kõik
-        pending: Ootel
-        silenced: Vaigistatud
-        suspended: Kustutatud
-        title: Modereerimine
-      moderation_notes: Modereerimisteated
-      most_recent_activity: Viimatine aktiivsus
-      most_recent_ip: Viimatine IP
-      no_account_selected: Ühtegi kontot ei muudetud, sest midagi polnud valitud
-      no_limits_imposed: Pole kehtestatud ühtegi piirangut
-      no_role_assigned: Ühtegi rolli pole määratud
-      not_subscribed: Ei ole tellitud
-      pending: Ootab ülevaatamist
-      perform_full_suspension: Kustuta
-      previous_strikes: Eelnevad juhtumid
+        active: Active
+        all: All
+        disabled: Disabled
+        pending: Pending
+        silenced: Limited
+        suspended: Suspended
+        title: Moderation
+      moderation_notes: Moderation notes
+      most_recent_activity: Most recent activity
+      most_recent_ip: Most recent IP
+      no_account_selected: No accounts were changed as none were selected
+      no_limits_imposed: No limits imposed
+      no_role_assigned: No role assigned
+      not_subscribed: Not subscribed
+      pending: Pending review
+      perform_full_suspension: Suspend
+      previous_strikes: Previous strikes
       previous_strikes_description_html:
-        one: Sel kontol on <strong>üks</strong> juhtum.
-        other: Sel kontol on <strong>%{count}</strong> juhtumit.
-      promote: Edenda
-      protocol: Protokoll
-      public: Avalik
-      push_subscription_expires: PuSH tellimus aegub
-      redownload: Värskenda profiili
-      redownloaded_msg: "%{username} kasutajakonto algallikast värskendatud"
-      reject: Hülga
-      rejected_msg: "%{username} liitumisavaldus tagasi lükatud"
-      remote_suspension_irreversible: Selle konto andmed on pöördumatult kustutatud.
-      remote_suspension_reversible_hint_html: Konto on lukustatud ja andmed kustutatakse jäädavalt %{date}. Seni võib teine server konto probleemideta taastada. Kui soovid andmied kohe jäädavalt eemaldada, võid seda teha allpool.
-      remove_avatar: Kustuta profiilipilt
-      remove_header: Kustuta päis
-      removed_avatar_msg: "%{username} tunnuspilt eemaldatud"
-      removed_header_msg: "%{username} päisepilt eemaldatud"
+        one: This account has <strong>one</strong> strike.
+        other: This account has <strong>%{count}</strong> strikes.
+      promote: Promote
+      protocol: Protocol
+      public: Public
+      push_subscription_expires: PuSH subscription expires
+      redownload: Refresh profile
+      redownloaded_msg: Successfully refreshed %{username}'s profile from origin
+      reject: Reject
+      rejected_msg: Successfully rejected %{username}'s sign-up application
+      remote_suspension_irreversible: The data of this account has been irreversibly deleted.
+      remote_suspension_reversible_hint_html: The account has been suspended on their server, and the data will be fully removed on %{date}. Until then, the remote server can restore this account without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
+      remove_avatar: Remove avatar
+      remove_header: Remove header
+      removed_avatar_msg: Successfully removed %{username}'s avatar image
+      removed_header_msg: Successfully removed %{username}'s header image
       resend_confirmation:
-        already_confirmed: See kasutaja on juba kinnitatud
-        send: Saada kinnituskiri uuesti
-        success: Kinnituskiri saadetud edukalt!
-      reset: Lähtesta
-      reset_password: Salasõna lähtestamine
-      resubscribe: Telli taas
-      role: Roll
-      search: Otsi
-      search_same_email_domain: Muud kasutajad sama e-posti domeeniga
-      search_same_ip: Teised kasutajad, kellel on sama IP
+        already_confirmed: This user is already confirmed
+        send: Resend confirmation email
+        success: Confirmation email successfully sent!
+      reset: Reset
+      reset_password: Reset password
+      resubscribe: Resubscribe
+      role: Role
+      search: Search
+      search_same_email_domain: Other users with the same e-mail domain
+      search_same_ip: Other users with the same IP
+      security: Security
       security_measures:
-        only_password: Ainult salasõna
-        password_and_2fa: Salasõna ja 2-etapine autentimine (2FA)
-      sensitive: Tundlik sisu
-      sensitized: Märgitud kui tundlik sisu
-      shared_inbox_url: Jagatud sisendkausta URL
+        only_password: Only password
+        password_and_2fa: Password and 2FA
+      sensitive: Force-sensitive
+      sensitized: Marked as sensitive
+      shared_inbox_url: Shared inbox URL
       show:
-        created_reports: Loodud teated
-        targeted_reports: Teavitusi teiste poolt
-      silence: Vaigista
-      silenced: Vaigistatud
-      statuses: Postitused
-      strikes: Eelnevad juhtumid
-      subscribe: Telli
-      suspend: Kustuta
-      suspended: Kustuta
-      suspension_irreversible: Selle konto andmed on taastamatult kustutatud. Konto taastamisel on see taas kasutatav, aga eelmisi andmeid pole võimalik taastada.
-      suspension_reversible_hint_html: Konto on lukustatud ja andmed kustutatakse täielikult %{date}. Seni on võimalik kontot täielikult taastada. Soovi korral on võimalik allpool kõik konto andmed kustutada koheselt.
-      title: Kontod
-      unblock_email: Luba e-postiaadress
-      unblocked_email_msg: Kasutaja %{username} e-postiaadress lubatud
-      unconfirmed_email: Kinnitamata e-post
-      undo_sensitized: Eemalda tundliku sisu märge
-      undo_silenced: Võta vaigistus tagasi
-      undo_suspension: Võta kustutamine tagasi
-      unsilenced_msg: Konto %{username} piirangud emaldatud
-      unsubscribe: Tühista tellimus
-      unsuspended_msg: Kasutaja %{username} konto taastatud
-      username: Kasutajanimi
-      view_domain: Vaata domeeni kokkuvõtet
-      warn: Hoiata
-      web: Veeb
-      whitelisted: Lubatud
+        created_reports: Made reports
+        targeted_reports: Reported by others
+      silence: Limit
+      silenced: Limited
+      statuses: Posts
+      strikes: Previous strikes
+      subscribe: Subscribe
+      suspend: Suspend
+      suspended: Suspended
+      suspension_irreversible: The data of this account has been irreversibly deleted. You can unsuspend the account to make it usable but it will not recover any data it previously had.
+      suspension_reversible_hint_html: The account has been suspended, and the data will be fully removed on %{date}. Until then, the account can be restored without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
+      title: Accounts
+      unblock_email: Unblock email address
+      unblocked_email_msg: Successfully unblocked %{username}'s email address
+      unconfirmed_email: Unconfirmed email
+      undo_sensitized: Undo force-sensitive
+      undo_silenced: Undo limit
+      undo_suspension: Undo suspension
+      unsilenced_msg: Successfully undid limit of %{username}'s account
+      unsubscribe: Unsubscribe
+      unsuspended_msg: Successfully unsuspended %{username}'s account
+      username: Username
+      view_domain: View summary for domain
+      warn: Warn
+      web: Web
+      whitelisted: Allowed for federation
     action_logs:
       action_types:
-        approve_appeal: Rahulda vaidlustus
-        approve_user: Kinnita kasutaja
-        assigned_to_self_report: Määras Teavituse
-        change_email_user: Kasutaja muutis e-postiaadressi
-        change_role_user: Muuda kasutaja rolli
-        confirm_user: Kasutaja kinnitatud
-        create_account_warning: Lisas hoiatuse
-        create_announcement: Lisas teadaande
-        create_canonical_email_block: E-posti blokeeringu lisamine
-        create_custom_emoji: Lisas kohandatud emotikoni
-        create_domain_allow: Lisas lubatud domeeni
-        create_domain_block: Domeeni blokeerimine
-        create_email_domain_block: E-postidomeeni blokeerimine
-        create_ip_block: IP-reegli lisamine
-        create_unavailable_domain: Kättesaamatu domeeni lisamine
-        create_user_role: Loo roll
-        demote_user: Alandas kasutaja
-        destroy_announcement: Eemaldas teadaande
-        destroy_canonical_email_block: E-posti blokeeringu kustutamine
-        destroy_custom_emoji: Eemaldas kohandatud emotikoni
-        destroy_domain_allow: Eemaldas lubatud domeeni
-        destroy_domain_block: Domeeniblokeeringu eemaldamine
-        destroy_email_domain_block: E-postidomeeni blokeeringu eemaldamine
-        destroy_instance: Domeeni kustutamine
-        destroy_ip_block: IP-reegli kustutamine
-        destroy_status: Kustuta postitus
-        destroy_unavailable_domain: Kättesaamatu domeeni kustutamine
-        destroy_user_role: Rolli kustutamine
-        disable_2fa_user: Keela 2FA
-        disable_custom_emoji: Keelas kohandatud emotikoni
-        disable_sign_in_token_auth_user: E-posti võtmega autentimise keelamine
-        disable_user: Keelas kasutaja
-        enable_custom_emoji: Lubas kohandatud emotikoni
-        enable_sign_in_token_auth_user: E-posti võtmega autentimise lubamine
-        enable_user: Lubas kasutaja
-        memorialize_account: Igaveselt lahkunuks märkimine
-        promote_user: Edendas kasutaja
-        reject_appeal: Lükka vaidlustus tagasi
-        reject_user: Kasutaja tagasilükkamine
-        remove_avatar_user: Kustutas profiilipildi
-        reopen_report: Taasavas teavituse
-        resend_user: Saada kinnituskiri uuesti
-        reset_password_user: Salasõna lähtestamine
-        resolve_report: Lahendas teadaande
-        sensitive_account: Tundliku sisuga konto
-        silence_account: Vaigistas konto
-        suspend_account: Konto kustutamine
-        unassigned_report: Määras teavituse maha
-        unblock_email_account: Luba e-postiaadress
-        unsensitive_account: Pole tundliku sisuga konto
-        unsilence_account: Konto vaigistus eemaldati
-        unsuspend_account: Konto taastamine
-        update_announcement: Uuenda teadaannet
-        update_custom_emoji: Uuendas kohandatud emotikoni
-        update_domain_block: Uuenda domeenipiirangut
-        update_ip_block: IP-reegli uuendamine
-        update_status: Uuenda postitust
-        update_user_role: Uuenda rolli
+        approve_appeal: Approve Appeal
+        approve_user: Approve User
+        assigned_to_self_report: Assign Report
+        change_email_user: Change E-mail for User
+        change_role_user: Change Role of User
+        confirm_user: Confirm User
+        create_account_warning: Create Warning
+        create_announcement: Create Announcement
+        create_canonical_email_block: Create E-mail Block
+        create_custom_emoji: Create Custom Emoji
+        create_domain_allow: Create Domain Allow
+        create_domain_block: Create Domain Block
+        create_email_domain_block: Create E-mail Domain Block
+        create_ip_block: Create IP rule
+        create_unavailable_domain: Create Unavailable Domain
+        create_user_role: Create Role
+        demote_user: Demote User
+        destroy_announcement: Delete Announcement
+        destroy_canonical_email_block: Delete E-mail Block
+        destroy_custom_emoji: Delete Custom Emoji
+        destroy_domain_allow: Delete Domain Allow
+        destroy_domain_block: Delete Domain Block
+        destroy_email_domain_block: Delete E-mail Domain Block
+        destroy_instance: Purge Domain
+        destroy_ip_block: Delete IP rule
+        destroy_status: Delete Post
+        destroy_unavailable_domain: Delete Unavailable Domain
+        destroy_user_role: Destroy Role
+        disable_2fa_user: Disable 2FA
+        disable_custom_emoji: Disable Custom Emoji
+        disable_sign_in_token_auth_user: Disable E-mail Token Authentication for User
+        disable_user: Disable User
+        enable_custom_emoji: Enable Custom Emoji
+        enable_sign_in_token_auth_user: Enable E-mail Token Authentication for User
+        enable_user: Enable User
+        memorialize_account: Memorialize Account
+        promote_user: Promote User
+        reject_appeal: Reject Appeal
+        reject_user: Reject User
+        remove_avatar_user: Remove Avatar
+        reopen_report: Reopen Report
+        resend_user: Resend Confirmation Mail
+        reset_password_user: Reset Password
+        resolve_report: Resolve Report
+        sensitive_account: Force-Sensitive Account
+        silence_account: Limit Account
+        suspend_account: Suspend Account
+        unassigned_report: Unassign Report
+        unblock_email_account: Unblock email address
+        unsensitive_account: Undo Force-Sensitive Account
+        unsilence_account: Undo Limit Account
+        unsuspend_account: Unsuspend Account
+        update_announcement: Update Announcement
+        update_custom_emoji: Update Custom Emoji
+        update_domain_block: Update Domain Block
+        update_ip_block: Update IP rule
+        update_status: Update Post
+        update_user_role: Update Role
       actions:
-        approve_appeal_html: "%{name} kiitis heaks modereerimise otsuse vaidlustuse %{target} poolt"
-        approve_user_html: "%{name} kiitis heaks registreerimise %{target} poolt"
-        assigned_to_self_report_html: "%{name} määras raporti %{target} endale"
-        change_email_user_html: "%{name} muutis %{target} e-postiaadressi"
-        change_role_user_html: "%{name} muutis %{target} rolli"
-        confirm_user_html: "%{name} on %{target} e-postiaadressi kinnitanud"
-        create_account_warning_html: "%{name} saatis %{target} hoiatuse"
-        create_announcement_html: "%{name} lõi uue teate %{target}"
-        create_canonical_email_block_html: "%{name} keelas e-postiaadressi räsiga %{target}"
-        create_custom_emoji_html: "%{name} laadis üles uue emotikoni %{target}"
-        create_domain_allow_html: "%{name} lubas föderatsiooni domeeniga %{target}"
-        create_domain_block_html: "%{name} keelas domeeni %{target}"
-        create_email_domain_block_html: "%{name} keelas e-posti domeeni %{target}"
-        create_ip_block_html: "%{name} lõi IP-aadressile %{target} reegli"
-        create_unavailable_domain_html: "%{name} lõpetas edastamise domeeni %{target}"
-        create_user_role_html: "%{name} lõi rolli %{target}"
-        demote_user_html: "%{name} alandas kasutajat %{target}"
-        destroy_announcement_html: "%{name} kustutas teadaande %{target}"
-        destroy_canonical_email_block_html: "%{name} lubas e-postiaaadressi räsiga %{target}"
-        destroy_custom_emoji_html: "%{name} kustutas emotikoni %{target}"
-        destroy_domain_allow_html: "%{name} keelas föderatsiooni domeeniga %{target}"
-        destroy_domain_block_html: "%{name} lubas domeeni %{target}"
-        destroy_email_domain_block_html: "%{name} lubas e-posti domeeni %{target}"
-        destroy_instance_html: "%{name} kustutas domeeni %{target}"
-        destroy_ip_block_html: "%{name} kustutas IP-aadressi %{target} reegli"
-        destroy_status_html: "%{name} kustutas %{target} postituse"
-        destroy_unavailable_domain_html: "%{name} taastas edastamise domeeni %{target}"
-        destroy_user_role_html: "%{name} kustutas %{target} rolli"
-        disable_2fa_user_html: "%{name} eemaldas kasutaja %{target} kahe etapise nõude"
-        disable_custom_emoji_html: "%{name} keelas emotikooni %{target}"
-        disable_sign_in_token_auth_user_html: "%{name} keelas kasutajal %{target} e-posti võtmega autentida"
-        disable_user_html: "%{name} keelas %{target} sisenemise"
-        enable_custom_emoji_html: "%{name} lubas emotikooni %{target}"
-        enable_sign_in_token_auth_user_html: "%{name} lubas kasutajal %{target} e-posti võtmega autentida"
-        enable_user_html: "%{name} lubas %{target} sisenemise"
-        memorialize_account_html: "%{name} märkis %{target} igaveselt lahkunuks"
-        promote_user_html: "%{name} ülendas kasutajat %{target}"
-        reject_appeal_html: "%{name} lükkas %{target} modereerimisotsuse kaebuse tagasi"
-        reject_user_html: "%{name} lükkas %{target} liitumissoovi tagasi"
-        remove_avatar_user_html: "%{name} eemaldas %{target} avatari"
-        reopen_report_html: "%{name} taasavas raporti %{target}"
-        resend_user_html: "%{name} saatis %{target} e-postiaadressi kinnituskirja"
-        reset_password_user_html: "%{name} lähtestas %{target} salasõna"
-        resolve_report_html: "%{name} lahendas raporti %{target}"
-        sensitive_account_html: "%{name} märkis %{target} meedia kui tundlik sisu"
-        silence_account_html: "%{name} piiras %{target} konto"
-        suspend_account_html: "%{name} kustutas %{target} konto"
-        unassigned_report_html: "%{name} tühistas raporti %{target} määrangu"
-        unblock_email_account_html: "%{name} lubas %{target} e-postiaadressi"
-        unsensitive_account_html: "%{name} eemaldas %{target} meedia tundliku sisu märke"
-        unsilence_account_html: "%{name} eemaldas %{target} konto piirangu"
-        unsuspend_account_html: "%{name} taastas %{target} konto"
-        update_announcement_html: "%{name} uuendas teadaannet %{target}"
-        update_custom_emoji_html: "%{name} uuendas emotikoni %{target}"
-        update_domain_block_html: "%{name} uuendas domeeni %{target} keeldu"
-        update_ip_block_html: "%{name} muutis IP-aadressi %{target} reeglit"
-        update_status_html: "%{name} muutis %{target} postitust"
-        update_user_role_html: "%{name} muutis %{target} rolli"
-      deleted_account: kustutatud konto
-      empty: Logisi ei leitud.
-      filter_by_action: Filtreeri tegevuse järgi
-      filter_by_user: Filtreeri kasutaja järgi
-      title: Auditilogi
+        approve_appeal_html: "%{name} approved moderation decision appeal from %{target}"
+        approve_user_html: "%{name} approved sign-up from %{target}"
+        assigned_to_self_report_html: "%{name} assigned report %{target} to themselves"
+        change_email_user_html: "%{name} changed the e-mail address of user %{target}"
+        change_role_user_html: "%{name} changed role of %{target}"
+        confirm_user_html: "%{name} confirmed e-mail address of user %{target}"
+        create_account_warning_html: "%{name} sent a warning to %{target}"
+        create_announcement_html: "%{name} created new announcement %{target}"
+        create_canonical_email_block_html: "%{name} blocked e-mail with the hash %{target}"
+        create_custom_emoji_html: "%{name} uploaded new emoji %{target}"
+        create_domain_allow_html: "%{name} allowed federation with domain %{target}"
+        create_domain_block_html: "%{name} blocked domain %{target}"
+        create_email_domain_block_html: "%{name} blocked e-mail domain %{target}"
+        create_ip_block_html: "%{name} created rule for IP %{target}"
+        create_unavailable_domain_html: "%{name} stopped delivery to domain %{target}"
+        create_user_role_html: "%{name} created %{target} role"
+        demote_user_html: "%{name} demoted user %{target}"
+        destroy_announcement_html: "%{name} deleted announcement %{target}"
+        destroy_canonical_email_block_html: "%{name} unblocked e-mail with the hash %{target}"
+        destroy_custom_emoji_html: "%{name} deleted emoji %{target}"
+        destroy_domain_allow_html: "%{name} disallowed federation with domain %{target}"
+        destroy_domain_block_html: "%{name} unblocked domain %{target}"
+        destroy_email_domain_block_html: "%{name} unblocked e-mail domain %{target}"
+        destroy_instance_html: "%{name} purged domain %{target}"
+        destroy_ip_block_html: "%{name} deleted rule for IP %{target}"
+        destroy_status_html: "%{name} removed post by %{target}"
+        destroy_unavailable_domain_html: "%{name} resumed delivery to domain %{target}"
+        destroy_user_role_html: "%{name} deleted %{target} role"
+        disable_2fa_user_html: "%{name} disabled two factor requirement for user %{target}"
+        disable_custom_emoji_html: "%{name} disabled emoji %{target}"
+        disable_sign_in_token_auth_user_html: "%{name} disabled e-mail token authentication for %{target}"
+        disable_user_html: "%{name} disabled login for user %{target}"
+        enable_custom_emoji_html: "%{name} enabled emoji %{target}"
+        enable_sign_in_token_auth_user_html: "%{name} enabled e-mail token authentication for %{target}"
+        enable_user_html: "%{name} enabled login for user %{target}"
+        memorialize_account_html: "%{name} turned %{target}'s account into a memoriam page"
+        promote_user_html: "%{name} promoted user %{target}"
+        reject_appeal_html: "%{name} rejected moderation decision appeal from %{target}"
+        reject_user_html: "%{name} rejected sign-up from %{target}"
+        remove_avatar_user_html: "%{name} removed %{target}'s avatar"
+        reopen_report_html: "%{name} reopened report %{target}"
+        resend_user_html: "%{name} resent confirmation e-mail for %{target}"
+        reset_password_user_html: "%{name} reset password of user %{target}"
+        resolve_report_html: "%{name} resolved report %{target}"
+        sensitive_account_html: "%{name} marked %{target}'s media as sensitive"
+        silence_account_html: "%{name} limited %{target}'s account"
+        suspend_account_html: "%{name} suspended %{target}'s account"
+        unassigned_report_html: "%{name} unassigned report %{target}"
+        unblock_email_account_html: "%{name} unblocked %{target}'s email address"
+        unsensitive_account_html: "%{name} unmarked %{target}'s media as sensitive"
+        unsilence_account_html: "%{name} undid limit of %{target}'s account"
+        unsuspend_account_html: "%{name} unsuspended %{target}'s account"
+        update_announcement_html: "%{name} updated announcement %{target}"
+        update_custom_emoji_html: "%{name} updated emoji %{target}"
+        update_domain_block_html: "%{name} updated domain block for %{target}"
+        update_ip_block_html: "%{name} changed rule for IP %{target}"
+        update_status_html: "%{name} updated post by %{target}"
+        update_user_role_html: "%{name} changed %{target} role"
+      deleted_account: deleted account
+      empty: No logs found.
+      filter_by_action: Filter by action
+      filter_by_user: Filter by user
+      title: Audit log
     announcements:
-      destroyed_msg: Teadaande kustutamine õnnestus!
+      destroyed_msg: Announcement successfully deleted!
       edit:
-        title: Teate muutmine
-      empty: Teadaandeid ei leitud.
-      live: Avaldatud
+        title: Edit announcement
+      empty: No announcements found.
+      live: Live
       new:
-        create: Loo teadaanne
-        title: Uus teadaanne
-      publish: Postita
-      published_msg: Teadaande avaldamine õnnestus!
-      scheduled_for: Kavandatud ajaks %{time}
-      scheduled_msg: Teadaanne kavandatud avaldamiseks!
-      title: Teadaanded
-      unpublish: Tühista avaldamine
-      unpublished_msg: Teadaande eemaldamine avalikkusest õnnestus!
-      updated_msg: Teadaande uuendamine õnnestus!
+        create: Create announcement
+        title: New announcement
+      publish: Publish
+      published_msg: Announcement successfully published!
+      scheduled_for: Scheduled for %{time}
+      scheduled_msg: Announcement scheduled for publication!
+      title: Announcements
+      unpublish: Unpublish
+      unpublished_msg: Announcement successfully unpublished!
+      updated_msg: Announcement successfully updated!
     custom_emojis:
-      assign_category: Määra kategooria
-      by_domain: Domeen
-      copied_msg: Kohaliku koopia loomine emotikonist õnnestus
-      copy: Kopeeri
-      copy_failed_msg: Sellest emotikonist kohaliku koopia loomine nurjus
-      create_new_category: Loo uus kategooria
-      created_msg: Emotikoni loomine õnnestus!
-      delete: Kustuta
-      destroyed_msg: Emotikoni kustutamine õnnestus!
-      disable: Keela
-      disabled: Keelatud
-      disabled_msg: Selle emotikoni keelamine õnnestus
-      emoji: Emotikonid
-      enable: Luba
-      enabled: Lubatud
-      enabled_msg: Selle emotikoni lubamine õnnestus
-      image_hint: PNG või GIF suurusega kuni %{size}
-      list: Loend
-      listed: Nimekirjastatud
+      assign_category: Assign category
+      by_domain: Domain
+      copied_msg: Successfully created local copy of the emoji
+      copy: Copy
+      copy_failed_msg: Could not make a local copy of that emoji
+      create_new_category: Create new category
+      created_msg: Emoji successfully created!
+      delete: Delete
+      destroyed_msg: Emojo successfully destroyed!
+      disable: Disable
+      disabled: Disabled
+      disabled_msg: Successfully disabled that emoji
+      emoji: Emoji
+      enable: Enable
+      enabled: Enabled
+      enabled_msg: Successfully enabled that emoji
+      image_hint: PNG or GIF up to %{size}
+      list: List
+      listed: Listed
       new:
-        title: Lisa uus emotikon
-      no_emoji_selected: Emotikone ei muudetud, kuna ühtegi polnud valitud
-      not_permitted: Sul puudub selle tegevuse jaoks õigus
-      overwrite: Kirjuta üle
-      shortcode: Lühikood
-      shortcode_hint: Vähemalt 2 tähemärki, ainult tähted, numbrid ja alakriipsud
-      title: Emotikonid
-      uncategorized: Kategoriseerimata
-      unlist: Kirjendamata
-      unlisted: Kirjendamata
-      update_failed_msg: Ei saanud seda emotikoni uuendada
-      updated_msg: Emotikoni uuendamine õnnestus!
-      upload: Lae üles
+        title: Add new custom emoji
+      no_emoji_selected: No emojis were changed as none were selected
+      not_permitted: You are not permitted to perform this action
+      overwrite: Overwrite
+      shortcode: Shortcode
+      shortcode_hint: At least 2 characters, only alphanumeric characters and underscores
+      title: Custom emojis
+      uncategorized: Uncategorized
+      unlist: Unlist
+      unlisted: Unlisted
+      update_failed_msg: Could not update that emoji
+      updated_msg: Emoji successfully updated!
+      upload: Upload
     dashboard:
-      active_users: aktiivsed kasutajad
-      interactions: interaktsioonid
-      media_storage: Meedia hoidla
-      new_users: uued kasutajad
-      opened_reports: avatud raportit
+      active_users: active users
+      interactions: interactions
+      media_storage: Media storage
+      new_users: new users
+      opened_reports: reports opened
       pending_appeals_html:
-        one: "<strong>%{count}</strong> ootel vaidlustus"
-        other: "<strong>%{count}</strong> ootel vaidlustust"
+        one: "<strong>%{count}</strong> pending appeal"
+        other: "<strong>%{count}</strong> pending appeals"
       pending_reports_html:
-        one: "<strong>%{count}</strong> ootel raport"
-        other: "<strong>%{count}</strong> ootel raportit"
+        one: "<strong>%{count}</strong> pending report"
+        other: "<strong>%{count}</strong> pending reports"
       pending_tags_html:
-        one: "<strong>%{count}</strong> ootel silt"
-        other: "<strong>%{count}</strong> ootel silti"
+        one: "<strong>%{count}</strong> pending hashtag"
+        other: "<strong>%{count}</strong> pending hashtags"
       pending_users_html:
-        one: "<strong>%{count}</strong> ootel kasutaja"
-        other: "<strong>%{count}</strong> ootel kasutajat"
-      resolved_reports: lahendatud raportit
-      software: Tarkvara
-      sources: Liitumise allikad
-      space: Kettakasutus
-      title: Töölaud
-      top_languages: Kasutatumad keeled
-      top_servers: Aktiivseimad serverid
-      website: Veebileht
+        one: "<strong>%{count}</strong> pending user"
+        other: "<strong>%{count}</strong> pending users"
+      resolved_reports: reports resolved
+      software: Software
+      sources: Sign-up sources
+      space: Space usage
+      title: Dashboard
+      top_languages: Top active languages
+      top_servers: Top active servers
+      website: Website
     disputes:
       appeals:
-        empty: Vaidlustusi pole.
-        title: Vaidlustused
+        empty: No appeals found.
+        title: Appeals
     domain_allows:
-      add_new: Luba domeen
-      created_msg: Domeeni lubamine õnnestus
-      destroyed_msg: Domeen eemaldati lubatute nimekirjast
-      export: Eksport
+      add_new: Allow federation with domain
+      created_msg: Domain has been successfully allowed for federation
+      destroyed_msg: Domain has been disallowed from federation
+      export: Export
       import: Import
-      undo: Eemalda lubatute nimekirjast
+      undo: Disallow federation with domain
     domain_blocks:
-      add_new: Lisa uus domeeniblokeering
-      created_msg: Domeeni blokeeringut töödeldakse
-      destroyed_msg: Domeeniblokeering on tagasi võetud
-      domain: Domeen
-      edit: Muuda domeeniblokeeringut
-      existing_domain_block: Kasutajale %{name} on juba karmimad piirangud kehtestatud.
-      existing_domain_block_html: Oled juba lisanud domeenile %{name} piiranguid, palun eemalda enne jätkamist <a href="%{unblock_url}">eemalda blokeering</a>.
-      export: Eksport
+      add_new: Add new domain block
+      created_msg: Domain block is now being processed
+      destroyed_msg: Domain block has been undone
+      domain: Domain
+      edit: Edit domain block
+      existing_domain_block: You have already imposed stricter limits on %{name}.
+      existing_domain_block_html: You have already imposed stricter limits on %{name}, you need to <a href="%{unblock_url}">unblock it</a> first.
+      export: Export
       import: Import
       new:
-        create: Loo blokeering
-        hint: Domeeniblokeering ei takista kontode lisamist andmebaasi, aga lisab automaatselt nendele kontodele tagasiulatuvalt teatud moderatsioonimeetodeid.
+        create: Create block
+        hint: The domain block will not prevent creation of account entries in the database, but will retroactively and automatically apply specific moderation methods on those accounts.
         severity:
-          desc_html: "<strong>Piira</strong> muudab domeeni kasutajate postitused mittejälgijatele nähtamatuks.<strong>Kustuta</strong> eemaldab serverist kõik selle domeeni kontode sisu, meedia ja kasutajaandmed. <strong>Ei midagi</strong> lihtsalt lükkab meediafailid tagasi."
-          noop: Ei midagi
-          silence: Piira
-          suspend: Kustuta
-        title: Uus domeeniblokeering
-      no_domain_block_selected: Ühtegi domeeni keeldu ei muudetud, kuna midagi polnud valitud
-      not_permitted: Puudub õigus seda teha
-      obfuscate: Domeeninime varjamine
-      obfuscate_hint: Varja osaliselt domeeni nimi nimekirjas, kui domeenipiirangute nimekirja avaldamine on sisse lülitatud
-      private_comment: Privaatne kommentaar
-      private_comment_hint: Kommentaar selle domeenipiirangu kohta moderaatorite sisekasutuseks.
-      public_comment: Avalik kommentaar
-      public_comment_hint: Avalik kommentaar selle domeenipiirangu kohta, juhuks kui domeenipiirangute loetelu avaldamine on lubatud.
-      reject_media: Keela meediafailid
-      reject_media_hint: Kustutab kohalikult salvestatud meediafailid ja keeldub tulevikus allalaadimisest. Ei puuduta peatamisi
-      reject_reports: Lükka teavitused tagasi
-      reject_reports_hint: Eira kõiki teavitusi sellelt domeenilt. Ei puuduta peatamisi
-      undo: Võta domeeniblokeering tagasi
-      view: Vaata domeeniblokeeringut
+          desc_html: "<strong>Limit</strong> will make posts from accounts at this domain invisible to anyone who isn't following them. <strong>Suspend</strong> will remove all content, media, and profile data for this domain's accounts from your server. Use <strong>None</strong> if you just want to reject media files."
+          noop: None
+          silence: Limit
+          suspend: Suspend
+        title: New domain block
+      no_domain_block_selected: No domain blocks were changed as none were selected
+      not_permitted: You are not permitted to perform this action
+      obfuscate: Obfuscate domain name
+      obfuscate_hint: Partially obfuscate the domain name in the list if advertising the list of domain limitations is enabled
+      private_comment: Private comment
+      private_comment_hint: Comment about this domain limitation for internal use by the moderators.
+      public_comment: Public comment
+      public_comment_hint: Comment about this domain limitation for the general public, if advertising the list of domain limitations is enabled.
+      reject_media: Reject media files
+      reject_media_hint: Removes locally stored media files and refuses to download any in the future. Irrelevant for suspensions
+      reject_reports: Reject reports
+      reject_reports_hint: Ignore all reports coming from this domain. Irrelevant for suspensions
+      undo: Undo domain block
+      view: View domain block
     email_domain_blocks:
-      add_new: Lisa uus
+      add_new: Add new
       attempts_over_week:
-        one: "%{count} katse viimase nädala kestel"
-        other: "%{count} liitumiskatset viimase nädala kestel"
-      created_msg: Edukalt blokeeritud e-posti domeen
-      delete: Kustuta
+        one: "%{count} attempt over the last week"
+        other: "%{count} sign-up attempts over the last week"
+      created_msg: Successfully blocked e-mail domain
+      delete: Delete
       dns:
         types:
-          mx: MX-kirje
-      domain: Domeen
+          mx: MX record
+      domain: Domain
       new:
-        create: Lisa domeen
-        resolve: Domeeni lahendamine
-        title: Blokeeri uus e-posti domeen
-      no_email_domain_block_selected: Ühtegi e-posti domeeni keeldu ei muudetud, kuna midagi polnud valitud
-      resolved_dns_records_hint_html: Domeeninimi lahendub järgnevateks MX-domeenideks, mis vastutavad e-kirjade vastuvõtmise eest. MX-domeeni blokeerimine blokeerib liitumistaotlused kõigilt e-postiaadressidelt, mis kasutavad sama MX-domeeni, kuigi kasutatav domeeninimi on erinev. <strong>Ole tähelepanelik, et mitte blokeerida suuremaid e-postiteenuse pakkujaid.</strong>
-      resolved_through_html: Lahendatud %{domain} kaudu
-      title: E-posti keelunimekiri
+        create: Add domain
+        resolve: Resolve domain
+        title: Block new e-mail domain
+      no_email_domain_block_selected: No e-mail domain blocks were changed as none were selected
+      not_permitted: Not permitted
+      resolved_dns_records_hint_html: The domain name resolves to the following MX domains, which are ultimately responsible for accepting e-mail. Blocking an MX domain will block sign-ups from any e-mail address which uses the same MX domain, even if the visible domain name is different. <strong>Be careful not to block major e-mail providers.</strong>
+      resolved_through_html: Resolved through %{domain}
+      title: Blocked e-mail domains
     export_domain_allows:
       new:
-        title: Lubatud domeenide import
-      no_file: Faili pole valitud
+        title: Import domain allows
+      no_file: No file selected
     export_domain_blocks:
       import:
-        description_html: Oled importimas domeenide keelde. Vaata see nimekiri hoolega läbi, eriti, kui pole seda ise koostanud.
-        existing_relationships_warning: Olemasolevad jälgimissuhted
-        private_comment_description_html: 'Pidamaks järge, kust imporditud keelud pärinevad, luuakse need järneva privaatse kommentaariga: <q>%{comment}</q>'
-        private_comment_template: Imporditud allikast %{source} kuupäeval %{date}
-        title: Domeenikeeldude import
-      invalid_domain_block: 'Üks või mitu domeeniblokeeringut jäeti vahele järgnevate vigade tõttu: %{error}'
+        description_html: You are about to import a list of domain blocks. Please review this list very carefully, especially if you have not authored this list yourself.
+        existing_relationships_warning: Existing follow relationships
+        private_comment_description_html: 'To help you track where imported blocks come from, imported blocks will be created with the following private comment: <q>%{comment}</q>'
+        private_comment_template: Imported from %{source} on %{date}
+        title: Import domain blocks
+      invalid_domain_block: 'One or more domain blocks were skipped because of the following error(s): %{error}'
       new:
-        title: Domeenikeeldude import
-      no_file: Faili pole valitud
+        title: Import domain blocks
+      no_file: No file selected
     follow_recommendations:
-      description_html: "<strong>Jälgimissoovitused aitavad uutel kasutajatel kiirelt leida huvipakkuvat sisu</strong>. Kui kasutaja pole teistega piisavalt läbi käinud, et saaks luua personaalseid soovitusi, soovitatakse neid kontosid. Need arvutatakse ümber igapäevaselt konkreetse keele populaarseimate postituste ja enim jälgitavate kontode seast."
-      language: Keel
-      status: Olek
-      suppress: Eemalda jälgimissoovitus
-      suppressed: Eemaldatud
-      title: Jälgimissoovitused
-      unsuppress: Taasta jälgimissoovitused
+      description_html: "<strong>Follow recommendations help new users quickly find interesting content</strong>. When a user has not interacted with others enough to form personalized follow recommendations, these accounts are recommended instead. They are re-calculated on a daily basis from a mix of accounts with the highest recent engagements and highest local follower counts for a given language."
+      language: For language
+      status: Status
+      suppress: Suppress follow recommendation
+      suppressed: Suppressed
+      title: Follow recommendations
+      unsuppress: Restore follow recommendation
     instances:
       availability:
         description_html:
-          one: Kui domeenile edastamine nurjub <strong>%{count} päeval</strong>, siis ei tehta enam edastamiskatseid, välja arvatud juhul, kui domeenilt <em>võetakse vastu</em> saadetis.
-          other: Kui domeenile edastamine nurjub <strong>%{count} erineval päeval</strong>, siis ei tehta enam edastamiskatseid, välja arvatud juhul, kui domeenilt <em>võetakse vastu</em> saadetis.
-        failure_threshold_reached: Nurjumispiir saavutatud %{date}.
+          one: If delivering to the domain fails <strong>%{count} day</strong> without succeeding, no further delivery attempts will be made unless a delivery <em>from</em> the domain is received.
+          other: If delivering to the domain fails on <strong>%{count} different days</strong> without succeeding, no further delivery attempts will be made unless a delivery <em>from</em> the domain is received.
+        failure_threshold_reached: Failure threshold reached on %{date}.
         failures_recorded:
-          one: Nurjunud katse %{count} päeval.
-          other: Nurjunud katsed %{count} päeval.
-        no_failures_recorded: Nurjumisi pole.
-        title: Saadavus
-        warning: Viimane ühenduskatse selle serveriga ebaõnnestus
-      back_to_all: Kõik
-      back_to_limited: Piiratud
-      back_to_warning: Hoiatus
-      by_domain: Domeen
-      confirm_purge: Kindel, et selle domeeni andmed kustutada jäädavalt?
+          one: Failed attempt on %{count} day.
+          other: Failed attempts on %{count} different days.
+        no_failures_recorded: No failures on record.
+        title: Availability
+        warning: The last attempt to connect to this server has been unsuccessful
+      back_to_all: All
+      back_to_limited: Limited
+      back_to_warning: Warning
+      by_domain: Domain
+      confirm_purge: Are you sure you want to permanently delete data from this domain?
       content_policies:
-        comment: Sisemine märge
-        description_html: On võimalik kirjeldada sisureeglid kõigile kontodele sellelt domeenilt ja alamdomeenidelt.
+        comment: Internal note
+        description_html: You can define content policies that will be applied to all accounts from this domain and any of its subdomains.
+        limited_federation_mode_description_html: You can chose whether to allow federation with this domain.
         policies:
-          reject_media: Meedia hülgamine
-          reject_reports: Lükka raportid tagasi
-          silence: Vaigista
-          suspend: Kustuta
-        policy: Reegel
-        reason: Avalik põhjendus
-        title: Sisureeglid
+          reject_media: Reject media
+          reject_reports: Reject reports
+          silence: Limit
+          suspend: Suspend
+        policy: Policy
+        reason: Public reason
+        title: Content policies
       dashboard:
-        instance_accounts_dimension: Enim jälgitud kontod
-        instance_accounts_measure: talletatud kontod
-        instance_followers_measure: meie jälgiad seal
-        instance_follows_measure: nende jälgijad siin
-        instance_languages_dimension: Top keeled
-        instance_media_attachments_measure: talletatud meedialisandid
-        instance_reports_measure: raportid nende kohta
-        instance_statuses_measure: salvestatud postitused
+        instance_accounts_dimension: Most followed accounts
+        instance_accounts_measure: stored accounts
+        instance_followers_measure: our followers there
+        instance_follows_measure: their followers here
+        instance_languages_dimension: Top languages
+        instance_media_attachments_measure: stored media attachments
+        instance_reports_measure: reports about them
+        instance_statuses_measure: stored posts
       delivery:
-        all: Kõik
-        clear: Kustuta edastustõrked
-        failing: Nurjuv
-        restart: Taaskäivita edastus
-        stop: Peata edastus
-        unavailable: Pole saadaval
-      delivery_available: Üleandmine on saadaval
-      delivery_error_days: Edastustõrgete päevad
-      delivery_error_hint: Kui edastus pole võimalik %{count} päeva, märgitakse automaatselt edastamatuks.
-      destroyed_msg: Domeeni %{domain} andmed on märgitud lõplikuks kustutamiseks.
-      empty: Domeene ei leidu.
+        all: All
+        clear: Clear delivery errors
+        failing: Failing
+        restart: Restart delivery
+        stop: Stop delivery
+        unavailable: Unavailable
+      delivery_available: Delivery is available
+      delivery_error_days: Delivery error days
+      delivery_error_hint: If delivery is not possible for %{count} days, it will be automatically marked as undeliverable.
+      destroyed_msg: Data from %{domain} is now queued for imminent deletion.
+      empty: No domains found.
       known_accounts:
-        one: "%{count} teada konto"
-        other: "%{count} teada kontot"
+        one: "%{count} known account"
+        other: "%{count} known accounts"
       moderation:
-        all: Kõik
-        limited: Piiratud
-        title: Modereerimine
-      private_comment: Privaatne kommentaar
-      public_comment: Avalik kommentaar
-      purge: Kustuta
-      purge_description_html: Kui on arvata, et domeen on lõplikult kadunud, on võimalik kustutada kõik siin talletatud kontode kirjed ja seotud andmed. See võib aega võtta.
-      title: Födereerumine
-      total_blocked_by_us: Meie poolt blokeeritud
-      total_followed_by_them: Nende poolt jälgitud
-      total_followed_by_us: Meie poolt jälgitud
-      total_reported: Nende kohta teateid
-      total_storage: Lisatud meedia
-      totals_time_period_hint_html: Allpool kuvatud summad sisaldavad andmed kogu aja kohta.
+        all: All
+        limited: Limited
+        title: Moderation
+      private_comment: Private comment
+      public_comment: Public comment
+      purge: Purge
+      purge_description_html: If you believe this domain is offline for good, you can delete all account records and associated data from this domain from your storage. This may take a while.
+      title: Federation
+      total_blocked_by_us: Blocked by us
+      total_followed_by_them: Followed by them
+      total_followed_by_us: Followed by us
+      total_reported: Reports about them
+      total_storage: Media attachments
+      totals_time_period_hint_html: The totals displayed below include data for all time.
     invites:
-      deactivate_all: Peata kõik
+      deactivate_all: Deactivate all
       filter:
-        all: Kõik
-        available: Saadaval
-        expired: Aegunud
+        all: All
+        available: Available
+        expired: Expired
         title: Filter
-      title: Kutsed
+      title: Invites
     ip_blocks:
-      add_new: Loo reegel
-      created_msg: IP-aadressi põhine reegel lisatud
-      delete: Kustuta
+      add_new: Create rule
+      created_msg: Successfully added new IP rule
+      delete: Delete
       expires_in:
-        '1209600': 2 nädalat
-        '15778476': 6 kuud
-        '2629746': 1 kuu
-        '31556952': 1 aasta
-        '86400': 1 päev
-        '94670856': 3 aastat
+        '1209600': 2 weeks
+        '15778476': 6 months
+        '2629746': 1 month
+        '31556952': 1 year
+        '86400': 1 day
+        '94670856': 3 years
       new:
-        title: Uue IP-reegli lisamine
-      no_ip_block_selected: Ühtegi IP-reeglit ei muudetud, kuna midagi polnud valitud
-      title: IP-reeglid
+        title: Create new IP rule
+      no_ip_block_selected: No IP rules were changed as none were selected
+      title: IP rules
     relationships:
-      title: "%{acct}-i suhted"
+      title: "%{acct}'s relationships"
     relays:
-      add_new: Lisa uus vahendaja
-      delete: Kustuta
-      description_html: "<strong>Födereerumisvahendaja</strong> on vahendav server, mis kannab üle suures koguses avalikke postitusi nende serverite vahel, mis on sellega liitunud ja edastavad sellele oma postitusi. <strong>See aitab väikestel ja keskmistel serveritel avastada födiversumi sellist sisu</strong>, mis muidu eeldaks kohalikelt kasutajatelt nende serverite kasutajate jälgitavaks märkimist."
-      disable: Keela
-      disabled: Keelatud
-      enable: Luba
-      enable_hint: Kui lubatud, siis server tellib sellelt vahendajalt kõik avalikud postitused ning hakkab ka enda avalikke postitusi sellele saatma.
-      enabled: Lubatud
-      inbox_url: Vahendaja URL
-      pending: Ootab vahendaja nõusolekut
-      save_and_enable: Salvesta ja luba
-      setup: Sea üles vahendav ühendus
-      signatures_not_enabled: Vahendamine ei tööta korrektselt kuniks turvarežiim või lubatud nimekirja režiim on sisse lülitatud
-      status: Olek
-      title: Vahendajad
+      add_new: Add new relay
+      delete: Delete
+      description_html: A <strong>federation relay</strong> is an intermediary server that exchanges large volumes of public posts between servers that subscribe and publish to it. <strong>It can help small and medium servers discover content from the fediverse</strong>, which would otherwise require local users manually following other people on remote servers.
+      disable: Disable
+      disabled: Disabled
+      enable: Enable
+      enable_hint: Once enabled, your server will subscribe to all public posts from this relay, and will begin sending this server's public posts to it.
+      enabled: Enabled
+      inbox_url: Relay URL
+      pending: Waiting for relay's approval
+      save_and_enable: Save and enable
+      setup: Setup a relay connection
+      signatures_not_enabled: Relays may not work correctly while secure mode or limited federation mode is enabled
+      status: Status
+      title: Relays
     report_notes:
-      created_msg: Teade edukalt koostatud!
-      destroyed_msg: Teade edukalt kustutatud!
+      created_msg: Report note successfully created!
+      destroyed_msg: Report note successfully deleted!
     reports:
       account:
         notes:
-          one: "%{count} märkus"
-          other: "%{count} märkust"
-      action_log: Auditilogi
-      action_taken_by: Meetmeid kasutanud
+          one: "%{count} note"
+          other: "%{count} notes"
+      action_log: Audit log
+      action_taken_by: Action taken by
       actions:
-        delete_description_html: Raporteeritud postitused kustutatakse ja juhtum talletatakse hoiatusena tulevaste eksimuste ärahoidmiseks.
-        mark_as_sensitive_description_html: Raporteeritud meedia märgitakse kui tundlik sisu ja juhtum talletatakse hoiatusena tulevaste eksimuste ärahoidmiseks.
-        other_description_html: On rohkem valikuid konto käitumise juhtimiseks ja suhtluse kohandamiseks raporteeritud kontoga.
-        resolve_description_html: Raporteeritud konto suhtes ei võeta midagi ette, juhtumit ei registreerita ja raport suletakse.
-        silence_description_html: Konto saab olema nähtav ainult senistele jälgijatele või otsestele pöördujatele, mõjutates avalikku levi. On tagasipööratav. Sulgeb kõik konto suhtes esitatud raportid.
-        suspend_description_html: See konto ja kogu selle sisu muutub kättesaamatuks ning kustub lõpuks ja igasugune suhtlus sellega muutub võimatuks. Tagasipööratav 30 päeva jooksul. Lõpetab kõik selle konto kohta esitatud kaebused.
-      actions_description_html: Otsustus, mida raporti lahendamiseks ette võtta. Karistava tegevuse korral saadetakse e-postiga teade, välja arvatud kategooria <strong>rämpspost</strong> puhul.
-      actions_description_remote_html: Otsusta, mida teha selle raporti lahendamiseks. See mõjutab ainult seda, kuidas <strong>Sinu</strong> server selle kaugkontoga suhtleb ning selle sisu käsitleb.
-      add_to_report: Lisa raportile juurde
-      are_you_sure: Oled kindel?
-      assign_to_self: Määra mulle
-      assigned: Määratud moderaator
-      by_target_domain: Teavitatud konto domeen
-      category: Kategooria
-      category_description_html: Põhjus, miks sellest kontost ja/või sisust teatati, kaasatakse raporteeritud kontoga suhtlemisel
+        delete_description_html: The reported posts will be deleted and a strike will be recorded to help you escalate on future infractions by the same account.
+        mark_as_sensitive_description_html: The media in the reported posts will be marked as sensitive and a strike will be recorded to help you escalate on future infractions by the same account.
+        other_description_html: See more options for controlling the account's behaviour and customize communication to the reported account.
+        resolve_description_html: No action will be taken against the reported account, no strike recorded, and the report will be closed.
+        silence_description_html: The account will be visible only to those who already follow it or manually look it up, severely limiting its reach. Can always be reverted. Closes all reports against this account.
+        suspend_description_html: The account and all its contents will be inaccessible and eventually deleted, and interacting with it will be impossible. Reversible within 30 days. Closes all reports against this account.
+      actions_description_html: Decide which action to take to resolve this report. If you take a punitive action against the reported account, an e-mail notification will be sent to them, except when the <strong>Spam</strong> category is selected.
+      actions_description_remote_html: Decide which action to take to resolve this report. This will only affect how <strong>your</strong> server communicates with this remote account and handle its content.
+      add_to_report: Add more to report
+      are_you_sure: Are you sure?
+      assign_to_self: Assign to me
+      assigned: Assigned moderator
+      by_target_domain: Domain of reported account
+      cancel: Cancel
+      category: Category
+      category_description_html: The reason this account and/or content was reported will be cited in communication with the reported account
       comment:
-        none: Pole
-      comment_description_html: 'Täiendava infona kirjutas %{name}:'
-      confirm_action: Kinnita @%{acct} modereering
-      created_at: Teavitatud
-      delete_and_resolve: Kustuta postitused
-      forwarded: Edastatud
-      forwarded_to: Edastatud domeenile %{domain}
-      mark_as_resolved: Märgi lahendatuks
-      mark_as_sensitive: Märgi kui tundlik sisu
-      mark_as_unresolved: Märgi lahendamata
-      no_one_assigned: Eikeegi
+        none: None
+      comment_description_html: 'To provide more information, %{name} wrote:'
+      confirm: Confirm
+      confirm_action: Confirm moderation action against @%{acct}
+      created_at: Reported
+      delete_and_resolve: Delete posts
+      forwarded: Forwarded
+      forwarded_to: Forwarded to %{domain}
+      mark_as_resolved: Mark as resolved
+      mark_as_sensitive: Mark as sensitive
+      mark_as_unresolved: Mark as unresolved
+      no_one_assigned: No one
       notes:
-        create: Lisa märkus
-        create_and_resolve: Lahenda märkusega
-        create_and_unresolve: Taasava märkusega
-        delete: Kustuta
-        placeholder: Kirjelda, mis on ette võetud või muid seotud uuendusi...
-        title: Märkmed
-      notes_description_html: Märkmete vaatamine ja jätmine teistele moderaatoritele ja tulevikuks endale
-      processed_msg: 'Raport #%{id} edukalt käsitletud'
-      quick_actions_description_html: 'Võimalus teha kiire otsus või näha raporteeritud sisu allpool:'
-      remote_user_placeholder: kaugkasutaja domeenist %{instance}
-      reopen: Taasava teavitus
-      report: 'Teavitus #%{id}'
-      reported_account: Teavitatud kontost
-      reported_by: Teavitaja
-      resolved: Lahendatud
-      resolved_msg: Teavituse lahendamine õnnestus!
-      skip_to_actions: Otsuste juurde
-      status: Olek
-      statuses: Raporteeritud sisu
-      statuses_description_html: Sobimatu sisu kaasatakse suhtlusse raporteeritud kontoga
+        create: Add note
+        create_and_resolve: Resolve with note
+        create_and_unresolve: Reopen with note
+        delete: Delete
+        placeholder: Describe what actions have been taken, or any other related updates...
+        title: Notes
+      notes_description_html: View and leave notes to other moderators and your future self
+      processed_msg: 'Report #%{id} successfully processed'
+      quick_actions_description_html: 'Take a quick action or scroll down to see reported content:'
+      remote_user_placeholder: the remote user from %{instance}
+      reopen: Reopen report
+      report: 'Report #%{id}'
+      reported_account: Reported account
+      reported_by: Reported by
+      resolved: Resolved
+      resolved_msg: Report successfully resolved!
+      skip_to_actions: Skip to actions
+      status: Status
+      statuses: Reported content
+      statuses_description_html: Offending content will be cited in communication with the reported account
       summary:
         action_preambles:
-          delete_html: 'Oled <strong>eemaldamas</strong> mõnesid <strong>@%{acct}</strong> postitusi. Selle tulemusena:'
-          mark_as_sensitive_html: 'Oled <strong>märkimas</strong> mõnesid <strong>@%{acct}</strong> postitusi <strong>tundlikuks</strong>. Selle tulemusena:'
-          silence_html: 'Oled <strong>määramas piirangut</strong> kontole <strong>@%{acct}</strong>. Selle tulemusena:'
-          suspend_html: 'Oled <strong>peatamas</strong> kontot <strong>@%{acct}</strong>. Selle tulemusena:'
+          delete_html: 'You are about to <strong>remove</strong> some of <strong>@%{acct}</strong>''s posts. This will:'
+          mark_as_sensitive_html: 'You are about to <strong>mark</strong> some of <strong>@%{acct}</strong>''s posts as <strong>sensitive</strong>. This will:'
+          silence_html: 'You are about to <strong>limit</strong> <strong>@%{acct}</strong>''s account. This will:'
+          suspend_html: 'You are about to <strong>suspend</strong> <strong>@%{acct}</strong>''s account. This will:'
         actions:
-          delete_html: Solvava postituse eemaldamine
-          mark_as_sensitive_html: Solvava postituse meedia märkimine tundlikuks
-          silence_html: "<strong>@%{acct}</strong> ulatuse tugev piiramine muutes tema profiili ja sisu nähtavaks ainult neile, kes teda juba jälgivad, või neile, kes just tema profiili üles otsivad"
-          suspend_html: "<strong>@%{acct}</strong> peatamine, muutes tema profiili ja sisu mitteligipääsetavaks ning mitteinterakteerutavaks"
-        close_report: 'Raporti #%{id} lahendatuks märkimine'
-        close_reports_html: Märgi <strong>kõik</strong> raportid <strong>@%{acct}</strong> vastu lahendatuks
-        delete_data_html: Kustuta tänasest 30 päeva pärast kasutaja <strong>@%{acct}</strong> profiil ja sisu, kui vahepeal tema kontot ei taastata
-        preview_preamble_html: "<strong>@%{acct}</strong> saab järgmise sisuga hoiatuse:"
-        record_strike_html: Salvesta <strong>@%{acct}</strong> kohta juhtum, et aidata selle konto tulevaste rikkumiste puhul reageerida
-        send_email_html: Saada kasutajale <strong>@%{acct}</strong> hoiatus-e-kiri
-        warning_placeholder: Valikuline täiendav põhjendus modereerimisele.
-      target_origin: Raporteeritud konto päritolu
-      title: Teavitused
-      unassign: Eemalda määramine
-      unknown_action_msg: 'Tundmatu tegevus: %{action}'
-      unresolved: Lahendamata
-      updated_at: Uuendatud
-      view_profile: Vaata profiili
+          delete_html: Remove the offending posts
+          mark_as_sensitive_html: Mark the offending posts' media as sensitive
+          silence_html: Severely limit <strong>@%{acct}</strong>'s reach by making their profile and contents only visible to people already following them or manually looking it profile up
+          suspend_html: Suspend <strong>@%{acct}</strong>, making their profile and contents inaccessible and impossible to interact with
+        close_report: 'Mark report #%{id} as resolved'
+        close_reports_html: Mark <strong>all</strong> reports against <strong>@%{acct}</strong> as resolved
+        delete_data_html: Delete <strong>@%{acct}</strong>'s profile and contents 30 days from now unless they get unsuspended in the meantime
+        preview_preamble_html: "<strong>@%{acct}</strong> will receive a warning with the following contents:"
+        record_strike_html: Record a strike against <strong>@%{acct}</strong> to help you escalate on future violations from this account
+        send_email_html: Send <strong>@%{acct}</strong> a warning e-mail
+        warning_placeholder: Optional additional reasoning for the moderation action.
+      target_origin: Origin of reported account
+      title: Reports
+      unassign: Unassign
+      unknown_action_msg: 'Unknown action: %{action}'
+      unresolved: Unresolved
+      updated_at: Updated
+      view_profile: View profile
     roles:
-      add_new: Lisa roll
+      add_new: Add role
       assigned_users:
-        one: "%{count} kasutaja"
-        other: "%{count} kasutajat"
+        one: "%{count} user"
+        other: "%{count} users"
       categories:
-        administration: Haldamine
+        administration: Administration
         devops: DevOps
-        invites: Kutsed
-        moderation: Modereerimine
-        special: Eriline
-      delete: Kustuta
-      description_html: "<strong>Kasutajarollide</strong> abil saab kohandada, millistele Mastodoni funktsioonidele ja piirkondadele kasutajad ligi pääsevad."
-      edit: Muuda '%{name}' rolli
-      everyone: Vaikimisi load
-      everyone_full_description_html: See on <strong>baasroll</strong> mõjudes <strong>kõigile kasutajatele</strong>, ka määramata rolliga. Kõik teised rollid pärivad selle rolli õigused.
+        invites: Invites
+        moderation: Moderation
+        special: Special
+      delete: Delete
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Mastodon your users can access.
+      edit: Edit '%{name}' role
+      everyone: Default permissions
+      everyone_full_description_html: This is the <strong>base role</strong> affecting <strong>all users</strong>, even those without an assigned role. All other roles inherit permissions from it.
       permissions_count:
-        one: "%{count} õigus"
-        other: "%{count} õigused"
+        one: "%{count} permission"
+        other: "%{count} permissions"
       privileges:
-        administrator: Administraator
-        administrator_description: Selle loaga kasutajad võivad mööda pääseda kõigist lubadest
-        delete_user_data: Kustuta kasutaja andmed
-        delete_user_data_description: Lubab kasutajatel kustutada teiste kasutajate andmeid viiteta
-        invite_users: Kutsu kasutajaid
-        invite_users_description: Lubab kasutajatel serverisse uusi inimesi kutsuda
-        manage_announcements: Halda teadaandeid
-        manage_announcements_description: Lubab kasutajatel hallata serveri teadaandeid
-        manage_appeals: Vaidlustuste haldamine
-        manage_appeals_description: Lubab kasutajail läbi vaadata modereerimisotsuste vaidlustusi
-        manage_blocks: Keeldude haldamine
-        manage_blocks_description: Lubab kasutajatel keelata e-postiteenuse pakkujaid ja IP-aadresse
-        manage_custom_emojis: Halda isetehtud emotikone
-        manage_custom_emojis_description: Lubab kasutajatel hallata serveris isetehtud emotikone
-        manage_federation: Halda födereerumist
-        manage_federation_description: Lubab kasutajail keelata või lubada föderatsioone teiste domeenidega ja hallata ühenduvust
-        manage_invites: Halda kutseid
-        manage_invites_description: Lubab kasutajatel kutseid lehitseda ja sulgeda
-        manage_reports: Halda raporteid
-        manage_reports_description: Lubab kasutajail läbi vaadata ja viia läbi modereerimisotsuseid
-        manage_roles: Rollide haldamine
-        manage_roles_description: Lubab kasutajatel hallata ja määrata endast madalamaid rolle
-        manage_rules: Reeglite haldamine
-        manage_rules_description: Lubab kasutajatel muuta serveri reegleid
-        manage_settings: Halda sätteid
-        manage_settings_description: Lubab kasutajatel muuta lehekülje sätteid
-        manage_taxonomies: Halda taksonoomiaid
-        manage_taxonomies_description: Luba kasutajatel populaarset sisu üle vaadata ning uuendada siltide sätteid
-        manage_user_access: Halda kasutajate ligipääsu
-        manage_user_access_description: Lubab kasutajail keelata teiste kaheastmelise autentimise, muuta nende e-postiaadresse ja lähtestada salasõnu
-        manage_users: Kasutajate haldamine
-        manage_users_description: Lubab kasutajail näha teiste kasutajate üksikasju ja teha nende suhtes modereerimisotsuseid
-        manage_webhooks: Halda webhook'e
-        manage_webhooks_description: Lubab kasutajatel administratiivseteks sündmusteks webhook'e seadistada
-        view_audit_log: Auditilogi vaatamine
-        view_audit_log_description: Lubab kasutajail näha serveri administratiivsete otsuste ajalugu
-        view_dashboard: Vaata töölauda
-        view_dashboard_description: Lubab kasutajail pääseda ligi töölauale ja erinevale meetrikale
+        administrator: Administrator
+        administrator_description: Users with this permission will bypass every permission
+        delete_user_data: Delete User Data
+        delete_user_data_description: Allows users to delete other users' data without delay
+        invite_users: Invite Users
+        invite_users_description: Allows users to invite new people to the server
+        manage_announcements: Manage Announcements
+        manage_announcements_description: Allows users to manage announcements on the server
+        manage_appeals: Manage Appeals
+        manage_appeals_description: Allows users to review appeals against moderation actions
+        manage_blocks: Manage Blocks
+        manage_blocks_description: Allows users to block e-mail providers and IP addresses
+        manage_custom_emojis: Manage Custom Emojis
+        manage_custom_emojis_description: Allows users to manage custom emojis on the server
+        manage_federation: Manage Federation
+        manage_federation_description: Allows users to block or allow federation with other domains, and control deliverability
+        manage_invites: Manage Invites
+        manage_invites_description: Allows users to browse and deactivate invite links
+        manage_reports: Manage Reports
+        manage_reports_description: Allows users to review reports and perform moderation actions against them
+        manage_roles: Manage Roles
+        manage_roles_description: Allows users to manage and assign roles below theirs
+        manage_rules: Manage Rules
+        manage_rules_description: Allows users to change server rules
+        manage_settings: Manage Settings
+        manage_settings_description: Allows users to change site settings
+        manage_taxonomies: Manage Taxonomies
+        manage_taxonomies_description: Allows users to review trending content and update hashtag settings
+        manage_user_access: Manage User Access
+        manage_user_access_description: Allows users to disable other users' two-factor authentication, change their e-mail address, and reset their password
+        manage_users: Manage Users
+        manage_users_description: Allows users to view other users' details and perform moderation actions against them
+        manage_webhooks: Manage Webhooks
+        manage_webhooks_description: Allows users to set up webhooks for administrative events
+        view_audit_log: View Audit Log
+        view_audit_log_description: Allows users to see a history of administrative actions on the server
+        view_dashboard: View Dashboard
+        view_dashboard_description: Allows users to access the dashboard and various metrics
         view_devops: DevOps
-        view_devops_description: Lubab kasutajail ligipääsu Sidekiq ja pgHero töölaudadele
-      title: Rollid
+        view_devops_description: Allows users to access Sidekiq and pgHero dashboards
+      title: Roles
     rules:
-      add_new: Lisa reegel
-      delete: Kustuta
-      description_html: Kuigi enamik väidab, et on teenusetingimused läbi lugenud ja nõustub nendega, loevad inimesed tavaliselt need läbi alles pärast probleemi tekkimist. <strong>Muuda oma serveri reeglite ühe pilguga haaramine hõlpsaks, esitades need lihtsa täpploendina.</strong> Püüa hoida reegli punktid lühikesed ja lihtsad, kuid ära jaga neid ka paljudeks eraldi üksusteks.
-      edit: Reegli muutmine
-      empty: Serveri reegleid pole veel defineeritud.
-      title: Serveri reeglid
+      add_new: Add rule
+      delete: Delete
+      description_html: While most claim to have read and agree to the terms of service, usually people do not read through until after a problem arises. <strong>Make it easier to see your server's rules at a glance by providing them in a flat bullet point list.</strong> Try to keep individual rules short and simple, but try not to split them up into many separate items either.
+      edit: Edit rule
+      empty: No server rules have been defined yet.
+      title: Server rules
     settings:
       about:
-        manage_rules: Halda serveri reegleid
-        preamble: Täpsem kirjeldus, kuidas serverit käitatakse, modereeritakse ja rahastatakse.
-        rules_hint: Reeglitele, millega kasutajad peavad nõustuma, on vastav piirkond.
-        title: Teave
+        manage_rules: Manage server rules
+        preamble: Provide in-depth information about how the server is operated, moderated, funded.
+        rules_hint: There is a dedicated area for rules that your users are expected to adhere to.
+        title: About
       appearance:
-        preamble: Kohanda Mastodoni veebiliidest.
-        title: Välimus
+        preamble: Customize Mastodon's web interface.
+        title: Appearance
       branding:
-        preamble: Serveri bränding eristab seda teistest serveritest võrgus. Seda teavet võidakse kuvada erinevates keskkondades, näiteks Mastodoni veebiliideses, rakendustes, viitade eelvaadetes teistel veebisaitidel, sõnumsiderakendustes jne. Sel põhjusel on kõige parem hoida see teave selge, lühike ja ülevaatlik.
-        title: Märgistus
+        preamble: Your server's branding differentiates it from other servers in the network. This information may be displayed across a variety of environments, such as Mastodon's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
+        title: Branding
       content_retention:
-        preamble: Määra, kuidas kasutajate loodud sisu Mastodonis talletatakse.
-        title: Sisu talletamine
+        preamble: Control how user-generated content is stored in Mastodon.
+        title: Content retention
       default_noindex:
-        desc_html: Mõjub kasutajatele, kes pole seda sätet ise muutnud
-        title: Otsimootorite indeksitesse kasutajaid vaikimisi ei lisata
+        desc_html: Affects all users who have not changed this setting themselves
+        title: Opt users out of search engine indexing by default
       discovery:
-        follow_recommendations: Jälgi soovitusi
-        preamble: Huvitava sisu esiletoomine on oluline uute kasutajate kaasamisel, kes ei pruugi Mastodonist kedagi tunda. Kontrolli, kuidas erinevad avastamisfunktsioonid serveris töötavad.
-        profile_directory: Kasutajate kataloog
-        public_timelines: Avalikud ajajooned
-        publish_discovered_servers: Avalda avastatud serverid
-        publish_statistics: Avalda statistika
-        title: Avastamine
-        trends: Trendid
+        follow_recommendations: Follow recommendations
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Mastodon. Control how various discovery features work on your server.
+        profile_directory: Profile directory
+        public_timelines: Public timelines
+        publish_discovered_servers: Publish discovered servers
+        publish_statistics: Publish statistics
+        title: Discovery
+        trends: Trends
       domain_blocks:
-        all: Kõigile
-        disabled: Mitte kellelegi
-        users: Sisseloginud kohalikele kasutajatele
+        all: To everyone
+        disabled: To no one
+        users: To logged-in local users
       registrations:
-        preamble: Kes saab serveril konto luua.
-        title: Registreerimised
+        preamble: Control who can create an account on your server.
+        title: Registrations
       registrations_mode:
         modes:
-          approved: Kinnitus vajalik konto loomisel
-          none: Keegi ei saa kontoid luua
-          open: Kõik võivad kontoid luua
-      title: Serveri seadistused
+          approved: Approval required for sign up
+          none: Nobody can sign up
+          open: Anyone can sign up
+      title: Server Settings
     site_uploads:
-      delete: Kustuta üleslaetud fail
-      destroyed_msg: Üleslaetud fail edukalt kustutatud!
+      delete: Delete uploaded file
+      destroyed_msg: Site upload successfully deleted!
     statuses:
-      account: Autor
-      application: Rakendus
-      back_to_account: Tagasi konto lehele
-      back_to_report: Tagasi raporti lehele
+      account: Author
+      application: Application
+      back_to_account: Back to account page
+      back_to_report: Back to report page
       batch:
-        remove_from_report: Eemalda raportist
-        report: Raport
-      deleted: Kustutatud
-      favourites: Lemmikud
-      history: Versiooniajalugu
-      in_reply_to: Vastusena
-      language: Keel
+        remove_from_report: Remove from report
+        report: Report
+      deleted: Deleted
+      favourites: Favourites
+      history: Version history
+      in_reply_to: Replying to
+      language: Language
       media:
-        title: Meedia
-      metadata: Metaandmed
-      no_status_selected: Ühtegi postitust ei muudetud, sest ühtegi polnud valitud
-      open: Ava postitus
-      original_status: Algne postitus
-      reblogs: Jagamised
-      status_changed: Muudetud postitus
-      title: Konto postitused
-      trending: Populaarne
-      visibility: Nähtavus
-      with_media: Meediaga
+        title: Media
+      metadata: Metadata
+      no_status_selected: No posts were changed as none were selected
+      open: Open post
+      original_status: Original post
+      reblogs: Reblogs
+      status_changed: Post changed
+      title: Account posts
+      trending: Trending
+      visibility: Visibility
+      with_media: With media
     strikes:
       actions:
-        delete_statuses: "%{name} kustutas %{target} postitused"
-        disable: "%{name} lukustas %{target} konto"
-        mark_statuses_as_sensitive: "%{name} märkis %{target} postitused tundlikena"
-        none: "%{name} saatis hoiatuse kasutajale %{target}"
-        sensitive: "%{name} märkis %{target} konto kui tundlik sisu"
-        silence: "%{name} piiras %{target} konto"
-        suspend: "%{name} kustutas %{target} konto"
-      appeal_approved: Vaidlustatud
-      appeal_pending: Vaidlustus on ootel
+        delete_statuses: "%{name} deleted %{target}'s posts"
+        disable: "%{name} froze %{target}'s account"
+        mark_statuses_as_sensitive: "%{name} marked %{target}'s posts as sensitive"
+        none: "%{name} sent a warning to %{target}"
+        sensitive: "%{name} marked %{target}'s account as sensitive"
+        silence: "%{name} limited %{target}'s account"
+        suspend: "%{name} suspended %{target}'s account"
+      appeal_approved: Appealed
+      appeal_pending: Appeal pending
+      appeal_rejected: Appeal rejected
     system_checks:
       database_schema_check:
-        message_html: On ootel andmebaasi migreerimisi. Rakenduse ootuspäraseks toimimiseks palun käivita need
+        message_html: There are pending database migrations. Please run them to ensure the application behaves as expected
       elasticsearch_running_check:
-        message_html: Elasticsearch ei vasta. Kontrolli, kas see töötab või keela täistekstiotsing
+        message_html: Could not connect to Elasticsearch. Please check that it is running, or disable full-text search
       elasticsearch_version_check:
-        message_html: 'Elasticsearch versioon ei sobi: %{value}'
-        version_comparison: Elasticsearch %{running_version} töötab, aga nõutud on %{required_version}
+        message_html: 'Incompatible Elasticsearch version: %{value}'
+        version_comparison: Elasticsearch %{running_version} is running while %{required_version} is required
       rules_check:
-        action: Halda serveri reegleid
-        message_html: Serverireegleid pole defineeritud.
+        action: Manage server rules
+        message_html: You haven't defined any server rules.
       sidekiq_process_check:
-        message_html: Ühtegi Sidekiq protsessi pole %{value} järjekorra jaoks. Sidekiq seadistus vajab üle vaatamist
+        message_html: No Sidekiq process running for the %{value} queue(s). Please review your Sidekiq configuration
     tags:
-      review: Vaata olek üle
-      updated_msg: Sildi sätted edukalt uuendatud
-    title: Administreerimine
+      review: Review status
+      updated_msg: Hashtag settings updated successfully
+    title: Administration
     trends:
-      allow: Luba
-      approved: Kinnitatud
-      disallow: Keela
+      allow: Allow
+      approved: Approved
+      disallow: Disallow
       links:
-        allow: Luba viit
-        allow_provider: Luba autor
-        description_html: Need on lingid, mida jagavad praegu paljud kontod, mille postitusi server näeb. See võib aidata kasutajatel teada saada, mis maailmas toimub. Ühtegi linki ei kuvata avalikult enne, kui avaldaja on heakskiidetud. Samuti saab üksikuid linke lubada või tagasi lükata.
-        disallow: Keela viit
-        disallow_provider: Keela autor
-        no_link_selected: Viitasid ei muudetud, kuna ühtegi polnud valitud
+        allow: Allow link
+        allow_provider: Allow publisher
+        description_html: These are links that are currently being shared a lot by accounts that your server sees posts from. It can help your users find out what's going on in the world. No links are displayed publicly until you approve the publisher. You can also allow or reject individual links.
+        disallow: Disallow link
+        disallow_provider: Disallow publisher
+        no_link_selected: No links were changed as none were selected
         publishers:
-          no_publisher_selected: Avaldajaid ei muudetud, kuna ühtegi polnud valitud
+          no_publisher_selected: No publishers were changed as none were selected
         shared_by_over_week:
-          one: Jagatud ühe kasutaja pool viimase nädala jooksul
-          other: Jagatud %{count} kasutaja poolt viimase nädala jooksul
-        title: Trendikad viited
-        usage_comparison: Jagatud %{today} korda täna, eile %{yesterday} korda
-      only_allowed: Ainult lubatud
-      pending_review: Ootab ülevaatust
+          one: Shared by one person over the last week
+          other: Shared by %{count} people over the last week
+        title: Trending links
+        usage_comparison: Shared %{today} times today, compared to %{yesterday} yesterday
+      not_allowed_to_trend: Not allowed to trend
+      only_allowed: Only allowed
+      pending_review: Pending review
       preview_card_providers:
-        allowed: Viited kasutajalt ilmuvad trendides
-        description_html: Need on domeenid, mille linke serveris sageli jagatakse. Lingid ei muutu trendides avalikuks, kuni lingi domeen pole heaks kiidetud. Heakskiit (või tagasilükkamine) laieneb alamdomeenidele.
-        rejected: Kasutaja viited ei ilmu trendides
-        title: Kasutajad
-      rejected: Tagasi lükatud
+        allowed: Links from this publisher can trend
+        description_html: These are domains from which links are often shared on your server. Links will not trend publicly unless the domain of the link is approved. Your approval (or rejection) extends to subdomains.
+        rejected: Links from this publisher won't trend
+        title: Publishers
+      rejected: Rejected
       statuses:
-        allow: Luba postitada
-        allow_account: Luba autor
-        description_html: Need on postitused, millest server teab ja mida praegu jagatakse ja mis on hetkel paljude lemmikud. See võib aidata uutel ja naasvatel kasutajatel leida rohkem inimesi, keda jälgida. Ühtegi postitust ei kuvata avalikult enne, kui autor on heaks kiidetud ja autor lubab oma kontot teistele soovitada. Samuti saab üksikuid postitusi lubada või tagasi lükata.
-        disallow: Ära luba postitada
-        disallow_account: Keela autor
-        no_status_selected: Trendikaid postitusi ei muudetud, kuna ükski polnud valitud
-        not_discoverable: Autor pole lubanud enda avastamist
+        allow: Allow post
+        allow_account: Allow author
+        description_html: These are posts that your server knows about that are currently being shared and favourited a lot at the moment. It can help your new and returning users to find more people to follow. No posts are displayed publicly until you approve the author, and the author allows their account to be suggested to others. You can also allow or reject individual posts.
+        disallow: Disallow post
+        disallow_account: Disallow author
+        no_status_selected: No trending posts were changed as none were selected
+        not_discoverable: Author has not opted-in to being discoverable
         shared_by:
-          one: Jagatud või meeldinud üks kord
-          other: Jagatud ja meeldinud %{friendly_count} korda
-        title: Trendikad postitused
+          one: Shared or favourited one time
+          other: Shared and favourited %{friendly_count} times
+        title: Trending posts
       tags:
-        current_score: Skoor praegu %{score}
+        current_score: Current score %{score}
         dashboard:
-          tag_accounts_measure: unikaalset kasutajat
-          tag_languages_dimension: Populaarseimad keeled
-          tag_servers_dimension: Populaarseimad serverid
-          tag_servers_measure: erinevat serverit
-          tag_uses_measure: kasutajaid kokku
-        description_html: Need sildid ilmuvad praegu paljudes postitutes mida su server näeb. See võib aidata su kasutajatel leida seda millest kõige rohkem parajasti räägitakse. Ühtegi silti ei näidata avalikult, enne nende heaks kiitmist.
-        listable: Võib olla soovitatud
-        no_tag_selected: Silte ei muudetud, kuna ühtegi polnud valitud
-        not_listable: Ei soovitata
-        not_trendable: Ei ilmu trendides
-        not_usable: Ei saa kasutada
-        peaked_on_and_decaying: Populaarseim %{date}, nüüd langemas
-        title: Trendikad sildid
-        trendable: Võib ilmuda trendides
-        trending_rank: 'Trendides #%{rank}'
-        usable: Kasutatav
-        usage_comparison: Kasutatud %{today} korda täna, eile %{yesterday} korda
+          tag_accounts_measure: unique uses
+          tag_languages_dimension: Top languages
+          tag_servers_dimension: Top servers
+          tag_servers_measure: different servers
+          tag_uses_measure: total uses
+        description_html: These are hashtags that are currently appearing in a lot of posts that your server sees. It can help your users find out what people are talking the most about at the moment. No hashtags are displayed publicly until you approve them.
+        listable: Can be suggested
+        no_tag_selected: No tags were changed as none were selected
+        not_listable: Won't be suggested
+        not_trendable: Won't appear under trends
+        not_usable: Cannot be used
+        peaked_on_and_decaying: Peaked on %{date}, now decaying
+        title: Trending hashtags
+        trendable: Can appear under trends
+        trending_rank: 'Trending #%{rank}'
+        usable: Can be used
+        usage_comparison: Used %{today} times today, compared to %{yesterday} yesterday
         used_by_over_week:
-          one: Kasutatud ühe kasutaja pool viimase nädala jooksul
-          other: Kasutatud %{count} kasutaja poolt viimase nädala jooksul
-      title: Trendid
-      trending: Trendid
+          one: Used by one person over the last week
+          other: Used by %{count} people over the last week
+      title: Trends
+      trending: Trending
     warning_presets:
-      add_new: Lisa uus
-      delete: Kustuta
-      edit_preset: Hoiatuse eelseadistuse muutmine
-      empty: Hoiatuste eelseadeid pole defineeritud.
-      title: Halda hoiatuste eelseadistusi
+      add_new: Add new
+      delete: Delete
+      edit_preset: Edit warning preset
+      empty: You haven't defined any warning presets yet.
+      title: Manage warning presets
     webhooks:
-      add_new: Lisa lõpp-punkt
-      delete: Kustuta
-      description_html: "<strong>Veebihaak</strong> võimaldab Mastodonil edastada valitud sündmuste kohta su rakendusele <strong>reaalajas märguandeid</strong>, et rakendus saaks <strong>automaatselt reaktsioone käivitada</strong>."
-      disable: Keela
-      disabled: Keelatud
-      edit: Muuda lõpp-punkti
-      empty: Ühtegi veebikonksu lõpp-punkti pole veel seadistatud.
-      enable: Luba
-      enabled: Aktiivne
+      add_new: Add endpoint
+      delete: Delete
+      description_html: A <strong>webhook</strong> enables Mastodon to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
+      disable: Disable
+      disabled: Disabled
+      edit: Edit endpoint
+      empty: You don't have any webhook endpoints configured yet.
+      enable: Enable
+      enabled: Active
       enabled_events:
-        one: 1 lubatud sündmus
-        other: "%{count} lubatud sündmust"
-      events: Sündmused
-      new: Uus veebikonks
-      rotate_secret: Salavõtme rotatsioon
-      secret: Salavõti allkirjastamiseks
-      status: Olek
-      title: Veebikonksud
-      webhook: Veebikonks
+        one: 1 enabled event
+        other: "%{count} enabled events"
+      events: Events
+      new: New webhook
+      rotate_secret: Rotate secret
+      secret: Signing secret
+      status: Status
+      title: Webhooks
+      webhook: Webhook
   admin_mailer:
     new_appeal:
       actions:
-        delete_statuses: kustutada postitused
-        disable: lukustada konto
-        mark_statuses_as_sensitive: et märkida postitused kui tundlik sisu
-        none: hoiatus
-        sensitive: et märkida konto kui tundlik sisu
-        silence: piirata konto
-        suspend: et konto kustutada
-      body: "%{target} vaidlustab %{action_taken_by} modereerimisotsuse kuupäevaga %{date}: %{type}. Põhjendus:"
-      next_steps: Võid modereeringu tagasi pööramiseks vaidlustuse rahuldada, või ka mitte.
-      subject: "%{username} on vaidlustanud %{instance} modereerimisotsuse"
+        delete_statuses: to delete their posts
+        disable: to freeze their account
+        mark_statuses_as_sensitive: to mark their posts as sensitive
+        none: a warning
+        sensitive: to mark their account as sensitive
+        silence: to limit their account
+        suspend: to suspend their account
+      body: "%{target} is appealing a moderation decision by %{action_taken_by} from %{date}, which was %{type}. They wrote:"
+      next_steps: You can approve the appeal to undo the moderation decision, or ignore it.
+      subject: "%{username} is appealing a moderation decision on %{instance}"
     new_pending_account:
-      body: Uue konto üksikasjad on allpool. Saad taotluse vastu võtta või tagasi lükata.
-      subject: Uus konto valmis ülevaatluseks serveril %{instance} (%{username})
+      body: The details of the new account are below. You can approve or reject this application.
+      subject: New account up for review on %{instance} (%{username})
     new_report:
-      body: "%{reporter} teavitas kasutajast %{target}"
-      body_remote: Keegi domeenist %{domain} teavitas kasutajast %{target}
-      subject: Uus teavitus %{instance}-ile (#%{id})
+      body: "%{reporter} has reported %{target}"
+      body_remote: Someone from %{domain} has reported %{target}
+      subject: 'New report for %{instance} (#%{id})'
     new_trends:
-      body: 'Järgmised üksused vajavad enne avalikustamist ülevaatust:'
+      body: 'The following items need a review before they can be displayed publicly:'
       new_trending_links:
-        title: Trendikad viited
+        title: Trending links
       new_trending_statuses:
-        title: Trendikad postitused
+        title: Trending posts
       new_trending_tags:
-        no_approved_tags: Hetkel ei ole ühtegi heaks kiidetud populaarset silti.
-        requirements: 'Need on siltide kandidaadid mille hulgast ükskõik milline võib järjekorras mööda jõuda #%{rank} kohal olevast heaks kiidetud sildist. See on hetkel #%{lowest_tag_name} mille seis on %{lowest_tag_score}.'
-        title: Trendikad sildid
-      subject: Uued %{instance} trendid ülevaatuseks
+        no_approved_tags: There are currently no approved trending hashtags.
+        requirements: 'Any of these candidates could surpass the #%{rank} approved trending hashtag, which is currently #%{lowest_tag_name} with a score of %{lowest_tag_score}.'
+        title: Trending hashtags
+      subject: New trends up for review on %{instance}
   aliases:
-    add_new: Pane kolimiseks valmis
-    created_msg: Konto on valmis vastu võtma jälgijaid. Logi sisse oma vanale kontole ja käivita kolimine sealt.
-    deleted_msg: Edukalt kustutasime teise nime. Kolimine sellelt kontolt praegusele on nüüdsest võimatu.
-    empty: Sul pole aliaseid.
-    hint_html: Kui soovid konto siia üle kolida, pead esmalt siin määrama kolitava konto aadressi. Seejärel on konto valmis võtma vastu jälgijaid vanalt kontolt. Kolitava konto aadressi määramine on iseenesest <strong>kahjutu ja tagasipööratav</strong>. <strong>Jälgijate tegelik kolimine käivitatakse vanalt kontolt</strong>.
-    remove: Loobu suunamise vastuvõtmisest
+    add_new: Create alias
+    created_msg: Successfully created a new alias. You can now initiate the move from the old account.
+    deleted_msg: Successfully removed the alias. Moving from that account to this one will no longer be possible.
+    empty: You have no aliases.
+    hint_html: If you want to move from another account to this one, here you can create an alias, which is required before you can proceed with moving followers from the old account to this one. This action by itself is <strong>harmless and reversible</strong>. <strong>The account migration is initiated from the old account</strong>.
+    remove: Unlink alias
   appearance:
-    advanced_web_interface: Kohandatud veebiliides
-    advanced_web_interface_hint: 'Kui soovid kasutada kogu ekraani laiust, saab kohandatud veebiliideses seadistada mitut veergu, nii et samal ajal oleks näha nii palju infot kui soovid: Kodu, teavitused, föderatsiooni ajajoon ning kuitahes palju nimekirju ja silte.'
-    animations_and_accessibility: Animatsioonid ja ligipääs
-    confirmation_dialogs: Kinnitusdialoogid
-    discovery: Avastamine
+    advanced_web_interface: Advanced web interface
+    advanced_web_interface_hint: 'If you want to make use of your entire screen width, the advanced web interface allows you to configure many different columns to see as much information at the same time as you want: Home, notifications, federated timeline, any number of lists and hashtags.'
+    animations_and_accessibility: Animations and accessibility
+    confirmation_dialogs: Confirmation dialogs
+    discovery: Discovery
     localization:
-      body: Mastodoni tõlgivad vabatahtlikud.
-      guide_link: https://crowdin.com/project/mastodon/et
-      guide_link_text: Panustada võib igaüks!
-    sensitive_content: Tundlik sisu
-    toot_layout: Postituse väljanägemine
+      body: Mastodon is translated by volunteers.
+      guide_link: https://crowdin.com/project/mastodon
+      guide_link_text: Everyone can contribute.
+    sensitive_content: Sensitive content
+    toot_layout: Post layout
   application_mailer:
-    notification_preferences: Muuda e-kirjade eelistusi
-    salutation: "%{name}!"
-    settings: 'Muuda e-kirjade eelistusi: %{link}'
-    view: 'Vaade:'
-    view_profile: Vaata profiili
-    view_status: Vaata postitust
+    notification_preferences: Change e-mail preferences
+    salutation: "%{name},"
+    settings: 'Change e-mail preferences: %{link}'
+    view: 'View:'
+    view_profile: View profile
+    view_status: View post
   applications:
-    created: Rakenduse loomine õnnestus
-    destroyed: Rakenduse kustutamine õnnestus
-    regenerate_token: Loo uus access token
-    token_regenerated: Access tokeni loomine õnnestus
-    warning: Ole nende andmetega ettevaatlikud. Ära jaga neid kellegagi!
-    your_token: Su juurdepääsutunnus
+    created: Application successfully created
+    destroyed: Application successfully deleted
+    logout: Logout
+    regenerate_token: Regenerate access token
+    token_regenerated: Access token successfully regenerated
+    warning: Be very careful with this data. Never share it with anyone!
+    your_token: Your access token
   auth:
-    apply_for_account: Konto taotluse esitamine
-    change_password: Salasõna
+    apply_for_account: Request an account
+    change_password: Password
     confirmations:
-      wrong_email_hint: Kui see e-postiaadress pole korrektne, saad seda kontosätetes muuta.
-    delete_account: Konto kustutamine
-    delete_account_html: Kui soovid oma konto kustutada, siis <a href="%{path}">jätka siit</a>. Pead kustutamise eraldi kinnitama.
+      wrong_email_hint: If that e-mail address is not correct, you can change it in account settings.
+    delete_account: Delete account
+    delete_account_html: If you wish to delete your account, you can <a href="%{path}">proceed here</a>. You will be asked for confirmation.
     description:
-      prefix_invited_by_user: "@%{name} kutsub Teid liituma selle Mastodoni serveriga!"
-      prefix_sign_up: Loo Mastodoni konto juba täna!
-      suffix: Kasutajakontoga saad jälgida inimesi, postitada uudiseid ning pidada kirjavahetust ükskõik millise Mastodoni serveri kasutajatega ja muudki!
-    didnt_get_confirmation: Ei saanud kinnituse juhendeid?
-    dont_have_your_security_key: Pole turvavõtit?
-    forgot_password: Salasõna ununenud?
-    invalid_reset_password_token: Salasõna lähtestusvõti on vale või aegunud. Palun taotle uus.
-    link_to_otp: Kaheastmeline kood telefonist või taastekood
-    link_to_webauth: Turvavõtmete seadme kasutamine
-    log_in_with: Sisene kasutades
-    login: Logi sisse
-    logout: Logi välja
-    migrate_account: Teisele kontole ära kolimine
-    migrate_account_html: Kui soovid konto siit ära kolida, <a href="%{path}">saad seda teha siin</a>.
-    or_log_in_with: Või logi sisse koos
-    privacy_policy_agreement_html: Olen tutvunud <a href="%{privacy_policy_path}" target="_blank">isikuandmete kaitse põhimõtetega</a> ja nõustun nendega
+      prefix_invited_by_user: "@%{name} invites you to join this server of Mastodon!"
+      prefix_sign_up: Sign up on Mastodon today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any Mastodon server and more!
+    didnt_get_confirmation: Didn't receive confirmation instructions?
+    dont_have_your_security_key: Don't have your security key?
+    forgot_password: Forgot your password?
+    invalid_reset_password_token: Password reset token is invalid or expired. Please request a new one.
+    link_to_otp: Enter a two-factor code from your phone or a recovery code
+    link_to_webauth: Use your security key device
+    log_in_with: Log in with
+    login: Log in
+    logout: Logout
+    migrate_account: Move to a different account
+    migrate_account_html: If you wish to redirect this account to a different one, you can <a href="%{path}">configure it here</a>.
+    or_log_in_with: Or log in with
+    privacy_policy_agreement_html: I have read and agree to the <a href="%{privacy_policy_path}" target="_blank">privacy policy</a>
     providers:
       cas: CAS
       saml: SAML
-    register: Loo konto
-    registration_closed: "%{instance} ei võta vastu uusi liikmeid"
-    resend_confirmation: Saada kinnitusjuhendid uuesti
-    reset_password: Salasõna lähtestamine
+    register: Sign up
+    registration_closed: "%{instance} is not accepting new members"
+    resend_confirmation: Resend confirmation instructions
+    reset_password: Reset password
     rules:
-      preamble: Neist kinnipidamist jälgivad %{domain} moderaatorid.
-      title: Mõned põhireeglid.
-    security: Turvalisus
-    set_new_password: Uue salasõna määramine
+      accept: Accept
+      back: Back
+      preamble: These are set and enforced by the %{domain} moderators.
+      title: Some ground rules.
+    security: Security
+    set_new_password: Set new password
     setup:
-      email_below_hint_html: Kui allolev e-posti aadress on vale, saad seda muuta siin. Seejärel saadetakse uus kinnituskiri.
-      email_settings_hint_html: Kinnituskiri saadeti e-posti aadressile %{email}. Kui see aadress pole õige, saad muuta seda oma konto sätetest.
-      title: Seadistamine
+      email_below_hint_html: If the below e-mail address is incorrect, you can change it here and receive a new confirmation e-mail.
+      email_settings_hint_html: The confirmation e-mail was sent to %{email}. If that e-mail address is not correct, you can change it in account settings.
+      title: Setup
     sign_in:
-      preamble_html: Logi sisse oma <strong>%{domain}</strong> volitustega. Kui konto asub teises serveris, ei saa siin sisse logida.
-      title: Logi sisse kohta %{domain}
+      preamble_html: Sign in with your <strong>%{domain}</strong> credentials. If your account is hosted on a different server, you will not be able to log in here.
+      title: Sign in to %{domain}
     sign_up:
-      preamble: Selle kontoga saad jälgida ja suhelda kõigi teiste kasutajatega erinevates Mastodoni serverites.
-      title: Loo konto serverisse  %{domain}.
+      preamble: With an account on this Mastodon server, you'll be able to follow any other person on the network, regardless of where their account is hosted.
+      title: Let's get you set up on %{domain}.
     status:
-      account_status: Konto olek
-      confirming: Ootan e-posti kinnitust.
-      functional: Konto on täies mahus kasutatav.
-      pending: Taotlus ootab ülevaatamist meie personali poolt. See võib võtta mõne aja. Kui taotlus on vastu võetud, saadetakse sulle e-kiri.
-      redirecting_to: See konto pole aktiivne, sest on suunatud aadressile %{acct}.
-      view_strikes: Vaata enda eelnevaid juhtumeid
-    too_fast: Vorm esitatud liiga kiirelt, proovi uuesti.
-    use_security_key: Kasuta turvavõtit
+      account_status: Account status
+      confirming: Waiting for e-mail confirmation to be completed.
+      functional: Your account is fully operational.
+      pending: Your application is pending review by our staff. This may take some time. You will receive an e-mail if your application is approved.
+      redirecting_to: Your account is inactive because it is currently redirecting to %{acct}.
+      view_strikes: View past strikes against your account
+    too_fast: Form submitted too fast, try again.
+    use_security_key: Use security key
   authorize_follow:
-    already_following: Juba jälgid seda kontot
-    already_requested: Saatsid juba sellele kontole jälgimistaotluse
-    error: Kahjuks ilmus viga kasutaja kaugserverist otsimisel
-    follow: Jälgi
-    follow_request: 'Oled saatnud jälgimistaotluse kasutajale:'
-    following: 'Õnnestus! Jälgid nüüd kasutajat:'
+    already_following: You are already following this account
+    already_requested: You have already sent a follow request to that account
+    error: Unfortunately, there was an error looking up the remote account
+    follow: Follow
+    follow_request: 'You have sent a follow request to:'
+    following: 'Success! You are now following:'
     post_follow:
-      close: Või sulge lihtsalt see aken.
-      return: Näita kasutaja profiili
-      web: Mine veebi
-    title: Jälgi %{acct}
+      close: Or, you can just close this window.
+      return: Show the user's profile
+      web: Go to web
+    title: Follow %{acct}
   challenge:
-    confirm: Jätka
-    hint_html: "<strong>Nõuanne:</strong> Me ei küsi salasõna uuesti järgmise tunni jooksul."
-    invalid_password: Vigane salasõna
-    prompt: Jätkamiseks salasõna veelkord
+    confirm: Continue
+    hint_html: "<strong>Tip:</strong> We won't ask you for your password again for the next hour."
+    invalid_password: Invalid password
+    prompt: Confirm password to continue
   crypto:
     errors:
-      invalid_key: ei ole õige Ed25519 ega Curve25519 võti
-      invalid_signature: ei ole õige Ed25519 allkiri
+      invalid_key: is not a valid Ed25519 or Curve25519 key
+      invalid_signature: is not a valid Ed25519 signature
   date:
     formats:
-      default: "%d. %b %Y"
-      with_month_name: "%d. %B %Y"
+      default: "%b %d, %Y"
+      with_month_name: "%B %d, %Y"
   datetime:
     distance_in_words:
-      about_x_hours: "%{count}t"
-      about_x_months: "%{count}k"
-      about_x_years: "%{count}a"
-      almost_x_years: "%{count}a"
-      half_a_minute: Just praegu
+      about_x_hours: "%{count}h"
+      about_x_months: "%{count}mo"
+      about_x_years: "%{count}y"
+      almost_x_years: "%{count}y"
+      half_a_minute: Just now
       less_than_x_minutes: "%{count}m"
-      less_than_x_seconds: Just praegu
-      over_x_years: "%{count}a"
-      x_days: "%{count}p"
+      less_than_x_seconds: Just now
+      over_x_years: "%{count}y"
+      x_days: "%{count}d"
       x_minutes: "%{count}m"
-      x_months: "%{count}k"
+      x_months: "%{count}mo"
       x_seconds: "%{count}s"
   deletes:
-    challenge_not_passed: Info, mille sisestasid, oli ebakorrektne
-    confirm_password: Praegune salasõna isikusamasuse kinnitamiseks
-    confirm_username: Sisesta tegevuse kinnitamiseks oma kasutajanimi
-    proceed: Kustuta konto
-    success_msg: Konto kustutamine õnnestus
+    challenge_not_passed: The information you entered was not correct
+    confirm_password: Enter your current password to verify your identity
+    confirm_username: Enter your username to confirm the procedure
+    proceed: Delete account
+    success_msg: Your account was successfully deleted
     warning:
-      before: 'Veendu, et saad aru, mida toob plaanitav muudatus kaasa:'
-      caches: Teiste serverite poolt talletatud sisu võib jääda kättesaadavaks
-      data_removal: Sinu postitused ning kontoandmed kustutatakse jäädavalt
-      email_change_html: Saad <a href="%{path}">muuta oma e-postiaadressi</a> kontot kustutamata
-      email_contact_html: Kui see ikkagi ei saabu, saada abi saamiseks kiri aadressile <a href="mailto:%{email}">%{email}</a>
-      email_reconfirmation_html: Kui kinnituskiri ei saabunud, saab selle <a href="%{path}">uuesti küsida</a>
-      irreversible: Kustutatud kontot ei saa taastada ega uuesti aktiveerida
-      more_details_html: Konto kustutamise kohta loe täpsemalt <a href="%{terms_path}">isikuandmete kaitse põhimõtetest</a>.
-      username_available: Kasutajanimi muutub uuesti kasutatavaks
-      username_unavailable: Kasutajanimi jääb mittekasutatavaks
+      before: 'Before proceeding, please read these notes carefully:'
+      caches: Content that has been cached by other servers may persist
+      data_removal: Your posts and other data will be permanently removed
+      email_change_html: You can <a href="%{path}">change your e-mail address</a> without deleting your account
+      email_contact_html: If it still doesn't arrive, you can e-mail <a href="mailto:%{email}">%{email}</a> for help
+      email_reconfirmation_html: If you are not receiving the confirmation e-mail, you can <a href="%{path}">request it again</a>
+      irreversible: You will not be able to restore or reactivate your account
+      more_details_html: For more details, see the <a href="%{terms_path}">privacy policy</a>.
+      username_available: Your username will become available again
+      username_unavailable: Your username will remain unavailable
   disputes:
     strikes:
-      action_taken: Tulemus
-      appeal: Vaidlustus
-      appeal_approved: Selle juhtumi vaidlustus on rahuldatud ja pole enam kehtiv
-      appeal_rejected: Vaidlustus on tagasi lükatud
-      appeal_submitted_at: Vaidlustus esitatud
-      appealed_msg: Vaidlustus esitatud. Selle rahuldamisel saabub teadaanne.
+      action_taken: Action taken
+      appeal: Appeal
+      appeal_approved: This strike has been successfully appealed and is no longer valid
+      appeal_rejected: The appeal has been rejected
+      appeal_submitted_at: Appeal submitted
+      appealed_msg: Your appeal has been submitted. If it is approved, you will be notified.
       appeals:
-        submit: Esita vaidlustus
-      approve_appeal: Rahulda vaidlustus
-      associated_report: Seotud raport
-      created_at: Kuupäev
-      description_html: See on %{instance} haldajate poolt käesoleva konto suhtes tehtud hoiatuste ja tegevuste ajalugu.
-      recipient: Adressaat
-      reject_appeal: Lükka vaidlustus tagasi
-      status: 'Postitus #%{id}'
-      status_removed: Postitus on süsteemist juba eemaldatud
-      title: "%{action} kuupäevaga %{date}"
+        submit: Submit appeal
+      approve_appeal: Approve appeal
+      associated_report: Associated report
+      created_at: Dated
+      description_html: These are actions taken against your account and warnings that have been sent to you by the staff of %{instance}.
+      recipient: Addressed to
+      reject_appeal: Reject appeal
+      status: 'Post #%{id}'
+      status_removed: Post already removed from system
+      title: "%{action} from %{date}"
       title_actions:
-        delete_statuses: Postituste eemaldamine
-        disable: Konto lukustamine
-        mark_statuses_as_sensitive: Postituste märkimine tundlikena
-        none: Hoiatus
-        sensitive: Konto tundlikuna märkimine
-        silence: Konto piirang
-        suspend: Konto kustutamine
-      your_appeal_approved: Su vaidlustus on heakskiidetud
-      your_appeal_pending: Vaidlustus on esitatud
-      your_appeal_rejected: Vaidlustus on tagasi lükatud
+        delete_statuses: Post removal
+        disable: Freezing of account
+        mark_statuses_as_sensitive: Marking of posts as sensitive
+        none: Warning
+        sensitive: Marking of account as sensitive
+        silence: Limitation of account
+        suspend: Suspension of account
+      your_appeal_approved: Your appeal has been approved
+      your_appeal_pending: You have submitted an appeal
+      your_appeal_rejected: Your appeal has been rejected
   domain_validator:
-    invalid_domain: ei ole sobiv domeeni nimi
+    invalid_domain: is not a valid domain name
   errors:
-    '400': Esitatud päring oli vigane või valesti vormindatud.
-    '403': Sul puudub õigus seda lehte vaadata.
-    '404': Soovitud lehte ei leitud.
-    '406': See lehekülg ei ole soovitavas formaadis saadaval.
-    '410': Soovitud lehekülge pole enam siin.
+    '400': The request you submitted was invalid or malformed.
+    '403': You don't have permission to view this page.
+    '404': The page you are looking for isn't here.
+    '406': This page is not available in the requested format.
+    '410': The page you were looking for doesn't exist here anymore.
     '422':
-      content: Turvalisuse kontroll ebaõnnestus. Kas blokeerid küpsiseid?
-      title: Turvalisuse kontroll ebaõnnestus
-    '429': Aeglustatud
+      content: Security verification failed. Are you blocking cookies?
+      title: Security verification failed
+    '429': Too many requests
     '500':
-      content: Palume vabandust, midagi läks valesti meie pool.
-      title: See lehekülg pole õige
-    '503': Lehekülge ei saanud serveerida ajutise serveri vea tõttu.
-    noscript_html: Et kasutada Mastodoni veebirakendust, palun luba JavaScript. Teise võimalusena proovi mõnda <a href="%{apps_path}">rakendust</a> su platvormile.
+      content: We're sorry, but something went wrong on our end.
+      title: This page is not correct
+    '503': The page could not be served due to a temporary server failure.
+    noscript_html: To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the <a href="%{apps_path}">native apps</a> for Mastodon for your platform.
   existing_username_validator:
-    not_found: ei suutnud leida kohalikku kasutajat selle kasutajanimega
-    not_found_multiple: ei suutnud leida %{usernames}
+    not_found: could not find a local user with that username
+    not_found_multiple: could not find %{usernames}
   exports:
     archive_takeout:
-      date: Kuupäev
-      download: Lae alla oma arhiiv
-      hint_html: "<strong>Postitustest ja üleslaetud meediast</strong> on võimalik saada koopia. Eksporditud andmed on ActivityPub-formaadis, loetav vastava tarkvara poolt. Koopia saamine on võimalik iga 7 päeva järel."
-      in_progress: Loome arhiivi...
-      request: Taotle oma arhiivi
-      size: Suurus
-    blocks: Sa blokeerid
-    bookmarks: Järjehoidjad
+      date: Date
+      download: Download your archive
+      hint_html: You can request an archive of your <strong>posts and uploaded media</strong>. The exported data will be in the ActivityPub format, readable by any compliant software. You can request an archive every 7 days.
+      in_progress: Compiling your archive...
+      request: Request your archive
+      size: Size
+    blocks: You block
+    bookmarks: Bookmarks
     csv: CSV
-    domain_blocks: Domeeni blokeeringud
-    lists: Nimekirjad
-    mutes: Oled vaigistanud
-    storage: Meedia hoidla
+    domain_blocks: Domain blocks
+    lists: Lists
+    mutes: You mute
+    storage: Media storage
   featured_tags:
-    add_new: Lisa uus
+    add_new: Add new
     errors:
-      limit: Oled jõudnud siltide lubatud maksimumarvuni
-    hint_html: "<strong>Mis on esiletõstetud sildid?</strong> Neid silte näidatakse su avalikul profiilil esiletõstetult ning need aitavad teistel leida postitusi, millel on selline silt. See on hea viis, kuidas hoida järge loovtöödel või pikaajalistel projektidel."
+      limit: You have already featured the maximum number of hashtags
+    hint_html: "<strong>What are featured hashtags?</strong> They are displayed prominently on your public profile and allow people to browse your public posts specifically under those hashtags. They are a great tool for keeping track of creative works or long-term projects."
   filters:
     contexts:
-      account: Profiilid
-      home: Kodu ajajoon
-      notifications: Teated
-      public: Avalikud ajajooned
-      thread: Vestlused
+      account: Profiles
+      home: Home and lists
+      notifications: Notifications
+      public: Public timelines
+      thread: Conversations
     edit:
-      add_keyword: Võtmesõna lisamine
-      keywords: Märksõnad
-      statuses: Üksikud postitused
-      statuses_hint_html: See filter rakendub üksikute postituste valimisel olenemata sellest, kas need vastavad allolevatele märksõnadele. <a href="%{path}">Filtri postituste ülevaatamine või kustutamine</a>.
-      title: Muuda filtrit
+      add_keyword: Add keyword
+      keywords: Keywords
+      statuses: Individual posts
+      statuses_hint_html: This filter applies to select individual posts regardless of whether they match the keywords below. <a href="%{path}">Review or remove posts from the filter</a>.
+      title: Edit filter
     errors:
-      deprecated_api_multiple_keywords: Neid parameetreid ei saa selles rakenduses muuta, kuna need kehtivad rohkem kui ühele filtri märksõnale. Kasuta uuemat rakendust või veebiliidest.
-      invalid_context: Puudulik või vale kontekst
+      deprecated_api_multiple_keywords: These parameters cannot be changed from this application because they apply to more than one filter keyword. Use a more recent application or the web interface.
+      invalid_context: None or invalid context supplied
     index:
-      contexts: Filtrid %{contexts}
-      delete: Kustuta
-      empty: Sul pole filtreid.
-      expires_in: Aegub %{distance}
-      expires_on: Aegub %{date}
+      contexts: Filters in %{contexts}
+      delete: Delete
+      empty: You have no filters.
+      expires_in: Expires in %{distance}
+      expires_on: Expires on %{date}
       keywords:
-        one: "%{count} võtmesõna"
-        other: "%{count} võtmesõna"
+        one: "%{count} keyword"
+        other: "%{count} keywords"
       statuses:
-        one: "%{count} postitus"
-        other: "%{count} postitust"
+        one: "%{count} post"
+        other: "%{count} posts"
       statuses_long:
-        one: "%{count} postitus peidetud"
-        other: "%{count} postitust peidetud"
-      title: Filtrid
+        one: "%{count} individual post hidden"
+        other: "%{count} individual posts hidden"
+      title: Filters
     new:
-      save: Salvesta uus filter
-      title: Lisa uus filter
+      save: Save new filter
+      title: Add new filter
     statuses:
-      back_to_filter: Tagasi filtri juurde
+      back_to_filter: Back to filter
       batch:
-        remove: Eemalda filtrist
+        remove: Remove from filter
       index:
-        hint: See filter kehtib üksikute postituste valimisel, sõltumata muudest kriteeriumidest. Sellesse filtrisse saab veebiliidese kaudu rohkem postitusi lisada.
-        title: Filtreeritud postitused
+        hint: This filter applies to select individual posts regardless of other criteria. You can add more posts to this filter from the web interface.
+        title: Filtered posts
   footer:
-    trending_now: Praegu trendikad
+    trending_now: Trending now
   generic:
-    all: Kõik
+    all: All
     all_items_on_page_selected_html:
-      one: "<strong>%{count}</strong> üksus sel lehel valitud."
-      other: Kõik <strong>%{count}</strong> üksust sel lehel on valitud.
+      one: "<strong>%{count}</strong> item on this page is selected."
+      other: All <strong>%{count}</strong> items on this page are selected.
     all_matching_items_selected_html:
-      one: "<strong>%{count}</strong> otsinguvaste valitud."
-      other: Kõik <strong>%{count}</strong> otsinguvastet valitud.
-    changes_saved_msg: Muudatuste salvestamine õnnestus!
-    copy: Kopeeri
-    delete: Kustuta
-    deselect: Ära vali midagi
-    none: Puudub
-    order_by: Järjesta
-    save_changes: Salvesta muudatused
+      one: "<strong>%{count}</strong> item matching your search is selected."
+      other: All <strong>%{count}</strong> items matching your search are selected.
+    changes_saved_msg: Changes successfully saved!
+    copy: Copy
+    delete: Delete
+    deselect: Deselect all
+    none: None
+    order_by: Order by
+    save_changes: Save changes
     select_all_matching_items:
-      one: Vali %{count} otsinguvaste.
-      other: Vali kõik %{count} otsinguvastet.
-    today: täna
+      one: Select %{count} item matching your search.
+      other: Select all %{count} items matching your search.
+    today: today
     validation_errors:
-      one: Midagi pole ikka õigesti! Palun vaata allolev veateade üle
-      other: Midagi pole ikka õigesti! Palun vaata all olevad %{count} veateadet üle
+      one: Something isn't quite right yet! Please review the error below
+      other: Something isn't quite right yet! Please review %{count} errors below
   html_validator:
-    invalid_markup: 'sisaldab valet HTMLi süntaksi: %{error}'
+    invalid_markup: 'contains invalid HTML markup: %{error}'
   imports:
     errors:
-      invalid_csv_file: 'Vigane CSV-fail. Tõrge: %{error}'
-      over_rows_processing_limit: sisaldab rohkem, kui %{count} rida
+      invalid_csv_file: 'Invalid CSV file. Error: %{error}'
+      over_rows_processing_limit: contains more than %{count} rows
     modes:
-      merge: Lõimi
-      merge_long: Hoia olemasolevad andmed ja lisa uusi
-      overwrite: Kirjuta üle
-      overwrite_long: Vaheta praegused andmed uute vastu
-    preface: Saad importida mistahes andmeid, mis on eksporditud teisest serverist. Näiteks nimekirja inimestest, keda jälgid ja keda blokeerid.
-    success: Andmete üleslaadimine õnnestus ning neid töödeldakse
+      merge: Merge
+      merge_long: Keep existing records and add new ones
+      overwrite: Overwrite
+      overwrite_long: Replace current records with the new ones
+    preface: You can import data that you have exported from another server, such as a list of the people you are following or blocking.
+    success: Your data was successfully uploaded and will be processed in due time
     types:
-      blocking: Blokeeringute nimekiri
-      bookmarks: Järjehoidjad
-      domain_blocking: Domeeniblokeeringute nimekiri
-      following: Jälgimiste nimekiri
-      muting: Vaigistuse nimekiri
-    upload: Lae üles
+      blocking: Blocking list
+      bookmarks: Bookmarks
+      domain_blocking: Domain blocking list
+      following: Following list
+      muting: Muting list
+    upload: Upload
   invites:
-    delete: Peata
-    expired: Aegunud
+    delete: Deactivate
+    expired: Expired
     expires_in:
-      '1800': 30 minutit
-      '21600': 6 tundi
-      '3600': 1 tund
-      '43200': 12 tundi
-      '604800': 1 nädal
-      '86400': 1 päev
-    expires_in_prompt: Mitte kunagi
-    generate: Loo
-    invited_by: 'Teid kutsus:'
+      '1800': 30 minutes
+      '21600': 6 hours
+      '3600': 1 hour
+      '43200': 12 hours
+      '604800': 1 week
+      '86400': 1 day
+    expires_in_prompt: Never
+    generate: Generate invite link
+    invited_by: 'You were invited by:'
     max_uses:
-      one: 1 kasutus
-      other: "%{count} kasutust"
-    max_uses_prompt: Piiranguteta
-    prompt: Loo ja jaga linke teistega, et lubada neil liituda selle serveriga
+      one: 1 use
+      other: "%{count} uses"
+    max_uses_prompt: No limit
+    prompt: Generate and share links with others to grant access to this server
     table:
-      expires_at: Aegub
-      uses: Kasutust
-    title: Kutsu inimesi
+      expires_at: Expires
+      uses: Uses
+    title: Invite people
   lists:
     errors:
-      limit: Oled jõudnud loetelude lubatud maksimumarvuni
+      limit: You have reached the maximum number of lists
   login_activities:
     authentication_methods:
-      otp: kaheastmelise autentimise rakendus
-      password: salasõna
-      sign_in_token: e-posti turvakood
-      webauthn: turvavõtmed
-    description_html: Kui paistab tundmatuid tegevusi, tuleks vahetada salasõna ja aktiveerida kaheastmeline autentimine.
-    empty: Autentimisajalugu pole saadaval
-    failed_sign_in_html: Nurjunud sisenemine meetodiga %{method} aadressilt %{ip} (%{browser})
-    successful_sign_in_html: Edukas sisenemine meetodiga %{method} aadressilt %{ip} (%{browser})
-    title: Autentimise ajalugu
+      otp: two-factor authentication app
+      password: password
+      sign_in_token: e-mail security code
+      webauthn: security keys
+    description_html: If you see activity that you don't recognize, consider changing your password and enabling two-factor authentication.
+    empty: No authentication history available
+    failed_sign_in_html: Failed sign-in attempt with %{method} from %{ip} (%{browser})
+    successful_sign_in_html: Successful sign-in with %{method} from %{ip} (%{browser})
+    title: Authentication history
   media_attachments:
     validations:
-      images_and_video: Ei saa lisada video postitusele, milles on juba pildid
-      not_ready: Ei saa lisada faile, mida hetkel töödeldakse. Proovi uuesti mõne hetke pärast!
-      too_many: Ei saa lisada rohkem, kui 4 faili
+      images_and_video: Cannot attach a video to a post that already contains images
+      not_ready: Cannot attach files that have not finished processing. Try again in a moment!
+      too_many: Cannot attach more than 4 files
   migrations:
-    acct: Kolitud aadressile
-    cancel: Tühista ümbersuunamine
-    cancel_explanation: Ümbersuunamise tühistamine aktiveerib siinse konto, kuid teisele kontole üle viidud jälgijaid tagasi ei too.
-    cancelled_msg: Ümbersuunamise tühistamine õnnestus.
+    acct: Moved to
+    cancel: Cancel redirect
+    cancel_explanation: Cancelling the redirect will re-activate your current account, but will not bring back followers that have been moved to that account.
+    cancelled_msg: Successfully cancelled the redirect.
     errors:
-      already_moved: on sama konto, kuhu oled juba kolinud
-      missing_also_known_as: ei viita tagasi sellele kontole
-      move_to_self: ei saa olla praegune konto
-      not_found: ei leitud
-      on_cooldown: Oled hetkel ootel
-    followers_count: Jälgijaid kolimise hetkel
-    incoming_migrations: Teise konto siia kolimine
-    incoming_migrations_html: Kui soovid kolida teise konto siia, pead esmalt määrama <a href="%{path}">kolitava konto aadressi</a>.
-    moved_msg: Su konto suunab nüüd ümber kontole %{acct}, jälgijaid kolitakse üle.
-    not_redirecting: See konto pole praegu kuhugi ümber suunatud.
-    on_cooldown: Oled oma kontot hiljuti kolinud. Uuesti saad seda teha %{count} päeva pärast.
-    past_migrations: Kolimisajalugu
-    proceed_with_move: Käivita kolimine
-    redirected_msg: Konto on suunatud ümber aadressile %{acct}.
-    redirecting_to: Konto on suunatud ümber aadressile %{acct}.
-    set_redirect: Suuna ümber
+      already_moved: is the same account you have already moved to
+      missing_also_known_as: is not an alias of this account
+      move_to_self: cannot be current account
+      not_found: could not be found
+      on_cooldown: You are on cooldown
+    followers_count: Followers at time of move
+    incoming_migrations: Moving from a different account
+    incoming_migrations_html: To move from another account to this one, first you need to <a href="%{path}">create an account alias</a>.
+    moved_msg: Your account is now redirecting to %{acct} and your followers are being moved over.
+    not_redirecting: Your account is not redirecting to any other account currently.
+    on_cooldown: You have recently migrated your account. This function will become available again in %{count} days.
+    past_migrations: Past migrations
+    proceed_with_move: Move followers
+    redirected_msg: Your account is now redirecting to %{acct}.
+    redirecting_to: Your account is redirecting to %{acct}.
+    set_redirect: Set redirect
     warning:
-      backreference_required: Uus konto peab olema esmalt seadistatud võtma vastu siinse konto jälgijaid
-      before: 'Veendu, et saad aru, mida toob plaanitav muudatus kaasa:'
-      cooldown: Kolimisele järgneb ooteaeg, mille vältel kontot mõnda aega ümber kolida ei saa
-      disabled_account: Pärast seda ei ole konto täielik kasutamine võimalik. Säilib andmete eksportimise ja konto taasaktiveerimise võimalus.
-      followers: See käsklus kolib kõik siinse konto jälgijad üle sinu uue konto jälgijateks
-      only_redirect_html: Teine võimalus on <a href="%{path}">märkida konto ümbersuunatuks</a>.
-      other_data: Muid kontoandmeid, sh postitusi automaatselt üle ei kanta
-      redirect: Konto eemaldatakse avalikust kataloogist ja märgitakse profiilis ümbersuunatuks
+      backreference_required: The new account must first be configured to back-reference this one
+      before: 'Before proceeding, please read these notes carefully:'
+      cooldown: After moving there is a waiting period during which you will not be able to move again
+      disabled_account: Your current account will not be fully usable afterwards. However, you will have access to data export as well as re-activation.
+      followers: This action will move all followers from the current account to the new account
+      only_redirect_html: Alternatively, you can <a href="%{path}">only put up a redirect on your profile</a>.
+      other_data: No other data will be moved automatically
+      redirect: Your current account's profile will be updated with a redirect notice and be excluded from searches
   moderation:
-    title: Modereerimine
+    title: Moderation
   move_handler:
-    carry_blocks_over_text: See kasutaja kolis kontolt %{acct}, mis oli keelatud.
-    carry_mutes_over_text: Kasutaja kolis ümber kontolt %{acct}, mis oli vaigistatud.
-    copy_account_note_text: 'Kasutaja kolis kontolt %{acct}, kus olid eelnevad märkmed tema kohta:'
+    carry_blocks_over_text: This user moved from %{acct}, which you had blocked.
+    carry_mutes_over_text: This user moved from %{acct}, which you had muted.
+    copy_account_note_text: 'This user moved from %{acct}, here were your previous notes about them:'
   navigation:
-    toggle_menu: Menüü lülimine
+    toggle_menu: Toggle menu
   notification_mailer:
     admin:
       report:
-        subject: "%{name} esitas raporti"
+        subject: "%{name} submitted a report"
       sign_up:
-        subject: "%{name} liitus"
+        subject: "%{name} signed up"
     favourite:
-      body: "%{name} lisas su postituse lemmikutesse:"
-      subject: "%{name} märkis su postituse lemmikuks"
-      title: Uus lemmik
+      body: 'Your post was favourited by %{name}:'
+      subject: "%{name} favourited your post"
+      title: New favourite
     follow:
-      body: "%{name} alustas su jälgimist!"
-      subject: "%{name} alustas su jälgimist"
-      title: Uus jälgija
+      body: "%{name} is now following you!"
+      subject: "%{name} is now following you"
+      title: New follower
     follow_request:
-      action: Halda jälgimistaotlusi
-      body: "%{name} soovib Teid jälgida"
-      subject: 'Ootav jälgija: %{name}'
-      title: Uus jälgimistaotlus
+      action: Manage follow requests
+      body: "%{name} has requested to follow you"
+      subject: 'Pending follower: %{name}'
+      title: New follow request
     mention:
-      action: Vasta
-      body: "%{name} mainis Teid:"
-      subject: "%{name} mainis Teid"
-      title: Uus mainimine
+      action: Reply
+      body: 'You were mentioned by %{name} in:'
+      subject: You were mentioned by %{name}
+      title: New mention
     poll:
-      subject: "%{name} küsitlus lõppes"
+      subject: A poll by %{name} has ended
     reblog:
-      body: "%{name} jagas edasi postitust:"
-      subject: "%{name} jagas postitust"
-      title: Uus jagamine
+      body: 'Your post was boosted by %{name}:'
+      subject: "%{name} boosted your post"
+      title: New boost
     status:
-      subject: "%{name} postitas äsja"
+      subject: "%{name} just posted"
     update:
-      subject: "%{name} muutis postitust"
+      subject: "%{name} edited a post"
   notifications:
-    email_events: E-posti teadete sündmused
-    email_events_hint: 'Vali sündmused, mille kohta soovid teavitusi:'
-    other_settings: Muud teadete sätted
+    email_events: Events for e-mail notifications
+    email_events_hint: 'Select events that you want to receive notifications for:'
+    other_settings: Other notifications settings
   number:
     human:
       decimal_units:
         format: "%n%u"
         units:
-          billion: mld
-          million: mln
-          quadrillion: kdn
-          thousand: tuh
-          trillion: trn
+          billion: B
+          million: M
+          quadrillion: Q
+          thousand: K
+          trillion: T
+          unit: ''
   otp_authentication:
-    code_hint: Kinnituseks autentimisrakenduse loodud kood
-    description_html: Kui aktiveerida <strong>kaheastmeline autentimine</strong> autentimisrakenduse abil, on sisselogimiseks tarvis telefoni, mis loob sisenemiseks võtmeid.
-    enable: Luba
-    instructions_html: "<strong>See QR-kood on võimalik skannida telefoni Google Authenticatori või sarnasesse ühekordsete aeguvate salasõnade (TOTP) rakendusse</strong>. Nüüdsest genereerib see rakendus koode, mille peab sisenemisel sisestama."
-    manual_instructions: 'Kui pole võimalik QR-koodi skaneerida, on salavõti võimalik sisestada tavatekstina:'
-    setup: Seadista
-    wrong_code: Sisestatud kood on vale! Kas serveri aeg ja seadme aeg on õiged?
+    code_hint: Enter the code generated by your authenticator app to confirm
+    description_html: If you enable <strong>two-factor authentication</strong> using an authenticator app, logging in will require you to be in possession of your phone, which will generate tokens for you to enter.
+    enable: Enable
+    instructions_html: "<strong>Scan this QR code into Google Authenticator or a similar TOTP app on your phone</strong>. From now on, that app will generate tokens that you will have to enter when logging in."
+    manual_instructions: 'If you can''t scan the QR code and need to enter it manually, here is the plain-text secret:'
+    setup: Set up
+    wrong_code: The entered code was invalid! Are server time and device time correct?
   pagination:
-    newer: Uuemad
-    next: Järgmine
-    older: Vanemad
-    prev: Eelm
+    newer: Newer
+    next: Next
+    older: Older
+    prev: Prev
     truncate: "&hellip;"
   polls:
     errors:
-      already_voted: Oled siin hääletusel juba hääletanud
-      duplicate_options: sisaldab samu asju mitu korda
-      duration_too_long: kestab liiga kaua
-      duration_too_short: on liiga vara
-      expired: See küsitlus on juba lõppenud
-      invalid_choice: Valitud küsitluse valikut pole olemas
-      over_character_limit: igaüks ei saa olla rohkem kui %{max} tähemärki
-      too_few_options: peab olema rohkem kui üks vastus
-      too_many_options: ei saa sisaldada rohkem kui %{max} vastust
+      already_voted: You have already voted on this poll
+      duplicate_options: contain duplicate items
+      duration_too_long: is too far into the future
+      duration_too_short: is too soon
+      expired: The poll has already ended
+      invalid_choice: The chosen vote option does not exist
+      over_character_limit: cannot be longer than %{max} characters each
+      too_few_options: must have more than one item
+      too_many_options: can't contain more than %{max} items
   preferences:
-    other: Muu
-    posting_defaults: Postitamise vaikesätted
-    public_timelines: Avalikud ajajooned
+    other: Other
+    posting_defaults: Posting defaults
+    public_timelines: Public timelines
   privacy_policy:
-    title: Isikuandmete kaitse
+    title: Privacy Policy
   reactions:
     errors:
-      limit_reached: Jõutud on erinevate reaktsioonide limiidini
-      unrecognized_emoji: ei ole tuntud emotikoon
+      limit_reached: Limit of different reactions reached
+      unrecognized_emoji: is not a recognized emoji
   relationships:
-    activity: Konto tegevus
-    confirm_follow_selected_followers: Oled kindel, et soovid jälgida valitud jälgijaid?
-    confirm_remove_selected_followers: Oled kindel, et soovid eemaldada valitud jälgijad?
-    confirm_remove_selected_follows: Oled kindel, et soovid eemaldada valitud jälgitavad?
-    dormant: Seisev
-    follow_selected_followers: Valitud jälgijate jälgimine
-    followers: Jälgijad
-    following: Jälgib
-    invited: Kutsutud
-    last_active: Viimati aktiivne
-    most_recent: Viimased
-    moved: Kolinud
-    mutual: Ühine
-    primary: Peamine
-    relationship: Seos
-    remove_selected_domains: Eemalda kõik jälgijad valitud domeenidelt
-    remove_selected_followers: Eemalda valitud jälgijad
-    remove_selected_follows: Lõpeta valitud kasutajate jälgimine
-    status: Konto olek
+    activity: Account activity
+    confirm_follow_selected_followers: Are you sure you want to follow selected followers?
+    confirm_remove_selected_followers: Are you sure you want to remove selected followers?
+    confirm_remove_selected_follows: Are you sure you want to remove selected follows?
+    dormant: Dormant
+    follow_selected_followers: Follow selected followers
+    followers: Followers
+    following: Following
+    invited: Invited
+    last_active: Last active
+    most_recent: Most recent
+    moved: Moved
+    mutual: Mutual
+    primary: Primary
+    relationship: Relationship
+    remove_selected_domains: Remove all followers from the selected domains
+    remove_selected_followers: Remove selected followers
+    remove_selected_follows: Unfollow selected users
+    status: Account status
   remote_follow:
-    missing_resource: Ei ole võimalik leida konto jaoks vajalikku suunamise URLi
+    missing_resource: Could not find the required redirect URL for your account
   reports:
     errors:
-      invalid_rules: ei viita kehtivatele reeglitele
+      invalid_rules: does not reference valid rules
   rss:
-    content_warning: 'Sisuhoiatus:'
+    content_warning: 'Content warning:'
     descriptions:
-      account: "@%{acct} avalikud postitused"
-      tag: 'Avalikud postitused sildiga #%{hashtag}'
+      account: Public posts from @%{acct}
+      tag: 'Public posts tagged #%{hashtag}'
   scheduled_statuses:
-    over_daily_limit: Lubatud ajastatud postituste arv %{limit} päevas on tänaseks ületatud
-    over_total_limit: Oled jõudnud ajastatud postituste lubatud maksimumarvuni %{limit}
-    too_soon: Ajastatud kuupäev peab olema tukevikus
+    over_daily_limit: You have exceeded the limit of %{limit} scheduled posts for today
+    over_total_limit: You have exceeded the limit of %{limit} scheduled posts
+    too_soon: The scheduled date must be in the future
   sessions:
-    activity: Viimane aktiivsus
-    browser: Veebilehitseja
+    activity: Last activity
+    browser: Browser
     browsers:
       alipay: Alipay
-      blackberry: Blackberry
+      blackberry: BlackBerry
       chrome: Chrome
       edge: Microsoft Edge
       electron: Electron
       firefox: Firefox
-      generic: Tundmatu veebilehitseja
+      generic: Unknown browser
       ie: Internet Explorer
       micro_messenger: MicroMessenger
       nokia: Nokia S40 Ovi Browser
@@ -1447,256 +1459,253 @@ et:
       safari: Safari
       uc_browser: UC Browser
       weibo: Weibo
-    current_session: Praegune seanss
-    description: "%{browser} platvormil %{platform}"
-    explanation: Need veebilehitsejad on praegu su Mastodoni kontole sisse loginud.
+    current_session: Current session
+    description: "%{browser} on %{platform}"
+    explanation: These are the web browsers currently logged in to your Mastodon account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
       android: Android
-      blackberry: Blackberry
+      blackberry: BlackBerry
       chrome_os: ChromeOS
       firefox_os: Firefox OS
       ios: iOS
       linux: Linux
-      mac: Mac
-      other: tundmatu platvorm
+      mac: macOS
+      other: unknown platform
       windows: Windows
       windows_mobile: Windows Mobile
       windows_phone: Windows Phone
-    revoke: Tühista
-    revoke_success: Seanssi tühistamine õnnestus
-    title: Seansid
-    view_authentication_history: Konto autentimisajaloo vaatamine
+    revoke: Revoke
+    revoke_success: Session successfully revoked
+    title: Sessions
+    view_authentication_history: View authentication history of your account
   settings:
-    account: Konto
-    account_settings: Kontosätted
-    aliases: Siia kolitavad kontod
-    appearance: Välimus
-    authorized_apps: Lubatud rakendused
-    back: Tagasi Mastodoni
-    delete: Konto kustutamine
-    development: Arendus
-    edit_profile: Muuda profiili
-    export: Andmete eksportimine
-    featured_tags: Esile toodud sildid
-    import: Impordi
-    import_and_export: Import / eksport
-    migrate: Konto kolimine
-    notifications: Teated
-    preferences: Eelistused
-    profile: Profiil
-    relationships: Jälgitud ja jälgijad
-    statuses_cleanup: Automaatne kustutamine
-    strikes: Modereerimisjuhtumid
-    two_factor_authentication: Kaheastmeline autentimine
-    webauthn_authentication: Turvavõtmed
+    account: Account
+    account_settings: Account settings
+    aliases: Account aliases
+    appearance: Appearance
+    authorized_apps: Authorized apps
+    back: Back to Mastodon
+    delete: Account deletion
+    development: Development
+    edit_profile: Edit profile
+    export: Data export
+    featured_tags: Featured hashtags
+    import: Import
+    import_and_export: Import and export
+    migrate: Account migration
+    notifications: Notifications
+    preferences: Preferences
+    profile: Profile
+    relationships: Follows and followers
+    statuses_cleanup: Automated post deletion
+    strikes: Moderation strikes
+    two_factor_authentication: Two-factor Auth
+    webauthn_authentication: Security keys
   statuses:
     attached:
       audio:
         one: "%{count} audio"
-        other: "%{count} audiot"
-      description: 'Manused: %{attached}'
+        other: "%{count} audio"
+      description: 'Attached: %{attached}'
       image:
-        one: "%{count} pilt"
-        other: "%{count} pilti"
+        one: "%{count} image"
+        other: "%{count} images"
       video:
         one: "%{count} video"
-        other: "%{count} videot"
-    boosted_from_html: "%{acct_link} jagamine"
-    content_warning: 'Sisu hoiatus: %{warning}'
-    default_language: Kasutajaliidese keelega sama
+        other: "%{count} videos"
+    boosted_from_html: Boosted from %{acct_link}
+    content_warning: 'Content warning: %{warning}'
+    default_language: Same as interface language
     disallowed_hashtags:
-      one: 'sisaldab ebasobivat silti: %{tags}'
-      other: 'sisaldab ebasobivaid silte: %{tags}'
-    edited_at_html: Muudetud %{date}
+      one: 'contained a disallowed hashtag: %{tags}'
+      other: 'contained the disallowed hashtags: %{tags}'
+    edited_at_html: Edited %{date}
     errors:
-      in_reply_not_found: Postitus, millele üritad vastata, ei näi enam eksisteerivat.
-    open_in_web: Ava veebis
-    over_character_limit: tähtmärkide limiit %{max} ületatud
+      in_reply_not_found: The post you are trying to reply to does not appear to exist.
+    open_in_web: Open in web
+    over_character_limit: character limit of %{max} exceeded
     pin_errors:
-      direct: Ei saa kinnitada postitusi, mis on nähtavad vaid mainitud kasutajatele
-      limit: Kinnitatud on juba maksimaalne arv postitusi
-      ownership: Kellegi teise postitust ei saa kinnitada
-      reblog: Jagamist ei saa kinnitada
+      direct: Posts that are only visible to mentioned users cannot be pinned
+      limit: You have already pinned the maximum number of posts
+      ownership: Someone else's post cannot be pinned
+      reblog: A boost cannot be pinned
     poll:
       total_people:
-        one: "%{count} inimene"
-        other: "%{count} inimest"
+        one: "%{count} person"
+        other: "%{count} people"
       total_votes:
-        one: "%{count} hääl"
-        other: "%{count} häält"
-      vote: Hääleta
-    show_more: Näita rohkem
-    show_newer: Uuemate kuvamine
-    show_older: Vanemate kuvamine
-    show_thread: Kuva lõim
-    sign_in_to_participate: Logi sisse, et liituda vestlusega
+        one: "%{count} vote"
+        other: "%{count} votes"
+      vote: Vote
+    show_more: Show more
+    show_newer: Show newer
+    show_older: Show older
+    show_thread: Show thread
+    sign_in_to_participate: Sign in to participate in the conversation
     title: '%{name}: "%{quote}"'
     visibilities:
-      direct: Otsene
-      private: Ainult jälgijatele
-      private_long: Näevad ainult jälgijad
-      public: Avalik
-      public_long: Postitused on kõigile näha
-      unlisted: Kirjendamata
-      unlisted_long: Kõigile näha, kuid ei näidata avalikel ajajoontel
+      direct: Direct
+      private: Followers-only
+      private_long: Only show to followers
+      public: Public
+      public_long: Everyone can see
+      unlisted: Unlisted
+      unlisted_long: Everyone can see, but not listed on public timelines
   statuses_cleanup:
-    enabled: Vanade postituste automaatne kustutamine
-    enabled_hint: Kustutab automaatselt postitused, mis ületavad määratud ajalimiiti, välja arvatud allpool toodud erandite puhul
-    exceptions: Erandid
-    explanation: Kuna postituste kustutamine on kulukas toiming, tehakse seda aja jooksul aeglaselt, kui server pole muidu hõivatud. Sel põhjusel võidakse postitused kustutada alles mõne aja möödudes pärast vanusepiirini jõudmist.
-    ignore_favs: Eira lemmikuid
-    ignore_reblogs: Eira jagamisi
-    interaction_exceptions: Interaktsioonidel põhinevad erandid
-    interaction_exceptions_explanation: Postitused ei pruugi kustuda, kui meeldimiste või jagamiste arv langeb alla määratu, kui need on kord olnud sellest üle.
-    keep_direct: Säilita otsesõnumid
-    keep_direct_hint: Ei kustuta otsesõnumeid
-    keep_media: Meedialisanditega postituste säilitamine
-    keep_media_hint: Meedialisanditega postitusi ei kustutata
-    keep_pinned: Säilita kinnitatud postitused
-    keep_pinned_hint: Ei kustuta ühtegi kinnitatud postitust
-    keep_polls: Küsitluste säilitamine
-    keep_polls_hint: Ei kustuta ühtegi küsitlust
-    keep_self_bookmark: Säilita postitused järjehoidjates
-    keep_self_bookmark_hint: Ei kustuta oma postitusi, kui need on järjehoidjates
-    keep_self_fav: Säilita meeldinud postitused
-    keep_self_fav_hint: Ei kustuta oma postitusi, kui need on märgitud meeldivaks
+    enabled: Automatically delete old posts
+    enabled_hint: Automatically deletes your posts once they reach a specified age threshold, unless they match one of the exceptions below
+    exceptions: Exceptions
+    explanation: Because deleting posts is an expensive operation, this is done slowly over time when the server is not otherwise busy. For this reason, your posts may be deleted a while after they reach the age threshold.
+    ignore_favs: Ignore favourites
+    ignore_reblogs: Ignore boosts
+    interaction_exceptions: Exceptions based on interactions
+    interaction_exceptions_explanation: Note that there is no guarantee for posts to be deleted if they go below the favourite or boost threshold after having once gone over them.
+    keep_direct: Keep direct messages
+    keep_direct_hint: Doesn't delete any of your direct messages
+    keep_media: Keep posts with media attachments
+    keep_media_hint: Doesn't delete any of your posts that have media attachments
+    keep_pinned: Keep pinned posts
+    keep_pinned_hint: Doesn't delete any of your pinned posts
+    keep_polls: Keep polls
+    keep_polls_hint: Doesn't delete any of your polls
+    keep_self_bookmark: Keep posts you bookmarked
+    keep_self_bookmark_hint: Doesn't delete your own posts if you have bookmarked them
+    keep_self_fav: Keep posts you favourited
+    keep_self_fav_hint: Doesn't delete your own posts if you have favourited them
     min_age:
-      '1209600': 2 nädalat
-      '15778476': 6 kuud
-      '2629746': 1 kuu
-      '31556952': 1 aasta
-      '5259492': 2 kuud
-      '604800': 1 nädal
-      '63113904': 2 aastat
-      '7889238': 3 kuud
-    min_age_label: Ajalimiit
-    min_favs: Säilita postitused, meeldimistega vähemalt
-    min_favs_hint: Ei kustuta ühtegi postitust, mis on saanud vähemalt nii palju lemmikuks märkimist. Postituste kustutamiseks olenemata nende lemmikuks märkimise arvust, jäta tühjaks
-    min_reblogs: Säilita postitused jagatud vähemalt
-    min_reblogs_hint: Ei kustuta postitusi, kui need on jagatud vähemalt nii mitu korda. Tühjaks jättes kustuvad postitused olenemata jagamistest
+      '1209600': 2 weeks
+      '15778476': 6 months
+      '2629746': 1 month
+      '31556952': 1 year
+      '5259492': 2 months
+      '604800': 1 week
+      '63113904': 2 years
+      '7889238': 3 months
+    min_age_label: Age threshold
+    min_favs: Keep posts favourited at least
+    min_favs_hint: Doesn't delete any of your posts that has received at least this number of favourites. Leave blank to delete posts regardless of their number of favourites
+    min_reblogs: Keep posts boosted at least
+    min_reblogs_hint: Doesn't delete any of your posts that has been boosted at least this number of times. Leave blank to delete posts regardless of their number of boosts
   stream_entries:
-    pinned: Kinnitatud postitus
-    reblogged: jagatud
-    sensitive_content: Tundlik sisu
+    pinned: Pinned post
+    reblogged: boosted
+    sensitive_content: Sensitive content
   strikes:
     errors:
-      too_late: On hilja seda juhtumit vaidlustada
+      too_late: It is too late to appeal this strike
   tags:
-    does_not_match_previous_name: ei ühti eelmise nimega
+    does_not_match_previous_name: does not match the previous name
   themes:
-    contrast: Mastodon (Kõrge kontrast)
-    default: Mastodon (Tume)
-    mastodon-light: Mastodon (Hele)
+    contrast: Mastodon (High contrast)
+    default: Mastodon (Dark)
+    mastodon-light: Mastodon (Light)
   time:
     formats:
-      default: "%d. %B, %Y. aastal, kell %H:%M"
-      month: "%B %Y"
+      default: "%b %d, %Y, %H:%M"
+      month: "%b %Y"
       time: "%H:%M"
   two_factor_authentication:
-    add: Lisa
-    disable: Keela 2FA
-    disabled_success: Kaheastmeline autentimine keelatud
-    edit: Muuda
-    enabled: Kaheastmeline autentimine on lubatud
-    enabled_success: Kaheastmeline autentimine lubatud
-    generate_recovery_codes: Loo taastekoodid
-    lost_recovery_codes: Taastekoodide abil on võimalik telefoni kaotsimineku puhul kontole siseneda. Taastekoodide puudumisel saab need siin luua. Eelnevad taastekoodid kaotavad kehtivuse.
-    methods: Kaheastmelised meetodid
-    otp: Autentimisrakendus
-    recovery_codes: Taastekoodide varundamine
-    recovery_codes_regenerated: Taastekoodid edukalt taasloodud
-    recovery_instructions_html: Kui telefon peaks kaotsi minema, on võimalik kontole sisenemisel kasutada ühte järgnevatest taastekoodidest. <strong>Hoia taastekoode turvaliselt</strong>. Näiteks võib neid prindituna hoida koos teiste tähtsate dokumentidega.
-    webauthn: Turvavõtmed
+    add: Add
+    disable: Disable 2FA
+    disabled_success: Two-factor authentication successfully disabled
+    edit: Edit
+    enabled: Two-factor authentication is enabled
+    enabled_success: Two-factor authentication successfully enabled
+    generate_recovery_codes: Generate recovery codes
+    lost_recovery_codes: Recovery codes allow you to regain access to your account if you lose your phone. If you've lost your recovery codes, you can regenerate them here. Your old recovery codes will be invalidated.
+    methods: Two-factor methods
+    otp: Authenticator app
+    recovery_codes: Backup recovery codes
+    recovery_codes_regenerated: Recovery codes successfully regenerated
+    recovery_instructions_html: If you ever lose access to your phone, you can use one of the recovery codes below to regain access to your account. <strong>Keep the recovery codes safe</strong>. For example, you may print them and store them with other important documents.
+    webauthn: Security keys
   user_mailer:
     appeal_approved:
-      action: Oma kontole
-      explanation: "%{appeal_date} esitatud vaidlustus %{strike_date} otsuse kohta on rahuldatud. Konto on ennistatud."
-      subject: "%{date} esitatud vaidlustus on rahuldatud"
-      title: Vaidlustus rahuldatud
+      action: Go to your account
+      explanation: The appeal of the strike against your account on %{strike_date} that you submitted on %{appeal_date} has been approved. Your account is once again in good standing.
+      subject: Your appeal from %{date} has been approved
+      title: Appeal approved
     appeal_rejected:
-      explanation: "%{appeal_date} esitatud vaidlustus %{strike_date} otsuse kohta on tagasi lükatud."
-      subject: "%{date} esitatud vaidlustus on tagasi lükatud"
-      title: Vaidlustus tagasi lükatud
+      explanation: The appeal of the strike against your account on %{strike_date} that you submitted on %{appeal_date} has been rejected.
+      subject: Your appeal from %{date} has been rejected
+      title: Appeal rejected
     backup_ready:
-      explanation: Taotlesid oma Mastodoni konto varukoopiat. See on nüüd valmis allalaadimiseks!
-      subject: Arhiiv on allalaadimiseks valmis
-      title: Arhiivi väljavõte
+      explanation: You requested a full backup of your Mastodon account. It's now ready for download!
+      subject: Your archive is ready for download
+      title: Archive takeout
     suspicious_sign_in:
-      change_password: muuta oma salasõna
-      details: 'Sisenemise üksikasjad:'
-      explanation: Täheldasime kontole sisenemise uuelt IP-aadressilt.
-      further_actions_html: Kui see tuleb üllatusena, soovitame viivitamata %{action} ja lülitada konto turvamiseks sisse kaheastmeline autentimine.
-      subject: Kontole sisenemine uuelt IP-aadressilt
-      title: Uus sisenemine
+      change_password: change your password
+      details: 'Here are details of the sign-in:'
+      explanation: We've detected a sign-in to your account from a new IP address.
+      further_actions_html: If this wasn't you, we recommend that you %{action} immediately and enable two-factor authentication to keep your account secure.
+      subject: Your account has been accessed from a new IP address
+      title: A new sign-in
     warning:
-      appeal: Vaidlustuse esitamine
-      appeal_description: Kui see võib olla eksitus, on võimalik %{instance} haldajatele esitada vaidlustus.
+      appeal: Submit an appeal
+      appeal_description: If you believe this is an error, you can submit an appeal to the staff of %{instance}.
       categories:
-        spam: Rämpspost
-        violation: Sisu eirab järgmisi kogukonnajuhiseid
+        spam: Spam
+        violation: Content violates the following community guidelines
       explanation:
-        delete_statuses: Mõned su positustest eiravad serveri reegleid või tavasid ning on seetõttu %{instance} moderaatorite poolt eemaldatud.
-        disable: Konto kasutamine pole enam võimalik, kuid profiil ja muud andmed säilivad. Andmetest on võimalik saada varukoopiat, muuta konto seadeid või konto kustutada.
-        mark_statuses_as_sensitive: Mõned postitused märgiti %{instance} moderaatorite poolt kui tundlik sisu. See tähendab, et meedia eelvaadet vaikimisi ei kuvata. Edaspidi postitades on soovitatav seesugune meedia märkida kui tundlik sisu.
-        sensitive: Praegusest alates saab kogu Su üleslaetav meedia tundliku sisu märke ja selle eelvaadet ei kuvata enne hoiatust.
-        silence: Saad kontot kasutada, ent sel serveril näevad su postitusi ainult need, kes on juba jälgijad, ning võid välja jääda erinevatest avastamisvõimalustest. Käsitsi jälgima asumine on siiski võimalik.
-        suspend: Konto kasutamine pole enam võimalik ja profiil ja muud andmed pole enam kättesaadavad. Sisenemine on võimalik andmetest varukoopia saamiseks kuni nende lõpliku kustutamiseni 30 päeva pärast, ent säiltame mõned põhiandmed kustutamisest mööda hiilimise vältimiseks.
-      reason: 'Põhjus:'
-      statuses: 'Tsiteeritud postitused:'
+        delete_statuses: Some of your posts have been found to violate one or more community guidelines and have been subsequently removed by the moderators of %{instance}.
+        disable: You can no longer use your account, but your profile and other data remains intact. You can request a backup of your data, change account settings or delete your account.
+        mark_statuses_as_sensitive: Some of your posts have been marked as sensitive by the moderators of %{instance}. This means that people will need to tap the media in the posts before a preview is displayed. You can mark media as sensitive yourself when posting in the future.
+        sensitive: From now on, all your uploaded media files will be marked as sensitive and hidden behind a click-through warning.
+        silence: You can still use your account but only people who are already following you will see your posts on this server, and you may be excluded from various discovery features. However, others may still manually follow you.
+        suspend: You can no longer use your account, and your profile and other data are no longer accessible. You can still login to request a backup of your data until the data is fully removed in about 30 days, but we will retain some basic data to prevent you from evading the suspension.
+      reason: 'Reason:'
+      statuses: 'Posts cited:'
       subject:
-        delete_statuses: Postitused kontol %{acct} on eemaldatud
-        disable: Su konto %{acct} on lukustatud
-        mark_statuses_as_sensitive: Konto %{acct} postitused on märgitud kui tundlik sisu
-        none: Hoiatus kasutajale %{acct}
-        sensitive: Konto %{acct} postitused on nüüdsest märgitud kui tundlik sisu
-        silence: Su kontole %{acct} on kehtestatud piirangud
-        suspend: Su konto %{acct} on peatatud
+        delete_statuses: Your posts on %{acct} have been removed
+        disable: Your account %{acct} has been frozen
+        mark_statuses_as_sensitive: Your posts on %{acct} have been marked as sensitive
+        none: Warning for %{acct}
+        sensitive: Your posts on %{acct} will be marked as sensitive from now on
+        silence: Your account %{acct} has been limited
+        suspend: Your account %{acct} has been suspended
       title:
-        delete_statuses: Postitused eemaldatud
-        disable: Konto lukustatud
-        mark_statuses_as_sensitive: Postitused märgitud kui tundlik sisu
-        none: Hoiatus
-        sensitive: Konto märgitud kui tundlik sisu
-        silence: Konto limiteeritud
-        suspend: Konto kustutatud
+        delete_statuses: Posts removed
+        disable: Account frozen
+        mark_statuses_as_sensitive: Posts marked as sensitive
+        none: Warning
+        sensitive: Account marked as sensitive
+        silence: Account limited
+        suspend: Account suspended
     welcome:
-      edit_profile_action: Seadista oma profiil
-      edit_profile_step: |-
-        Esmalt seadista oma profiil. Saad lisada profiilipildi, muuta ekraaninime, lisada lühikirjelduse ja teha paljut muud. Vaata üle oma konto seaded. Saad ise otsustada, kui nähtav on konto teiste jaoks, mis keeltes postitusi oma ajavoos näha soovid ning kui privaatne peaks konto olema.
-
-        Kui mõni asi arusaamatuks jääb, siis võib vaadata juhendvideot: https://youtu.be/J4ItbTOAw7Q
-      explanation: Siin on mõned nõuanded, mis aitavad alustada
-      final_action: Alusta postitamist
-      final_step: 'Nüüd tee oma esimene postitus. Hea tava on uues kohas ennast tutvustada ning kindlasti kasuta selles postituses ka teemaviidet #tutvustus. Isegi kui sul ei ole veel jälgijaid, siis su postitusi näevad kohalikul ajajoonel ka kõik teised serveri kasutajad.'
-      full_handle: Kasutajanimi Mastodon võrgustikus
-      full_handle_hint: Kui jagad kasutajanime väljaspool serverit, siis kasuta kindlasti pikka nime. Erinevates serverites võib olla sama kasutajanimega liikmeid.
-      subject: Tere tulemast Mastodoni
-      title: Tere tulemast, %{name}!
+      edit_profile_action: Setup profile
+      edit_profile_step: You can customize your profile by uploading a profile picture, changing your display name and more. You can opt-in to review new followers before they’re allowed to follow you.
+      explanation: Here are some tips to get you started
+      final_action: Start posting
+      final_step: 'Start posting! Even without followers, your public posts may be seen by others, for example on the local timeline or in hashtags. You may want to introduce yourself on the #introductions hashtag.'
+      full_handle: Your full handle
+      full_handle_hint: This is what you would tell your friends so they can message or follow you from another server.
+      subject: Welcome to Mastodon
+      title: Welcome aboard, %{name}!
   users:
-    follow_limit_reached: Ei saa jälgida rohkem kui %{limit} inimest
-    invalid_otp_token: Vale kaheastmeline võti
-    otp_lost_help_html: Kui kaotasid ligipääsu mõlemale, saad võtta ühendust %{email}-iga
-    seamless_external_login: Välise teenuse kaudu sisse logides pole salasõna ja e-posti sätted saadaval.
-    signed_in_as: 'Sisse logitud kasutajana:'
+    follow_limit_reached: You cannot follow more than %{limit} people
+    invalid_otp_token: Invalid two-factor code
+    otp_lost_help_html: If you lost access to both, you may get in touch with %{email}
+    seamless_external_login: You are logged in via an external service, so password and e-mail settings are not available.
+    signed_in_as: 'Signed in as:'
   verification:
-    explanation_html: 'Saad <strong>kinnitada ennast oma profiili veebiviidete omanikuna</strong>. Selleks peab viidatud veebilehel olema link tagasi su Mastodoni profiilile. Tagasi saatval lingil <strong>peab</strong> olema <code>rel="me"</code> atribuut. Lingi tekstiline sisu ei ole oluline. Siin on üks näide:'
-    verification: Kinnitamine
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Mastodon profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
+    verification: Verification
   webauthn_credentials:
-    add: Uue turvavõtme lisamine
+    add: Add new security key
     create:
-      error: Turvavõtme lisamisel tekkis tõrge. Proovi palun uuesti.
-      success: Turvavõti edukalt lisatud.
-    delete: Kustuta
-    delete_confirmation: Kindel, et kustutada see turvavõti?
-    description_html: Lubades <strong>turvavõtmega autentimise</strong> on sisenemisel tarvis ühte turvavõtmetest.
+      error: There was a problem adding your security key. Please try again.
+      success: Your security key was successfully added.
+    delete: Delete
+    delete_confirmation: Are you sure you want to delete this security key?
+    description_html: If you enable <strong>security key authentication</strong>, logging in will require you to use one of your security keys.
     destroy:
-      error: Turvavõtme kustutamisel tekkis tõrge. Palun proovi uuesti.
-      success: Turvavõtmed edukalt kustutatud.
-    invalid_credential: Vigane turvavõti
-    nickname_hint: Uue turvavõtme hüüdnimi
-    not_enabled: Veebiautentimine pole sisse lülitatud
-    not_supported: See veebilehitseja ei toeta turvavõtmeid
-    otp_required: Turvavõtmete kasutamiseks tuleb eelnevalt sisse lülitada kaheastmeline autentimine.
-    registered_on: Registreeritud %{date}
+      error: There was a problem deleting you security key. Please try again.
+      success: Your security key was successfully deleted.
+    invalid_credential: Invalid security key
+    nickname_hint: Enter the nickname of your new security key
+    not_enabled: You haven't enabled WebAuthn yet
+    not_supported: This browser doesn't support security keys
+    otp_required: To use security keys please enable two-factor authentication first.
+    registered_on: Registered on %{date}

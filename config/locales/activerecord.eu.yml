@@ -3,53 +3,53 @@ eu:
   activerecord:
     attributes:
       poll:
-        expires_at: Epemuga
-        options: Aukerak
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Zerbitzu-hitzarmena
-        email: E-posta helbidea
-        locale: Eskualdeko ezarpenak
-        password: Pasahitza
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Erabiltzaile-izena
+        username: Username
       user/invite_request:
-        text: Arrazoia
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: letrak, zenbakiak eta gidoi baxuak besterik ez
-              reserved: erreserbatuta dago
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: ez da baliozko URL bat
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: ez da baliozko URL bat
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: gaizki eratua dago
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: mezu honentzat bazegoen aurretik
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: onartu gabeko e-posta hornitzaile bat erabiltzen du
-              unreachable: dirudienez ez da existitzen
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: ezin du gaur egungo zure rola baino goragokoa izan
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: oinarrizko rolarentzat seguruak ez diren baimenak ditu
-              elevated: ezin du eduki zure uneko rolak ez duen baimenik
-              own_role: ezin da aldatu zure uneko rolarekin aldatu
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: ezin du zure uneko rola baino goragokoa izan
-              own_role: ezin da aldatu zure uneko rolarekin
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
