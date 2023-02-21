@@ -1,5 +1,5 @@
 ---
-bo:
+bo-BT:
   activerecord:
     attributes:
       poll:
