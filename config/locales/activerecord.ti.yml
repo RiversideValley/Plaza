@@ -1,5 +1,5 @@
 ---
-ti:
+ti-ER:
   activerecord:
     attributes:
       poll:
