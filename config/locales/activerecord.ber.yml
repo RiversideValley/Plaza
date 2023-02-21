@@ -1,5 +1,5 @@
 ---
-ber:
+ber-DZ:
   activerecord:
     attributes:
       poll:
