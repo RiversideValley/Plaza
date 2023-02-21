@@ -1,5 +1,5 @@
 ---
-mos:
+mos-MOS:
   activerecord:
     attributes:
       poll:
