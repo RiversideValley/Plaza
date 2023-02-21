@@ -1,5 +1,5 @@
 ---
-jbo:
+jbo-EN:
   activerecord:
     attributes:
       poll:
