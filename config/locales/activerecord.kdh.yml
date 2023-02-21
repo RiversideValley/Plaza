@@ -1,5 +1,5 @@
 ---
-kdh:
+kdh-KDH:
   activerecord:
     attributes:
       poll:
