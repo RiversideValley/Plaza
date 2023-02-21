@@ -1,5 +1,5 @@
 ---
-dsb:
+dsb-DE:
   activerecord:
     attributes:
       poll:
