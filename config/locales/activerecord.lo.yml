@@ -1,5 +1,5 @@
 ---
-lo:
+lo-LA:
   activerecord:
     attributes:
       poll:
