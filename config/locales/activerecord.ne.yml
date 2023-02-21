@@ -1,5 +1,5 @@
 ---
-ne-NP:
+ne-IN:
   activerecord:
     attributes:
       poll:
