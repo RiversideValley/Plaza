@@ -1,5 +1,5 @@
 ---
-nds:
+nds-DE:
   activerecord:
     attributes:
       poll:
