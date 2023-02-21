@@ -1,5 +1,5 @@
 ---
-pi:
+pi-IN:
   activerecord:
     attributes:
       poll:
