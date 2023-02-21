@@ -1,5 +1,5 @@
 ---
-lb:
+lb-LU:
   activerecord:
     attributes:
       poll:
