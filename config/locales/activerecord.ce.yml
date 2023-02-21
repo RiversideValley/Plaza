@@ -1,5 +1,5 @@
 ---
-ce:
+ce-CE:
   activerecord:
     attributes:
       poll:
