@@ -1,5 +1,5 @@
 ---
-ha:
+ha-HG:
   activerecord:
     attributes:
       poll:
