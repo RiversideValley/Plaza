@@ -1,5 +1,5 @@
 ---
-cv:
+cv-CU:
   activerecord:
     attributes:
       poll:
