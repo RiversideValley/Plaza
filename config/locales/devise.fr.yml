@@ -1,115 +1,115 @@
 ---
-fr-BE:
+fr-LU:
   devise:
     confirmations:
-      confirmed: Your email address has been successfully confirmed.
-      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
-      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      confirmed: Votre adresse de courriel a été validée.
+      send_instructions: Vous allez recevoir par courriel les instructions nécessaires à la confirmation de votre compte dans quelques minutes. Veuillez, dans le cas où vous ne recevriez pas ce message, vérifier votre dossier d’indésirables.
+      send_paranoid_instructions: Si votre adresse électronique existe dans notre base de données, vous allez bientôt recevoir un courriel contenant les instructions de confirmation de votre compte. Veuillez, dans le cas où vous ne recevriez pas ce message, vérifier votre dossier d’indésirables.
     failure:
-      already_authenticated: You are already signed in.
-      inactive: Your account is not activated yet.
-      invalid: Invalid %{authentication_keys} or password.
-      last_attempt: You have one more attempt before your account is locked.
-      locked: Your account is locked.
-      not_found_in_database: Invalid %{authentication_keys} or password.
-      pending: Your account is still under review.
-      timeout: Your session expired. Please sign in again to continue.
-      unauthenticated: You need to sign in or sign up before continuing.
-      unconfirmed: You have to confirm your email address before continuing.
+      already_authenticated: Vous êtes déjà connecté⋅e.
+      inactive: Votre compte n’est pas encore activé.
+      invalid: '%{authentication_keys} ou mot de passe invalide.'
+      last_attempt: Vous avez droit à une dernière tentative avant que votre compte ne soit verrouillé.
+      locked: Votre compte est verrouillé.
+      not_found_in_database: '%{authentication_keys} ou mot de passe invalide.'
+      pending: Votre compte est toujours en cours d'approbation.
+      timeout: Votre session a expiré. Veuillez vous reconnecter pour continuer.
+      unauthenticated: Vous devez vous connecter ou vous inscrire pour continuer.
+      unconfirmed: Vous devez valider votre adresse de courriel pour continuer.
     mailer:
       confirmation_instructions:
-        action: Verify email address
-        action_with_app: Confirm and return to %{app}
-        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
-        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
-        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
-        subject: 'Mastodon: Confirmation instructions for %{instance}'
-        title: Verify email address
+        action: Vérifier l’adresse de courriel
+        action_with_app: Confirmer et retourner à %{app}
+        explanation: Vous avez créé un compte sur %{host} avec cette adresse courriel. Vous êtes à un clic de l’activer. Si ce n’était pas vous, veuillez ignorer ce courriel.
+        explanation_when_pending: Vous avez demandé à vous inscrire à %{host} avec cette adresse de courriel. Une fois que vous aurez confirmé cette adresse, nous étudierons votre demande. Vous ne pourrez pas vous connecter d’ici-là. Si votre demande est refusée, vos données seront supprimées du serveur, aucune action supplémentaire de votre part n’est donc requise. Si vous n’êtes pas à l’origine de cette demande, veuillez ignorer ce message.
+        extra_html: Merci de consultez également <a href="%{terms_path}">les règles du serveur</a> et <a href="%{policy_path}">nos conditions d’utilisation</a>.
+        subject: 'Mastodon : Merci de confirmer votre inscription sur %{instance}'
+        title: Vérifiez l’adresse de courriel
       email_changed:
-        explanation: 'The email address for your account is being changed to:'
-        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
-        subject: 'Mastodon: Email changed'
-        title: New email address
+        explanation: 'L’adresse de courriel de votre compte est en cours de modification pour devenir :'
+        extra: Si vous n’avez pas changé votre adresse courriel, il est probable que quelqu’un ait eu accès à votre compte. Veuillez changer votre mot de passe immédiatement ou contacter l’administrateur·rice du serveur si vous êtes bloqué·e hors de votre compte.
+        subject: 'Mastodon : Courriel modifié'
+        title: Nouvelle adresse de courriel
       password_change:
-        explanation: The password for your account has been changed.
-        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
-        subject: 'Mastodon: Password changed'
-        title: Password changed
+        explanation: Le mot de passe de votre compte a été changé.
+        extra: Si vous n’avez pas changé votre mot de passe, il est probable que quelqu’un ait eu accès à votre compte. Veuillez changer votre mot de passe immédiatement ou contacter l’administrateur·rice du serveur si vous êtes bloqué·e hors de votre compte.
+        subject: 'Mastodon : Votre mot de passe a été modifié avec succès'
+        title: Mot de passe modifié
       reconfirmation_instructions:
-        explanation: Confirm the new address to change your email.
-        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
-        subject: 'Mastodon: Confirm email for %{instance}'
-        title: Verify email address
+        explanation: Confirmez la nouvelle adresse pour changer votre courriel.
+        extra: Si ce changement n’a pas été initié par vous, veuillez ignorer ce courriel. L’adresse de courriel du compte Mastodon ne changera pas tant que vous n’aurez pas cliqué sur le lien ci-dessus.
+        subject: 'Mastodon : Confirmez l’adresse de courriel pour %{instance}'
+        title: Vérifier l’adresse courriel
       reset_password_instructions:
-        action: Change password
-        explanation: You requested a new password for your account.
-        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
-        subject: 'Mastodon: Reset password instructions'
-        title: Password reset
+        action: Modifier le mot de passe
+        explanation: Vous avez demandé un nouveau mot de passe pour votre compte.
+        extra: Si vous ne l’avez pas demandé, veuillez ignorer ce courriel. Votre mot de passe ne changera pas tant que vous n’aurez pas cliqué sur le lien ci-dessus et que vous n’en aurez pas créé un nouveau.
+        subject: 'Mastodon : Instructions pour changer votre mot de passe'
+        title: Réinitialisation du mot de passe
       two_factor_disabled:
-        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
-        subject: 'Mastodon: Two-factor authentication disabled'
-        title: 2FA disabled
+        explanation: L'authentification à deux facteurs pour votre compte a été désactivée. La connexion est maintenant possible en utilisant uniquement l'adresse courriel et le mot de passe.
+        subject: 'Mastodon : authentification à deux facteurs désactivée'
+        title: 2FA désactivée
       two_factor_enabled:
-        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
-        subject: 'Mastodon: Two-factor authentication enabled'
-        title: 2FA enabled
+        explanation: L'authentification à deux facteurs a été activée pour votre compte. Un jeton généré par l'application appairée TOTP sera nécessaire pour vous connecter.
+        subject: 'Mastodon : authentification à deux facteurs activée'
+        title: A2F activée
       two_factor_recovery_codes_changed:
-        explanation: The previous recovery codes have been invalidated and new ones generated.
-        subject: 'Mastodon: Two-factor recovery codes re-generated'
-        title: 2FA recovery codes changed
+        explanation: Les codes de récupération précédents ont été invalidés et de nouveaux ont été générés.
+        subject: 'Mastodon : codes de récupération à deux facteurs régénérés'
+        title: Codes de récupération A2F modifiés
       unlock_instructions:
-        subject: 'Mastodon: Unlock instructions'
+        subject: 'Mastodon : Instructions pour déverrouiller votre compte'
       webauthn_credential:
         added:
-          explanation: The following security key has been added to your account
-          subject: 'Mastodon: New security key'
-          title: A new security key has been added
+          explanation: La clé de sécurité suivante a été ajoutée à votre compte
+          subject: 'Mastodon: Nouvelle clé de sécurité'
+          title: Une nouvelle clé de sécurité a été ajoutée
         deleted:
-          explanation: The following security key has been deleted from your account
-          subject: 'Mastodon: Security key deleted'
-          title: One of your security keys has been deleted
+          explanation: La clé de sécurité suivante a été supprimée de votre compte
+          subject: 'Mastodon: Clé de sécurité supprimée'
+          title: Une de vos clés de sécurité a été supprimée
       webauthn_disabled:
-        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
-        subject: 'Mastodon: Authentication with security keys disabled'
-        title: Security keys disabled
+        explanation: L'authentification avec les clés de sécurité a été désactivée pour votre compte. La connexion est maintenant possible en utilisant uniquement le jeton généré par l'application TOTP appairée.
+        subject: 'Mastodon: Authentification avec clés de sécurité désactivée'
+        title: Clés de sécurité désactivées
       webauthn_enabled:
-        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
-        subject: 'Mastodon: Security key authentication enabled'
-        title: Security keys enabled
+        explanation: L'authentification par clé de sécurité a été activée pour votre compte. Votre clé de sécurité peut maintenant être utilisée pour vous connecter.
+        subject: 'Mastodon: Authentification de la clé de sécurité activée'
+        title: Clés de sécurité activées
     omniauth_callbacks:
-      failure: Could not authenticate you from %{kind} because “%{reason}”.
-      success: Successfully authenticated from %{kind} account.
+      failure: 'Nous n’avons pas pu vous authentifier via %{kind} : ''%{reason}''.'
+      success: Authentifié avec succès via %{kind}.
     passwords:
-      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
-      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
-      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
-      updated: Your password has been changed successfully. You are now signed in.
-      updated_not_active: Your password has been changed successfully.
+      no_token: Vous ne pouvez accéder à cette page sans passer par un courriel de réinitialisation de mot de passe. Si vous êtes passé⋅e par un courriel de ce type, assurez-vous d’utiliser l’URL complète.
+      send_instructions: Si votre adresse de courriel existe dans notre base de données, vous allez recevoir un lien de réinitialisation par courriel. Veuillez, dans le cas où vous ne recevriez pas ce message, vérifier votre dossier d’indésirables.
+      send_paranoid_instructions: Si votre adresse de courriel existe dans notre base de données, vous allez recevoir un lien de réinitialisation par courriel. Veuillez, dans le cas où vous ne recevriez pas ce message, vérifier votre dossier d’indésirables.
+      updated: Votre mot de passe a été modifié avec succès, vous êtes maintenant connecté.
+      updated_not_active: Votre mot de passe a été modifié avec succès.
     registrations:
-      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
-      signed_up: Welcome! You have signed up successfully.
-      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
-      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
-      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
-      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
-      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
-      updated: Your account has been updated successfully.
+      destroyed: Au revoir ! Votre compte a été supprimé avec succès. Nous espérons vous revoir bientôt.
+      signed_up: Bienvenue ! Vous êtes connecté.
+      signed_up_but_inactive: Vous êtes bien enregistré·e. Vous ne pouvez cependant pas vous connecter car votre compte n’est pas encore activé.
+      signed_up_but_locked: Vous êtes bien enregistré·e. Vous ne pouvez cependant pas vous connecter car votre compte est verrouillé.
+      signed_up_but_pending: Un message avec un lien de confirmation a été envoyé à votre adresse courriel. Après avoir cliqué sur le lien, nous examinerons votre demande. Vous serez informé·e si elle a été approuvée.
+      signed_up_but_unconfirmed: Un message contenant un lien de confirmation a été envoyé à votre adresse de courriel. Ouvrez ce lien pour activer votre compte. Veuillez vérifier votre dossier d'indésirables si vous ne recevez pas le courriel.
+      update_needs_confirmation: Votre compte a bien été mis à jour, mais nous devons vérifier votre nouvelle adresse de courriel. Merci de vérifier vos courriels et de cliquer sur le lien de confirmation pour finaliser la validation de votre nouvelle adresse. Si vous n'avez pas reçu le courriel, vérifiez votre dossier d’indésirables.
+      updated: Votre compte a été modifié avec succès.
     sessions:
-      already_signed_out: Signed out successfully.
-      signed_in: Signed in successfully.
-      signed_out: Signed out successfully.
+      already_signed_out: Déconnecté·e avec succès.
+      signed_in: Connecté·e.
+      signed_out: Déconnecté·e.
     unlocks:
-      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
-      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
-      unlocked: Your account has been unlocked successfully. Please sign in to continue.
+      send_instructions: Vous allez recevoir les instructions nécessaires au déverrouillage de votre compte dans quelques instants. Veuillez, dans le cas où vous ne recevriez pas ce message, vérifier votre dossier d’indésirables.
+      send_paranoid_instructions: Si votre compte existe, vous allez bientôt recevoir un courriel contenant les instructions pour le déverrouiller. Veuillez, dans le cas où vous ne recevriez pas ce message, vérifier votre dossier d’indésirables.
+      unlocked: Votre compte a été déverrouillé avec succès, vous êtes maintenant connecté.
   errors:
     messages:
-      already_confirmed: was already confirmed, please try signing in
-      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
-      expired: has expired, please request a new one
-      not_found: not found
-      not_locked: was not locked
+      already_confirmed: a déjà été validée, veuillez essayer de vous connecter
+      confirmation_period_expired: à confirmer dans les %{period}, merci de faire une nouvelle demande
+      expired: a expiré, merci d’en faire une nouvelle demande
+      not_found: n’a pas été trouvé
+      not_locked: n’était pas verrouillé
       not_saved:
-        one: '1 error prohibited this %{resource} from being saved:'
-        other: "%{count} errors prohibited this %{resource} from being saved:"
+        one: 'Une erreur a empêché ce·tte %{resource} d’être sauvegardé·e :'
+        other: "%{count} erreurs ont empêché %{resource} d’être sauvegardé⋅e :"
