@@ -1,5 +1,5 @@
 ---
-io:
+io-EN:
   activerecord:
     attributes:
       poll:
