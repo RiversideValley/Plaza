@@ -1,5 +1,5 @@
 ---
-bal:
+bal-BA:
   activerecord:
     attributes:
       poll:
