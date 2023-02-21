@@ -1,5 +1,5 @@
 ---
-pap:
+pap-PAP:
   activerecord:
     attributes:
       poll:
