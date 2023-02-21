@@ -1,5 +1,5 @@
 ---
-sl:
+sl-SI:
   activerecord:
     attributes:
       poll:
