@@ -3,53 +3,53 @@ fa-AF:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: مهلت
+        options: گزینه‌ها
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: توافق‌نامهٔ خدمت
+        email: نشانی رایانامه
+        locale: موقعیت
+        password: گذرواژه
       user/account:
-        username: Username
+        username: نام کاربری
       user/invite_request:
-        text: Reason
+        text: دلیل
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: تنها حروف، اعداد، و زیرخط
+              reserved: محفوظ است
         admin/webhook:
           attributes:
             url:
-              invalid: is not a valid URL
+              invalid: نشانی معتبری نیست
         doorkeeper/application:
           attributes:
             website:
-              invalid: is not a valid URL
+              invalid: نشانی معتبری نیست
         import:
           attributes:
             data:
-              malformed: is malformed
+              malformed: بدریخت است
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: تا از وضعیت‌ها هنوز وجود دارند
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: از فراهم‌کنندهٔ رایانامهٔ غیرمجازی استفاده می‌کند
+              unreachable: به نظر نمی‌رسد وجود داشته باشد
             role_id:
-              elevated: cannot be higher than your current role
+              elevated: نمی‌تواند بالاتر از نقش کنونیتان باشد
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: include permissions that are not safe for the base role
-              elevated: cannot include permissions your current role does not possess
-              own_role: cannot be changed with your current role
+              dangerous: شاما اجازه‌هایی که برای نقش پایه امن نیستند
+              elevated: نمی‌تواند شامل اجازه‌هایی باشد که نقش کنونیتان ندارد
+              own_role: نمی‌تواند با نقش کنونیتان تغییر کند
             position:
-              elevated: cannot be higher than your current role
-              own_role: cannot be changed with your current role
+              elevated: نمی‌تواند بالاتر از نقش کنونیتان باشد
+              own_role: نمی‌تواند با نقش کنونیتان تغییر کند
