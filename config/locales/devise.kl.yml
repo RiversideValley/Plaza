@@ -1,5 +1,5 @@
 ---
-kl:
+kl-GL:
   devise:
     confirmations:
       confirmed: Your email address has been successfully confirmed.
