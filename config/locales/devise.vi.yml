@@ -1,5 +1,5 @@
 ---
-vi:
+vi-VN:
   devise:
     confirmations:
       confirmed: Địa chỉ email của bạn đã được xác minh thành công.
