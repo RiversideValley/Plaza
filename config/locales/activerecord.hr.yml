@@ -3,8 +3,8 @@ hr-HR:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: Krajnji rok
+        options: Opcije
       user:
         agreement: Service agreement
         email: E-mail address
