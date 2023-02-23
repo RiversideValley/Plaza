@@ -1,55 +1,55 @@
 ---
-el-CY:
+el:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: Προθεσμία
+        options: Επιλογές
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: Σύμβαση παροχής υπηρεσιών
+        email: Διεύθυνση email
+        locale: Γλώσσα
+        password: Συνθηματικό
       user/account:
-        username: Username
+        username: Όνομα χρήστη
       user/invite_request:
-        text: Reason
+        text: Αιτιολογία
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: μόνο γράμματα, αριθμοί και κάτω παύλες
+              reserved: είναι δεσμευμένο
         admin/webhook:
           attributes:
             url:
-              invalid: is not a valid URL
+              invalid: δεν είναι έγκυρο URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: is not a valid URL
+              invalid: δεν είναι έγκυρο URL
         import:
           attributes:
             data:
-              malformed: is malformed
+              malformed: δεν είναι έγκυρα
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: της κατάστασης ήδη υπάρχει
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: χρησιμοποιεί μη επιτρεπόμενο πάροχο e-mail
+              unreachable: δεν φαίνεται να υπάρχει
             role_id:
-              elevated: cannot be higher than your current role
+              elevated: δεν μπορεί να είναι μεγαλύτερο από τον τρέχοντα ρόλο σας
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: include permissions that are not safe for the base role
-              elevated: cannot include permissions your current role does not possess
-              own_role: cannot be changed with your current role
+              dangerous: προσθήκη δικαιωμάτων που δεν είναι ασφαλή για τον βασικό ρόλο
+              elevated: δεν είναι δυνατή η προσθήκη δικαιωμάτων που ο τρέχων ρόλος σας δεν κατέχει
+              own_role: δεν μπορεί να αλλάξει με τον τρέχοντα ρόλο σας
             position:
-              elevated: cannot be higher than your current role
-              own_role: cannot be changed with your current role
+              elevated: δεν μπορεί να είναι μεγαλύτερο από τον τρέχοντα ρόλο σας
+              own_role: δεν μπορεί να αλλάξει με τον τρέχοντα ρόλο σας
