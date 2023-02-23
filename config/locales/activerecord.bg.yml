@@ -3,53 +3,53 @@ bg:
   activerecord:
     attributes:
       poll:
-        expires_at: Краен срок
-        options: Избори
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Споразумение за обслужване
-        email: Адрес на имейла
-        locale: Локално
-        password: Парола
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Потребителско име
+        username: Username
       user/invite_request:
-        text: Причина
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: трябва да е само букви, цифри и долни черти
-              reserved: е запазено
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: е невалиден URL адрес
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: е невалиден URL адрес
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: е деформиран
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: от публикациите вече съществуват
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: използва се забранен доставчик на услуга за е-поща
-              unreachable: изглежда, че не съществува
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: не може да е по-висока от текущата ви роля
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: включва разрешения, които не са безопасни за базовата роля
-              elevated: не може да включва разрешения, които настоящата ви роля не притежава
-              own_role: не може да се промени с текущата ви роля
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: не може да е по-висока от текущата ви роля
-              own_role: не може да се промени с текущата ви роля
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role

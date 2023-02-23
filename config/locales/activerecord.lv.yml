@@ -3,53 +3,53 @@ lv:
   activerecord:
     attributes:
       poll:
-        expires_at: Gala termiņš
-        options: Izvēles
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Pakalpojuma līgums
-        email: E-pasta adrese
-        locale: Lokalizācija
-        password: Parole
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Lietotājvārds
+        username: Username
       user/invite_request:
-        text: Iemesls
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: drīkst saturēt tikai burtus, ciparus un pasvītras
-              reserved: ir rezervēts
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: nav derīgs URL
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: nav derīgs URL
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: ir nepareizi veidots
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: ziņai jau pastāv
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: lieto neatļautu e-pasta pakalpojuma sniedzēju
-              unreachable: šķietami neeksistē
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: nevar būt augstāka par tavu pašreizējo lomu
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: ietver atļaujas, kas nav drošas pamata lomai
-              elevated: nevar ietvert atļaujas, kas nepieder tavai pašreizējai lomai
-              own_role: nevar mainīt pret tavu pašreizējo lomu
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: nevar būt augstāka par tavu pašreizējo lomu
-              own_role: nevar mainīt pret tavu pašreizējo lomu
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
