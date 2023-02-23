@@ -1,5 +1,5 @@
 ---
-es-419:
+es-ES:
   devise:
     confirmations:
       confirmed: Su dirección de correo electrónico ha sido confirmada correctamente.
