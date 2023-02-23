@@ -3,53 +3,53 @@ th-TH:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: กำหนดเวลาสิ้นสุด
+        options: ตัวเลือก
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: ข้อตกลงการให้บริการ
+        email: ที่อยู่อีเมล
+        locale: ตำแหน่งที่ตั้ง
+        password: รหัสผ่าน
       user/account:
-        username: Username
+        username: ชื่อผู้ใช้
       user/invite_request:
-        text: Reason
+        text: เหตุผล
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: ต้องมีเฉพาะตัวอักษร, ตัวเลข และขีดล่างเท่านั้น
+              reserved: ถูกสงวนไว้
         admin/webhook:
           attributes:
             url:
-              invalid: is not a valid URL
+              invalid: ไม่ใช่ URL ที่ถูกต้อง
         doorkeeper/application:
           attributes:
             website:
-              invalid: is not a valid URL
+              invalid: ไม่ใช่ URL ที่ถูกต้อง
         import:
           attributes:
             data:
-              malformed: is malformed
+              malformed: ผิดรูปแบบ
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: ของโพสต์มีอยู่แล้ว
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: ใช้ผู้ให้บริการอีเมลที่ไม่ได้รับอนุญาต
+              unreachable: ดูเหมือนว่าจะไม่มีอยู่
             role_id:
-              elevated: cannot be higher than your current role
+              elevated: ไม่สามารถสูงกว่าบทบาทปัจจุบันของคุณ
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: include permissions that are not safe for the base role
-              elevated: cannot include permissions your current role does not possess
-              own_role: cannot be changed with your current role
+              dangerous: รวมสิทธิอนุญาตที่ไม่ปลอดภัยสำหรับบทบาทพื้นฐาน
+              elevated: ไม่สามารถรวมสิทธิอนุญาตที่บทบาทปัจจุบันของคุณไม่มี
+              own_role: ไม่สามารถเปลี่ยนด้วยบทบาทปัจจุบันของคุณ
             position:
-              elevated: cannot be higher than your current role
-              own_role: cannot be changed with your current role
+              elevated: ไม่สามารถสูงกว่าบทบาทปัจจุบันของคุณ
+              own_role: ไม่สามารถเปลี่ยนด้วยบทบาทปัจจุบันของคุณ
