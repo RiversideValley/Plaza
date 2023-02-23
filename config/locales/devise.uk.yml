@@ -1,5 +1,5 @@
 ---
-uk:
+uk-UA:
   devise:
     confirmations:
       confirmed: Ваша поштова скринька була успішно підтверджена.
