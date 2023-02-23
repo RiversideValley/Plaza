@@ -3,53 +3,53 @@ eo:
   activerecord:
     attributes:
       poll:
-        expires_at: Limdato
-        options: Elektebloj
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Interkonsento pri servoj
-        email: Retpoŝtadreso
-        locale: Lokaĵaro
-        password: Pasvorto
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Uzantnomo
+        username: Username
       user/invite_request:
-        text: Kialo
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: nur literoj, ciferoj kaj substrekoj
-              reserved: rezervita
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: ne estas valida URL
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: ne estas valida URL
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: estas misformita
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: de afiŝo jam ekzistas
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: uzas nepermesitan retpoŝtan provizanton
-              unreachable: ŝajne ne ekzistas
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: ne povas esti pli altranga ol via aktuala rolo
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: inkluzivi permesojn kiuj ne estas sekuraj por la baza rolo
-              elevated: ne povas inkluzivi permesojn kiujn via aktuala rolo ne rajtas
-              own_role: ne eblas esti ŝanĝita per via aktuala rolo
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: ne povas esti pli altranga ol via aktuala rolo
-              own_role: ne eblas esti ŝanĝita per via aktuala rolo
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role

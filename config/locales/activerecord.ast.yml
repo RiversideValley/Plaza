@@ -3,43 +3,53 @@ ast:
   activerecord:
     attributes:
       poll:
-        options: Opciones
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Acuerdu del serviciu
-        email: Direición de corréu electrónicu
+        agreement: Service agreement
+        email: E-mail address
         locale: Locale
-        password: Contraseña
+        password: Password
       user/account:
-        username: Nome d'usuariu
+        username: Username
       user/invite_request:
-        text: Motivu
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: ha contener namás lletres, númberos ya guiones baxos
-              reserved: ta acutáu
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: nun ye una URL válida
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: nun ye una URL válida
+              invalid: is not a valid URL
+        import:
+          attributes:
+            data:
+              malformed: is malformed
+        status:
+          attributes:
+            reblog:
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: usa un fornidor de corréu electrónicu que nun ta permitíu
-              unreachable: nun paez qu'esista
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: nun pue ser mayor que'l to rol actual
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              elevated: nun se puen incluyir los permisos que'l to rol nun poseye
-              own_role: nun se pue camudar col to rol actual
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: nun pue ser mayor que'l to rol actual
-              own_role: nun se pue camudar col to rol actual
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role

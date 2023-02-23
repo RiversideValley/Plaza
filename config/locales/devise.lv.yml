@@ -2,115 +2,115 @@
 lv:
   devise:
     confirmations:
-      confirmed: Tava e-pasta adrese ir veiksmīgi apstiprināta.
-      send_instructions: Pēc dažām minūtēm saņemsi e-pastu ar norādījumiem, kā apstiprināt savu e-pasta adresi. Lūdzu, pārbaudi spama mapi, ja neesi saņēmis šo e-pastu.
-      send_paranoid_instructions: Ja tava e-pasta adrese ir mūsu datu bāzē, pēc dažām minūtēm saņemsi e-pastu ar norādījumiem, kā apstiprināt savu e-pasta adresi. Lūdzu, pārbaudi spama mapi, ja neesi saņēmis šo e-pastu.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: Jau esi pierakstījies.
-      inactive: Tavs konts vēl nav aktivizēts.
-      invalid: Nederīga %{authentication_keys} vai parole.
-      last_attempt: Tev ir vēl viens mēģinājums, pirms tavs konts tiks bloķēts.
-      locked: Tavs konts ir bloķēts.
-      not_found_in_database: Nederīga %{authentication_keys} vai parole.
-      pending: Tavs konts joprojām tiek pārskatīts.
-      timeout: Tava sesija ir beigusies. Lūdzu, pieraksties vēlreiz, lai turpinātu.
-      unauthenticated: Lai turpinātu, tev ir jāpierakstās vai jāreģistrējas.
-      unconfirmed: Lai turpinātu, tev ir jāapstiprina savu e-pasta adresi.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Apstiprini savu e-pasta adresi
-        action_with_app: Apstiprināt un atgriezties %{app}
-        explanation: Ar šo e-pasta adresi esi izveidojis kontu vietnē %{host}. Tu esi viena klikšķa attālumā no tā aktivizēšanas. Ja tas nebiji tu, lūdzu, ignorē šo e-pasta ziņojumu.
-        explanation_when_pending: Tu pieteicies uzaicinājumam uz %{host} ar šo e-pasta adresi. Kad būsi apstiprinājis savu e-pasta adresi, mēs izskatīsim pieteikumu. Tu vari pierakstīties, lai mainītu savu informāciju vai dzēstu savu kontu, taču nevari piekļūt lielākajai daļai funkciju, kamēr tavs konts nav apstiprināts. Ja tavs pieteikums tiks noraidīts, tavi dati tiks noņemti, tāpēc tev nebūs jāveic nekādas darbības. Ja tas nebiji tu, lūdzu, ignorē šo e-pasta ziņojumu.
-        extra_html: Lūdzu, pārskati arī <a href="%{terms_path}">servera noteikumus</a> un <a href="%{policy_path}"> mūsu pakalpojumu sniegšanas noteikumus</a>.
-        subject: 'Mastodon: Apstiprināšanas norādījumi %{instance}'
-        title: Apstiprini savu e-pasta adresi
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'Tava konta e-pasta adrese tiek mainīta uz:'
-        extra: Ja neesi mainījis savu e-pasta adresi, iespējams, kāds ir ieguvis piekļuvi tavam kontam. Lūdzu, nekavējoties nomaini paroli vai sazinies ar servera administratoru, ja nevari piekļūt savam kontam.
-        subject: 'Mastodon: E-pasts nomainīts'
-        title: Jaunā e-pasta adrese
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
+        title: New email address
       password_change:
-        explanation: Tava konta parole ir nomainīta.
-        extra: Ja neesi mainījis savu paroli, iespējams, kāds ir ieguvis piekļuvi tavam kontam. Lūdzu, nekavējoties nomaini paroli vai sazinies ar servera administratoru, ja nevari piekļūt savam kontam.
-        subject: 'Mastodon: Parole ir nomainīta'
-        title: Parole nomainīta
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: Apstiprini jauno adresi, lai mainītu savu e-pastu.
-        extra: Ja šīs izmaiņas neesi veicis tu, lūdzu, ignorē šo e-pasta ziņojumu. Mastodon konta e-pasta adrese nemainīsies, kamēr nebūsi piekļuvis iepriekš norādītajai saitei.
-        subject: 'Mastodon: Apstiprini e-pastu %{instance}'
-        title: Apstiprini e-pasta adresi
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: Nomainīt paroli
-        explanation: Tu pieprasīji jaunu paroli savam kontam.
-        extra: Ja neesi to pieprasījis, lūdzu, ignorē šo e-pasta ziņojumu. Tava parole nemainīsies, kamēr neesi piekļuvis iepriekš norādītajai saitei un izveidojis jaunu.
-        subject: 'Mastodon: Norādījumi paroles atiestatīšanai'
-        title: Paroles atiestatīšana
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: Tavam kontam divfaktoru autentifikācija ir atspējota. Pieteikšanās tagad ir iespējama, izmantojot tikai e-pasta adresi un paroli.
-        subject: 'Mastodon: Divfaktoru autentifikācija atspējota'
-        title: 2FA atspējota
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: Tavam kontam ir iespējota divfaktoru autentifikācija. Lai pieteiktos, būs nepieciešams kods, ko ģenerējusi pārī savienotā TOTP lietotne.
-        subject: 'Mastodon: Divfaktoru autentifikācija iespējota'
-        title: 2FA iespējota
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: Iepriekšējie atkopšanas kodi ir atzīti par nederīgiem un ģenerēti jauni.
-        subject: 'Mastodon: Divfaktoru atkopšanas kodi pārģenerēti'
-        title: 2FA atkopšanas kodi mainīti
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'Mastodon: Norādījumi atbloķēšanai'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: Tavam kontam ir pievienota šāda drošības atslēga
-          subject: 'Mastodon: Jauna drošības atslēga'
-          title: Tika pievienota jauna drošības atslēga
+          explanation: The following security key has been added to your account
+          subject: 'Mastodon: New security key'
+          title: A new security key has been added
         deleted:
-          explanation: Tālāk norādītā drošības atslēga ir izdzēsta no tava konta
-          subject: 'Mastodon: Drošības atslēga izdzēsta'
-          title: Viena no tavām drošības atslēgām tika izdzēsta
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: Tavam kontam ir atspējota autentifikācija ar drošības atslēgām. Pieteikšanās tagad ir iespējama, izmantojot tikai kodu, ko ģenerējusi pārī savienotā TOTP lietotne.
-        subject: 'Mastodon: Autentifikācija ar drošības atslēgām ir atspējota'
-        title: Drošības atslēgas atspējotas
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: Tavam kontam ir iespējota drošības atslēgas autentifikācija. Tavu drošības atslēgu tagad var izmantot, lai pieteiktos.
-        subject: 'Mastodon: Drošības atslēgas autentifikācija iespējota'
-        title: Drošības atslēgas iespējotas
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: Nevarēja autentificēt tevi no %{kind}, jo "%{reason}".
-      success: Veiksmīgi autentificēts no %{kind} konta.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: Tu nevari piekļūt šai lapai, ja neesi saņēmis paroles atiestatīšanas e-pasta ziņojumu. Ja ienāci no paroles atiestatīšanas e-pasta, lūdzu, pārliecinies, vai izmanto visu norādīto URL.
-      send_instructions: Ja tava e-pasta adrese ir mūsu datu bāzē, pēc dažām minūtēm uz savu e-pasta adresi saņemsi paroles atkopšanas saiti. Lūdzu, pārbaudi spama mapi, ja neesi saņēmis šo e-pastu.
-      send_paranoid_instructions: Ja tava e-pasta adrese ir mūsu datu bāzē, pēc dažām minūtēm uz savu e-pasta adresi saņemsi paroles atkopšanas saiti. Lūdzu, pārbaudi spama mapi, ja neesi saņēmis šo e-pastu.
-      updated: Tava parole ir veiksmīgi nomainīta. Tagad tu esi pierakstījies.
-      updated_not_active: Tava parole ir veiksmīgi nomainīta.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: Visu labu! Tavs konts ir veiksmīgi atcelts. Mēs ceram tevi drīz atkal redzēt.
-      signed_up: Laipni lūdzam! Tu esi veiksmīgi reģistrējies.
-      signed_up_but_inactive: Tava reģistrācija bija veiksmīga. Tomēr mēs nevarējām tevi pierakstīt, jo tavs konts vēl nav aktivizēts.
-      signed_up_but_locked: Tava reģistrācija bija veiksmīga. Tomēr mēs nevarējām tevi pierakstīt, jo tavs konts ir bloķēts.
-      signed_up_but_pending: Uz tavu e-pasta adresi ir nosūtīts ziņojums ar apstiprinājuma saiti. Pēc noklikšķināšanas uz saites mēs izskatīsim tavu pieteikumu. Tu tiksi informēts, ja tas tiks apstiprināts.
-      signed_up_but_unconfirmed: Uz tavu e-pasta adresi ir nosūtīts ziņojums ar apstiprinājuma saiti. Lūdzu, seko saitei, lai aktivizētu savu kontu. Lūdzu, pārbaudi spama mapi, ja neesi saņēmis šo e-pastu.
-      update_needs_confirmation: Tu veiksmīgi atjaunināji savu kontu, taču mums ir jāverificē teva jaunā e-pasta adrese. Lūdzu, pārbaudi savu e-pastu un seko apstiprinājuma saitei, lai apstiprinātu savu jauno e-pasta adresi. Lūdzu, pārbaudi spama mapi, ja neesi saņēmis šo e-pastu.
-      updated: Tavs konts ir veiksmīgi atjaunināts.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: Veiksmīgi izrakstījies.
-      signed_in: Veiksmīgi pierakstījies.
-      signed_out: Veiksmīgi izrakstījies.
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: Pēc dažām minūtēm tu saņemsi e-pastu ar norādījumiem, kā atbloķēt savu kontu. Lūdzu, pārbaudi spama mapi, ja neesi saņēmis šo e-pastu.
-      send_paranoid_instructions: Ja tavs konts eksistē, dažu minūšu laikā tu saņemsi e-pastu ar norādījumiem, kā to atbloķēt. Lūdzu, pārbaudi spama mapi, ja neesi saņēmis šo e-pastu.
-      unlocked: Tavs konts ir veiksmīgi atbloķēts. Lūdzu, pieraksties, lai turpinātu.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: jau tika apstiprināts, lūdzu, mēģini pierakstīties
-      confirmation_period_expired: jāapstiprina %{period} laikā, lūdzu, pieprasi jaunu
-      expired: ir beidzies derīguma termiņš, lūdzu, pieprasi jaunu
-      not_found: nav atrasts
-      not_locked: nebija bloķēts
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        one: '1 kļūda liedza saglabāt šo %{resource}:'
-        other: "%{count} kļūdas liedza saglabāt šo %{resource}:"
-        zero: "%{count} kļūdas liedza saglabāt šo %{resource}:"
+        zero: "%{count} errors prohibited this %{resource} from being saved:"
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: "%{count} errors prohibited this %{resource} from being saved:"

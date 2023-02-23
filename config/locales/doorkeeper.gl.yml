@@ -3,193 +3,193 @@ gl:
   activerecord:
     attributes:
       doorkeeper/application:
-        name: Nome da aplicación
-        redirect_uri: URI a redireccionar
-        scopes: Ámbitos
-        website: Sitio web da aplicación
+        name: Application name
+        redirect_uri: Redirect URI
+        scopes: Scopes
+        website: Application website
     errors:
       models:
         doorkeeper/application:
           attributes:
             redirect_uri:
-              fragment_present: non pode conter un fragmento.
-              invalid_uri: debe ser un URI válido.
-              relative_uri: debe ser un URI absoluto.
-              secured_uri: debe ser un URI HTTPS/SSL.
+              fragment_present: cannot contain a fragment.
+              invalid_uri: must be a valid URI.
+              relative_uri: must be an absolute URI.
+              secured_uri: must be an HTTPS/SSL URI.
   doorkeeper:
     applications:
       buttons:
-        authorize: Autorizar
-        cancel: Cancelar
-        destroy: Destruír
-        edit: Editar
-        submit: Enviar
+        authorize: Authorize
+        cancel: Cancel
+        destroy: Destroy
+        edit: Edit
+        submit: Submit
       confirmations:
-        destroy: Está segura?
+        destroy: Are you sure?
       edit:
-        title: Editar aplicación
+        title: Edit application
       form:
-        error: Eeeeepa! Comproba os posibles erros no formulario
+        error: Whoops! Check your form for possible errors
       help:
-        native_redirect_uri: Utiliza %{native_redirect_uri} para probas locais
-        redirect_uri: Utiliza unha liña por URI
-        scopes: Separar permisos con espazos. Deixar en branco para utilizar os permisos por omisión.
+        native_redirect_uri: Use %{native_redirect_uri} for local tests
+        redirect_uri: Use one line per URI
+        scopes: Separate scopes with spaces. Leave blank to use the default scopes.
       index:
-        application: Aplicación
-        callback_url: URL de chamada
-        delete: Eliminar
-        empty: Non tes aplicacións.
-        name: Nome
-        new: Nova aplicación
-        scopes: Ámbitos
-        show: Mostrar
-        title: As túas aplicacións
+        application: Application
+        callback_url: Callback URL
+        delete: Delete
+        empty: You have no applications.
+        name: Name
+        new: New application
+        scopes: Scopes
+        show: Show
+        title: Your applications
       new:
-        title: Nova aplicación
+        title: New application
       show:
-        actions: Accións
-        application_id: Chave do cliente
-        callback_urls: URLs de chamada
-        scopes: Ámbitos
-        secret: Chave segreda do cliente
-        title: 'Aplicación: %{name}'
+        actions: Actions
+        application_id: Client key
+        callback_urls: Callback URLs
+        scopes: Scopes
+        secret: Client secret
+        title: 'Application: %{name}'
     authorizations:
       buttons:
-        authorize: Autorizar
-        deny: Denegar
+        authorize: Authorize
+        deny: Deny
       error:
-        title: Algo fallou
+        title: An error has occurred
       new:
-        prompt_html: "%{client_name} solicita permiso para acceder á túa conta. É unha aplicación de terceiros. <strong>Se non confías nela, non deberías autorizala.</strong>"
-        review_permissions: Revisar permisos
-        title: Autorización necesaria
+        prompt_html: "%{client_name} would like permission to access your account. It is a third-party application. <strong>If you do not trust it, then you should not authorize it.</strong>"
+        review_permissions: Review permissions
+        title: Authorization required
       show:
-        title: Copia este código de autorización e pégao na aplicación.
+        title: Copy this authorization code and paste it to the application.
     authorized_applications:
       buttons:
-        revoke: Retirar autorización
+        revoke: Revoke
       confirmations:
-        revoke: Estás segura?
+        revoke: Are you sure?
       index:
-        authorized_at: Autorizada o %{date}
-        description_html: Estas aplicacións poden acceder á túa conta usando a API. Se ves aplicacións que non recoñeces, ou hai comportamentos non consentidos dalgunha delas, podes revogar o acceso.
-        last_used_at: Último acceso o %{date}
-        never_used: Nunca empregada
-        scopes: Permisos
-        superapp: Interno
-        title: As túas aplicacións autorizadas
+        authorized_at: Authorized on %{date}
+        description_html: These are applications that can access your account using the API. If there are applications you do not recognize here, or an application is misbehaving, you can revoke its access.
+        last_used_at: Last used on %{date}
+        never_used: Never used
+        scopes: Permissions
+        superapp: Internal
+        title: Your authorized applications
     errors:
       messages:
-        access_denied: O propietario do recurso ou o servidor autorizado denegaron a petición.
-        credential_flow_not_configured: O fluxo do Contrasinal de Credenciais do Dono do Recurso fallou debido a que Doorkeeper.configure.resource_owner_from_credentials non están configuradas.
-        invalid_client: A autenticación do cliente fallou por ser un cliente descoñecido, non se incluíu autenticación do cliente, ou o método de autenticación non está soportado.
-        invalid_grant: A validación da autorización proporcionada non é valida, caducou, foi rexeitada, non coincide a redirección URI utilizada na petición de autorización, ou foi proporcionada para outro cliente.
-        invalid_redirect_uri: A uri de redirección incluída non é válida.
+        access_denied: The resource owner or authorization server denied the request.
+        credential_flow_not_configured: Resource Owner Password Credentials flow failed due to Doorkeeper.configure.resource_owner_from_credentials being unconfigured.
+        invalid_client: Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.
+        invalid_grant: The provided authorization grant is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client.
+        invalid_redirect_uri: The redirect uri included is not valid.
         invalid_request:
-          missing_param: 'Falta o parámetro requerido: %{value}.'
-          request_not_authorized: A solicitude debe ser autorizada. O parámetro requerido para a aprobación da solicitude non é válido ou non existe.
-          unknown: Fáltalle un parámetro requerido á solicitude, inclúe un valor do parámetro non soportado, ou dalgún xeito non é correcto.
-        invalid_resource_owner: As credenciais do dono do recurso proporcionadas non son válidas, ou o dono do recurso non pode ser atopado
-        invalid_scope: O permiso solicitado non é válido, descoñecido, ou mal formado.
+          missing_param: 'Missing required parameter: %{value}.'
+          request_not_authorized: Request need to be authorized. Required parameter for authorizing request is missing or invalid.
+          unknown: The request is missing a required parameter, includes an unsupported parameter value, or is otherwise malformed.
+        invalid_resource_owner: The provided resource owner credentials are not valid, or resource owner cannot be found
+        invalid_scope: The requested scope is invalid, unknown, or malformed.
         invalid_token:
-          expired: O testemuño de acceso caducou
-          revoked: O testemuño de acceso foi rexeitado
-          unknown: O testemuño de acceso non é válido
-        resource_owner_authenticator_not_configured: O dono do recurso fallou debido a Doorkeeper.configure.resource_owner_authenticator non estar configurado.
-        server_error: O servidor de autorización atopou un problema non agardado que evitou completar a petición.
-        temporarily_unavailable: O servidor de autorización non pode atender a petición en este momento debido a unha sobrecarga puntual ou mantemento do servidor.
-        unauthorized_client: O cliente non está autorizado a realizar a petición utilizando este método.
-        unsupported_grant_type: O método para proporcionar autorización non está soportado polo servidor de autorización.
-        unsupported_response_type: O servidor de autorización non soporta este tipo de resposta.
+          expired: The access token expired
+          revoked: The access token was revoked
+          unknown: The access token is invalid
+        resource_owner_authenticator_not_configured: Resource Owner find failed due to Doorkeeper.configure.resource_owner_authenticator being unconfiged.
+        server_error: The authorization server encountered an unexpected condition which prevented it from fulfilling the request.
+        temporarily_unavailable: The authorization server is currently unable to handle the request due to a temporary overloading or maintenance of the server.
+        unauthorized_client: The client is not authorized to perform this request using this method.
+        unsupported_grant_type: The authorization grant type is not supported by the authorization server.
+        unsupported_response_type: The authorization server does not support this response type.
     flash:
       applications:
         create:
-          notice: Aplicación creada.
+          notice: Application created.
         destroy:
-          notice: Aplicación eliminada.
+          notice: Application deleted.
         update:
-          notice: Aplicación actualizada.
+          notice: Application updated.
       authorized_applications:
         destroy:
-          notice: Aplicación revogada.
+          notice: Application revoked.
     grouped_scopes:
       access:
-        read: Acceso de só-lectura
-        read/write: Acceso de lectura e escritura
-        write: Acceso de só-escritura
+        read: Read-only access
+        read/write: Read and write access
+        write: Write-only access
       title:
-        accounts: Contas
-        admin/accounts: Administración das contas
-        admin/all: Tódalas funcións administrativas
-        admin/reports: Administración das denuncias
-        all: Acceso completo á túa conta de Mastodon
-        blocks: Bloqueos
-        bookmarks: Marcadores
-        conversations: Conversas
-        crypto: Cifrado extremo-a-extremo
-        favourites: Favoritas
-        filters: Filtros
-        follow: Seguidas, Silenciadas e Bloqueadas
-        follows: Seguimentos
-        lists: Listas
-        media: Anexos multimedia
-        mutes: Acaladas
-        notifications: Notificacións
-        push: Notificacións Push
-        reports: Denuncias
-        search: Busca
-        statuses: Publicacións
+        accounts: Accounts
+        admin/accounts: Administration of accounts
+        admin/all: All administrative functions
+        admin/reports: Administration of reports
+        all: Full access to your Mastodon account
+        blocks: Blocks
+        bookmarks: Bookmarks
+        conversations: Conversations
+        crypto: End-to-end encryption
+        favourites: Favourites
+        filters: Filters
+        follow: Follows, Mutes and Blocks
+        follows: Follows
+        lists: Lists
+        media: Media attachments
+        mutes: Mutes
+        notifications: Notifications
+        push: Push notifications
+        reports: Reports
+        search: Search
+        statuses: Posts
     layouts:
       admin:
         nav:
-          applications: Aplicacións
-          oauth2_provider: Provedor OAuth2
+          applications: Applications
+          oauth2_provider: OAuth2 Provider
       application:
-        title: Precisa autorización OAuth
+        title: OAuth authorization required
     scopes:
-      admin:read: ler todos os datos no servidor
-      admin:read:accounts: ler información sensible de todas as contas
-      admin:read:canonical_email_blocks: ler a información sensíbel de tódolos bloqueos de correos electrónicos canónicos
-      admin:read:domain_allows: ler a información sensible de tódolos dominios permitidos
-      admin:read:domain_blocks: ler a información sensible de tódolos bloqueos de dominio
-      admin:read:email_domain_blocks: ler a información sensible de tódolos dominios de correo electrónico
-      admin:read:ip_blocks: ler a información sensible de tódolos bloqueos de IP
-      admin:read:reports: ler información sensible de todos os informes e contas denunciadas
-      admin:write: modificar todos os datos no servidor
-      admin:write:accounts: executar accións de moderación nas contas
-      admin:write:canonical_email_blocks: realizar accións de moderación en bloqueos de correo electrónico canónicos
-      admin:write:domain_allows: realizar accións de moderación en dominios permitidos
-      admin:write:domain_blocks: realizar accións de moderación en bloqueos de dominio
-      admin:write:email_domain_blocks: realizar accións de moderación en bloqueos de dominio de correo electrónico
-      admin:write:ip_blocks: realizar accións de moderación en bloqueos de IPs
-      admin:write:reports: executar accións de moderación nas denuncias
-      crypto: usar cifrado de extremo-a-extremo
-      follow: modificar as relacións da conta
-      push: recibir notificacións push
-      read: ler todos os datos da tua conta
-      read:accounts: ver información das contas
-      read:blocks: ver a quen bloqueas
-      read:bookmarks: ver os marcadores
-      read:favourites: ver as favoritas
-      read:filters: ver os filtros
-      read:follows: ver a quen segues
-      read:lists: ver as tuas listaxes
-      read:mutes: ver a quen tes acalado
-      read:notifications: ver as notificacións
-      read:reports: ver as túas denuncias
-      read:search: buscar no teu nome
-      read:statuses: ver todas as publicacións
-      write: modificar todos os datos da tua conta
-      write:accounts: modificar o teu perfil
-      write:blocks: bloquear contas e dominios
-      write:bookmarks: marcar publicacións
-      write:conversations: acalar e eliminar conversas
-      write:favourites: marcar como favorita
-      write:filters: crear filtros
-      write:follows: seguir usuarias
-      write:lists: crear listaxes
-      write:media: subir ficheiros multimedia
-      write:mutes: acalar usuarias e conversas
-      write:notifications: eliminar as notificacións
-      write:reports: denunciar usuarias
-      write:statuses: publicar
+      "admin:read": read all data on the server
+      "admin:read:accounts": read sensitive information of all accounts
+      "admin:read:canonical_email_blocks": read sensitive information of all canonical email blocks
+      "admin:read:domain_allows": read sensitive information of all domain allows
+      "admin:read:domain_blocks": read sensitive information of all domain blocks
+      "admin:read:email_domain_blocks": read sensitive information of all email domain blocks
+      "admin:read:ip_blocks": read sensitive information of all IP blocks
+      "admin:read:reports": read sensitive information of all reports and reported accounts
+      "admin:write": modify all data on the server
+      "admin:write:accounts": perform moderation actions on accounts
+      "admin:write:canonical_email_blocks": perform moderation actions on canonical email blocks
+      "admin:write:domain_allows": perform moderation actions on domain allows
+      "admin:write:domain_blocks": perform moderation actions on domain blocks
+      "admin:write:email_domain_blocks": perform moderation actions on email domain blocks
+      "admin:write:ip_blocks": perform moderation actions on IP blocks
+      "admin:write:reports": perform moderation actions on reports
+      crypto: use end-to-end encryption
+      follow: modify account relationships
+      push: receive your push notifications
+      read: read all your account's data
+      "read:accounts": see accounts information
+      "read:blocks": see your blocks
+      "read:bookmarks": see your bookmarks
+      "read:favourites": see your favourites
+      "read:filters": see your filters
+      "read:follows": see your follows
+      "read:lists": see your lists
+      "read:mutes": see your mutes
+      "read:notifications": see your notifications
+      "read:reports": see your reports
+      "read:search": search on your behalf
+      "read:statuses": see all posts
+      write: modify all your account's data
+      "write:accounts": modify your profile
+      "write:blocks": block accounts and domains
+      "write:bookmarks": bookmark posts
+      "write:conversations": mute and delete conversations
+      "write:favourites": favourite posts
+      "write:filters": create filters
+      "write:follows": follow people
+      "write:lists": create lists
+      "write:media": upload media files
+      "write:mutes": mute people and conversations
+      "write:notifications": clear your notifications
+      "write:reports": report other people
+      "write:statuses": publish posts
