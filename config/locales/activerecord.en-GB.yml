@@ -3,7 +3,7 @@ en-GB:
   activerecord:
     attributes:
       poll:
-        expires_at: Terfyn amser
+        expires_at: Deadline
         options: Choices
       user:
         agreement: Service agreement

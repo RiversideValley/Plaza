@@ -3,53 +3,53 @@ gd:
   activerecord:
     attributes:
       poll:
-        expires_at: Thig e gu crìoch
-        options: Roghainnean
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Aonta na seirbheise
-        email: Seòladh puist-d
-        locale: Sgeama ionadail
-        password: Facal-faire
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Ainm-cleachdaiche
+        username: Username
       user/invite_request:
-        text: Adhbhar
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: "– chan fhaod ach litrichean gun sràcan, àireamhan ’s fo-loidhnichean a bhith ’na bhroinn"
-              reserved: "– tha e glèidhte"
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: "– chan eil seo ’na URL dligheach"
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: "– chan eil seo ’na URL dligheach"
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: "– chan eil cruth dligheach air"
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: "– tha seo aig a’ phost mu thràth"
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: "– tha seo a’ chleachdadh solaraiche puist-d nach eil ceadaichte"
-              unreachable: "– tha coltas nach eil seo ann"
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: "– chan fhaod seo a bhith nas àirde na an dreuchd a th’ agad an-dràsta"
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: gabh a-staigh na ceadan nach eil sàbhailte dhan bhun-dreuchd
-              elevated: chan urrainn dhut ceadan a ghabhail a-staigh nach eil aig an dreuchd a th’ agad an-dràsta
-              own_role: cha ghabh seo atharrachadh leis an dreuchd a th’ agad an-dràsta
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: chan fhaod seo a bhith nas àirde na an dreuchd a th’ agad an-dràsta
-              own_role: cha ghabh seo atharrachadh leis an dreuchd a th’ agad an-dràsta
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role

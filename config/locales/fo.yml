@@ -1,1434 +1,1446 @@
 ---
 fo:
   about:
-    about_mastodon_html: 'Framtíðar sosiali miðilin: ongar lýsingar, eingin stórfyritøku-yvirvøka, etiskt snið og desentralisering! Eig tínar dátur við Mastodon!'
-    contact_missing: Ikki sett
-    contact_unavailable: Ikki tøk/ur
-    hosted_on: Mastodon hýst á %{domain}
-    title: Um
+    about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon!'
+    contact_missing: Not set
+    contact_unavailable: N/A
+    hosted_on: Mastodon hosted on %{domain}
+    title: About
   accounts:
-    follow: Fylg
+    follow: Follow
     followers:
-      one: Fylgjari
-      other: Fylgjarar
-    following: Fylgir
-    instance_actor_flash: Hendan kontan er ein tykisligur aktørur, sum verður brúktur til at umboða ambætaran sjálvan og ikki nakran ávísan brúkara. Hon verður brúkt til sameind endamál og eigur ikki at vera tikin úr gildi.
-    last_active: virkin seinast
-    link_verified_on: Eigaraskapur av hesum leinki var eftirkannaður tann %{date}
-    nothing_here: Her er einki!
+      one: Follower
+      other: Followers
+    following: Following
+    instance_actor_flash: This account is a virtual actor used to represent the server itself and not any individual user. It is used for federation purposes and should not be suspended.
+    last_active: last active
+    link_verified_on: Ownership of this link was checked on %{date}
+    nothing_here: There is nothing here!
     pin_errors:
-      following: Tú mást fylgja persóninum, sum tú ynskir at viðurkenna, framman undan
+      following: You must be already following the person you want to endorse
     posts:
-      one: Uppslag
-      other: Uppsløg
-    posts_tab_heading: Uppsløg
+      one: Post
+      other: Posts
+    posts_tab_heading: Posts
   admin:
     account_actions:
-      action: Frem atgerð
-      title: Frem umsjónaratgerð á %{acct}
+      action: Perform action
+      title: Perform moderation action on %{acct}
     account_moderation_notes:
-      create: Skriva umsjónarviðmerking
-      created_msg: Umsjónarviðmerking stovnað!
-      destroyed_msg: Umsjónarviðmerking strikað!
+      create: Leave note
+      created_msg: Moderation note successfully created!
+      destroyed_msg: Moderation note successfully destroyed!
     accounts:
-      add_email_domain_block: Blokera teldupostanavnaøki
-      approve: Vátta
-      approved_msg: Góðkent tilmeldingarumbøn hjá %{username}
-      are_you_sure: Ert tú vís/ur?
-      avatar: Eftirgjørdur skapningur
-      by_domain: Økisnavn
+      add_email_domain_block: Block e-mail domain
+      approve: Approve
+      approved_msg: Successfully approved %{username}'s sign-up application
+      are_you_sure: Are you sure?
+      avatar: Avatar
+      by_domain: Domain
       change_email:
-        changed_msg: Teldupostur broyttur!
-        current_email: Núverandi teldupostur
-        label: Broyt teldupost
-        new_email: Nýggjur teldupostur
-        submit: Broyt teldupost
-        title: Broyt teldupostin hjá %{username}
+        changed_msg: Email successfully changed!
+        current_email: Current email
+        label: Change email
+        new_email: New email
+        submit: Change email
+        title: Change email for %{username}
       change_role:
-        changed_msg: Leiklutur broyttur!
-        label: Broyt leiklut
-        no_role: Eingin leiklutur
-        title: Broyt leiklut hjá %{username}
-      confirm: Vátta
-      confirmed: Váttað
-      confirming: Váttar
-      custom: Tillaga
-      delete: Strika dátur
-      deleted: Strikað
-      demote: Lækka í tign
-      destroyed_msg: Dáturnar hjá %{username} eru nú settar í bíðirøð at blíva strikaðar sum skjótast
-      disable: Fryst
-      disable_sign_in_token_auth: Ger váttan við teldupostateknum óvirkna
-      disable_two_factor_authentication: Ger 2FA óvirkið
-      disabled: Fryst
-      display_name: Vís navn
-      domain: Økisnavn
-      edit: Rætta
-      email: Teldupostur
-      email_status: Teldupostastøða
-      enable: Tiðna
-      enable_sign_in_token_auth: Ger váttan við teldupostateknum virkna
-      enabled: Í gildi
-      enabled_msg: Tiðnaði kontuna hjá %{username}
-      followers: Fylgjarar
-      follows: Fylgir
-      header: Høvd
-      inbox_url: Innbakka-URL'ur
-      invite_request_text: Tilmeldingarorsakir
-      invited_by: Bjóðað av
+        changed_msg: Role successfully changed!
+        label: Change role
+        no_role: No role
+        title: Change role for %{username}
+      confirm: Confirm
+      confirmed: Confirmed
+      confirming: Confirming
+      custom: Custom
+      delete: Delete data
+      deleted: Deleted
+      demote: Demote
+      destroyed_msg: "%{username}'s data is now queued to be deleted imminently"
+      disable: Freeze
+      disable_sign_in_token_auth: Disable e-mail token authentication
+      disable_two_factor_authentication: Disable 2FA
+      disabled: Frozen
+      display_name: Display name
+      domain: Domain
+      edit: Edit
+      email: Email
+      email_status: Email status
+      enable: Unfreeze
+      enable_sign_in_token_auth: Enable e-mail token authentication
+      enabled: Enabled
+      enabled_msg: Successfully unfroze %{username}'s account
+      followers: Followers
+      follows: Follows
+      header: Header
+      inbox_url: Inbox URL
+      invite_request_text: Reasons for joining
+      invited_by: Invited by
       ip: IP
-      joined: Tilmeldað/ur
+      joined: Joined
       location:
-        all: Alt
-        local: Lokalar
-        remote: Fjarar
-        title: Staður
-      login_status: Innritanarstøða
-      media_attachments: Viðfestir miðlar
-      memorialize: Broyt til minniskontu
-      memorialized: Gjørd til minniskontu
-      memorialized_msg: Gjørt %{username} til eina minniskontu
+        all: All
+        local: Local
+        remote: Remote
+        title: Location
+      login_status: Login status
+      media_attachments: Media attachments
+      memorialize: Turn into memoriam
+      memorialized: Memorialized
+      memorialized_msg: Successfully turned %{username} into a memorial account
       moderation:
-        active: Virkin
-        all: Allar
-        pending: Í bíðistøðu
-        silenced: Avmarkað
-        suspended: Avbrotin
-        title: Umsjón
-      moderation_notes: Umsjónarviðmerkingar
-      most_recent_activity: Feskasta virksemi
-      most_recent_ip: Feskasta IP
-      no_account_selected: Ongar kontur vóru broyttar, tí ongar vóru valdar
-      no_limits_imposed: Ongar avmarkingar álagdar
-      no_role_assigned: Eingin leiklutur tillutaður
-      not_subscribed: Ikki haldari
-      pending: Bíðar eftir viðgerð
-      perform_full_suspension: Ógilda
-      previous_strikes: Eldri meldingar
+        active: Active
+        all: All
+        disabled: Disabled
+        pending: Pending
+        silenced: Limited
+        suspended: Suspended
+        title: Moderation
+      moderation_notes: Moderation notes
+      most_recent_activity: Most recent activity
+      most_recent_ip: Most recent IP
+      no_account_selected: No accounts were changed as none were selected
+      no_limits_imposed: No limits imposed
+      no_role_assigned: No role assigned
+      not_subscribed: Not subscribed
+      pending: Pending review
+      perform_full_suspension: Suspend
+      previous_strikes: Previous strikes
       previous_strikes_description_html:
-        one: Hendan kontan hevur <strong>eina</strong> melding.
-        other: Hendan kontan hevur <strong>%{count}</strong> meldingar.
-      promote: Stimbra
-      protocol: Samskiftisháttur
-      public: Alment
-      push_subscription_expires: PuSH-hald gongur út
-      redownload: Endurnýggja vanga
-      redownloaded_msg: Tín vangamynd %{username}'s er nú endurnýggja
-      reject: Nokta
-      rejected_msg: Tað eydnaðist, at avvísa umsóknina frá %{username}'s um innskriving
-      remote_suspension_irreversible: Dáturnar hjá hesi kontuni eru strikaðar med alla.
-      remote_suspension_reversible_hint_html: Kontan er sett úr gildi á teirra ambætara og dáturnar verða endaliga strikaðar tann %{date}. Inntil tá kann fjarambætarin endurskapa kontuna uttan fylgjur. Ynskir tú at strika allar dátur hjá kontuni beinan vegin, so kanst tú gera tað niðanfyri.
-      remove_avatar: Sletta avatar
-      remove_header: Sletta headera
-      removed_avatar_msg: Slettaði avatar myndina hjá %{username}
-      removed_header_msg: Slettaði header myndina hjá %{username}
+        one: This account has <strong>one</strong> strike.
+        other: This account has <strong>%{count}</strong> strikes.
+      promote: Promote
+      protocol: Protocol
+      public: Public
+      push_subscription_expires: PuSH subscription expires
+      redownload: Refresh profile
+      redownloaded_msg: Successfully refreshed %{username}'s profile from origin
+      reject: Reject
+      rejected_msg: Successfully rejected %{username}'s sign-up application
+      remote_suspension_irreversible: The data of this account has been irreversibly deleted.
+      remote_suspension_reversible_hint_html: The account has been suspended on their server, and the data will be fully removed on %{date}. Until then, the remote server can restore this account without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
+      remove_avatar: Remove avatar
+      remove_header: Remove header
+      removed_avatar_msg: Successfully removed %{username}'s avatar image
+      removed_header_msg: Successfully removed %{username}'s header image
       resend_confirmation:
-        already_confirmed: Hesi brúkarin er longu váttaður
-        send: Endursend váttanar teldupost
-        success: Váttanar teldupostur trygt sendur!
-      reset: Endurset
-      reset_password: Endurstilla loyniorð
-      resubscribe: Tegna teg umaftur
-      role: Leiklutur
-      search: Leita
-      search_same_email_domain: Aðrir brúkarir eru við sama teldupost domaini
-      search_same_ip: Aðrir brúkarar við somu IP
+        already_confirmed: This user is already confirmed
+        send: Resend confirmation email
+        success: Confirmation email successfully sent!
+      reset: Reset
+      reset_password: Reset password
+      resubscribe: Resubscribe
+      role: Role
+      search: Search
+      search_same_email_domain: Other users with the same e-mail domain
+      search_same_ip: Other users with the same IP
+      security: Security
       security_measures:
-        only_password: Bara loyniorð
-        password_and_2fa: Loyniorð og 2FA
-      sensitive: Tvinga-følsemi
-      sensitized: Frámerkt sum viðkvamt
-      shared_inbox_url: Deil postkassa URL
+        only_password: Only password
+        password_and_2fa: Password and 2FA
+      sensitive: Force-sensitive
+      sensitized: Marked as sensitive
+      shared_inbox_url: Shared inbox URL
       show:
-        created_reports: Frágreiðing gjørd
-        targeted_reports: Meldað av øðrum
-      silence: Mark
-      silenced: Avmarkað
-      statuses: Uppsløg
-      strikes: Eldri fráboðanir
-      subscribe: Tekna hald
-      suspend: Fyribils ikki í gildi
-      suspended: Ikki í gildi
-      suspension_irreversible: Dáturnar á hesu kontu er endaliga sletttaðar. Tú kann seta hana í gildi, men dáturnar fáast ikki aftur.
-      suspension_reversible_hint_html: Kontan er sett úr gildi og dáturnar verða endaliga strikaðar tann %{date}. Inntil tá kann kontan endurskapast uttan fylgjur. Ynskir tú at strika allar dátur hjá kontuni beinan vegin, so kanst tú gera tað niðanfyri.
-      title: Kontur
-      unblock_email: Strika blokering av telduposti
-      unblocked_email_msg: Blokeringin av teldupostinum hjá %{username} varð strikað
-      unconfirmed_email: Óváttaður teldupostur
-      undo_sensitized: Angra tvingað viðbrekni
-      undo_silenced: Strika markið
-      undo_suspension: Angra ógildi
-      unsilenced_msg: Avmarkingin av kontuni hjá %{username} var strikað
-      unsubscribe: Strika hald
-      unsuspended_msg: Kontan hjá %{username} varð sett aftur í gildi
-      username: Brúkaranavn
-      view_domain: Vís samandrátt fyri navnaøki
-      warn: Ávara
-      web: Vev
-      whitelisted: Loyvd at sameina
+        created_reports: Made reports
+        targeted_reports: Reported by others
+      silence: Limit
+      silenced: Limited
+      statuses: Posts
+      strikes: Previous strikes
+      subscribe: Subscribe
+      suspend: Suspend
+      suspended: Suspended
+      suspension_irreversible: The data of this account has been irreversibly deleted. You can unsuspend the account to make it usable but it will not recover any data it previously had.
+      suspension_reversible_hint_html: The account has been suspended, and the data will be fully removed on %{date}. Until then, the account can be restored without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
+      title: Accounts
+      unblock_email: Unblock email address
+      unblocked_email_msg: Successfully unblocked %{username}'s email address
+      unconfirmed_email: Unconfirmed email
+      undo_sensitized: Undo force-sensitive
+      undo_silenced: Undo limit
+      undo_suspension: Undo suspension
+      unsilenced_msg: Successfully undid limit of %{username}'s account
+      unsubscribe: Unsubscribe
+      unsuspended_msg: Successfully unsuspended %{username}'s account
+      username: Username
+      view_domain: View summary for domain
+      warn: Warn
+      web: Web
+      whitelisted: Allowed for federation
     action_logs:
       action_types:
-        approve_appeal: Góðkenn kæru
-        approve_user: Góðkenn brúkara
-        assigned_to_self_report: Tilluta melding
-        change_email_user: Broyt teldupost fyri brúkara
-        change_role_user: Broyt leiklut hjá brúkara
-        confirm_user: Vátta brúkara
-        create_account_warning: Stovna ávaring
-        create_announcement: Stovna kunngerð
-        create_canonical_email_block: Stovna teldupostblokering
-        create_custom_emoji: Stovna serligt kenslutekn
-        create_domain_allow: Stovna navnaøkjaloyvi
-        create_domain_block: Stovna navnaøkjablokering
-        create_email_domain_block: Stovna teldupostanavnaøkjablokering
-        create_ip_block: Stovna IP reglu
-        create_unavailable_domain: Stovna navnaøki, sum ikki er tøkt
-        create_user_role: Stovna leiklut
-        demote_user: Lækka brúkara í tign
-        destroy_announcement: Strika kunngerð
-        destroy_canonical_email_block: Strika teldupostblokering
-        destroy_custom_emoji: Strika serligt kenslutekn
-        destroy_domain_allow: Strika navnaøkjaloyvi
-        destroy_domain_block: Strika navnaøkjablokering
-        destroy_email_domain_block: Strika teldupostanavnaøkjablokering
-        destroy_instance: Reinsa navnaøki
-        destroy_ip_block: Strika IP reglu
-        destroy_status: Strika post
-        destroy_unavailable_domain: Strika navnaøki, sum ikki er tøkt
-        destroy_user_role: Bein burtur leiklut
-        disable_2fa_user: Ger 2FA óvirkið
-        disable_custom_emoji: Ger serligt kenslutekn óvirkið
-        disable_sign_in_token_auth_user: Ger váttan við teldupostateknum óvirkna fyri brúkara
-        disable_user: Ger brúkara óvirknan
-        enable_custom_emoji: Ger serligt kenslutekn virkið
-        enable_sign_in_token_auth_user: Ger váttan við teldupostateknum virkna fyri brúkara
-        enable_user: Ger brúkara virknan
-        memorialize_account: Minnst til Konto
-        promote_user: Vís fram Brúkara
-        reject_appeal: Avvís mótmali
-        reject_user: Avvís Brúkara
-        remove_avatar_user: Sletta Avatar
-        reopen_report: Lat upp aftur Frágreiðing
-        resend_user: Endursent Váttanar Teldupost
-        reset_password_user: Endurset Loyniorð
-        resolve_report: Loys trupulleikar í Frágreiðing
-        sensitive_account: Tvinga viðkvæmis Konto
-        silence_account: Avmarka Konto
-        suspend_account: Fyribils ógilda kontu
-        unassigned_report: Sletta tildeilda Frágreiðing
-        unblock_email_account: Sletta foring av telduposti
-        unsensitive_account: Ógilda Tvungna-Viðkvæmis kontu
-        unsilence_account: Ógilda Avmarkaða Kontu
-        unsuspend_account: Fyribils ógilda kontu
-        update_announcement: Dagfør Fráboðan
-        update_custom_emoji: Dagfør Sergjørt Kenslutekn
-        update_domain_block: Dagfør Domain forðing
-        update_ip_block: Dagfør IP reglur
-        update_status: Dagfør Uppslag
-        update_user_role: Dagfør Leiklut
+        approve_appeal: Approve Appeal
+        approve_user: Approve User
+        assigned_to_self_report: Assign Report
+        change_email_user: Change E-mail for User
+        change_role_user: Change Role of User
+        confirm_user: Confirm User
+        create_account_warning: Create Warning
+        create_announcement: Create Announcement
+        create_canonical_email_block: Create E-mail Block
+        create_custom_emoji: Create Custom Emoji
+        create_domain_allow: Create Domain Allow
+        create_domain_block: Create Domain Block
+        create_email_domain_block: Create E-mail Domain Block
+        create_ip_block: Create IP rule
+        create_unavailable_domain: Create Unavailable Domain
+        create_user_role: Create Role
+        demote_user: Demote User
+        destroy_announcement: Delete Announcement
+        destroy_canonical_email_block: Delete E-mail Block
+        destroy_custom_emoji: Delete Custom Emoji
+        destroy_domain_allow: Delete Domain Allow
+        destroy_domain_block: Delete Domain Block
+        destroy_email_domain_block: Delete E-mail Domain Block
+        destroy_instance: Purge Domain
+        destroy_ip_block: Delete IP rule
+        destroy_status: Delete Post
+        destroy_unavailable_domain: Delete Unavailable Domain
+        destroy_user_role: Destroy Role
+        disable_2fa_user: Disable 2FA
+        disable_custom_emoji: Disable Custom Emoji
+        disable_sign_in_token_auth_user: Disable E-mail Token Authentication for User
+        disable_user: Disable User
+        enable_custom_emoji: Enable Custom Emoji
+        enable_sign_in_token_auth_user: Enable E-mail Token Authentication for User
+        enable_user: Enable User
+        memorialize_account: Memorialize Account
+        promote_user: Promote User
+        reject_appeal: Reject Appeal
+        reject_user: Reject User
+        remove_avatar_user: Remove Avatar
+        reopen_report: Reopen Report
+        resend_user: Resend Confirmation Mail
+        reset_password_user: Reset Password
+        resolve_report: Resolve Report
+        sensitive_account: Force-Sensitive Account
+        silence_account: Limit Account
+        suspend_account: Suspend Account
+        unassigned_report: Unassign Report
+        unblock_email_account: Unblock email address
+        unsensitive_account: Undo Force-Sensitive Account
+        unsilence_account: Undo Limit Account
+        unsuspend_account: Unsuspend Account
+        update_announcement: Update Announcement
+        update_custom_emoji: Update Custom Emoji
+        update_domain_block: Update Domain Block
+        update_ip_block: Update IP rule
+        update_status: Update Post
+        update_user_role: Update Role
       actions:
-        approve_appeal_html: "%{name} góðkendi umsjónaráheitan frá %{target}"
-        approve_user_html: "%{name} góðtók umsókn frá %{target}"
-        assigned_to_self_report_html: "%{name} tillutaði frágreiðing %{target} til sín sjálvs"
-        change_email_user_html: "%{name} broytti teldupost addressuna hjá %{target}"
-        change_role_user_html: "%{name} broytti leiklutin hjá %{target}"
-        confirm_user_html: "%{name} góðtók teldupost addressuna hjá %{target}"
-        create_account_warning_html: "%{name} sendi eina ávarðing til %{target}"
-        create_announcement_html: "%{name} stovnaði eina fráboðan %{target}"
-        create_canonical_email_block_html: "%{name} forðaði telduposti við hash'inum %{target}"
-        create_custom_emoji_html: "%{name} legði upp nýtt kenslutekn %{target}"
-        create_domain_allow_html: "%{name} loyv sameining við domainið %{target}"
-        create_domain_block_html: "%{name} blokeraði navnaøkið %{target}"
-        create_email_domain_block_html: "%{name} blokeraði teldupostanavnaøkið %{target}"
-        create_ip_block_html: "%{name} gjørdi reglu fyri IP %{target}"
-        create_unavailable_domain_html: "%{name} steðgaði veiting til navnaøkið %{target}"
-        create_user_role_html: "%{name} stovnaði %{target} leiklutin"
-        demote_user_html: "%{name} lækkaði tignina hjá brúkaranum %{target}"
-        destroy_announcement_html: "%{name} strikaðar fráboðanir %{target}"
-        destroy_canonical_email_block_html: "%{name} strikaði blokeringina av teldupostin við hashkodu %{target}"
-        destroy_custom_emoji_html: "%{name} strikaði kensluteknið %{target}"
-        destroy_domain_allow_html: "%{name} havnaði sameining við navnaøkið %{target}"
-        destroy_domain_block_html: "%{name} strikaði blokering av navnaøkinum %{target}"
-        destroy_email_domain_block_html: "%{name} leysgivi teldupostanavnaøkið %{target}"
-        destroy_instance_html: "%{name} reinsaði navnaøkið %{target}"
-        destroy_ip_block_html: "%{name} slettaðar reglur fyri IP %{target}"
-        destroy_status_html: "%{name} slettaði upplegg hjá %{target}"
-        destroy_unavailable_domain_html: "%{name} tók upp aftir veiting til navnaøkið %{target}"
-        destroy_user_role_html: "%{name} slettaði leiklutin hjá %{target}"
-        disable_2fa_user_html: "%{name} slepti kravið um váttan í tveimum stigum fyri brúkaran %{target}"
-        disable_custom_emoji_html: "%{name} gjørdi kensluteknið %{target} óvirkið"
-        disable_sign_in_token_auth_user_html: "%{name} gjørdi váttan við teldupostteknum óvirkna fyri %{target}"
-        disable_user_html: "%{name} gjørdi innritan hjá brúkaranum %{target} óvirkna"
-        enable_custom_emoji_html: "%{name} gjørdi kensluteknið %{target} virkið"
-        enable_sign_in_token_auth_user_html: "%{name} gjørdi váttan við teldupostteknum virkna fyri %{target}"
-        enable_user_html: "%{name} gjørdi innritan virkna fyri brúkaran %{target}"
-        memorialize_account_html: "%{name} broytti kontuna hjá %{target} til eina minnissíðu"
-        promote_user_html: "%{name} flutti brúkaran %{target} fram"
-        reject_appeal_html: "%{name} avvísti umsjónaráheitan frá %{target}"
-        reject_user_html: "%{name} avvísti skráseting hjá %{target}"
-        remove_avatar_user_html: "%{name} strikaði eftirgjørda skapningin hjá %{target}"
-        reopen_report_html: "%{name} lat uppaftur meldingina %{target}"
-        resend_user_html: "%{name} endursendi váttanarteldubrævið fyri %{target}"
-        reset_password_user_html: "%{name} setti loyniorðið hjá brúkaranum %{target} av nýggjum"
-        resolve_report_html: "%{name} avgreiddi meldingina %{target}"
-        sensitive_account_html: "%{name} hevur merkt media hjá %{target} sum viðkvæmt"
-        silence_account_html: "%{name} hevur avmarkað rættindini á kontuni %{target}"
-        suspend_account_html: "%{name} ógildaði kontuna hjá %{target}"
-        unassigned_report_html: "%{name} tók aftur tillutanina av meldingini %{target}"
-        unblock_email_account_html: "%{name} hevur læst teldubrævabústaðin hjá %{target} upp"
-        unsensitive_account_html: "%{name} strikaði viðkvæmis-merkingina av miðlafíluni %{target}"
-        unsilence_account_html: "%{name} strikaði avmarkingina av kontuni hjá %{target}"
-        unsuspend_account_html: "%{name} setti kontuna hjá %{target} í gildi aftur"
-        update_announcement_html: "%{name} dagførdi kunngerðina %{target}"
-        update_custom_emoji_html: "%{name} dagførdi kensluteknið %{target}"
-        update_domain_block_html: "%{name} dagførdi navnaøkisblokeringina hjá %{target}"
-        update_ip_block_html: "%{name} broytti IP-reglurnar %{target}"
-        update_status_html: "%{name} dagførdi postin hjá %{target}"
-        update_user_role_html: "%{name} broyttir %{target} leiklutir"
-      deleted_account: strikað konta
-      empty: Eingir loggar funnir.
-      filter_by_action: Filtrera eftir atgerð
-      filter_by_user: Filtrera eftir brúkara
-      title: Skoðanarloggur
+        approve_appeal_html: "%{name} approved moderation decision appeal from %{target}"
+        approve_user_html: "%{name} approved sign-up from %{target}"
+        assigned_to_self_report_html: "%{name} assigned report %{target} to themselves"
+        change_email_user_html: "%{name} changed the e-mail address of user %{target}"
+        change_role_user_html: "%{name} changed role of %{target}"
+        confirm_user_html: "%{name} confirmed e-mail address of user %{target}"
+        create_account_warning_html: "%{name} sent a warning to %{target}"
+        create_announcement_html: "%{name} created new announcement %{target}"
+        create_canonical_email_block_html: "%{name} blocked e-mail with the hash %{target}"
+        create_custom_emoji_html: "%{name} uploaded new emoji %{target}"
+        create_domain_allow_html: "%{name} allowed federation with domain %{target}"
+        create_domain_block_html: "%{name} blocked domain %{target}"
+        create_email_domain_block_html: "%{name} blocked e-mail domain %{target}"
+        create_ip_block_html: "%{name} created rule for IP %{target}"
+        create_unavailable_domain_html: "%{name} stopped delivery to domain %{target}"
+        create_user_role_html: "%{name} created %{target} role"
+        demote_user_html: "%{name} demoted user %{target}"
+        destroy_announcement_html: "%{name} deleted announcement %{target}"
+        destroy_canonical_email_block_html: "%{name} unblocked e-mail with the hash %{target}"
+        destroy_custom_emoji_html: "%{name} deleted emoji %{target}"
+        destroy_domain_allow_html: "%{name} disallowed federation with domain %{target}"
+        destroy_domain_block_html: "%{name} unblocked domain %{target}"
+        destroy_email_domain_block_html: "%{name} unblocked e-mail domain %{target}"
+        destroy_instance_html: "%{name} purged domain %{target}"
+        destroy_ip_block_html: "%{name} deleted rule for IP %{target}"
+        destroy_status_html: "%{name} removed post by %{target}"
+        destroy_unavailable_domain_html: "%{name} resumed delivery to domain %{target}"
+        destroy_user_role_html: "%{name} deleted %{target} role"
+        disable_2fa_user_html: "%{name} disabled two factor requirement for user %{target}"
+        disable_custom_emoji_html: "%{name} disabled emoji %{target}"
+        disable_sign_in_token_auth_user_html: "%{name} disabled e-mail token authentication for %{target}"
+        disable_user_html: "%{name} disabled login for user %{target}"
+        enable_custom_emoji_html: "%{name} enabled emoji %{target}"
+        enable_sign_in_token_auth_user_html: "%{name} enabled e-mail token authentication for %{target}"
+        enable_user_html: "%{name} enabled login for user %{target}"
+        memorialize_account_html: "%{name} turned %{target}'s account into a memoriam page"
+        promote_user_html: "%{name} promoted user %{target}"
+        reject_appeal_html: "%{name} rejected moderation decision appeal from %{target}"
+        reject_user_html: "%{name} rejected sign-up from %{target}"
+        remove_avatar_user_html: "%{name} removed %{target}'s avatar"
+        reopen_report_html: "%{name} reopened report %{target}"
+        resend_user_html: "%{name} resent confirmation e-mail for %{target}"
+        reset_password_user_html: "%{name} reset password of user %{target}"
+        resolve_report_html: "%{name} resolved report %{target}"
+        sensitive_account_html: "%{name} marked %{target}'s media as sensitive"
+        silence_account_html: "%{name} limited %{target}'s account"
+        suspend_account_html: "%{name} suspended %{target}'s account"
+        unassigned_report_html: "%{name} unassigned report %{target}"
+        unblock_email_account_html: "%{name} unblocked %{target}'s email address"
+        unsensitive_account_html: "%{name} unmarked %{target}'s media as sensitive"
+        unsilence_account_html: "%{name} undid limit of %{target}'s account"
+        unsuspend_account_html: "%{name} unsuspended %{target}'s account"
+        update_announcement_html: "%{name} updated announcement %{target}"
+        update_custom_emoji_html: "%{name} updated emoji %{target}"
+        update_domain_block_html: "%{name} updated domain block for %{target}"
+        update_ip_block_html: "%{name} changed rule for IP %{target}"
+        update_status_html: "%{name} updated post by %{target}"
+        update_user_role_html: "%{name} changed %{target} role"
+      deleted_account: deleted account
+      empty: No logs found.
+      filter_by_action: Filter by action
+      filter_by_user: Filter by user
+      title: Audit log
     announcements:
-      destroyed_msg: Kunngerð strikað!
+      destroyed_msg: Announcement successfully deleted!
       edit:
-        title: Rætta kunngerð
-      empty: Ongar kunngerðir funnar.
-      live: Beinleiðis
+        title: Edit announcement
+      empty: No announcements found.
+      live: Live
       new:
-        create: Stovna kunngerð
-        title: Nýggj kunngerð
-      publish: Legg út
-      published_msg: Kunngerð útgivin!
-      scheduled_for: Sett á skrá %{time}
-      scheduled_msg: Útgáva av kunngerð tíðarásett!
-      title: Kunngerðir
-      unpublish: Tak útgávu aftur
-      unpublished_msg: Kunngerð tikin aftur!
-      updated_msg: Kunngerð dagførd!
+        create: Create announcement
+        title: New announcement
+      publish: Publish
+      published_msg: Announcement successfully published!
+      scheduled_for: Scheduled for %{time}
+      scheduled_msg: Announcement scheduled for publication!
+      title: Announcements
+      unpublish: Unpublish
+      unpublished_msg: Announcement successfully unpublished!
+      updated_msg: Announcement successfully updated!
     custom_emojis:
-      assign_category: Tilluta bólk
-      by_domain: Økisnavn
-      copied_msg: Havi gjørt lokalt avrit av kenslutekninum
-      copy: Avrita
-      copy_failed_msg: Tað bar ikki til at gera lokalt avrit av hasum kenslutekninum
-      create_new_category: Stovna nýggja flokking
-      created_msg: Kenslutekn stovnað!
-      delete: Strika
-      destroyed_msg: Kenslutekn strikað!
-      disable: Ógilda
-      disabled: Ógildað
-      disabled_msg: Kenslutekn gjørt óvirkið
-      emoji: Kenslutekn
-      enable: Set í gildi
-      enabled: Í gildi
-      enabled_msg: Kenslutekn gjørt virkið
-      image_hint: PNG ella GIF upp til %{size}
-      list: Listi
-      listed: Listað
+      assign_category: Assign category
+      by_domain: Domain
+      copied_msg: Successfully created local copy of the emoji
+      copy: Copy
+      copy_failed_msg: Could not make a local copy of that emoji
+      create_new_category: Create new category
+      created_msg: Emoji successfully created!
+      delete: Delete
+      destroyed_msg: Emojo successfully destroyed!
+      disable: Disable
+      disabled: Disabled
+      disabled_msg: Successfully disabled that emoji
+      emoji: Emoji
+      enable: Enable
+      enabled: Enabled
+      enabled_msg: Successfully enabled that emoji
+      image_hint: PNG or GIF up to %{size}
+      list: List
+      listed: Listed
       new:
-        title: Legg sergjørt kenslutekn afturat
-      no_emoji_selected: Eingi kenslutekn vóru broytt, tí eingi vóru vald
-      not_permitted: Tú hevur ikki loyvi at gera hetta
-      overwrite: Skriva omaná
-      shortcode: Stuttkoda
-      shortcode_hint: Minst 2 tekn. Bara tøl, vanligir stavir og botnstrikur
-      title: Sergjørd kenslutekn
-      uncategorized: Ikki flokkað
-      unlist: Tak av listanum
-      unlisted: Ikki listað
-      update_failed_msg: Fekk ikki dagført hatta kensluteknið
-      updated_msg: Kenslutekn dagført!
-      upload: Legg upp
+        title: Add new custom emoji
+      no_emoji_selected: No emojis were changed as none were selected
+      not_permitted: You are not permitted to perform this action
+      overwrite: Overwrite
+      shortcode: Shortcode
+      shortcode_hint: At least 2 characters, only alphanumeric characters and underscores
+      title: Custom emojis
+      uncategorized: Uncategorized
+      unlist: Unlist
+      unlisted: Unlisted
+      update_failed_msg: Could not update that emoji
+      updated_msg: Emoji successfully updated!
+      upload: Upload
     dashboard:
-      active_users: virknir brúkarar
-      interactions: sín ámillum ávirkanir
-      media_storage: Miðlagoymsla
-      new_users: nýggir brúkarar
-      opened_reports: meldingar latnar upp
+      active_users: active users
+      interactions: interactions
+      media_storage: Media storage
+      new_users: new users
+      opened_reports: reports opened
       pending_appeals_html:
-        one: "<strong>%{count}</strong> kæra bíðar"
-        other: "<strong>%{count}</strong> kærur bíða"
+        one: "<strong>%{count}</strong> pending appeal"
+        other: "<strong>%{count}</strong> pending appeals"
       pending_reports_html:
-        one: "<strong>%{count}</strong> melding bíðar"
-        other: "<strong>%{count}</strong> meldingar bíða"
+        one: "<strong>%{count}</strong> pending report"
+        other: "<strong>%{count}</strong> pending reports"
       pending_tags_html:
-        one: "<strong>%{count}</strong> frámerki bíðar"
-        other: "<strong>%{count}</strong> frámerki bíða"
+        one: "<strong>%{count}</strong> pending hashtag"
+        other: "<strong>%{count}</strong> pending hashtags"
       pending_users_html:
-        one: "<strong>%{count}</strong> brúkari bíðar"
-        other: "<strong>%{count}</strong> brúkarar bíða"
-      resolved_reports: meldingar avgreiddar
-      software: Ritbúnaður
-      sources: Tilmeldingarkeldur
-      space: Goymsla brúkt
-      title: Kunningarbretti
-      top_languages: Mest virknu mál
-      top_servers: Mest virknu ambætarar
-      website: Vevstað
+        one: "<strong>%{count}</strong> pending user"
+        other: "<strong>%{count}</strong> pending users"
+      resolved_reports: reports resolved
+      software: Software
+      sources: Sign-up sources
+      space: Space usage
+      title: Dashboard
+      top_languages: Top active languages
+      top_servers: Top active servers
+      website: Website
     disputes:
       appeals:
-        empty: Ongar kærur funnar.
-        title: Kærur
+        empty: No appeals found.
+        title: Appeals
     domain_allows:
-      add_new: Loyv sameining við navnaøki
-      created_msg: Sameining er nú loyvd fyri navnaøkið
-      destroyed_msg: Loyvi hjá navnaøki at sameinast er noktað
-      export: Flyt út
-      import: Flyt inn
-      undo: Nokta sameining við navnaøki
+      add_new: Allow federation with domain
+      created_msg: Domain has been successfully allowed for federation
+      destroyed_msg: Domain has been disallowed from federation
+      export: Export
+      import: Import
+      undo: Disallow federation with domain
     domain_blocks:
-      add_new: Legg nýggja navnaøkisblokering afturat
-      created_msg: Navnaøkisblokering verður nú viðgjørd
-      destroyed_msg: Navnaøkisblokering er nú gjørd óvirkin
-      domain: Økisnavn
-      edit: Rætta navnaøkisblokering
-      existing_domain_block: Tú hevur longu ásett stangari avmarkingar á %{name}.
-      existing_domain_block_html: Tú hevur longu ásett strangari avmarkingar á %{name}, tú mást <a href="%{unblock_url}">strika blokeringina</a> fyrst.
-      export: Flyt út
-      import: Flyt inn
+      add_new: Add new domain block
+      created_msg: Domain block is now being processed
+      destroyed_msg: Domain block has been undone
+      domain: Domain
+      edit: Edit domain block
+      existing_domain_block: You have already imposed stricter limits on %{name}.
+      existing_domain_block_html: You have already imposed stricter limits on %{name}, you need to <a href="%{unblock_url}">unblock it</a> first.
+      export: Export
+      import: Import
       new:
-        create: Stovna blokering
-        hint: Navnaøkjablokeringin forðar ikki stovnan av kontum í dátugrunninum, men fer afturlítandi og sjálvvirkandi at gera ávísar umsjónarmannagongdir á hesar kontur virknar.
+        create: Create block
+        hint: The domain block will not prevent creation of account entries in the database, but will retroactively and automatically apply specific moderation methods on those accounts.
         severity:
-          desc_html: "<strong>Avvmarka</strong> ger soleiðis, at postar frá kontum í hesum navnaøki verða ósjónligur fyri øll, sum ikki fylgja kontunum beinleiðis.\n<strong>Ógilda</strong> strikar alt innihald, allar miðlar og allar vangadátur fyri kontur hjá hesum navnaøkinum frá tínum ambætara. Brúka \n<strong>Einki</strong> um tú einans vil avvísa miðlafílum."
-          noop: Ongar
-          silence: Mark
-          suspend: Ógilda
-        title: Nýggj navnaøkisblokering
-      no_domain_block_selected: Ongar navnaøkjablokeringar vóru broyttar, tí ongar vóru valdar
-      not_permitted: Tú hevur ikki rættindi at gera hetta
-      obfuscate: Grugga navnaøki
-      obfuscate_hint: Grugga navnaøkið lutvíst í listanum, um kunngerð av listum við navnaøkisavmarkingum er gjørd virkin
-      private_comment: Privat viðmerking
-      private_comment_hint: Viðmerking um hesa navnaøkjaavmarking til innanhýsis nýtslu hjá umsjónarfólkunum.
-      public_comment: Sjónlig viðmerking
-      public_comment_hint: Viðmerk hesa navnaøkisavmarkingina fyri almenninginum, um kunngerð av listum við navnaøkisavmarkingum er gjørd virkin.
-      reject_media: Avvís miðlafílur
-      reject_media_hint: Burturbeinir miðlafílur, sum eru goymdar lokalt, og noktar at taka niður fílur frameftir. Óviðkomandi fyri banningar
-      reject_reports: Avvís meldingar
-      reject_reports_hint: Ikki leggja lag í meldingar, sum koma frá hesum navnaøkinum. Óviðkomandi fyri banningar
-      undo: Strika navnaøkisblokering
-      view: Vís navnaøkisblokering
+          desc_html: "<strong>Limit</strong> will make posts from accounts at this domain invisible to anyone who isn't following them. <strong>Suspend</strong> will remove all content, media, and profile data for this domain's accounts from your server. Use <strong>None</strong> if you just want to reject media files."
+          noop: None
+          silence: Limit
+          suspend: Suspend
+        title: New domain block
+      no_domain_block_selected: No domain blocks were changed as none were selected
+      not_permitted: You are not permitted to perform this action
+      obfuscate: Obfuscate domain name
+      obfuscate_hint: Partially obfuscate the domain name in the list if advertising the list of domain limitations is enabled
+      private_comment: Private comment
+      private_comment_hint: Comment about this domain limitation for internal use by the moderators.
+      public_comment: Public comment
+      public_comment_hint: Comment about this domain limitation for the general public, if advertising the list of domain limitations is enabled.
+      reject_media: Reject media files
+      reject_media_hint: Removes locally stored media files and refuses to download any in the future. Irrelevant for suspensions
+      reject_reports: Reject reports
+      reject_reports_hint: Ignore all reports coming from this domain. Irrelevant for suspensions
+      undo: Undo domain block
+      view: View domain block
     email_domain_blocks:
-      add_new: Stovna
+      add_new: Add new
       attempts_over_week:
-        one: "%{count} roynd seinastu vikuna"
-        other: "%{count} tilmeldingarroyndir seinastu vikuna"
-      created_msg: Teldupostanavnaøkið blokerað
-      delete: Strika
+        one: "%{count} attempt over the last week"
+        other: "%{count} sign-up attempts over the last week"
+      created_msg: Successfully blocked e-mail domain
+      delete: Delete
       dns:
         types:
-          mx: MX postur
-      domain: Navnaøki
+          mx: MX record
+      domain: Domain
       new:
-        create: Stovna nýtt økisnavn
-        resolve: Loys navnaøki
-        title: Blokera nýtt teldupostanavnaøki
-      no_email_domain_block_selected: Ongar teldupostanavnaøkisblokeringar vóru broyttar, tí ongar vóru valdar
-      resolved_dns_records_hint_html: Navnaøkið verður loyst til hesi MX navnaøki, sum í síðsta enda hava ábyrgdina av at móttaka teldupost. At blokera eitt MX navnaøki fer at blokera tilmeldingar frá einum og hvørjum teldupoststaði, sum brúkar sama MX navnaøki, sjálvt um sjónliga navnaøkið er eitt annað. <strong>Ansa eftir ikki at blokera stórar veitarar av telduposti</strong>
-      resolved_through_html: Loyst gjøgnum %{domain}
-      title: Blokeraði teldupostanavnaøki
+        create: Add domain
+        resolve: Resolve domain
+        title: Block new e-mail domain
+      no_email_domain_block_selected: No e-mail domain blocks were changed as none were selected
+      not_permitted: Not permitted
+      resolved_dns_records_hint_html: The domain name resolves to the following MX domains, which are ultimately responsible for accepting e-mail. Blocking an MX domain will block sign-ups from any e-mail address which uses the same MX domain, even if the visible domain name is different. <strong>Be careful not to block major e-mail providers.</strong>
+      resolved_through_html: Resolved through %{domain}
+      title: Blocked e-mail domains
     export_domain_allows:
       new:
-        title: Innflyt navnaøkjaloyvi
-      no_file: Eingin fíla vald
+        title: Import domain allows
+      no_file: No file selected
     export_domain_blocks:
       import:
-        description_html: Tú er í holt við at innflyta ein lista av navnaøkjablokeringum. Vinarliga eftirkanna listan gjølla, serliga um tú ikki hevur gjørt listan sjálv/ur.
-        existing_relationships_warning: Verandi fylgjarasambond
-        private_comment_description_html: Fyri at hjálpa tær at fylgja við í, hvaðani innfluttir blokkar koma, verða innfluttu blokkarnir stovnaðir við hesi privatu viðmerkingini:<q>%{comment}</q>
-        private_comment_template: Innflutt frá %{source} tann %{date}
-        title: Innflyt navnaøkjablokeringar
-      invalid_domain_block: 'Ein ella fleiri navnaøkjablokeringar vóru umlopnar vegna hesar feil(ir): %{error}'
+        description_html: You are about to import a list of domain blocks. Please review this list very carefully, especially if you have not authored this list yourself.
+        existing_relationships_warning: Existing follow relationships
+        private_comment_description_html: 'To help you track where imported blocks come from, imported blocks will be created with the following private comment: <q>%{comment}</q>'
+        private_comment_template: Imported from %{source} on %{date}
+        title: Import domain blocks
+      invalid_domain_block: 'One or more domain blocks were skipped because of the following error(s): %{error}'
       new:
-        title: Innflyt navnaøkjablokeringar
-      no_file: Eingin fíla vald
+        title: Import domain blocks
+      no_file: No file selected
     follow_recommendations:
-      description_html: "<strong>Viðmæli at fylgja hjálpa nýggjum brúkarum til skjótt at finna áhugavert innihald</strong>. Tá ein brúkari ikki hevur havt samband við aðrar brúkarar til at gera persónlig tilmæli, so verða hesar kontur viðmæltar í staðin. Konturnar verða roknaðar av nýggjum dagliga frá einari blanding av kontum við flestu hugbindingum og flestu lokalu fylgjarum fyri eitt givið mál."
-      language: Fyri mál
+      description_html: "<strong>Follow recommendations help new users quickly find interesting content</strong>. When a user has not interacted with others enough to form personalized follow recommendations, these accounts are recommended instead. They are re-calculated on a daily basis from a mix of accounts with the highest recent engagements and highest local follower counts for a given language."
+      language: For language
       status: Status
-      suppress: Avmarka tilmæli at fylgja
-      suppressed: Steðgað
-      title: Tilmæli at fylgja
-      unsuppress: Endurskapa tilmæli at fylgja
+      suppress: Suppress follow recommendation
+      suppressed: Suppressed
+      title: Follow recommendations
+      unsuppress: Restore follow recommendation
     instances:
       availability:
         description_html:
-          one: Um veiting til navnaøkið ikki riggar í <strong>%{count} dag</strong>, so verða ongar royndir at veita gjørdar, uttan so, at ein veiting <em>frá</em> navnaøkinum er móttikin.
-          other: Um veiting til navnaøkið ikki riggar <strong>%{count} ymiskar dagar</strong>, so verða ongar royndir at veita gjørdar, uttan so, at ein veiting <em>frá</em> navnaøkinum er móttikin.
-        failure_threshold_reached: Mesta tal av brekum nátt %{date}.
+          one: If delivering to the domain fails <strong>%{count} day</strong> without succeeding, no further delivery attempts will be made unless a delivery <em>from</em> the domain is received.
+          other: If delivering to the domain fails on <strong>%{count} different days</strong> without succeeding, no further delivery attempts will be made unless a delivery <em>from</em> the domain is received.
+        failure_threshold_reached: Failure threshold reached on %{date}.
         failures_recorded:
-          one: Miseydnaðar royndir í %{count} dag.
-          other: Miseydnaðar royndir í %{count} ymiskar dagar.
-        no_failures_recorded: Eingi brek skrásett.
-        title: Tøki
-        warning: Seinasta royndin at fáa samband við ambætaran eydnaðist ikki
-      back_to_all: Øll
-      back_to_limited: Avmarkaði
-      back_to_warning: Ávaring
-      by_domain: Økisnavn
-      confirm_purge: Er tað tilætlað, at dátur frá hesum navnaøkinum skulu strikast med alla?
+          one: Failed attempt on %{count} day.
+          other: Failed attempts on %{count} different days.
+        no_failures_recorded: No failures on record.
+        title: Availability
+        warning: The last attempt to connect to this server has been unsuccessful
+      back_to_all: All
+      back_to_limited: Limited
+      back_to_warning: Warning
+      by_domain: Domain
+      confirm_purge: Are you sure you want to permanently delete data from this domain?
       content_policies:
-        comment: Innanhýsis viðmerking
-        description_html: Tú kanst áseta innihaldspolitikkir, sum verða áløgd øllum kontum frá hesum navnaøkinum og øllum tess undirnavnaøkjum.
+        comment: Internal note
+        description_html: You can define content policies that will be applied to all accounts from this domain and any of its subdomains.
+        limited_federation_mode_description_html: You can chose whether to allow federation with this domain.
         policies:
-          reject_media: Vraka miðil
-          reject_reports: Vraka meldingar
-          silence: Mark
-          suspend: Ógilda
-        policy: Reglur
-        reason: Almenn grundgeving
-        title: Reglur fyri innihaldi
+          reject_media: Reject media
+          reject_reports: Reject reports
+          silence: Limit
+          suspend: Suspend
+        policy: Policy
+        reason: Public reason
+        title: Content policies
       dashboard:
-        instance_accounts_dimension: Kontur við flestum fylgjarum
-        instance_accounts_measure: goymdar kontur
-        instance_followers_measure: okkara fylgjarar har
-        instance_follows_measure: teirra fylgjarar her
-        instance_languages_dimension: Mest nýtt mál
-        instance_media_attachments_measure: goymd miðlaviðfesti
-        instance_reports_measure: meldingar um tey
-        instance_statuses_measure: goymdir postar
+        instance_accounts_dimension: Most followed accounts
+        instance_accounts_measure: stored accounts
+        instance_followers_measure: our followers there
+        instance_follows_measure: their followers here
+        instance_languages_dimension: Top languages
+        instance_media_attachments_measure: stored media attachments
+        instance_reports_measure: reports about them
+        instance_statuses_measure: stored posts
       delivery:
-        all: Øll
-        clear: Reinsa veitingarvillur
-        failing: Miseydnast
-        restart: Byrja veiting av nýggjum
-        stop: Støðga veiting
-        unavailable: Ikki tøkt
-      delivery_available: Levering er møgulig
-      delivery_error_days: Dagar við veitingarvillum
-      delivery_error_hint: Er veiting ikki møgulig í %{count} dagar, so verða tey sjálvvirkandi merkt sum ikki møgulig at veita.
-      destroyed_msg: Dátur frá %{domain} eru nú settar í bíðirøð til beinan vegin at blíva strikaðar.
-      empty: Eingi navnaøki funnin.
+        all: All
+        clear: Clear delivery errors
+        failing: Failing
+        restart: Restart delivery
+        stop: Stop delivery
+        unavailable: Unavailable
+      delivery_available: Delivery is available
+      delivery_error_days: Delivery error days
+      delivery_error_hint: If delivery is not possible for %{count} days, it will be automatically marked as undeliverable.
+      destroyed_msg: Data from %{domain} is now queued for imminent deletion.
+      empty: No domains found.
       known_accounts:
-        one: "%{count} kend konta"
-        other: "%{count} kendar kontur"
+        one: "%{count} known account"
+        other: "%{count} known accounts"
       moderation:
-        all: Allir
-        limited: Avmarkaðir
-        title: Umsjón
-      private_comment: Privat viðmerking
-      public_comment: Sjónlig viðmerking
-      purge: Reinsa
-      purge_description_html: Heldur tú, at hetta navnaøkið varandi hevur mist sambandið við netið, so kanst tú strika allar kontupostar og tilknýttar dátur frá hesum navnaøkinum frá tíni goymslu. Tað kann taka eina løtu.
-      title: Sameining
-      total_blocked_by_us: Blokerað av okkum
-      total_followed_by_them: Fylgt av teimum
-      total_followed_by_us: Fylgt av okkum
-      total_reported: Meldingar um tey
-      total_storage: Viðheftir miðlar
-      totals_time_period_hint_html: Við í samanteljingunum niðanfyri eru dátur frá byrjan av.
+        all: All
+        limited: Limited
+        title: Moderation
+      private_comment: Private comment
+      public_comment: Public comment
+      purge: Purge
+      purge_description_html: If you believe this domain is offline for good, you can delete all account records and associated data from this domain from your storage. This may take a while.
+      title: Federation
+      total_blocked_by_us: Blocked by us
+      total_followed_by_them: Followed by them
+      total_followed_by_us: Followed by us
+      total_reported: Reports about them
+      total_storage: Media attachments
+      totals_time_period_hint_html: The totals displayed below include data for all time.
     invites:
-      deactivate_all: Ger allar óvirknar
+      deactivate_all: Deactivate all
       filter:
-        all: Alt
-        available: Tøk
-        expired: Útgingið
-        title: Filtur
-      title: Innbjóðingar
+        all: All
+        available: Available
+        expired: Expired
+        title: Filter
+      title: Invites
     ip_blocks:
-      add_new: Stovna reglu
-      created_msg: Nýggj IP regla løgd afturat
-      delete: Strika
+      add_new: Create rule
+      created_msg: Successfully added new IP rule
+      delete: Delete
       expires_in:
-        '1209600': 2 vikur
-        '15778476': 6 mánaðir
-        '2629746': 1 mánaði
-        '31556952': 1 ár
-        '86400': 1 dag
-        '94670856': 3 ár
+        '1209600': 2 weeks
+        '15778476': 6 months
+        '2629746': 1 month
+        '31556952': 1 year
+        '86400': 1 day
+        '94670856': 3 years
       new:
-        title: Stovna nýggja IP reglu
-      no_ip_block_selected: Ongar IP reglur vóru broyttar, tí ongar vóru valdar
-      title: IP reglur
+        title: Create new IP rule
+      no_ip_block_selected: No IP rules were changed as none were selected
+      title: IP rules
     relationships:
-      title: Sambond hjá %{acct}
+      title: "%{acct}'s relationships"
     relays:
-      add_new: Legg nýtt reiðlag afturat
-      delete: Strika
-      description_html: Eitt <strong>sameint reiðlag</strong> er ein millumambætari sum flytir stórar nøgdir av almennum postum millum ambætarar, sum eru atknýttir og geva út á ambætaranum. <strong>Tað kann gera tað møguligt hjá smáum og miðalstórum ambætarum at varnast tilfar frá sameinda alheiminum</strong>, sum annars hevði kravt, at lokalir brúkarar fylgdu einstøku brúkarunum á fjarum ambætarum.
-      disable: Ger óvirkið
-      disabled: Óvirkið
-      enable: Set í gildi
-      enable_hint: Tá tað er virkið, so teknar ambætarnir hjá tær seg fyri allar almennum postum frá hesum reiðlagi, og sendir almennar postar frá tínum ambætara til reiðlagið.
-      enabled: Virkið
-      inbox_url: URL hjá reiðlagi
-      pending: Bíðar eftir góðkenning frá reiðlagi
-      save_and_enable: Goym og ger virkið
-      setup: Set upp samband við reiðlag
-      signatures_not_enabled: Reiðlag virka ikki sum tey skulu, tá trygdarstøða ella avmarkað sameiningarstøða eru virknar
-      status: Støða
-      title: Reiðløg
+      add_new: Add new relay
+      delete: Delete
+      description_html: A <strong>federation relay</strong> is an intermediary server that exchanges large volumes of public posts between servers that subscribe and publish to it. <strong>It can help small and medium servers discover content from the fediverse</strong>, which would otherwise require local users manually following other people on remote servers.
+      disable: Disable
+      disabled: Disabled
+      enable: Enable
+      enable_hint: Once enabled, your server will subscribe to all public posts from this relay, and will begin sending this server's public posts to it.
+      enabled: Enabled
+      inbox_url: Relay URL
+      pending: Waiting for relay's approval
+      save_and_enable: Save and enable
+      setup: Setup a relay connection
+      signatures_not_enabled: Relays may not work correctly while secure mode or limited federation mode is enabled
+      status: Status
+      title: Relays
     report_notes:
-      created_msg: Viðmerking til melding stovnað!
-      destroyed_msg: Viðmerking til melding strikað!
+      created_msg: Report note successfully created!
+      destroyed_msg: Report note successfully deleted!
     reports:
       account:
         notes:
-          one: "%{count} viðmerking"
-          other: "%{count} viðmerkingar"
-      action_log: Skoðanarloggur
-      action_taken_by: Atgerð tikin av
+          one: "%{count} note"
+          other: "%{count} notes"
+      action_log: Audit log
+      action_taken_by: Action taken by
       actions:
-        delete_description_html: Meldaðu postarnir verða strikaðir og ein atsókn verður skrásett, soleiðis at tú veist, um onnur stig skulu takast, um sama konta ger fleiri brot í framtíðini.
-        mark_as_sensitive_description_html: Miðlarnir í meldaðu postunum verða merkir sum viðkvæmir, og ein atsókn verður skrásett, soleiðis at tú veist, um onnur stig skulu takast, um sama konta ger fleiri brot í framtíðini.
-        other_description_html: Sí fleiri valmøguleikar at stýra atferðini hjá kontuni og at tillagað samskiftið við meldaðu kontuni.
-        resolve_description_html: Eingin atgerð verður tikin móti meldaðu kontuni, eingin atsókn verður skrásett og meldingin verður lukkað.
-        silence_description_html: Kontan verður einans sjónlig hjá teimum, sum longu fylgja henni ella leita eftir henni við hond, og tað minkar nógv um, hvussu langt hon røkkur. Kann altíð angrast. Lukkar allar rapporteringar um hesa kontuna.
-        suspend_description_html: Kontan og alt innihald hjá kontuni gerast óatkomulig og við tíðini strikaði, og tað verður ógjørligt at samvirka við henni. Kann angrast innan 30 dagar. Lukkar allar rapporteringar av hesi kontuni.
-      actions_description_html: Ger av hvør atgerð skal takast fyri at avgreiða hesa meldingina. Revsitiltøk móti meldaðu kontuni føra við sær, at ein teldupostfráboðan verður send teimum, undantikið tá <strong>Ruskpostur</strong> verður valdur.
-      actions_description_remote_html: Tak avgerð um hvat skal gerast fyri at avgreiða hesa rapporteringina. Hetta fer einans at ávirka, hvussu <strong>tín</strong> ambætari samskiftir við hesa fjarkontuna og hvussu hann handfer tilfar frá henni.
-      add_to_report: Legg meira afturat meldingini
-      are_you_sure: Er tú vís/ur?
-      assign_to_self: Tilluta mær
-      assigned: Tilnevnt umsjónarfólk
-      by_target_domain: Navnaøki hjá meldaðu kontuni
-      category: Bólkur
-      category_description_html: Orsøkin, at hendan kontan og/ella tilfarið var melda verður fráboðað í samskifti við meldaðu kontuni
+        delete_description_html: The reported posts will be deleted and a strike will be recorded to help you escalate on future infractions by the same account.
+        mark_as_sensitive_description_html: The media in the reported posts will be marked as sensitive and a strike will be recorded to help you escalate on future infractions by the same account.
+        other_description_html: See more options for controlling the account's behaviour and customize communication to the reported account.
+        resolve_description_html: No action will be taken against the reported account, no strike recorded, and the report will be closed.
+        silence_description_html: The account will be visible only to those who already follow it or manually look it up, severely limiting its reach. Can always be reverted. Closes all reports against this account.
+        suspend_description_html: The account and all its contents will be inaccessible and eventually deleted, and interacting with it will be impossible. Reversible within 30 days. Closes all reports against this account.
+      actions_description_html: Decide which action to take to resolve this report. If you take a punitive action against the reported account, an e-mail notification will be sent to them, except when the <strong>Spam</strong> category is selected.
+      actions_description_remote_html: Decide which action to take to resolve this report. This will only affect how <strong>your</strong> server communicates with this remote account and handle its content.
+      add_to_report: Add more to report
+      are_you_sure: Are you sure?
+      assign_to_self: Assign to me
+      assigned: Assigned moderator
+      by_target_domain: Domain of reported account
+      cancel: Cancel
+      category: Category
+      category_description_html: The reason this account and/or content was reported will be cited in communication with the reported account
       comment:
-        none: Eingin
-      comment_description_html: 'Fyri at veita fleiri upplýsingar skrivaði %{name}:'
-      confirm_action: Vátta umsjónaratgerð móti @%{acct}
-      created_at: Meldað
-      delete_and_resolve: Strika postar
-      forwarded: Víðarisent
-      forwarded_to: Víðarisent til %{domain}
-      mark_as_resolved: Marka sum loyst
-      mark_as_sensitive: Merkt sum viðkvæmt
-      mark_as_unresolved: Marka sum óloyst
-      no_one_assigned: Eingin
+        none: None
+      comment_description_html: 'To provide more information, %{name} wrote:'
+      confirm: Confirm
+      confirm_action: Confirm moderation action against @%{acct}
+      created_at: Reported
+      delete_and_resolve: Delete posts
+      forwarded: Forwarded
+      forwarded_to: Forwarded to %{domain}
+      mark_as_resolved: Mark as resolved
+      mark_as_sensitive: Mark as sensitive
+      mark_as_unresolved: Mark as unresolved
+      no_one_assigned: No one
       notes:
-        create: Legg viðmerking afturat
-        create_and_resolve: Marka sum loyst og ger viðmerking
-        create_and_unresolve: Lat upp aftur við viðmerking
-        delete: Strika
-        placeholder: Greið frá, hvørjar atgerðir hava verið gjørdar ella aðrar viðkomandi dagføringar...
-        title: Viðmerkingar
-      notes_description_html: Vís ella skriva viðmerkingar til onnur umsjónarfólk ella teg sjálva/n í framtíðini
-      processed_msg: 'Rapportering #%{id} liðugt viðgjørd'
-      quick_actions_description_html: 'Tak eina skjóta avgerð ella skrulla niðureftir fyri at síggja meldaða innihaldið:'
-      remote_user_placeholder: fjarbrúkarin frá %{instance}
-      reopen: Lat melding uppaftur
-      report: 'Melding #%{id}'
-      reported_account: Meldað konta
-      reported_by: Meldað av
-      resolved: Loyst
-      resolved_msg: Melding avgreidd!
-      skip_to_actions: Leyp til atgerðir
-      status: Støða
-      statuses: Meldað innihald
-      statuses_description_html: Tilfarið, sum brotið viðvíkur, fer at vera siterað í samskifti við meldaðu kontuni
+        create: Add note
+        create_and_resolve: Resolve with note
+        create_and_unresolve: Reopen with note
+        delete: Delete
+        placeholder: Describe what actions have been taken, or any other related updates...
+        title: Notes
+      notes_description_html: View and leave notes to other moderators and your future self
+      processed_msg: 'Report #%{id} successfully processed'
+      quick_actions_description_html: 'Take a quick action or scroll down to see reported content:'
+      remote_user_placeholder: the remote user from %{instance}
+      reopen: Reopen report
+      report: 'Report #%{id}'
+      reported_account: Reported account
+      reported_by: Reported by
+      resolved: Resolved
+      resolved_msg: Report successfully resolved!
+      skip_to_actions: Skip to actions
+      status: Status
+      statuses: Reported content
+      statuses_description_html: Offending content will be cited in communication with the reported account
       summary:
         action_preambles:
-          delete_html: 'Tú er í ferð við at <strong>strika</strong> nakrar av postunum hjá <strong>@%{acct}</strong>. Hetta fer at:'
-          mark_as_sensitive_html: 'Tú er í ferð við at <strong>merkja</strong> nakrar av postunum hjá <strong>@%{acct}</strong> sum <strong>viðkvæmar</strong>. Hetta fer at:'
-          silence_html: 'Tú er í ferð við at <strong>avmarka</strong> kontuna hjá <strong>@%{acct}</strong>. Hetta fer at:'
-          suspend_html: 'Tú er í ferð við at gera kontuna hjá <strong>@%{acct}</strong> <strong>óvirkna</strong>. Hetta fer at:'
+          delete_html: 'You are about to <strong>remove</strong> some of <strong>@%{acct}</strong>''s posts. This will:'
+          mark_as_sensitive_html: 'You are about to <strong>mark</strong> some of <strong>@%{acct}</strong>''s posts as <strong>sensitive</strong>. This will:'
+          silence_html: 'You are about to <strong>limit</strong> <strong>@%{acct}</strong>''s account. This will:'
+          suspend_html: 'You are about to <strong>suspend</strong> <strong>@%{acct}</strong>''s account. This will:'
         actions:
-          delete_html: Strika postar, ið eru farnir útum mark
-          mark_as_sensitive_html: Merk postar, ið eru farnir um mark, sum viðkvæmar
-          silence_html: Avmarka hvussu langt <strong>@%{acct}</strong> røkkur við einans at lata vangan og innihaldið hjá teimum vera sjónligt hjá fólki, sum longu fylgja teimum ella manuelt sláa vangan upp
-          suspend_html: Ger kontuna <strong>@%{acct}</strong> óvirkna, soleiðis at vangin og innihaldið verður óframkomiligt og ómøguligt at samvirka við
-        close_report: 'Merk kæruna #%{id} sum loysta'
-        close_reports_html: Merk <strong>allar</strong> kærur móti <strong>@%{acct}</strong> sum loystar
-        delete_data_html: Strika vangan og innihaldið hjá <strong>@%{acct}</strong> um 30 dagar uttan so at kontan verður gjørd virkin aftur áðrenn tað
-        preview_preamble_html: "<strong>@%{acct}</strong> ger at móttaka eina ávaring við hesum innihaldi:"
-        record_strike_html: Skráset eitt brot á <strong>@%{acct}</strong>, soleiðis at tað kann havast í huga í samband við møgulig framtíðar mishald
-        send_email_html: Send <strong>@%{acct}</strong> eitt teldubræv við eini ávaring
-        warning_placeholder: Møguligar eyka grundgevingar fyri umsjónaratgerð.
-      target_origin: Uppruni hjá meldaðu kontuni
-      title: Meldingar
-      unassign: Strika tillutan
-      unknown_action_msg: 'Ókend atgerð: %{action}'
-      unresolved: Óloyst
-      updated_at: Dagført
-      view_profile: Vís vangamynd
+          delete_html: Remove the offending posts
+          mark_as_sensitive_html: Mark the offending posts' media as sensitive
+          silence_html: Severely limit <strong>@%{acct}</strong>'s reach by making their profile and contents only visible to people already following them or manually looking it profile up
+          suspend_html: Suspend <strong>@%{acct}</strong>, making their profile and contents inaccessible and impossible to interact with
+        close_report: 'Mark report #%{id} as resolved'
+        close_reports_html: Mark <strong>all</strong> reports against <strong>@%{acct}</strong> as resolved
+        delete_data_html: Delete <strong>@%{acct}</strong>'s profile and contents 30 days from now unless they get unsuspended in the meantime
+        preview_preamble_html: "<strong>@%{acct}</strong> will receive a warning with the following contents:"
+        record_strike_html: Record a strike against <strong>@%{acct}</strong> to help you escalate on future violations from this account
+        send_email_html: Send <strong>@%{acct}</strong> a warning e-mail
+        warning_placeholder: Optional additional reasoning for the moderation action.
+      target_origin: Origin of reported account
+      title: Reports
+      unassign: Unassign
+      unknown_action_msg: 'Unknown action: %{action}'
+      unresolved: Unresolved
+      updated_at: Updated
+      view_profile: View profile
     roles:
-      add_new: Legg leiklut afturat
+      add_new: Add role
       assigned_users:
-        one: "%{count} brúkari"
-        other: "%{count} brúkarar"
+        one: "%{count} user"
+        other: "%{count} users"
       categories:
-        administration: Umsiting
+        administration: Administration
         devops: DevOps
-        invites: Innbjóðingar
-        moderation: Umsjón
-        special: Serstakt
-      delete: Strika
-      description_html: Við <strong>brúkaraleiklutum</strong> kanst tú stýra, hvørjar funktiónir og hvørji Mastodon-øki tínir brúkarar kunnu fáa atgongd til.
-      edit: Broyt '%{name}' leiklutin
-      everyone: Sjálvsett loyvi
-      everyone_full_description_html: Hetta er <strong>støðisleikluturin</strong>, sum ávirkar <strong>allar brúkarar</strong>, sjálvt teir, sum ikki hava ein ásettan leiklut. Allir aðrir leiklutir arva loyvi frá honum.
+        invites: Invites
+        moderation: Moderation
+        special: Special
+      delete: Delete
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Mastodon your users can access.
+      edit: Edit '%{name}' role
+      everyone: Default permissions
+      everyone_full_description_html: This is the <strong>base role</strong> affecting <strong>all users</strong>, even those without an assigned role. All other roles inherit permissions from it.
       permissions_count:
-        one: "%{count} loyvi"
-        other: "%{count} rættindi"
+        one: "%{count} permission"
+        other: "%{count} permissions"
       privileges:
-        administrator: Umsitari
-        administrator_description: Brúkarar við hesum rættindum skáka sær undan øllum loyvisavmarkingum
-        delete_user_data: Sletta brúkaraupplýsingar
-        delete_user_data_description: Loyvir brúkarum at strika dátur hjá øðrum brúkarum uttan seinkingar
-        invite_users: Bjóða brúkarum
-        invite_users_description: Loyvir brúkarum at bjóða nýggjum fólki til ambætaran
-        manage_announcements: Stýra kunngerðum
-        manage_announcements_description: Loyvir brúkarum at stýra kunngerðum á ambætaranum
-        manage_appeals: Umsit kærur
-        manage_appeals_description: Loyvir brúkarum at eftirkanna kærur um umsjónaratgerðir
-        manage_blocks: Stýra blokeringum
-        manage_blocks_description: Loyvir brúkarum at blokera teldupostveitarum og IP adressum
-        manage_custom_emojis: Stýra sergjørd kenslutekn
-        manage_custom_emojis_description: Loyvir brúkarum at stýra sergjørdum kensluteknum á ambætaranum
-        manage_federation: Stýra sameindum
-        manage_federation_description: Loyvir brúkarum at blokera ella loyva sameining við onnur navnaøki og at stýra, hvat kann veitast
-        manage_invites: Stýra innbjóðingum
-        manage_invites_description: Loyvir brúkarum at kaga ígjøgnum og at gera innbjóðingarleinki óvirkin
-        manage_reports: Stýra meldigum
-        manage_reports_description: Loyvir brúkarum at eftirkanna meldingar og at gjøgnumføra umsjónaratgerðir
-        manage_roles: Stýra leiklutir
-        manage_roles_description: Loyvir brúkarum at stýra og áseta leiklutir undir teirra leikluti
-        manage_rules: Stýra reglum
-        manage_rules_description: Loyvir brúkarum at broyta ambætarareglur
-        manage_settings: Stýra stillingum
-        manage_settings_description: Loyvir brúkarum at broyta heimasíðustillingar
-        manage_taxonomies: Stýra flokkingum
-        manage_taxonomies_description: Loyvir brúkarum at eftirkanna vælumtókt tilfar og at dagføra stillingar viðvíkjandi frámerkjum
-        manage_user_access: Stýr brúkaraatgongd
-        manage_user_access_description: Loyvir brúkarum at gera 'váttan í tveimum stigum' (2FA) hjá øðrum brúkarum óvirkna, at broyta teirra teldupost og at nullstilla teirra loyniorð
-        manage_users: Stýr brúkarum
-        manage_users_description: Loyvir brúkarum at vísa smálutir um aðrar brúkarar og at gjøgnumføra umsjónaratgerðir móti teimum
-        manage_webhooks: Stýr webhooks
-        manage_webhooks_description: Loyvir brúkarum at seta upp webhooks fyri umsitingarligar hendingar
-        view_audit_log: Vís skoðanarlogg
-        view_audit_log_description: Loyvir brúkarum at síggja, hvørjar umsitingarligar atgerðir hava verið gjørdar á ambætaranum
-        view_dashboard: Vís kunningarbretti
-        view_dashboard_description: Gevur brúkarum atgongd til kunningarbrettið og ymisk mát
+        administrator: Administrator
+        administrator_description: Users with this permission will bypass every permission
+        delete_user_data: Delete User Data
+        delete_user_data_description: Allows users to delete other users' data without delay
+        invite_users: Invite Users
+        invite_users_description: Allows users to invite new people to the server
+        manage_announcements: Manage Announcements
+        manage_announcements_description: Allows users to manage announcements on the server
+        manage_appeals: Manage Appeals
+        manage_appeals_description: Allows users to review appeals against moderation actions
+        manage_blocks: Manage Blocks
+        manage_blocks_description: Allows users to block e-mail providers and IP addresses
+        manage_custom_emojis: Manage Custom Emojis
+        manage_custom_emojis_description: Allows users to manage custom emojis on the server
+        manage_federation: Manage Federation
+        manage_federation_description: Allows users to block or allow federation with other domains, and control deliverability
+        manage_invites: Manage Invites
+        manage_invites_description: Allows users to browse and deactivate invite links
+        manage_reports: Manage Reports
+        manage_reports_description: Allows users to review reports and perform moderation actions against them
+        manage_roles: Manage Roles
+        manage_roles_description: Allows users to manage and assign roles below theirs
+        manage_rules: Manage Rules
+        manage_rules_description: Allows users to change server rules
+        manage_settings: Manage Settings
+        manage_settings_description: Allows users to change site settings
+        manage_taxonomies: Manage Taxonomies
+        manage_taxonomies_description: Allows users to review trending content and update hashtag settings
+        manage_user_access: Manage User Access
+        manage_user_access_description: Allows users to disable other users' two-factor authentication, change their e-mail address, and reset their password
+        manage_users: Manage Users
+        manage_users_description: Allows users to view other users' details and perform moderation actions against them
+        manage_webhooks: Manage Webhooks
+        manage_webhooks_description: Allows users to set up webhooks for administrative events
+        view_audit_log: View Audit Log
+        view_audit_log_description: Allows users to see a history of administrative actions on the server
+        view_dashboard: View Dashboard
+        view_dashboard_description: Allows users to access the dashboard and various metrics
         view_devops: DevOps
-        view_devops_description: Gevur brúkarum atgongd til Sidekiq- og pgHero-kunningarbretti
-      title: Leiklutir
+        view_devops_description: Allows users to access Sidekiq and pgHero dashboards
+      title: Roles
     rules:
-      add_new: Ger nýggja reglu
-      delete: Strika
-      description_html: Sjálvt um tey flestu vilja vera við, at tey hava lisið og tikið undir við tænastutreytunum, so lesa tey flestu tær ikki fyrr enn eftir at ein trupulleiki stingur seg upp. <strong>Ger tað lættari at skimma ígjøgnum ambætarareglurnar við at veita tær í einum fløtum punkt-lista.</strong> Royn at gera einstøku reglurnar stuttar og einfaldar, samstundis sum at tær ikki blíva pettaðar ov nógv sundur.
-      edit: Broyt reglur
-      empty: Ongar ambætarareglur eru ásettar enn.
-      title: Ambætarareglur
+      add_new: Add rule
+      delete: Delete
+      description_html: While most claim to have read and agree to the terms of service, usually people do not read through until after a problem arises. <strong>Make it easier to see your server's rules at a glance by providing them in a flat bullet point list.</strong> Try to keep individual rules short and simple, but try not to split them up into many separate items either.
+      edit: Edit rule
+      empty: No server rules have been defined yet.
+      title: Server rules
     settings:
       about:
-        manage_rules: Stýr ambætarareglum
-        preamble: Gev útdýpandi upplýsingar um, hvussu ambætarin er rikin, umsýndur og fíggjaður.
-        rules_hint: Eitt øki er burturav fyri reglur, sum brúkararnir hjá tær skulu fylgja.
-        title: Um
+        manage_rules: Manage server rules
+        preamble: Provide in-depth information about how the server is operated, moderated, funded.
+        rules_hint: There is a dedicated area for rules that your users are expected to adhere to.
+        title: About
       appearance:
-        preamble: Tillaga brúkaramarkamótið hjá Mastodon.
-        title: Útsjónd
+        preamble: Customize Mastodon's web interface.
+        title: Appearance
       branding:
-        preamble: Brandingin av tínum ambætara skilir hann út frá øðrum ambætarum í netverkinum. Hesar upplýsingar kunnu vera vístar í nógvum ymiskum umhvørvum, so sum í vev-markamótinum hjá Mastodon, uppruna-appum, í undanvísingum av leinkjum á øðrum vevstøðum, í boðs-appum og so framvegis. Av hesi orsøk er tað best, um hesar upplýsingar eru klárar, stuttar og beinraknar.
+        preamble: Your server's branding differentiates it from other servers in the network. This information may be displayed across a variety of environments, such as Mastodon's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Branding
       content_retention:
-        preamble: Stýr hvussu brúkara-skapt tilfar er goymt í Mastodon.
-        title: Varðveitsla av tilfari
+        preamble: Control how user-generated content is stored in Mastodon.
+        title: Content retention
       default_noindex:
-        desc_html: Hevur ávirkan á allar brúkarar, sum ikki hava broytt hesa stillingina sjálvi
-        title: Tekur brúkarar úr leitimaskinu-indeksering, um ikki annað er valt
+        desc_html: Affects all users who have not changed this setting themselves
+        title: Opt users out of search engine indexing by default
       discovery:
-        follow_recommendations: Tilmæli um at fylgja
-        preamble: At fáa áhugavert innihald í ljósmála er avgerandi fyri at nýggir brúkarar, sum kanska ongan kenna á Mastodon, kunnu koma væl umborð. Stýr, hvussu hentleikarnir at uppdaga ymiskt rigga á ambætaranum hjá tær.
-        profile_directory: Vangaskrá
-        public_timelines: Almennar tíðarlinjur
-        publish_discovered_servers: Kunnger uppdagaðu ambætararnar
-        publish_statistics: Legg hagtøl út
-        title: Uppdaging
-        trends: Rák
+        follow_recommendations: Follow recommendations
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Mastodon. Control how various discovery features work on your server.
+        profile_directory: Profile directory
+        public_timelines: Public timelines
+        publish_discovered_servers: Publish discovered servers
+        publish_statistics: Publish statistics
+        title: Discovery
+        trends: Trends
       domain_blocks:
-        all: Til øll
-        disabled: Til ongan
-        users: Fyri lokalum brúkarum, sum eru ritaðir inn
+        all: To everyone
+        disabled: To no one
+        users: To logged-in local users
       registrations:
-        preamble: Stýr, hvør kann stovna eina kontu á tínum ambætara.
-        title: Skrásetingar
+        preamble: Control who can create an account on your server.
+        title: Registrations
       registrations_mode:
         modes:
-          approved: Góðkenning kravd fyri tilmelding
-          none: Eingin kann tilmelda seg
-          open: Øll kunnu tilmelda seg
-      title: Ambætarastillingar
+          approved: Approval required for sign up
+          none: Nobody can sign up
+          open: Anyone can sign up
+      title: Server Settings
     site_uploads:
-      delete: Strika fílu, sum er løgd upp
-      destroyed_msg: Vevstaðs-uppsending strikað!
+      delete: Delete uploaded file
+      destroyed_msg: Site upload successfully deleted!
     statuses:
-      account: Høvundi
-      application: Nýtsluskipan
-      back_to_account: Aftur til kontusíðu
-      back_to_report: Aftur til meldingarsíðu
+      account: Author
+      application: Application
+      back_to_account: Back to account page
+      back_to_report: Back to report page
       batch:
-        remove_from_report: Strika frá melding
-        report: Melding
-      deleted: Strikað
-      favourites: Yndispostar
-      history: Útgávusøga
-      in_reply_to: Svarar
-      language: Mál
+        remove_from_report: Remove from report
+        report: Report
+      deleted: Deleted
+      favourites: Favourites
+      history: Version history
+      in_reply_to: Replying to
+      language: Language
       media:
-        title: Miðlar
-      metadata: Metadátur
-      no_status_selected: Eingir postar vóru broyttir, tí eingir vóru valdir
-      open: Lat post upp
-      original_status: Upprunapostur
-      reblogs: Endurbloggar
-      status_changed: Postur broyttur
-      title: Postar hjá kontu
-      trending: Vælumtókt
-      visibility: Sýni
-      with_media: Við miðli
+        title: Media
+      metadata: Metadata
+      no_status_selected: No posts were changed as none were selected
+      open: Open post
+      original_status: Original post
+      reblogs: Reblogs
+      status_changed: Post changed
+      title: Account posts
+      trending: Trending
+      visibility: Visibility
+      with_media: With media
     strikes:
       actions:
-        delete_statuses: "%{name} strikaði postarnar hjá %{target}"
-        disable: "%{name} frysti kontuna hjá %{target}"
-        mark_statuses_as_sensitive: "%{name} merkti kontuna hjá %{target} sum viðkvæma"
-        none: "%{name} sendi eina ávaring til %{target}"
-        sensitive: "%{name} merkti kontuna hjá %{target} sum viðkvæma"
-        silence: "%{name} avmarkaði kontuna hjá %{target}"
-        suspend: "%{name} setti kontuna hjá %{target} úr gildi"
-      appeal_approved: Kært
-      appeal_pending: Kæra bíðar eftir avgerð
+        delete_statuses: "%{name} deleted %{target}'s posts"
+        disable: "%{name} froze %{target}'s account"
+        mark_statuses_as_sensitive: "%{name} marked %{target}'s posts as sensitive"
+        none: "%{name} sent a warning to %{target}"
+        sensitive: "%{name} marked %{target}'s account as sensitive"
+        silence: "%{name} limited %{target}'s account"
+        suspend: "%{name} suspended %{target}'s account"
+      appeal_approved: Appealed
+      appeal_pending: Appeal pending
+      appeal_rejected: Appeal rejected
     system_checks:
       database_schema_check:
-        message_html: Dátugrunnaflytingar bíða. Vinarliga koyr flytingarnar fyri at tryggja at skipanin skikkar sær sum hon skal
+        message_html: There are pending database migrations. Please run them to ensure the application behaves as expected
       elasticsearch_running_check:
-        message_html: Fekk ikki samband við Elasticsearch. Vinarliga kanna eftir, at tað koyrir, ella ger fulltekstaleiting óvirkna
+        message_html: Could not connect to Elasticsearch. Please check that it is running, or disable full-text search
       elasticsearch_version_check:
-        message_html: 'Elasticsearch útgávan er ikki sambær: %{value}'
-        version_comparison: Elasticsearch %{running_version} koyrir, men %{required_version} er kravd
+        message_html: 'Incompatible Elasticsearch version: %{value}'
+        version_comparison: Elasticsearch %{running_version} is running while %{required_version} is required
       rules_check:
-        action: Stýr ambætarareglum
-        message_html: Tú hevur ikki ásett nakrar ambætarareglur.
+        action: Manage server rules
+        message_html: You haven't defined any server rules.
       sidekiq_process_check:
-        message_html: Eingin Sidekiq gongd koyrir fyri %{value} bíðirøðina(r). Vinarliga eftirkanna Sidekiq uppsetingina
+        message_html: No Sidekiq process running for the %{value} queue(s). Please review your Sidekiq configuration
     tags:
-      review: Eftirkanna støðu
-      updated_msg: Frámerkjastillingar dagførdar
-    title: Umsiting
+      review: Review status
+      updated_msg: Hashtag settings updated successfully
+    title: Administration
     trends:
-      allow: Loyv
-      approved: Váttað
-      disallow: Tak loyvi aftur
+      allow: Allow
+      approved: Approved
+      disallow: Disallow
       links:
-        allow: Loyv leinki
-        allow_provider: Loyv útgevara
-        description_html: Hesi leinkini verða í løtuni deild nógv av kontum, sum ambætarin sær postar hjá. At síggja leinkini kann hjálpa brúkarum at finna útav, hvat hendir í verðini. Eingi leinki verða víst alment, áðrenn tú góðkennir útgevaran. Tú kanst eisini loyva ella vraka einstøk leinki.
-        disallow: Loyv ikki leinki
-        disallow_provider: Loyv ikki útgevara
-        no_link_selected: Eingi leinki vóru broytt, tí eingi vóru vald
+        allow: Allow link
+        allow_provider: Allow publisher
+        description_html: These are links that are currently being shared a lot by accounts that your server sees posts from. It can help your users find out what's going on in the world. No links are displayed publicly until you approve the publisher. You can also allow or reject individual links.
+        disallow: Disallow link
+        disallow_provider: Disallow publisher
+        no_link_selected: No links were changed as none were selected
         publishers:
-          no_publisher_selected: Eingir útgevar vóru broyttir, tí eingir vóru valdir
+          no_publisher_selected: No publishers were changed as none were selected
         shared_by_over_week:
-          one: Deilt av einum persóni seinastu vikuna
-          other: Deilt av %{count} persónum seinastu vikuna
-        title: Vælumtókt leinki
-        usage_comparison: Deilt %{today} ferð í dag, samanborið við %{yesterday} ferð í gjár
-      only_allowed: Einans loyvd
-      pending_review: Bíðar eftir eftirkannan
+          one: Shared by one person over the last week
+          other: Shared by %{count} people over the last week
+        title: Trending links
+        usage_comparison: Shared %{today} times today, compared to %{yesterday} yesterday
+      not_allowed_to_trend: Not allowed to trend
+      only_allowed: Only allowed
+      pending_review: Pending review
       preview_card_providers:
-        allowed: Leinki frá hesum útgevaranum kann gerast vísast sum vælumtókt
-        description_html: Hesi eru navnaøkini haðani leinki ofta eru deild á tínum ambætara. Leinki verða ikki víst sum vælumtókt fyri almenninginum uttan so at navnaøkið hjá leinkinum er góðkent. Tín góðkenning (ella vraking) fevnir eisini um undirnavnaøki.
-        rejected: Leinki frá hesum útgevaranum kunnu ikki vísast sum vælumtókt
-        title: Útgevar
-      rejected: Vrakað
+        allowed: Links from this publisher can trend
+        description_html: These are domains from which links are often shared on your server. Links will not trend publicly unless the domain of the link is approved. Your approval (or rejection) extends to subdomains.
+        rejected: Links from this publisher won't trend
+        title: Publishers
+      rejected: Rejected
       statuses:
-        allow: Loyv posti
-        allow_account: Loyv høvundi
-        description_html: Hetta eru postar, sum tín ambætari veit um og sum í løtuni vera deildir og dámaðir ofta. At vísa teir kann hjálpa nýggjum og afturvendandi brúkarum at finna fleiri fólk, sum tey vilja fylgja. Eingir postar verða vístir almenninginum, áðrenn tú góðkennir høvundin, og høvundurin loyvir teirra kontu at vera skotin upp fyri øðrum. Tú kanst eisini góðkenna ella vraka einstakar postar.
-        disallow: Vraka post
-        disallow_account: Vraka høvund
-        no_status_selected: Eingir vælumtóktir postar vóru broyttir, tí eingir vóru valdir
-        not_discoverable: Høvundurin hevur ikki valt at blíva funnin
+        allow: Allow post
+        allow_account: Allow author
+        description_html: These are posts that your server knows about that are currently being shared and favourited a lot at the moment. It can help your new and returning users to find more people to follow. No posts are displayed publicly until you approve the author, and the author allows their account to be suggested to others. You can also allow or reject individual posts.
+        disallow: Disallow post
+        disallow_account: Disallow author
+        no_status_selected: No trending posts were changed as none were selected
+        not_discoverable: Author has not opted-in to being discoverable
         shared_by:
-          one: Deildir ella dámaðir eina ferð
-          other: Deildir ella dámaðir %{friendly_count} ferð
-        title: Vælumtóktir postar
+          one: Shared or favourited one time
+          other: Shared and favourited %{friendly_count} times
+        title: Trending posts
       tags:
-        current_score: Verandi stigatal %{score}
+        current_score: Current score %{score}
         dashboard:
-          tag_accounts_measure: ymisk brúk
-          tag_languages_dimension: Mest nýttu mál
-          tag_servers_dimension: Mest nýttu ambætarar
-          tag_servers_measure: aðrir ambætarar
-          tag_uses_measure: samanlagt brúkstal
-        description_html: Hesi eru frámerkini, sum í løtuni eru á eini rúgvu av postum, sum ambætarin hjá tær sær. Hetta kann hjálpa tínum brúkarum at finna útav, hvat fólk tosa mest um í løtuni. Eingi frámerki verða løgd alment út, fyrr enn tú hevur góðkent tey.
-        listable: Kann skjótast upp
-        no_tag_selected: Eingi frámerki vóru broytt, tí eingi vóru vald
-        not_listable: Fer ikki at vera skotið upp
-        not_trendable: Fer ikki at síggjast undir ráki
-        not_usable: Kann ikki brúkast
-        peaked_on_and_decaying: Kom í hæddina %{date}, men er í minking nú
-        title: Vælumtókt frámerki
-        trendable: Kann síggjast undir ráki
-        trending_rank: 'Rák #%{rank}'
-        usable: Kann verða brúkt
-        usage_comparison: Brúkt %{today} ferð í dag, samanborið við %{yesterday} ferð í gjár
+          tag_accounts_measure: unique uses
+          tag_languages_dimension: Top languages
+          tag_servers_dimension: Top servers
+          tag_servers_measure: different servers
+          tag_uses_measure: total uses
+        description_html: These are hashtags that are currently appearing in a lot of posts that your server sees. It can help your users find out what people are talking the most about at the moment. No hashtags are displayed publicly until you approve them.
+        listable: Can be suggested
+        no_tag_selected: No tags were changed as none were selected
+        not_listable: Won't be suggested
+        not_trendable: Won't appear under trends
+        not_usable: Cannot be used
+        peaked_on_and_decaying: Peaked on %{date}, now decaying
+        title: Trending hashtags
+        trendable: Can appear under trends
+        trending_rank: 'Trending #%{rank}'
+        usable: Can be used
+        usage_comparison: Used %{today} times today, compared to %{yesterday} yesterday
         used_by_over_week:
-          one: Brúkt av einum brúkara seinastu vikuna
-          other: Brúkt av %{count} brúkarum seinastu vikuna
-      title: Rák
-      trending: Vælumtókt
+          one: Used by one person over the last week
+          other: Used by %{count} people over the last week
+      title: Trends
+      trending: Trending
     warning_presets:
-      add_new: Legg afturat
-      delete: Strika
-      edit_preset: Rætta ávaringar-undanstilling
-      empty: Tú hevur ikki ásett nakrar ávaringar-undanstillingar enn.
-      title: Stýr ávaringar-undanstillingar
+      add_new: Add new
+      delete: Delete
+      edit_preset: Edit warning preset
+      empty: You haven't defined any warning presets yet.
+      title: Manage warning presets
     webhooks:
-      add_new: Legg endapunkt afturat
-      delete: Strika
-      description_html: Ein <strong>webhook/vevkrókur</strong> ger tað møguligt hjá Mastodon at trýsta <strong>samtíðarfráboðanir</strong> um valdar hendingar til tína egnu nýtsluskipan, soleiðis at hon <strong>sjálvvirkandi kann birta í aftursvar</strong>.
-      disable: Ger óvirkið
-      disabled: Óvirkið
-      edit: Rætta endapunkt
-      empty: Tú hevur ikki uppsett nøkur webhook/vevhúka-endapunkt enn.
-      enable: Set í gildi
-      enabled: Virkin
+      add_new: Add endpoint
+      delete: Delete
+      description_html: A <strong>webhook</strong> enables Mastodon to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
+      disable: Disable
+      disabled: Disabled
+      edit: Edit endpoint
+      empty: You don't have any webhook endpoints configured yet.
+      enable: Enable
+      enabled: Active
       enabled_events:
-        one: 1 virkin hending
-        other: "%{count} virknar hendingar"
-      events: Hendingar
-      new: Nýggjur webhook/vevhúkur
-      rotate_secret: Rotera loynidóm
-      secret: Undirskrivingarloynidómur
-      status: Støða
-      title: Webhooks/vevhúkar
-      webhook: Webhook/vevhúkur
+        one: 1 enabled event
+        other: "%{count} enabled events"
+      events: Events
+      new: New webhook
+      rotate_secret: Rotate secret
+      secret: Signing secret
+      status: Status
+      title: Webhooks
+      webhook: Webhook
   admin_mailer:
     new_appeal:
       actions:
-        delete_statuses: at strika teirra postar
-        disable: at frysta teirra kontu
-        mark_statuses_as_sensitive: at merkja teirra postar sum viðkvæmar
-        none: ein ávaring
-        sensitive: at merkja teirra kontu sum viðkvom
-        silence: at avmarka teirra kontu
-        suspend: at ógilda teirra kontu
-      body: "%{target} kærir eina umsjónaravgerð hjá %{action_taken_by} frá %{date}, sum var %{type}. Tey skrivaðu:"
-      next_steps: Tú kanst góðtaka kæruna og soleiðis ógilda umsjónaravgerðina, ella ikki látast at síggja hana.
-      subject: "%{username} kærir eina umsjónaravgerð á %{instance}"
+        delete_statuses: to delete their posts
+        disable: to freeze their account
+        mark_statuses_as_sensitive: to mark their posts as sensitive
+        none: a warning
+        sensitive: to mark their account as sensitive
+        silence: to limit their account
+        suspend: to suspend their account
+      body: "%{target} is appealing a moderation decision by %{action_taken_by} from %{date}, which was %{type}. They wrote:"
+      next_steps: You can approve the appeal to undo the moderation decision, or ignore it.
+      subject: "%{username} is appealing a moderation decision on %{instance}"
     new_pending_account:
-      body: Smálutirnir hjá tí nýggju kontuni eru niðanfyri. Tú kanst góðkenna ella vraka hesa umsóknina.
-      subject: Nýggj konta klár til ummælis á %{instance} (%{username})
+      body: The details of the new account are below. You can approve or reject this application.
+      subject: New account up for review on %{instance} (%{username})
     new_report:
-      body: "%{reporter} hevur meldað %{target}"
-      body_remote: Onkur frá %{domain} hevur meldað %{target}
-      subject: Nýggj melding fyri %{instance} (#%{id})
+      body: "%{reporter} has reported %{target}"
+      body_remote: Someone from %{domain} has reported %{target}
+      subject: 'New report for %{instance} (#%{id})'
     new_trends:
-      body: 'Niðanfyristandandi lutir mugu eftirhyggjast áðrenn teir kunnu verða vístir alment:'
+      body: 'The following items need a review before they can be displayed publicly:'
       new_trending_links:
-        title: Vælumtókt leinki
+        title: Trending links
       new_trending_statuses:
-        title: Vælumtóktir postar
+        title: Trending posts
       new_trending_tags:
-        no_approved_tags: Í løtuni eru eingi góðkend vælumtókt frámerki.
-        requirements: 'Einhvør av hesum kandidatum kunnu fara framum #%{rank} góðkenda vælumtókta frámerki, sum í løtuni er #%{lowest_tag_name} við stigatali %{lowest_tag_score}.'
-        title: Vælumtókt frámerki
-      subject: Nýggj rák til gjøgnumgongd á %{instance}
+        no_approved_tags: There are currently no approved trending hashtags.
+        requirements: 'Any of these candidates could surpass the #%{rank} approved trending hashtag, which is currently #%{lowest_tag_name} with a score of %{lowest_tag_score}.'
+        title: Trending hashtags
+      subject: New trends up for review on %{instance}
   aliases:
-    add_new: Stovna tøkuheiti
-    created_msg: Nýtt tøkuheiti stovnað. Tú kanst nú byrja flytingina frá gomlu kontuni.
-    deleted_msg: Tøkuheitið strikað. At flyta frá hasi kontuni til hesa er ikki longur gjørligt.
-    empty: Tú hevur eingi tøkuheiti.
-    hint_html: Ynskir tú at flyta frá eini aðrari kontu til hesa, so kanst tú stovna eitt tøkuheiti her. Tað er kravt, áðrenn tú kanst fara í gongd við at flyta fylgjarar frá gomlu kontuni til hesa. Hendan atgerðin er í sær sjálvum <strong>meinaleys og kann angrast</strong>. <strong>Flytingin av kontuni verður sett í gongd frá gomlu kontuni</strong>.
-    remove: Strika tilknýti til tøkuheiti
+    add_new: Create alias
+    created_msg: Successfully created a new alias. You can now initiate the move from the old account.
+    deleted_msg: Successfully removed the alias. Moving from that account to this one will no longer be possible.
+    empty: You have no aliases.
+    hint_html: If you want to move from another account to this one, here you can create an alias, which is required before you can proceed with moving followers from the old account to this one. This action by itself is <strong>harmless and reversible</strong>. <strong>The account migration is initiated from the old account</strong>.
+    remove: Unlink alias
   appearance:
-    advanced_web_interface: Framkomið vevmarkamót
-    advanced_web_interface_hint: 'Ynskir tú at brúka alla skermbreiddina, so loyvir framkomna vevmarkamóti tær at uppseta fleiri ymiskar teigar, soleiðis at tú kanst síggja so nógvar upplýsingar, sum tú ynskir, samstundis: Heima, fráboðanir, sameind tíðarlinja og óavmarkað tal av listum og frámerkjum.'
-    animations_and_accessibility: Teknimyndagerð og atkomuligheit
-    confirmation_dialogs: Váttanarskermmyndir
-    discovery: Uppdaging
+    advanced_web_interface: Advanced web interface
+    advanced_web_interface_hint: 'If you want to make use of your entire screen width, the advanced web interface allows you to configure many different columns to see as much information at the same time as you want: Home, notifications, federated timeline, any number of lists and hashtags.'
+    animations_and_accessibility: Animations and accessibility
+    confirmation_dialogs: Confirmation dialogs
+    discovery: Discovery
     localization:
-      body: Mastodon er umsett av sjálvbodnum.
+      body: Mastodon is translated by volunteers.
       guide_link: https://crowdin.com/project/mastodon
-      guide_link_text: Øll kunnu geva íkast.
-    sensitive_content: Viðkvæmt innihald
-    toot_layout: Uppseting av postum
+      guide_link_text: Everyone can contribute.
+    sensitive_content: Sensitive content
+    toot_layout: Post layout
   application_mailer:
-    notification_preferences: Broyt teldupostastillingar
-    salutation: "%{name}"
-    settings: 'Broyt teldupostastillingar: %{link}'
-    view: 'Vís:'
-    view_profile: Vís vanga
-    view_status: Vís post
+    notification_preferences: Change e-mail preferences
+    salutation: "%{name},"
+    settings: 'Change e-mail preferences: %{link}'
+    view: 'View:'
+    view_profile: View profile
+    view_status: View post
   applications:
-    created: Umsókn stovnað
-    destroyed: Umsókn strikað
-    regenerate_token: Ger atgongdstekn av nýggjum
-    token_regenerated: Atgongdsteknið gjørt av nýggjum
-    warning: Ver varin við hesum dátum. Deil tað aldrin við nakran!
-    your_token: Títt atgongdstekn
+    created: Application successfully created
+    destroyed: Application successfully deleted
+    logout: Logout
+    regenerate_token: Regenerate access token
+    token_regenerated: Access token successfully regenerated
+    warning: Be very careful with this data. Never share it with anyone!
+    your_token: Your access token
   auth:
-    apply_for_account: Bið um eina kontu
-    change_password: Loyniorð
+    apply_for_account: Request an account
+    change_password: Password
     confirmations:
-      wrong_email_hint: Um hesin teldupoststaðurin ikki er rættur, so kanst tú broyta hann í kontustillingunum.
-    delete_account: Strika kontu
-    delete_account_html: Ynskir tú at strika kontuna, so kanst tú <a href="%{path}">halda fram her</a>. Tú verður spurd/ur um váttan.
+      wrong_email_hint: If that e-mail address is not correct, you can change it in account settings.
+    delete_account: Delete account
+    delete_account_html: If you wish to delete your account, you can <a href="%{path}">proceed here</a>. You will be asked for confirmation.
     description:
-      prefix_invited_by_user: "@%{name} bjóðar tær at verða við í hesum Mastodon-ambætaranum!"
-      prefix_sign_up: Tilmelda teg á Mastodon í dag!
-      suffix: Við eini kontu, so er møguligt hjá tær at fylgja fólki, at posta dagføringar og at senda og móttaka boð til og frá brúkarum á øllum Mastodon ambætarum, umframt annað!
-    didnt_get_confirmation: Móttók tú ikki váttanarboðini?
-    dont_have_your_security_key: Hevur tú ikki trygdarlyklin hjá tær?
-    forgot_password: Hevur tú gloymt loyniorðið?
-    invalid_reset_password_token: Teknið til nullstilling av loyniorði er ógyldugt ella útgingið. Vinarliga bið um eitt nýtt.
-    link_to_otp: Skriva eina tvey-stigs kodu frá telefonini ella eina kodu til endurgerð
-    link_to_webauth: Brúka títt trygdarlyklatól
-    log_in_with: Innrita við
-    login: Innrita
-    logout: Rita út
-    migrate_account: Flyt til eina aðra kontu
-    migrate_account_html: Ynskir tú at víðaribeina hesa kontuna til eina aðra, so kanst tú <a href="%{path}">seta tað upp her</a>.
-    or_log_in_with: Ella innrita við
-    privacy_policy_agreement_html: Eg havi lisið og taki undir við <a href="%{privacy_policy_path}" target="_blank">privatlívspolitikkinum</a>
+      prefix_invited_by_user: "@%{name} invites you to join this server of Mastodon!"
+      prefix_sign_up: Sign up on Mastodon today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any Mastodon server and more!
+    didnt_get_confirmation: Didn't receive confirmation instructions?
+    dont_have_your_security_key: Don't have your security key?
+    forgot_password: Forgot your password?
+    invalid_reset_password_token: Password reset token is invalid or expired. Please request a new one.
+    link_to_otp: Enter a two-factor code from your phone or a recovery code
+    link_to_webauth: Use your security key device
+    log_in_with: Log in with
+    login: Log in
+    logout: Logout
+    migrate_account: Move to a different account
+    migrate_account_html: If you wish to redirect this account to a different one, you can <a href="%{path}">configure it here</a>.
+    or_log_in_with: Or log in with
+    privacy_policy_agreement_html: I have read and agree to the <a href="%{privacy_policy_path}" target="_blank">privacy policy</a>
     providers:
       cas: CAS
       saml: SAML
-    register: Tilmelda
-    registration_closed: "%{instance} tekur ikki ímóti nýggjum limum"
-    resend_confirmation: Send góðkenningarvegleiðing umaftur
-    reset_password: Endurstilla loyniorð
+    register: Sign up
+    registration_closed: "%{instance} is not accepting new members"
+    resend_confirmation: Resend confirmation instructions
+    reset_password: Reset password
     rules:
-      preamble: Hesi eru ásett og uppihildin av umsjónarfólkunum á %{domain}.
-      title: Nakrar grundreglur.
-    security: Trygd
-    set_new_password: Áset nýtt loyniorð
+      accept: Accept
+      back: Back
+      preamble: These are set and enforced by the %{domain} moderators.
+      title: Some ground rules.
+    security: Security
+    set_new_password: Set new password
     setup:
-      email_below_hint_html: Er telduposturin niðanfyri skeivur, so kanst tú broyta hann her og móttaka eitt nýtt váttanarteldubræv.
-      email_settings_hint_html: Váttanarteldubrævið varð sent til %{email}. Um telduposturin er skeivur, so kanst tú broyta hann í kontustillingunum.
-      title: Uppseting
+      email_below_hint_html: If the below e-mail address is incorrect, you can change it here and receive a new confirmation e-mail.
+      email_settings_hint_html: The confirmation e-mail was sent to %{email}. If that e-mail address is not correct, you can change it in account settings.
+      title: Setup
     sign_in:
-      preamble_html: Rita inn við tínum <strong>%{domain}</strong> heimildum. Er konta tín á einum øðrum ambætara, so er ikki gjørligt hjá tær at rita inn her.
-      title: Rita inn á %{domain}
+      preamble_html: Sign in with your <strong>%{domain}</strong> credentials. If your account is hosted on a different server, you will not be able to log in here.
+      title: Sign in to %{domain}
     sign_up:
-      preamble: Við eini kontu á hesum Mastodon ambætaranum ber til hjá tær at fylgja ein og hvønn annan persón á netverkinum, óansæð hvar teirra konta er hýst.
-      title: Latum okkum fáa teg settan upp á %{domain}.
+      preamble: With an account on this Mastodon server, you'll be able to follow any other person on the network, regardless of where their account is hosted.
+      title: Let's get you set up on %{domain}.
     status:
-      account_status: Kontustøða
-      confirming: Bíði eftir at teldupostváttanin er gjøgnumførd.
-      functional: Konta tín er fult virkin.
-      pending: Umsókn tín verður eftirkannað av okkara starvsfeløgum. Tað kann taka eina løtu. Tú móttekur eitt teldubræv, um umsóknin er góðkend.
-      redirecting_to: Konta tín er óvirkin, tí í løtuni verður hon víðaribeind til %{acct}.
-      view_strikes: Vís eldri atsóknir móti tíni kontu
-    too_fast: Oyðublaðið innsent ov skjótt, royn aftur.
-    use_security_key: Brúka trygdarlykil
+      account_status: Account status
+      confirming: Waiting for e-mail confirmation to be completed.
+      functional: Your account is fully operational.
+      pending: Your application is pending review by our staff. This may take some time. You will receive an e-mail if your application is approved.
+      redirecting_to: Your account is inactive because it is currently redirecting to %{acct}.
+      view_strikes: View past strikes against your account
+    too_fast: Form submitted too fast, try again.
+    use_security_key: Use security key
   authorize_follow:
-    already_following: Tú fylgir longu hesi kontuni
-    already_requested: Tú hevur longu sent eina fylgiumbøn til hasa kontuna
-    error: Tíverri kom ein feilur, tá vit royndu at finna fjarkontuna
-    follow: Fylg
-    follow_request: 'Tú hevur sent eina fylgjaraumbøn til:'
-    following: 'Góðkent! Tú fylgir nú:'
+    already_following: You are already following this account
+    already_requested: You have already sent a follow request to that account
+    error: Unfortunately, there was an error looking up the remote account
+    follow: Follow
+    follow_request: 'You have sent a follow request to:'
+    following: 'Success! You are now following:'
     post_follow:
-      close: Ella kanst tú bara lata hetta vindeygað aftur.
-      return: Vís vangan hjá brúkaranum
-      web: Far á vevið
-    title: Fylg %{acct}
+      close: Or, you can just close this window.
+      return: Show the user's profile
+      web: Go to web
+    title: Follow %{acct}
   challenge:
-    confirm: Hald á
-    hint_html: "<strong>Góð ráð:</strong> vit spyrja teg ikki aftur um loyniorðið næsta tíman."
-    invalid_password: Skeivt loyniorð
-    prompt: Vátta loyniorð fyri at halda fram
+    confirm: Continue
+    hint_html: "<strong>Tip:</strong> We won't ask you for your password again for the next hour."
+    invalid_password: Invalid password
+    prompt: Confirm password to continue
   crypto:
     errors:
-      invalid_key: er ikki ein gildur Ed25519 ella Curve25519 lykil
-      invalid_signature: er ikki ein gildug Ed25519 undirskrift
+      invalid_key: is not a valid Ed25519 or Curve25519 key
+      invalid_signature: is not a valid Ed25519 signature
   date:
     formats:
       default: "%b %d, %Y"
       with_month_name: "%B %d, %Y"
   datetime:
     distance_in_words:
-      about_x_hours: "%{count}t"
-      about_x_months: "%{count} mðr"
-      about_x_years: "%{count} ár"
-      almost_x_years: "%{count} ár"
-      half_a_minute: Júst nú
+      about_x_hours: "%{count}h"
+      about_x_months: "%{count}mo"
+      about_x_years: "%{count}y"
+      almost_x_years: "%{count}y"
+      half_a_minute: Just now
       less_than_x_minutes: "%{count}m"
-      less_than_x_seconds: Júst nú
-      over_x_years: "%{count} ár"
+      less_than_x_seconds: Just now
+      over_x_years: "%{count}y"
       x_days: "%{count}d"
       x_minutes: "%{count}m"
-      x_months: "%{count} mðr"
+      x_months: "%{count}mo"
       x_seconds: "%{count}s"
   deletes:
-    challenge_not_passed: Upplýsingin, sum tú las inn, var ikki røtt
-    confirm_password: Skriva títt núverandi loyniorð fyri at vátta tín samleika
-    confirm_username: Skriva títt brúkranavn fyri at vátta mannagongdina
-    proceed: Strika kontu
-    success_msg: Konta tín var strikað
+    challenge_not_passed: The information you entered was not correct
+    confirm_password: Enter your current password to verify your identity
+    confirm_username: Enter your username to confirm the procedure
+    proceed: Delete account
+    success_msg: Your account was successfully deleted
     warning:
-      before: 'Áðrenn tú heldur fram, vinarliga les hesar notur nágreiniliga:'
-      caches: Innihald, sum er lagt í goymslu á øðrum ambætarum, kann vera varandi har
-      data_removal: Postar tínir og aðrar dátur verða burturbeind varandi
-      email_change_html: Tú kann <a href="%{path}">broyta tín teldupost</a> uttan at strika tína kontu
-      email_contact_html: Um tað framvegis ikki kemur vegin fram, so kanst tú senda teldubræv til <a href="mailto:%{email}">%{email}</a> og biðja um hjálp
-      email_reconfirmation_html: Móttekur tú ikki váttanarteldupostin, so kanst tú <a href="%{path}">biðja um hann aftur</a>
-      irreversible: Tað verður ikki møguligt hjá tær at endurskapa ella gera kontu tína virkna aftur
-      more_details_html: Fyri fleiri smálutir, sí <a href="%{terms_path}">privatlívpolitikkin</a>.
-      username_available: Brúkaranavnið hjá tær verður tøkt aftur
-      username_unavailable: Brúkaranavnið hjá tær verður framhaldandi ikki tøkt
+      before: 'Before proceeding, please read these notes carefully:'
+      caches: Content that has been cached by other servers may persist
+      data_removal: Your posts and other data will be permanently removed
+      email_change_html: You can <a href="%{path}">change your e-mail address</a> without deleting your account
+      email_contact_html: If it still doesn't arrive, you can e-mail <a href="mailto:%{email}">%{email}</a> for help
+      email_reconfirmation_html: If you are not receiving the confirmation e-mail, you can <a href="%{path}">request it again</a>
+      irreversible: You will not be able to restore or reactivate your account
+      more_details_html: For more details, see the <a href="%{terms_path}">privacy policy</a>.
+      username_available: Your username will become available again
+      username_unavailable: Your username will remain unavailable
   disputes:
     strikes:
-      action_taken: Tiknar atgerðir
-      appeal: Kæra
-      appeal_approved: Kæran móti atsóknini eydnaðist og atsóknin er tí ikki longur í gildi
-      appeal_rejected: Kæran er vrakað
-      appeal_submitted_at: Kæra send inn
-      appealed_msg: Kæran hjá tær er send inn. Verður hon góðkend, so fær tú boð.
+      action_taken: Action taken
+      appeal: Appeal
+      appeal_approved: This strike has been successfully appealed and is no longer valid
+      appeal_rejected: The appeal has been rejected
+      appeal_submitted_at: Appeal submitted
+      appealed_msg: Your appeal has been submitted. If it is approved, you will be notified.
       appeals:
-        submit: Send kæru
-      approve_appeal: Góðkenn kæru
-      associated_report: Atknýtt melding
-      created_at: Dagfest
-      description_html: Hetta er atgerðirnar, sum eru tiknar móti kontu tíni og ávaringar, sum eru sendar tær av starvsfólkunum hjá %{instance}.
-      recipient: Adresserað
-      reject_appeal: Vraka kæru
-      status: 'Postur #%{id}'
-      status_removed: Postur longu strikaður í skipanini
-      title: "%{action} frá %{date}"
+        submit: Submit appeal
+      approve_appeal: Approve appeal
+      associated_report: Associated report
+      created_at: Dated
+      description_html: These are actions taken against your account and warnings that have been sent to you by the staff of %{instance}.
+      recipient: Addressed to
+      reject_appeal: Reject appeal
+      status: 'Post #%{id}'
+      status_removed: Post already removed from system
+      title: "%{action} from %{date}"
       title_actions:
-        delete_statuses: Striking av posti
-        disable: Frysting av kontu
-        mark_statuses_as_sensitive: Merk postar sum viðkvæmar
-        none: Ávaring
-        sensitive: Merking av kontu sum viðkvom
-        silence: Avmarking av kontu
-        suspend: Seta kontu úr gildi
-      your_appeal_approved: Kæra tín er góðkend
-      your_appeal_pending: Tú hevur kært
-      your_appeal_rejected: Kæra tín er vrakað
+        delete_statuses: Post removal
+        disable: Freezing of account
+        mark_statuses_as_sensitive: Marking of posts as sensitive
+        none: Warning
+        sensitive: Marking of account as sensitive
+        silence: Limitation of account
+        suspend: Suspension of account
+      your_appeal_approved: Your appeal has been approved
+      your_appeal_pending: You have submitted an appeal
+      your_appeal_rejected: Your appeal has been rejected
   domain_validator:
-    invalid_domain: er ikki eitt loyvt økisnavn
+    invalid_domain: is not a valid domain name
   errors:
-    '400': Umbønin, sum tú sendi inn, var ógildug ella hevði skeivt skap.
-    '403': Tú hevur ikki loyvi at síggja hesa síðuna.
-    '404': Síðan, sum tú leitar eftir, er ikki her.
-    '406': Síðan er ikki tøk í umbidnu útgávuni.
-    '410': Síðan, sum tú leitaði eftir, finst ikki her longur.
+    '400': The request you submitted was invalid or malformed.
+    '403': You don't have permission to view this page.
+    '404': The page you are looking for isn't here.
+    '406': This page is not available in the requested format.
+    '410': The page you were looking for doesn't exist here anymore.
     '422':
-      content: Trygdarsannanin miseydnaðist. Blokerar tú farspor?
-      title: Trygdarsannanin miseydnaðist
-    '429': Ov nógvir fyrispurningar
+      content: Security verification failed. Are you blocking cookies?
+      title: Security verification failed
+    '429': Too many requests
     '500':
-      content: Vit eru kedd av tí, men okkurt gekk galið hjá okkum.
-      title: Hendan síðan er ikki røtt
-    '503': Ikki var til at veita hesa síðuna vegna ein bráðfeingis feil á ambætaranum.
-    noscript_html: Fyri at brúka vevskipanina hjá Mastodon, vinarliga ger JavaScript virkið. Um ikki, royn so eina <a href="%{apps_path}">uppruna-app</a> til Mastodon á tínum tøkniliga palli.
+      content: We're sorry, but something went wrong on our end.
+      title: This page is not correct
+    '503': The page could not be served due to a temporary server failure.
+    noscript_html: To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the <a href="%{apps_path}">native apps</a> for Mastodon for your platform.
   existing_username_validator:
-    not_found: eydnaðist ikki at finna ein lokalan brúkara við hasum brúkaranavninum
-    not_found_multiple: fann ikki %{usernames}
+    not_found: could not find a local user with that username
+    not_found_multiple: could not find %{usernames}
   exports:
     archive_takeout:
-      date: Dagfesting
-      download: Takk títt savn niður
-      hint_html: Tú kanst umbiðja eitt savn við <strong>tínum postum og miðlafílum, sum tú hevur lagt upp</strong>. Útfluttu dáturnar eru í ActivityPub útsjónd og lesiligar av einum og hvørjum sambærum ritbúnaði. Tú kanst biðja um eitt savn sjeynda hvønn dag.
-      in_progress: Geri eina skrá við savni tínum...
-      request: Umbið títt savn
-      size: Stødd
-    blocks: Tú blokerar
-    bookmarks: Bókamerki
+      date: Date
+      download: Download your archive
+      hint_html: You can request an archive of your <strong>posts and uploaded media</strong>. The exported data will be in the ActivityPub format, readable by any compliant software. You can request an archive every 7 days.
+      in_progress: Compiling your archive...
+      request: Request your archive
+      size: Size
+    blocks: You block
+    bookmarks: Bookmarks
     csv: CSV
-    domain_blocks: Navnaøkisblokeringar
-    lists: Listar
-    mutes: Tú doyvir
-    storage: Miðlagoymsla
+    domain_blocks: Domain blocks
+    lists: Lists
+    mutes: You mute
+    storage: Media storage
   featured_tags:
-    add_new: Legg afturat
+    add_new: Add new
     errors:
-      limit: Tú hevur longu varpað loyvda talið av frámerkjum
-    hint_html: "<strong>Hvat eru varpaði frámerki?</strong> Tey verða víst sjónliga á almenna vanga tínum og loyva fólki at kaga gjøgnum tínar almennu postar, sum hava tey frámerkini. Tey eru serliga vælegnaði at fylgja við skapandi arbeiði ella langtíðarverkætlanum."
+      limit: You have already featured the maximum number of hashtags
+    hint_html: "<strong>What are featured hashtags?</strong> They are displayed prominently on your public profile and allow people to browse your public posts specifically under those hashtags. They are a great tool for keeping track of creative works or long-term projects."
   filters:
     contexts:
-      account: Vangar
-      home: Heima og listar
-      notifications: Fráboðanir
-      public: Almennar tíðarlinjur
-      thread: Samrøður
+      account: Profiles
+      home: Home and lists
+      notifications: Notifications
+      public: Public timelines
+      thread: Conversations
     edit:
-      add_keyword: Legg lyklaorð afturat
-      keywords: Lyklaorð
-      statuses: Stakir postar
-      statuses_hint_html: Filtrið verður brúkt til at velja stakar postar óansæð um postarnir sampakka við lyklaorðini niðanfyri. <a href="%{path}">Eftirhygg ella tak postar úr filtrinum</a>.
-      title: Rætta filtur
+      add_keyword: Add keyword
+      keywords: Keywords
+      statuses: Individual posts
+      statuses_hint_html: This filter applies to select individual posts regardless of whether they match the keywords below. <a href="%{path}">Review or remove posts from the filter</a>.
+      title: Edit filter
     errors:
-      deprecated_api_multiple_keywords: Bundnatølini kunnu ikki broytast frá hesi nýtsluskipanini, tí tey viðvíkja meira enn einum filtur-lyklaorði. Brúka eina nýggjari nýtsluskipan ella vevmarkamótið.
-      invalid_context: Eingin ella ógildugur kontekstur veittur
+      deprecated_api_multiple_keywords: These parameters cannot be changed from this application because they apply to more than one filter keyword. Use a more recent application or the web interface.
+      invalid_context: None or invalid context supplied
     index:
-      contexts: Filtur í %{contexts}
-      delete: Strika
-      empty: Tú hevur eingi filtur.
-      expires_in: Gongur út um %{distance}
-      expires_on: Gongur út %{date}
+      contexts: Filters in %{contexts}
+      delete: Delete
+      empty: You have no filters.
+      expires_in: Expires in %{distance}
+      expires_on: Expires on %{date}
       keywords:
-        one: "%{count} lyklaorð"
-        other: "%{count} lyklaorð"
+        one: "%{count} keyword"
+        other: "%{count} keywords"
       statuses:
-        one: "%{count} postur"
-        other: "%{count} postar"
+        one: "%{count} post"
+        other: "%{count} posts"
       statuses_long:
-        one: "%{count} stakur postur fjaldur"
-        other: "%{count} stakir postar fjaldir"
-      title: Filtur
+        one: "%{count} individual post hidden"
+        other: "%{count} individual posts hidden"
+      title: Filters
     new:
-      save: Goym nýtt filtur
-      title: Legg nýtt filtur afturat
+      save: Save new filter
+      title: Add new filter
     statuses:
-      back_to_filter: Aftur til filtur
+      back_to_filter: Back to filter
       batch:
-        remove: Strika úr filtri
+        remove: Remove from filter
       index:
-        hint: Hetta filtrið er galdandi fyri útvaldar stakar postar óansæð aðrar treytir. Tú kanst leggja fleiri postar afturat hesum filtrinum frá vevmarkamótinum.
-        title: Filtreraðir postar
+        hint: This filter applies to select individual posts regardless of other criteria. You can add more posts to this filter from the web interface.
+        title: Filtered posts
   footer:
-    trending_now: Rák beint nú
+    trending_now: Trending now
   generic:
-    all: Alt
+    all: All
     all_items_on_page_selected_html:
-      one: "<strong>%{count}</strong> lutur á hesi síðuni er valdur."
-      other: All <strong>%{count}</strong> lutir á hesi síðuni eru valdir.
+      one: "<strong>%{count}</strong> item on this page is selected."
+      other: All <strong>%{count}</strong> items on this page are selected.
     all_matching_items_selected_html:
-      one: "<strong>%{count}</strong> lutur, sum samsvarar við tína leiting, er valdur."
-      other: Allir <strong>%{count}</strong> lutir, sum samsvara við tína leiting, eru valdir.
-    changes_saved_msg: Broytingar goymdar!
-    copy: Avrita
-    delete: Strika
-    deselect: Frável alt
-    none: Einki
-    order_by: Sortera eftir
-    save_changes: Goym broytingar
+      one: "<strong>%{count}</strong> item matching your search is selected."
+      other: All <strong>%{count}</strong> items matching your search are selected.
+    changes_saved_msg: Changes successfully saved!
+    copy: Copy
+    delete: Delete
+    deselect: Deselect all
+    none: None
+    order_by: Order by
+    save_changes: Save changes
     select_all_matching_items:
-      one: Vel %{count} lut sum samsvarar við tína leiting.
-      other: Vel allar %{count} lutir, sum samsvara við tína leiting.
-    today: í dag
+      one: Select %{count} item matching your search.
+      other: Select all %{count} items matching your search.
+    today: today
     validation_errors:
-      one: Okkurt er ikki heilt rætt enn! Vinarliga eftirhygg feilin niðanfyri
-      other: Okkurt er ikki heilt rætt enn! Vinarliga eftirhygg teir %{count} feilirnar niðanfyri
+      one: Something isn't quite right yet! Please review the error below
+      other: Something isn't quite right yet! Please review %{count} errors below
   html_validator:
-    invalid_markup: 'inniheldur ógyldugt HTML markup: %{error}'
+    invalid_markup: 'contains invalid HTML markup: %{error}'
   imports:
     errors:
-      invalid_csv_file: 'Ógildug CSV-fíla. Error: %{error}'
-      over_rows_processing_limit: hevur fleiri enn %{count} rekkjur
+      invalid_csv_file: 'Invalid CSV file. Error: %{error}'
+      over_rows_processing_limit: contains more than %{count} rows
     modes:
-      merge: Flætta
-      merge_long: Varðveit verandi teigarøð og legg nýggjar afturat
-      overwrite: Skriva omaná
-      overwrite_long: Legg nýggj teigarøð inn fyri tey verandi
-    preface: Tú kanst innlesa dátur, sum tú hevur útlisið frá einum øðrum ambætara, so sum listar av fólki, sum tú fylgir ella blokerar.
-    success: Dátur tínar vóru lagdar upp og verða viðgjørdar, tá tíð er
+      merge: Merge
+      merge_long: Keep existing records and add new ones
+      overwrite: Overwrite
+      overwrite_long: Replace current records with the new ones
+    preface: You can import data that you have exported from another server, such as a list of the people you are following or blocking.
+    success: Your data was successfully uploaded and will be processed in due time
     types:
-      blocking: Blokeringslisti
-      bookmarks: Bókamerki
-      domain_blocking: Navnaøkisblokeringslisti
-      following: Fylgjaralisti
-      muting: Doyvingarlisti
-    upload: Legg upp
+      blocking: Blocking list
+      bookmarks: Bookmarks
+      domain_blocking: Domain blocking list
+      following: Following list
+      muting: Muting list
+    upload: Upload
   invites:
-    delete: Ger óvirkið
-    expired: Útgingið
+    delete: Deactivate
+    expired: Expired
     expires_in:
-      '1800': 30 minuttir
-      '21600': 6 tímar
-      '3600': 1 tími
-      '43200': 12 tímar
-      '604800': 1 vika
-      '86400': 1 dag
-    expires_in_prompt: Ongantíð
-    generate: Ger innbjóðingarleinki
-    invited_by: 'Tú var bjóðað/ur av:'
+      '1800': 30 minutes
+      '21600': 6 hours
+      '3600': 1 hour
+      '43200': 12 hours
+      '604800': 1 week
+      '86400': 1 day
+    expires_in_prompt: Never
+    generate: Generate invite link
+    invited_by: 'You were invited by:'
     max_uses:
-      one: 1 brúk
-      other: "%{count} brúk"
-    max_uses_prompt: Eingin avmarking
-    prompt: Ger og deil leinki við onnur fyri at geva atgongd til hendan ambætaran
+      one: 1 use
+      other: "%{count} uses"
+    max_uses_prompt: No limit
+    prompt: Generate and share links with others to grant access to this server
     table:
-      expires_at: Rennir út
-      uses: Brúk
-    title: Bjóða fólki
+      expires_at: Expires
+      uses: Uses
+    title: Invite people
   lists:
     errors:
-      limit: Tú hevur rokkið mesta talið av listum
+      limit: You have reached the maximum number of lists
   login_activities:
     authentication_methods:
-      otp: app til váttan í tveimum stigum
-      password: loyniorð
-      sign_in_token: teldupostatrygdarkoda
-      webauthn: trygdarlyklar
-    description_html: Sært tú virksemi, sum tú ikki kennir aftur, so eigur tú at umhugsa at broyta loyniorðið ella at gera váttan í tveimum stigum virkna.
-    empty: Eingin samgildissøga tøk
-    failed_sign_in_html: Miseydnað innritanarroynd við %{method} frá %{ip} (%{browser})
-    successful_sign_in_html: Eydnað innritan við %{method} frá %{ip} (%{browser})
-    title: Samgildissøga
+      otp: two-factor authentication app
+      password: password
+      sign_in_token: e-mail security code
+      webauthn: security keys
+    description_html: If you see activity that you don't recognize, consider changing your password and enabling two-factor authentication.
+    empty: No authentication history available
+    failed_sign_in_html: Failed sign-in attempt with %{method} from %{ip} (%{browser})
+    successful_sign_in_html: Successful sign-in with %{method} from %{ip} (%{browser})
+    title: Authentication history
   media_attachments:
     validations:
-      images_and_video: Kann ikki viðfesta sjónfílu til ein post, sum longu inniheldur myndir
-      not_ready: Kann ikki viðfesta fílur, sum ikki eru liðugt viðgjørdar. Roynd aftur um eina løtu!
-      too_many: Kann ikki viðfest fleiri enn 4 fílur
+      images_and_video: Cannot attach a video to a post that already contains images
+      not_ready: Cannot attach files that have not finished processing. Try again in a moment!
+      too_many: Cannot attach more than 4 files
   migrations:
-    acct: Flutt til
-    cancel: Strika víðaribeining
-    cancel_explanation: At strika víðaribeining ger núverandi kontu tína virkna aftur, men gevur tær ikki fylgjarar, ið eru fluttir til hina kontuna, aftur.
-    cancelled_msg: Strikaði víðaribeiningina.
+    acct: Moved to
+    cancel: Cancel redirect
+    cancel_explanation: Cancelling the redirect will re-activate your current account, but will not bring back followers that have been moved to that account.
+    cancelled_msg: Successfully cancelled the redirect.
     errors:
-      already_moved: er tann sama kontan, sum tú longu er flutt/ur til
-      missing_also_known_as: er ikki eitt tøkuheiti fyri hesa kontuna
-      move_to_self: kann ikki vera núverandi kontan
-      not_found: bar ikki til at finna
-      on_cooldown: Tú verður køld/ur niður
-    followers_count: Fylgjarar tá flytingin fór fram
-    incoming_migrations: Flyti frá eini aðrari kontu
-    incoming_migrations_html: Fyri at flyta frá eini aðrari kontu til hesa, so er fyrst neyðugt at <a href="%{path}">stovna eitt tøkuheiti til kontuna</a>.
-    moved_msg: Konta tín verður nú víðaribeind til %{acct} og fylgjarar tínir verða fluttir yvir.
-    not_redirecting: Konta tín verður ikki víðaribeind til nakra aðra kontu í løtuni.
-    on_cooldown: Tú hevur nýliga flutt tína kontu. Hesin valmøguleikin verður tøkur aftur um %{count} dagar.
-    past_migrations: Eldri flytingar
-    proceed_with_move: Flyt fylgjarar
-    redirected_msg: Konta tín verður nú víðaribeind til %{acct}.
-    redirecting_to: Konta tín er víðaribeind til %{acct}.
-    set_redirect: Set víðaribeining
+      already_moved: is the same account you have already moved to
+      missing_also_known_as: is not an alias of this account
+      move_to_self: cannot be current account
+      not_found: could not be found
+      on_cooldown: You are on cooldown
+    followers_count: Followers at time of move
+    incoming_migrations: Moving from a different account
+    incoming_migrations_html: To move from another account to this one, first you need to <a href="%{path}">create an account alias</a>.
+    moved_msg: Your account is now redirecting to %{acct} and your followers are being moved over.
+    not_redirecting: Your account is not redirecting to any other account currently.
+    on_cooldown: You have recently migrated your account. This function will become available again in %{count} days.
+    past_migrations: Past migrations
+    proceed_with_move: Move followers
+    redirected_msg: Your account is now redirecting to %{acct}.
+    redirecting_to: Your account is redirecting to %{acct}.
+    set_redirect: Set redirect
     warning:
-      backreference_required: Fyrst má nýggja kontan vera sett til at vísa aftur til hesa
-      before: 'Áðrenn tú fer víðari, vinarliga les hetta gjølla:'
-      cooldown: Aftaná at tú hevur flutt, so er eitt tíðarskeið, har tú ikki sleppur at flyta aftur
-      disabled_account: Tín verandi konta verður ikki fult nýtilig aftaná. Tó so, tú hevur atgongd til at útlesa dátur og tú kanst gera kontuna virkna aftur.
-      followers: Hetta fer at flyta alla fylgjarar frá verandi kontuni til ta nýggju
-      only_redirect_html: Ein annar møguleiki er, at tú <a href="%{path}">setir eina víðaribeining upp á vanga tínum</a>.
-      other_data: Ongar aðrar dátur verða fluttar sjálvvirkandi
-      redirect: Vangin á tíni núverandi kontu verður dagførd við eini viðmerking um víðaribeining og tú verður ikki at finna í leitingum
+      backreference_required: The new account must first be configured to back-reference this one
+      before: 'Before proceeding, please read these notes carefully:'
+      cooldown: After moving there is a waiting period during which you will not be able to move again
+      disabled_account: Your current account will not be fully usable afterwards. However, you will have access to data export as well as re-activation.
+      followers: This action will move all followers from the current account to the new account
+      only_redirect_html: Alternatively, you can <a href="%{path}">only put up a redirect on your profile</a>.
+      other_data: No other data will be moved automatically
+      redirect: Your current account's profile will be updated with a redirect notice and be excluded from searches
   moderation:
-    title: Umsjón
+    title: Moderation
   move_handler:
-    carry_blocks_over_text: Hesin brúkarin flutti frá %{acct}, sum tú hevði blokerað.
-    carry_mutes_over_text: Hesin brúkarin flutti frá %{acct}, sum tú hevði doyvt.
-    copy_account_note_text: 'Hesin brúkarin flutti frá %{acct}. Her eru tínar viðmerkingar um viðkomandi:'
+    carry_blocks_over_text: This user moved from %{acct}, which you had blocked.
+    carry_mutes_over_text: This user moved from %{acct}, which you had muted.
+    copy_account_note_text: 'This user moved from %{acct}, here were your previous notes about them:'
   navigation:
-    toggle_menu: Lat valmynd upp ella aftur
+    toggle_menu: Toggle menu
   notification_mailer:
     admin:
       report:
-        subject: "%{name} sendi eina melding"
+        subject: "%{name} submitted a report"
       sign_up:
-        subject: "%{name} meldaði seg til"
+        subject: "%{name} signed up"
     favourite:
-      body: "%{name} dámdi postin hjá tær:"
-      subject: "%{name} merkti postin hjá tær sum yndispost"
-      title: Nýggjur yndispostur
+      body: 'Your post was favourited by %{name}:'
+      subject: "%{name} favourited your post"
+      title: New favourite
     follow:
-      body: "%{name} fylgir tær nú!"
-      subject: "%{name} fylgir tær nú"
-      title: Nýggjur fylgjari
+      body: "%{name} is now following you!"
+      subject: "%{name} is now following you"
+      title: New follower
     follow_request:
-      action: Stýr umbønum um at fylgja
-      body: "%{name} hevur biðið um at fylgja tær"
-      subject: 'Fylgjari, sum bíðar: %{name}'
-      title: Nýggj fylgjaraumbøn
+      action: Manage follow requests
+      body: "%{name} has requested to follow you"
+      subject: 'Pending follower: %{name}'
+      title: New follow request
     mention:
-      action: Svar
-      body: 'Tú var umrødd/ur av %{name} í:'
-      subject: Tú var umrødd/ur av %{name}
-      title: Nýggj umrøða
+      action: Reply
+      body: 'You were mentioned by %{name} in:'
+      subject: You were mentioned by %{name}
+      title: New mention
     poll:
-      subject: Ein spurnarkanning hjá %{name} er endað
+      subject: A poll by %{name} has ended
     reblog:
-      body: 'Postur tín var stimbraður av %{name}:'
-      subject: "%{name} stimbraði tín post"
-      title: Nýggj stimbran
+      body: 'Your post was boosted by %{name}:'
+      subject: "%{name} boosted your post"
+      title: New boost
     status:
-      subject: "%{name} hevur júst postað"
+      subject: "%{name} just posted"
     update:
-      subject: "%{name} rættaði ein post"
+      subject: "%{name} edited a post"
   notifications:
-    email_events: Hendingar fyri teldupostfráboðanir
-    email_events_hint: 'Vel hendingar, sum tú vil hava fráboðanir um:'
-    other_settings: Aðrar fráboðanarstillingar
+    email_events: Events for e-mail notifications
+    email_events_hint: 'Select events that you want to receive notifications for:'
+    other_settings: Other notifications settings
   number:
     human:
       decimal_units:
         format: "%n%u"
         units:
-          billion: mia
-          million: mió
-          quadrillion: kvd
-          thousand: tús
-          trillion: tri
+          billion: B
+          million: M
+          quadrillion: Q
+          thousand: K
+          trillion: T
+          unit: ''
   otp_authentication:
-    code_hint: Innles koduna, sum var gjørd av samgildisappini, fyri at vátta
-    description_html: Ger tú <strong>váttan í tveimum stigum</strong> virkna við eini váttanar-app, so er neyðugt at hava telefonina tøka, tá tú skal rita inn, tí appin ger tekin til tín at lesa inn.
-    enable: Set í gildi
-    instructions_html: "<strong>Skanna hesa QR koduna inn í Google Authenticator ella eina líknandi TOTP-app á telefonini hjá tær</strong>. Frá nú av, so fer tann appin at gera tekn, sum tú mást skriva, tá tú ritar inn."
-    manual_instructions: 'Ber ikki til hjá tær at skanna QR koduna og tað er neyðugt hjá tær at lesa hana inn við hond, so er loynidómurin í klárteksti her:'
-    setup: Set upp
-    wrong_code: Innlisna kodan var ógildug! Samsvara tíðirnar á ambætaranum og á tínum tóli?
+    code_hint: Enter the code generated by your authenticator app to confirm
+    description_html: If you enable <strong>two-factor authentication</strong> using an authenticator app, logging in will require you to be in possession of your phone, which will generate tokens for you to enter.
+    enable: Enable
+    instructions_html: "<strong>Scan this QR code into Google Authenticator or a similar TOTP app on your phone</strong>. From now on, that app will generate tokens that you will have to enter when logging in."
+    manual_instructions: 'If you can''t scan the QR code and need to enter it manually, here is the plain-text secret:'
+    setup: Set up
+    wrong_code: The entered code was invalid! Are server time and device time correct?
   pagination:
-    newer: Nýggjari
-    next: Næsta
-    older: Eldri
-    prev: Fyrra
+    newer: Newer
+    next: Next
+    older: Older
+    prev: Prev
     truncate: "&hellip;"
   polls:
     errors:
-      already_voted: Tú hevur longu atkvøtt í hesi atkvøðugreiðsluni
-      duplicate_options: inniheldur dupult-lutir
-      duration_too_long: er ov langt inni í framtíðini
-      duration_too_short: er ov tíðliga
-      expired: Atkvøðugreiðslan er longu endað
-      invalid_choice: Valmøguleikin finst ikki
-      over_character_limit: kann ikki vera longri enn %{max} tekn hvør
-      too_few_options: má hava meiri enn ein valmøguleika
-      too_many_options: kann ikki innihalda fleiri enn %{max} valmøguleikar
+      already_voted: You have already voted on this poll
+      duplicate_options: contain duplicate items
+      duration_too_long: is too far into the future
+      duration_too_short: is too soon
+      expired: The poll has already ended
+      invalid_choice: The chosen vote option does not exist
+      over_character_limit: cannot be longer than %{max} characters each
+      too_few_options: must have more than one item
+      too_many_options: can't contain more than %{max} items
   preferences:
-    other: Annað
-    posting_defaults: Postingarstillingar
-    public_timelines: Almennar tíðarlinjur
+    other: Other
+    posting_defaults: Posting defaults
+    public_timelines: Public timelines
   privacy_policy:
-    title: Privatlívspolitikkur
+    title: Privacy Policy
   reactions:
     errors:
-      limit_reached: Mark fyri ymisk aftursvar rokkið
-      unrecognized_emoji: er ikki eitt kenslutekn, sum kennist aftur
+      limit_reached: Limit of different reactions reached
+      unrecognized_emoji: is not a recognized emoji
   relationships:
-    activity: Kontuvirksemi
-    confirm_follow_selected_followers: Vil tú veruliga fylgja valdu fylgjarunum?
-    confirm_remove_selected_followers: Vil tú veruliga strika valdu fylgjararnar?
-    confirm_remove_selected_follows: Vil tú veruliga strika valdu fylgingarnar?
-    dormant: Í dvala
-    follow_selected_followers: Fylg valdu fylgjarum
-    followers: Fylgjarar
-    following: Fylgi
-    invited: Bjóðað
-    last_active: Seinast virkin
-    most_recent: Feskasta
-    moved: Flutti
-    mutual: Sínamillum
-    primary: Fyrst/ur
-    relationship: Samband
-    remove_selected_domains: Strika allar fylgjarar frá valdu navnaøkjunum
-    remove_selected_followers: Strika valdu fylgjarar
-    remove_selected_follows: Gevst at fylgja valdu brúkarar
-    status: Kontustøða
+    activity: Account activity
+    confirm_follow_selected_followers: Are you sure you want to follow selected followers?
+    confirm_remove_selected_followers: Are you sure you want to remove selected followers?
+    confirm_remove_selected_follows: Are you sure you want to remove selected follows?
+    dormant: Dormant
+    follow_selected_followers: Follow selected followers
+    followers: Followers
+    following: Following
+    invited: Invited
+    last_active: Last active
+    most_recent: Most recent
+    moved: Moved
+    mutual: Mutual
+    primary: Primary
+    relationship: Relationship
+    remove_selected_domains: Remove all followers from the selected domains
+    remove_selected_followers: Remove selected followers
+    remove_selected_follows: Unfollow selected users
+    status: Account status
   remote_follow:
-    missing_resource: Fann ikki kravda víðaribeinings-URL'in fyri tína kontu
+    missing_resource: Could not find the required redirect URL for your account
   reports:
     errors:
-      invalid_rules: vísir ikki til gyldugar reglur
+      invalid_rules: does not reference valid rules
   rss:
-    content_warning: 'Innihaldsávaring:'
+    content_warning: 'Content warning:'
     descriptions:
-      account: Almennir postar frá @%{acct}
-      tag: 'Almennir postar við frámerkinum #%{hashtag}'
+      account: Public posts from @%{acct}
+      tag: 'Public posts tagged #%{hashtag}'
   scheduled_statuses:
-    over_daily_limit: Tú er komin at markinum, sum er %{limit} skrálagdir postar, í dag
-    over_total_limit: Tú er komin at markinum, sum er %{limit} skrálagdir postar
-    too_soon: Ætlanardagfestingin má vera í framtíðini
+    over_daily_limit: You have exceeded the limit of %{limit} scheduled posts for today
+    over_total_limit: You have exceeded the limit of %{limit} scheduled posts
+    too_soon: The scheduled date must be in the future
   sessions:
-    activity: Seinasta virksemi
-    browser: Kagi
+    activity: Last activity
+    browser: Browser
     browsers:
       alipay: Alipay
       blackberry: BlackBerry
@@ -1436,7 +1448,7 @@ fo:
       edge: Microsoft Edge
       electron: Electron
       firefox: Firefox
-      generic: Ókendur kagi
+      generic: Unknown browser
       ie: Internet Explorer
       micro_messenger: MicroMessenger
       nokia: Nokia S40 Ovi Browser
@@ -1447,9 +1459,9 @@ fo:
       safari: Safari
       uc_browser: UC Browser
       weibo: Weibo
-    current_session: Verandi seta
-    description: "%{browser} á %{platform}"
-    explanation: Hetta eru vevkagarnir, sum í løtuni eru ritaðir inn á tína Mastodon kontu.
+    current_session: Current session
+    description: "%{browser} on %{platform}"
+    explanation: These are the web browsers currently logged in to your Mastodon account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1460,240 +1472,240 @@ fo:
       ios: iOS
       linux: Linux
       mac: macOS
-      other: ókendur pallur
+      other: unknown platform
       windows: Windows
       windows_mobile: Windows Mobile
       windows_phone: Windows Phone
-    revoke: Tak aftur
-    revoke_success: Setan tikin aftur
-    title: Setur
-    view_authentication_history: Sí samgildissøgu fyri tína kontu
+    revoke: Revoke
+    revoke_success: Session successfully revoked
+    title: Sessions
+    view_authentication_history: View authentication history of your account
   settings:
-    account: Konta
-    account_settings: Kontustillingar
-    aliases: Tøkuheiti hjá kontuni
-    appearance: Útsjónd
-    authorized_apps: Góðkendar appir
-    back: Aftur til Mastodon
-    delete: Striking av kontu
-    development: Menning
-    edit_profile: Rætta vanga
-    export: Útflyt dátur
-    featured_tags: Varpaði frámerki
-    import: Innflyt
-    import_and_export: Innflyt og útflyt
-    migrate: Flyting av kontu
-    notifications: Fráboðanir
-    preferences: Sertokki
-    profile: Vangi
-    relationships: Fylging og fylgjarar
-    statuses_cleanup: Sjálvvirkandi striking av postum
-    strikes: Umsjónaratsóknir
-    two_factor_authentication: Váttan í tveimum stigum
-    webauthn_authentication: Trygdarlyklar
+    account: Account
+    account_settings: Account settings
+    aliases: Account aliases
+    appearance: Appearance
+    authorized_apps: Authorized apps
+    back: Back to Mastodon
+    delete: Account deletion
+    development: Development
+    edit_profile: Edit profile
+    export: Data export
+    featured_tags: Featured hashtags
+    import: Import
+    import_and_export: Import and export
+    migrate: Account migration
+    notifications: Notifications
+    preferences: Preferences
+    profile: Profile
+    relationships: Follows and followers
+    statuses_cleanup: Automated post deletion
+    strikes: Moderation strikes
+    two_factor_authentication: Two-factor Auth
+    webauthn_authentication: Security keys
   statuses:
     attached:
       audio:
-        one: "%{count} ljóð"
-        other: "%{count} ljóð"
-      description: 'Viðfest: %{attached}'
+        one: "%{count} audio"
+        other: "%{count} audio"
+      description: 'Attached: %{attached}'
       image:
-        one: "%{count} mynd"
-        other: "%{count} myndir"
+        one: "%{count} image"
+        other: "%{count} images"
       video:
-        one: "%{count} sjónfíla"
-        other: "%{count} sjónfílur"
-    boosted_from_html: Stimbrað frá %{acct_link}
-    content_warning: 'Innihaldsávaring: %{warning}'
-    default_language: Sama sum markamótsmál
+        one: "%{count} video"
+        other: "%{count} videos"
+    boosted_from_html: Boosted from %{acct_link}
+    content_warning: 'Content warning: %{warning}'
+    default_language: Same as interface language
     disallowed_hashtags:
-      one: 'innihelt eitt vrakað frámerki: %{tags}'
-      other: 'innihelt vrakaðu frámerkini: %{tags}'
-    edited_at_html: Rættað %{date}
+      one: 'contained a disallowed hashtag: %{tags}'
+      other: 'contained the disallowed hashtags: %{tags}'
+    edited_at_html: Edited %{date}
     errors:
-      in_reply_not_found: Posturin, sum tú roynir at svara, sýnist ikki at finnast.
-    open_in_web: Lat upp á vevinum
-    over_character_limit: mesta tal av teknum, %{max}, rokkið
+      in_reply_not_found: The post you are trying to reply to does not appear to exist.
+    open_in_web: Open in web
+    over_character_limit: character limit of %{max} exceeded
     pin_errors:
-      direct: Postar, sum einans eru sjónligir hjá nevndum brúkarum, kunnu ikki festast
-      limit: Tú hevur longu fest loyvda talið av postum
-      ownership: Postar hjá øðrum kunnu ikki festast
-      reblog: Ein stimbran kann ikki festast
+      direct: Posts that are only visible to mentioned users cannot be pinned
+      limit: You have already pinned the maximum number of posts
+      ownership: Someone else's post cannot be pinned
+      reblog: A boost cannot be pinned
     poll:
       total_people:
-        one: "%{count} fólk"
-        other: "%{count} fólk"
+        one: "%{count} person"
+        other: "%{count} people"
       total_votes:
-        one: "%{count} atkvøða"
-        other: "%{count} atkvøður"
-      vote: Atkvøð
-    show_more: Vís meira
-    show_newer: Vís nýggjari
-    show_older: Vís eldri
-    show_thread: Vís tráð
-    sign_in_to_participate: Rita inn fyri at luttaka í samrøðuni
+        one: "%{count} vote"
+        other: "%{count} votes"
+      vote: Vote
+    show_more: Show more
+    show_newer: Show newer
+    show_older: Show older
+    show_thread: Show thread
+    sign_in_to_participate: Sign in to participate in the conversation
     title: '%{name}: "%{quote}"'
     visibilities:
-      direct: Beinleiðis
-      private: Einans fylgjarar
-      private_long: Vís einans fyri fylgjarum
-      public: Alment
-      public_long: Øll kunnu síggja
-      unlisted: Ólistað
-      unlisted_long: Øll kunnu síggja, men ikki listað á almennum tíðarlinjum
+      direct: Direct
+      private: Followers-only
+      private_long: Only show to followers
+      public: Public
+      public_long: Everyone can see
+      unlisted: Unlisted
+      unlisted_long: Everyone can see, but not listed on public timelines
   statuses_cleanup:
-    enabled: Strika gamlar postar sjálvvirkandi
-    enabled_hint: Strikar postar tínar sjálvvirkandi, tá teir verða eldri enn eitt vist, uttan so at teir samsvara við eitt av undantøkunum niðanfyri
-    exceptions: Undantøk
-    explanation: Av tí at striking av postum er dýrt virksemi, so verður tað gjørt spakuliga yvir tíð, tá ambætarin annars ikki er upptikin. Tí kunnu postarnir hjá tær verða strikaðir eina løtu aftaná, at tíðarfreistin er rokkin.
-    ignore_favs: Sí burtur frá yndispostum
-    ignore_reblogs: Sí burtur frá stimbranum
-    interaction_exceptions: Undantøk grundað á samvirkni
-    interaction_exceptions_explanation: Legg til merkis, at eingin trygd er fyri at postar verða strikaðir, um teir fara undir mørkini fyri yndispostar ella stimbranir eftir at teir einaferð eru farnir uppum.
-    keep_direct: Varðveit beinleiðis boð
-    keep_direct_hint: Strikar ikki beinleiðis boð hjá tær
-    keep_media: Varðveit postar, sum hava viðheftar miðlafílur
-    keep_media_hint: Strikar ikki postar hjá tær, sum hava miðlafílur viðheftar
-    keep_pinned: Varðveit festar postar
-    keep_pinned_hint: Strikar ikki tínar festu postar
-    keep_polls: Varðveit atkvøðugreiðslur
-    keep_polls_hint: Strikar ikki tínar atkvøðugreiðslur
-    keep_self_bookmark: Varðveit postar, sum tú hevur bókamerkt
-    keep_self_bookmark_hint: Strikar ikki tínar egnu postar, um tú hevur bókamerkt teir
-    keep_self_fav: Varðveit postar, sum tú hevur yndismerkt
-    keep_self_fav_hint: Strikar ikki tínar egnu postar, um tú hevur yndismerkt teir
+    enabled: Automatically delete old posts
+    enabled_hint: Automatically deletes your posts once they reach a specified age threshold, unless they match one of the exceptions below
+    exceptions: Exceptions
+    explanation: Because deleting posts is an expensive operation, this is done slowly over time when the server is not otherwise busy. For this reason, your posts may be deleted a while after they reach the age threshold.
+    ignore_favs: Ignore favourites
+    ignore_reblogs: Ignore boosts
+    interaction_exceptions: Exceptions based on interactions
+    interaction_exceptions_explanation: Note that there is no guarantee for posts to be deleted if they go below the favourite or boost threshold after having once gone over them.
+    keep_direct: Keep direct messages
+    keep_direct_hint: Doesn't delete any of your direct messages
+    keep_media: Keep posts with media attachments
+    keep_media_hint: Doesn't delete any of your posts that have media attachments
+    keep_pinned: Keep pinned posts
+    keep_pinned_hint: Doesn't delete any of your pinned posts
+    keep_polls: Keep polls
+    keep_polls_hint: Doesn't delete any of your polls
+    keep_self_bookmark: Keep posts you bookmarked
+    keep_self_bookmark_hint: Doesn't delete your own posts if you have bookmarked them
+    keep_self_fav: Keep posts you favourited
+    keep_self_fav_hint: Doesn't delete your own posts if you have favourited them
     min_age:
-      '1209600': 2 vikur
-      '15778476': 6 mánaðir
-      '2629746': 1 mánaði
-      '31556952': 1 ár
-      '5259492': 2 mánaðir
-      '604800': 1 vika
-      '63113904': 2 ár
-      '7889238': 3 mánaðir
-    min_age_label: Tíðarfreist
-    min_favs: Varðveit postar yndismerktar í minsta lagi
-    min_favs_hint: Strikar ikki postar hjá tær, sum hava móttikið í minsta lagi hetta talið av yndismerkjum. Lat vera blankt, um postar skulu strikast óansæð, hvussu ofta teir eru yndismerktir
-    min_reblogs: Varðveit postar, sum eru stimbraðir í minsta lagi
-    min_reblogs_hint: Strikar ikki postar hjá tær, sum eru stimbraðir í minsta lagi so ofta. Lat vera blankt, um postar skulu strikast óansæð, hvussu ofta teir eru stimbraðir
+      '1209600': 2 weeks
+      '15778476': 6 months
+      '2629746': 1 month
+      '31556952': 1 year
+      '5259492': 2 months
+      '604800': 1 week
+      '63113904': 2 years
+      '7889238': 3 months
+    min_age_label: Age threshold
+    min_favs: Keep posts favourited at least
+    min_favs_hint: Doesn't delete any of your posts that has received at least this number of favourites. Leave blank to delete posts regardless of their number of favourites
+    min_reblogs: Keep posts boosted at least
+    min_reblogs_hint: Doesn't delete any of your posts that has been boosted at least this number of times. Leave blank to delete posts regardless of their number of boosts
   stream_entries:
-    pinned: Festir postar
-    reblogged: stimbraður
-    sensitive_content: Viðkvæmt innihald
+    pinned: Pinned post
+    reblogged: boosted
+    sensitive_content: Sensitive content
   strikes:
     errors:
-      too_late: Tað er ov seint at kæra hesa atsókn
+      too_late: It is too late to appeal this strike
   tags:
-    does_not_match_previous_name: samsvarar ikki við undanfarna navnið
+    does_not_match_previous_name: does not match the previous name
   themes:
-    contrast: Mastodon (høgur kontrastur)
-    default: Mastodon (myrkt)
-    mastodon-light: Mastodon (ljóst)
+    contrast: Mastodon (High contrast)
+    default: Mastodon (Dark)
+    mastodon-light: Mastodon (Light)
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
       month: "%b %Y"
       time: "%H:%M"
   two_factor_authentication:
-    add: Legg afturat
-    disable: Ger 2FA óvirkið
-    disabled_success: Váttan í tveimum stigum gjørd óvirkin
-    edit: Rætta
-    enabled: Váttan í tveimum stigum gjørd virkin
-    enabled_success: Váttan í tveimum stigum gjørd virkin
-    generate_recovery_codes: Ger kodur til endurgerð
-    lost_recovery_codes: Kodur til endurgerð loyva tær at fáa atgongd aftur til kontu tína, um tú missir telefonina burtur. Hevur tú mist endurgerðskodurnar, so kanst tú gera tær her. Gomlu kodurnar vera gjørdar óvirknar.
-    methods: Mannagongdir fyri váttan í tveimum stigum
+    add: Add
+    disable: Disable 2FA
+    disabled_success: Two-factor authentication successfully disabled
+    edit: Edit
+    enabled: Two-factor authentication is enabled
+    enabled_success: Two-factor authentication successfully enabled
+    generate_recovery_codes: Generate recovery codes
+    lost_recovery_codes: Recovery codes allow you to regain access to your account if you lose your phone. If you've lost your recovery codes, you can regenerate them here. Your old recovery codes will be invalidated.
+    methods: Two-factor methods
     otp: Authenticator app
-    recovery_codes: Tak trygdaravrit av kodum til endurgerð
-    recovery_codes_regenerated: Kodur til endurgerð gjørdar av nýggjum
-    recovery_instructions_html: Missir tú atgongd til telefonina, so kanst tú brúka eina av kodunum til endurgerð niðanfyri at fáa atgongd aftur til kontu tína. <strong>Goym kodurnar til endurgerð trygt</strong>. Til dømis kanst tú prenta tær og goyma tær saman við øðrum týdningarmiklum skjølum.
-    webauthn: Trygdarlyklar
+    recovery_codes: Backup recovery codes
+    recovery_codes_regenerated: Recovery codes successfully regenerated
+    recovery_instructions_html: If you ever lose access to your phone, you can use one of the recovery codes below to regain access to your account. <strong>Keep the recovery codes safe</strong>. For example, you may print them and store them with other important documents.
+    webauthn: Security keys
   user_mailer:
     appeal_approved:
-      action: Far til kontu tína
-      explanation: Kæran um atsóknina móti kontu tínari %{strike_date}, sum tú sendi inn %{appeal_date}, er góðkend. Konta tín er aftur tignarlig.
-      subject: Kæra tín frá %{date} er góðkend
-      title: Kæra góðkend
+      action: Go to your account
+      explanation: The appeal of the strike against your account on %{strike_date} that you submitted on %{appeal_date} has been approved. Your account is once again in good standing.
+      subject: Your appeal from %{date} has been approved
+      title: Appeal approved
     appeal_rejected:
-      explanation: Kæran um atsóknina móti kontu tínari %{strike_date}, sum tú sendi inn %{appeal_date}, er vrakað.
-      subject: Kæra tín frá %{date} er vrakað
-      title: Kæra vrakað
+      explanation: The appeal of the strike against your account on %{strike_date} that you submitted on %{appeal_date} has been rejected.
+      subject: Your appeal from %{date} has been rejected
+      title: Appeal rejected
     backup_ready:
-      explanation: Tú bað um eitt fult trygdaravrit av tíni Mastodon kontu. Tað er nú klárt at taka niður!
-      subject: Savnið hjá tær er tøkt at taka niður
-      title: Tak savn niður
+      explanation: You requested a full backup of your Mastodon account. It's now ready for download!
+      subject: Your archive is ready for download
+      title: Archive takeout
     suspicious_sign_in:
-      change_password: broyt loyniorðið hjá tær
-      details: 'Her eru smálutirnir í innritanini:'
-      explanation: Vit hava lagt merki til, at innritað er á tína kontu frá einari nýggjari IP adressu.
-      further_actions_html: Var hetta ikki tú, so mæla vit til, at tú %{action} beinan vegin og at tú ger váttan í tveimum stigum virkna fyri at konta tín kann vera trygg.
-      subject: Atgongd er fingin til kontu tína frá eini nýggjari IP adressu
-      title: Ein nýggj innritan
+      change_password: change your password
+      details: 'Here are details of the sign-in:'
+      explanation: We've detected a sign-in to your account from a new IP address.
+      further_actions_html: If this wasn't you, we recommend that you %{action} immediately and enable two-factor authentication to keep your account secure.
+      subject: Your account has been accessed from a new IP address
+      title: A new sign-in
     warning:
-      appeal: Innsend eina kæru
-      appeal_description: Trýrt tú, at hetta er ein feilur, so kanst tú senda eina kæru til starvsfólkini á %{instance}.
+      appeal: Submit an appeal
+      appeal_description: If you believe this is an error, you can submit an appeal to the staff of %{instance}.
       categories:
-        spam: Ruskpostur
-        violation: Tilfarið er í stríð við fylgjandi leiðreglur
+        spam: Spam
+        violation: Content violates the following community guidelines
       explanation:
-        delete_statuses: Summir av postum tínum eru staðfestir at vera í stríði við eina ella fleiri av leiðreglunum og eru tí strikaðir av umsjónarfólkunum á %{instance}.
-        disable: Tú kanst ikki longur brúka tína kontu, men vangi tín og aðrar dátur eru óskalað. Tú kanst biðja um trygdaravrit av tínum dátum, broyta kontustillingar ella strika tína kontu.
-        mark_statuses_as_sensitive: Summir av postum tínum eru merktir sum viðkvæmir av umsjónarfólkunum á %{instance}. Hetta merkir, at fólk mugu trýsta á miðilin í postinum, áðrenn ein undanvísing verður víst. Tú kanst sjálv/ur merkja miðlar viðkvæmar, tá tú postar í framtíðini.
-        sensitive: Frá nú av, so verða allar miðlafílur, sum tú leggur upp, merktar sum viðkvæmar og fjaldar aftan fyri eina ávarðing.
-        silence: Tú kanst framvegis brúka kontu tína, men einans fólk, sum longu fylgja tær, fara at síggja tínar postar á hesum ambætaranum, og tú kanst vera hildin uttanfyri ymiskar leitihentleikar. Tó so, onnur kunnu framvegis fylgja tær beinleiðis.
-        suspend: Tú kanst ikki longur brúka kontu tína og vangin og aðrar dátur eru ikki longur atkomulig. Tú kanst enn rita inn fyri at biðja um eitt trygdaravrit av tínum dátum, inntil dáturnar eru heilt burturbeindar um umleið 30 dagar, men vit varðveita nakrar grundleggjandi dátur fyri at forða tær í at støkka undan ógildingini.
-      reason: 'Grund:'
-      statuses: 'Siteraðir postar:'
+        delete_statuses: Some of your posts have been found to violate one or more community guidelines and have been subsequently removed by the moderators of %{instance}.
+        disable: You can no longer use your account, but your profile and other data remains intact. You can request a backup of your data, change account settings or delete your account.
+        mark_statuses_as_sensitive: Some of your posts have been marked as sensitive by the moderators of %{instance}. This means that people will need to tap the media in the posts before a preview is displayed. You can mark media as sensitive yourself when posting in the future.
+        sensitive: From now on, all your uploaded media files will be marked as sensitive and hidden behind a click-through warning.
+        silence: You can still use your account but only people who are already following you will see your posts on this server, and you may be excluded from various discovery features. However, others may still manually follow you.
+        suspend: You can no longer use your account, and your profile and other data are no longer accessible. You can still login to request a backup of your data until the data is fully removed in about 30 days, but we will retain some basic data to prevent you from evading the suspension.
+      reason: 'Reason:'
+      statuses: 'Posts cited:'
       subject:
-        delete_statuses: Postar tíni á %{acct} eru strikaðir
-        disable: Konta tín %{acct} er fryst
-        mark_statuses_as_sensitive: Postar tíni á %{acct} eru merktir sum viðkvæmir
-        none: Ávaring fyri %{acct}
-        sensitive: Tínir postar á %{acct} verða merktir viðkvæmir framyvir
-        silence: Konta tín %{acct} er avmarkað
-        suspend: Konta tín %{acct} er ógildað
+        delete_statuses: Your posts on %{acct} have been removed
+        disable: Your account %{acct} has been frozen
+        mark_statuses_as_sensitive: Your posts on %{acct} have been marked as sensitive
+        none: Warning for %{acct}
+        sensitive: Your posts on %{acct} will be marked as sensitive from now on
+        silence: Your account %{acct} has been limited
+        suspend: Your account %{acct} has been suspended
       title:
-        delete_statuses: Strikaðir postar
-        disable: Konta fryst
-        mark_statuses_as_sensitive: Postar merktir sum viðkvæmir
-        none: Ávaring
-        sensitive: Konto frámerkt sum viðvkæmur
-        silence: Kontoin er avmarkað
-        suspend: Konta ógildað
+        delete_statuses: Posts removed
+        disable: Account frozen
+        mark_statuses_as_sensitive: Posts marked as sensitive
+        none: Warning
+        sensitive: Account marked as sensitive
+        silence: Account limited
+        suspend: Account suspended
     welcome:
-      edit_profile_action: Set upp vanga
-      edit_profile_step: Tú kanst tillaga vanga tín við at leggja eina vangamynd inn, broyta vísta navnið hjá tær og meira. Tú kanst velja at eftirkanna nýggjar fylgjarar, áðrenn teir sleppa at fylgja tær.
-      explanation: Her eru nøkur ráð so tú kann koma gott ígongd
-      final_action: Byrja at posta
-      final_step: 'Byrja at posta! Sjálvt uttan fylgjarar, so kunnu tínir almennu postar vera sæddir av øðrum, til dømis á lokalu tíðarlinjuni ella í frámerkjum. Kanska vilt tú greiða frá um teg sjálva/n við frámerkinum #introductions.'
-      full_handle: Fulla brúkaranavn títt
-      full_handle_hint: Hetta er tað, sum tú fortelur vinum tínum, soleiðis at tey kunnu senda tær boð ella fylgja tær frá einum øðrum ambætara.
-      subject: Vælkomin til Mastodon
-      title: Vælkomin umborð, %{name}!
+      edit_profile_action: Setup profile
+      edit_profile_step: You can customize your profile by uploading a profile picture, changing your display name and more. You can opt-in to review new followers before they’re allowed to follow you.
+      explanation: Here are some tips to get you started
+      final_action: Start posting
+      final_step: 'Start posting! Even without followers, your public posts may be seen by others, for example on the local timeline or in hashtags. You may want to introduce yourself on the #introductions hashtag.'
+      full_handle: Your full handle
+      full_handle_hint: This is what you would tell your friends so they can message or follow you from another server.
+      subject: Welcome to Mastodon
+      title: Welcome aboard, %{name}!
   users:
-    follow_limit_reached: Tú kanst ikki fylgja fleiri enn %{limit} fólk
-    invalid_otp_token: Ógyldug tvey-stigs koda
-    otp_lost_help_html: Hevur tú mist atgongd til bæði, so kanst tú koma í samband við %{email}
-    seamless_external_login: Tú er ritað/ur inn umvegis eina uttanhýsis tænastu, so loyniorð og teldupoststillingar eru ikki tøkar.
-    signed_in_as: 'Ritað/ur inn sum:'
+    follow_limit_reached: You cannot follow more than %{limit} people
+    invalid_otp_token: Invalid two-factor code
+    otp_lost_help_html: If you lost access to both, you may get in touch with %{email}
+    seamless_external_login: You are logged in via an external service, so password and e-mail settings are not available.
+    signed_in_as: 'Signed in as:'
   verification:
-    explanation_html: 'Tú kanst <strong>vátta teg sjálva/n sum eigara av leinkjunum í metadátunum á vanganum hjá tær</strong>. Til tess má leinkjaða vevstaðið innihalda eitt leinki aftur til Mastodon vangan hjá tær. Leinkið <strong>má</strong> hava eina <code>rel="me"</code> viðseting. Tekstinnihaldið í leikinum er óviðkomandi. Her er eitt dømi:'
-    verification: Váttan
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Mastodon profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
+    verification: Verification
   webauthn_credentials:
-    add: Legg nýggjan trygdarlykil afturat
+    add: Add new security key
     create:
-      error: Ein trupulleiki var í sambandi við at trygdarlykilin bleiv lagdur afturat. Vinarliga royn aftur.
-      success: Trygdarlykilin hjá tær varð lagdur afturat.
-    delete: Strika
-    delete_confirmation: Er tú vís/ur í, at tú vil strika hendan trygdarlykilin?
-    description_html: Um tú ger <strong>váttan við trygdarlykli</strong> virkna, so fer innritan at krevja, at tú brúkar ein av trygdarlyklunum hjá tær.
+      error: There was a problem adding your security key. Please try again.
+      success: Your security key was successfully added.
+    delete: Delete
+    delete_confirmation: Are you sure you want to delete this security key?
+    description_html: If you enable <strong>security key authentication</strong>, logging in will require you to use one of your security keys.
     destroy:
-      error: Ein trupulleiki var við at strika trygdarlykilin hjá tær. Vinarliga royn aftur.
-      success: Trygdarlykilin hjá tær varð strikaður.
-    invalid_credential: Ógyldugur trygdarlykil
-    nickname_hint: Skriva eyknevni á tínum nýggja trygdarlykli
-    not_enabled: Tú hevur ikki gjørt WebAuthn virkið enn
-    not_supported: Hesin kagin stuðlar ikki uppundir trygdarlyklar
-    otp_required: Fyri at brúka trygdarlyklar er neyðugt at gera váttan í tveimum stigum virkna fyrst.
-    registered_on: Skrásett %{date}
+      error: There was a problem deleting you security key. Please try again.
+      success: Your security key was successfully deleted.
+    invalid_credential: Invalid security key
+    nickname_hint: Enter the nickname of your new security key
+    not_enabled: You haven't enabled WebAuthn yet
+    not_supported: This browser doesn't support security keys
+    otp_required: To use security keys please enable two-factor authentication first.
+    registered_on: Registered on %{date}
