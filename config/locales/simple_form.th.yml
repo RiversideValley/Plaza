@@ -3,315 +3,315 @@ th:
   simple_form:
     hints:
       account_alias:
-        acct: ระบุ username@domain ของบัญชีที่คุณต้องการย้ายจาก
+        acct: Specify the username@domain of the account you want to move from
       account_migration:
-        acct: ระบุ username@domain ของบัญชีที่คุณต้องการย้ายไป
+        acct: Specify the username@domain of the account you want to move to
       account_warning_preset:
-        text: คุณสามารถใช้ไวยากรณ์โพสต์ เช่น URL, แฮชแท็ก และการกล่าวถึง
-        title: ไม่จำเป็น ไม่ปรากฏแก่ผู้รับ
+        text: You can use post syntax, such as URLs, hashtags and mentions
+        title: Optional. Not visible to the recipient
       admin_account_action:
-        include_statuses: ผู้ใช้จะเห็นว่าโพสต์ใดก่อให้เกิดการกระทำการควบคุมหรือคำเตือน
-        send_email_notification: ผู้ใช้จะได้รับคำอธิบายว่าเกิดอะไรขึ้นกับบัญชีของเขา
-        text_html: ไม่จำเป็น คุณสามารถใช้ไวยากรณ์โพสต์ คุณสามารถ <a href="%{path}">เพิ่มคำเตือนที่ตั้งไว้ล่วงหน้า</a> เพื่อประหยัดเวลา
-        type_html: เลือกสิ่งที่จะทำกับ <strong>%{acct}</strong>
+        include_statuses: The user will see which posts have caused the moderation action or warning
+        send_email_notification: The user will receive an explanation of what happened with their account
+        text_html: Optional. You can use post syntax. You can <a href="%{path}">add warning presets</a> to save time
+        type_html: Choose what to do with <strong>%{acct}</strong>
         types:
-          disable: ป้องกันไม่ให้ผู้ใช้ใช้บัญชีของเขา แต่ไม่ลบหรือซ่อนเนื้อหาของเขา
-          none: ใช้สิ่งนี้เพื่อส่งคำเตือนไปยังผู้ใช้ โดยไม่ทริกเกอร์การกระทำอื่นใด
-          sensitive: บังคับให้ทำเครื่องหมายไฟล์แนบสื่อของผู้ใช้นี้ทั้งหมดว่าละเอียดอ่อน
-          silence: ป้องกันไม่ให้ผู้ใช้สามารถโพสต์โดยมีการมองเห็นเป็นสาธารณะ ซ่อนโพสต์และการแจ้งเตือนของเขาจากผู้คนที่ไม่ได้กำลังติดตามผู้ใช้ ปิดรายงานต่อบัญชีนี้ทั้งหมด
-          suspend: ป้องกันไม่ให้มีการโต้ตอบใด ๆ จากหรือไปยังบัญชีนี้และลบเนื้อหาของบัญชี แปลงกลับได้ภายใน 30 วัน ปิดรายงานต่อบัญชีนี้ทั้งหมด
-        warning_preset_id: ไม่จำเป็น คุณยังคงสามารถเพิ่มข้อความที่กำหนดเองที่จุดสิ้นสุดของค่าที่ตั้งไว้ล่วงหน้า
+          disable: Prevent the user from using their account, but do not delete or hide their contents.
+          none: Use this to send a warning to the user, without triggering any other action.
+          sensitive: Force all this user's media attachments to be flagged as sensitive.
+          silence: Prevent the user from being able to post with public visibility, hide their posts and notifications from people not following them. Closes all reports against this account.
+          suspend: Prevent any interaction from or to this account and delete its contents. Revertible within 30 days. Closes all reports against this account.
+        warning_preset_id: Optional. You can still add custom text to end of the preset
       announcement:
-        all_day: เมื่อกาเครื่องหมาย จะแสดงเฉพาะวันที่ของช่วงเวลาเท่านั้น
-        ends_at: ไม่จำเป็น จะเลิกเผยแพร่ประกาศที่เวลานี้โดยอัตโนมัติ
-        scheduled_at: เว้นว่างไว้เพื่อเผยแพร่ประกาศทันที
-        starts_at: ไม่จำเป็น ในกรณีที่ประกาศของคุณผูกไว้กับช่วงเวลาที่เฉพาะเจาะจง
-        text: คุณสามารถใช้ไวยากรณ์โพสต์ โปรดระวังพื้นที่ที่ประกาศจะใช้ในหน้าจอของผู้ใช้
+        all_day: When checked, only the dates of the time range will be displayed
+        ends_at: Optional. Announcement will be automatically unpublished at this time
+        scheduled_at: Leave blank to publish the announcement immediately
+        starts_at: Optional. In case your announcement is bound to a specific time range
+        text: You can use post syntax. Please be mindful of the space the announcement will take up on the user's screen
       appeal:
-        text: คุณสามารถอุทธรณ์การดำเนินการได้เพียงครั้งเดียวเท่านั้น
+        text: You can only appeal a strike once
       defaults:
-        autofollow: ผู้คนที่ลงทะเบียนผ่านคำเชิญจะติดตามคุณโดยอัตโนมัติ
-        avatar: PNG, GIF หรือ JPG สูงสุด %{size} จะถูกย่อขนาดเป็น %{dimensions}px
-        bot: ส่งสัญญาณให้ผู้อื่นว่าบัญชีทำการกระทำแบบอัตโนมัติเป็นหลักและอาจไม่ได้รับการสังเกตการณ์
-        context: หนึ่งหรือหลายบริบทที่ตัวกรองควรนำไปใช้
-        current_password: เพื่อวัตถุประสงค์ด้านความปลอดภัย โปรดป้อนรหัสผ่านของบัญชีปัจจุบัน
-        current_username: เพื่อยืนยัน โปรดป้อนชื่อผู้ใช้ของบัญชีปัจจุบัน
-        digest: ส่งเฉพาะหลังจากไม่มีการใช้งานเป็นเวลานานและในกรณีที่คุณได้รับข้อความส่วนบุคคลใด ๆ เมื่อคุณไม่อยู่เท่านั้น
-        discoverable: อนุญาตให้คนแปลกหน้าค้นพบบัญชีของคุณได้ผ่านคำแนะนำ, แนวโน้ม และคุณลักษณะอื่น ๆ
-        email: คุณจะได้รับอีเมลยืนยัน
-        fields: คุณสามารถมีได้มากถึง 4 รายการแสดงเป็นตารางในโปรไฟล์ของคุณ
-        header: PNG, GIF หรือ JPG สูงสุด %{size} จะถูกย่อขนาดเป็น %{dimensions}px
-        inbox_url: คัดลอก URL จากหน้าแรกของรีเลย์ที่คุณต้องการใช้
-        irreversible: โพสต์ที่กรองอยู่จะหายไปอย่างถาวร แม้ว่าจะเอาตัวกรองออกในภายหลังก็ตาม
-        locale: ภาษาของส่วนติดต่อผู้ใช้, อีเมล และการแจ้งเตือนแบบผลัก
-        locked: ควบคุมผู้ที่สามารถติดตามคุณด้วยตนเองได้โดยอนุมัติคำขอติดตาม
-        password: ใช้อย่างน้อย 8 ตัวอักษร
-        phrase: จะถูกจับคู่โดยไม่คำนึงถึงตัวพิมพ์ใหญ่เล็กในข้อความหรือคำเตือนเนื้อหาของโพสต์
-        scopes: API ใดที่จะอนุญาตให้แอปพลิเคชันเข้าถึง หากคุณเลือกขอบเขตระดับบนสุด คุณไม่จำเป็นต้องเลือกขอบเขตแต่ละรายการ
-        setting_aggregate_reblogs: ไม่แสดงการดันใหม่สำหรับโพสต์ที่เพิ่งดัน (มีผลต่อการดันที่ได้รับใหม่เท่านั้น)
-        setting_always_send_emails: โดยปกติจะไม่ส่งการแจ้งเตือนอีเมลเมื่อคุณกำลังใช้ Mastodon อยู่
-        setting_default_sensitive: ซ่อนสื่อที่ละเอียดอ่อนเป็นค่าเริ่มต้นและสามารถเปิดเผยได้ด้วยการคลิก
-        setting_display_media_default: ซ่อนสื่อที่มีการทำเครื่องหมายว่าละเอียดอ่อน
-        setting_display_media_hide_all: ซ่อนสื่อเสมอ
-        setting_display_media_show_all: แสดงสื่อเสมอ
-        setting_hide_network: จะซ่อนผู้ที่คุณติดตามและผู้ที่ติดตามคุณในโปรไฟล์ของคุณ
-        setting_noindex: มีผลต่อโปรไฟล์สาธารณะและหน้าโพสต์ของคุณ
-        setting_show_application: จะแสดงแอปพลิเคชันที่คุณใช้ในการโพสต์ในมุมมองโดยละเอียดของโพสต์ของคุณ
-        setting_use_blurhash: การไล่ระดับสีอิงตามสีของภาพที่ซ่อนอยู่แต่ทำให้รายละเอียดใด ๆ คลุมเครือ
-        setting_use_pending_items: ซ่อนการอัปเดตเส้นเวลาไว้หลังการคลิกแทนที่จะเลื่อนฟีดโดยอัตโนมัติ
-        username: ชื่อผู้ใช้ของคุณจะไม่ซ้ำกันใน %{domain}
-        whole_word: เมื่อคำสำคัญหรือวลีเป็นตัวอักษรและตัวเลขเท่านั้น จะนำไปใช้กับคำสำคัญหรือวลีหากตรงกันทั้งคำเท่านั้น
+        autofollow: People who sign up through the invite will automatically follow you
+        avatar: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        bot: Signal to others that the account mainly performs automated actions and might not be monitored
+        context: One or multiple contexts where the filter should apply
+        current_password: For security purposes please enter the password of the current account
+        current_username: To confirm, please enter the username of the current account
+        digest: Only sent after a long period of inactivity and only if you have received any personal messages in your absence
+        discoverable: Allow your account to be discovered by strangers through recommendations, trends and other features
+        email: You will be sent a confirmation e-mail
+        fields: You can have up to 4 items displayed as a table on your profile
+        header: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        inbox_url: Copy the URL from the frontpage of the relay you want to use
+        irreversible: Filtered posts will disappear irreversibly, even if filter is later removed
+        locale: The language of the user interface, e-mails and push notifications
+        locked: Manually control who can follow you by approving follow requests
+        password: Use at least 8 characters
+        phrase: Will be matched regardless of casing in text or content warning of a post
+        scopes: Which APIs the application will be allowed to access. If you select a top-level scope, you don't need to select individual ones.
+        setting_aggregate_reblogs: Do not show new boosts for posts that have been recently boosted (only affects newly-received boosts)
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Mastodon
+        setting_default_sensitive: Sensitive media is hidden by default and can be revealed with a click
+        setting_display_media_default: Hide media marked as sensitive
+        setting_display_media_hide_all: Always hide media
+        setting_display_media_show_all: Always show media
+        setting_hide_network: Who you follow and who follows you will be hidden on your profile
+        setting_noindex: Affects your public profile and post pages
+        setting_show_application: The application you use to post will be displayed in the detailed view of your posts
+        setting_use_blurhash: Gradients are based on the colors of the hidden visuals but obfuscate any details
+        setting_use_pending_items: Hide timeline updates behind a click instead of automatically scrolling the feed
+        username: Your username will be unique on %{domain}
+        whole_word: When the keyword or phrase is alphanumeric only, it will only be applied if it matches the whole word
       domain_allow:
-        domain: โดเมนนี้จะสามารถดึงข้อมูลจากเซิร์ฟเวอร์นี้และจะประมวลผลและจัดเก็บข้อมูลขาเข้าจากโดเมน
+        domain: This domain will be able to fetch data from this server and incoming data from it will be processed and stored
       email_domain_block:
-        domain: สิ่งนี้สามารถเป็นชื่อโดเมนที่ปรากฏในที่อยู่อีเมลหรือระเบียน MX ที่โดเมนใช้ จะตรวจสอบโดเมนเมื่อลงทะเบียน
-        with_dns_records: จะทำการพยายามแปลงที่อยู่ระเบียน DNS ของโดเมนที่กำหนดและจะปิดกั้นผลลัพธ์เช่นกัน
+        domain: This can be the domain name that shows up in the e-mail address or the MX record it uses. They will be checked upon sign-up.
+        with_dns_records: An attempt to resolve the given domain's DNS records will be made and the results will also be blocked
       featured_tag:
-        name: 'นี่คือแฮชแท็กบางส่วนที่คุณได้ใช้ล่าสุด:'
+        name: 'Here are some of the hashtags you used the most recently:'
       filters:
-        action: เลือกว่าการกระทำใดที่จะทำเมื่อโพสต์ตรงกับตัวกรอง
+        action: Chose which action to perform when a post matches the filter
         actions:
-          hide: ซ่อนเนื้อหาที่กรองอยู่อย่างสมบูรณ์ ทำเสมือนว่าไม่มีเนื้อหาอยู่
-          warn: ซ่อนเนื้อหาที่กรองอยู่หลังคำเตือนที่กล่าวถึงชื่อเรื่องของตัวกรอง
+          hide: Completely hide the filtered content, behaving as if it did not exist
+          warn: Hide the filtered content behind a warning mentioning the filter's title
       form_admin_settings:
-        activity_api_enabled: จำนวนโพสต์ที่เผยแพร่ในเซิร์ฟเวอร์, ผู้ใช้ที่ใช้งานอยู่ และการลงทะเบียนใหม่ในบักเก็ตรายสัปดาห์
-        backups_retention_period: เก็บการเก็บถาวรผู้ใช้ที่สร้างขึ้นตามจำนวนวันที่ระบุ
-        bootstrap_timeline_accounts: จะปักหมุดบัญชีเหล่านี้ไว้ด้านบนสุดของคำแนะนำการติดตามของผู้ใช้ใหม่
-        closed_registrations_message: แสดงเมื่อมีการปิดการลงทะเบียน
-        content_cache_retention_period: จะลบโพสต์จากเซิร์ฟเวอร์อื่น ๆ หลังจากจำนวนวันที่ระบุเมื่อตั้งเป็นค่าบวก นี่อาจย้อนกลับไม่ได้
-        custom_css: คุณสามารถนำไปใช้ลักษณะที่กำหนดเองใน Mastodon รุ่นเว็บ
-        mascot: เขียนทับภาพประกอบในส่วนติดต่อเว็บขั้นสูง
-        media_cache_retention_period: จะลบไฟล์สื่อที่ดาวน์โหลดหลังจากจำนวนวันที่ระบุเมื่อตั้งเป็นค่าบวก และดาวน์โหลดใหม่ตามความต้องการ
-        peers_api_enabled: รายการชื่อโดเมนที่เซิร์ฟเวอร์นี้พบในจักรวาลสหพันธ์ ไม่มีข้อมูลรวมอยู่ที่นี่เกี่ยวกับว่าคุณติดต่อกับเซิร์ฟเวอร์ที่กำหนดหรือไม่ เพียงแค่ว่าเซิร์ฟเวอร์ของคุณทราบเกี่ยวกับเซิร์ฟเวอร์ที่กำหนด มีการใช้สิ่งนี้โดยบริการที่เก็บรวบรวมสถิติในการติดต่อกับภายนอกในความหมายทั่วไป
-        profile_directory: ไดเรกทอรีโปรไฟล์แสดงรายการผู้ใช้ทั้งหมดที่ได้เลือกรับให้สามารถค้นพบได้
-        require_invite_text: เมื่อการลงทะเบียนต้องมีการอนุมัติด้วยตนเอง ทำให้การป้อนข้อความ “ทำไมคุณจึงต้องการเข้าร่วม?” บังคับแทนที่จะไม่จำเป็น
-        site_contact_email: วิธีที่ผู้คนสามารถเข้าถึงคุณสำหรับการสอบถามด้านกฎหมายหรือการสนับสนุน
-        site_contact_username: วิธีที่ผู้คนสามารถเข้าถึงคุณใน Mastodon
-        site_extended_description: ข้อมูลเพิ่มเติมใด ๆ ที่อาจเป็นประโยชน์กับผู้เยี่ยมชมและผู้ใช้ของคุณ สามารถจัดโครงสร้างด้วยไวยากรณ์ Markdown
-        site_short_description: คำอธิบายแบบสั้นเพื่อช่วยระบุเซิร์ฟเวอร์ของคุณอย่างไม่ซ้ำกัน ผู้ดำเนินการเซิร์ฟเวอร์ เซิร์ฟเวอร์สำหรับใคร?
-        site_terms: ใช้นโยบายความเป็นส่วนตัวของคุณเองหรือเว้นว่างไว้เพื่อใช้ค่าเริ่มต้น สามารถจัดโครงสร้างด้วยไวยากรณ์ Markdown
-        site_title: วิธีที่ผู้คนอาจอ้างอิงถึงเซิร์ฟเวอร์ของคุณนอกเหนือจากชื่อโดเมนของเซิร์ฟเวอร์
-        status_page_url: URL ของหน้าที่ผู้คนสามารถเห็นสถานะของเซิร์ฟเวอร์นี้ในระหว่างการหยุดทำงาน
-        theme: ชุดรูปแบบที่ผู้เยี่ยมชมที่ออกจากระบบและผู้ใช้ใหม่เห็น
-        thumbnail: แสดงภาพ 2:1 โดยประมาณควบคู่ไปกับข้อมูลเซิร์ฟเวอร์ของคุณ
-        timeline_preview: ผู้เยี่ยมชมที่ออกจากระบบจะสามารถเรียกดูโพสต์สาธารณะล่าสุดที่มีในเซิร์ฟเวอร์
-        trendable_by_default: ข้ามการตรวจทานเนื้อหาที่กำลังนิยมด้วยตนเอง ยังคงสามารถเอารายการแต่ละรายการออกจากแนวโน้มได้หลังเกิดเหตุ
-        trends: แนวโน้มแสดงว่าโพสต์, แฮชแท็ก และเรื่องข่าวใดกำลังได้รับความสนใจในเซิร์ฟเวอร์ของคุณ
-        trends_as_landing_page: แสดงเนื้อหาที่กำลังนิยมแก่ผู้ใช้และผู้เยี่ยมชมที่ออกจากระบบแทนที่จะเป็นคำอธิบายของเซิร์ฟเวอร์นี้ ต้องมีการเปิดใช้งานแนวโน้ม
+        activity_api_enabled: Counts of locally published posts, active users, and new registrations in weekly buckets
+        backups_retention_period: Keep generated user archives for the specified number of days.
+        bootstrap_timeline_accounts: These accounts will be pinned to the top of new users' follow recommendations.
+        closed_registrations_message: Displayed when sign-ups are closed
+        content_cache_retention_period: Posts from other servers will be deleted after the specified number of days when set to a positive value. This may be irreversible.
+        custom_css: You can apply custom styles on the web version of Mastodon.
+        mascot: Overrides the illustration in the advanced web interface.
+        media_cache_retention_period: Downloaded media files will be deleted after the specified number of days when set to a positive value, and re-downloaded on demand.
+        peers_api_enabled: A list of domain names this server has encountered in the fediverse. No data is included here about whether you federate with a given server, just that your server knows about it. This is used by services that collect statistics on federation in a general sense.
+        profile_directory: The profile directory lists all users who have opted-in to be discoverable.
+        require_invite_text: When sign-ups require manual approval, make the “Why do you want to join?” text input mandatory rather than optional
+        site_contact_email: How people can reach you for legal or support inquiries.
+        site_contact_username: How people can reach you on Mastodon.
+        site_extended_description: Any additional information that may be useful to visitors and your users. Can be structured with Markdown syntax.
+        site_short_description: A short description to help uniquely identify your server. Who is running it, who is it for?
+        site_terms: Use your own privacy policy or leave blank to use the default. Can be structured with Markdown syntax.
+        site_title: How people may refer to your server besides its domain name.
+        status_page_url: URL of a page where people can see the status of this server during an outage
+        theme: Theme that logged out visitors and new users see.
+        thumbnail: A roughly 2:1 image displayed alongside your server information.
+        timeline_preview: Logged out visitors will be able to browse the most recent public posts available on the server.
+        trendable_by_default: Skip manual review of trending content. Individual items can still be removed from trends after the fact.
+        trends: Trends show which posts, hashtags and news stories are gaining traction on your server.
+        trends_as_landing_page: Show trending content to logged-out users and visitors instead of a description of this server. Requires trends to be enabled.
       form_challenge:
-        current_password: คุณกำลังเข้าสู่พื้นที่ปลอดภัย
+        current_password: You are entering a secure area
       imports:
-        data: ไฟล์ CSV ที่ส่งออกจากเซิร์ฟเวอร์ Mastodon อื่น
+        data: CSV file exported from another Mastodon server
       invite_request:
-        text: นี่จะช่วยให้เราตรวจทานใบสมัครของคุณ
+        text: This will help us review your application
       ip_block:
-        comment: ไม่จำเป็น จดจำเหตุผลที่คุณเพิ่มกฎนี้
-        expires_in: ที่อยู่ IP เป็นทรัพยากรที่มีจำกัด บางครั้งที่อยู่ใช้ร่วมกันและมักเปลี่ยนมือ ด้วยเหตุผลนี้ การปิดกั้น IP แบบไม่มีกำหนดจึงไม่แนะนำ
-        ip: ป้อนที่อยู่ IPv4 หรือ IPv6 คุณสามารถปิดกั้นทั้งช่วงได้โดยใช้ไวยากรณ์ CIDR ระวังอย่าล็อคตัวคุณเองออก!
+        comment: Optional. Remember why you added this rule.
+        expires_in: IP addresses are a finite resource, they are sometimes shared and often change hands. For this reason, indefinite IP blocks are not recommended.
+        ip: Enter an IPv4 or IPv6 address. You can block entire ranges using the CIDR syntax. Be careful not to lock yourself out!
         severities:
-          no_access: ปิดกั้นการเข้าถึงทรัพยากรทั้งหมด
-          sign_up_block: จะไม่สามารถทำการลงทะเบียนใหม่
-          sign_up_requires_approval: การลงทะเบียนใหม่จะต้องมีการอนุมัติของคุณ
-        severity: เลือกสิ่งที่จะเกิดขึ้นกับคำขอจาก IP นี้
+          no_access: Block access to all resources
+          sign_up_block: New sign-ups will not be possible
+          sign_up_requires_approval: New sign-ups will require your approval
+        severity: Choose what will happen with requests from this IP
       rule:
-        text: อธิบายกฎหรือข้อกำหนดสำหรับผู้ใช้ในเซิร์ฟเวอร์นี้ พยายามทำให้กฎหรือข้อกำหนดสั้นและเรียบง่าย
+        text: Describe a rule or requirement for users on this server. Try to keep it short and simple
       sessions:
-        otp: 'ป้อนรหัสสองปัจจัยที่สร้างโดยแอปในโทรศัพท์ของคุณหรือใช้หนึ่งในรหัสกู้คืนของคุณ:'
-        webauthn: หากกุญแจความปลอดภัยเป็นกุญแจ USB ตรวจสอบให้แน่ใจว่าได้เสียบกุญแจ และหากจำเป็น ให้แตะกุญแจ
+        otp: 'Enter the two-factor code generated by your phone app or use one of your recovery codes:'
+        webauthn: If it's an USB key be sure to insert it and, if necessary, tap it.
       tag:
-        name: คุณสามารถเปลี่ยนได้เฉพาะตัวพิมพ์ใหญ่เล็กของตัวอักษรเท่านั้น ตัวอย่างเช่น เพื่อทำให้ตัวอักษรอ่านได้ง่ายขึ้น
+        name: You can only change the casing of the letters, for example, to make it more readable
       user:
-        chosen_languages: เมื่อกาเครื่องหมาย จะแสดงเฉพาะโพสต์ในภาษาที่เลือกในเส้นเวลาสาธารณะเท่านั้น
-        role: บทบาทควบคุมว่าสิทธิอนุญาตใดที่ผู้ใช้มี
+        chosen_languages: When checked, only posts in selected languages will be displayed in public timelines
+        role: The role controls which permissions the user has
       user_role:
-        color: สีที่ใช้สำหรับบทบาททั่วทั้ง UI เป็น RGB ในรูปแบบฐานสิบหก
-        highlighted: สิ่งนี้ทำให้บทบาทปรากฏเป็นสาธารณะ
-        name: ชื่อสาธารณะของบทบาท หากมีการตั้งบทบาทให้แสดงเป็นป้าย
-        permissions_as_keys: ผู้ใช้ที่มีบทบาทนี้จะสามารถเข้าถึง...
-        position: บทบาทที่สูงขึ้นตัดสินใจการแก้ปัญหาข้อขัดแย้งในบางสถานการณ์ การกระทำบางอย่างสามารถทำได้เฉพาะกับบทบาทที่มีระดับความสำคัญต่ำกว่าเท่านั้น
+        color: Color to be used for the role throughout the UI, as RGB in hex format
+        highlighted: This makes the role publicly visible
+        name: Public name of the role, if role is set to be displayed as a badge
+        permissions_as_keys: Users with this role will have access to...
+        position: Higher role decides conflict resolution in certain situations. Certain actions can only be performed on roles with a lower priority
       webhook:
-        events: เลือกเหตุการณ์ที่จะส่ง
-        url: ที่ซึ่งจะส่งเหตุการณ์ไปยัง
+        events: Select events to send
+        url: Where events will be sent to
     labels:
       account:
         fields:
-          name: ป้ายชื่อ
-          value: เนื้อหา
+          name: Label
+          value: Content
       account_alias:
-        acct: นามของบัญชีเก่า
+        acct: Handle of the old account
       account_migration:
-        acct: นามของบัญชีใหม่
+        acct: Handle of the new account
       account_warning_preset:
-        text: ข้อความที่ตั้งไว้ล่วงหน้า
-        title: ชื่อเรื่อง
+        text: Preset text
+        title: Title
       admin_account_action:
-        include_statuses: รวมโพสต์ที่รายงานไว้ในอีเมล
-        send_email_notification: แจ้งเตือนผู้ใช้ทางอีเมล
-        text: คำเตือนที่กำหนดเอง
-        type: การกระทำ
+        include_statuses: Include reported posts in the e-mail
+        send_email_notification: Notify the user per e-mail
+        text: Custom warning
+        type: Action
         types:
-          disable: อายัด
-          none: ส่งคำเตือน
-          sensitive: ละเอียดอ่อน
-          silence: จำกัด
-          suspend: ระงับ
-        warning_preset_id: ใช้คำเตือนที่ตั้งไว้ล่วงหน้า
+          disable: Freeze
+          none: Send a warning
+          sensitive: Sensitive
+          silence: Limit
+          suspend: Suspend
+        warning_preset_id: Use a warning preset
       announcement:
-        all_day: เหตุการณ์ตลอดทั้งวัน
-        ends_at: การสิ้นสุดเหตุการณ์
-        scheduled_at: จัดกำหนดการสำหรับการเผยแพร่
-        starts_at: การเริ่มต้นเหตุการณ์
-        text: ประกาศ
+        all_day: All-day event
+        ends_at: End of event
+        scheduled_at: Schedule publication
+        starts_at: Start of event
+        text: Announcement
       appeal:
-        text: อธิบายเหตุผลที่ควรกลับการตัดสินใจนี้
+        text: Explain why this decision should be reversed
       defaults:
-        autofollow: เชิญให้ติดตามบัญชีของคุณ
-        avatar: ภาพประจำตัว
-        bot: นี่คือบัญชีบอต
-        chosen_languages: กรองภาษา
-        confirm_new_password: ยืนยันรหัสผ่านใหม่
-        confirm_password: ยืนยันรหัสผ่าน
-        context: บริบทตัวกรอง
-        current_password: รหัสผ่านปัจจุบัน
-        data: ข้อมูล
-        discoverable: แนะนำบัญชีให้ผู้อื่น
-        display_name: ชื่อที่แสดง
-        email: ที่อยู่อีเมล
-        expires_in: หมดอายุหลังจาก
-        fields: ข้อมูลอภิพันธุ์โปรไฟล์
-        header: ส่วนหัว
-        honeypot: "%{label} (ไม่ต้องกรอก)"
-        inbox_url: URL ของกล่องขาเข้าของรีเลย์
-        irreversible: ลบแทนที่จะซ่อน
-        locale: ภาษาส่วนติดต่อ
-        locked: ต้องมีคำขอติดตาม
-        max_uses: จำนวนการใช้งานสูงสุด
-        new_password: รหัสผ่านใหม่
-        note: ชีวประวัติ
-        otp_attempt: รหัสสองปัจจัย
-        password: รหัสผ่าน
-        phrase: คำสำคัญหรือวลี
-        setting_advanced_layout: เปิดใช้งานส่วนติดต่อเว็บขั้นสูง
-        setting_aggregate_reblogs: จัดกลุ่มการดันในเส้นเวลา
-        setting_always_send_emails: ส่งการแจ้งเตือนอีเมลเสมอ
-        setting_auto_play_gif: เล่น GIF แบบเคลื่อนไหวโดยอัตโนมัติ
-        setting_boost_modal: แสดงกล่องโต้ตอบการยืนยันก่อนดัน
-        setting_crop_images: ครอบตัดภาพในโพสต์ที่ไม่ได้ขยายเป็น 16x9
-        setting_default_language: ภาษาของการโพสต์
-        setting_default_privacy: ความเป็นส่วนตัวของการโพสต์
-        setting_default_sensitive: ทำเครื่องหมายสื่อว่าละเอียดอ่อนเสมอ
-        setting_delete_modal: แสดงกล่องโต้ตอบการยืนยันก่อนลบโพสต์
-        setting_disable_swiping: ปิดใช้งานการเคลื่อนไหวในการปัด
-        setting_display_media: การแสดงสื่อ
-        setting_display_media_default: ค่าเริ่มต้น
-        setting_display_media_hide_all: ซ่อนทั้งหมด
-        setting_display_media_show_all: แสดงทั้งหมด
-        setting_expand_spoilers: ขยายโพสต์ที่มีการทำเครื่องหมายด้วยคำเตือนเนื้อหาเสมอ
-        setting_hide_network: ซ่อนกราฟทางสังคมของคุณ
-        setting_noindex: เลือกไม่รับการทำดัชนีโดยเครื่องมือค้นหา
-        setting_reduce_motion: ลดการเคลื่อนไหวในภาพเคลื่อนไหว
-        setting_show_application: เปิดเผยแอปพลิเคชันที่ใช้ในการส่งโพสต์
-        setting_system_font_ui: ใช้แบบอักษรเริ่มต้นของระบบ
-        setting_theme: ชุดรูปแบบไซต์
-        setting_trends: แสดงแนวโน้มของวันนี้
-        setting_unfollow_modal: แสดงกล่องโต้ตอบการยืนยันก่อนเลิกติดตามใครสักคน
-        setting_use_blurhash: แสดงการไล่ระดับสีที่มีสีสันสำหรับสื่อที่ซ่อนอยู่
-        setting_use_pending_items: โหมดช้า
-        severity: ความรุนแรง
-        sign_in_token_attempt: รหัสความปลอดภัย
-        title: ชื่อเรื่อง
-        type: ชนิดการนำเข้า
-        username: ชื่อผู้ใช้
-        username_or_email: ชื่อผู้ใช้หรืออีเมล
-        whole_word: ทั้งคำ
+        autofollow: Invite to follow your account
+        avatar: Avatar
+        bot: This is a bot account
+        chosen_languages: Filter languages
+        confirm_new_password: Confirm new password
+        confirm_password: Confirm password
+        context: Filter contexts
+        current_password: Current password
+        data: Data
+        discoverable: Suggest account to others
+        display_name: Display name
+        email: E-mail address
+        expires_in: Expire after
+        fields: Profile metadata
+        header: Header
+        honeypot: "%{label} (do not fill in)"
+        inbox_url: URL of the relay inbox
+        irreversible: Drop instead of hide
+        locale: Interface language
+        locked: Require follow requests
+        max_uses: Max number of uses
+        new_password: New password
+        note: Bio
+        otp_attempt: Two-factor code
+        password: Password
+        phrase: Keyword or phrase
+        setting_advanced_layout: Enable advanced web interface
+        setting_aggregate_reblogs: Group boosts in timelines
+        setting_always_send_emails: Always send e-mail notifications
+        setting_auto_play_gif: Auto-play animated GIFs
+        setting_boost_modal: Show confirmation dialog before boosting
+        setting_crop_images: Crop images in non-expanded posts to 16x9
+        setting_default_language: Posting language
+        setting_default_privacy: Posting privacy
+        setting_default_sensitive: Always mark media as sensitive
+        setting_delete_modal: Show confirmation dialog before deleting a post
+        setting_disable_swiping: Disable swiping motions
+        setting_display_media: Media display
+        setting_display_media_default: Default
+        setting_display_media_hide_all: Hide all
+        setting_display_media_show_all: Show all
+        setting_expand_spoilers: Always expand posts marked with content warnings
+        setting_hide_network: Hide your social graph
+        setting_noindex: Opt-out of search engine indexing
+        setting_reduce_motion: Reduce motion in animations
+        setting_show_application: Disclose application used to send posts
+        setting_system_font_ui: Use system's default font
+        setting_theme: Site theme
+        setting_trends: Show today's trends
+        setting_unfollow_modal: Show confirmation dialog before unfollowing someone
+        setting_use_blurhash: Show colorful gradients for hidden media
+        setting_use_pending_items: Slow mode
+        severity: Severity
+        sign_in_token_attempt: Security code
+        title: Title
+        type: Import type
+        username: Username
+        username_or_email: Username or Email
+        whole_word: Whole word
       email_domain_block:
-        with_dns_records: รวมระเบียน MX และ IP ของโดเมน
+        with_dns_records: Include MX records and IPs of the domain
       featured_tag:
-        name: แฮชแท็ก
+        name: Hashtag
       filters:
         actions:
-          hide: ซ่อนอย่างสมบูรณ์
-          warn: ซ่อนด้วยคำเตือน
+          hide: Hide completely
+          warn: Hide with a warning
       form_admin_settings:
-        activity_api_enabled: เผยแพร่สถิติรวมเกี่ยวกับกิจกรรมผู้ใช้ใน API
-        backups_retention_period: ระยะเวลาการเก็บรักษาการเก็บถาวรผู้ใช้
-        bootstrap_timeline_accounts: แนะนำบัญชีเหล่านี้ให้กับผู้ใช้ใหม่เสมอ
-        closed_registrations_message: ข้อความที่กำหนดเองเมื่อการลงทะเบียนไม่พร้อมใช้งาน
-        content_cache_retention_period: ระยะเวลาการเก็บรักษาแคชเนื้อหา
-        custom_css: CSS ที่กำหนดเอง
-        mascot: มาสคอตที่กำหนดเอง (ดั้งเดิม)
-        media_cache_retention_period: ระยะเวลาการเก็บรักษาแคชสื่อ
-        peers_api_enabled: เผยแพร่รายการเซิร์ฟเวอร์ที่ค้นพบใน API
-        profile_directory: เปิดใช้งานไดเรกทอรีโปรไฟล์
-        registrations_mode: ผู้ที่สามารถลงทะเบียน
-        require_invite_text: ต้องมีเหตุผลที่จะเข้าร่วม
-        show_domain_blocks: แสดงการปิดกั้นโดเมน
-        show_domain_blocks_rationale: แสดงเหตุผลที่โดเมนได้รับการปิดกั้น
-        site_contact_email: อีเมลสำหรับติดต่อ
-        site_contact_username: ชื่อผู้ใช้สำหรับติดต่อ
-        site_extended_description: คำอธิบายแบบขยาย
-        site_short_description: คำอธิบายเซิร์ฟเวอร์
-        site_terms: นโยบายความเป็นส่วนตัว
-        site_title: ชื่อเซิร์ฟเวอร์
-        status_page_url: URL ของหน้าสถานะ
-        theme: ชุดรูปแบบเริ่มต้น
-        thumbnail: ภาพขนาดย่อเซิร์ฟเวอร์
-        timeline_preview: อนุญาตการเข้าถึงเส้นเวลาสาธารณะที่ไม่ได้รับรองความถูกต้อง
-        trendable_by_default: อนุญาตแนวโน้มโดยไม่มีการตรวจทานล่วงหน้า
-        trends: เปิดใช้งานแนวโน้ม
-        trends_as_landing_page: ใช้แนวโน้มเป็นหน้าเริ่มต้น
+        activity_api_enabled: Publish aggregate statistics about user activity in the API
+        backups_retention_period: User archive retention period
+        bootstrap_timeline_accounts: Always recommend these accounts to new users
+        closed_registrations_message: Custom message when sign-ups are not available
+        content_cache_retention_period: Content cache retention period
+        custom_css: Custom CSS
+        mascot: Custom mascot (legacy)
+        media_cache_retention_period: Media cache retention period
+        peers_api_enabled: Publish list of discovered servers in the API
+        profile_directory: Enable profile directory
+        registrations_mode: Who can sign-up
+        require_invite_text: Require a reason to join
+        show_domain_blocks: Show domain blocks
+        show_domain_blocks_rationale: Show why domains were blocked
+        site_contact_email: Contact e-mail
+        site_contact_username: Contact username
+        site_extended_description: Extended description
+        site_short_description: Server description
+        site_terms: Privacy Policy
+        site_title: Server name
+        status_page_url: Status page URL
+        theme: Default theme
+        thumbnail: Server thumbnail
+        timeline_preview: Allow unauthenticated access to public timelines
+        trendable_by_default: Allow trends without prior review
+        trends: Enable trends
+        trends_as_landing_page: Use trends as the landing page
       interactions:
-        must_be_follower: ปิดกั้นการแจ้งเตือนจากผู้ที่ไม่ใช่ผู้ติดตาม
-        must_be_following: ปิดกั้นการแจ้งเตือนจากผู้คนที่คุณไม่ได้ติดตาม
-        must_be_following_dm: ปิดกั้นข้อความโดยตรงจากผู้คนที่คุณไม่ได้ติดตาม
+        must_be_follower: Block notifications from non-followers
+        must_be_following: Block notifications from people you don't follow
+        must_be_following_dm: Block direct messages from people you don't follow
       invite:
-        comment: ความคิดเห็น
+        comment: Comment
       invite_request:
-        text: ทำไมคุณจึงต้องการเข้าร่วม?
+        text: Why do you want to join?
       ip_block:
-        comment: ความคิดเห็น
+        comment: Comment
         ip: IP
         severities:
-          no_access: ปิดกั้นการเข้าถึง
-          sign_up_block: ปิดกั้นการลงทะเบียน
-          sign_up_requires_approval: จำกัดการลงทะเบียน
-        severity: กฎ
+          no_access: Block access
+          sign_up_block: Block sign-ups
+          sign_up_requires_approval: Limit sign-ups
+        severity: Rule
       notification_emails:
-        appeal: ใครสักคนอุทธรณ์การตัดสินใจของผู้ควบคุม
-        digest: ส่งอีเมลสรุป
-        favourite: ใครสักคนได้ชื่นชอบโพสต์ของคุณ
-        follow: ใครสักคนได้ติดตามคุณ
-        follow_request: ใครสักคนได้ขอติดตามคุณ
-        mention: ใครสักคนได้กล่าวถึงคุณ
-        pending_account: บัญชีใหม่จำเป็นต้องมีการตรวจทาน
-        reblog: ใครสักคนได้ดันโพสต์ของคุณ
-        report: มีการส่งรายงานใหม่
-        trending_tag: แนวโน้มใหม่ต้องการการตรวจทาน
+        appeal: Someone appeals a moderator decision
+        digest: Send digest e-mails
+        favourite: Someone favourited your post
+        follow: Someone followed you
+        follow_request: Someone requested to follow you
+        mention: Someone mentioned you
+        pending_account: New account needs review
+        reblog: Someone boosted your post
+        report: New report is submitted
+        trending_tag: New trend requires review
       rule:
-        text: กฎ
+        text: Rule
       tag:
-        listable: อนุญาตให้แฮชแท็กนี้ปรากฏในการค้นหาและข้อเสนอแนะ
-        name: แฮชแท็ก
-        trendable: อนุญาตให้แฮชแท็กนี้ปรากฏภายใต้แนวโน้ม
-        usable: อนุญาตให้โพสต์ใช้แฮชแท็กนี้
+        listable: Allow this hashtag to appear in searches and suggestions
+        name: Hashtag
+        trendable: Allow this hashtag to appear under trends
+        usable: Allow posts to use this hashtag
       user:
-        role: บทบาท
+        role: Role
       user_role:
-        color: สีป้าย
-        highlighted: แสดงบทบาทเป็นป้ายในโปรไฟล์ผู้ใช้
-        name: ชื่อ
-        permissions_as_keys: สิทธิอนุญาต
-        position: ระดับความสำคัญ
+        color: Badge color
+        highlighted: Display role as badge on user profiles
+        name: Name
+        permissions_as_keys: Permissions
+        position: Priority
       webhook:
-        events: เหตุการณ์ที่เปิดใช้งาน
-        url: URL ปลายทาง
-    'no': ไม่
-    not_recommended: ไม่แนะนำ
-    recommended: แนะนำ
+        events: Enabled events
+        url: Endpoint URL
+    'no': 'No'
+    not_recommended: Not recommended
+    recommended: Recommended
     required:
       mark: "*"
-      text: จำเป็น
+      text: required
     title:
       sessions:
-        webauthn: ใช้หนึ่งในกุญแจความปลอดภัยของคุณเพื่อลงชื่อเข้า
-    'yes': ใช่
+        webauthn: Use one of your security keys to sign in
+    'yes': 'Yes'
