@@ -1,5 +1,5 @@
 ---
-it:
+it-CH:
   devise:
     confirmations:
       confirmed: Il tuo indirizzo email è stato confermato con successo.

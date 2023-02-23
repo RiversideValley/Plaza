@@ -1,5 +1,5 @@
 ---
-ar:
+ar-EG:
   activerecord:
     attributes:
       doorkeeper/application:
