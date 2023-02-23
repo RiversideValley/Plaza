@@ -3,182 +3,193 @@ sk:
   activerecord:
     attributes:
       doorkeeper/application:
-        name: Názov aplikácie
-        redirect_uri: Presmerovacia URI
-        scopes: Pôsobnosť
-        website: Webstránka aplikácie
+        name: Application name
+        redirect_uri: Redirect URI
+        scopes: Scopes
+        website: Application website
     errors:
       models:
         doorkeeper/application:
           attributes:
             redirect_uri:
-              fragment_present: nesmie obsahovať fragment.
-              invalid_uri: musí byť platná URI.
-              relative_uri: musí byť absolútna URI.
-              secured_uri: musí byť HTTPS/SSL URI.
+              fragment_present: cannot contain a fragment.
+              invalid_uri: must be a valid URI.
+              relative_uri: must be an absolute URI.
+              secured_uri: must be an HTTPS/SSL URI.
   doorkeeper:
     applications:
       buttons:
-        authorize: Autorizuj
-        cancel: Zruš
-        destroy: Zničiť
-        edit: Uprav
-        submit: Pošli
+        authorize: Authorize
+        cancel: Cancel
+        destroy: Destroy
+        edit: Edit
+        submit: Submit
       confirmations:
-        destroy: Si si istý/á?
+        destroy: Are you sure?
       edit:
-        title: Uprav aplikáciu
+        title: Edit application
       form:
-        error: No teda! Skontroluj formulár pre prípadné chyby
+        error: Whoops! Check your form for possible errors
       help:
-        native_redirect_uri: Použi %{native_redirect_uri} pre lokálne testy
-        redirect_uri: Použi jeden riadok pre každú URI
-        scopes: Oprávnenia oddeľuj medzerami. Nechaj prázdne pre štandardné oprávnenia.
+        native_redirect_uri: Use %{native_redirect_uri} for local tests
+        redirect_uri: Use one line per URI
+        scopes: Separate scopes with spaces. Leave blank to use the default scopes.
       index:
-        application: Aplikácia
-        callback_url: Návratová URL
-        delete: Vymaž
-        empty: Nemáte žiadne aplikácie.
-        name: Názov
-        new: Nová aplikácia
-        scopes: Oprávnenia
-        show: Ukáž
-        title: Tvoje aplikácie
+        application: Application
+        callback_url: Callback URL
+        delete: Delete
+        empty: You have no applications.
+        name: Name
+        new: New application
+        scopes: Scopes
+        show: Show
+        title: Your applications
       new:
-        title: Nová aplikácia
+        title: New application
       show:
-        actions: Úkony
-        application_id: Kľúč klienta
-        callback_urls: Návratové URL adresy
-        scopes: Oprávnenia
-        secret: Tajné slovo klienta
-        title: 'Aplikácia: %{name}'
+        actions: Actions
+        application_id: Client key
+        callback_urls: Callback URLs
+        scopes: Scopes
+        secret: Client secret
+        title: 'Application: %{name}'
     authorizations:
       buttons:
-        authorize: Over
-        deny: Zamietni
+        authorize: Authorize
+        deny: Deny
       error:
-        title: Nastala chyba
+        title: An error has occurred
       new:
-        prompt_html: "%{client_name} žiada o povolenie na prístup k vášmu účtu. Ide o aplikáciu tretej strany. <strong>Ak jej nedôverujete, nemali by ste ju autorizovať.</strong>"
-        review_permissions: Preskúmať povolenia
-        title: Je potrebná autorizácia
+        prompt_html: "%{client_name} would like permission to access your account. It is a third-party application. <strong>If you do not trust it, then you should not authorize it.</strong>"
+        review_permissions: Review permissions
+        title: Authorization required
       show:
-        title: Skopíruj tento autorizačný kód a vlož ho do aplikácie.
+        title: Copy this authorization code and paste it to the application.
     authorized_applications:
       buttons:
-        revoke: Zrušiť oprávnenie
+        revoke: Revoke
       confirmations:
-        revoke: Si si istý?
+        revoke: Are you sure?
       index:
-        authorized_at: Autorizované dňa %{date}
-        description_html: Ide o aplikácie, ktoré môžu pristupovať k vášmu účtu pomocou rozhrania API. Ak sa tu nachádzajú aplikácie, ktoré nepoznáte, alebo ak sa niektorá aplikácia správa nesprávne, môžete jej zrušiť prístup.
-        last_used_at: Posledne použitý dňa %{date}
-        never_used: Nikdy nepoužité
-        scopes: Oprávnenia
-        superapp: Interný
-        title: Tvoje povolené aplikácie
+        authorized_at: Authorized on %{date}
+        description_html: These are applications that can access your account using the API. If there are applications you do not recognize here, or an application is misbehaving, you can revoke its access.
+        last_used_at: Last used on %{date}
+        never_used: Never used
+        scopes: Permissions
+        superapp: Internal
+        title: Your authorized applications
     errors:
       messages:
-        access_denied: Prístup zamietnutý.
-        credential_flow_not_configured: Resource Owner Password Credentials zlyhal lebo Doorkeeper.configure.resource_owner_from_credentials nebol nakonfigurovaný.
-        invalid_client: Overenie klienta zlyhalo. Neznámy klient, chýbajú údaje o klientovi alebo nepodporovaná metóda overovania.
-        invalid_grant: Dané oprávnenie je neplatné, vypršané, zrušené, nesúhlasí s presmerovacou URI použitou v autorizačnej požiadavke, alebo bolo vydané pre iný klient.
-        invalid_redirect_uri: Presmerovacia URI je neplatná.
+        access_denied: The resource owner or authorization server denied the request.
+        credential_flow_not_configured: Resource Owner Password Credentials flow failed due to Doorkeeper.configure.resource_owner_from_credentials being unconfigured.
+        invalid_client: Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.
+        invalid_grant: The provided authorization grant is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client.
+        invalid_redirect_uri: The redirect uri included is not valid.
         invalid_request:
-          missing_param: 'Chýba požadovaný parameter: %{value}.'
-          request_not_authorized: Žiadosť je potrebné autorizovať. Chýba požadovaný parameter pre autorizáciu žiadosti alebo je neplatný.
-          unknown: V požiadavke chýba požadovaný parameter, obsahuje nepodporovanú hodnotu parametra alebo je inak chybne vytvorená.
-        invalid_resource_owner: Uvedené prihlasovacie údaje sú neplatné alebo nenájdené
-        invalid_scope: Požadovaný rozsah je neplatný, neznámy alebo poškodený.
+          missing_param: 'Missing required parameter: %{value}.'
+          request_not_authorized: Request need to be authorized. Required parameter for authorizing request is missing or invalid.
+          unknown: The request is missing a required parameter, includes an unsupported parameter value, or is otherwise malformed.
+        invalid_resource_owner: The provided resource owner credentials are not valid, or resource owner cannot be found
+        invalid_scope: The requested scope is invalid, unknown, or malformed.
         invalid_token:
-          expired: Prístupový token expiroval
-          revoked: Prístupový token bol odňatý
-          unknown: Prístupový token je neplatný
-        resource_owner_authenticator_not_configured: Resource Owner zlyhal pretože Doorkeeper.configure.resource_owner_authenticator nebol nakonfigurovaný.
-        server_error: Nastala neočakávaná chyba na autorizačnom serveri ktorá zabránila vykonať požiadavku.
-        temporarily_unavailable: Autorizačný server ťa teraz nemôže obslúžiť, pretože prebieha údržba alebo je dočasne preťažený.
-        unauthorized_client: Klient nie je autorizovaný vykonať danú požiadavku týmto spôsobom.
-        unsupported_grant_type: Tento typ oprávnenia nie je podporovaný autorizačným serverom.
-        unsupported_response_type: Overovací server nepodporuje tento druh odpovede.
+          expired: The access token expired
+          revoked: The access token was revoked
+          unknown: The access token is invalid
+        resource_owner_authenticator_not_configured: Resource Owner find failed due to Doorkeeper.configure.resource_owner_authenticator being unconfiged.
+        server_error: The authorization server encountered an unexpected condition which prevented it from fulfilling the request.
+        temporarily_unavailable: The authorization server is currently unable to handle the request due to a temporary overloading or maintenance of the server.
+        unauthorized_client: The client is not authorized to perform this request using this method.
+        unsupported_grant_type: The authorization grant type is not supported by the authorization server.
+        unsupported_response_type: The authorization server does not support this response type.
     flash:
       applications:
         create:
-          notice: Aplikácia vytvorená.
+          notice: Application created.
         destroy:
-          notice: Aplikácia zmazaná.
+          notice: Application deleted.
         update:
-          notice: Aplikácia aktualizovaná.
+          notice: Application updated.
       authorized_applications:
         destroy:
-          notice: Oprávnenia aplikácie zrušené.
+          notice: Application revoked.
     grouped_scopes:
       access:
-        read: Prístup len na čítanie
-        read/write: Prístup na čítanie a zápis
-        write: Prístup len na zápis
+        read: Read-only access
+        read/write: Read and write access
+        write: Write-only access
       title:
-        accounts: Účty
-        admin/accounts: Správa účtov
-        admin/all: Všetky administratívne funkcie
-        admin/reports: Správa reportov
-        all: Plný prístup k tvojmu Mastodon účtu
-        blocks: Blokovania
-        bookmarks: Záložky
-        conversations: Konverzácie
-        crypto: Šifrovanie End-to-end
-        favourites: Obľúbené
-        filters: Filtre
-        follows: Sledovania
-        lists: Zoznamy
-        media: Mediálne prílohy
-        mutes: Nevšímané
-        notifications: Oznámenia
-        push: Push notifikácie
-        reports: Reporty
-        search: Hľadať
-        statuses: Príspevky
+        accounts: Accounts
+        admin/accounts: Administration of accounts
+        admin/all: All administrative functions
+        admin/reports: Administration of reports
+        all: Full access to your Mastodon account
+        blocks: Blocks
+        bookmarks: Bookmarks
+        conversations: Conversations
+        crypto: End-to-end encryption
+        favourites: Favourites
+        filters: Filters
+        follow: Follows, Mutes and Blocks
+        follows: Follows
+        lists: Lists
+        media: Media attachments
+        mutes: Mutes
+        notifications: Notifications
+        push: Push notifications
+        reports: Reports
+        search: Search
+        statuses: Posts
     layouts:
       admin:
         nav:
-          applications: Aplikácie
-          oauth2_provider: Poskytovateľ OAuth2
+          applications: Applications
+          oauth2_provider: OAuth2 Provider
       application:
-        title: Požadovaná OAuth autorizácia
+        title: OAuth authorization required
     scopes:
-      admin:read: prezeraj všetky dáta na serveri
-      admin:read:accounts: prezeraj chúlostivé informácie na všetkých účtoch
-      admin:read:reports: čítaj chulostivé informácie o všetkých hláseniach a nahlásených účtoch
-      admin:write: uprav všetky dáta na serveri
-      admin:write:accounts: urob moderovacie úkony na účtoch
-      admin:write:reports: urob moderovacie úkony voči hláseniam
-      crypto: používať end-to-end šifrovanie
-      follow: uprav vzťahy svojho účtu
-      push: dostávaj oboznámenia ohľadom tvojho účtu na obrazovku
-      read: prezri si všetky dáta ohľadom svojho účetu
-      read:accounts: prezri si informácie o účte
-      read:blocks: prezri svoje bloky
-      read:bookmarks: pozri svoje záložky
-      read:favourites: prezri svoje obľúbené
-      read:filters: prezri svoje filtrovanie
-      read:follows: prezri si svoje sledovania
-      read:lists: prezri si svoje zoznamy
-      read:mutes: prezri svoje utíšenia
-      read:notifications: zhliadni svoje oboznámenia
-      read:reports: prezri svoje reporty
-      read:search: vyhľadvávaj v rámci seba
-      read:statuses: zhliadni všetky príspevky
-      write: upraviť všetky dáta tvojho účtu
-      write:accounts: uprav svoj profil
-      write:blocks: blokuj účty a domény
-      write:bookmarks: pridaj si príspevky k záložkám
-      write:conversations: stíš a vymaž konverzácie
-      write:favourites: obľúbené príspevky
-      write:filters: vytvor roztriedenie
-      write:follows: následuj ľudí
-      write:lists: vytvor listy
-      write:media: nahraj mediálne súbory
-      write:mutes: stíš diskusie, aj zapojených užívateľov
-      write:notifications: vyčisti oboznámenia
-      write:reports: nahlás iných užívateľov
-      write:statuses: publikuj príspevky
+      "admin:read": read all data on the server
+      "admin:read:accounts": read sensitive information of all accounts
+      "admin:read:canonical_email_blocks": read sensitive information of all canonical email blocks
+      "admin:read:domain_allows": read sensitive information of all domain allows
+      "admin:read:domain_blocks": read sensitive information of all domain blocks
+      "admin:read:email_domain_blocks": read sensitive information of all email domain blocks
+      "admin:read:ip_blocks": read sensitive information of all IP blocks
+      "admin:read:reports": read sensitive information of all reports and reported accounts
+      "admin:write": modify all data on the server
+      "admin:write:accounts": perform moderation actions on accounts
+      "admin:write:canonical_email_blocks": perform moderation actions on canonical email blocks
+      "admin:write:domain_allows": perform moderation actions on domain allows
+      "admin:write:domain_blocks": perform moderation actions on domain blocks
+      "admin:write:email_domain_blocks": perform moderation actions on email domain blocks
+      "admin:write:ip_blocks": perform moderation actions on IP blocks
+      "admin:write:reports": perform moderation actions on reports
+      crypto: use end-to-end encryption
+      follow: modify account relationships
+      push: receive your push notifications
+      read: read all your account's data
+      "read:accounts": see accounts information
+      "read:blocks": see your blocks
+      "read:bookmarks": see your bookmarks
+      "read:favourites": see your favourites
+      "read:filters": see your filters
+      "read:follows": see your follows
+      "read:lists": see your lists
+      "read:mutes": see your mutes
+      "read:notifications": see your notifications
+      "read:reports": see your reports
+      "read:search": search on your behalf
+      "read:statuses": see all posts
+      write: modify all your account's data
+      "write:accounts": modify your profile
+      "write:blocks": block accounts and domains
+      "write:bookmarks": bookmark posts
+      "write:conversations": mute and delete conversations
+      "write:favourites": favourite posts
+      "write:filters": create filters
+      "write:follows": follow people
+      "write:lists": create lists
+      "write:media": upload media files
+      "write:mutes": mute people and conversations
+      "write:notifications": clear your notifications
+      "write:reports": report other people
+      "write:statuses": publish posts
