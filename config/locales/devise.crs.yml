@@ -1,5 +1,5 @@
 ---
-crs:
+crs-SC:
   devise:
     confirmations:
       confirmed: Your email address has been successfully confirmed.
