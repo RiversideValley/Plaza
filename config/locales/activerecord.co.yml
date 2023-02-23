@@ -3,24 +3,24 @@ co-FR:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: Fine
+        options: Scelte
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: Accordu di serviziu
+        email: Indirizzu e-mail
+        locale: Lingua
+        password: Chjave d’accessu
       user/account:
-        username: Username
+        username: Cugnome
       user/invite_request:
-        text: Reason
+        text: Ragione
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: solu lettere, numeri è liniette basse
+              reserved: hè riservatu
         admin/webhook:
           attributes:
             url:
@@ -36,12 +36,12 @@ co-FR:
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: di u statutu esista digià
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: usa un purghjidore d'e-mail pruibitu
+              unreachable: ùn sembra micca esiste
             role_id:
               elevated: cannot be higher than your current role
         user_role:
