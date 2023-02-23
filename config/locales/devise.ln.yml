@@ -1,5 +1,5 @@
 ---
-ln:
+ln-CD:
   devise:
     confirmations:
       confirmed: Your email address has been successfully confirmed.
