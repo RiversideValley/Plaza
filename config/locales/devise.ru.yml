@@ -1,5 +1,5 @@
 ---
-ru-BY:
+ru-RU:
   devise:
     confirmations:
       confirmed: Ваш адрес e-mail был успешно подтвержден.
