@@ -3,53 +3,53 @@ sk-SK:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: Trvá do
+        options: Voľby
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: Dohoda o poskytovaní služieb
+        email: Emailová adresa
+        locale: Jazyk
+        password: Heslo
       user/account:
-        username: Username
+        username: Meno používateľa
       user/invite_request:
-        text: Reason
+        text: Dôvod
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: iba písmená, číslice a podčiarkovníky
+              reserved: je obsadené
         admin/webhook:
           attributes:
             url:
-              invalid: is not a valid URL
+              invalid: nie je platnou URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: is not a valid URL
+              invalid: nie je platnou URL
         import:
           attributes:
             data:
-              malformed: is malformed
+              malformed: je deformovaný
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: príspevku už existuje
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: používa nepovoleného poskytovateľa e-mailu
+              unreachable: zdá sa, že neexistuje
             role_id:
-              elevated: cannot be higher than your current role
+              elevated: nemôže byť vyššia ako vaša súčasná rola
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: include permissions that are not safe for the base role
-              elevated: cannot include permissions your current role does not possess
-              own_role: cannot be changed with your current role
+              dangerous: zahrnúť povolenia, ktoré nie sú bezpečné pre základnú rolu
+              elevated: nemôže obsahovať povolenia, ktoré vaša aktuálna rola nemá
+              own_role: nie je možné zmeniť s vašou aktuálnou rolou
             position:
-              elevated: cannot be higher than your current role
-              own_role: cannot be changed with your current role
+              elevated: nemôže byť vyššia ako vaša súčasná rola
+              own_role: nie je možné zmeniť s vašou aktuálnou rolou
