@@ -3,53 +3,53 @@ et-EE:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: Tähtaeg
+        options: Valikud
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: Teenusetingimused
+        email: E-posti aadress
+        locale: Keel
+        password: Salasõna
       user/account:
-        username: Username
+        username: Kasutajanimi
       user/invite_request:
-        text: Reason
+        text: Põhjus
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: ainult tähtmärgid, numbrid ja alakriipsud
+              reserved: on reserveeritud
         admin/webhook:
           attributes:
             url:
-              invalid: is not a valid URL
+              invalid: pole sobiv URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: is not a valid URL
+              invalid: pole sobiv URL
         import:
           attributes:
             data:
-              malformed: is malformed
+              malformed: on vigasel kujul
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: postitusel on juba
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: kasutab mitte lubatud e-posti teenusepakkujat
+              unreachable: ei paista eksisteerivat
             role_id:
-              elevated: cannot be higher than your current role
+              elevated: ei saa olla kõrgem kui enda roll
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: include permissions that are not safe for the base role
-              elevated: cannot include permissions your current role does not possess
-              own_role: cannot be changed with your current role
+              dangerous: hõlmata õiguseid, mis ei ole turvalised baasrollile
+              elevated: ei saa hõlmata õiguseid, mida sinu praegune roll ei sisalda
+              own_role: ei saa muuta sinu praeguse rolliga
             position:
-              elevated: cannot be higher than your current role
-              own_role: cannot be changed with your current role
+              elevated: ei saa olla kõrgem, kui sinu praegune roll
+              own_role: ei saa muuta sinu praeguse rolliga
