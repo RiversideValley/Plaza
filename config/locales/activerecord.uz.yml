@@ -3,53 +3,53 @@ uz:
   activerecord:
     attributes:
       poll:
-        expires_at: Tugatish muddati
-        options: Tanlovlar
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Foydalanish shartnomasi
-        email: E-mail
-        locale: Mahalliy
-        password: Parol
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Foydalanuvchi nomi
+        username: Username
       user/invite_request:
-        text: Sabab
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: faqat harflar, raqamlar va pastki chiziqdan iborat bo'lishi kerak
-              reserved: rezervlangan
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: haqiqiy URL emas
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: haqiqiy URL emas
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: noto'g'ri shakllangan
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: post allaqachon mavjud
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: ruxsat etilmagan elektron pochta provayderidan foydalangan
-              unreachable: mavjud emasga o'xshaydi
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: sizning hozirgi rolingizdan yuqori bo'lishi mumkin emas
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: asosiy rol uchun xavfsiz bo'lmagan ruxsatlarni o'z ichiga oladi
-              elevated: joriy rolingiz ega bo'lmagan ruxsatlarni o'z ichiga olmaydi
-              own_role: sizning hozirgi rolingizdan yuqori bo'lishi mumkin emas
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: sizning hozirgi rolingizdan yuqori bo'lishi mumkin emas
-              own_role: joriy rolingiz bilan o‘zgartirib bo‘lmaydi
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role

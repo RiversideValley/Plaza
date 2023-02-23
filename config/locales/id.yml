@@ -1,1376 +1,1420 @@
 ---
 id:
   about:
-    about_mastodon_html: 'Jaringan sosial masa depan: Tanpa iklan, tanpa pemantauan perusahaan, desain etis, dan terdesentralisasi! Miliki data Anda dengan Mastodon!'
-    contact_missing: Belum ditetapkan
-    contact_unavailable: Tidak Tersedia
-    hosted_on: Mastodon dihosting di %{domain}
-    title: Tentang
+    about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon!'
+    contact_missing: Not set
+    contact_unavailable: N/A
+    hosted_on: Mastodon hosted on %{domain}
+    title: About
   accounts:
-    follow: Ikuti
+    follow: Follow
     followers:
-      other: Pengikut
-    following: Mengikuti
-    instance_actor_flash: Akun ini adalah aktor virtual yang merepresentasikan server itu sendiri dan bukan pengguna individu. Ini dipakai untuk tujuan gabungan dan seharusnya tidak ditangguhkan.
-    last_active: terakhir aktif
-    link_verified_on: Kepemilikan tautan ini telah dicek pada %{date}
-    nothing_here: Tidak ada apapun disini!
+      other: Followers
+    following: Following
+    instance_actor_flash: This account is a virtual actor used to represent the server itself and not any individual user. It is used for federation purposes and should not be suspended.
+    last_active: last active
+    link_verified_on: Ownership of this link was checked on %{date}
+    nothing_here: There is nothing here!
     pin_errors:
-      following: Anda harus mengikuti orang yang ingin anda endorse
+      following: You must be already following the person you want to endorse
     posts:
-      other: Kiriman
-    posts_tab_heading: Kiriman
+      other: Posts
+    posts_tab_heading: Posts
   admin:
     account_actions:
-      action: Lakukan aksi
-      title: Lakukan moderasi pada %{acct}
+      action: Perform action
+      title: Perform moderation action on %{acct}
     account_moderation_notes:
-      create: Beri catatan
-      created_msg: Catatan moderasi berhasil dibuat!
-      destroyed_msg: Catatan moderasi berhasil dihapus!
+      create: Leave note
+      created_msg: Moderation note successfully created!
+      destroyed_msg: Moderation note successfully destroyed!
     accounts:
-      add_email_domain_block: Masukkan domain email ke daftar hitam
-      approve: Terima
-      approved_msg: Berhasil menerima pendaftaran %{username}
-      are_you_sure: Anda yakin?
+      add_email_domain_block: Block e-mail domain
+      approve: Approve
+      approved_msg: Successfully approved %{username}'s sign-up application
+      are_you_sure: Are you sure?
       avatar: Avatar
-      by_domain: Domian
+      by_domain: Domain
       change_email:
-        changed_msg: Email berhasil diubah!
-        current_email: Email saat ini
-        label: Ganti email
-        new_email: Email baru
-        submit: Ganti email
-        title: Ganti email untuk %{username}
+        changed_msg: Email successfully changed!
+        current_email: Current email
+        label: Change email
+        new_email: New email
+        submit: Change email
+        title: Change email for %{username}
       change_role:
-        changed_msg: Peran berhasil diubah!
-        label: Ubah peran
-        no_role: Tidak ada peran
-        title: Ganti peran untuk %{username}
-      confirm: Konfirmasi
-      confirmed: Dikonfirmasi
-      confirming: Mengkonfirmasi
-      custom: Kustom
-      delete: Hapus data
-      deleted: Terhapus
-      demote: Turunkan
-      destroyed_msg: Data %{username} masuk antrean untuk dihapus segera
-      disable: Nonaktifkan
-      disable_sign_in_token_auth: Nonaktifkan otentikasi token email
-      disable_two_factor_authentication: Nonaktifkan 2FA
-      disabled: Dinonaktifkan
-      display_name: Nama
+        changed_msg: Role successfully changed!
+        label: Change role
+        no_role: No role
+        title: Change role for %{username}
+      confirm: Confirm
+      confirmed: Confirmed
+      confirming: Confirming
+      custom: Custom
+      delete: Delete data
+      deleted: Deleted
+      demote: Demote
+      destroyed_msg: "%{username}'s data is now queued to be deleted imminently"
+      disable: Freeze
+      disable_sign_in_token_auth: Disable e-mail token authentication
+      disable_two_factor_authentication: Disable 2FA
+      disabled: Frozen
+      display_name: Display name
       domain: Domain
-      edit: Ubah
+      edit: Edit
       email: Email
-      email_status: Status Email
-      enable: Aktifkan
-      enable_sign_in_token_auth: Aktifkan otentikasi token email
-      enabled: Diaktifkan
-      enabled_msg: Berhasil mencairkan akun %{username}
-      followers: Pengikut
-      follows: Mengikut
-      header: Tajuk
-      inbox_url: URL Kotak masuk
-      invite_request_text: Alasan bergabung
-      invited_by: Diundang oleh
+      email_status: Email status
+      enable: Unfreeze
+      enable_sign_in_token_auth: Enable e-mail token authentication
+      enabled: Enabled
+      enabled_msg: Successfully unfroze %{username}'s account
+      followers: Followers
+      follows: Follows
+      header: Header
+      inbox_url: Inbox URL
+      invite_request_text: Reasons for joining
+      invited_by: Invited by
       ip: IP
-      joined: Bergabung
+      joined: Joined
       location:
-        all: Semua
-        local: Lokal
-        remote: Remot
-        title: Lokasi
-      login_status: Status login
-      media_attachments: Lampiran media
-      memorialize: Ubah menjadi memoriam
-      memorialized: Dikenang
-      memorialized_msg: Berhasil mengubah akun %{username} menjadi akun memorial
+        all: All
+        local: Local
+        remote: Remote
+        title: Location
+      login_status: Login status
+      media_attachments: Media attachments
+      memorialize: Turn into memoriam
+      memorialized: Memorialized
+      memorialized_msg: Successfully turned %{username} into a memorial account
       moderation:
-        active: Aktif
-        all: Semua
-        pending: Tertunda
-        silenced: Terbatas
-        suspended: Disuspen
-        title: Moderasi
-      moderation_notes: Catatan moderasi
-      most_recent_activity: Aktivitas terbaru
-      most_recent_ip: IP terbaru
-      no_account_selected: Tak ada akun yang diubah sebab tak ada yang dipilih
-      no_limits_imposed: Tidak ada batasan
-      no_role_assigned: Tidak ada peran yang diberikan
-      not_subscribed: Tidak berlangganan
-      pending: Tinjauan tertunda
-      perform_full_suspension: Lakukan suspen penuh
-      previous_strikes: Peringatan sebelumnya
+        active: Active
+        all: All
+        disabled: Disabled
+        pending: Pending
+        silenced: Limited
+        suspended: Suspended
+        title: Moderation
+      moderation_notes: Moderation notes
+      most_recent_activity: Most recent activity
+      most_recent_ip: Most recent IP
+      no_account_selected: No accounts were changed as none were selected
+      no_limits_imposed: No limits imposed
+      no_role_assigned: No role assigned
+      not_subscribed: Not subscribed
+      pending: Pending review
+      perform_full_suspension: Suspend
+      previous_strikes: Previous strikes
       previous_strikes_description_html:
-        other: Akun ini mendapatkan <strong>%{count}</strong> hukuman.
-      promote: Promosikan
-      protocol: Protokol
-      public: Publik
-      push_subscription_expires: Langganan PuSH telah kadaluarsa
-      redownload: Muat ulang profil
-      redownloaded_msg: Berhasil menyegarkan profil %{username} dari asal
-      reject: Tolak
-      rejected_msg: Berhasil menolak permintaan pendaftaran %{username}
-      remote_suspension_irreversible: Data akun ini telah dihapus permanen.
-      remote_suspension_reversible_hint_html: Akun ini telah ditangguhkan di server mereka, dan data akan dihapus total pada %{date}. Sebelum itu, server jarak jauh dapat memulihkan akun ini tanpa efek samping. Jika Anda ingin menghapus semua data akun langsung, Anda dapat mengikuti bawah ini.
-      remove_avatar: Hapus avatar
-      remove_header: Hapus header
-      removed_avatar_msg: Berhasil menghapus gambar avatar %{username}
-      removed_header_msg: Berhasil menghapus gambar header %{username}
+        other: This account has <strong>%{count}</strong> strikes.
+      promote: Promote
+      protocol: Protocol
+      public: Public
+      push_subscription_expires: PuSH subscription expires
+      redownload: Refresh profile
+      redownloaded_msg: Successfully refreshed %{username}'s profile from origin
+      reject: Reject
+      rejected_msg: Successfully rejected %{username}'s sign-up application
+      remote_suspension_irreversible: The data of this account has been irreversibly deleted.
+      remote_suspension_reversible_hint_html: The account has been suspended on their server, and the data will be fully removed on %{date}. Until then, the remote server can restore this account without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
+      remove_avatar: Remove avatar
+      remove_header: Remove header
+      removed_avatar_msg: Successfully removed %{username}'s avatar image
+      removed_header_msg: Successfully removed %{username}'s header image
       resend_confirmation:
-        already_confirmed: Pengguna ini sudah dikonfirmasi
-        send: Kirim ulang email konfirmasi
-        success: Email konfirmasi berhasil dikirim!
-      reset: Atur ulang
-      reset_password: Reset kata sandi
-      resubscribe: Langganan ulang
-      role: Peran
-      search: Cari
-      search_same_email_domain: Pengguna lain dengan domain email yang sama
-      search_same_ip: Pengguna lain dengan IP yang sama
+        already_confirmed: This user is already confirmed
+        send: Resend confirmation email
+        success: Confirmation email successfully sent!
+      reset: Reset
+      reset_password: Reset password
+      resubscribe: Resubscribe
+      role: Role
+      search: Search
+      search_same_email_domain: Other users with the same e-mail domain
+      search_same_ip: Other users with the same IP
+      security: Security
       security_measures:
-        only_password: Hanya kata sandi
-        password_and_2fa: Kata sandi dan 2FA
-      sensitive: Sensitif
-      sensitized: ditandai sebagai sensitif
-      shared_inbox_url: URL kotak masuk bersama
+        only_password: Only password
+        password_and_2fa: Password and 2FA
+      sensitive: Force-sensitive
+      sensitized: Marked as sensitive
+      shared_inbox_url: Shared inbox URL
       show:
-        created_reports: Laporan yang dibuat oleh akun ini
-        targeted_reports: Laporan yang dibuat tentang akun ini
-      silence: Diam
-      silenced: Didiamkan
-      statuses: Status
-      strikes: Peringatan sebelumnya
-      subscribe: Langganan
-      suspend: Tangguhkan
-      suspended: Disuspen
-      suspension_irreversible: Data akun ini telah dihapus secara permanen. Anda dapat mengaktifkan akun agar tetap bisa dipakai lagi tapi data sebelumnya tidak dapat dikembalikan.
-      suspension_reversible_hint_html: Akun telah ditangguhkan, dan data akan dihapus total pada %{date}. Sebelum tanggal tersebut, akun dapat dikembalikan tanpa efek apapun. Jika Anda ingin menghapus segera semua data, Anda dapat melakukan sesuai keterangan di bawah.
-      title: Akun
-      unblock_email: Buka blokir alamat email
-      unblocked_email_msg: Berhasil membuka blokir alamat email %{username}
-      unconfirmed_email: Email belum dikonfirmasi
-      undo_sensitized: Batalkan sensitif
-      undo_silenced: Undo mendiamkan
-      undo_suspension: Undo suspen
-      unsilenced_msg: Berhasil membuka batasan akun %{username}
-      unsubscribe: Berhenti langganan
-      unsuspended_msg: Berhasil membuka penangguhan akun %{username}
-      username: Nama pengguna
-      view_domain: Tampilkan ringkasan domain
-      warn: Beri Peringatan
+        created_reports: Made reports
+        targeted_reports: Reported by others
+      silence: Limit
+      silenced: Limited
+      statuses: Posts
+      strikes: Previous strikes
+      subscribe: Subscribe
+      suspend: Suspend
+      suspended: Suspended
+      suspension_irreversible: The data of this account has been irreversibly deleted. You can unsuspend the account to make it usable but it will not recover any data it previously had.
+      suspension_reversible_hint_html: The account has been suspended, and the data will be fully removed on %{date}. Until then, the account can be restored without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
+      title: Accounts
+      unblock_email: Unblock email address
+      unblocked_email_msg: Successfully unblocked %{username}'s email address
+      unconfirmed_email: Unconfirmed email
+      undo_sensitized: Undo force-sensitive
+      undo_silenced: Undo limit
+      undo_suspension: Undo suspension
+      unsilenced_msg: Successfully undid limit of %{username}'s account
+      unsubscribe: Unsubscribe
+      unsuspended_msg: Successfully unsuspended %{username}'s account
+      username: Username
+      view_domain: View summary for domain
+      warn: Warn
       web: Web
-      whitelisted: Masuk daftar putih
+      whitelisted: Allowed for federation
     action_logs:
       action_types:
-        approve_appeal: Setujui Banding
-        approve_user: Setujui Pengguna
-        assigned_to_self_report: Berikan laporan
-        change_email_user: Ubah Email untuk Pengguna
-        change_role_user: Ubah Peran Pengguna
-        confirm_user: Konfirmasi Pengguna
-        create_account_warning: Buat Peringatan
-        create_announcement: Buat Pengumuman
-        create_canonical_email_block: Buat Pemblokiran Surel
-        create_custom_emoji: Buat Emoji Khusus
-        create_domain_allow: Buat Izin Domain
-        create_domain_block: Buat Blokir Domain
-        create_email_domain_block: Buat Email Blokir Domain
-        create_ip_block: Buat aturan IP
-        create_unavailable_domain: Buat Domain yang Tidak Tersedia
-        create_user_role: Buah Peran
-        demote_user: Turunkan Pengguna
-        destroy_announcement: Hapus Pengumuman
-        destroy_canonical_email_block: Hapus Pemblokiran Surel
-        destroy_custom_emoji: Hapus Emoji Khusus
-        destroy_domain_allow: Hapus Izin Domain
-        destroy_domain_block: Hapus Blokir Domain
-        destroy_email_domain_block: Hapus email blokir domain
-        destroy_instance: Hapus Domain
-        destroy_ip_block: Hapus aturan IP
-        destroy_status: Hapus Status
-        destroy_unavailable_domain: Hapus Domain yang Tidak Tersedia
-        destroy_user_role: Hapus Peran
-        disable_2fa_user: Nonaktifkan 2FA
-        disable_custom_emoji: Nonaktifkan Emoji Khusus
-        disable_sign_in_token_auth_user: Nonaktifkan Otentikasi Token Email untuk Pengguna
-        disable_user: Nonaktifkan Pengguna
-        enable_custom_emoji: Aktifkan Emoji Khusus
-        enable_sign_in_token_auth_user: Aktifkan Otentikasi Token Email untuk Pengguna
-        enable_user: Aktifkan Pengguna
-        memorialize_account: Kenang Akun
-        promote_user: Promosikan Pengguna
-        reject_appeal: Tolak Banding
-        reject_user: Tolak Pengguna
-        remove_avatar_user: Hapus Avatar
-        reopen_report: Buka Lagi Laporan
-        resend_user: Kirim Ulang Email Konfirmasi
-        reset_password_user: Atur Ulang Kata sandi
-        resolve_report: Selesaikan Laporan
-        sensitive_account: Tandai media di akun Anda sebagai sensitif
-        silence_account: Bisukan Akun
-        suspend_account: Tangguhkan Akun
-        unassigned_report: Batalkan Pemberian Laporan
-        unblock_email_account: Buka blokir alamat email
-        unsensitive_account: Batalkan tanda media di akun Anda dari sensitif
-        unsilence_account: Lepas Status Bisu Akun
-        unsuspend_account: Lepas Status Tangguh Akun
-        update_announcement: Perbarui Pengumuman
-        update_custom_emoji: Perbarui Emoji Khusus
-        update_domain_block: Perbarui Blokir Domain
-        update_ip_block: Perbarui peraturan IP
-        update_status: Perbarui Status
-        update_user_role: Perbarui Peran
+        approve_appeal: Approve Appeal
+        approve_user: Approve User
+        assigned_to_self_report: Assign Report
+        change_email_user: Change E-mail for User
+        change_role_user: Change Role of User
+        confirm_user: Confirm User
+        create_account_warning: Create Warning
+        create_announcement: Create Announcement
+        create_canonical_email_block: Create E-mail Block
+        create_custom_emoji: Create Custom Emoji
+        create_domain_allow: Create Domain Allow
+        create_domain_block: Create Domain Block
+        create_email_domain_block: Create E-mail Domain Block
+        create_ip_block: Create IP rule
+        create_unavailable_domain: Create Unavailable Domain
+        create_user_role: Create Role
+        demote_user: Demote User
+        destroy_announcement: Delete Announcement
+        destroy_canonical_email_block: Delete E-mail Block
+        destroy_custom_emoji: Delete Custom Emoji
+        destroy_domain_allow: Delete Domain Allow
+        destroy_domain_block: Delete Domain Block
+        destroy_email_domain_block: Delete E-mail Domain Block
+        destroy_instance: Purge Domain
+        destroy_ip_block: Delete IP rule
+        destroy_status: Delete Post
+        destroy_unavailable_domain: Delete Unavailable Domain
+        destroy_user_role: Destroy Role
+        disable_2fa_user: Disable 2FA
+        disable_custom_emoji: Disable Custom Emoji
+        disable_sign_in_token_auth_user: Disable E-mail Token Authentication for User
+        disable_user: Disable User
+        enable_custom_emoji: Enable Custom Emoji
+        enable_sign_in_token_auth_user: Enable E-mail Token Authentication for User
+        enable_user: Enable User
+        memorialize_account: Memorialize Account
+        promote_user: Promote User
+        reject_appeal: Reject Appeal
+        reject_user: Reject User
+        remove_avatar_user: Remove Avatar
+        reopen_report: Reopen Report
+        resend_user: Resend Confirmation Mail
+        reset_password_user: Reset Password
+        resolve_report: Resolve Report
+        sensitive_account: Force-Sensitive Account
+        silence_account: Limit Account
+        suspend_account: Suspend Account
+        unassigned_report: Unassign Report
+        unblock_email_account: Unblock email address
+        unsensitive_account: Undo Force-Sensitive Account
+        unsilence_account: Undo Limit Account
+        unsuspend_account: Unsuspend Account
+        update_announcement: Update Announcement
+        update_custom_emoji: Update Custom Emoji
+        update_domain_block: Update Domain Block
+        update_ip_block: Update IP rule
+        update_status: Update Post
+        update_user_role: Update Role
       actions:
-        approve_appeal_html: "%{name} menyetujui moderasi keputusan banding dari %{target}"
-        approve_user_html: "%{name} menyetujui pendaftaran dari %{target}"
-        assigned_to_self_report_html: "%{name} menugaskan laporan %{target} ke dirinya sendiri"
-        change_email_user_html: "%{name} mengubah alamat email pengguna %{target}"
-        change_role_user_html: "%{name} mengubah peran %{target}"
-        confirm_user_html: "%{name} mengonfirmasi alamat email pengguna %{target}"
-        create_account_warning_html: "%{name} mengirim peringatan untuk %{target}"
-        create_announcement_html: "%{name} membuat pengumuman baru %{target}"
-        create_canonical_email_block_html: "%{name} memblokir surel dengan hash %{target}"
-        create_custom_emoji_html: "%{name} mengunggah emoji baru %{target}"
-        create_domain_allow_html: "%{name} mengizinkan penggabungan dengan domain %{target}"
-        create_domain_block_html: "%{name} memblokir domain %{target}"
-        create_email_domain_block_html: "%{name} memblokir domain email %{target}"
-        create_ip_block_html: "%{name} membuat aturan untuk IP %{target}"
-        create_unavailable_domain_html: "%{name} menghentikan pengiriman ke domain %{target}"
-        create_user_role_html: "%{name} membuat peran %{target}"
-        demote_user_html: "%{name} menurunkan pengguna %{target}"
-        destroy_announcement_html: "%{name} menghapus pengumuman %{target}"
-        destroy_canonical_email_block_html: "%{name} menghapus pemblokiran surel dengan hash %{target}"
-        destroy_custom_emoji_html: "%{name} menghapus emoji %{target}"
-        destroy_domain_allow_html: "%{name} membatalkan izin penggabungan dengan domain %{target}"
-        destroy_domain_block_html: "%{name} membuka blokir domain %{target}"
-        destroy_email_domain_block_html: "%{name} membuka blokir domain email %{target}"
-        destroy_instance_html: "%{name} menghapus domain %{target}"
-        destroy_ip_block_html: "%{name} menghapus aturan untuk IP %{target}"
-        destroy_status_html: "%{name} menghapus status %{target}"
-        destroy_unavailable_domain_html: "%{name} melanjutkan pengiriman ke domain %{target}"
-        destroy_user_role_html: "%{name} menghapus peran %{target}"
-        disable_2fa_user_html: "%{name} mematikan syarat dua faktor untuk pengguna %{target}"
-        disable_custom_emoji_html: "%{name} mematikan emoji %{target}"
-        disable_sign_in_token_auth_user_html: "%{name} menonaktifkan otentikasi token email untuk %{target}"
-        disable_user_html: "%{name} mematikan login untuk pengguna %{target}"
-        enable_custom_emoji_html: "%{name} mengaktifkan emoji %{target}"
-        enable_sign_in_token_auth_user_html: "%{name} mengaktifkan otentikasi token email untuk %{target}"
-        enable_user_html: "%{name} mengaktifkan login untuk pengguna %{target}"
-        memorialize_account_html: "%{name} mengubah akun %{target} jadi halaman memorial"
-        promote_user_html: "%{name} mempromosikan pengguna %{target}"
-        reject_appeal_html: "%{name} menolak moderasi keputusan banding dari %{target}"
-        reject_user_html: "%{name} menolak pendaftaran dari %{target}"
-        remove_avatar_user_html: "%{name} menghapus avatar %{target}"
-        reopen_report_html: "%{name} membuka ulang laporan %{target}"
-        resend_user_html: "%{name} mengirim ulang konfirmasi email untuk %{target}"
-        reset_password_user_html: "%{name} mereset kata sandi pengguna %{target}"
-        resolve_report_html: "%{name} menyelesaikan laporan %{target}"
-        sensitive_account_html: "%{name} menandai media %{target} sebagai sensitif"
-        silence_account_html: "%{name} membisukan akun %{target}"
-        suspend_account_html: "%{name} menangguhkan akun %{target}"
-        unassigned_report_html: "%{name} membatalkan penugasan laporan %{target}"
-        unblock_email_account_html: "%{name} membuka blokir alamat email %{target}"
-        unsensitive_account_html: "%{name} membatalkan tanda media %{target} sebagai sensitif"
-        unsilence_account_html: "%{name} membunyikan akun %{target}"
-        unsuspend_account_html: "%{name} membatalkan penangguhan akun %{target}"
-        update_announcement_html: "%{name} memperbarui pengumuman %{target}"
-        update_custom_emoji_html: "%{name} memperbarui emoji %{target}"
-        update_domain_block_html: "%{name} memperbarui blokir domain untuk %{target}"
-        update_ip_block_html: "%{name} mengubah peraturan untuk IP %{target}"
-        update_status_html: "%{name} memperbarui status %{target}"
-        update_user_role_html: "%{name} mengubah peran %{target}"
-      deleted_account: akun yang dihapus
-      empty: Log tidak ditemukan.
-      filter_by_action: Filter berdasarkan tindakan
-      filter_by_user: Filter berdasarkan pengguna
-      title: Log audit
+        approve_appeal_html: "%{name} approved moderation decision appeal from %{target}"
+        approve_user_html: "%{name} approved sign-up from %{target}"
+        assigned_to_self_report_html: "%{name} assigned report %{target} to themselves"
+        change_email_user_html: "%{name} changed the e-mail address of user %{target}"
+        change_role_user_html: "%{name} changed role of %{target}"
+        confirm_user_html: "%{name} confirmed e-mail address of user %{target}"
+        create_account_warning_html: "%{name} sent a warning to %{target}"
+        create_announcement_html: "%{name} created new announcement %{target}"
+        create_canonical_email_block_html: "%{name} blocked e-mail with the hash %{target}"
+        create_custom_emoji_html: "%{name} uploaded new emoji %{target}"
+        create_domain_allow_html: "%{name} allowed federation with domain %{target}"
+        create_domain_block_html: "%{name} blocked domain %{target}"
+        create_email_domain_block_html: "%{name} blocked e-mail domain %{target}"
+        create_ip_block_html: "%{name} created rule for IP %{target}"
+        create_unavailable_domain_html: "%{name} stopped delivery to domain %{target}"
+        create_user_role_html: "%{name} created %{target} role"
+        demote_user_html: "%{name} demoted user %{target}"
+        destroy_announcement_html: "%{name} deleted announcement %{target}"
+        destroy_canonical_email_block_html: "%{name} unblocked e-mail with the hash %{target}"
+        destroy_custom_emoji_html: "%{name} deleted emoji %{target}"
+        destroy_domain_allow_html: "%{name} disallowed federation with domain %{target}"
+        destroy_domain_block_html: "%{name} unblocked domain %{target}"
+        destroy_email_domain_block_html: "%{name} unblocked e-mail domain %{target}"
+        destroy_instance_html: "%{name} purged domain %{target}"
+        destroy_ip_block_html: "%{name} deleted rule for IP %{target}"
+        destroy_status_html: "%{name} removed post by %{target}"
+        destroy_unavailable_domain_html: "%{name} resumed delivery to domain %{target}"
+        destroy_user_role_html: "%{name} deleted %{target} role"
+        disable_2fa_user_html: "%{name} disabled two factor requirement for user %{target}"
+        disable_custom_emoji_html: "%{name} disabled emoji %{target}"
+        disable_sign_in_token_auth_user_html: "%{name} disabled e-mail token authentication for %{target}"
+        disable_user_html: "%{name} disabled login for user %{target}"
+        enable_custom_emoji_html: "%{name} enabled emoji %{target}"
+        enable_sign_in_token_auth_user_html: "%{name} enabled e-mail token authentication for %{target}"
+        enable_user_html: "%{name} enabled login for user %{target}"
+        memorialize_account_html: "%{name} turned %{target}'s account into a memoriam page"
+        promote_user_html: "%{name} promoted user %{target}"
+        reject_appeal_html: "%{name} rejected moderation decision appeal from %{target}"
+        reject_user_html: "%{name} rejected sign-up from %{target}"
+        remove_avatar_user_html: "%{name} removed %{target}'s avatar"
+        reopen_report_html: "%{name} reopened report %{target}"
+        resend_user_html: "%{name} resent confirmation e-mail for %{target}"
+        reset_password_user_html: "%{name} reset password of user %{target}"
+        resolve_report_html: "%{name} resolved report %{target}"
+        sensitive_account_html: "%{name} marked %{target}'s media as sensitive"
+        silence_account_html: "%{name} limited %{target}'s account"
+        suspend_account_html: "%{name} suspended %{target}'s account"
+        unassigned_report_html: "%{name} unassigned report %{target}"
+        unblock_email_account_html: "%{name} unblocked %{target}'s email address"
+        unsensitive_account_html: "%{name} unmarked %{target}'s media as sensitive"
+        unsilence_account_html: "%{name} undid limit of %{target}'s account"
+        unsuspend_account_html: "%{name} unsuspended %{target}'s account"
+        update_announcement_html: "%{name} updated announcement %{target}"
+        update_custom_emoji_html: "%{name} updated emoji %{target}"
+        update_domain_block_html: "%{name} updated domain block for %{target}"
+        update_ip_block_html: "%{name} changed rule for IP %{target}"
+        update_status_html: "%{name} updated post by %{target}"
+        update_user_role_html: "%{name} changed %{target} role"
+      deleted_account: deleted account
+      empty: No logs found.
+      filter_by_action: Filter by action
+      filter_by_user: Filter by user
+      title: Audit log
     announcements:
-      destroyed_msg: Pengumuman berhasil dihapus!
+      destroyed_msg: Announcement successfully deleted!
       edit:
-        title: Edit pengumuman
-      empty: Pengumuman tidak ditemukan.
-      live: Siaran langsung
+        title: Edit announcement
+      empty: No announcements found.
+      live: Live
       new:
-        create: Buat pengumuman
-        title: Pengumuman baru
-      publish: Terbitkan
-      published_msg: Pengumuman berhasil diterbitkan!
-      scheduled_for: Dijadwalkan untuk %{time}
-      scheduled_msg: Pengumuman dijadwalkan untuk publikasi!
-      title: Pengumuman
-      unpublish: Batal terbitkan
-      unpublished_msg: Pengumuman berhasil ditarik!
-      updated_msg: Pengumuman berhasil diperbarui!
+        create: Create announcement
+        title: New announcement
+      publish: Publish
+      published_msg: Announcement successfully published!
+      scheduled_for: Scheduled for %{time}
+      scheduled_msg: Announcement scheduled for publication!
+      title: Announcements
+      unpublish: Unpublish
+      unpublished_msg: Announcement successfully unpublished!
+      updated_msg: Announcement successfully updated!
     custom_emojis:
-      assign_category: Beri kategori
+      assign_category: Assign category
       by_domain: Domain
-      copied_msg: Pembuatan salinan lokal emoji berhasil
-      copy: Salin
-      copy_failed_msg: Tidak dapat membuat salinan lokal emoji
-      create_new_category: Buat kategori baru
-      created_msg: Emoji berhasil dibuat!
-      delete: Hapus
-      destroyed_msg: Emoji berhasil dihapus!
-      disable: Matikan
-      disabled: Dinonaktifkan
-      disabled_msg: Emoji berhasil dinonaktifkan
+      copied_msg: Successfully created local copy of the emoji
+      copy: Copy
+      copy_failed_msg: Could not make a local copy of that emoji
+      create_new_category: Create new category
+      created_msg: Emoji successfully created!
+      delete: Delete
+      destroyed_msg: Emojo successfully destroyed!
+      disable: Disable
+      disabled: Disabled
+      disabled_msg: Successfully disabled that emoji
       emoji: Emoji
-      enable: Aktifkan
-      enabled: Diaktifkan
-      enabled_msg: Emoji berhasil diaktifkan
-      image_hint: PNG atau GIF hingga %{size}
-      list: Daftar
-      listed: Terdaftar
+      enable: Enable
+      enabled: Enabled
+      enabled_msg: Successfully enabled that emoji
+      image_hint: PNG or GIF up to %{size}
+      list: List
+      listed: Listed
       new:
-        title: Tambah emoji kustom baru
-      no_emoji_selected: Tidak ada emoji yang diubah karena tidak ada yang dipilih
-      not_permitted: Anda tidak diizinkan untuk melakukan tindakan ini
-      overwrite: Timpa
-      shortcode: Kode pendek
-      shortcode_hint: Sedikitnya 2 karakter, hanya karakter alfanumerik dan garis bawah
-      title: Emoji kustom
-      uncategorized: Tak terkategorikan
-      unlist: Tak terdaftar
-      unlisted: Tak terdaftar
-      update_failed_msg: Tak dapat memperbarui emoji
-      updated_msg: Emoji berhasil diperbarui!
-      upload: Unggah
+        title: Add new custom emoji
+      no_emoji_selected: No emojis were changed as none were selected
+      not_permitted: You are not permitted to perform this action
+      overwrite: Overwrite
+      shortcode: Shortcode
+      shortcode_hint: At least 2 characters, only alphanumeric characters and underscores
+      title: Custom emojis
+      uncategorized: Uncategorized
+      unlist: Unlist
+      unlisted: Unlisted
+      update_failed_msg: Could not update that emoji
+      updated_msg: Emoji successfully updated!
+      upload: Upload
     dashboard:
-      active_users: pengguna aktif
-      interactions: interaksi
-      media_storage: Penyimpanan media
-      new_users: pengguna baru
-      opened_reports: laporan dibuka
+      active_users: active users
+      interactions: interactions
+      media_storage: Media storage
+      new_users: new users
+      opened_reports: reports opened
       pending_appeals_html:
-        other: "<strong>%{count}</strong> banding ditunda"
+        other: "<strong>%{count}</strong> pending appeals"
       pending_reports_html:
-        other: "<strong>%{count}</strong> laporan banding"
+        other: "<strong>%{count}</strong> pending reports"
       pending_tags_html:
-        other: "<strong>%{count}</strong> tagar ditunda"
+        other: "<strong>%{count}</strong> pending hashtags"
       pending_users_html:
-        other: "<strong>%{count}</strong> pengguna ditunda"
-      resolved_reports: laporan sudah diselesaikan
-      software: Perangkat lunak
-      sources: Sumber pendaftaran
-      space: Penggunaan ruang
-      title: Dasbor
-      top_languages: Bahasa aktif teratas
-      top_servers: Server aktif teratas
-      website: Situs web
+        other: "<strong>%{count}</strong> pending users"
+      resolved_reports: reports resolved
+      software: Software
+      sources: Sign-up sources
+      space: Space usage
+      title: Dashboard
+      top_languages: Top active languages
+      top_servers: Top active servers
+      website: Website
     disputes:
       appeals:
-        empty: Tidak ada banding yang ditemukan.
-        title: Banding
+        empty: No appeals found.
+        title: Appeals
     domain_allows:
-      add_new: Daftar putihkan domain
-      created_msg: Domain berhasil masuk daftar putih
-      destroyed_msg: Domain dihapus dari daftar putih
-      export: Ekspor
-      import: Impor
-      undo: Hapus dari daftar putih
+      add_new: Allow federation with domain
+      created_msg: Domain has been successfully allowed for federation
+      destroyed_msg: Domain has been disallowed from federation
+      export: Export
+      import: Import
+      undo: Disallow federation with domain
     domain_blocks:
-      add_new: Tambah
-      created_msg: Pemblokiran domain sedang diproses
-      destroyed_msg: Pemblokiran domain telah dibatalkan
+      add_new: Add new domain block
+      created_msg: Domain block is now being processed
+      destroyed_msg: Domain block has been undone
       domain: Domain
-      edit: Edit blok domain
-      existing_domain_block: Anda sudah menerapkan batasan ketat terhadap %{name}.
-      existing_domain_block_html: Anda telah menerapkan batasan yang lebih ketat pada %{name}, Anda harus <a href="%{unblock_url}">membuka blokirnya</a> lebih dulu.
-      export: Ekspor
-      import: Impor
+      edit: Edit domain block
+      existing_domain_block: You have already imposed stricter limits on %{name}.
+      existing_domain_block_html: You have already imposed stricter limits on %{name}, you need to <a href="%{unblock_url}">unblock it</a> first.
+      export: Export
+      import: Import
       new:
-        create: Buat pemblokiran
-        hint: Pemblokiran domain tidak akan menghentikan pembuatan akun dalam database, tapi kami akan memberikan moderasi otomatis pada akun-akun tersebut.
+        create: Create block
+        hint: The domain block will not prevent creation of account entries in the database, but will retroactively and automatically apply specific moderation methods on those accounts.
         severity:
-          desc_html: "<strong>Batas</strong> akan membuat postingan dari akun yang ada di domain ini terlihat oleh siapa saja yang tidak mengikuti mereka. <strong>Tangguhkan</strong> akan menghapus semua konten, media, dan data profil dari akun domain server Anda. Gunakan <strong>Catatan</strong> jika Anda ingin menolak berkas media."
-          noop: Tidak ada
-          silence: Batas
-          suspend: Suspen
-        title: Pemblokiran domain baru
-      no_domain_block_selected: Tidak ada blok domain yang diubah karena tidak ada yang dipilih
-      not_permitted: Anda tidak diperbolehkan untuk melakukan aksi ini
-      obfuscate: Nama domain kabur
-      obfuscate_hint: Mengaburkan nama domain sebagian di daftar jika pengiklanan batasan daftar domain diaktifkan
-      private_comment: Komentar pribadi
-      private_comment_hint: Komentar tentang pembatasan domain ini untuk penggunaan internal oleh moderator.
-      public_comment: Komentar publik
-      public_comment_hint: Komentar tentang pembatasan domain ini untuk publik umum, jika mengiklankan daftar pembatasan domain diaktifkan.
-      reject_media: Tolak berkas media
-      reject_media_hint: Hapus file media yang tersimpan dan menolak semua unduhan nantinya. Tidak terpengaruh dengan suspen
-      reject_reports: Tolak laporan
-      reject_reports_hint: Abaikan semua laporan dari domain ini. Tidak relevan untuk penangguhan
-      undo: Urungkan blokir domain
-      view: Lihat blokir domain
+          desc_html: "<strong>Limit</strong> will make posts from accounts at this domain invisible to anyone who isn't following them. <strong>Suspend</strong> will remove all content, media, and profile data for this domain's accounts from your server. Use <strong>None</strong> if you just want to reject media files."
+          noop: None
+          silence: Limit
+          suspend: Suspend
+        title: New domain block
+      no_domain_block_selected: No domain blocks were changed as none were selected
+      not_permitted: You are not permitted to perform this action
+      obfuscate: Obfuscate domain name
+      obfuscate_hint: Partially obfuscate the domain name in the list if advertising the list of domain limitations is enabled
+      private_comment: Private comment
+      private_comment_hint: Comment about this domain limitation for internal use by the moderators.
+      public_comment: Public comment
+      public_comment_hint: Comment about this domain limitation for the general public, if advertising the list of domain limitations is enabled.
+      reject_media: Reject media files
+      reject_media_hint: Removes locally stored media files and refuses to download any in the future. Irrelevant for suspensions
+      reject_reports: Reject reports
+      reject_reports_hint: Ignore all reports coming from this domain. Irrelevant for suspensions
+      undo: Undo domain block
+      view: View domain block
     email_domain_blocks:
-      add_new: Tambah baru
+      add_new: Add new
       attempts_over_week:
-        other: "%{count} upaya mendaftar selama seminggu terakhir"
-      created_msg: Berhasil memblokir domain email
-      delete: Hapus
+        other: "%{count} sign-up attempts over the last week"
+      created_msg: Successfully blocked e-mail domain
+      delete: Delete
       dns:
         types:
-          mx: Data MX
+          mx: MX record
       domain: Domain
       new:
-        create: Tambah domain
-        resolve: Pembaruan domain
-        title: Blokir domain email baru
-      no_email_domain_block_selected: Tidak ada blokir domain email yang diubah sebab tidak ada yang dipilih
-      resolved_dns_records_hint_html: Pembaruan nama domain mengikuti domain MX, yang bertanggung jawab menerima email. Memblokir domain MX akan memblokir pendaftaran dari alamat email apapun yang menggunakan domain MX sama, meskipun nama domainnya beda. <strong>Hati-hati untuk tidak memblokir layanan email besar.</strong>
-      resolved_through_html: Diperbarui melalui %{domain}
-      title: Domain email terblokir
+        create: Add domain
+        resolve: Resolve domain
+        title: Block new e-mail domain
+      no_email_domain_block_selected: No e-mail domain blocks were changed as none were selected
+      not_permitted: Not permitted
+      resolved_dns_records_hint_html: The domain name resolves to the following MX domains, which are ultimately responsible for accepting e-mail. Blocking an MX domain will block sign-ups from any e-mail address which uses the same MX domain, even if the visible domain name is different. <strong>Be careful not to block major e-mail providers.</strong>
+      resolved_through_html: Resolved through %{domain}
+      title: Blocked e-mail domains
     export_domain_allows:
       new:
-        title: Impor izin domain
-      no_file: Tidak ada file dipilih
+        title: Import domain allows
+      no_file: No file selected
     export_domain_blocks:
       import:
-        description_html: Anda akan mengimpor daftar blok domain. Harap tinjau daftar ini dengan sangat hati-hati, terutama jika Anda sendiri tidak menulis daftar ini.
-        existing_relationships_warning: Hubungan tindak lanjut yang ada
-        private_comment_description_html: 'Untuk membantu Anda melacak asal blok yang diimpor, blok yang diimpor akan dibuat dengan komentar pribadi berikut: <q>%{comment}</q>'
-        private_comment_template: Diimpor dari %{source} pada %{date}
-        title: Impor blok domain
-      invalid_domain_block: 'Satu atau lebih blokir domain dilewati karena kesalahan berikut: %{error}'
+        description_html: You are about to import a list of domain blocks. Please review this list very carefully, especially if you have not authored this list yourself.
+        existing_relationships_warning: Existing follow relationships
+        private_comment_description_html: 'To help you track where imported blocks come from, imported blocks will be created with the following private comment: <q>%{comment}</q>'
+        private_comment_template: Imported from %{source} on %{date}
+        title: Import domain blocks
+      invalid_domain_block: 'One or more domain blocks were skipped because of the following error(s): %{error}'
       new:
-        title: Impor blok domain
-      no_file: Tidak ada file dipilih
+        title: Import domain blocks
+      no_file: No file selected
     follow_recommendations:
-      description_html: <strong>"Rekomendasi untuk diikuti" membantu pengguna baru untuk secara cepat menemukan konten yang menarik</strong>. Ketika pengguna belum cukup berinteraksi dengan lainnya sehingga belum memunculkan rekomendasi, akun-akun ini akan direkomendasikan. Mereka dihitung ulang secara harian dari campuran akun-akun dengan keterlibatan tertinggi baru-baru ini dan jumlah pengikut lokal tertinggi untuk bahasa tertentu.
-      language: Untuk bahasa
+      description_html: "<strong>Follow recommendations help new users quickly find interesting content</strong>. When a user has not interacted with others enough to form personalized follow recommendations, these accounts are recommended instead. They are re-calculated on a daily basis from a mix of accounts with the highest recent engagements and highest local follower counts for a given language."
+      language: For language
       status: Status
-      suppress: Hapus akun yang direkomendasikan untuk diikuti
-      suppressed: Dihapus
-      title: Rekomendasi untuk diikuti
-      unsuppress: Kembalikan rekomendasi untuk diikuti
+      suppress: Suppress follow recommendation
+      suppressed: Suppressed
+      title: Follow recommendations
+      unsuppress: Restore follow recommendation
     instances:
       availability:
         description_html:
-          other: Jika pengiriman ke domain selama <strong>%{count} hari</strong> tidak berhasil, tidak akan ada upaya pengiriman kecuali bila kiriman <em>dari</em> domain tersebut berhasil diterima.
-        failure_threshold_reached: Batas kegagalan tercapai pada %{date}.
+          other: If delivering to the domain fails on <strong>%{count} different days</strong> without succeeding, no further delivery attempts will be made unless a delivery <em>from</em> the domain is received.
+        failure_threshold_reached: Failure threshold reached on %{date}.
         failures_recorded:
-          other: Upaya gagal dalam %{count} hari berbeda.
-        no_failures_recorded: Tidak ada kegagalan tercatat.
-        title: Ketersediaan
-        warning: Upaya terakhir untuk menyambung ke server ini tidak berhasil
-      back_to_all: Semua
-      back_to_limited: Terbatas
-      back_to_warning: Peringatan
+          other: Failed attempts on %{count} different days.
+        no_failures_recorded: No failures on record.
+        title: Availability
+        warning: The last attempt to connect to this server has been unsuccessful
+      back_to_all: All
+      back_to_limited: Limited
+      back_to_warning: Warning
       by_domain: Domain
-      confirm_purge: Yakin ingin menghapus permanen data dari domain ini?
+      confirm_purge: Are you sure you want to permanently delete data from this domain?
       content_policies:
-        comment: Catatan internal
-        description_html: Anda dapat menentukan kebijakan konten yang akan diterapkan ke semua akun dari domain ini dan dari subdomainnya.
+        comment: Internal note
+        description_html: You can define content policies that will be applied to all accounts from this domain and any of its subdomains.
+        limited_federation_mode_description_html: You can chose whether to allow federation with this domain.
         policies:
-          reject_media: Tolak media
-          reject_reports: Tolak laporan
-          silence: Batas
-          suspend: Tangguhkan
-        policy: Kebijakan
-        reason: Alasan publik
-        title: Kebijakan konten
+          reject_media: Reject media
+          reject_reports: Reject reports
+          silence: Limit
+          suspend: Suspend
+        policy: Policy
+        reason: Public reason
+        title: Content policies
       dashboard:
-        instance_accounts_dimension: Akun yang paling banyak diikuti
-        instance_accounts_measure: akun tersimpan
-        instance_followers_measure: pengikut kami di sana
-        instance_follows_measure: pengikut mereka di sini
-        instance_languages_dimension: Bahasa terpopuler
-        instance_media_attachments_measure: lampiran media tersimpan
-        instance_reports_measure: laporan tentang mereka
-        instance_statuses_measure: kiriman tersimpan
+        instance_accounts_dimension: Most followed accounts
+        instance_accounts_measure: stored accounts
+        instance_followers_measure: our followers there
+        instance_follows_measure: their followers here
+        instance_languages_dimension: Top languages
+        instance_media_attachments_measure: stored media attachments
+        instance_reports_measure: reports about them
+        instance_statuses_measure: stored posts
       delivery:
-        all: Semua
-        clear: Hapus galat pengiriman
-        failing: Gagal
-        restart: Mulai ulang pengiriman
-        stop: Setop pengiriman
-        unavailable: Tidak tersedia
-      delivery_available: Pengiriman tersedia
-      delivery_error_days: Lama hari pengiriman galat
-      delivery_error_hint: Jika pengiriman tidak terjadi selama %{count} hari, ia akan ditandai secara otomatis sebagai tidak terkirim.
-      destroyed_msg: Data dari %{domain} masuk antrean dihapus dalam waktu dekat.
-      empty: Domain tidak ditemukan.
+        all: All
+        clear: Clear delivery errors
+        failing: Failing
+        restart: Restart delivery
+        stop: Stop delivery
+        unavailable: Unavailable
+      delivery_available: Delivery is available
+      delivery_error_days: Delivery error days
+      delivery_error_hint: If delivery is not possible for %{count} days, it will be automatically marked as undeliverable.
+      destroyed_msg: Data from %{domain} is now queued for imminent deletion.
+      empty: No domains found.
       known_accounts:
-        other: "%{count} akun yang dikenal"
+        other: "%{count} known accounts"
       moderation:
-        all: Semua
-        limited: Terbatas
-        title: Moderasi
-      private_comment: Komentar pribadi
-      public_comment: Komentar publik
-      purge: Hapus
-      purge_description_html: Jika Anda meyakini bahwa domain ini lebih baik offline, Anda dapat menghapus semua rekaman akun dan data terkait dari domain ini dari ruang penyimpanan Anda. Ini perlu beberapa waktu.
-      title: Server yang diketahui
-      total_blocked_by_us: Yang kita blokir
-      total_followed_by_them: Diikuti mereka
-      total_followed_by_us: Diikuti kita
-      total_reported: Laporan tentang mereka
-      total_storage: Lampiran media
-      totals_time_period_hint_html: Total tampilan di bawah termasuk data seluruh waktu.
+        all: All
+        limited: Limited
+        title: Moderation
+      private_comment: Private comment
+      public_comment: Public comment
+      purge: Purge
+      purge_description_html: If you believe this domain is offline for good, you can delete all account records and associated data from this domain from your storage. This may take a while.
+      title: Federation
+      total_blocked_by_us: Blocked by us
+      total_followed_by_them: Followed by them
+      total_followed_by_us: Followed by us
+      total_reported: Reports about them
+      total_storage: Media attachments
+      totals_time_period_hint_html: The totals displayed below include data for all time.
     invites:
-      deactivate_all: Nonaktifkan semua
+      deactivate_all: Deactivate all
       filter:
-        all: Semua
-        available: Tersedia
-        expired: Kedaluwarsa
-        title: Saring
-      title: Undang
+        all: All
+        available: Available
+        expired: Expired
+        title: Filter
+      title: Invites
     ip_blocks:
-      add_new: Buat aturan
-      created_msg: Berhasil menambah aturan IP baru
-      delete: Hapus
+      add_new: Create rule
+      created_msg: Successfully added new IP rule
+      delete: Delete
       expires_in:
-        '1209600': 2 minggu
-        '15778476': 6 bulan
-        '2629746': 1 bulan
-        '31556952': 1 tahun
-        '86400': 1 hari
-        '94670856': 3 tahun
+        '1209600': 2 weeks
+        '15778476': 6 months
+        '2629746': 1 month
+        '31556952': 1 year
+        '86400': 1 day
+        '94670856': 3 years
       new:
-        title: Buat aturan IP baru
-      no_ip_block_selected: Tak ada aturan IP yang berubah karena tak ada yang dipilih
-      title: Aturan IP
+        title: Create new IP rule
+      no_ip_block_selected: No IP rules were changed as none were selected
+      title: IP rules
     relationships:
-      title: Hubungan %{acct}
+      title: "%{acct}'s relationships"
     relays:
-      add_new: Tambah relai baru
-      delete: Hapus
-      description_html: "<strong>Relai gabungan</strong> adalah server perantara yang menukarkan kiriman publik dalam jumlah besar antara server yang berlangganan dengan yang menerbitkannya. <strong>Ini akan membantu server kecil hingga medium menemukan konten dari fediverse</strong>, yang tentu saja mengharuskan pengguna lokal untuk mengikuti orang lain dari server jarak jauh."
-      disable: Matikan
-      disabled: Dimatikan
-      enable: Aktifkan
-      enable_hint: Saat diaktifkan, server Anda akan melanggan semua kiriman publik dari relai ini, dan akan mengirim toot publik server ini ke sana.
-      enabled: Diaktifkan
-      inbox_url: URL Relai
-      pending: Menunggu persetujuan relai
-      save_and_enable: Simpan dan aktifkan
-      setup: Atur koneksi relai
-      signatures_not_enabled: Relai tak akan bekerja dengan benar saat mode aman atau mode daftar putih diaktifkan
+      add_new: Add new relay
+      delete: Delete
+      description_html: A <strong>federation relay</strong> is an intermediary server that exchanges large volumes of public posts between servers that subscribe and publish to it. <strong>It can help small and medium servers discover content from the fediverse</strong>, which would otherwise require local users manually following other people on remote servers.
+      disable: Disable
+      disabled: Disabled
+      enable: Enable
+      enable_hint: Once enabled, your server will subscribe to all public posts from this relay, and will begin sending this server's public posts to it.
+      enabled: Enabled
+      inbox_url: Relay URL
+      pending: Waiting for relay's approval
+      save_and_enable: Save and enable
+      setup: Setup a relay connection
+      signatures_not_enabled: Relays may not work correctly while secure mode or limited federation mode is enabled
       status: Status
-      title: Relai
+      title: Relays
     report_notes:
-      created_msg: Catatan laporan berhasil dibuat!
-      destroyed_msg: Catatan laporan berhasil dihapus!
+      created_msg: Report note successfully created!
+      destroyed_msg: Report note successfully deleted!
     reports:
       account:
         notes:
-          other: "%{count} catatan"
-      action_log: Log audit
-      action_taken_by: Aksi dilakukan oleh
+          other: "%{count} notes"
+      action_log: Audit log
+      action_taken_by: Action taken by
       actions:
-        delete_description_html: Kiriman yang dilaporkan akan dihapus dan peringatan akan direkam untuk membantu Anda mengurus masalah oleh akun yang sama di masa mendatang.
-        mark_as_sensitive_description_html: Media di dalam kiriman terlapor akan ditandai sebagai sensitif dan hukuman akan direkam untuk membantu menangani pelanggaran dari akun yang sama di masa mendatang.
-        other_description_html: Lihat opsi lain untuk mengendalikan perilaku akun dan menyesuaikan komunikasi ke akun yang dilaporkan.
-        resolve_description_html: Tidak ada tindakan untuk akun yang dilaporkan, tidak ada peringatan yang direkam, dan laporan akan ditutup.
-      actions_description_html: Memutuskan tindakan yang tepat untuk menyelesaikan laporan ini. Jika Anda memutuskan tindakan hukuman kepada akun terlapor, notifikasi email akan dikirim ke mereka, kecuali saat kategori <strong>Spam</strong> dipilih.
-      add_to_report: Tambahkan lebih banyak untuk lapor
-      are_you_sure: Apakah Anda yakin?
-      assign_to_self: Tugaskan kpd saya
-      assigned: Moderator tertugas
-      by_target_domain: Domain akun yang dilaporkan
-      category: Kategori
-      category_description_html: Alasan akun dan/atau konten ini dilaporkan akan disampaikan saat berkomunikasi dengan akun yang dilaporkan
+        delete_description_html: The reported posts will be deleted and a strike will be recorded to help you escalate on future infractions by the same account.
+        mark_as_sensitive_description_html: The media in the reported posts will be marked as sensitive and a strike will be recorded to help you escalate on future infractions by the same account.
+        other_description_html: See more options for controlling the account's behaviour and customize communication to the reported account.
+        resolve_description_html: No action will be taken against the reported account, no strike recorded, and the report will be closed.
+        silence_description_html: The account will be visible only to those who already follow it or manually look it up, severely limiting its reach. Can always be reverted. Closes all reports against this account.
+        suspend_description_html: The account and all its contents will be inaccessible and eventually deleted, and interacting with it will be impossible. Reversible within 30 days. Closes all reports against this account.
+      actions_description_html: Decide which action to take to resolve this report. If you take a punitive action against the reported account, an e-mail notification will be sent to them, except when the <strong>Spam</strong> category is selected.
+      actions_description_remote_html: Decide which action to take to resolve this report. This will only affect how <strong>your</strong> server communicates with this remote account and handle its content.
+      add_to_report: Add more to report
+      are_you_sure: Are you sure?
+      assign_to_self: Assign to me
+      assigned: Assigned moderator
+      by_target_domain: Domain of reported account
+      cancel: Cancel
+      category: Category
+      category_description_html: The reason this account and/or content was reported will be cited in communication with the reported account
       comment:
-        none: Tidak ada
-      comment_description_html: 'Untuk menyediakan lebih banyak informasi, %{name} menulis:'
-      created_at: Dilaporkan
-      delete_and_resolve: Hapus kiriman
-      forwarded: Diteruskan
-      forwarded_to: Diteruskan ke %{domain}
-      mark_as_resolved: Tandai telah diseleseikan
-      mark_as_sensitive: Tandai sebagai sensitif
-      mark_as_unresolved: Tandai belum terselesaikan
-      no_one_assigned: Tidak ada
+        none: None
+      comment_description_html: 'To provide more information, %{name} wrote:'
+      confirm: Confirm
+      confirm_action: Confirm moderation action against @%{acct}
+      created_at: Reported
+      delete_and_resolve: Delete posts
+      forwarded: Forwarded
+      forwarded_to: Forwarded to %{domain}
+      mark_as_resolved: Mark as resolved
+      mark_as_sensitive: Mark as sensitive
+      mark_as_unresolved: Mark as unresolved
+      no_one_assigned: No one
       notes:
-        create: Tambah catatan
-        create_and_resolve: Diselesaikan dengan catatan
-        create_and_unresolve: Dibuka kembali dengan catatan
-        delete: Hapus
-        placeholder: Jelaskan aksi yang telah dilakukan, atau pembaruan lain yang berhubungan...
-        title: Catatan
-      notes_description_html: Lihat dan tinggalkan catatan kepada moderator lain dan Anda di masa depan
-      quick_actions_description_html: 'Lakukan tindakan cepat atau gulir ke bawah untuk melihat konten yang dilaporkan:'
-      remote_user_placeholder: pengguna jarak jauh dari %{instance}
-      reopen: Buka lagi laporan
-      report: 'Laporkan #%{id}'
-      reported_account: Akun yang dilaporkan
-      reported_by: Dilaporkan oleh
-      resolved: Terseleseikan
-      resolved_msg: Laporan berhasil diselesaikan!
-      skip_to_actions: Langsung ke tindakan
+        create: Add note
+        create_and_resolve: Resolve with note
+        create_and_unresolve: Reopen with note
+        delete: Delete
+        placeholder: Describe what actions have been taken, or any other related updates...
+        title: Notes
+      notes_description_html: View and leave notes to other moderators and your future self
+      processed_msg: 'Report #%{id} successfully processed'
+      quick_actions_description_html: 'Take a quick action or scroll down to see reported content:'
+      remote_user_placeholder: the remote user from %{instance}
+      reopen: Reopen report
+      report: 'Report #%{id}'
+      reported_account: Reported account
+      reported_by: Reported by
+      resolved: Resolved
+      resolved_msg: Report successfully resolved!
+      skip_to_actions: Skip to actions
       status: Status
-      statuses: Konten yang dilaporkan
-      statuses_description_html: Konten menyinggung akan disampaikan saat komunikasi dengan akun yang dilaporkan
-      target_origin: Akun asal yang dilaporkan
-      title: Laporan
-      unassign: Bebas Tugas
-      unresolved: Belum Terseleseikan
-      updated_at: Diperbarui
-      view_profile: Lihat profil
+      statuses: Reported content
+      statuses_description_html: Offending content will be cited in communication with the reported account
+      summary:
+        action_preambles:
+          delete_html: 'You are about to <strong>remove</strong> some of <strong>@%{acct}</strong>''s posts. This will:'
+          mark_as_sensitive_html: 'You are about to <strong>mark</strong> some of <strong>@%{acct}</strong>''s posts as <strong>sensitive</strong>. This will:'
+          silence_html: 'You are about to <strong>limit</strong> <strong>@%{acct}</strong>''s account. This will:'
+          suspend_html: 'You are about to <strong>suspend</strong> <strong>@%{acct}</strong>''s account. This will:'
+        actions:
+          delete_html: Remove the offending posts
+          mark_as_sensitive_html: Mark the offending posts' media as sensitive
+          silence_html: Severely limit <strong>@%{acct}</strong>'s reach by making their profile and contents only visible to people already following them or manually looking it profile up
+          suspend_html: Suspend <strong>@%{acct}</strong>, making their profile and contents inaccessible and impossible to interact with
+        close_report: 'Mark report #%{id} as resolved'
+        close_reports_html: Mark <strong>all</strong> reports against <strong>@%{acct}</strong> as resolved
+        delete_data_html: Delete <strong>@%{acct}</strong>'s profile and contents 30 days from now unless they get unsuspended in the meantime
+        preview_preamble_html: "<strong>@%{acct}</strong> will receive a warning with the following contents:"
+        record_strike_html: Record a strike against <strong>@%{acct}</strong> to help you escalate on future violations from this account
+        send_email_html: Send <strong>@%{acct}</strong> a warning e-mail
+        warning_placeholder: Optional additional reasoning for the moderation action.
+      target_origin: Origin of reported account
+      title: Reports
+      unassign: Unassign
+      unknown_action_msg: 'Unknown action: %{action}'
+      unresolved: Unresolved
+      updated_at: Updated
+      view_profile: View profile
     roles:
-      add_new: Tambahkan peran
+      add_new: Add role
       assigned_users:
-        other: "%{count} pengguna"
+        other: "%{count} users"
       categories:
-        administration: Administrasi
+        administration: Administration
         devops: DevOps
-        invites: Undangan
-        moderation: Moderasi
-        special: Khusus
-      delete: Hapus
-      description_html: Dengan <strong>peran pengguna</strong>, Anda dapat mengubah fungsi dan area Mastodon apa pengguna Anda dapat mengakses.
-      edit: ערכי את התפקיד של '%{name}'
-      everyone: Izin bawaan
-      everyone_full_description_html: Ini adalah <strong>peran dasaran</strong> yang memengaruhi <strong>semua pengguna</strong>, bahkan tanpa yang memiliki sebuah peran yang diberikan. Semua peran lainnya mendapatkan izin dari ini.
+        invites: Invites
+        moderation: Moderation
+        special: Special
+      delete: Delete
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Mastodon your users can access.
+      edit: Edit '%{name}' role
+      everyone: Default permissions
+      everyone_full_description_html: This is the <strong>base role</strong> affecting <strong>all users</strong>, even those without an assigned role. All other roles inherit permissions from it.
       permissions_count:
-        other: "%{count} izin"
+        other: "%{count} permissions"
       privileges:
         administrator: Administrator
-        administrator_description: Pengguna dengan izin ini akan melewati setiap izin
-        delete_user_data: Hapus Data Pengguna
-        delete_user_data_description: Memungkinkan pengguna untuk menghapus data pengguna lain tanpa jeda
-        invite_users: Undang Pengguna
-        invite_users_description: Memungkinkan pengguna untuk mengundang orang baru ke server
-        manage_announcements: Kelola Pengumuman
-        manage_announcements_description: Memungkinkan pengguna untuk mengelola pengumuman di server
-        manage_appeals: Kelola Permintaan
-        manage_appeals_description: Memungkinkan pengguna untuk meninjau permintaan terhadap tindakan moderasi
-        manage_blocks: Kelola Pemblokiran
-        manage_blocks_description: Memungkinkan pengguna untuk memblokir penyedia surel dan alamat IP
-        manage_custom_emojis: Kelola Emoji Kustom
-        manage_custom_emojis_description: Memungkinkan pengguna untuk mengelola emoji kustom di server
-        manage_federation: Kelola Federasi
-        manage_federation_description: Memungkinkan pengguna untuk memblokir atau memperbolehkan federasi dengan domain lain, dan mengatur pengiriman
-        manage_invites: Kelola Undangan
-        manage_invites_description: Memungkinkan pengguna untuk menjelajah dan menonaktifkan tautan undangan
-        manage_reports: Kelola Laporan
-        manage_reports_description: Memungkinkan pengguna untuk meninjau laporan dan melakukan tindakan moderasi terhadap mereka
-        manage_roles: Kelola Peran
-        manage_roles_description: Memungkinkan pengguna untuk mengelola dan memberikan peran di bawah mereka
-        manage_rules: Kelola Aturan
-        manage_rules_description: Memungkinkan pengguna untuk mengubah aturan server
-        manage_settings: Kelola Pengaturan
-        manage_settings_description: Memungkinkan pengguna untuk mengubah pengaturan situs
-        manage_taxonomies: Kelola Taksonomi
-        manage_taxonomies_description: Memungkinkan pengguna untuk meninjau konten tren dan memperbarui pengaturan tagar
-        manage_user_access: Kelola Akses Pengguna
-        manage_user_access_description: Memungkinkan pengguna untuk menonaktifkan otentikasi dua faktor, mengubah alamat surel, dan mengatur ulang kata sandi pengguna lain
-        manage_users: Kelola Pengguna
-        manage_users_description: Memungkinkan pengguna untuk melihat detail pengguna lain dan melakukan tindakan moderasi terhadap mereka
-        manage_webhooks: Kelola Webhook
-        manage_webhooks_description: Memungkinkan pengguna untuk menyiapkan webhook untuk peristiwa administratif
-        view_audit_log: Lihat Catatan Audit
-        view_audit_log_description: Memungkinkan pengguna untuk melihat riwayat tindakan administratif di server
-        view_dashboard: Lihat Dasbor
-        view_dashboard_description: Memungkinkan pengguna untuk mengakses dasbor dan berbagai metrik
+        administrator_description: Users with this permission will bypass every permission
+        delete_user_data: Delete User Data
+        delete_user_data_description: Allows users to delete other users' data without delay
+        invite_users: Invite Users
+        invite_users_description: Allows users to invite new people to the server
+        manage_announcements: Manage Announcements
+        manage_announcements_description: Allows users to manage announcements on the server
+        manage_appeals: Manage Appeals
+        manage_appeals_description: Allows users to review appeals against moderation actions
+        manage_blocks: Manage Blocks
+        manage_blocks_description: Allows users to block e-mail providers and IP addresses
+        manage_custom_emojis: Manage Custom Emojis
+        manage_custom_emojis_description: Allows users to manage custom emojis on the server
+        manage_federation: Manage Federation
+        manage_federation_description: Allows users to block or allow federation with other domains, and control deliverability
+        manage_invites: Manage Invites
+        manage_invites_description: Allows users to browse and deactivate invite links
+        manage_reports: Manage Reports
+        manage_reports_description: Allows users to review reports and perform moderation actions against them
+        manage_roles: Manage Roles
+        manage_roles_description: Allows users to manage and assign roles below theirs
+        manage_rules: Manage Rules
+        manage_rules_description: Allows users to change server rules
+        manage_settings: Manage Settings
+        manage_settings_description: Allows users to change site settings
+        manage_taxonomies: Manage Taxonomies
+        manage_taxonomies_description: Allows users to review trending content and update hashtag settings
+        manage_user_access: Manage User Access
+        manage_user_access_description: Allows users to disable other users' two-factor authentication, change their e-mail address, and reset their password
+        manage_users: Manage Users
+        manage_users_description: Allows users to view other users' details and perform moderation actions against them
+        manage_webhooks: Manage Webhooks
+        manage_webhooks_description: Allows users to set up webhooks for administrative events
+        view_audit_log: View Audit Log
+        view_audit_log_description: Allows users to see a history of administrative actions on the server
+        view_dashboard: View Dashboard
+        view_dashboard_description: Allows users to access the dashboard and various metrics
         view_devops: DevOps
-        view_devops_description: Memungkinkan pengguna untuk mengakses dasbor Sidekiq dan pgHero
-      title: Peran
+        view_devops_description: Allows users to access Sidekiq and pgHero dashboards
+      title: Roles
     rules:
-      add_new: Tambah aturan
-      delete: Hapus
-      description_html: Saat kebanyakan mengklaim sudah membaca dan menyetujui ketentuan layanan, biasanya orang-orang tidak membacanya sampai masalah muncul. <strong>Lebih mudah melihat sepintas aturan server Anda dengan menampilkannya dalam daftar bulatan</strong>. Coba buat aturan individu sependek dan sesederhana mungkin, tapi coba jangan memisahkannya ke dalam item terpisah yang sangat banyak.
-      edit: Edit aturan
-      empty: Belum ada aturan server yang didefinisikan.
-      title: Aturan server
+      add_new: Add rule
+      delete: Delete
+      description_html: While most claim to have read and agree to the terms of service, usually people do not read through until after a problem arises. <strong>Make it easier to see your server's rules at a glance by providing them in a flat bullet point list.</strong> Try to keep individual rules short and simple, but try not to split them up into many separate items either.
+      edit: Edit rule
+      empty: No server rules have been defined yet.
+      title: Server rules
     settings:
       about:
-        manage_rules: Kelola aturan server
-        preamble: Menyediakan informasi lanjut tentang bagaimana server ini beroperasi, dimoderasi, dan didana.
-        rules_hint: Ada area yang khusus untuk peraturan yang pengguna Anda seharusnya tahu.
-        title: Tentang
+        manage_rules: Manage server rules
+        preamble: Provide in-depth information about how the server is operated, moderated, funded.
+        rules_hint: There is a dedicated area for rules that your users are expected to adhere to.
+        title: About
       appearance:
-        preamble: Ubah antarmuka web Mastodon.
-        title: Tampilan
+        preamble: Customize Mastodon's web interface.
+        title: Appearance
       branding:
-        preamble: Merek server Anda membedakannya dari server lain dalam jaringan. Informasi ini dapat ditampilkan dalam berbagai lingkungan, seperti antarmuka web Mastodon, aplikasi asli, dalam tampilan tautan di situs web lain dan dalam aplikasi perpesanan, dan lain-lain. Untuk alasan ini, buat informasi ini jelas, pendek, dan tidak bertele-tele.
-        title: Merek
+        preamble: Your server's branding differentiates it from other servers in the network. This information may be displayed across a variety of environments, such as Mastodon's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
+        title: Branding
       content_retention:
-        preamble: Atur bagaimana konten yang dibuat oleh pengguna disimpan di Mastodon.
-        title: Retensi konten
+        preamble: Control how user-generated content is stored in Mastodon.
+        title: Content retention
       default_noindex:
-        desc_html: Memengaruhi semua pengguna yang belum mengubah pengaturan ini sendiri
-        title: Keluarkan pengguna dari pengindeksan mesin telusur secara bawaan
+        desc_html: Affects all users who have not changed this setting themselves
+        title: Opt users out of search engine indexing by default
       discovery:
-        follow_recommendations: Ikuti rekomendasi
-        preamble: Menampilkan konten menarik penting dalam memandu pengguna baru yang mungkin tidak tahu siapa pun di Mastodon. Atur bagaimana berbagai fitur penemuan bekerja di server Anda.
-        profile_directory: Direktori profil
-        public_timelines: Linimasa publik
-        title: Penemuan
-        trends: Tren
+        follow_recommendations: Follow recommendations
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Mastodon. Control how various discovery features work on your server.
+        profile_directory: Profile directory
+        public_timelines: Public timelines
+        publish_discovered_servers: Publish discovered servers
+        publish_statistics: Publish statistics
+        title: Discovery
+        trends: Trends
       domain_blocks:
-        all: Kepada semua orang
-        disabled: Tidak kepada siapa pun
-        users: Ke pengguna lokal yang sudah login
+        all: To everyone
+        disabled: To no one
+        users: To logged-in local users
       registrations:
-        preamble: Atur siapa yang dapat membuat akun di server Anda.
-        title: Pendaftaran
+        preamble: Control who can create an account on your server.
+        title: Registrations
       registrations_mode:
         modes:
-          approved: Persetujuan diperlukan untuk mendaftar
-          none: Tidak ada yang dapat mendaftar
-          open: Siapa pun dapat mendaftar
-      title: Pengaturan Server
+          approved: Approval required for sign up
+          none: Nobody can sign up
+          open: Anyone can sign up
+      title: Server Settings
     site_uploads:
-      delete: Hapus berkas yang diunggah
-      destroyed_msg: Situs yang diunggah berhasil dihapus!
+      delete: Delete uploaded file
+      destroyed_msg: Site upload successfully deleted!
     statuses:
-      account: Penulis
-      application: Aplikasi
-      back_to_account: Kembali ke halaman akun
-      back_to_report: Kembali ke halaman laporan
+      account: Author
+      application: Application
+      back_to_account: Back to account page
+      back_to_report: Back to report page
       batch:
-        remove_from_report: Hapus dari laporan
-        report: Laporan
-      deleted: Dihapus
-      favourites: Favorit
-      history: Riwayat versi
-      in_reply_to: Membalas ke
-      language: Bahasa
+        remove_from_report: Remove from report
+        report: Report
+      deleted: Deleted
+      favourites: Favourites
+      history: Version history
+      in_reply_to: Replying to
+      language: Language
       media:
         title: Media
       metadata: Metadata
-      no_status_selected: Tak ada status yang berubah karena tak ada yang dipilih
-      open: Buka kiriman
-      original_status: Kiriman asli
-      reblogs: Reblog
-      status_changed: Kiriman diubah
-      title: Status akun
-      trending: Sedang tren
-      visibility: Visibilitas
-      with_media: Dengan media
+      no_status_selected: No posts were changed as none were selected
+      open: Open post
+      original_status: Original post
+      reblogs: Reblogs
+      status_changed: Post changed
+      title: Account posts
+      trending: Trending
+      visibility: Visibility
+      with_media: With media
     strikes:
       actions:
-        delete_statuses: "%{name} menghapus kiriman %{target}"
-        disable: "%{name} membekukan akun %{target}"
-        mark_statuses_as_sensitive: "%{name} menandai kiriman %{target} sebagai sensitif"
-        none: "%{name} mengirim peringatan ke %{target}"
-        sensitive: "%{name} menandai akun %{target} sebagai sensitif"
-        silence: "%{name} membatasi akun %{target}"
-        suspend: "%{name} menangguhkan akun %{target}"
-      appeal_approved: Banding disetujui
-      appeal_pending: Banding ditunda
+        delete_statuses: "%{name} deleted %{target}'s posts"
+        disable: "%{name} froze %{target}'s account"
+        mark_statuses_as_sensitive: "%{name} marked %{target}'s posts as sensitive"
+        none: "%{name} sent a warning to %{target}"
+        sensitive: "%{name} marked %{target}'s account as sensitive"
+        silence: "%{name} limited %{target}'s account"
+        suspend: "%{name} suspended %{target}'s account"
+      appeal_approved: Appealed
+      appeal_pending: Appeal pending
+      appeal_rejected: Appeal rejected
     system_checks:
       database_schema_check:
-        message_html: Ada proses migrasi basis data tertunda. Silakan jalankan untuk memastikan aplikasi bekerja seperti yang diharapkan
+        message_html: There are pending database migrations. Please run them to ensure the application behaves as expected
       elasticsearch_running_check:
-        message_html: Tidak dapat tersambung ke Elasticsearch. Pastikan itu berjalan, atau nonaktifkan pencarian teks penuh
+        message_html: Could not connect to Elasticsearch. Please check that it is running, or disable full-text search
       elasticsearch_version_check:
-        message_html: 'Versi Elasticsearch tidak kompatibel: %{value}'
-        version_comparison: Elasticsearch %{running_version} sedang berjalan, sementara yang diwajibkan adalah %{required_version}
+        message_html: 'Incompatible Elasticsearch version: %{value}'
+        version_comparison: Elasticsearch %{running_version} is running while %{required_version} is required
       rules_check:
-        action: Kelola aturan server
-        message_html: Anda belum menentukan aturan server apapun.
+        action: Manage server rules
+        message_html: You haven't defined any server rules.
       sidekiq_process_check:
-        message_html: Tidak ada proses Sidekiq yang berjalan untuk %{value} antrian. Silakan tinjau konfigurasi Sidekiq Anda
+        message_html: No Sidekiq process running for the %{value} queue(s). Please review your Sidekiq configuration
     tags:
-      review: Tinjau status
-      updated_msg: Pembaruan pengaturan tagar berhasil
-    title: Administrasi
+      review: Review status
+      updated_msg: Hashtag settings updated successfully
+    title: Administration
     trends:
-      allow: Izinkan
-      approved: Disetujui
-      disallow: Batalkan izin
+      allow: Allow
+      approved: Approved
+      disallow: Disallow
       links:
-        allow: Izinkan tautan
-        allow_provider: Izinkan penerbit
-        description_html: Ini adalah tautan yang saat ini dibagikan oleh banyak akun yang dapat dilihat dari server Anda. Ini dapat membantu pengguna Anda menemukan apa yang sedang terjadi di dunia. Tidak ada tautan yang ditampilkan secara publik kecuali Anda sudah menyetujui pengirimnya. Anda juga dapat mengizinkan atau menolak tautan individu.
-        disallow: Batalkan izin tautan
-        disallow_provider: Batalkan izin penerbit
-        no_link_selected: Tidak ada tautan yang diubah karena tidak ada yang dipilih
+        allow: Allow link
+        allow_provider: Allow publisher
+        description_html: These are links that are currently being shared a lot by accounts that your server sees posts from. It can help your users find out what's going on in the world. No links are displayed publicly until you approve the publisher. You can also allow or reject individual links.
+        disallow: Disallow link
+        disallow_provider: Disallow publisher
+        no_link_selected: No links were changed as none were selected
         publishers:
-          no_publisher_selected: Tidak ada penerbit yang diubah karena tidak ada yang dipilih
+          no_publisher_selected: No publishers were changed as none were selected
         shared_by_over_week:
-          other: Dibagikan oleh %{count} orang selama seminggu terakhir
-        title: Tautan sedang tren
-        usage_comparison: Dibagikan %{today} kali hari ini, dibandingkan %{yesterday} kemarin
-      only_allowed: Yang diizinkan saja
-      pending_review: Tinjauan tertunda
+          other: Shared by %{count} people over the last week
+        title: Trending links
+        usage_comparison: Shared %{today} times today, compared to %{yesterday} yesterday
+      not_allowed_to_trend: Not allowed to trend
+      only_allowed: Only allowed
+      pending_review: Pending review
       preview_card_providers:
-        allowed: Tautan dari penerbit ini dapat menjadi tren
-        description_html: Ini adalah domain yang tautannya sering dibagikan di server Anda. Tautan tidak akan menjadi tren secara publik kecuali domain dari tautan tersebut disetujui. Persetujuan (atau penolakan) Anda mempengaruhi subdomain.
-        rejected: Tautan dari penerbit ini tidak dapat menjadi tren
-        title: Penerbit
-      rejected: Ditolak
+        allowed: Links from this publisher can trend
+        description_html: These are domains from which links are often shared on your server. Links will not trend publicly unless the domain of the link is approved. Your approval (or rejection) extends to subdomains.
+        rejected: Links from this publisher won't trend
+        title: Publishers
+      rejected: Rejected
       statuses:
-        allow: Izinkan kiriman
-        allow_account: Izinkan penulis
-        description_html: Ini adalah kiriman yang diketahui server Anda yang kini sedang dibagikan dan difavoritkan banyak akun. Ini akan membantu pengguna baru dan lama Anda menemukan lebih banyak orang untuk diikuti. Tidak ada kiriman yang ditampilkan secara publik kecuali jika sudah disetujui pemilik akun, dan pemilik akun mengizinkan akun mereka disarankan untuk orang lain. Anda juga dapat mengizinkan atau menolak kiriman individu.
-        disallow: Jangan beri izin kiriman
-        disallow_account: Jangan beri izin penulis
-        no_status_selected: Tidak ada kiriman yang sedang tren karena tidak ada yang dipilih
-        not_discoverable: Pemilik akun memilih untuk tidak dapat ditemukan
+        allow: Allow post
+        allow_account: Allow author
+        description_html: These are posts that your server knows about that are currently being shared and favourited a lot at the moment. It can help your new and returning users to find more people to follow. No posts are displayed publicly until you approve the author, and the author allows their account to be suggested to others. You can also allow or reject individual posts.
+        disallow: Disallow post
+        disallow_account: Disallow author
+        no_status_selected: No trending posts were changed as none were selected
+        not_discoverable: Author has not opted-in to being discoverable
         shared_by:
-          other: Dibagikan dan difavoritkan %{friendly_count} kali
-        title: Kiriman yang sedang tren
+          other: Shared and favourited %{friendly_count} times
+        title: Trending posts
       tags:
-        current_score: Skor saat ini %{score}
+        current_score: Current score %{score}
         dashboard:
-          tag_accounts_measure: kegunaan unik
-          tag_languages_dimension: Bahasa terpopuler
-          tag_servers_dimension: Server terpopuler
-          tag_servers_measure: server berbeda
-          tag_uses_measure: kegunaan total
-        description_html: Ini adalah tagar yang kini sedang muncul di banyak kiriman yang dapat dilihat server Anda. Ini dapat membantu pengguna Anda menemukan apa yang sedang dibicarakan banyak orang. Tagar tidak akan ditampilkan secara publik kecuali jika Anda mengizinkannya.
-        listable: Dapat disarankan
-        no_tag_selected: Tidak ada tag yang diubah karena tidak ada yang dipilih
-        not_listable: Tidak akan disarankan
-        not_trendable: Tidak akan muncul di bawah tren
-        not_usable: Tidak dapat digunakan
-        peaked_on_and_decaying: Populer pada %{date}, kini mulai turun
-        title: Tagar sedang tren
-        trendable: Dapat muncul di bawah tren
-        trending_rank: 'Sedang tren #%{rank}'
-        usable: Dapat digunakan
-        usage_comparison: Digunakan %{today} kali hari ini, dibandingkan %{yesterday} kemarin
+          tag_accounts_measure: unique uses
+          tag_languages_dimension: Top languages
+          tag_servers_dimension: Top servers
+          tag_servers_measure: different servers
+          tag_uses_measure: total uses
+        description_html: These are hashtags that are currently appearing in a lot of posts that your server sees. It can help your users find out what people are talking the most about at the moment. No hashtags are displayed publicly until you approve them.
+        listable: Can be suggested
+        no_tag_selected: No tags were changed as none were selected
+        not_listable: Won't be suggested
+        not_trendable: Won't appear under trends
+        not_usable: Cannot be used
+        peaked_on_and_decaying: Peaked on %{date}, now decaying
+        title: Trending hashtags
+        trendable: Can appear under trends
+        trending_rank: 'Trending #%{rank}'
+        usable: Can be used
+        usage_comparison: Used %{today} times today, compared to %{yesterday} yesterday
         used_by_over_week:
-          other: Digunakan oleh %{count} orang selama seminggu terakhir
-      title: Tren
-      trending: Sedang tren
+          other: Used by %{count} people over the last week
+      title: Trends
+      trending: Trending
     warning_presets:
-      add_new: Tambah baru
-      delete: Hapus
-      edit_preset: Sunting preset peringatan
-      empty: Anda belum mendefinisikan peringatan apapun.
-      title: Kelola preset peringatan
+      add_new: Add new
+      delete: Delete
+      edit_preset: Edit warning preset
+      empty: You haven't defined any warning presets yet.
+      title: Manage warning presets
     webhooks:
-      add_new: Tambah titik akhir
-      delete: Hapus
-      description_html: Sebuah <strong>webhook</strong> memungkinkan Mastodon untuk mengirim <strong>notifikasi dalam waktu nyata</strong> tentang peristiwa yang dipilih ke aplikasi Anda sendiri, sehingga aplikasi Anda dapat <strong>memicu reaksi secara otomatis</strong>.
-      disable: Matikan
-      disabled: Nonaktif
-      edit: Edit titik akhir
-      empty: Anda belum memiliki titik akhir webhook yang diatur.
-      enable: Aktifkan
-      enabled: Aktif
+      add_new: Add endpoint
+      delete: Delete
+      description_html: A <strong>webhook</strong> enables Mastodon to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
+      disable: Disable
+      disabled: Disabled
+      edit: Edit endpoint
+      empty: You don't have any webhook endpoints configured yet.
+      enable: Enable
+      enabled: Active
       enabled_events:
-        other: "%{count} acara aktif"
-      events: Acara
-      new: Webhook baru
-      rotate_secret: Buat ulang rahasia
-      secret: Rahasia penandatanganan
+        other: "%{count} enabled events"
+      events: Events
+      new: New webhook
+      rotate_secret: Rotate secret
+      secret: Signing secret
       status: Status
-      title: Webhook
+      title: Webhooks
       webhook: Webhook
   admin_mailer:
     new_appeal:
       actions:
-        delete_statuses: untuk menghapus kiriman mereka
-        disable: untuk membekukan akun mereka
-        mark_statuses_as_sensitive: untuk menandai kiriman sebagai sensitif
-        none: peringatan
-        sensitive: untuk menandai akun mereka sebagai sensitif
-        silence: untuk membatasi akun mereka
-        suspend: untuk menangguhkan akun mereka
-      body: "%{target} melakukan banding keputusan moderasi oleh %{action_taken_by} dari %{date}, yang %{type}. Mereka menulis:"
-      next_steps: Anda dapat menyetujui banding untuk mengurungkan keputusan moderasi atau mengabaikannya.
-      subject: "%{username} melakukan banding keputusan moderasi di %{instance}"
+        delete_statuses: to delete their posts
+        disable: to freeze their account
+        mark_statuses_as_sensitive: to mark their posts as sensitive
+        none: a warning
+        sensitive: to mark their account as sensitive
+        silence: to limit their account
+        suspend: to suspend their account
+      body: "%{target} is appealing a moderation decision by %{action_taken_by} from %{date}, which was %{type}. They wrote:"
+      next_steps: You can approve the appeal to undo the moderation decision, or ignore it.
+      subject: "%{username} is appealing a moderation decision on %{instance}"
     new_pending_account:
-      body: Detail akun baru di bawah. Anda dapat menyetujui atau menolak lamaran ini.
-      subject: Akun baru muncul untuk ditinjau di %{instance} (%{username})
+      body: The details of the new account are below. You can approve or reject this application.
+      subject: New account up for review on %{instance} (%{username})
     new_report:
-      body: "%{reporter} telah melaporkan %{target}"
-      body_remote: Seseorang dari %{domain} telah melaporkan %{target}
-      subject: Laporan baru untuk %{instance} (#%{id})
+      body: "%{reporter} has reported %{target}"
+      body_remote: Someone from %{domain} has reported %{target}
+      subject: 'New report for %{instance} (#%{id})'
     new_trends:
-      body: 'Item berikut harus ditinjau sebelum ditampilkan secara publik:'
+      body: 'The following items need a review before they can be displayed publicly:'
       new_trending_links:
-        title: Tautan sedang tren
+        title: Trending links
       new_trending_statuses:
-        title: Kiriman yang sedang tren
+        title: Trending posts
       new_trending_tags:
-        no_approved_tags: Saat ini tidak ada tagar tren yang disetujui.
-        requirements: 'Kandidat yang ada di sini bisa saja melewati peringkat #%{rank} tagar sedang tren yang disetujui, yang kini #%{lowest_tag_name} memiliki nilai %{lowest_tag_score}.'
-        title: Tagar sedang tren
-      subject: Tren baru yang perlu ditinjau di %{instance}
+        no_approved_tags: There are currently no approved trending hashtags.
+        requirements: 'Any of these candidates could surpass the #%{rank} approved trending hashtag, which is currently #%{lowest_tag_name} with a score of %{lowest_tag_score}.'
+        title: Trending hashtags
+      subject: New trends up for review on %{instance}
   aliases:
-    add_new: Buat alias
-    created_msg: Berhasil membuat alias baru. Sekarang Anda dapat memulai pindah dari akun lama.
-    deleted_msg: Berhasil menghapus alias. Pindah dari akun tersebut ke sini tidak akan lagi bisa dilakukan.
-    empty: Anda tidak memiliki alias.
-    hint_html: Jika Anda ingin pindah dari akun lain ke sini, Anda dapat membuat alias, yang dilakukan sebelum Anda setuju dengan memindah pengikut dari akun lama ke akun sini. Aksi ini <strong>tidak berbahaya dan tidak bisa dikembalikan</strong>. <strong>Pemindahan akun dimulai dari akun lama</strong>.
-    remove: Hapus tautan alias
+    add_new: Create alias
+    created_msg: Successfully created a new alias. You can now initiate the move from the old account.
+    deleted_msg: Successfully removed the alias. Moving from that account to this one will no longer be possible.
+    empty: You have no aliases.
+    hint_html: If you want to move from another account to this one, here you can create an alias, which is required before you can proceed with moving followers from the old account to this one. This action by itself is <strong>harmless and reversible</strong>. <strong>The account migration is initiated from the old account</strong>.
+    remove: Unlink alias
   appearance:
-    advanced_web_interface: Antarmuka web tingkat lanjut
-    advanced_web_interface_hint: 'Jika Anda ingin memanfaatkan seluruh lebar layar Anda, antarmuka web tingkat lanjut memungkinkan Anda mengonfigurasi beragam kolom untuk menampilkan informasi sebanyak yang Anda inginkan: Beranda, notifikasi, linimasa gabungan, daftar, dan tagar.'
-    animations_and_accessibility: Animasi dan aksesibilitas
-    confirmation_dialogs: Dialog konfirmasi
-    discovery: Jelajah
+    advanced_web_interface: Advanced web interface
+    advanced_web_interface_hint: 'If you want to make use of your entire screen width, the advanced web interface allows you to configure many different columns to see as much information at the same time as you want: Home, notifications, federated timeline, any number of lists and hashtags.'
+    animations_and_accessibility: Animations and accessibility
+    confirmation_dialogs: Confirmation dialogs
+    discovery: Discovery
     localization:
-      body: Mastodon diterjemahkan oleh sukarelawan.
+      body: Mastodon is translated by volunteers.
       guide_link: https://crowdin.com/project/mastodon
-      guide_link_text: Siapa saja bisa berkontribusi.
-    sensitive_content: Konten sensitif
-    toot_layout: Tata letak kiriman
+      guide_link_text: Everyone can contribute.
+    sensitive_content: Sensitive content
+    toot_layout: Post layout
   application_mailer:
-    notification_preferences: Ubah pilihan email
+    notification_preferences: Change e-mail preferences
     salutation: "%{name},"
-    settings: 'Ubah pilihan email: %{link}'
-    view: 'Tampilan:'
-    view_profile: Lihat profil
-    view_status: Lihat status
+    settings: 'Change e-mail preferences: %{link}'
+    view: 'View:'
+    view_profile: View profile
+    view_status: View post
   applications:
-    created: Aplikasi berhasil dibuat
-    destroyed: Aplikasi berhasil dihapus
-    regenerate_token: Buat ulang token akses
-    token_regenerated: Token akses berhasil dibuat ulang
-    warning: Hati-hati dengan data ini. Jangan bagikan kepada siapapun!
-    your_token: Token akses Anda
+    created: Application successfully created
+    destroyed: Application successfully deleted
+    logout: Logout
+    regenerate_token: Regenerate access token
+    token_regenerated: Access token successfully regenerated
+    warning: Be very careful with this data. Never share it with anyone!
+    your_token: Your access token
   auth:
-    apply_for_account: Permintaan akun
-    change_password: Kata sandi
-    delete_account: Hapus akun
-    delete_account_html: Jika Anda ingin menghapus akun Anda, Anda dapat <a href="%{path}">memproses ini</a>. Anda akan dikonfirmasi.
+    apply_for_account: Request an account
+    change_password: Password
+    confirmations:
+      wrong_email_hint: If that e-mail address is not correct, you can change it in account settings.
+    delete_account: Delete account
+    delete_account_html: If you wish to delete your account, you can <a href="%{path}">proceed here</a>. You will be asked for confirmation.
     description:
-      prefix_invited_by_user: "@%{name} mengundang Anda untuk bergabung di server Mastodon ini!"
-      prefix_sign_up: Daftar ke Mastodon hari ini!
-      suffix: Dengan sebuah akun, Anda dapat mengikuti orang, mengirim pembaruan, dan bertukar pesan dengan pengguna dari server Mastodon mana pun dan lainnya!
-    didnt_get_confirmation: Tidak menerima petunjuk konfirmasi?
-    dont_have_your_security_key: Tidak memiliki kunci keamanan?
-    forgot_password: Lupa kata sandi?
-    invalid_reset_password_token: Token reset kata sandi tidak valid atau kedaluwarsa. Silakan minta yang baru.
-    link_to_otp: Masukkan kode dua-faktor dari ponsel Anda atau dari kode pemulihan
-    link_to_webauth: Gunakan perangkat kunci keamanan Anda
-    log_in_with: Masuk dengan
-    login: Masuk
-    logout: Keluar
-    migrate_account: Pindah ke akun berbeda
-    migrate_account_html: Jika Anda ingin mengalihkan akun ini ke akun lain, Anda dapat <a href="%{path}">mengaturnya di sini</a>.
-    or_log_in_with: Atau masuk dengan
-    privacy_policy_agreement_html: Saya telah membaca dan menerima <a href="%{privacy_policy_path}" target="_blank">kebijakan privasi</a>
+      prefix_invited_by_user: "@%{name} invites you to join this server of Mastodon!"
+      prefix_sign_up: Sign up on Mastodon today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any Mastodon server and more!
+    didnt_get_confirmation: Didn't receive confirmation instructions?
+    dont_have_your_security_key: Don't have your security key?
+    forgot_password: Forgot your password?
+    invalid_reset_password_token: Password reset token is invalid or expired. Please request a new one.
+    link_to_otp: Enter a two-factor code from your phone or a recovery code
+    link_to_webauth: Use your security key device
+    log_in_with: Log in with
+    login: Log in
+    logout: Logout
+    migrate_account: Move to a different account
+    migrate_account_html: If you wish to redirect this account to a different one, you can <a href="%{path}">configure it here</a>.
+    or_log_in_with: Or log in with
+    privacy_policy_agreement_html: I have read and agree to the <a href="%{privacy_policy_path}" target="_blank">privacy policy</a>
     providers:
       cas: CAS
       saml: SAML
-    register: Daftar
-    registration_closed: "%{instance} tidak menerima anggota baru"
-    resend_confirmation: Kirim ulang email konfirmasi
-    reset_password: Reset kata sandi
+    register: Sign up
+    registration_closed: "%{instance} is not accepting new members"
+    resend_confirmation: Resend confirmation instructions
+    reset_password: Reset password
     rules:
-      preamble: Ini diatur dan ditetapkan oleh moderator %{domain}.
-      title: Beberapa aturan dasar.
-    security: Identitas
-    set_new_password: Tentukan kata sandi baru
+      accept: Accept
+      back: Back
+      preamble: These are set and enforced by the %{domain} moderators.
+      title: Some ground rules.
+    security: Security
+    set_new_password: Set new password
     setup:
-      email_below_hint_html: Jika alamat email di bawah tidak benar, Anda dapat menggantinya di sini dan menerima email konfirmasi baru.
-      email_settings_hint_html: Email konfirmasi telah dikirim ke %{email}. Jika alamat email tidak benar, Anda dapat mengubahnya di pengaturan akun.
-      title: Atur
+      email_below_hint_html: If the below e-mail address is incorrect, you can change it here and receive a new confirmation e-mail.
+      email_settings_hint_html: The confirmation e-mail was sent to %{email}. If that e-mail address is not correct, you can change it in account settings.
+      title: Setup
     sign_in:
-      title: Masuk ke %{domain}
+      preamble_html: Sign in with your <strong>%{domain}</strong> credentials. If your account is hosted on a different server, you will not be able to log in here.
+      title: Sign in to %{domain}
     sign_up:
-      preamble: Dengan sebuah akun di server Mastodon ini, Anda akan dapat mengikuti orang lain dalam jaringan, di mana pun akun mereka berada.
-      title: Mari kita siapkan Anda di %{domain}.
+      preamble: With an account on this Mastodon server, you'll be able to follow any other person on the network, regardless of where their account is hosted.
+      title: Let's get you set up on %{domain}.
     status:
-      account_status: Status akun
-      confirming: Menunggu konfirmasi email diselesaikan.
-      functional: Akun Anda kini beroperasi penuh.
-      pending: Permintaan Anda sedang ditinjau oleh staf kami. Ini mungkin butuh beberapa waktu. Anda akan menerima email jika permintaan Anda diterima.
-      redirecting_to: Akun Anda tidak aktif karena sekarang dialihkan ke %{acct}.
-      view_strikes: Lihat hukuman lalu yang pernah terjadi kepada akun Anda
-    too_fast: Formulir dikirim terlalu cepat, coba lagi.
-    use_security_key: Gunakan kunci keamanan
+      account_status: Account status
+      confirming: Waiting for e-mail confirmation to be completed.
+      functional: Your account is fully operational.
+      pending: Your application is pending review by our staff. This may take some time. You will receive an e-mail if your application is approved.
+      redirecting_to: Your account is inactive because it is currently redirecting to %{acct}.
+      view_strikes: View past strikes against your account
+    too_fast: Form submitted too fast, try again.
+    use_security_key: Use security key
   authorize_follow:
-    already_following: Anda sudah mengikuti akun ini
-    already_requested: Anda sudah mengirimkan permintaan untuk mengikuti akun tersebut
-    error: Sayangnya, ada error saat melihat akun remote
-    follow: Ikuti
-    follow_request: 'Anda telah mengirim permintaan untuk mengikuti ke:'
-    following: 'Berhasil! Anda sekarang mengikuti:'
+    already_following: You are already following this account
+    already_requested: You have already sent a follow request to that account
+    error: Unfortunately, there was an error looking up the remote account
+    follow: Follow
+    follow_request: 'You have sent a follow request to:'
+    following: 'Success! You are now following:'
     post_follow:
-      close: Atau Anda dapat menutup jendela ini.
-      return: Tampilkan profil pengguna
-      web: Ke web
-    title: Mengikuti %{acct}
+      close: Or, you can just close this window.
+      return: Show the user's profile
+      web: Go to web
+    title: Follow %{acct}
   challenge:
-    confirm: Lanjut
-    hint_html: "<strong>Tip:</strong> Kami tidak akan meminta kata sandi Anda lagi untuk beberapa jam ke depan."
-    invalid_password: Kata sandi tidak valid
-    prompt: Konfirmasi kata sandi untuk melanjutkan
+    confirm: Continue
+    hint_html: "<strong>Tip:</strong> We won't ask you for your password again for the next hour."
+    invalid_password: Invalid password
+    prompt: Confirm password to continue
   crypto:
     errors:
-      invalid_key: bukan kunci Ed25519 atau Curve25519 yang valid
-      invalid_signature: bukan tanda tangan Ed25519 yang valid
+      invalid_key: is not a valid Ed25519 or Curve25519 key
+      invalid_signature: is not a valid Ed25519 signature
   date:
     formats:
-      default: "%d %b %Y"
-      with_month_name: "%d %B %Y"
+      default: "%b %d, %Y"
+      with_month_name: "%B %d, %Y"
   datetime:
     distance_in_words:
-      about_x_hours: "%{count}j"
-      about_x_months: "%{count}bln"
-      about_x_years: "%{count}thn"
-      almost_x_years: "%{count}thn"
-      half_a_minute: Baru saja
-      less_than_x_minutes: "%{count}mnt"
-      less_than_x_seconds: Baru saja
-      over_x_years: "%{count}thn"
-      x_days: "%{count}hari"
-      x_minutes: "%{count}mnt"
-      x_months: "%{count}bln"
-      x_seconds: "%{count}dtk"
+      about_x_hours: "%{count}h"
+      about_x_months: "%{count}mo"
+      about_x_years: "%{count}y"
+      almost_x_years: "%{count}y"
+      half_a_minute: Just now
+      less_than_x_minutes: "%{count}m"
+      less_than_x_seconds: Just now
+      over_x_years: "%{count}y"
+      x_days: "%{count}d"
+      x_minutes: "%{count}m"
+      x_months: "%{count}mo"
+      x_seconds: "%{count}s"
   deletes:
-    challenge_not_passed: Informasi yang Anda masukkan salah
-    confirm_password: Masukkan kata sandi sekarang untuk memverifikasi identitas Anda
-    confirm_username: Masukkan nama pengguna untuk mengonfirmasi prosedur
-    proceed: Hapus akun
-    success_msg: Akun Anda berhasil dihapus
+    challenge_not_passed: The information you entered was not correct
+    confirm_password: Enter your current password to verify your identity
+    confirm_username: Enter your username to confirm the procedure
+    proceed: Delete account
+    success_msg: Your account was successfully deleted
     warning:
-      before: 'Sebelum melanjutkan, silakan baca catatan ini dengan hati-hati:'
-      caches: Konten yang telah tersimpan di server lain mungkin akan tetap di sana
-      data_removal: Kiriman Anda dan data lainnya akan dihapus secara permanen
-      email_change_html: Anda dapat <a href="%{path}">mengubah alamat email Anda</a> tanpa perlu menghapus akun
-      email_contact_html: Jika pesan belum diterima, Anda dapat mengirim email ke <a href="mailto:%{email}">%{email}</a> untuk mencari bantuan
-      email_reconfirmation_html: Jika Anda tidak menerima email konfirmasi, <a href="%{path}">Anda dapat memintanya lagi</a>
-      irreversible: Anda tidak akan bisa lagi mengembalikan atau mengaktifkan kembali akun Anda
-      more_details_html: Lebih detailnya, lihat <a href="%{terms_path}">kebijakan privasi</a>.
-      username_available: Nama pengguna Anda akan tersedia lagi
-      username_unavailable: Nama pengguna Anda tetap tidak akan tersedia
+      before: 'Before proceeding, please read these notes carefully:'
+      caches: Content that has been cached by other servers may persist
+      data_removal: Your posts and other data will be permanently removed
+      email_change_html: You can <a href="%{path}">change your e-mail address</a> without deleting your account
+      email_contact_html: If it still doesn't arrive, you can e-mail <a href="mailto:%{email}">%{email}</a> for help
+      email_reconfirmation_html: If you are not receiving the confirmation e-mail, you can <a href="%{path}">request it again</a>
+      irreversible: You will not be able to restore or reactivate your account
+      more_details_html: For more details, see the <a href="%{terms_path}">privacy policy</a>.
+      username_available: Your username will become available again
+      username_unavailable: Your username will remain unavailable
   disputes:
     strikes:
-      action_taken: Tindakan dilaksanakan
-      appeal: Banding
-      appeal_approved: Peringatan ini digagalkan dalam banding dan tidak lagi valid
-      appeal_rejected: Banding telah ditolak
-      appeal_submitted_at: Banding dikirimkan
-      appealed_msg: Banding Anda sudah dikirim. Jika disetujui, Anda akan diberi tahu.
+      action_taken: Action taken
+      appeal: Appeal
+      appeal_approved: This strike has been successfully appealed and is no longer valid
+      appeal_rejected: The appeal has been rejected
+      appeal_submitted_at: Appeal submitted
+      appealed_msg: Your appeal has been submitted. If it is approved, you will be notified.
       appeals:
-        submit: Ajukan banding
-      approve_appeal: Setujui banding
-      associated_report: Laporan yang berkaitan
-      created_at: Tanggal
-      description_html: Ini adalah tindakan yang dilakukan terhadap akun Anda dan peringatan telah dikirim oleh staf %{instance}.
-      recipient: Dialamatkan untuk
-      reject_appeal: Tolak banding
-      status: 'Kiriman #%{id}'
-      status_removed: Kirim sudah dihapus dari sistem
-      title: "%{action} dari %{date}"
+        submit: Submit appeal
+      approve_appeal: Approve appeal
+      associated_report: Associated report
+      created_at: Dated
+      description_html: These are actions taken against your account and warnings that have been sent to you by the staff of %{instance}.
+      recipient: Addressed to
+      reject_appeal: Reject appeal
+      status: 'Post #%{id}'
+      status_removed: Post already removed from system
+      title: "%{action} from %{date}"
       title_actions:
-        delete_statuses: Penghapusan kiriman
-        disable: Pembekuan akun
-        mark_statuses_as_sensitive: Tandai kiriman sebagai sensitif
-        none: Peringatan
-        sensitive: Tandai akun sebagai sensitif
-        silence: Pembatasan akun
-        suspend: Penangguhan akun
-      your_appeal_approved: Banding Anda disetujui
-      your_appeal_pending: Anda telah mengirim banding
-      your_appeal_rejected: Banding Anda ditolak
+        delete_statuses: Post removal
+        disable: Freezing of account
+        mark_statuses_as_sensitive: Marking of posts as sensitive
+        none: Warning
+        sensitive: Marking of account as sensitive
+        silence: Limitation of account
+        suspend: Suspension of account
+      your_appeal_approved: Your appeal has been approved
+      your_appeal_pending: You have submitted an appeal
+      your_appeal_rejected: Your appeal has been rejected
   domain_validator:
-    invalid_domain: bukan nama domain yang valid
+    invalid_domain: is not a valid domain name
   errors:
-    '400': Permintaan yang dikirim tidak valid atau cacat.
-    '403': Anda tidak mempunyai izin untuk melihat halaman ini.
-    '404': Halaman yang anda cari tidak ditemukan
-    '406': Halaman ini tidak tersedia dalam format yang diminta.
-    '410': Halaman yang anda cari sudah tidak dapat ditemukan lagi.
+    '400': The request you submitted was invalid or malformed.
+    '403': You don't have permission to view this page.
+    '404': The page you are looking for isn't here.
+    '406': This page is not available in the requested format.
+    '410': The page you were looking for doesn't exist here anymore.
     '422':
-      content: Verifikasi keamanan gagal. Apa anda memblokir cookie?
-      title: Verifikasi keamanan gagal
-    '429': Lambat
+      content: Security verification failed. Are you blocking cookies?
+      title: Security verification failed
+    '429': Too many requests
     '500':
-      content: Maaf, ada sesuatu yang salah pada sistem kami.
-      title: Halaman ini tidak benar
-    '503': Halaman ini tidak dapat ditampilkan karena kegagalan server sementara.
-    noscript_html: Untuk menggunakan aplikasi web Mastodon, tolong aktifkan JavaScript. Sebagai alternatif, cobalah <a href="%{apps_path}">aplikasi murni</a> Mastodon untuk platform Anda.
+      content: We're sorry, but something went wrong on our end.
+      title: This page is not correct
+    '503': The page could not be served due to a temporary server failure.
+    noscript_html: To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the <a href="%{apps_path}">native apps</a> for Mastodon for your platform.
   existing_username_validator:
-    not_found: tidak dapat menemukan pengguna lokal dengan nama pengguna tersebut
-    not_found_multiple: tidak dapat menemukan %{usernames}
+    not_found: could not find a local user with that username
+    not_found_multiple: could not find %{usernames}
   exports:
     archive_takeout:
-      date: Tanggal
-      download: Unduh arsip Anda
-      hint_html: Anda dapat meminta arsip <strong>kiriman dan media yang Anda unggah</strong>. Data yang terekspor akan berformat ActivityPub, yang dapat dibaca dengan perangkat lunak yang mendukungnya. Anda dapat meminta arsip akun setiap 7 hari.
-      in_progress: Mengompilasi arsip Anda...
-      request: Meminta arsip Anda
-      size: Ukuran
-    blocks: Anda blokir
-    bookmarks: Markah
+      date: Date
+      download: Download your archive
+      hint_html: You can request an archive of your <strong>posts and uploaded media</strong>. The exported data will be in the ActivityPub format, readable by any compliant software. You can request an archive every 7 days.
+      in_progress: Compiling your archive...
+      request: Request your archive
+      size: Size
+    blocks: You block
+    bookmarks: Bookmarks
     csv: CSV
-    domain_blocks: Blokir domain
-    lists: Daftar
-    mutes: Anda bisukan
-    storage: Penyimpanan media
+    domain_blocks: Domain blocks
+    lists: Lists
+    mutes: You mute
+    storage: Media storage
   featured_tags:
-    add_new: Tambah baru
+    add_new: Add new
     errors:
-      limit: Anda sudah menampilkan tagar unggulan dengan jumlah maksimum
-    hint_html: "<strong>Apa itu tagar yang diunggulkan?</strong> Mereka ditampilkan secara mencolok di profil publik Anda dan mengizinkan orang-orang untuk menjelajahi kiriman publik khususnya yang ada di bawah tagar tersebut. Mereka adalah alat yang bagus untuk melacak pekerjaan kreatif atau proyek jangka panjang."
+      limit: You have already featured the maximum number of hashtags
+    hint_html: "<strong>What are featured hashtags?</strong> They are displayed prominently on your public profile and allow people to browse your public posts specifically under those hashtags. They are a great tool for keeping track of creative works or long-term projects."
   filters:
     contexts:
-      account: Profil
-      home: Beranda
-      notifications: Notifikasi
-      public: Linimasa publik
-      thread: Percakapan
+      account: Profiles
+      home: Home and lists
+      notifications: Notifications
+      public: Public timelines
+      thread: Conversations
     edit:
-      add_keyword: Tambahkan kata kunci
-      keywords: Kata kunci
-      statuses: Kiriman individu
-      statuses_hint_html: Saringan ini diterapkan beberapa kiriman individu jika mereka cocok atau tidak dengan kata kunci di bawah. <a href="%{path}">Tinjau atau hapus kiriman dari saringan</a>.
-      title: Ubah saringan
+      add_keyword: Add keyword
+      keywords: Keywords
+      statuses: Individual posts
+      statuses_hint_html: This filter applies to select individual posts regardless of whether they match the keywords below. <a href="%{path}">Review or remove posts from the filter</a>.
+      title: Edit filter
     errors:
-      deprecated_api_multiple_keywords: Parameter ini tidak dapat diubah dari aplikasi ini karena mereka diterapkan ke lebih dari satu kata kunci saringan. Gunakan aplikasi yang lebih baru atau antarmuka web.
-      invalid_context: Konteks tidak ada atau invalid
+      deprecated_api_multiple_keywords: These parameters cannot be changed from this application because they apply to more than one filter keyword. Use a more recent application or the web interface.
+      invalid_context: None or invalid context supplied
     index:
-      contexts: Saringan dalam %{contexts}
-      delete: Hapus
-      empty: Anda tidak memiliki filter.
-      expires_in: Kedaluwarsa dalam %{distance}
-      expires_on: Kedaluwarsa pada %{date}
+      contexts: Filters in %{contexts}
+      delete: Delete
+      empty: You have no filters.
+      expires_in: Expires in %{distance}
+      expires_on: Expires on %{date}
       keywords:
-        other: "%{count} kata kunci"
+        other: "%{count} keywords"
       statuses:
-        other: "%{count} kiriman"
+        other: "%{count} posts"
       statuses_long:
-        other: "%{count} kiriman individu disembunyikan"
-      title: Saringan
+        other: "%{count} individual posts hidden"
+      title: Filters
     new:
-      save: Simpan saringan baru
-      title: Tambah saringan baru
+      save: Save new filter
+      title: Add new filter
     statuses:
-      back_to_filter: Kembali ke saringan
+      back_to_filter: Back to filter
       batch:
-        remove: Hapus dari saringan
+        remove: Remove from filter
       index:
-        hint: Saringan ini diterapkan ke beberapa kiriman individu tanpa memengaruhi oleh kriteria lain. Anda dapat menambahkan lebih banyak kiriman ke saringan ini dari antarmuka web.
-        title: Kiriman yang disaring
+        hint: This filter applies to select individual posts regardless of other criteria. You can add more posts to this filter from the web interface.
+        title: Filtered posts
   footer:
-    trending_now: Sedang tren
+    trending_now: Trending now
   generic:
-    all: Semua
+    all: All
     all_items_on_page_selected_html:
-      other: "<strong>%{count}</strong> item di laman ini dipilih."
+      other: All <strong>%{count}</strong> items on this page are selected.
     all_matching_items_selected_html:
-      other: "<strong>%{count}</strong> item yang cocok dengan pencarian Anda dipilih."
-    changes_saved_msg: Perubahan berhasil disimpan!
-    copy: Salin
-    delete: Hapus
-    deselect: Batalkan semua pilihan
-    none: Tidak ada
-    order_by: Urut berdasarkan
-    save_changes: Simpan perubahan
+      other: All <strong>%{count}</strong> items matching your search are selected.
+    changes_saved_msg: Changes successfully saved!
+    copy: Copy
+    delete: Delete
+    deselect: Deselect all
+    none: None
+    order_by: Order by
+    save_changes: Save changes
     select_all_matching_items:
-      other: Pilih %{count} item yang cocok dengan pencarian Anda.
-    today: hari ini
+      other: Select all %{count} items matching your search.
+    today: today
     validation_errors:
-      other: Ada yang belum benar! Silakan tinjau %{count} kesalahan di bawah ini
+      other: Something isn't quite right yet! Please review %{count} errors below
   html_validator:
-    invalid_markup: 'berisi markup HTML yang tidak valid: %{error}'
+    invalid_markup: 'contains invalid HTML markup: %{error}'
   imports:
     errors:
-      invalid_csv_file: 'Berkas CVS tidak sah. Kesalahan: %{error}'
-      over_rows_processing_limit: berisi lebih dari %{count} baris
+      invalid_csv_file: 'Invalid CSV file. Error: %{error}'
+      over_rows_processing_limit: contains more than %{count} rows
     modes:
-      merge: Gabung
-      merge_long: Pertahankan rekaman yang sudah ada dan buat baru
-      overwrite: Timpa
-      overwrite_long: Ganti rekaman sekarang dengan yang baru
-    preface: Anda bisa mengimpor data tertentu seperti orang-orang yang anda ikuti atau anda blokir di server ini, dari file yang dibuat oleh fitur expor di server lain.
-    success: Data anda berhasil diupload dan akan diproses sesegera mungkin
+      merge: Merge
+      merge_long: Keep existing records and add new ones
+      overwrite: Overwrite
+      overwrite_long: Replace current records with the new ones
+    preface: You can import data that you have exported from another server, such as a list of the people you are following or blocking.
+    success: Your data was successfully uploaded and will be processed in due time
     types:
-      blocking: Daftar diblokir
-      bookmarks: Markah
-      domain_blocking: Daftar blokir domain
-      following: Daftar diikuti
-      muting: Daftar didiamkan
-    upload: Unggah
+      blocking: Blocking list
+      bookmarks: Bookmarks
+      domain_blocking: Domain blocking list
+      following: Following list
+      muting: Muting list
+    upload: Upload
   invites:
-    delete: Nonaktifkan
-    expired: Kedaluwarsa
+    delete: Deactivate
+    expired: Expired
     expires_in:
-      '1800': 30 menit
-      '21600': 6 jam
-      '3600': 1 jam
-      '43200': 12 jam
-      '604800': 1 minggu
-      '86400': 1 hari
-    expires_in_prompt: Tak pernah
-    generate: Buat tautan undangan
-    invited_by: 'Anda diundang oleh:'
+      '1800': 30 minutes
+      '21600': 6 hours
+      '3600': 1 hour
+      '43200': 12 hours
+      '604800': 1 week
+      '86400': 1 day
+    expires_in_prompt: Never
+    generate: Generate invite link
+    invited_by: 'You were invited by:'
     max_uses:
-      other: "%{count} penggunaan"
-    max_uses_prompt: Tanpa batas
-    prompt: Buat dan bagikan tautan dengan yang lain untuk mendapatkan akses ke server ini
+      other: "%{count} uses"
+    max_uses_prompt: No limit
+    prompt: Generate and share links with others to grant access to this server
     table:
-      expires_at: Kedaluwarsa
-      uses: Penggunaan
-    title: Undang orang
+      expires_at: Expires
+      uses: Uses
+    title: Invite people
   lists:
     errors:
-      limit: Daftar Anda telah mencapai jumlah maksimum
+      limit: You have reached the maximum number of lists
   login_activities:
     authentication_methods:
-      otp: aplikasi otentikasi dua-faktor
-      password: kata sandi
-      sign_in_token: kode keamanan email
-      webauthn: kunci keamanan
-    description_html: Jika Anda melihat aktivitas tidak dikenal, pertimbangkan untuk mengubah kata sandi dan mengaktifkan otentikasi dua-faktor.
-    empty: Riwayat otentikasi tidak tersedia
-    failed_sign_in_html: Upaya gagal masuk dengan %{method} dari %{ip} (%{browser})
-    successful_sign_in_html: Berhasil masuk dengan %{method} dari %{ip} (%{browser})
-    title: Riwayat otentikasi
+      otp: two-factor authentication app
+      password: password
+      sign_in_token: e-mail security code
+      webauthn: security keys
+    description_html: If you see activity that you don't recognize, consider changing your password and enabling two-factor authentication.
+    empty: No authentication history available
+    failed_sign_in_html: Failed sign-in attempt with %{method} from %{ip} (%{browser})
+    successful_sign_in_html: Successful sign-in with %{method} from %{ip} (%{browser})
+    title: Authentication history
   media_attachments:
     validations:
-      images_and_video: Tidak bisa melampirkan video pada status yang telah memiliki gambar
-      not_ready: Tidak dapat melampirkan berkas yang belum selesai diproses. Coba lagi nanti!
-      too_many: Tidak dapat melampirkan lebih dari 4 file
+      images_and_video: Cannot attach a video to a post that already contains images
+      not_ready: Cannot attach files that have not finished processing. Try again in a moment!
+      too_many: Cannot attach more than 4 files
   migrations:
-    acct: Pindah ke
-    cancel: Batalkan peralihan
-    cancel_explanation: Membatalkan peralihan akan mengaktivasi ulang akun sekarang, tetapi tidak akan mengembalikan pengikut yang telah pindah ke akun baru.
-    cancelled_msg: Pembatalan peralihan berhasil.
+    acct: Moved to
+    cancel: Cancel redirect
+    cancel_explanation: Cancelling the redirect will re-activate your current account, but will not bring back followers that have been moved to that account.
+    cancelled_msg: Successfully cancelled the redirect.
     errors:
-      already_moved: adalah akun yang sama yang sudah Anda pindahkan ke
-      missing_also_known_as: ini bukan back-reference akun ini
-      move_to_self: tidak boleh akun sekarang
-      not_found: tidak dapat ditemukan
-      on_cooldown: Anda berada di masa tenang
-    followers_count: Jumlah pengikut saat migrasi
-    incoming_migrations: Pindah dari akun berbeda
-    incoming_migrations_html: Untuk pindah dari akun lain ke sini, Anda harus <a href="%{path}">membuat alias akun</a> terlebih dahulu.
-    moved_msg: Akun Anda dialihkan ke %{acct} dan pengikut Anda akan ikut dipindahkan.
-    not_redirecting: Saat ini akun Anda tidak dialihkan ke akun lain.
-    on_cooldown: Anda baru saja memindahkan akun Anda. Fungsi ini akan tersedia kembali %{count} hari lagi.
-    past_migrations: Migrasi lampau
-    proceed_with_move: Pindahkan pengikut
-    redirected_msg: Akun Anda sedang dialihkan ke %{acct}.
-    redirecting_to: Akun Anda dialihkan ke %{acct}.
-    set_redirect: Atur peralihan
+      already_moved: is the same account you have already moved to
+      missing_also_known_as: is not an alias of this account
+      move_to_self: cannot be current account
+      not_found: could not be found
+      on_cooldown: You are on cooldown
+    followers_count: Followers at time of move
+    incoming_migrations: Moving from a different account
+    incoming_migrations_html: To move from another account to this one, first you need to <a href="%{path}">create an account alias</a>.
+    moved_msg: Your account is now redirecting to %{acct} and your followers are being moved over.
+    not_redirecting: Your account is not redirecting to any other account currently.
+    on_cooldown: You have recently migrated your account. This function will become available again in %{count} days.
+    past_migrations: Past migrations
+    proceed_with_move: Move followers
+    redirected_msg: Your account is now redirecting to %{acct}.
+    redirecting_to: Your account is redirecting to %{acct}.
+    set_redirect: Set redirect
     warning:
-      backreference_required: Akun baru harus dikonfigurasi terlebih dahulu agar merujuk ke akun ini
-      before: 'Sebelum lanjut, mohon perhatikan catatan ini:'
-      cooldown: Setelah pindah akun adalah masa tenang, masa Anda tidak dapat pindah akun lagi
-      disabled_account: Akun Anda tidak akan dapat dipakai secara penuh. Namun, Anda tetap akan memiliki akses ke ekspor data dan aktivasi ulang.
-      followers: Tindakan ini akan memindah semua pengikut Anda dari akun sekarang ke akun baru
-      only_redirect_html: Secara alternatif, Anda <a href="%{path}">hanya dapat menaruh tulisan mengarahkan ke profil Anda</a>.
-      other_data: Tidak akan ada data lagi yang dipindahkan secara otomatis
-      redirect: Pemberitahuan peralihan akan dimunculkan pada akun profil Anda dan akun akan dikecualikan dari pencarian
+      backreference_required: The new account must first be configured to back-reference this one
+      before: 'Before proceeding, please read these notes carefully:'
+      cooldown: After moving there is a waiting period during which you will not be able to move again
+      disabled_account: Your current account will not be fully usable afterwards. However, you will have access to data export as well as re-activation.
+      followers: This action will move all followers from the current account to the new account
+      only_redirect_html: Alternatively, you can <a href="%{path}">only put up a redirect on your profile</a>.
+      other_data: No other data will be moved automatically
+      redirect: Your current account's profile will be updated with a redirect notice and be excluded from searches
   moderation:
-    title: Moderasi
+    title: Moderation
   move_handler:
-    carry_blocks_over_text: Pengguna ini pindah dari %{acct}, yang telah Anda blokir sebelumnya.
-    carry_mutes_over_text: Pengguna ini pindah dari %{acct}, yang telah Anda bisukan sebelumnya.
-    copy_account_note_text: 'Pengguna ini pindah dari %{acct}, ini dia pesan Anda sebelumnya tentang mereka:'
+    carry_blocks_over_text: This user moved from %{acct}, which you had blocked.
+    carry_mutes_over_text: This user moved from %{acct}, which you had muted.
+    copy_account_note_text: 'This user moved from %{acct}, here were your previous notes about them:'
   navigation:
-    toggle_menu: Saklar menu
+    toggle_menu: Toggle menu
   notification_mailer:
     admin:
       report:
-        subject: "%{name} mengirim sebuah laporan"
+        subject: "%{name} submitted a report"
       sign_up:
-        subject: "%{name} mendaftar"
+        subject: "%{name} signed up"
     favourite:
-      body: 'Status anda disukai oleh %{name}:'
-      subject: "%{name} menyukai status anda"
-      title: Favorit baru
+      body: 'Your post was favourited by %{name}:'
+      subject: "%{name} favourited your post"
+      title: New favourite
     follow:
-      body: "%{name} mengikuti anda!"
-      subject: "%{name} menjadi pengikut anda"
-      title: Pengikut baru
+      body: "%{name} is now following you!"
+      subject: "%{name} is now following you"
+      title: New follower
     follow_request:
-      action: Kelola permintaan mengikuti
-      body: "%{name} meminta untuk mengikuti anda"
-      subject: 'Pengikut menunggu: %{name}'
-      title: Permintaan mengikuti baru
+      action: Manage follow requests
+      body: "%{name} has requested to follow you"
+      subject: 'Pending follower: %{name}'
+      title: New follow request
     mention:
-      action: Balas
-      body: 'Anda disebut oleh %{name} pada:'
-      subject: Anda disebut oleh %{name}
-      title: Sebutan baru
+      action: Reply
+      body: 'You were mentioned by %{name} in:'
+      subject: You were mentioned by %{name}
+      title: New mention
     poll:
-      subject: Japat oleh %{name} telah berakhir
+      subject: A poll by %{name} has ended
     reblog:
-      body: 'Status anda di-boost oleh %{name}:'
-      subject: "%{name} mem-boost status anda"
-      title: Boost baru
+      body: 'Your post was boosted by %{name}:'
+      subject: "%{name} boosted your post"
+      title: New boost
     status:
-      subject: "%{name} baru saja memposting"
+      subject: "%{name} just posted"
     update:
-      subject: "%{name} mengedit kiriman"
+      subject: "%{name} edited a post"
   notifications:
-    email_events: Event untuk notifikasi email
-    email_events_hint: 'Pilih event yang ingin Anda terima notifikasinya:'
-    other_settings: Pengaturan notifikasi lain
+    email_events: Events for e-mail notifications
+    email_events_hint: 'Select events that you want to receive notifications for:'
+    other_settings: Other notifications settings
   number:
     human:
       decimal_units:
         format: "%n%u"
         units:
-          billion: M
-          million: Jt
-          quadrillion: Kdt
-          thousand: Rb
+          billion: B
+          million: M
+          quadrillion: Q
+          thousand: K
           trillion: T
+          unit: ''
   otp_authentication:
-    code_hint: Masukkan kode yang dibuat oleh aplikasi autentikator sebagai konfirmasi
-    description_html: Jika Anda mengaktifkan <strong>autentikasi dua-faktor</strong> menggunakan aplikasi autentikator, Anda membutuhkan ponsel untuk masuk akun, yang akan membuat token untuk dimasukkan.
-    enable: Aktifkan
-    instructions_html: "<strong>Pindai kode QR ini dengan Google Authenticator anda atau aplikasi TOTP lainnya di ponsel anda</strong>. Mulai sekarang, aplikasi tersebut akan membuat token yang bisa anda gunakan untuk masuk akun."
-    manual_instructions: 'Jika anda tidak bisa memindai kode QR dan harus memasukkannya secara manual, ini dia kode rahasia yang harus dimasukkan:'
-    setup: Persiapan
-    wrong_code: Kode yang dimasukkan tidak cocok! Apakah waktu server dan waktu di ponsel sudah benar?
+    code_hint: Enter the code generated by your authenticator app to confirm
+    description_html: If you enable <strong>two-factor authentication</strong> using an authenticator app, logging in will require you to be in possession of your phone, which will generate tokens for you to enter.
+    enable: Enable
+    instructions_html: "<strong>Scan this QR code into Google Authenticator or a similar TOTP app on your phone</strong>. From now on, that app will generate tokens that you will have to enter when logging in."
+    manual_instructions: 'If you can''t scan the QR code and need to enter it manually, here is the plain-text secret:'
+    setup: Set up
+    wrong_code: The entered code was invalid! Are server time and device time correct?
   pagination:
-    newer: Lebih baru
-    next: Selanjutnya
-    older: Lebih lama
-    prev: Sebelumnya
+    newer: Newer
+    next: Next
+    older: Older
+    prev: Prev
     truncate: "&hellip;"
   polls:
     errors:
-      already_voted: Anda sudah mengikuti japat ini
-      duplicate_options: berisi item ganda
-      duration_too_long: terlalu jauh ke masa depan
-      duration_too_short: terlalu cepat
-      expired: Japat telah berakhir
-      invalid_choice: Opsi pilihan yang dipilih tidak ada
-      over_character_limit: tidak boleh lebih dari %{max} karakter
-      too_few_options: harus punya lebih dari satu item
-      too_many_options: tidak boleh berisi lebih dari %{max} item
+      already_voted: You have already voted on this poll
+      duplicate_options: contain duplicate items
+      duration_too_long: is too far into the future
+      duration_too_short: is too soon
+      expired: The poll has already ended
+      invalid_choice: The chosen vote option does not exist
+      over_character_limit: cannot be longer than %{max} characters each
+      too_few_options: must have more than one item
+      too_many_options: can't contain more than %{max} items
   preferences:
-    other: Lainnya
-    posting_defaults: Kiriman bawaan
-    public_timelines: Linimasa publik
+    other: Other
+    posting_defaults: Posting defaults
+    public_timelines: Public timelines
   privacy_policy:
-    title: Kebijakan Privasi
+    title: Privacy Policy
   reactions:
     errors:
-      limit_reached: Batas reaksi yang berbeda terpenuhi
-      unrecognized_emoji: bukan emoji yang dikenal
+      limit_reached: Limit of different reactions reached
+      unrecognized_emoji: is not a recognized emoji
   relationships:
-    activity: Aktivitas akun
-    dormant: Terbengkalai
-    follow_selected_followers: Ikuti pengikut yang dipilih
-    followers: Pengikut
-    following: Mengikuti
-    invited: Diundang
-    last_active: Terakhir aktif
-    most_recent: Terkini
-    moved: Dipindah
+    activity: Account activity
+    confirm_follow_selected_followers: Are you sure you want to follow selected followers?
+    confirm_remove_selected_followers: Are you sure you want to remove selected followers?
+    confirm_remove_selected_follows: Are you sure you want to remove selected follows?
+    dormant: Dormant
+    follow_selected_followers: Follow selected followers
+    followers: Followers
+    following: Following
+    invited: Invited
+    last_active: Last active
+    most_recent: Most recent
+    moved: Moved
     mutual: Mutual
-    primary: Utama
-    relationship: Hubungan
-    remove_selected_domains: Hapus semua pengikut dari domain yang dipilih
-    remove_selected_followers: Hampus pengikut yang dipilih
-    remove_selected_follows: Batal ikuti pengguna terpilih
-    status: Status akun
+    primary: Primary
+    relationship: Relationship
+    remove_selected_domains: Remove all followers from the selected domains
+    remove_selected_followers: Remove selected followers
+    remove_selected_follows: Unfollow selected users
+    status: Account status
   remote_follow:
-    missing_resource: Tidak dapat menemukan URL redirect dari akun anda
+    missing_resource: Could not find the required redirect URL for your account
   reports:
     errors:
-      invalid_rules: tidak mereferensikan aturan yang valid
+      invalid_rules: does not reference valid rules
   rss:
-    content_warning: 'Peringatan konten:'
+    content_warning: 'Content warning:'
     descriptions:
-      account: Kiriman publik dari @%{acct}
-      tag: 'Kiriman publik ditagari #%{hashtag}'
+      account: Public posts from @%{acct}
+      tag: 'Public posts tagged #%{hashtag}'
   scheduled_statuses:
-    over_daily_limit: Anda telah melampaui batas %{limit} kiriman terjadwal untuk sehari
-    over_total_limit: Anda telah melampaui batas %{limit} kiriman terjadwal
-    too_soon: Tanggal terjadwal haruslah pada hari yang akan datang
+    over_daily_limit: You have exceeded the limit of %{limit} scheduled posts for today
+    over_total_limit: You have exceeded the limit of %{limit} scheduled posts
+    too_soon: The scheduled date must be in the future
   sessions:
-    activity: Aktivitas terakhir
-    browser: Peramban
+    activity: Last activity
+    browser: Browser
     browsers:
       alipay: Alipay
       blackberry: BlackBerry
@@ -1378,10 +1422,10 @@ id:
       edge: Microsoft Edge
       electron: Electron
       firefox: Firefox
-      generic: Peramban tidak dikenal
+      generic: Unknown browser
       ie: Internet Explorer
       micro_messenger: MicroMessenger
-      nokia: Peramban Nokia S40 Ovi
+      nokia: Nokia S40 Ovi Browser
       opera: Opera
       otter: Otter
       phantom_js: PhantomJS
@@ -1389,9 +1433,9 @@ id:
       safari: Safari
       uc_browser: UC Browser
       weibo: Weibo
-    current_session: Sesi sekarang
-    description: "%{browser} di %{platform}"
-    explanation: Ini peramban yang sedang dalam posisi masuk akun Mastodon Anda.
+    current_session: Current session
+    description: "%{browser} on %{platform}"
+    explanation: These are the web browsers currently logged in to your Mastodon account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1401,235 +1445,235 @@ id:
       firefox_os: Firefox OS
       ios: iOS
       linux: Linux
-      mac: Mac
-      other: platform yang tidak diketahui
+      mac: macOS
+      other: unknown platform
       windows: Windows
       windows_mobile: Windows Mobile
       windows_phone: Windows Phone
-    revoke: Cabut izin
-    revoke_success: Sesi berhasil dicabut
-    title: Sesi
-    view_authentication_history: Lihat riwayat otentikasi akun Anda
+    revoke: Revoke
+    revoke_success: Session successfully revoked
+    title: Sessions
+    view_authentication_history: View authentication history of your account
   settings:
-    account: Akun
-    account_settings: Pengaturan akun
-    aliases: Alias akun
-    appearance: Tampilan
-    authorized_apps: Apl yang diizinkan
-    back: Kembali ke Mastodon
-    delete: Penghapusan akun
-    development: Pengembangan
-    edit_profile: Ubah profil
-    export: Expor data
-    featured_tags: Tagar unggulan
-    import: Impor
-    import_and_export: Impor dan ekspor
-    migrate: Pemindahan akun
-    notifications: Notifikasi
-    preferences: Pilihan
-    profile: Profil
-    relationships: Ikuti dan pengikut
-    statuses_cleanup: Hapus kiriman otomatis
-    strikes: Moderasi hukuman
-    two_factor_authentication: Autentikasi Two-factor
-    webauthn_authentication: Kunci keamanan
+    account: Account
+    account_settings: Account settings
+    aliases: Account aliases
+    appearance: Appearance
+    authorized_apps: Authorized apps
+    back: Back to Mastodon
+    delete: Account deletion
+    development: Development
+    edit_profile: Edit profile
+    export: Data export
+    featured_tags: Featured hashtags
+    import: Import
+    import_and_export: Import and export
+    migrate: Account migration
+    notifications: Notifications
+    preferences: Preferences
+    profile: Profile
+    relationships: Follows and followers
+    statuses_cleanup: Automated post deletion
+    strikes: Moderation strikes
+    two_factor_authentication: Two-factor Auth
+    webauthn_authentication: Security keys
   statuses:
     attached:
       audio:
         other: "%{count} audio"
-      description: 'Terlampir: %{attached}'
+      description: 'Attached: %{attached}'
       image:
-        other: "%{count} gambar"
+        other: "%{count} images"
       video:
-        other: "%{count} video"
-    boosted_from_html: Boost dari %{acct_link}
-    content_warning: 'Peringatan konten: %{warning}'
-    default_language: Sama seperti bahasa antarmuka
+        other: "%{count} videos"
+    boosted_from_html: Boosted from %{acct_link}
+    content_warning: 'Content warning: %{warning}'
+    default_language: Same as interface language
     disallowed_hashtags:
-      other: 'berisi tagar yang tidak diizinkan: %{tags}'
-    edited_at_html: Diedit %{date}
+      other: 'contained the disallowed hashtags: %{tags}'
+    edited_at_html: Edited %{date}
     errors:
-      in_reply_not_found: Status yang ingin Anda balas sudah tidak ada.
-    open_in_web: Buka di web
-    over_character_limit: melebihi %{max} karakter
+      in_reply_not_found: The post you are trying to reply to does not appear to exist.
+    open_in_web: Open in web
+    over_character_limit: character limit of %{max} exceeded
     pin_errors:
-      direct: Kiriman yang hanya terlihat oleh pengguna yang disebutkan tidak dapat disematkan
-      limit: Anda sudah mencapai jumlah maksimum kiriman yang dapat disematkan
-      ownership: Kiriman orang lain tidak bisa disematkan
-      reblog: Boost tidak bisa disematkan
+      direct: Posts that are only visible to mentioned users cannot be pinned
+      limit: You have already pinned the maximum number of posts
+      ownership: Someone else's post cannot be pinned
+      reblog: A boost cannot be pinned
     poll:
       total_people:
-        other: "%{count} orang"
+        other: "%{count} people"
       total_votes:
-        other: "%{count} memilih"
-      vote: Pilih
-    show_more: Tampilkan selengkapnya
-    show_newer: Tampilkan lebih baru
-    show_older: Tampilkan lebih lama
-    show_thread: Tampilkan utas
-    sign_in_to_participate: Masuk untuk mengikuti percakapan
+        other: "%{count} votes"
+      vote: Vote
+    show_more: Show more
+    show_newer: Show newer
+    show_older: Show older
+    show_thread: Show thread
+    sign_in_to_participate: Sign in to participate in the conversation
     title: '%{name}: "%{quote}"'
     visibilities:
-      direct: Langsung
-      private: Khusus pengikut
-      private_long: Hanya tampilkan ke pengikut
-      public: Publik
-      public_long: Bisa dilihat semua orang
-      unlisted: Bisa dilihat semua orang, tapi tidak ditampilkan di linimasa publik
-      unlisted_long: Tidak terdaftar di linimasa publik tetapi siapapun dapat melihat
+      direct: Direct
+      private: Followers-only
+      private_long: Only show to followers
+      public: Public
+      public_long: Everyone can see
+      unlisted: Unlisted
+      unlisted_long: Everyone can see, but not listed on public timelines
   statuses_cleanup:
-    enabled: Otomatis hapus kiriman lama
-    enabled_hint: "Otomatis menghapus kiriman Anda saat sudah mencapai batasan usia, kecuali yang cocok \nsesuai di bawah ini"
-    exceptions: Pengecualian
-    explanation: Karena menghapus kiriman adalah operasi dengan sumber daya besar, ini akan dilakukan perlahan ketika server tidak sedang sibuk. Karena alasan ini, kiriman akan dihapus setelah mencapai batas waktu.
-    ignore_favs: Abaikan favorit
-    ignore_reblogs: Abaikan boost
-    interaction_exceptions: Pengecualian berdasar interaksi
-    interaction_exceptions_explanation: Perlu diingat tidak ada jaminan kiriman akan dihapus jika ia di bawah batas favorit atau boost setelah sebelumnya berhasil melewatinya.
-    keep_direct: Simpan pesan langsung
-    keep_direct_hint: Tidak mengapus pesan langsung Anda
-    keep_media: Simpan kiriman dengan lampiran media
-    keep_media_hint: Tidak menghapus kiriman Anda dengan lampiran media
-    keep_pinned: Simpan kiriman tersemat
-    keep_pinned_hint: Tidak menghapus kiriman tersemat Anda
-    keep_polls: Simpan japat
-    keep_polls_hint: Tidak menghapus japat Anda
-    keep_self_bookmark: Simpan kiriman yang Anda markahi
-    keep_self_bookmark_hint: Tidak menghapus kiriman Anda sendiri jika Anda telah memasukkannya ke markah
-    keep_self_fav: Simpan kiriman favorit Anda
-    keep_self_fav_hint: Tidak menghapus kiriman Anda yang Anda favoritkan
+    enabled: Automatically delete old posts
+    enabled_hint: Automatically deletes your posts once they reach a specified age threshold, unless they match one of the exceptions below
+    exceptions: Exceptions
+    explanation: Because deleting posts is an expensive operation, this is done slowly over time when the server is not otherwise busy. For this reason, your posts may be deleted a while after they reach the age threshold.
+    ignore_favs: Ignore favourites
+    ignore_reblogs: Ignore boosts
+    interaction_exceptions: Exceptions based on interactions
+    interaction_exceptions_explanation: Note that there is no guarantee for posts to be deleted if they go below the favourite or boost threshold after having once gone over them.
+    keep_direct: Keep direct messages
+    keep_direct_hint: Doesn't delete any of your direct messages
+    keep_media: Keep posts with media attachments
+    keep_media_hint: Doesn't delete any of your posts that have media attachments
+    keep_pinned: Keep pinned posts
+    keep_pinned_hint: Doesn't delete any of your pinned posts
+    keep_polls: Keep polls
+    keep_polls_hint: Doesn't delete any of your polls
+    keep_self_bookmark: Keep posts you bookmarked
+    keep_self_bookmark_hint: Doesn't delete your own posts if you have bookmarked them
+    keep_self_fav: Keep posts you favourited
+    keep_self_fav_hint: Doesn't delete your own posts if you have favourited them
     min_age:
-      '1209600': 2 minggu
-      '15778476': 6 bulan
-      '2629746': 1 bulan
-      '31556952': 1 tahun
-      '5259492': 2 bulan
-      '604800': 1 minggu
-      '63113904': 2 tahun
-      '7889238': 3 bulan
-    min_age_label: Batas usia
-    min_favs: Simpan kiriman favorit lebih dari
-    min_favs_hint: Tidak menghapus kiriman Anda yang mendapatkan sekian favorit. Kosongkan bila ingin menghapus kiriman tanpa peduli jumlah favoritnya
-    min_reblogs: Simpan kiriman yang di-boost lebih dari
-    min_reblogs_hint: Tidak menghapus kiriman Anda yang di-boost lebih dari sekian kali. Kosongkan bila ingin menghapus kiriman tanpa peduli jumlah boost-nya
+      '1209600': 2 weeks
+      '15778476': 6 months
+      '2629746': 1 month
+      '31556952': 1 year
+      '5259492': 2 months
+      '604800': 1 week
+      '63113904': 2 years
+      '7889238': 3 months
+    min_age_label: Age threshold
+    min_favs: Keep posts favourited at least
+    min_favs_hint: Doesn't delete any of your posts that has received at least this number of favourites. Leave blank to delete posts regardless of their number of favourites
+    min_reblogs: Keep posts boosted at least
+    min_reblogs_hint: Doesn't delete any of your posts that has been boosted at least this number of times. Leave blank to delete posts regardless of their number of boosts
   stream_entries:
-    pinned: Kiriman tersemat
-    reblogged: di-boost-kan
-    sensitive_content: Konten sensitif
+    pinned: Pinned post
+    reblogged: boosted
+    sensitive_content: Sensitive content
   strikes:
     errors:
-      too_late: Terlambat untuk mengajukan banding hukuman ini
+      too_late: It is too late to appeal this strike
   tags:
-    does_not_match_previous_name: tidak cocok dengan nama sebelumnya
+    does_not_match_previous_name: does not match the previous name
   themes:
-    contrast: Mastodon (Kontras tinggi)
-    default: Mastodon (Gelap)
-    mastodon-light: Mastodon (Terang)
+    contrast: Mastodon (High contrast)
+    default: Mastodon (Dark)
+    mastodon-light: Mastodon (Light)
   time:
     formats:
-      default: "%d %b %Y, %H:%M"
+      default: "%b %d, %Y, %H:%M"
       month: "%b %Y"
       time: "%H:%M"
   two_factor_authentication:
-    add: Tambah
-    disable: Matikan
-    disabled_success: Autentikasi dua-faktor berhasil dinonaktifkan
+    add: Add
+    disable: Disable 2FA
+    disabled_success: Two-factor authentication successfully disabled
     edit: Edit
-    enabled: Otentifikasi dua faktor aktif
-    enabled_success: Ototentikasi dua faktor telah diaktifkan
-    generate_recovery_codes: Buat Kode Pemulihan
-    lost_recovery_codes: Kode pemulihan bisa anda gunakan untuk mendapatkan kembali akses pada akun anda jika anda kehilangan handphone anda. Jika anda kehilangan kode pemulihan, anda bisa membuatnya ulang disini. Kode pemulihan anda yang lama tidak akan bisa digunakan lagi.
-    methods: Metode dua-faktor
-    otp: Aplikasi autentikator
-    recovery_codes: Kode pemulihan cadangan
-    recovery_codes_regenerated: Kode Pemulihan berhasil dibuat ulang
-    recovery_instructions_html: Jika anda kehilangan akses pada handphone anda, anda bisa menggunakan kode pemulihan dibawah ini untuk mendapatkan kembali akses pada akun anda. Simpan kode pemulihan anda baik-baik, misalnya dengan mencetaknya atau menyimpannya bersama dokumen penting lainnya.
-    webauthn: Kunci keamanan
+    enabled: Two-factor authentication is enabled
+    enabled_success: Two-factor authentication successfully enabled
+    generate_recovery_codes: Generate recovery codes
+    lost_recovery_codes: Recovery codes allow you to regain access to your account if you lose your phone. If you've lost your recovery codes, you can regenerate them here. Your old recovery codes will be invalidated.
+    methods: Two-factor methods
+    otp: Authenticator app
+    recovery_codes: Backup recovery codes
+    recovery_codes_regenerated: Recovery codes successfully regenerated
+    recovery_instructions_html: If you ever lose access to your phone, you can use one of the recovery codes below to regain access to your account. <strong>Keep the recovery codes safe</strong>. For example, you may print them and store them with other important documents.
+    webauthn: Security keys
   user_mailer:
     appeal_approved:
-      action: Ke akun Anda
-      explanation: Banding peringatan terhadap akun Anda pada %{strike_date} yang Anda kirim pada %{appeal_date} telah disetujui. Akun Anda akan kembali ditandai sebagai akun bagus.
-      subject: Banding Anda dari %{date} telah disetujui
-      title: Banding disetujui
+      action: Go to your account
+      explanation: The appeal of the strike against your account on %{strike_date} that you submitted on %{appeal_date} has been approved. Your account is once again in good standing.
+      subject: Your appeal from %{date} has been approved
+      title: Appeal approved
     appeal_rejected:
-      explanation: Banding terhadap akun Anda pada %{strike_date} yang Anda ajukan %{appeal_date} telah ditolak.
-      subject: Banding Anda dari %{date} telah ditolak
-      title: Banding ditolak
+      explanation: The appeal of the strike against your account on %{strike_date} that you submitted on %{appeal_date} has been rejected.
+      subject: Your appeal from %{date} has been rejected
+      title: Appeal rejected
     backup_ready:
-      explanation: Cadangan penuh akun Mastodon Anda sudah dapat diunduh!
-      subject: Arsip Anda sudah siap diunduh
-      title: Ambil arsip
+      explanation: You requested a full backup of your Mastodon account. It's now ready for download!
+      subject: Your archive is ready for download
+      title: Archive takeout
     suspicious_sign_in:
-      change_password: mengubah kata sandi Anda
-      details: 'Ini rincian masuk akun Anda:'
-      explanation: Kami mendeteksi masuk akun Anda dari alamat IP baru.
-      further_actions_html: Jika ini bukan Anda, kami menyarankan Anda untuk melakukan %{action} langsung dan mengaktifkan otentikasi dua-faktor untuk mengamankan akun Anda.
-      subject: Akun Anda telah diakses dari alamat IP baru
-      title: Masuk akun baru
+      change_password: change your password
+      details: 'Here are details of the sign-in:'
+      explanation: We've detected a sign-in to your account from a new IP address.
+      further_actions_html: If this wasn't you, we recommend that you %{action} immediately and enable two-factor authentication to keep your account secure.
+      subject: Your account has been accessed from a new IP address
+      title: A new sign-in
     warning:
-      appeal: Ajukan banding
-      appeal_description: Jika Anda yakin ini galat, Anda dapat mengajukan banding ke staf %{instance}.
+      appeal: Submit an appeal
+      appeal_description: If you believe this is an error, you can submit an appeal to the staff of %{instance}.
       categories:
         spam: Spam
-        violation: Konten melanggar panduan komunitas berikut
+        violation: Content violates the following community guidelines
       explanation:
-        delete_statuses: Beberapa kiriman Anda terdeteksi melanggar satu atau lebih panduan komunitas dan satu per satu telah dihapus moderator %{instance}.
-        disable: Anda tidak lagi dapat menggunakan akun, tapi profil dan data Anda lainnya masih tersimpan. Anda dapat minta cadangan data Anda, mengubah pengaturan akun, atau menghapus akun.
-        mark_statuses_as_sensitive: Beberapa kiriman Anda telah ditandai sebagai sensitif oleh moderator %{instance}. Artinya, orang-orang perlu mengetuk media pada kiriman sebelum pratinjau ditampilkan. Anda dapat menandai sendiri media Anda sebagai sensitif di kiriman pada masa mendatang.
-        sensitive: Mulai sekarang, semua berkas media yang telah Anda unggah akan ditandai sebagai sensitif dan disembunyikan di balik peringatan yang harus diklik.
-        silence: Anda masih tetap dapat menggunakan akun tetapi hanya orang yang mengikuti Anda yang dapat melihat kiriman Anda di server ini, dan Anda mungkin akan dikeluarkan dari fitur pencarian akun. Bagaimana pun, orang lain tetap dapat mengikuti Anda secara manual.
-        suspend: Anda tidak dapat menggunakan akun Anda, dan profil serta data lain Anda tidak lagi dapat diakses. Anda masih tetap bisa masuk akun untuk minta cadangan data sampai data Anda akan dihapus permanen 30 hari lagi, tapi kami akan menyimpan beberapa data dasar untuk mencegah Anda menghindari penangguhan.
-      reason: 'Alasan:'
-      statuses: 'Kiriman mengutip:'
+        delete_statuses: Some of your posts have been found to violate one or more community guidelines and have been subsequently removed by the moderators of %{instance}.
+        disable: You can no longer use your account, but your profile and other data remains intact. You can request a backup of your data, change account settings or delete your account.
+        mark_statuses_as_sensitive: Some of your posts have been marked as sensitive by the moderators of %{instance}. This means that people will need to tap the media in the posts before a preview is displayed. You can mark media as sensitive yourself when posting in the future.
+        sensitive: From now on, all your uploaded media files will be marked as sensitive and hidden behind a click-through warning.
+        silence: You can still use your account but only people who are already following you will see your posts on this server, and you may be excluded from various discovery features. However, others may still manually follow you.
+        suspend: You can no longer use your account, and your profile and other data are no longer accessible. You can still login to request a backup of your data until the data is fully removed in about 30 days, but we will retain some basic data to prevent you from evading the suspension.
+      reason: 'Reason:'
+      statuses: 'Posts cited:'
       subject:
-        delete_statuses: Postingan anda pada %{acct} telah dihapus
-        disable: Akun Anda %{acct} telah dibekukan
-        mark_statuses_as_sensitive: Kiriman Anda di %{acct} telah ditandai sebagai sensitif
-        none: Peringatan untuk %{acct}
-        sensitive: Kiriman Anda di %{acct} akan ditandai sebagai sensitif mulai sekarang
-        silence: Akun Anda %{acct} telah dibatasi
-        suspend: Akun Anda %{acct} telah ditangguhkan
+        delete_statuses: Your posts on %{acct} have been removed
+        disable: Your account %{acct} has been frozen
+        mark_statuses_as_sensitive: Your posts on %{acct} have been marked as sensitive
+        none: Warning for %{acct}
+        sensitive: Your posts on %{acct} will be marked as sensitive from now on
+        silence: Your account %{acct} has been limited
+        suspend: Your account %{acct} has been suspended
       title:
-        delete_statuses: Postingan dihapus
-        disable: Akun dibekukan
-        mark_statuses_as_sensitive: Kiriman ditandai sebagai sensitif
-        none: Peringatan
-        sensitive: Akun ditandai sebagai sensitif
-        silence: Akun dibatasi
-        suspend: Akun ditangguhkan
+        delete_statuses: Posts removed
+        disable: Account frozen
+        mark_statuses_as_sensitive: Posts marked as sensitive
+        none: Warning
+        sensitive: Account marked as sensitive
+        silence: Account limited
+        suspend: Account suspended
     welcome:
-      edit_profile_action: Siapkan profil
-      edit_profile_step: Anda dapat mengubah profil Anda dengan mengunggah sebuah foto profil, mengubah nama tampilan Anda dan lain-lain. Anda dapat memilih untuk meninjau pengikut baru sebelum mereka diperbolehkan untuk mengikuti Anda.
-      explanation: Beberapa tips sebelum Anda memulai
-      final_action: Mulai mengirim
-      final_step: 'Mulai mengirim! Bahkan tanpa pengikut, kiriman publik Anda dapat dilihat oleh orang lain, misalkan di linimasa lokal atau dalam tagar. Anda dapat memperkenalkan diri Anda dalam tagar #introductions.'
-      full_handle: Penanganan penuh Anda
-      full_handle_hint: Ini yang dapat Anda sampaikan kepada teman agar mereka dapat mengirim pesan atau mengikuti Anda dari server lain.
-      subject: Selamat datang di Mastodon
-      title: Selamat datang, %{name}!
+      edit_profile_action: Setup profile
+      edit_profile_step: You can customize your profile by uploading a profile picture, changing your display name and more. You can opt-in to review new followers before they’re allowed to follow you.
+      explanation: Here are some tips to get you started
+      final_action: Start posting
+      final_step: 'Start posting! Even without followers, your public posts may be seen by others, for example on the local timeline or in hashtags. You may want to introduce yourself on the #introductions hashtag.'
+      full_handle: Your full handle
+      full_handle_hint: This is what you would tell your friends so they can message or follow you from another server.
+      subject: Welcome to Mastodon
+      title: Welcome aboard, %{name}!
   users:
-    follow_limit_reached: Anda tidak dapat mengikuti lebih dari %{limit} orang
-    invalid_otp_token: Kode dua faktor tidak cocok
-    otp_lost_help_html: Jika Anda kehilangan akses keduanya, Anda dapat menghubungi %{email}
-    seamless_external_login: Anda masuk via layanan eksternal, sehingga pengaturan kata sandi dan email tidak tersedia.
-    signed_in_as: 'Masuk sebagai:'
+    follow_limit_reached: You cannot follow more than %{limit} people
+    invalid_otp_token: Invalid two-factor code
+    otp_lost_help_html: If you lost access to both, you may get in touch with %{email}
+    seamless_external_login: You are logged in via an external service, so password and e-mail settings are not available.
+    signed_in_as: 'Signed in as:'
   verification:
-    explanation_html: 'Anda dapat <strong>memverifikasi diri Anda sebagai pemiliki tautan pada metadata profil</strong>. Situsweb yang ditautkan haruslah berisi tautan ke profil Mastodon Anda. Tautan tersebut <strong>harus</strong> memiliki atribut <code>rel="me"</code>. Isi teks tautan tidaklah penting. Ini contohnya:'
-    verification: Verifikasi
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Mastodon profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
+    verification: Verification
   webauthn_credentials:
-    add: Tambahkan kunci keamanan baru
+    add: Add new security key
     create:
-      error: Terjadi masalah saat menambahkan kunci keamanan. Silakan coba lagi.
-      success: Kunci keamanan Anda berhasil ditambahkan.
-    delete: Hapus
-    delete_confirmation: Yakin ingin menghapus kunci keamanan ini?
-    description_html: Jika Anda mengaktifkan <strong>autentikasi kunci keamanan</strong>, proses masuk Anda akan memerlukan salah satu kunci keamanan Anda.
+      error: There was a problem adding your security key. Please try again.
+      success: Your security key was successfully added.
+    delete: Delete
+    delete_confirmation: Are you sure you want to delete this security key?
+    description_html: If you enable <strong>security key authentication</strong>, logging in will require you to use one of your security keys.
     destroy:
-      error: Terjadi masalah saat menghapus kunci keamanan Anda. Silakan coba lagi.
-      success: Kunci keamanan Anda berhasil dihapus.
-    invalid_credential: Kunci keamanan tidak valid
-    nickname_hint: Masukkan panggilan kunci keamanan baru Anda
-    not_enabled: Anda belum mengaktifkan WebAuthn
-    not_supported: Peramban ini tidak mendukung kunci keamanan
-    otp_required: Untuk menggunakan kunci keamanan harap aktifkan autentikasi dua-faktor.
-    registered_on: Terdaftar pada %{date}
+      error: There was a problem deleting you security key. Please try again.
+      success: Your security key was successfully deleted.
+    invalid_credential: Invalid security key
+    nickname_hint: Enter the nickname of your new security key
+    not_enabled: You haven't enabled WebAuthn yet
+    not_supported: This browser doesn't support security keys
+    otp_required: To use security keys please enable two-factor authentication first.
+    registered_on: Registered on %{date}
