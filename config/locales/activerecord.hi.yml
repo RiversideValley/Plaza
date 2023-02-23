@@ -3,8 +3,8 @@ hi-IN:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: समयसीमा
+        options: विकल्प
       user:
         agreement: Service agreement
         email: E-mail address
@@ -19,7 +19,7 @@ hi-IN:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
+              invalid: केवल अक्षर, संख्या और अंडरस्कोर
               reserved: is reserved
         admin/webhook:
           attributes:
@@ -36,7 +36,7 @@ hi-IN:
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: स्थिति पहले से मौजूद है
         user:
           attributes:
             email:
