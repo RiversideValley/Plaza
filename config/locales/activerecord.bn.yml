@@ -3,8 +3,8 @@ bn-IN:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: নির্দিষ্ট সময়সীমা
+        options: বিকল্প
       user:
         agreement: Service agreement
         email: E-mail address
@@ -19,7 +19,7 @@ bn-IN:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
+              invalid: শুধুমাত্র অক্ষর, সংখ্যা এবং _ বেবহার করা যাবে
               reserved: is reserved
         admin/webhook:
           attributes:
@@ -36,7 +36,7 @@ bn-IN:
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: এর লেখাটি ইতিপূর্বে ছিল
         user:
           attributes:
             email:
