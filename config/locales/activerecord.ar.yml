@@ -3,53 +3,53 @@ ar-EG:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: آخر أجل
+        options: الخيارات
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: اتفاقية الخدمة
+        email: عنوان البريد الإلكتروني
+        locale: محلي
+        password: كلمة المرور
       user/account:
-        username: Username
+        username: اسم المستخدم
       user/invite_request:
-        text: Reason
+        text: السبب
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: يجب فقط أن يحتوي على حروف، وأرقام، وخطوط سفلية
+              reserved: محجوز
         admin/webhook:
           attributes:
             url:
-              invalid: is not a valid URL
+              invalid: رابط غير صحيح
         doorkeeper/application:
           attributes:
             website:
-              invalid: is not a valid URL
+              invalid: رابط غير صحيح
         import:
           attributes:
             data:
-              malformed: is malformed
+              malformed: معتل
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: المنشور موجود مِن قبل
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: يستخدم مزوّد بريد إلكتروني غير مسموح به
+              unreachable: يبدو أنه لا وجود
             role_id:
-              elevated: cannot be higher than your current role
+              elevated: لا يمكن أن يكون أعلى من الدور الحالي
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: include permissions that are not safe for the base role
-              elevated: cannot include permissions your current role does not possess
-              own_role: cannot be changed with your current role
+              dangerous: تضمين استأذانات ليست آمنة للدور الأساسي
+              elevated: لا يمكن تضمين استأذانات التي لا يملكها دورك الحالي
+              own_role: لا يمكن تغييرها مع دورك الحالي
             position:
-              elevated: cannot be higher than your current role
-              own_role: cannot be changed with your current role
+              elevated: لا يمكن أن يكون أعلى من دورك الحالي
+              own_role: لا يمكن تغييرها مع دورك الحالي
