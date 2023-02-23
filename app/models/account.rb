@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: accounts
@@ -78,8 +79,8 @@ class Account < ApplicationRecord
   include DomainMaterializable
   include AccountMerging
 
-  enum protocol: [:ostatus, :activitypub]
-  enum suspension_origin: [:local, :remote], _prefix: true
+  enum protocol: { ostatus: 0, activitypub: 1 }
+  enum suspension_origin: { local: 0, remote: 1 }, _prefix: true
 
   validates :username, presence: true
   validates_with UniqueUsernameValidator, if: -> { will_save_change_to_username? }
@@ -539,6 +540,7 @@ class Account < ApplicationRecord
 
   def ensure_keys!
     return unless local? && private_key.blank? && public_key.blank?
+
     generate_keys
     save!
   end

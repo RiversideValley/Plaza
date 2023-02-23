@@ -32,7 +32,7 @@ describe Settings::ApplicationsController do
       app.update!(owner: nil)
 
       get :show, params: { id: app.id }
-      expect(response.status).to eq 404
+      expect(response).to have_http_status 404
     end
   end
 
@@ -73,7 +73,7 @@ describe Settings::ApplicationsController do
             name: 'My New App',
             redirect_uri: 'urn:ietf:wg:oauth:2.0:oob',
             website: 'http://google.com',
-            scopes: ['read', 'write', 'follow'],
+            scopes: %w(read write follow),
           },
         }
         response

@@ -3,53 +3,53 @@ sco:
   activerecord:
     attributes:
       poll:
-        expires_at: Deidline
-        options: Chyces
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Service greeance
+        agreement: Service agreement
         email: E-mail address
         locale: Locale
-        password: Passwird
+        password: Password
       user/account:
-        username: Uisernemm
+        username: Username
       user/invite_request:
-        text: Raison
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: haes tae ainly hae letters, nummers an unnerscores
-              reserved: is reseirvit
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: isnae a guid URL
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: isnae a guid URL
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: isnae o the expectit form
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: o post awriddy exists
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: uises a e-mail provider thit's no allooed
-              unreachable: disnae seem tae exist
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: cannae be heicher nor yer role the noo
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: hae permissions thit urnae safe fir the base role
-              elevated: cannae include permissions thit yer role the noo disnae haud
-              own_role: cannae be chynged wi the role ye hae the noo
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: cannae be heicher nor the role ye hae the noo
-              own_role: cannae be chynged wi the role ye hae the noo
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role
