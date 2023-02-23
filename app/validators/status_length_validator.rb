@@ -1,11 +1,7 @@
 # frozen_string_literal: true
 
 class StatusLengthValidator < ActiveModel::Validator
-  # Plaza should be inbetween Mastodon and Medium.
-  # Since 1tb is our current maximum storage limit (though it will be expanded at some point) it shouldn't be too much.
-  # Average essay is 500 words. Average Wikipedia essay is 2500 words.
-  # 1000 words is best.
-  MAX_CHARS = 1000
+  MAX_CHARS = 500
   URL_PLACEHOLDER_CHARS = 23
   URL_PLACEHOLDER = 'x' * 23
 

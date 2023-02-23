@@ -3,53 +3,43 @@ ast:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        options: Opciones
       user:
-        agreement: Service agreement
-        email: E-mail address
+        agreement: Acuerdu del serviciu
+        email: Direición de corréu electrónicu
         locale: Locale
-        password: Password
+        password: Contraseña
       user/account:
-        username: Username
+        username: Nome d'usuariu
       user/invite_request:
-        text: Reason
+        text: Motivu
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: ha contener namás lletres, númberos ya guiones baxos
+              reserved: ta acutáu
         admin/webhook:
           attributes:
             url:
-              invalid: is not a valid URL
+              invalid: nun ye una URL válida
         doorkeeper/application:
           attributes:
             website:
-              invalid: is not a valid URL
-        import:
-          attributes:
-            data:
-              malformed: is malformed
-        status:
-          attributes:
-            reblog:
-              taken: of post already exists
+              invalid: nun ye una URL válida
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: usa un fornidor de corréu electrónicu que nun ta permitíu
+              unreachable: nun paez qu'esista
             role_id:
-              elevated: cannot be higher than your current role
+              elevated: nun pue ser mayor que'l to rol actual
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: include permissions that are not safe for the base role
-              elevated: cannot include permissions your current role does not possess
-              own_role: cannot be changed with your current role
+              elevated: nun se puen incluyir los permisos que'l to rol nun poseye
+              own_role: nun se pue camudar col to rol actual
             position:
-              elevated: cannot be higher than your current role
-              own_role: cannot be changed with your current role
+              elevated: nun pue ser mayor que'l to rol actual
+              own_role: nun se pue camudar col to rol actual
