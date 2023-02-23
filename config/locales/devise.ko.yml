@@ -1,5 +1,5 @@
 ---
-ko:
+ko-KR:
   devise:
     confirmations:
       confirmed: 이메일이 성공적으로 승인 되었습니다.
