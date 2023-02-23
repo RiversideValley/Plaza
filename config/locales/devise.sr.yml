@@ -1,5 +1,5 @@
 ---
-sr:
+sr-SP:
   devise:
     confirmations:
       confirmed: Адреса Ваше е-поште је успешно потврђена.
