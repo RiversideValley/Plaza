@@ -1,5 +1,5 @@
 ---
-tr-CY:
+tr-TR:
   devise:
     confirmations:
       confirmed: E-posta adresiniz başarıyla onaylandı.
