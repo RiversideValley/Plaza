@@ -3,315 +3,315 @@ lv:
   simple_form:
     hints:
       account_alias:
-        acct: Norādi konta lietotājvārdu@domēnu, no kura vēlies pārvākties
+        acct: Specify the username@domain of the account you want to move from
       account_migration:
-        acct: Norādi konta lietotājvārdu@domēnu, uz kuru vēlies pārvākties
+        acct: Specify the username@domain of the account you want to move to
       account_warning_preset:
-        text: Vari izmantot ziņu sintaksi, piemēram, URL, atsauces un pieminējumus
-        title: Neobligāts. Saņēmējam nav redzams
+        text: You can use post syntax, such as URLs, hashtags and mentions
+        title: Optional. Not visible to the recipient
       admin_account_action:
-        include_statuses: Lietotājs redzēs, kuras ziņas izraisījušas moderācijas darbību vai brīdinājumu
-        send_email_notification: Lietotājs saņems paskaidrojumu par to, kas notika ar viņa kontu
-        text_html: Neobligāts. Tu vari lietot ziņu sintaksi. Lai ietaupītu laiku, tu vari <a href="%{path}">pievienot brīdinājuma sākotnējos iestatījumus</a>
-        type_html: Izvēlies, ko darīt ar <strong>%{acct}</strong>
+        include_statuses: The user will see which posts have caused the moderation action or warning
+        send_email_notification: The user will receive an explanation of what happened with their account
+        text_html: Optional. You can use post syntax. You can <a href="%{path}">add warning presets</a> to save time
+        type_html: Choose what to do with <strong>%{acct}</strong>
         types:
-          disable: Neļauj lietotājam izmantot savu kontu, bet neizdzēs vai neslēp tā saturu.
-          none: Izmanto šo, lai nosūtītu lietotājam brīdinājumu, neradot nekādas citas darbības.
-          sensitive: Piespiest visus šī lietotāja multivides pielikumus atzīmēt kā sensitīvus.
-          silence: Neļauj lietotājam publicēt ziņas ar publisku redzamību, paslēp viņa ziņas un paziņojumus no personām, kas viņiem neseko. Tiek aizvērti visi šī konta pārskati.
-          suspend: Novērs jebkādu mijiedarbību no šī konta vai uz to un dzēs tā saturu. Atgriežams 30 dienu laikā. Tiek aizvērti visi šī konta pārskati.
-        warning_preset_id: Neobligāts. Tu joprojām vari pievienot pielāgotu tekstu sākotnējās iestatīšanas beigās
+          disable: Prevent the user from using their account, but do not delete or hide their contents.
+          none: Use this to send a warning to the user, without triggering any other action.
+          sensitive: Force all this user's media attachments to be flagged as sensitive.
+          silence: Prevent the user from being able to post with public visibility, hide their posts and notifications from people not following them. Closes all reports against this account.
+          suspend: Prevent any interaction from or to this account and delete its contents. Revertible within 30 days. Closes all reports against this account.
+        warning_preset_id: Optional. You can still add custom text to end of the preset
       announcement:
-        all_day: Atzīmējot šo opciju, tiks parādīti tikai laika diapazona datumi
-        ends_at: Neobligāts. Paziņojums šoreiz tiks automātiski atcelts
-        scheduled_at: Lai nekavējoties publicētu paziņojumu, atstāj tukšu
-        starts_at: Neobligāts. Ja tavs paziņojums ir saistīts ar noteiktu laika diapazonu
-        text: Varari izmantot ziņu sintaksi. Lūdzu, apdomā lauku, ko paziņojums aizņems lietotāja ekrānā
+        all_day: When checked, only the dates of the time range will be displayed
+        ends_at: Optional. Announcement will be automatically unpublished at this time
+        scheduled_at: Leave blank to publish the announcement immediately
+        starts_at: Optional. In case your announcement is bound to a specific time range
+        text: You can use post syntax. Please be mindful of the space the announcement will take up on the user's screen
       appeal:
-        text: Brīdinājumu var pārsūdzēt tikai vienu reizi
+        text: You can only appeal a strike once
       defaults:
-        autofollow: Cilvēki, kuri reģistrējas, izmantojot uzaicinājumu, automātiski sekos tev
-        avatar: PNG, GIF vai JPG. Ne vairāk kā %{size}. Tiks samazināts līdz %{dimensions} px
-        bot: Paziņo citiem, ka kontā galvenokārt tiek veiktas automatizētas darbības un tas var netikt uzraudzīts
-        context: Viens vai vairāki konteksti, kur jāpiemēro filtrs
-        current_password: Drošības nolūkos, lūdzu, ievadi pašreizējā konta paroli
-        current_username: Lai apstiprinātu, lūdzu, ievadi pašreizējā konta paroli
-        digest: Sūta tikai pēc ilgstošas neaktivitātes un tikai tad, ja savas prombūtnes laikā neesi saņēmis personiskas ziņas
-        discoverable: Ļauj svešiniekiem atklāt savu kontu caur ieteikumiem, tendencēm un citām iespējām
-        email: Tev tiks nosūtīts apstiprinājuma e-pasts
-        fields: Savā profilā kā tabulu vari parādīt līdz 4 vienumiem
-        header: PNG, GIF vai JPG. Ne vairāk kā %{size}. Tiks samazināts līdz %{dimensions}px
-        inbox_url: Nokopē URL no tā releja sākumlapas, kuru vēlies izmantot
-        irreversible: Filtrētās ziņas neatgriezeniski pazudīs, pat ja filtrs vēlāk tiks noņemts
-        locale: Lietotāja saskarnes, e-pasta ziņojumu un push paziņojumu valoda
-        locked: Manuāli kontrolē, kas var tev sekot, apstiprinot sekošanas pieprasījumus
-        password: Izmanto vismaz 8 rakstzīmes
-        phrase: Tiks saskaņots neatkarīgi no ziņas teksta reģistra vai satura brīdinājuma
-        scopes: Kuriem API lietojumprogrammai būs atļauta piekļuve. Ja izvēlies augstākā līmeņa tvērumu, tev nav jāatlasa atsevišķi vienumi.
-        setting_aggregate_reblogs: Nerādīt jaunus izcēlumus ziņām, kas nesen tika palielinātas (ietekmē tikai nesen saņemtos palielinājumus)
-        setting_always_send_emails: Parasti e-pasta paziņojumi netiek sūtīti, kad aktīvi izmantojat Mastodon
-        setting_default_sensitive: Sensitīva multivide pēc noklusējuma ir paslēpti, un tos var atklāt, noklikšķinot
-        setting_display_media_default: Paslēpt multividi, kas atzīmēta kā sensitīva
-        setting_display_media_hide_all: Vienmēr slēpt multividi
-        setting_display_media_show_all: Vienmēr rādīt multividi
-        setting_hide_network: Tavā profilā netiks rādīts, kam tu seko un kurš seko tev
-        setting_noindex: Ietekmē tavu publisko profilu un ziņu lapas
-        setting_show_application: Lietojumprogramma, ko tu izmanto publicēšanai, tiks parādīta tavu ziņu detalizētajā skatā
-        setting_use_blurhash: Gradientu pamatā ir paslēpto vizuālo attēlu krāsas, bet neskaidras visas detaļas
-        setting_use_pending_items: Paslēpt laika skalas atjauninājumus aiz klikšķa, nevis automātiski ritini plūsmu
-        username: Tavs lietotājvārds %{domain} būs unikāls
-        whole_word: Ja atslēgvārds vai frāze ir tikai burtciparu, tas tiks lietots tikai tad, ja tas atbilst visam vārdam
+        autofollow: People who sign up through the invite will automatically follow you
+        avatar: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        bot: Signal to others that the account mainly performs automated actions and might not be monitored
+        context: One or multiple contexts where the filter should apply
+        current_password: For security purposes please enter the password of the current account
+        current_username: To confirm, please enter the username of the current account
+        digest: Only sent after a long period of inactivity and only if you have received any personal messages in your absence
+        discoverable: Allow your account to be discovered by strangers through recommendations, trends and other features
+        email: You will be sent a confirmation e-mail
+        fields: You can have up to 4 items displayed as a table on your profile
+        header: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        inbox_url: Copy the URL from the frontpage of the relay you want to use
+        irreversible: Filtered posts will disappear irreversibly, even if filter is later removed
+        locale: The language of the user interface, e-mails and push notifications
+        locked: Manually control who can follow you by approving follow requests
+        password: Use at least 8 characters
+        phrase: Will be matched regardless of casing in text or content warning of a post
+        scopes: Which APIs the application will be allowed to access. If you select a top-level scope, you don't need to select individual ones.
+        setting_aggregate_reblogs: Do not show new boosts for posts that have been recently boosted (only affects newly-received boosts)
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Mastodon
+        setting_default_sensitive: Sensitive media is hidden by default and can be revealed with a click
+        setting_display_media_default: Hide media marked as sensitive
+        setting_display_media_hide_all: Always hide media
+        setting_display_media_show_all: Always show media
+        setting_hide_network: Who you follow and who follows you will be hidden on your profile
+        setting_noindex: Affects your public profile and post pages
+        setting_show_application: The application you use to post will be displayed in the detailed view of your posts
+        setting_use_blurhash: Gradients are based on the colors of the hidden visuals but obfuscate any details
+        setting_use_pending_items: Hide timeline updates behind a click instead of automatically scrolling the feed
+        username: Your username will be unique on %{domain}
+        whole_word: When the keyword or phrase is alphanumeric only, it will only be applied if it matches the whole word
       domain_allow:
-        domain: Šis domēns varēs izgūt datus no šī servera, un no tā ienākošie dati tiks apstrādāti un saglabāti
+        domain: This domain will be able to fetch data from this server and incoming data from it will be processed and stored
       email_domain_block:
-        domain: Tas var būt domēna nosaukums, kas tiek parādīts e-pasta adresē vai izmantotajā MX ierakstā. Tie tiks pārbaudīti reģistrācijas laikā.
-        with_dns_records: Tiks mēģināts atrisināt dotā domēna DNS ierakstus, un rezultāti arī tiks bloķēti
+        domain: This can be the domain name that shows up in the e-mail address or the MX record it uses. They will be checked upon sign-up.
+        with_dns_records: An attempt to resolve the given domain's DNS records will be made and the results will also be blocked
       featured_tag:
-        name: 'Šeit ir daži no pēdējiem lietotajiem tēmturiem:'
+        name: 'Here are some of the hashtags you used the most recently:'
       filters:
-        action: Izvēlies, kuru darbību veikt, ja ziņa atbilst filtram
+        action: Chose which action to perform when a post matches the filter
         actions:
-          hide: Paslēp filtrēto saturu pilnībā, izturoties tā, it kā tas neeksistētu
-          warn: Paslēp filtrēto saturu aiz brīdinājuma, kurā minēts filtra nosaukums
+          hide: Completely hide the filtered content, behaving as if it did not exist
+          warn: Hide the filtered content behind a warning mentioning the filter's title
       form_admin_settings:
-        activity_api_enabled: Vietēji publicēto ziņu, aktīvo lietotāju un jauno reģistrāciju skaits nedēļas kopās
-        backups_retention_period: Saglabā ģenerētos lietotāju arhīvus norādīto dienu skaitā.
-        bootstrap_timeline_accounts: Šie konti tiks piesprausti jauno lietotāju ieteikumu augšdaļā.
-        closed_registrations_message: Tiek rādīts, kad reģistrēšanās ir slēgta
-        content_cache_retention_period: Ziņas no citiem serveriem tiks dzēstas pēc norādītā dienu skaita, ja ir iestatīta pozitīva vērtība. Tas var būt neatgriezeniski.
-        custom_css: Vari lietot pielāgotus stilus Mastodon tīmekļa versijā.
-        mascot: Ignorē ilustrāciju uzlabotajā tīmekļa saskarnē.
-        media_cache_retention_period: Lejupielādētie multivides faili tiks dzēsti pēc norādītā dienu skaita, kad tie būs iestatīti uz pozitīvu vērtību, un pēc pieprasījuma tiks lejupielādēti atkārtoti.
-        peers_api_enabled: Domēna vārdu saraksts, ar kuriem šis serveris ir saskāries fediversā. Šeit nav iekļauti dati par to, vai tu veic federāciju ar noteiktu serveri, tikai tavs serveris par to zina. To izmanto dienesti, kas apkopo statistiku par federāciju vispārīgā nozīmē.
-        profile_directory: Profilu direktorijā ir uzskaitīti visi lietotāji, kuri ir izvēlējušies būt atklājami.
-        require_invite_text: 'Ja pierakstīšanai nepieciešama manuāla apstiprināšana, izdari tā, lai teksta: “Kāpēc vēlaties pievienoties?” ievade ir obligāta, nevis opcionāla'
-        site_contact_email: Kā cilvēki var sazināties ar tevi par juridiskiem vai atbalsta jautājumiem.
-        site_contact_username: Tagad cilvēki var tevi sasniegt Mastodon.
-        site_extended_description: Jebkura papildu informācija, kas var būt noderīga apmeklētājiem un lietotājiem. Var strukturēt ar Markdown sintaksi.
-        site_short_description: Īss apraksts, kas palīdzēs unikāli identificēt tavu serveri. Kurš to darbina, kam tas paredzēts?
-        site_terms: Izmanto pats savu konfidencialitātes politiku vai atstāj tukšu, lai izmantotu noklusējuma iestatījumu. Var strukturēt ar Markdown sintaksi.
-        site_title: Kā cilvēki var atsaukties uz tavu serveri, izņemot tā domēna nosaukumu.
-        status_page_url: Tās lapas URL, kurā lietotāji var redzēt šī servera statusu pārtraukuma laikā
-        theme: Tēma, kuru redz apmeklētāji, kuri ir atteikušies, un jaunie lietotāji.
-        thumbnail: Aptuveni 2:1 attēls, kas tiek parādīts kopā ar tava servera informāciju.
-        timeline_preview: Atteikušies apmeklētāji varēs pārlūkot jaunākās serverī pieejamās publiskās ziņas.
-        trendable_by_default: Izlaist aktuālā satura manuālu pārskatīšanu. Atsevišķas preces joprojām var noņemt no tendencēm pēc fakta.
-        trends: Tendences parāda, kuras ziņas, atsauces un ziņu stāsti gūst panākumus tavā serverī.
-        trends_as_landing_page: Šī servera apraksta vietā rādīt aktuālo saturu lietotājiem un apmeklētājiem, kuri ir atteikušies. Nepieciešams iespējot tendences.
+        activity_api_enabled: Counts of locally published posts, active users, and new registrations in weekly buckets
+        backups_retention_period: Keep generated user archives for the specified number of days.
+        bootstrap_timeline_accounts: These accounts will be pinned to the top of new users' follow recommendations.
+        closed_registrations_message: Displayed when sign-ups are closed
+        content_cache_retention_period: Posts from other servers will be deleted after the specified number of days when set to a positive value. This may be irreversible.
+        custom_css: You can apply custom styles on the web version of Mastodon.
+        mascot: Overrides the illustration in the advanced web interface.
+        media_cache_retention_period: Downloaded media files will be deleted after the specified number of days when set to a positive value, and re-downloaded on demand.
+        peers_api_enabled: A list of domain names this server has encountered in the fediverse. No data is included here about whether you federate with a given server, just that your server knows about it. This is used by services that collect statistics on federation in a general sense.
+        profile_directory: The profile directory lists all users who have opted-in to be discoverable.
+        require_invite_text: When sign-ups require manual approval, make the “Why do you want to join?” text input mandatory rather than optional
+        site_contact_email: How people can reach you for legal or support inquiries.
+        site_contact_username: How people can reach you on Mastodon.
+        site_extended_description: Any additional information that may be useful to visitors and your users. Can be structured with Markdown syntax.
+        site_short_description: A short description to help uniquely identify your server. Who is running it, who is it for?
+        site_terms: Use your own privacy policy or leave blank to use the default. Can be structured with Markdown syntax.
+        site_title: How people may refer to your server besides its domain name.
+        status_page_url: URL of a page where people can see the status of this server during an outage
+        theme: Theme that logged out visitors and new users see.
+        thumbnail: A roughly 2:1 image displayed alongside your server information.
+        timeline_preview: Logged out visitors will be able to browse the most recent public posts available on the server.
+        trendable_by_default: Skip manual review of trending content. Individual items can still be removed from trends after the fact.
+        trends: Trends show which posts, hashtags and news stories are gaining traction on your server.
+        trends_as_landing_page: Show trending content to logged-out users and visitors instead of a description of this server. Requires trends to be enabled.
       form_challenge:
-        current_password: Tu ieej drošā zonā
+        current_password: You are entering a secure area
       imports:
-        data: CSV fails, eksportēts no cita Mastodon servera
+        data: CSV file exported from another Mastodon server
       invite_request:
-        text: Tas palīdzēs mums pārskatīt tavu lietojumprogrammu
+        text: This will help us review your application
       ip_block:
-        comment: Neobligāts. Atceries, kādēļ tu pievienoji šo nosacījumu.
-        expires_in: IP adreses ir ierobežots resurss, tās dažreiz tiek koplietotas un bieži maina turētāju. Šī iemesla dēļ nedefinēti IP bloki nav ieteicami.
-        ip: Ievadi IPv4 vai IPv6 adresi. Izmantojot CIDR sintaksi, tu vari bloķēt visus diapazonus. Esi piesardzīgs un neizslēdz pats sevi!
+        comment: Optional. Remember why you added this rule.
+        expires_in: IP addresses are a finite resource, they are sometimes shared and often change hands. For this reason, indefinite IP blocks are not recommended.
+        ip: Enter an IPv4 or IPv6 address. You can block entire ranges using the CIDR syntax. Be careful not to lock yourself out!
         severities:
-          no_access: Bloķēt piekļuvi visiem resursiem
-          sign_up_block: Jaunas pieteikšanās nebūs iespējamas
-          sign_up_requires_approval: Jaunām reģistrācijām būs nepieciešams tavs apstiprinājums
-        severity: Izvēlies, kas notiks ar pieprasījumiem no šīs IP adreses
+          no_access: Block access to all resources
+          sign_up_block: New sign-ups will not be possible
+          sign_up_requires_approval: New sign-ups will require your approval
+        severity: Choose what will happen with requests from this IP
       rule:
-        text: Apraksti nosacījumus vai prasības šī servera lietotājiem. Centies, lai tas būtu īss un vienkāršs
+        text: Describe a rule or requirement for users on this server. Try to keep it short and simple
       sessions:
-        otp: 'Ievadi divfaktoru kodu, ko ģenerējusi tava tālruņa lietotne, vai izmanto kādu no atkopšanas kodiem:'
-        webauthn: Ja tā ir USB atslēga, noteikti ievieto to un, ja nepieciešams, pieskaries tai.
+        otp: 'Enter the two-factor code generated by your phone app or use one of your recovery codes:'
+        webauthn: If it's an USB key be sure to insert it and, if necessary, tap it.
       tag:
-        name: Tu vari mainīt tikai burtu lielumu, piemēram, lai tie būtu vieglāk lasāmi
+        name: You can only change the casing of the letters, for example, to make it more readable
       user:
-        chosen_languages: Ja ieķeksēts, publiskos laika grafikos tiks parādītas tikai ziņas noteiktajās valodās
-        role: Loma kontrolē, kādas atļaujas ir lietotājam
+        chosen_languages: When checked, only posts in selected languages will be displayed in public timelines
+        role: The role controls which permissions the user has
       user_role:
-        color: Krāsa, kas jāizmanto lomai visā lietotāja saskarnē, kā RGB hex formātā
-        highlighted: Tas padara lomu publiski redzamu
-        name: Lomas publiskais nosaukums, ja loma ir iestatīta rādīšanai kā emblēma
-        permissions_as_keys: Lietotājiem ar šo lomu būs piekļuve...
-        position: What is "alower"?
+        color: Color to be used for the role throughout the UI, as RGB in hex format
+        highlighted: This makes the role publicly visible
+        name: Public name of the role, if role is set to be displayed as a badge
+        permissions_as_keys: Users with this role will have access to...
+        position: Higher role decides conflict resolution in certain situations. Certain actions can only be performed on roles with a lower priority
       webhook:
-        events: Atlasi nosūtāmos notikums
-        url: Kur notikumi tiks nosūtīti
+        events: Select events to send
+        url: Where events will be sent to
     labels:
       account:
         fields:
-          name: Marķējums
-          value: Saturs
+          name: Label
+          value: Content
       account_alias:
-        acct: Vecā konta rokturis
+        acct: Handle of the old account
       account_migration:
-        acct: Jaunā konta rokturis
+        acct: Handle of the new account
       account_warning_preset:
-        text: Iestatītais teksts
-        title: Virsraksts
+        text: Preset text
+        title: Title
       admin_account_action:
-        include_statuses: Iekļaut ziņotās ziņas e-pastā
-        send_email_notification: Paziņot lietotājam pa e-pastu
-        text: Pielāgots brīdinājums
-        type: Darbība
+        include_statuses: Include reported posts in the e-mail
+        send_email_notification: Notify the user per e-mail
+        text: Custom warning
+        type: Action
         types:
-          disable: Iesaldēt
-          none: Nosūtīt brīdinājumu
-          sensitive: Sensitīvs
-          silence: Ierobežot
-          suspend: Apturēt
-        warning_preset_id: Lietot iepriekš iestatītus brīdinājumus
+          disable: Freeze
+          none: Send a warning
+          sensitive: Sensitive
+          silence: Limit
+          suspend: Suspend
+        warning_preset_id: Use a warning preset
       announcement:
-        all_day: Visas dienas pasākums
-        ends_at: Pasākuma noslēgums
-        scheduled_at: Ieplānot publikāciju
-        starts_at: Pasākuma sākums
-        text: Paziņojums
+        all_day: All-day event
+        ends_at: End of event
+        scheduled_at: Schedule publication
+        starts_at: Start of event
+        text: Announcement
       appeal:
-        text: Paskaidrojiet, kāpēc šis lēmums ir jāatceļ
+        text: Explain why this decision should be reversed
       defaults:
-        autofollow: Uzaicini sekot tavam kontam
-        avatar: Avatars
-        bot: Šis ir bot konts
-        chosen_languages: Filtrēt valodas
-        confirm_new_password: Apstiprināt jauno paroli
-        confirm_password: Apstiprināt paroli
-        context: Filtrēt kontekstus
-        current_password: Pašreizējā parole
-        data: Dati
-        discoverable: Ieteikt kontu citiem
-        display_name: Parādāmais vārds
-        email: E-pasta adrese
-        expires_in: Beidzas pēc
-        fields: Profila metadati
-        header: Galvene
-        honeypot: "%{label} (neaizpildi)"
-        inbox_url: URL vai releja pastkaste
-        irreversible: Nomest, nevis paslēpt
-        locale: Saskarnes valoda
-        locked: Pieprasīt sekotāju pieprasījumus
-        max_uses: Maksimālais lietojumu skaits
-        new_password: Jauna parole
-        note: Par sevi
-        otp_attempt: Divfaktoru kods
-        password: Parole
-        phrase: Atslēgvārds vai frāze
-        setting_advanced_layout: Iespējot paplašināto tīmekļa saskarni
-        setting_aggregate_reblogs: Grupēt izcēlumus ierakstu lentās
-        setting_always_send_emails: Vienmēr sūtīt e-pasta paziņojumus
-        setting_auto_play_gif: Automātiski atskaņot animētos GIF
-        setting_boost_modal: Rādīt apstiprinājuma dialogu pirms izcelšanas
-        setting_crop_images: Apgrieziet attēlus neizvērstajās ziņās līdz 16x9
-        setting_default_language: Publicēšanas valoda
-        setting_default_privacy: Publicēšanas privātums
-        setting_default_sensitive: Atļaut atzīmēt multividi kā sensitīvu
-        setting_delete_modal: Parādīt apstiprinājuma dialogu pirms ziņas dzēšanas
-        setting_disable_swiping: Atspējot vilkšanas kustības
-        setting_display_media: Multivides rādīšana
-        setting_display_media_default: Noklusējums
-        setting_display_media_hide_all: Paslēpt visu
-        setting_display_media_show_all: Parādīt visu
-        setting_expand_spoilers: Vienmēr izvērst ziņas, kas apzīmētas ar brīdinājumiem par saturu
-        setting_hide_network: Slēpt savu sociālo grafu
-        setting_noindex: Atteikties no meklētājprogrammu indeksēšanas
-        setting_reduce_motion: Ierobežot kustību animācijās
-        setting_show_application: Atklāt lietojumprogrammu, ko izmanto ziņu nosūtīšanai
-        setting_system_font_ui: Lietot sistēmas noklusējuma fontu
-        setting_theme: Vietnes motīvs
-        setting_trends: Parādīt šodienas tendences
-        setting_unfollow_modal: Parādīt apstiprinājuma dialogu pirms pārtraukt kādam sekot
-        setting_use_blurhash: Rādīt krāsainus gradientus slēptajiem multivides materiāliem
-        setting_use_pending_items: Lēnais režīms
-        severity: Smagums
-        sign_in_token_attempt: Drošības kods
-        title: Virsraksts
-        type: Importa veids
-        username: Lietotājvārds
-        username_or_email: Lietotājvārds vai e-pasts
-        whole_word: Pilns vārds
+        autofollow: Invite to follow your account
+        avatar: Avatar
+        bot: This is a bot account
+        chosen_languages: Filter languages
+        confirm_new_password: Confirm new password
+        confirm_password: Confirm password
+        context: Filter contexts
+        current_password: Current password
+        data: Data
+        discoverable: Suggest account to others
+        display_name: Display name
+        email: E-mail address
+        expires_in: Expire after
+        fields: Profile metadata
+        header: Header
+        honeypot: "%{label} (do not fill in)"
+        inbox_url: URL of the relay inbox
+        irreversible: Drop instead of hide
+        locale: Interface language
+        locked: Require follow requests
+        max_uses: Max number of uses
+        new_password: New password
+        note: Bio
+        otp_attempt: Two-factor code
+        password: Password
+        phrase: Keyword or phrase
+        setting_advanced_layout: Enable advanced web interface
+        setting_aggregate_reblogs: Group boosts in timelines
+        setting_always_send_emails: Always send e-mail notifications
+        setting_auto_play_gif: Auto-play animated GIFs
+        setting_boost_modal: Show confirmation dialog before boosting
+        setting_crop_images: Crop images in non-expanded posts to 16x9
+        setting_default_language: Posting language
+        setting_default_privacy: Posting privacy
+        setting_default_sensitive: Always mark media as sensitive
+        setting_delete_modal: Show confirmation dialog before deleting a post
+        setting_disable_swiping: Disable swiping motions
+        setting_display_media: Media display
+        setting_display_media_default: Default
+        setting_display_media_hide_all: Hide all
+        setting_display_media_show_all: Show all
+        setting_expand_spoilers: Always expand posts marked with content warnings
+        setting_hide_network: Hide your social graph
+        setting_noindex: Opt-out of search engine indexing
+        setting_reduce_motion: Reduce motion in animations
+        setting_show_application: Disclose application used to send posts
+        setting_system_font_ui: Use system's default font
+        setting_theme: Site theme
+        setting_trends: Show today's trends
+        setting_unfollow_modal: Show confirmation dialog before unfollowing someone
+        setting_use_blurhash: Show colorful gradients for hidden media
+        setting_use_pending_items: Slow mode
+        severity: Severity
+        sign_in_token_attempt: Security code
+        title: Title
+        type: Import type
+        username: Username
+        username_or_email: Username or Email
+        whole_word: Whole word
       email_domain_block:
-        with_dns_records: Ietvert domēna MX ierakstus un IP adreses
+        with_dns_records: Include MX records and IPs of the domain
       featured_tag:
-        name: Tēmturis
+        name: Hashtag
       filters:
         actions:
-          hide: Paslēpt pilnībā
-          warn: Paslēpt ar brīdinājumu
+          hide: Hide completely
+          warn: Hide with a warning
       form_admin_settings:
-        activity_api_enabled: Publicējiet apkopotu statistiku par lietotāju darbībām API
-        backups_retention_period: Lietotāja arhīva glabāšanas periods
-        bootstrap_timeline_accounts: Vienmēr iesaki šos kontus jaunajiem lietotājiem
-        closed_registrations_message: Pielāgots ziņojums, ja reģistrēšanās nav pieejama
-        content_cache_retention_period: Satura arhīva glabāšanas periods
-        custom_css: Pielāgots CSS
-        mascot: Pielāgots talismans (mantots)
-        media_cache_retention_period: Multivides kešatmiņas saglabāšanas periods
-        peers_api_enabled: Publicēt API atklāto serveru sarakstu
-        profile_directory: Iespējot profila direktoriju
-        registrations_mode: Kurš drīkst pieteikties
-        require_invite_text: Pieprasīt pievienošanās iemeslu
-        show_domain_blocks: Rādīt domēnu bloķēšanas
-        show_domain_blocks_rationale: Rādīt, kāpēc domēni tika bloķēti
-        site_contact_email: E-pasts saziņai
-        site_contact_username: Lietotājvārds saziņai
-        site_extended_description: Paplašināts apraksts
-        site_short_description: Servera apraksts
-        site_terms: Privātuma Politika
-        site_title: Servera nosaukums
-        status_page_url: Statusa lapas URL
-        theme: Noklusētā tēma
-        thumbnail: Servera sīkbilde
-        timeline_preview: Atļaut neautentificētu piekļuvi publiskajām ziņu lentām
-        trendable_by_default: Atļaut tendences bez iepriekšējas pārskatīšanas
-        trends: Iespējot tendences
-        trends_as_landing_page: Izmantojiet tendences kā galveno lapu
+        activity_api_enabled: Publish aggregate statistics about user activity in the API
+        backups_retention_period: User archive retention period
+        bootstrap_timeline_accounts: Always recommend these accounts to new users
+        closed_registrations_message: Custom message when sign-ups are not available
+        content_cache_retention_period: Content cache retention period
+        custom_css: Custom CSS
+        mascot: Custom mascot (legacy)
+        media_cache_retention_period: Media cache retention period
+        peers_api_enabled: Publish list of discovered servers in the API
+        profile_directory: Enable profile directory
+        registrations_mode: Who can sign-up
+        require_invite_text: Require a reason to join
+        show_domain_blocks: Show domain blocks
+        show_domain_blocks_rationale: Show why domains were blocked
+        site_contact_email: Contact e-mail
+        site_contact_username: Contact username
+        site_extended_description: Extended description
+        site_short_description: Server description
+        site_terms: Privacy Policy
+        site_title: Server name
+        status_page_url: Status page URL
+        theme: Default theme
+        thumbnail: Server thumbnail
+        timeline_preview: Allow unauthenticated access to public timelines
+        trendable_by_default: Allow trends without prior review
+        trends: Enable trends
+        trends_as_landing_page: Use trends as the landing page
       interactions:
-        must_be_follower: Bloķēt paziņojumus no ne-sekotājiem
-        must_be_following: Bloķēt paziņojumus no cilvēkiem, kuriem tu neseko
-        must_be_following_dm: Bloķēt tiešos ziņojumus no cilvēkiem, kuriem tu neseko
+        must_be_follower: Block notifications from non-followers
+        must_be_following: Block notifications from people you don't follow
+        must_be_following_dm: Block direct messages from people you don't follow
       invite:
-        comment: Komentēt
+        comment: Comment
       invite_request:
-        text: Kāpēc tu vēlies pievienoties?
+        text: Why do you want to join?
       ip_block:
-        comment: Komentēt
+        comment: Comment
         ip: IP
         severities:
-          no_access: Bloķēt piekļuvi
-          sign_up_block: Bloķēt pieteikšanās
-          sign_up_requires_approval: Ierobežot reģistrēšanos
-        severity: Noteikumi
+          no_access: Block access
+          sign_up_block: Block sign-ups
+          sign_up_requires_approval: Limit sign-ups
+        severity: Rule
       notification_emails:
-        appeal: Kāds pārsūdz moderatora lēmumu
-        digest: Sūtīt kopsavilkumu e-pastus
-        favourite: Kāds izcēla tavu ziņu
-        follow: Kāds uzsāka tev sekot
-        follow_request: Kāds vēlas tev sekot
-        mention: Kāds pieminēja tevi
-        pending_account: Jāpārskata jaunu kontu
-        reblog: Kāds izcēla tavu ierakstu
-        report: Tika iesniegts jauns ziņojums
-        trending_tag: Jaunā tendence ir jāpārskata
+        appeal: Someone appeals a moderator decision
+        digest: Send digest e-mails
+        favourite: Someone favourited your post
+        follow: Someone followed you
+        follow_request: Someone requested to follow you
+        mention: Someone mentioned you
+        pending_account: New account needs review
+        reblog: Someone boosted your post
+        report: New report is submitted
+        trending_tag: New trend requires review
       rule:
-        text: Noteikumi
+        text: Rule
       tag:
-        listable: Atļaut šim tēmturim parādīties meklējumos un ieteikumos
-        name: Tēmturis
-        trendable: Atļaut šim tēmturim parādīties zem tendencēm
-        usable: Atļaut lietot ziņās šo tēmturi
+        listable: Allow this hashtag to appear in searches and suggestions
+        name: Hashtag
+        trendable: Allow this hashtag to appear under trends
+        usable: Allow posts to use this hashtag
       user:
-        role: Loma
+        role: Role
       user_role:
-        color: Emblēmas krāsa
-        highlighted: Atainot lomu kā emblēmu lietotāju profilos
-        name: Nosaukums
-        permissions_as_keys: Atļaujas
-        position: Prioritāte
+        color: Badge color
+        highlighted: Display role as badge on user profiles
+        name: Name
+        permissions_as_keys: Permissions
+        position: Priority
       webhook:
-        events: Iespējotie notikumi
-        url: Galapunkta URL
-    'no': Nē
-    not_recommended: Nav ieteicams
-    recommended: Ieteicams
+        events: Enabled events
+        url: Endpoint URL
+    'no': 'No'
+    not_recommended: Not recommended
+    recommended: Recommended
     required:
       mark: "*"
-      text: nepieciešams
+      text: required
     title:
       sessions:
-        webauthn: Lai pierakstītos, izmanto vienu no savām drošības atslēgām
-    'yes': Jā
+        webauthn: Use one of your security keys to sign in
+    'yes': 'Yes'
