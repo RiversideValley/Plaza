@@ -19,7 +19,7 @@ ka-GE:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
+              invalid: მხოლოდ ასოები, ციფრები და "ქვედა-ტირე"
               reserved: is reserved
         admin/webhook:
           attributes:
@@ -36,7 +36,7 @@ ka-GE:
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: სტატუსის უკვე არსებობს
         user:
           attributes:
             email:
