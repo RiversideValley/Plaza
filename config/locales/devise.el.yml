@@ -1,5 +1,5 @@
 ---
-el-GR:
+el-CY:
   devise:
     confirmations:
       confirmed: Η διεύθυνση email σου επιβεβαιώθηκε με επιτυχία.
