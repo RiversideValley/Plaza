@@ -3,53 +3,53 @@ tr-CY:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: Bitiş zamanı
+        options: Seçenekler
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: Hizmet Sözleşmesi
+        email: E-posta adresi
+        locale: Bölge ayarı
+        password: Parola
       user/account:
-        username: Username
+        username: Kullanıcı adı
       user/invite_request:
-        text: Reason
+        text: Gerekçe
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: sadece harfler, sayılar ve alt çizgiler
+              reserved: kullanılamaz
         admin/webhook:
           attributes:
             url:
-              invalid: is not a valid URL
+              invalid: geçerli bir URL değil
         doorkeeper/application:
           attributes:
             website:
-              invalid: is not a valid URL
+              invalid: geçerli bir bağlantı değil
         import:
           attributes:
             data:
-              malformed: is malformed
+              malformed: bozulmuştur
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: durum zaten var
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: izin verilmeyen bir e-posta sağlayıcı kullanıyor
+              unreachable: mevcut gözükmüyor
             role_id:
-              elevated: cannot be higher than your current role
+              elevated: mevcut rolünüzden yüksek olamaz
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: include permissions that are not safe for the base role
-              elevated: cannot include permissions your current role does not possess
-              own_role: cannot be changed with your current role
+              dangerous: temel rol için güvenli olmayan izinleri içerir
+              elevated: mevcut rolünüzün sahip olmadığı izinleri içeremez
+              own_role: mevcut rolünüzle değiştirilemez
             position:
-              elevated: cannot be higher than your current role
-              own_role: cannot be changed with your current role
+              elevated: mevcut rolünüzden yüksek olamaz
+              own_role: mevcut rolünüzle değiştirilemez
