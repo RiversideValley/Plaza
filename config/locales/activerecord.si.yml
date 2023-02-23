@@ -3,24 +3,24 @@ si-LK:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: නියමිත කාලය
+        options: තේරීම්
       user:
-        agreement: Service agreement
-        email: E-mail address
+        agreement: සේවා ගිවිසුම
+        email: වි-තැපැල් ලිපිනය
         locale: Locale
-        password: Password
+        password: මුර පදය
       user/account:
-        username: Username
+        username: පරිශීලක නාමය
       user/invite_request:
-        text: Reason
+        text: හේතුව
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: අකුරු, අංක සහ යට-ඉරි පමණි
+              reserved: වෙන් කර ඇත
         admin/webhook:
           attributes:
             url:
@@ -40,8 +40,8 @@ si-LK:
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: නොඉඩ දෙන වි-තැපැල් ප්‍රතිපාදකයෙකු භාවිතා කරයි
+              unreachable: පෙනෙන හැටියට නොපවතී
             role_id:
               elevated: cannot be higher than your current role
         user_role:
