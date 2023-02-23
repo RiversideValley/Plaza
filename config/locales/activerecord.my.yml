@@ -3,53 +3,53 @@ my-MM:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: နောက်ဆုံးတင်သွင်းချိန်
+        options: ရွေးချယ်မှူများ
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: ဝန်ဆောင်မှု သဘောတူညီချက်
+        email: အီးမေးလ်လိပ်စာ
+        locale: ဒေသဆိုင်ရာ
+        password: စကားဝှက်
       user/account:
-        username: Username
+        username: အသုံးပြုသူအမည်
       user/invite_request:
-        text: Reason
+        text: အကြောင်းပြချက်
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: တွင် အက္ခရာစာလုံး၊ ဂဏန်းနံပါတ်နှင့်underscores သာပါရမည်
+              reserved: သည် အသုံးပြုပြီးဖြစ်သည်
         admin/webhook:
           attributes:
             url:
-              invalid: is not a valid URL
+              invalid: သည် မှန်ကန်သော URL မဟုတ်ပါ
         doorkeeper/application:
           attributes:
             website:
-              invalid: is not a valid URL
+              invalid: သည် မှန်ကန်သော URL မဟုတ်ပါ
         import:
           attributes:
             data:
-              malformed: is malformed
+              malformed: သည် ပုံမှန်မဟုတ်ပါ
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: ပို့စ်တည်ရှိနှင့်ပြီးဖြစ်သည်
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: တွင် ခွင့်မပြုထားသော အီးမေးလ်ထောက်ပံ့သူပါဝင်နေသည်။
+              unreachable: သည် တည်ရှိပုံ မပေါ်ပါ
             role_id:
-              elevated: cannot be higher than your current role
+              elevated: သင့်လက်ရှိအခန်းကဏ္ဍထက်ပို၍ မမြှင့်တင်နိုင်ပါ
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: include permissions that are not safe for the base role
-              elevated: cannot include permissions your current role does not possess
-              own_role: cannot be changed with your current role
+              dangerous: အခြေခံအခန်းကဏ္ဍအတွက် လုံခြုံမှုမရှိသော ခွင့်ပြုချက်များပါဝင်နေသည်
+              elevated: သင့်လက်ရှိအခန်းကဏ္ဍမပိုင်ဆိုင်သော ခွင့်ပြုချက်များမပါဝင်ပါ
+              own_role: သင့်လက်ရှိအခန်းကဏ္ဍဖြင့် ပြောင်းလဲ၍မရနိုင်ပါ
             position:
-              elevated: cannot be higher than your current role
-              own_role: cannot be changed with your current role
+              elevated: သင့်လက်ရှိအခန်းကဏ္ဍထက်ပို၍ မမြှင့်တင်နိုင်ပါ
+              own_role: သင့်လက်ရှိအခန်းကဏ္ဍဖြင့် ပြောင်းလဲ၍မရနိုင်ပါ
