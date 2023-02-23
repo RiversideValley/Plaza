@@ -3,53 +3,53 @@ es-419:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: Vencimiento
+        options: Opciones
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: Acuerdo de Servicio
+        email: Dirección de correo electrónico
+        locale: Idioma
+        password: Contraseña
       user/account:
-        username: Username
+        username: Nombre de usuario
       user/invite_request:
-        text: Reason
+        text: Razón
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: solo puede contener letras, números y guiones bajos
+              reserved: está reservado
         admin/webhook:
           attributes:
             url:
-              invalid: is not a valid URL
+              invalid: no es una URL válida
         doorkeeper/application:
           attributes:
             website:
-              invalid: is not a valid URL
+              invalid: no es una URL válida
         import:
           attributes:
             data:
-              malformed: is malformed
+              malformed: tiene un formato incorrecto
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: del estado ya existe
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: utiliza un proveedor de correo no autorizado
+              unreachable: no parece existir
             role_id:
-              elevated: cannot be higher than your current role
+              elevated: no puede ser mayor que tu rol actual
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: include permissions that are not safe for the base role
-              elevated: cannot include permissions your current role does not possess
-              own_role: cannot be changed with your current role
+              dangerous: incluir permisos que no son seguros para el rol base
+              elevated: no se pueden incluir permisos que tu rol actual no posea
+              own_role: no se puede cambiar con tu rol actual
             position:
-              elevated: cannot be higher than your current role
-              own_role: cannot be changed with your current role
+              elevated: no puede ser mayor que tu rol actual
+              own_role: no se puede cambiar con tu rol actual
