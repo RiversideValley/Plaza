@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path('../config/environment', __dir__)
 
@@ -73,11 +71,11 @@ end
 RSpec::Matchers.define_negated_matcher :not_change, :change
 
 def request_fixture(name)
-  Rails.root.join('spec', 'fixtures', 'requests', name).read
+  File.read(Rails.root.join('spec', 'fixtures', 'requests', name))
 end
 
 def attachment_fixture(name)
-  Rails.root.join('spec', 'fixtures', 'files', name).open
+  File.open(Rails.root.join('spec', 'fixtures', 'files', name))
 end
 
 def stub_jsonld_contexts!

@@ -3,53 +3,53 @@ sr:
   activerecord:
     attributes:
       poll:
-        expires_at: Крајњи рок
-        options: Избори
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Уговор о услузи
-        email: Е-адреса
-        locale: Локално
-        password: Лозинка
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Корисничко име
+        username: Username
       user/invite_request:
-        text: Разлог
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: мора да садржи само слова, бројеве и доње црте
-              reserved: је резервисано
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
         admin/webhook:
           attributes:
             url:
-              invalid: није важећа УРЛ адреса
+              invalid: is not a valid URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: није важећа УРЛ адреса
+              invalid: is not a valid URL
         import:
           attributes:
             data:
-              malformed: није добро формиран
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: објаве већ постоји
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: користи недозвољени провајдер е-поште
-              unreachable: изгледа да не постоји
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
             role_id:
-              elevated: не може бити више са вашом тренутном улогом
+              elevated: cannot be higher than your current role
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: укључује дозволе које нису безбедне за основну улогу
-              elevated: не може да укључи дозволе које ваша тренутна улога не поседује
-              own_role: не може да се промени са вашом тренутном улогом
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
             position:
-              elevated: не може бити више са вашом тренутном улогом
-              own_role: не може да се промени са вашом тренутном улогом
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role

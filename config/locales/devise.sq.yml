@@ -2,114 +2,114 @@
 sq:
   devise:
     confirmations:
-      confirmed: Adresa juaj email u ripohua me sukses.
-      send_instructions: Brenda pak minutash, do të merrni një email me udhëzime se si të ripohoni adresën tuaj email. Ju lutemi, kontrolloni dosjen e mesazheve të padëshiruar, nëse nuk e morët këtë email.
-      send_paranoid_instructions: Nëse adresa juaj email gjendet në bazën tonë të të dhënave, brenda pak minutash, do të merrni një email me udhëzime se si të ripohoni adresën tuaj email. Ju lutemi, nëse nuk e morët këtë email, kontrolloni dosjen e mesazheve të padëshiruar.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: Jeni tashmë i futur.
-      inactive: Llogaria juaj s’është aktivizuar ende.
-      invalid: "%{authentication_keys} ose fjalëkalim i pavlefshëm."
-      last_attempt: Mund të provoni edhe një herë, përpara se llogaria juaj të kyçet.
-      locked: Llogaria juaj është e kyçur.
-      not_found_in_database: "%{authentication_keys} ose fjalëkalim i pavlefshëm."
-      pending: Llogaria juaj është ende nën shqyrtim.
-      timeout: Sesioni juaj ka skaduar. Ju lutemi, që të vazhdohet, ribëni hyrjen.
-      unauthenticated: Përpara se të vazhdohet më tej, lypset të bëni hyrjen ose të regjistroheni.
-      unconfirmed: Përpara se të vazhdohet, lypset të ripohoni adresën tuaj email.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Verifikoni adresë email
-        action_with_app: Ripohojeni dhe kthehuni te %{app}
-        explanation: Keni krijuar një llogari te %{host}, me këtë adresë email. Jeni një klikim larg aktivizimit të saj. Nëse s’jeni ju, shpërfilleni këtë email.
-        explanation_when_pending: Keni aplikuar për një ftesë te %{host} me këtë adresë email. Pasi të ripohoni adresën tuaj email, do të marrim në shqyrtim aplikimin tuaj. Mund të bëni hyrjen që të ndryshoni hollësitë tuaja ose të fshini llogarinë tuaj, por s’mund të përdorni shumicën e funksioneve, para se llogaria juaj të miratohet. Nëse aplikimi juaj hidhet poshtë, të dhënat tuaja do të hiqen, ndaj s’do të ketë nevojë për veprim të mëtejshëm nga ana juaj. Nëse ky s’qetë ju, ju lutemi, shpërfilleni këtë email.
-        extra_html: Ju lutemi, shihni edhe <a href="%{terms_path}">rregullat e shërbyesit</a> dhe <a href="%{policy_path}">kushtet tona të shërbimit</a>.
-        subject: 'Mastodon: Udhëzime ripohimi për %{instance}'
-        title: Verifikoni adresë email
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'Adresa email për llogarinë tuaj po ndryshohet në:'
-        extra: Nëse email-in tuaj s’e ndryshuat ju, gjasat janë që dikush tjetër ka arritur të hyjë në llogarinë tuaj. Nëse jeni kyçur jashtë llogarisë tuaj, ju lutemi, ndryshoni menjëherë fjalëkalimin tuaj ose lidhuni me përgjegjësin e shërbyesit.
-        subject: 'Mastodon: U ndryshua email'
-        title: Adresë email e re
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
+        title: New email address
       password_change:
-        explanation: Fjalëkalimi për llogarinë tuaj u ndryshua.
-        extra: Nëse fjalëkalimin tuaj s’e ndryshuat ju, gjasat janë që dikush tjetër ka arritur të hyjë në llogarinë tuaj. Ju lutemi, ndryshoni menjëherë fjalëkalimin tuaj ose lidhuni me përgjegjësin e shërbyesit, nëse jeni kyçur jashtë llogarisë tuaj.
-        subject: 'Mastodon: U ndryshua fjalëkalim'
-        title: Fjalëkalimi u ndryshua
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: Që të ndryshohet email-i juaj, ripohoni adresën e re.
-        extra: Nëse ky ndryshim s’qe filluar prej jush, ju lutemi, shpërfilleni këtë email. Adresa email për llogarinë Mastodon s’do të ndryshojë, para se të hyni në lidhjen më sipër.
-        subject: 'Mastodon: Ripohoni email-in për %{instance}'
-        title: Verifikoni adresë email
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: Ndryshoni fjalëkalimin
-        explanation: Kërkuat një fjalëkalim të ri për këtë llogari.
-        extra: Nëse këtë s’e kërkuat ju, ju lutemi, shpërfilleni këtë email. Fjalëkalimi juaj s’do të ndryshohet pa hyrë në lidhjen më sipër dhe krijimin e një të riu.
-        subject: 'Mastodon: Udhëzime ricaktimi fjalëkalimi'
-        title: Ricaktim fjalëkalimi
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: Mirëfilltësimi dyfaktorësh për llogarinë tuaj është çaktivizuar. Hyrja tanimë është e mundur vetëm duke përdorur adresën email dhe fjalëkalimin.
-        subject: 'Mastodon: U çaktivizua mirëfilltësimi dyfaktorësh'
-        title: 2FA u çaktivizua
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: Mirëfilltësimi dyfaktorësh është aktivizuar për llogarinë tuaj. Për hyrje, do të kërkohet doemos një token i prodhuar nga aplikacioni TOTP i çiftuar.
-        subject: 'Mastodon: U aktivizua mirëfilltësimi dyfaktorësh'
-        title: 2FA u aktivizua
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: Kodet e dikurshëm të rikthimit janë bërë të pavlefshëm dhe janë prodhuar të rinj.
-        subject: 'Mastodon: U riprodhuan kode rikthimi dyfaktorësh'
-        title: Kodet e rikthimit 2FA u ndryshuan
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'Mastodon: Udhëzime shkyçjeje'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: Kyçi vijues i sigurisë është shtuar te llogaria juaj
-          subject: 'Mastodon: Kyç i ri sigurie'
-          title: U shtua një kyç i ri sigurie
+          explanation: The following security key has been added to your account
+          subject: 'Mastodon: New security key'
+          title: A new security key has been added
         deleted:
-          explanation: Kyçi vijues i sigurisë është fshirë prej llogarisë tuaj
-          subject: 'Mastodon: Fshirje kyçi sigurie'
-          title: Një nga kyçet tuaj të sigurisë është fshirë
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: Mirëfilltësimi me kyçe sigurie është çaktivizuar për llogarinë tuaj. Hyrja tani është e mundshme vetëm duke përdorur token-in e prodhuar nga aplikacioni TOTP i çiftuar.
-        subject: 'Mastodon: U çaktivizua mirëfilltësimi me kyçe sigurie'
-        title: U çaktivizuan kyçe sigurie
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: Mirëfilltësimi përmes kyçesh sigurie është aktivizuar për llogarinë tuaj. Tani, për hyrje mund të përdoren kyçet tuaj të sigurisë.
-        subject: 'Mastodon: U aktivizua mirëfilltësim me kyçe sigurie'
-        title: U aktivizuan kyçe sigurie
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: S’u bë dot mirëfilltësimi juaj nga %{kind}, sepse "%{reason}".
-      success: Mirëfilltësimi nga llogaria %{kind} u bë me sukses.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: S’mund të hyni në këtë faqe pa ardhur nga një email ricaktimi fjalëkalimi. Nëse vini nga një email ricaktimi fjalëkalimi, ju lutemi, sigurohuni se përdorët URL-në e plotë dhënë për ju.
-      send_instructions: Nëse adresa juaj email gjendet në bazën tonë të të dhënave, brenda pak minutash, te adresa juaj email do të merrni një lidhje rimarrjeje fjalëkalimi. Ju lutemi, kontrolloni dosjen e mesazheve të padëshiruar, nëse nuk e morët këtë email.
-      send_paranoid_instructions: Nëse adresa juaj email gjendet në bazën tonë të të dhënave, brenda pak minutash, te adresa juaj email do të merrni një lidhje rimarrjeje fjalëkalimi. Ju lutemi, kontrolloni dosjen e mesazheve të padëshiruar, nëse nuk e morët këtë email.
-      updated: Fjalëkalimi juaj u ndryshua me sukses. Tani jeni i futur.
-      updated_not_active: Fjalëkalimi juaj u ndryshua me sukses.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: Shëndet! Llogaria juaj u fshi me sukses. Shpresojmë t’ju rishohim së shpejti.
-      signed_up: Mirë se vini! U regjistruat me sukses.
-      signed_up_but_inactive: U regjistruat me sukses. Megjithatë, s’u bë dot hyrja juaj, ngaqë llogaria juaj s’është aktivizuar ende.
-      signed_up_but_locked: U regjistruat me sukses. Megjithatë, s’u bë dot hyrja juaj, ngaqë llogaria juaj është kyçur.
-      signed_up_but_pending: Te adresa juaj email është dërguar një mesazh me një lidhje ripohimi. Pasi të klikoni mbi lidhjen, do të shqyrtojmë aplikimin tuaj. Nëse miratohet, do të njoftoheni.
-      signed_up_but_unconfirmed: Te adresa juaj email u dërgua një mesazh me një lidhje ripohimi. Ju lutemi, që të aktivizoni llogarinë tuaj, ndiqni lidhjen. Ju lutemi, kontrolloni dosjen e mesazheve të padëshiruar, nëse nuk e morët këtë email.
-      update_needs_confirmation: E përditësuat me sukses llogarinë tuaj, por na duhet të verifikojmë adresën tuaj të re email. Ju lutemi, që të ripohoni adresën tuaj të re email, kontrolloni email-in tuaj dhe ndiqni lidhjen. Ju lutemi, kontrolloni dosjen e mesazheve të padëshiruar, nëse nuk e morët këtë email.
-      updated: Llogaria juaj u përditësua me sukses.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: Dolët me sukses.
-      signed_in: Hytë me sukses.
-      signed_out: Dolët me sukses.
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: Brenda pak minutash, do të merrni një email me udhëzime se si të shkyçni llogarinë tuaj. Ju lutemi, kontrolloni dosjen e mesazheve të padëshiruar, nëse nuk e morët këtë email.
-      send_paranoid_instructions: Nëse llogaria juaj ekziston, brenda pak minutash, do të merrni një email me udhëzime se si të shkyçni llogarinë tuaj. Ju lutemi, kontrolloni dosjen e mesazheve të padëshiruar, nëse nuk e morët këtë email.
-      unlocked: Llogaria juaj u shkyç me sukses. Ju lutemi, që të vazhdohet, bëni hyrjen.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: qe e ripohuar tashmë, ju lutemi, provoni të bëni hyrjen
-      confirmation_period_expired: lyp të ripohohet brenda %{period}, ju lutemi, kërkoni një të ri
-      expired: ka skaduar, ju lutemi, kërkoni një të ri
-      not_found: s’u gjet
-      not_locked: s’qe kyçur
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        one: 'Ruajtjen e këtij %{resource} e pengoi 1 gabim:'
-        other: 'Ruajtjen e këtij %{resource} e penguan %{count} gabime:'
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: "%{count} errors prohibited this %{resource} from being saved:"

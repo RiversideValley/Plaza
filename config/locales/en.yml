@@ -925,7 +925,7 @@ en:
     new_report:
       body: "%{reporter} has reported %{target}"
       body_remote: Someone from %{domain} has reported %{target}
-      subject: New report for %{instance} (#%{id})
+      subject: 'New report for %{instance} (#%{id})'
     new_trends:
       body: 'The following items need a review before they can be displayed publicly:'
       new_trending_links:

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Fabricator(:user) do
   account      { Fabricate.build(:account, user: nil) }
   email        { sequence(:email) { |i| "#{i}#{Faker::Internet.email}" } }

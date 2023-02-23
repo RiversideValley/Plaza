@@ -3,30 +3,53 @@ sc:
   activerecord:
     attributes:
       poll:
-        expires_at: Iscadèntzia
-        options: Seberos
+        expires_at: Deadline
+        options: Choices
       user:
-        agreement: Acordu de servìtziu
-        email: Indiritzu de posta eletrònica
-        locale: Idioma
-        password: Crae
+        agreement: Service agreement
+        email: E-mail address
+        locale: Locale
+        password: Password
       user/account:
-        username: Nòmine utente
+        username: Username
       user/invite_request:
-        text: Resone
+        text: Reason
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: isceti lìteras, nùmeros e tratigheddos bassos
-              reserved: est prenotadu
+              invalid: must contain only letters, numbers and underscores
+              reserved: is reserved
+        admin/webhook:
+          attributes:
+            url:
+              invalid: is not a valid URL
+        doorkeeper/application:
+          attributes:
+            website:
+              invalid: is not a valid URL
+        import:
+          attributes:
+            data:
+              malformed: is malformed
         status:
           attributes:
             reblog:
-              taken: de s'istadu esistet giai
+              taken: of post already exists
         user:
           attributes:
             email:
-              blocked: impreat unu frunidore de posta eletrònica proibidu
-              unreachable: paret chi no esistit
+              blocked: uses a disallowed e-mail provider
+              unreachable: does not seem to exist
+            role_id:
+              elevated: cannot be higher than your current role
+        user_role:
+          attributes:
+            permissions_as_keys:
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
+            position:
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role

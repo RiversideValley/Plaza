@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Fabricator(:one_time_key) do
   device
   key_id { Faker::Alphanumeric.alphanumeric(number: 10) }

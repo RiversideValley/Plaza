@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Fabricator(:account_stat) do
   account         nil
   statuses_count  ''

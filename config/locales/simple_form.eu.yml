@@ -3,315 +3,315 @@ eu:
   simple_form:
     hints:
       account_alias:
-        acct: Zehaztu migrazioaren jatorri den kontuaren erabiltzailea@domeinua
+        acct: Specify the username@domain of the account you want to move from
       account_migration:
-        acct: Zehaztu migrazioaren xede den kontuaren erabiltzaile@domeinua
+        acct: Specify the username@domain of the account you want to move to
       account_warning_preset:
-        text: Bidalketaren sintaxia erabili dezakezu, hala nola, URLak, traolak eta aipamenak
-        title: Aukerakoa. Hartzaileak ez du ikusiko
+        text: You can use post syntax, such as URLs, hashtags and mentions
+        title: Optional. Not visible to the recipient
       admin_account_action:
-        include_statuses: Erabiltzaileak moderazio ekintza edo abisu bat eragin duten bidalketak ikusi ahal izango ditu
-        send_email_notification: Erabiltzaileak bere kontuarekin gertatutakoaren azalpen bat jasoko du
-        text_html: Aukerakoa. Toot sintaxia erabili dezakezu. <a href="%{path}">Abisu aurre-ezarpenak</a> gehitu ditzakezu denbora aurrezteko
-        type_html: Erabaki zer egin <strong>%{acct}</strong> kontuarekin
+        include_statuses: The user will see which posts have caused the moderation action or warning
+        send_email_notification: The user will receive an explanation of what happened with their account
+        text_html: Optional. You can use post syntax. You can <a href="%{path}">add warning presets</a> to save time
+        type_html: Choose what to do with <strong>%{acct}</strong>
         types:
-          disable: Erabiltzaileari bere kontua erabiltzea eragotzi, baina ez ezabatu edo ezkutatu bere edukiak.
-          none: Erabili hau erabiltzaileari abisu bat bidaltzeko, beste ekintzarik abiarazi gabe.
-          sensitive: Behartu erabiltzaile honen multimedia eranskin guztiak hunkigarri gisa markatzea.
-          silence: Eragotzi erabiltzaileak ikusgaitasun publikoarekin argitaratzea, ezkutatu bere bidalketa eta jakinarazpenak jarraitzen ez duten pertsonei. Kontu honen aurkako txosten guztiak ixten ditu.
-          suspend: Eragotzi kontu honek inolako interakziorik izatea eta ezabatu bere edukiak. Atzera bota daiteke 30 egun igaro aurretik. Kontu honen aurkako txosten guztiak ixten ditu.
-        warning_preset_id: Aukerakoa. Zure testua gehitu dezakezu aurre-ezarpenaren ostean
+          disable: Prevent the user from using their account, but do not delete or hide their contents.
+          none: Use this to send a warning to the user, without triggering any other action.
+          sensitive: Force all this user's media attachments to be flagged as sensitive.
+          silence: Prevent the user from being able to post with public visibility, hide their posts and notifications from people not following them. Closes all reports against this account.
+          suspend: Prevent any interaction from or to this account and delete its contents. Revertible within 30 days. Closes all reports against this account.
+        warning_preset_id: Optional. You can still add custom text to end of the preset
       announcement:
-        all_day: Markatutakoan soilik denbora barrutiko datak erakutsiko dira
-        ends_at: Aukerakoa. Iragapena une honetan automatikoki desargitaratuko da
-        scheduled_at: Laga hutsik iragarpena berehala argitaratzeko
-        starts_at: Aukerakoa. Zure iragarpena denbora-tarte batera lotuta dagoenerako
-        text: Tootetako sintaxia erabili dezakezu. Kontuan izan iragarpenak erabiltzailearen pantailan hartuko duen neurria
+        all_day: When checked, only the dates of the time range will be displayed
+        ends_at: Optional. Announcement will be automatically unpublished at this time
+        scheduled_at: Leave blank to publish the announcement immediately
+        starts_at: Optional. In case your announcement is bound to a specific time range
+        text: You can use post syntax. Please be mindful of the space the announcement will take up on the user's screen
       appeal:
-        text: Neurri bati apelazioa behin bakarrik jarri diezaiokezu
+        text: You can only appeal a strike once
       defaults:
-        autofollow: Gonbidapena erabiliz izena ematen dutenek automatikoki jarraituko dizute
-        avatar: PNG, GIF edo JPG. Gehienez %{size}. %{dimensions}px neurrira eskalatuko da
-        bot: Kontu honek nagusiki automatizatutako ekintzak burutzen ditu eta agian ez du inork monitorizatzen
-        context: Iragazkia aplikatzeko testuinguru bat edo batzuk
-        current_password: Segurtasunagatik sartu uneko kontuaren pasahitza
-        current_username: Berresteko sartu uneko kontuaren erabiltzaile-izena
-        digest: Jarduerarik gabeko epe luze bat eta gero mezu pertsonalen bat jaso baduzu, besterik ez
-        discoverable: Baimendu zure kontua ezezagunek aurkitu ahal izatea gomendio, joera eta beste ezaugarrien bidez
-        email: Baieztapen e-mail bat bidaliko zaizu
-        fields: 4 elementu bistaratu ditzakezu taula batean zure profilean
-        header: PNG, GIF edo JPG. Gehienez %{size}. %{dimensions}px eskalara txikituko da
-        inbox_url: Kopiatu erabili nahi duzun errelearen hasiera orriaren URLa
-        irreversible: Iragazitako tootak betirako galduko dira, geroago iragazkia kentzen baduzu ere
-        locale: Erabiltzaile-interfazea, e-mail mezuen eta jakinarazpenen hizkuntza
-        locked: Jarraitzaileak eskuz onartu behar dituzu
-        password: Erabili 8 karaktere gutxienez
-        phrase: Bat egingo du Maiuskula/minuskula kontuan hartu gabe eta edukiaren abisua kontuan hartu gabe
-        scopes: Zeintzuk API atzitu ditzakeen aplikazioak. Goi mailako arloa aukeratzen baduzu, ez dituzu azpikoak aukeratu behar.
-        setting_aggregate_reblogs: Ez erakutsi bultzada berriak berriki bultzada jaso duten tootentzat (berriki jasotako bultzadei eragiten die bakarrik)
-        setting_always_send_emails: Normalean eposta jakinarazpenak ez dira bidaliko Mastodon aktiboki erabiltzen ari zaren bitartean
-        setting_default_sensitive: Multimedia hunkigarria lehenetsita ezkutatzen da, eta sakatuz ikusi daiteke
-        setting_display_media_default: Ezkutatu hunkigarri gisa markatutako multimedia
-        setting_display_media_hide_all: Ezkutatu multimedia guztia beti
-        setting_display_media_show_all: Erakutsi beti hunkigarri gisa markatutako multimedia
-        setting_hide_network: Nor jarraitzen duzun eta nork jarraitzen zaituen ez da bistaratuko zure profilean
-        setting_noindex: Zure profil publiko eta tooten orrietan eragina du
-        setting_show_application: Tootak bidaltzeko erabiltzen duzun aplikazioa zure tooten ikuspegi xehetsuan bistaratuko da
-        setting_use_blurhash: Gradienteak ezkutatutakoaren koloreetan oinarritzen dira, baina xehetasunak ezkutatzen dituzte
-        setting_use_pending_items: Ezkutatu denbora-lerroko eguneraketak klik baten atzean jarioa automatikoki korritu ordez
-        username: Zure erabiltzaile-izena bakana izango da %{domain} domeinuan
-        whole_word: Hitz eta esaldi gakoa alfanumerikoa denean, hitz osoarekin bat datorrenean besterik ez da aplikatuko
+        autofollow: People who sign up through the invite will automatically follow you
+        avatar: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        bot: Signal to others that the account mainly performs automated actions and might not be monitored
+        context: One or multiple contexts where the filter should apply
+        current_password: For security purposes please enter the password of the current account
+        current_username: To confirm, please enter the username of the current account
+        digest: Only sent after a long period of inactivity and only if you have received any personal messages in your absence
+        discoverable: Allow your account to be discovered by strangers through recommendations, trends and other features
+        email: You will be sent a confirmation e-mail
+        fields: You can have up to 4 items displayed as a table on your profile
+        header: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        inbox_url: Copy the URL from the frontpage of the relay you want to use
+        irreversible: Filtered posts will disappear irreversibly, even if filter is later removed
+        locale: The language of the user interface, e-mails and push notifications
+        locked: Manually control who can follow you by approving follow requests
+        password: Use at least 8 characters
+        phrase: Will be matched regardless of casing in text or content warning of a post
+        scopes: Which APIs the application will be allowed to access. If you select a top-level scope, you don't need to select individual ones.
+        setting_aggregate_reblogs: Do not show new boosts for posts that have been recently boosted (only affects newly-received boosts)
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Mastodon
+        setting_default_sensitive: Sensitive media is hidden by default and can be revealed with a click
+        setting_display_media_default: Hide media marked as sensitive
+        setting_display_media_hide_all: Always hide media
+        setting_display_media_show_all: Always show media
+        setting_hide_network: Who you follow and who follows you will be hidden on your profile
+        setting_noindex: Affects your public profile and post pages
+        setting_show_application: The application you use to post will be displayed in the detailed view of your posts
+        setting_use_blurhash: Gradients are based on the colors of the hidden visuals but obfuscate any details
+        setting_use_pending_items: Hide timeline updates behind a click instead of automatically scrolling the feed
+        username: Your username will be unique on %{domain}
+        whole_word: When the keyword or phrase is alphanumeric only, it will only be applied if it matches the whole word
       domain_allow:
-        domain: Domeinu honek zerbitzari honetatik datuak hartu ahal izango ditu eta bertatik jasotako informazioa prozesatu eta gordeko da
+        domain: This domain will be able to fetch data from this server and incoming data from it will be processed and stored
       email_domain_block:
-        domain: Hau eposta helbidean agertzen den domeinu-izena edo MX erregistroak erabiltzen duena izan daiteke. Izen-ematean egiaztatuko dira.
-        with_dns_records: Emandako domeinuaren DNS erregistroak ebazteko saiakera bat egingo da eta emaitzak ere zerrenda beltzean sartuko dira
+        domain: This can be the domain name that shows up in the e-mail address or the MX record it uses. They will be checked upon sign-up.
+        with_dns_records: An attempt to resolve the given domain's DNS records will be made and the results will also be blocked
       featured_tag:
-        name: 'Hemen dituzu azkenaldian gehien erabili dituzun traoletako batzuk:'
+        name: 'Here are some of the hashtags you used the most recently:'
       filters:
-        action: Aukeratu ze ekintza burutu behar den bidalketa bat iragazkiarekin bat datorrenean
+        action: Chose which action to perform when a post matches the filter
         actions:
-          hide: Ezkutatu erabat iragazitako edukia, existituko ez balitz bezala
-          warn: Ezkutatu iragazitako edukia iragazkiaren izenburua duen abisu batekin
+          hide: Completely hide the filtered content, behaving as if it did not exist
+          warn: Hide the filtered content behind a warning mentioning the filter's title
       form_admin_settings:
-        activity_api_enabled: Lokalki argitaratutako bidalketak, erabiltzaile aktiboak, eta izen-emateen kopuruak astero zenbatzen ditu
-        backups_retention_period: Mantendu sortutako erabiltzailearen artxiboa zehazturiko egun kopuruan.
-        bootstrap_timeline_accounts: Kontu hauek erabiltzaile berrien jarraitzeko gomendioen goiko aldean ainguratuko dira.
-        closed_registrations_message: Izen-ematea itxia dagoenean bistaratua
-        content_cache_retention_period: Balio positibo bat ezarriz gero, egun kopuru horretara iristean beste zerbitzarietako bidalketak ezabatuko dira. Hau ezin da desegin.
-        custom_css: Estilo pertsonalizatuak aplikatu ditzakezu Mastodonen web bertsioan.
-        mascot: Web interfaze aurreratuko ilustrazioa gainidazten du.
-        media_cache_retention_period: Balio positibo bat ezarriz gero, egun kopuru horretara iristean beste zerbitzarietatik deskargatutako multimedia fitxategiak ezabatuko dira. Ondoren, eskatu ahala deskargatuko dira berriz.
-        peers_api_enabled: Zerbitzari honek fedibertsoan ikusi dituen zerbitzarien domeinu-izenen zerrenda. Ez da daturik ematen zerbitzari jakin batekin federatzearen ala ez federatzearen inguruan, zerbitzariak haien berri duela soilik. Federazioari buruzko estatistika orokorrak biltzen dituzten zerbitzuek erabiltzen dute hau.
-        profile_directory: Profilen direktorioan ikusgai egotea aukeratu duten erabiltzaile guztiak zerrendatzen dira.
-        require_invite_text: Izen emateak eskuz onartu behar direnean, "Zergatik elkartu nahi duzu?" testu sarrera derrigorrezko bezala ezarri, ez hautazko
-        site_contact_email: Jendeak kontsulta legalak egin edo laguntza eskatzeko bidea.
-        site_contact_username: Jendea Mastodonen zurekin harremanetan jartzeko bidea.
-        site_extended_description: Bisitari eta erabiltzaileentzat erabilgarria izan daitekeen informazio gehigarria. Markdown sintaxiarekin egituratu daiteke.
-        site_short_description: Zure zerbitzaria identifikatzen laguntzen duen deskribapen laburra. Nork du ardura? Nori zuzendua dago?
-        site_terms: Erabili zure pribatutasun politika edo hutsik utzi lehenetsia erabiltzeko. Markdown sintaxiarekin egituratu daiteke.
-        site_title: Jendeak nola deituko dion zure zerbitzariari, domeinu-izenaz gain.
-        status_page_url: Kanporatua dagoen jendeak zerbitzari honen egoera ikus dezaten gune baten URL
-        theme: Saioa hasi gabeko erabiltzaileek eta berriek ikusiko duten gaia.
-        thumbnail: Zerbitzariaren informazioaren ondoan erakusten den 2:1 inguruko irudia.
-        timeline_preview: Saioa hasi gabeko erabiltzaileek ezingo dituzte arakatu zerbitzariko bidalketa publiko berrienak.
-        trendable_by_default: Saltatu joeretako edukiaren eskuzko berrikuspena. Ondoren elementuak banan-bana kendu daitezke joeretatik.
-        trends: Joeretan zure zerbitzarian bogan dauden bidalketa, traola eta albisteak erakusten dira.
-        trends_as_landing_page: Saioa hasita ez duten erabiltzaileei eta bisitariei pil-pilean dagoen edukia erakutsi zerbitzari honen deskribapena erakutsi ordez. Joerak aktibatuak edukitzea beharrezkoa da.
+        activity_api_enabled: Counts of locally published posts, active users, and new registrations in weekly buckets
+        backups_retention_period: Keep generated user archives for the specified number of days.
+        bootstrap_timeline_accounts: These accounts will be pinned to the top of new users' follow recommendations.
+        closed_registrations_message: Displayed when sign-ups are closed
+        content_cache_retention_period: Posts from other servers will be deleted after the specified number of days when set to a positive value. This may be irreversible.
+        custom_css: You can apply custom styles on the web version of Mastodon.
+        mascot: Overrides the illustration in the advanced web interface.
+        media_cache_retention_period: Downloaded media files will be deleted after the specified number of days when set to a positive value, and re-downloaded on demand.
+        peers_api_enabled: A list of domain names this server has encountered in the fediverse. No data is included here about whether you federate with a given server, just that your server knows about it. This is used by services that collect statistics on federation in a general sense.
+        profile_directory: The profile directory lists all users who have opted-in to be discoverable.
+        require_invite_text: When sign-ups require manual approval, make the “Why do you want to join?” text input mandatory rather than optional
+        site_contact_email: How people can reach you for legal or support inquiries.
+        site_contact_username: How people can reach you on Mastodon.
+        site_extended_description: Any additional information that may be useful to visitors and your users. Can be structured with Markdown syntax.
+        site_short_description: A short description to help uniquely identify your server. Who is running it, who is it for?
+        site_terms: Use your own privacy policy or leave blank to use the default. Can be structured with Markdown syntax.
+        site_title: How people may refer to your server besides its domain name.
+        status_page_url: URL of a page where people can see the status of this server during an outage
+        theme: Theme that logged out visitors and new users see.
+        thumbnail: A roughly 2:1 image displayed alongside your server information.
+        timeline_preview: Logged out visitors will be able to browse the most recent public posts available on the server.
+        trendable_by_default: Skip manual review of trending content. Individual items can still be removed from trends after the fact.
+        trends: Trends show which posts, hashtags and news stories are gaining traction on your server.
+        trends_as_landing_page: Show trending content to logged-out users and visitors instead of a description of this server. Requires trends to be enabled.
       form_challenge:
-        current_password: Zonalde seguruan sartzen ari zara
+        current_password: You are entering a secure area
       imports:
-        data: Beste Mastodon zerbitzari batetik esportatutako CSV fitxategia
+        data: CSV file exported from another Mastodon server
       invite_request:
-        text: Honek zure eskaera berrikustean lagunduko digu
+        text: This will help us review your application
       ip_block:
-        comment: Hautazkoa. Gogoratu zergatik gehitu duzun arau hau.
-        expires_in: IP helbideak baliabide mugatua dira, batzuetan partekatuak dira eta maiz aldatzen dira jabez. Horregatik, ez da gomendatzen IPak mugagabe blokeatzea.
-        ip: Sartu IPv4 edo IPv6 helbide bat. Tarte osoak blokeatu ditzakezu CIDR sintaxia erabiliz. Kontuz zure burua blokeatu gabe!
+        comment: Optional. Remember why you added this rule.
+        expires_in: IP addresses are a finite resource, they are sometimes shared and often change hands. For this reason, indefinite IP blocks are not recommended.
+        ip: Enter an IPv4 or IPv6 address. You can block entire ranges using the CIDR syntax. Be careful not to lock yourself out!
         severities:
-          no_access: Blokeatu baliabide guztietarako sarbidea
-          sign_up_block: Ezingo da izen-emate berririk egin
-          sign_up_requires_approval: Izen emate berriek zure onarpena beharko dute
-        severity: Aukeratu zer gertatuko den IP honetatik datozen eskaerekin
+          no_access: Block access to all resources
+          sign_up_block: New sign-ups will not be possible
+          sign_up_requires_approval: New sign-ups will require your approval
+        severity: Choose what will happen with requests from this IP
       rule:
-        text: Deskribatu zerbitzari honetako erabiltzaileentzako arau edo betekizun bat. Saiatu labur eta sinple idazten
+        text: Describe a rule or requirement for users on this server. Try to keep it short and simple
       sessions:
-        otp: 'Sartu zure telefonoko aplikazioak sortutako bi faktoreetako kodea, edo erabili zure berreskuratze kodeetako bat:'
-        webauthn: USB gako bat bada, ziurtatu sartu duzula, eta behar izanez gero ukitu ezazu.
+        otp: 'Enter the two-factor code generated by your phone app or use one of your recovery codes:'
+        webauthn: If it's an USB key be sure to insert it and, if necessary, tap it.
       tag:
-        name: Letrak maiuskula/minuskulara aldatu ditzakezu besterik ez, adibidez irakurterrazago egiteko
+        name: You can only change the casing of the letters, for example, to make it more readable
       user:
-        chosen_languages: Ezer markatzekotan, hautatutako hizkuntzetan dauden tootak besterik ez dira erakutsiko
-        role: Rolak erabiltzaileak dituen baimenak kontrolatzen ditu
+        chosen_languages: When checked, only posts in selected languages will be displayed in public timelines
+        role: The role controls which permissions the user has
       user_role:
-        color: Rolarentzat erabiltzaile interfazean erabiliko den kolorea, formatu hamaseitarreko RGB bezala
-        highlighted: Honek rola publikoki ikusgai jartzen du
-        name: Rolaren izen publikoa, rola bereizgarri bezala bistaratzeko ezarrita badago
-        permissions_as_keys: Rol hau duten erabiltzaileek sarbidea izango dute...
-        position: Maila goreneko rolak erabakitzen du gatazkaren konponbidea kasu batzuetan. Ekintza batzuk maila baxuagoko rolen gain bakarrik gauzatu daitezke
+        color: Color to be used for the role throughout the UI, as RGB in hex format
+        highlighted: This makes the role publicly visible
+        name: Public name of the role, if role is set to be displayed as a badge
+        permissions_as_keys: Users with this role will have access to...
+        position: Higher role decides conflict resolution in certain situations. Certain actions can only be performed on roles with a lower priority
       webhook:
-        events: Hautatu gertaerak bidaltzeko
-        url: Nora bidaliko diren gertaerak
+        events: Select events to send
+        url: Where events will be sent to
     labels:
       account:
         fields:
-          name: Etiketa
-          value: Edukia
+          name: Label
+          value: Content
       account_alias:
-        acct: Kontu zaharraren helbidea
+        acct: Handle of the old account
       account_migration:
-        acct: Kontu berriaren helbidea
+        acct: Handle of the new account
       account_warning_preset:
-        text: Aurrez ezarritako testua
-        title: Izenburua
+        text: Preset text
+        title: Title
       admin_account_action:
-        include_statuses: Txertatu salatutako tootak e-mailean
-        send_email_notification: Jakinarazi erabiltzaileari e-mail bidez
-        text: Abisu pertsonalizatua
-        type: Ekintza
+        include_statuses: Include reported posts in the e-mail
+        send_email_notification: Notify the user per e-mail
+        text: Custom warning
+        type: Action
         types:
-          disable: Desaktibatu
-          none: Ez egin ezer
-          sensitive: Hunkigarria
-          silence: Isiltarazi
-          suspend: Kanporatu eta behin betiko ezabatu kontuko datuak
-        warning_preset_id: Erabili aurre-ezarritako abisu bat
+          disable: Freeze
+          none: Send a warning
+          sensitive: Sensitive
+          silence: Limit
+          suspend: Suspend
+        warning_preset_id: Use a warning preset
       announcement:
-        all_day: Egun osoko ekitaldia
-        ends_at: Ekitaldiaren amaiera
-        scheduled_at: Programatu argitaratzea
-        starts_at: Ekitaldiaren hasiera
-        text: Iragarpena
+        all_day: All-day event
+        ends_at: End of event
+        scheduled_at: Schedule publication
+        starts_at: Start of event
+        text: Announcement
       appeal:
-        text: Azaldu zergatik bota behar litzatekeen atzera erabaki hau
+        text: Explain why this decision should be reversed
       defaults:
-        autofollow: Gonbidatu zure kontua jarraitzera
-        avatar: Abatarra
-        bot: Hau bot kontu bat da
-        chosen_languages: Iragazi hizkuntzak
-        confirm_new_password: Berretsi pasahitz berria
-        confirm_password: Berretsi pasahitza
-        context: Iragazkiaren testuinguruak
-        current_password: Oraingo pasahitza
-        data: Datuak
-        discoverable: Zerrendatu kontu hau direktorioan
-        display_name: Pantaila-izena
-        email: E-mail helbidea
-        expires_in: Iraungitzea
-        fields: Profilaren metadatuak
-        header: Goiburua
-        honeypot: "%{label} (ez bete)"
-        inbox_url: Errelearen sarrera ontziaren URLa
-        irreversible: Baztertu ezkutatu ordez
-        locale: Interfazearen hizkuntza
-        locked: Giltzapetu kontua
-        max_uses: Gehieneko erabiltzaile kopurua
-        new_password: Pasahitz berria
-        note: Biografia
-        otp_attempt: Bi faktoreetako kodea
-        password: Pasahitza
-        phrase: Hitz edo esaldi gakoa
-        setting_advanced_layout: Gaitu web interfaze aurreratua
-        setting_aggregate_reblogs: Taldekatu bultzadak denbora-lerroetan
-        setting_always_send_emails: Bidali beti eposta jakinarazpenak
-        setting_auto_play_gif: Erreproduzitu GIF animatuak automatikoki
-        setting_boost_modal: Erakutsi baieztapen elkarrizketa-koadroa bultzada eman aurretik
-        setting_crop_images: Moztu irudiak hedatu gabeko tootetan 16x9 proportzioan
-        setting_default_language: Argitalpenen hizkuntza
-        setting_default_privacy: Mezuen pribatutasuna
-        setting_default_sensitive: Beti markatu edukiak hunkigarri gisa
-        setting_delete_modal: Erakutsi baieztapen elkarrizketa-koadroa toot bat ezabatu aurretik
-        setting_disable_swiping: Desgaitu hatza pasatzeko mugimenduak
-        setting_display_media: Multimedia bistaratzea
-        setting_display_media_default: Lehenetsia
-        setting_display_media_hide_all: Ezkutatu guztia
-        setting_display_media_show_all: Erakutsi guztia
-        setting_expand_spoilers: Hedatu beti edukia abisua (CW) duten  tootak
-        setting_hide_network: Ezkutatu zure sarea
-        setting_noindex: Atera bilaketa motorraren indexaziotik
-        setting_reduce_motion: Murriztu animazioen mugimenduak
-        setting_show_application: Utzi agerian tootak bidaltzeko erabilitako aplikazioa
-        setting_system_font_ui: Erabili sistemako tipografia lehenetsia
-        setting_theme: Gunearen azala
-        setting_trends: Erakutsi gaurko joerak
-        setting_unfollow_modal: Erakutsi baieztapen elkarrizketa-koadroa inor jarraitzeari utzi aurretik
-        setting_use_blurhash: Erakutsi gradiente koloretsuak ezkutatutako multimediaren ordez
-        setting_use_pending_items: Modu geldoa
-        severity: Larritasuna
-        sign_in_token_attempt: Segurtasun kodea
-        title: Izenburua
-        type: Inportazio mota
-        username: Erabiltzaile-izena
-        username_or_email: Erabiltzaile-izena edo e-mail helbidea
-        whole_word: Hitz osoa
+        autofollow: Invite to follow your account
+        avatar: Avatar
+        bot: This is a bot account
+        chosen_languages: Filter languages
+        confirm_new_password: Confirm new password
+        confirm_password: Confirm password
+        context: Filter contexts
+        current_password: Current password
+        data: Data
+        discoverable: Suggest account to others
+        display_name: Display name
+        email: E-mail address
+        expires_in: Expire after
+        fields: Profile metadata
+        header: Header
+        honeypot: "%{label} (do not fill in)"
+        inbox_url: URL of the relay inbox
+        irreversible: Drop instead of hide
+        locale: Interface language
+        locked: Require follow requests
+        max_uses: Max number of uses
+        new_password: New password
+        note: Bio
+        otp_attempt: Two-factor code
+        password: Password
+        phrase: Keyword or phrase
+        setting_advanced_layout: Enable advanced web interface
+        setting_aggregate_reblogs: Group boosts in timelines
+        setting_always_send_emails: Always send e-mail notifications
+        setting_auto_play_gif: Auto-play animated GIFs
+        setting_boost_modal: Show confirmation dialog before boosting
+        setting_crop_images: Crop images in non-expanded posts to 16x9
+        setting_default_language: Posting language
+        setting_default_privacy: Posting privacy
+        setting_default_sensitive: Always mark media as sensitive
+        setting_delete_modal: Show confirmation dialog before deleting a post
+        setting_disable_swiping: Disable swiping motions
+        setting_display_media: Media display
+        setting_display_media_default: Default
+        setting_display_media_hide_all: Hide all
+        setting_display_media_show_all: Show all
+        setting_expand_spoilers: Always expand posts marked with content warnings
+        setting_hide_network: Hide your social graph
+        setting_noindex: Opt-out of search engine indexing
+        setting_reduce_motion: Reduce motion in animations
+        setting_show_application: Disclose application used to send posts
+        setting_system_font_ui: Use system's default font
+        setting_theme: Site theme
+        setting_trends: Show today's trends
+        setting_unfollow_modal: Show confirmation dialog before unfollowing someone
+        setting_use_blurhash: Show colorful gradients for hidden media
+        setting_use_pending_items: Slow mode
+        severity: Severity
+        sign_in_token_attempt: Security code
+        title: Title
+        type: Import type
+        username: Username
+        username_or_email: Username or Email
+        whole_word: Whole word
       email_domain_block:
-        with_dns_records: Sartu ere domeinuaren MX erregistroak eta IPak
+        with_dns_records: Include MX records and IPs of the domain
       featured_tag:
-        name: Traola
+        name: Hashtag
       filters:
         actions:
-          hide: Ezkutatu guztiz
-          warn: Ezkutatu ohar batekin
+          hide: Hide completely
+          warn: Hide with a warning
       form_admin_settings:
-        activity_api_enabled: Argitaratu erabiltzaile-jardueraren guztizko estatistikak APIan
-        backups_retention_period: Erabiltzailearen artxiboa gordetzeko epea
-        bootstrap_timeline_accounts: Gomendatu beti kontu hauek erabiltzaile berriei
-        closed_registrations_message: Izen-emateak itxita daudenerako mezu pertsonalizatua
-        content_cache_retention_period: Edukiaren cache-a atxikitzeko epea
-        custom_css: CSS pertsonalizatua
-        mascot: Maskota pertsonalizatua (zaharkitua)
-        media_cache_retention_period: Multimediaren cachea atxikitzeko epea
-        peers_api_enabled: Argitaratu aurkitutako zerbitzarien zerrenda APIan
-        profile_directory: Gaitu profil-direktorioa
-        registrations_mode: Nork eman dezake izena
-        require_invite_text: Eskatu arrazoi bat batzeko
-        show_domain_blocks: Erakutsi domeinu-blokeoak
-        show_domain_blocks_rationale: Erakutsi domeinuak zergatik blokeatu ziren
-        site_contact_email: Harremanetarako eposta
-        site_contact_username: Harremanetarako erabiltzaile-izena
-        site_extended_description: Deskribapen hedatua
-        site_short_description: Zerbitzariaren deskribapena
-        site_terms: Pribatutasun politika
-        site_title: Zerbitzariaren izena
-        status_page_url: Egoera-orriaren URL
-        theme: Lehenetsitako gaia
-        thumbnail: Zerbitzariaren koadro txikia
-        timeline_preview: Onartu autentifikatu gabeko sarbidea denbora lerro publikoetara
-        trendable_by_default: Onartu joerak aurrez berrikusi gabe
-        trends: Gaitu joerak
-        trends_as_landing_page: Joerak erabili helburuko orri gisa
+        activity_api_enabled: Publish aggregate statistics about user activity in the API
+        backups_retention_period: User archive retention period
+        bootstrap_timeline_accounts: Always recommend these accounts to new users
+        closed_registrations_message: Custom message when sign-ups are not available
+        content_cache_retention_period: Content cache retention period
+        custom_css: Custom CSS
+        mascot: Custom mascot (legacy)
+        media_cache_retention_period: Media cache retention period
+        peers_api_enabled: Publish list of discovered servers in the API
+        profile_directory: Enable profile directory
+        registrations_mode: Who can sign-up
+        require_invite_text: Require a reason to join
+        show_domain_blocks: Show domain blocks
+        show_domain_blocks_rationale: Show why domains were blocked
+        site_contact_email: Contact e-mail
+        site_contact_username: Contact username
+        site_extended_description: Extended description
+        site_short_description: Server description
+        site_terms: Privacy Policy
+        site_title: Server name
+        status_page_url: Status page URL
+        theme: Default theme
+        thumbnail: Server thumbnail
+        timeline_preview: Allow unauthenticated access to public timelines
+        trendable_by_default: Allow trends without prior review
+        trends: Enable trends
+        trends_as_landing_page: Use trends as the landing page
       interactions:
-        must_be_follower: Blokeatu jarraitzaile ez direnen jakinarazpenak
-        must_be_following: Blokeatu zuk jarraitzen ez dituzu horien jakinarazpenak
-        must_be_following_dm: Blokeatu zuk jarraitzen ez dituzun horien mezu zuzenak
+        must_be_follower: Block notifications from non-followers
+        must_be_following: Block notifications from people you don't follow
+        must_be_following_dm: Block direct messages from people you don't follow
       invite:
-        comment: Iruzkina
+        comment: Comment
       invite_request:
-        text: Zergatik elkartu nahi duzu?
+        text: Why do you want to join?
       ip_block:
-        comment: Iruzkina
-        ip: IP-a
+        comment: Comment
+        ip: IP
         severities:
-          no_access: Blokeatu sarbidea
-          sign_up_block: Blokeatu izen-emateak
-          sign_up_requires_approval: Mugatu izen emateak
-        severity: Araua
+          no_access: Block access
+          sign_up_block: Block sign-ups
+          sign_up_requires_approval: Limit sign-ups
+        severity: Rule
       notification_emails:
-        appeal: Norbaitek moderatzailearen erabakia eskatu du
-        digest: Bidali laburpenak e-mail bidez
-        favourite: Bidali e-mail bat norbaitek zure mezua gogoko duenean
-        follow: Bidali e-mail bat norbaitek jarraitzen zaituenean
-        follow_request: Bidali e-mail bat norbaitek zu jarraitzea eskatzen duenean
-        mention: Bidali e-mail bat norbaitek zu aipatzean
-        pending_account: Bidali e-mail bat kontu bat berrikusi behar denean
-        reblog: Bidali e-mail bat norbaitek zure mezuari bultzada ematen badio
-        report: Salaketa berria bidali da
-        trending_tag: Joera berriak berrikuspena behar du
+        appeal: Someone appeals a moderator decision
+        digest: Send digest e-mails
+        favourite: Someone favourited your post
+        follow: Someone followed you
+        follow_request: Someone requested to follow you
+        mention: Someone mentioned you
+        pending_account: New account needs review
+        reblog: Someone boosted your post
+        report: New report is submitted
+        trending_tag: New trend requires review
       rule:
-        text: Araua
+        text: Rule
       tag:
-        listable: Baimendu traola hau bilaketetan agertzea eta profilen direktorioan
-        name: Traola
-        trendable: Baimendu traola hau joeretan agertzea
-        usable: Baimendu tootek traola hau erabiltzea
+        listable: Allow this hashtag to appear in searches and suggestions
+        name: Hashtag
+        trendable: Allow this hashtag to appear under trends
+        usable: Allow posts to use this hashtag
       user:
-        role: Rola
+        role: Role
       user_role:
-        color: Bereizgarriaren kolorea
-        highlighted: Bistaratu rola bereizgarri bezala erabiltzaileen profiletan
-        name: Izena
-        permissions_as_keys: Baimenak
-        position: Lehentasuna
+        color: Badge color
+        highlighted: Display role as badge on user profiles
+        name: Name
+        permissions_as_keys: Permissions
+        position: Priority
       webhook:
-        events: Gertaerak gaituta
-        url: Amaiera-puntuaren URLa
-    'no': Ez
-    not_recommended: Ez gomendatua
-    recommended: Aholkatua
+        events: Enabled events
+        url: Endpoint URL
+    'no': 'No'
+    not_recommended: Not recommended
+    recommended: Recommended
     required:
       mark: "*"
-      text: beharrezkoa
+      text: required
     title:
       sessions:
-        webauthn: Erabili zure segurtasun gakoetako bat saioa hasteko
-    'yes': Bai
+        webauthn: Use one of your security keys to sign in
+    'yes': 'Yes'

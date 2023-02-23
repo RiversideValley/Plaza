@@ -3,193 +3,193 @@ bg:
   activerecord:
     attributes:
       doorkeeper/application:
-        name: Име на приложението
-        redirect_uri: Пренасочващ URI
-        scopes: Обхват
-        website: Уебсайт на приложението
+        name: Application name
+        redirect_uri: Redirect URI
+        scopes: Scopes
+        website: Application website
     errors:
       models:
         doorkeeper/application:
           attributes:
             redirect_uri:
-              fragment_present: не може да съдържа фрагмент.
-              invalid_uri: трябва да е валидно URI.
-              relative_uri: трябва да е абсолютно URI.
-              secured_uri: трябва да е HTTPS/SSL URI.
+              fragment_present: cannot contain a fragment.
+              invalid_uri: must be a valid URI.
+              relative_uri: must be an absolute URI.
+              secured_uri: must be an HTTPS/SSL URI.
   doorkeeper:
     applications:
       buttons:
-        authorize: Упълномощаване
-        cancel: Отказ
-        destroy: Унищожаване
-        edit: Редактиране
-        submit: Подаване
+        authorize: Authorize
+        cancel: Cancel
+        destroy: Destroy
+        edit: Edit
+        submit: Submit
       confirmations:
-        destroy: Сигурни ли сте?
+        destroy: Are you sure?
       edit:
-        title: Редактиране на приложението
+        title: Edit application
       form:
-        error: Опа! Проверете формуляра си за възможни грешки
+        error: Whoops! Check your form for possible errors
       help:
-        native_redirect_uri: Изполвайте %{native_redirect_uri} за локални тестове
-        redirect_uri: Използвайте един ред за всяко URI
-        scopes: Разделяйте обхватите с интервал. Оставете празно, за да употребявате стандартните обхвати.
+        native_redirect_uri: Use %{native_redirect_uri} for local tests
+        redirect_uri: Use one line per URI
+        scopes: Separate scopes with spaces. Leave blank to use the default scopes.
       index:
-        application: Приложение
-        callback_url: URL за обратно повикване
-        delete: Изтриване
-        empty: Нямате приложения.
-        name: Име
-        new: Ново приложение
-        scopes: Обхват
-        show: Показване
-        title: Вашите приложения
+        application: Application
+        callback_url: Callback URL
+        delete: Delete
+        empty: You have no applications.
+        name: Name
+        new: New application
+        scopes: Scopes
+        show: Show
+        title: Your applications
       new:
-        title: Ново приложение
+        title: New application
       show:
-        actions: Действия
-        application_id: Ключ на клиента
-        callback_urls: URL-и за обратно повикване
-        scopes: Обхвати
-        secret: Тайна на клиента
-        title: 'Приложение: %{name}'
+        actions: Actions
+        application_id: Client key
+        callback_urls: Callback URLs
+        scopes: Scopes
+        secret: Client secret
+        title: 'Application: %{name}'
     authorizations:
       buttons:
-        authorize: Упълномощаване
-        deny: Отказ
+        authorize: Authorize
+        deny: Deny
       error:
-        title: Възникна грешка
+        title: An error has occurred
       new:
-        prompt_html: "%{client_name} иска разрешение да има достъп до акаунта ви. Приложение от трета страна е.<strong>Ако не му се доверявате, то може да не го упълномощявате.</strong>"
-        review_permissions: Преглед на разрешенията
-        title: Изисква се упълномощаване
+        prompt_html: "%{client_name} would like permission to access your account. It is a third-party application. <strong>If you do not trust it, then you should not authorize it.</strong>"
+        review_permissions: Review permissions
+        title: Authorization required
       show:
-        title: Копирайте този код за удостоверяване и го поставете в приложението.
+        title: Copy this authorization code and paste it to the application.
     authorized_applications:
       buttons:
-        revoke: Отмяна
+        revoke: Revoke
       confirmations:
-        revoke: Сигурни ли сте?
+        revoke: Are you sure?
       index:
-        authorized_at: Упълномощено на %{date}
-        description_html: Има приложения, можещи да имат достъп до акаунта ви, използвайки API. Ако тук има приложения, които не знаете, или работещи неправилно, то може да им откажете достъпа.
-        last_used_at: Последно обновено на %{date}
-        never_used: Никога употребявано
-        scopes: Разрешения
-        superapp: Вътрешно
-        title: Упълномощените ви приложения
+        authorized_at: Authorized on %{date}
+        description_html: These are applications that can access your account using the API. If there are applications you do not recognize here, or an application is misbehaving, you can revoke its access.
+        last_used_at: Last used on %{date}
+        never_used: Never used
+        scopes: Permissions
+        superapp: Internal
+        title: Your authorized applications
     errors:
       messages:
-        access_denied: Заявката беше отказана от собственика на ресурса или от сървъра за упълномощаване.
-        credential_flow_not_configured: Resource Owner Password Credentials предизвика грешка, заради това, че настройките за Doorkeeper.configure.resource_owner_from_credentials липсват.
-        invalid_client: Удостоверяването на клиента предизвика грешка, поради непознат клиент, липсващо клиентско удостоверяване, или заради това, че методът на удостоверяване не се поддържа.
-        invalid_grant: Предоставеното удостоверение за достъп е невалидно, изтекло, отхвърлено, не съвпада с пренасочващото URI, използвано в заявката за удостоверение, или е бил издадено от друг клиент.
-        invalid_redirect_uri: Включеният пренасочващ Uri е невалиден.
+        access_denied: The resource owner or authorization server denied the request.
+        credential_flow_not_configured: Resource Owner Password Credentials flow failed due to Doorkeeper.configure.resource_owner_from_credentials being unconfigured.
+        invalid_client: Client authentication failed due to unknown client, no client authentication included, or unsupported authentication method.
+        invalid_grant: The provided authorization grant is invalid, expired, revoked, does not match the redirection URI used in the authorization request, or was issued to another client.
+        invalid_redirect_uri: The redirect uri included is not valid.
         invalid_request:
-          missing_param: 'Липсва задължителен параметър: %{value}.'
-          request_not_authorized: Заявката трябва да бъде упълномощена. Необходимият параметър за разрешаване на заявка липсва или е невалиден.
-          unknown: Заявката е с липсващ задължителен параметър, включва стойност на параметъра, която не се поддържа, или е изкривена по друг начин.
-        invalid_resource_owner: Предоставените идентификационни данни на притежателя на ресурса са невалидни, или притежателят не може да бъде намерен.
-        invalid_scope: Заявеният диапазон е невалиден, неизвестен или изкривен.
+          missing_param: 'Missing required parameter: %{value}.'
+          request_not_authorized: Request need to be authorized. Required parameter for authorizing request is missing or invalid.
+          unknown: The request is missing a required parameter, includes an unsupported parameter value, or is otherwise malformed.
+        invalid_resource_owner: The provided resource owner credentials are not valid, or resource owner cannot be found
+        invalid_scope: The requested scope is invalid, unknown, or malformed.
         invalid_token:
-          expired: Маркерът за достъп изтече
-          revoked: Маркерът за достъп беше отхвърлен
-          unknown: Маркерът за достъп е невалиден
-        resource_owner_authenticator_not_configured: Намирането на собственика на ресурса се провали поради липса на конфигуриране на Doorkeeper.configure.resource_owner_authenticator.
-        server_error: Сървърът за удостоверяване попадна на неочаквано условие, което предотврати изпълнението на заявката.
-        temporarily_unavailable: Сървърът за удостоверяване не може да се справи със заявката в момента поради временно претоварване или профилактика на сървъра.
-        unauthorized_client: Клиентът не е упълномощен да изпълни заявката по този начин.
-        unsupported_grant_type: Типът за даване на пълномощно не се поддържа от сървъра за упълномощаване.
-        unsupported_response_type: Упълномощаващият сървър не поддържа този тип отговор.
+          expired: The access token expired
+          revoked: The access token was revoked
+          unknown: The access token is invalid
+        resource_owner_authenticator_not_configured: Resource Owner find failed due to Doorkeeper.configure.resource_owner_authenticator being unconfiged.
+        server_error: The authorization server encountered an unexpected condition which prevented it from fulfilling the request.
+        temporarily_unavailable: The authorization server is currently unable to handle the request due to a temporary overloading or maintenance of the server.
+        unauthorized_client: The client is not authorized to perform this request using this method.
+        unsupported_grant_type: The authorization grant type is not supported by the authorization server.
+        unsupported_response_type: The authorization server does not support this response type.
     flash:
       applications:
         create:
-          notice: Приложението е създадено.
+          notice: Application created.
         destroy:
-          notice: Приложението е изтрито.
+          notice: Application deleted.
         update:
-          notice: Приложението е обновено.
+          notice: Application updated.
       authorized_applications:
         destroy:
-          notice: Анулирано приложение.
+          notice: Application revoked.
     grouped_scopes:
       access:
-        read: Достъп само за четене
-        read/write: Достъп за четене и запис
-        write: Достъп само за запис
+        read: Read-only access
+        read/write: Read and write access
+        write: Write-only access
       title:
-        accounts: Акаунти
-        admin/accounts: Администриране на акаунтите
-        admin/all: Всички административни функции
-        admin/reports: Администриране на докладите
-        all: Пълен достъп до акаунта ви в Mastodon
-        blocks: Блокирания
-        bookmarks: Отметки
-        conversations: Разговори
-        crypto: Криптиране от край до край
-        favourites: Любими
-        filters: Филтри
-        follow: Последвания, заглушавания и блокирания
-        follows: Последвания
-        lists: Списъци
-        media: Прикачена мултимедия
-        mutes: Заглушения
-        notifications: Известия
-        push: Изскачащи известия
-        reports: Доклади
-        search: Търсене
-        statuses: Публикации
+        accounts: Accounts
+        admin/accounts: Administration of accounts
+        admin/all: All administrative functions
+        admin/reports: Administration of reports
+        all: Full access to your Mastodon account
+        blocks: Blocks
+        bookmarks: Bookmarks
+        conversations: Conversations
+        crypto: End-to-end encryption
+        favourites: Favourites
+        filters: Filters
+        follow: Follows, Mutes and Blocks
+        follows: Follows
+        lists: Lists
+        media: Media attachments
+        mutes: Mutes
+        notifications: Notifications
+        push: Push notifications
+        reports: Reports
+        search: Search
+        statuses: Posts
     layouts:
       admin:
         nav:
-          applications: Приложения
-          oauth2_provider: Доставчик OAuth2
+          applications: Applications
+          oauth2_provider: OAuth2 Provider
       application:
-        title: Нужно е упълномощаване по OAuth
+        title: OAuth authorization required
     scopes:
-      admin:read: прочит на всички данни на сървъра
-      admin:read:accounts: прочит на деликатна информация от всички акаунти
-      admin:read:canonical_email_blocks: четене на деликатна информация на всички канонични блокирания на е-поща
-      admin:read:domain_allows: четене на деликатна информация на всички домейни позволено
-      admin:read:domain_blocks: четене на деликатна информация на всички домейни блокирано
-      admin:read:email_domain_blocks: четене на деликатна информация на всички домейни на е-поща блокирано
-      admin:read:ip_blocks: четене на деликатна информация на всички IP адреси блокирано
-      admin:read:reports: прочит на деликатна информация от всички докладвания и докладвани акаунти
-      admin:write: промяна на всички данни на сървъра
-      admin:write:accounts: извършване на действия за модериране на акаунти
-      admin:write:canonical_email_blocks: извършване на модериращи действия в канонични блокирания на е-поща
-      admin:write:domain_allows: извършване на действия за модериране на акаунти в домейна позволено
-      admin:write:domain_blocks: извършване на действия за модериране на акаунти в домейна блокирано
-      admin:write:email_domain_blocks: извършване на действия за модериране на акаунти в домейна на е-поща блокирано
-      admin:write:ip_blocks: извършване на действия за модериране на IP адреси блокирано
-      admin:write:reports: извършване на действия за модериране на докладвания
-      crypto: употреба на цялостно шифроване
-      follow: промяна на взаимоотношенията с други акаунти
-      push: получаване на вашите изскачащи известия
-      read: четене на всички данни от акаунта ви
-      read:accounts: преглед на информация за акаунти
-      read:blocks: преглед на вашите блокирания
-      read:bookmarks: преглед на вашите отметки
-      read:favourites: преглед на вашите любими
-      read:filters: преглед на вашите филтри
-      read:follows: преглед на вашите последвания
-      read:lists: преглед на вашите списъци
-      read:mutes: преглед на вашите заглушавания
-      read:notifications: преглед на вашите известия
-      read:reports: преглед на вашите докладвания
-      read:search: търсене от ваше име
-      read:statuses: преглед на всички публикации
-      write: промяна на всички данни на акаунта ви
-      write:accounts: промяна на вашия профил
-      write:blocks: блокиране на акаунти и домейни
-      write:bookmarks: отмятане на публикации
-      write:conversations: заглушаване и изтриване на разговорите
-      write:favourites: любими публикации
-      write:filters: създаване на филтри
-      write:follows: последване на хора
-      write:lists: създаване на списъци
-      write:media: качване на мултимедийни файлове
-      write:mutes: заглушаване на хора и разговори
-      write:notifications: изчистване на вашите известия
-      write:reports: докладване на други хора
-      write:statuses: публикуване на публикации
+      "admin:read": read all data on the server
+      "admin:read:accounts": read sensitive information of all accounts
+      "admin:read:canonical_email_blocks": read sensitive information of all canonical email blocks
+      "admin:read:domain_allows": read sensitive information of all domain allows
+      "admin:read:domain_blocks": read sensitive information of all domain blocks
+      "admin:read:email_domain_blocks": read sensitive information of all email domain blocks
+      "admin:read:ip_blocks": read sensitive information of all IP blocks
+      "admin:read:reports": read sensitive information of all reports and reported accounts
+      "admin:write": modify all data on the server
+      "admin:write:accounts": perform moderation actions on accounts
+      "admin:write:canonical_email_blocks": perform moderation actions on canonical email blocks
+      "admin:write:domain_allows": perform moderation actions on domain allows
+      "admin:write:domain_blocks": perform moderation actions on domain blocks
+      "admin:write:email_domain_blocks": perform moderation actions on email domain blocks
+      "admin:write:ip_blocks": perform moderation actions on IP blocks
+      "admin:write:reports": perform moderation actions on reports
+      crypto: use end-to-end encryption
+      follow: modify account relationships
+      push: receive your push notifications
+      read: read all your account's data
+      "read:accounts": see accounts information
+      "read:blocks": see your blocks
+      "read:bookmarks": see your bookmarks
+      "read:favourites": see your favourites
+      "read:filters": see your filters
+      "read:follows": see your follows
+      "read:lists": see your lists
+      "read:mutes": see your mutes
+      "read:notifications": see your notifications
+      "read:reports": see your reports
+      "read:search": search on your behalf
+      "read:statuses": see all posts
+      write: modify all your account's data
+      "write:accounts": modify your profile
+      "write:blocks": block accounts and domains
+      "write:bookmarks": bookmark posts
+      "write:conversations": mute and delete conversations
+      "write:favourites": favourite posts
+      "write:filters": create filters
+      "write:follows": follow people
+      "write:lists": create lists
+      "write:media": upload media files
+      "write:mutes": mute people and conversations
+      "write:notifications": clear your notifications
+      "write:reports": report other people
+      "write:statuses": publish posts

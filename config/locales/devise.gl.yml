@@ -2,114 +2,114 @@
 gl:
   devise:
     confirmations:
-      confirmed: O teu enderezo de email foi confirmado.
-      send_instructions: Vas recibir un email coas instrucións para confirmar o teu enderezo de email dentro dalgúns minutos. Por favor, comproba o cartafol de spam se non recibiches o correo.
-      send_paranoid_instructions: Se o teu enderezo de email xa existira na nosa base de datos, vas recibir un correo coas instrucións de confirmación dentro dalgúns minutos. Por favor, comproba o cartafol de spam se non recibiches o correo.
+      confirmed: Your email address has been successfully confirmed.
+      send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
-      already_authenticated: Xa estás conectada.
-      inactive: A túa conta aínda non está activada.
-      invalid: "%{authentication_keys} ou contrasinal non validos."
-      last_attempt: Tes un intento máis antes de que a túa conta fique bloqueada.
-      locked: A túa conta está bloqueada.
-      not_found_in_database: "%{authentication_keys} ou contrasinal non válidos."
-      pending: A túa conta aínda está baixo revisión.
-      timeout: A túa sesión expirou. Por favor, entra de novo para continuares.
-      unauthenticated: Precisas de entrar na túa conta ou rexistrarte antes de continuar.
-      unconfirmed: Tes que confirmar o teu enderezo de email antes de continuar.
+      already_authenticated: You are already signed in.
+      inactive: Your account is not activated yet.
+      invalid: Invalid %{authentication_keys} or password.
+      last_attempt: You have one more attempt before your account is locked.
+      locked: Your account is locked.
+      not_found_in_database: Invalid %{authentication_keys} or password.
+      pending: Your account is still under review.
+      timeout: Your session expired. Please sign in again to continue.
+      unauthenticated: You need to sign in or sign up before continuing.
+      unconfirmed: You have to confirm your email address before continuing.
     mailer:
       confirmation_instructions:
-        action: Verificar o enderezo de email
-        action_with_app: Confirmar e volver a %{app}
-        explanation: Creaches unha conta en %{host} con este enderezo de email. Estás a un clic de activala. Se non foches ti o que fixeches este rexisto, por favor ignora esta mensaxe.
-        explanation_when_pending: Solicitaches un convite para %{host} con este enderezo de email. Logo de que confirmes o teu enderezo de email, imos revisar a túa inscrición. Podes iniciar sesión para mudar os teus datos ou eliminar a túa conta, mais non poderás aceder á meirande parte das funcións até que a túa conta sexa aprobada. Se a túa inscrición for rexeitada, os teus datos serán eliminados, polo que non será necesaria calquera acción adicional da túa parte. Se non solicitaches este convite, por favor, ignora este correo.
-        extra_html: Por favor, le <a href="%{terms_path}">as regras do servidor</a> e os <a href="%{policy_path}">nosos termos do servizo</a>.
-        subject: 'Mastodon: Instrucións de confirmación para %{instance}'
-        title: Verificar o enderezo de email
+        action: Verify email address
+        action_with_app: Confirm and return to %{app}
+        explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
+        explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
+        extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
+        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        title: Verify email address
       email_changed:
-        explanation: 'O email asociado á túa conta será mudado a:'
-        extra: Se non mudaches o teu email é posíbel que alguén teña conseguido acceder á túa conta. Por favor muda o teu contrasinal de xeito imediato ou entra en contacto cun administrador do servidor se non podes acceder a túa conta.
-        subject: 'Mastodon: Email mudado'
-        title: Novo enderezo de email
+        explanation: 'The email address for your account is being changed to:'
+        extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Email changed'
+        title: New email address
       password_change:
-        explanation: O contrasinal da túa conta foi mudado.
-        extra: Se non mudaches o teu contrasinal, é posíbel que alguén teña conseguido acceder á túa conta. Por favor muda o teu contrasinal de xeito imediato ou entra en contato cun administrador do servidor se non podes acceder a túa conta.
-        subject: 'Mastodon: Contrasinal mudado'
-        title: Contrasinal mudado
+        explanation: The password for your account has been changed.
+        extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
+        subject: 'Mastodon: Password changed'
+        title: Password changed
       reconfirmation_instructions:
-        explanation: Confirma o teu novo enderezo para mudar o email.
-        extra: Se esta mudanza non foi comezada por ti, por favor ignora este email. O enderezo de email para a túa conta do Mastodon non mudará mentres non accedas á ligazón de enriba.
-        subject: 'Mastodon: Confirmar email para %{instance}'
-        title: Verificar o enderezo de email
+        explanation: Confirm the new address to change your email.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        subject: 'Mastodon: Confirm email for %{instance}'
+        title: Verify email address
       reset_password_instructions:
-        action: Mudar contrasinal
-        explanation: Solicitaches un novo contrasinal para a túa conta.
-        extra: Se non fixeches esta solicitude, por favor ignora este email. O teu contrasinal non mudará se non accedes á ligazón de enriba e creas unha nova.
-        subject: 'Mastodon: Instrucións para restabelecer o contrasinal'
-        title: Restabelecer contrasinal
+        action: Change password
+        explanation: You requested a new password for your account.
+        extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
+        subject: 'Mastodon: Reset password instructions'
+        title: Password reset
       two_factor_disabled:
-        explanation: A autenticación de dobre factor para a túa conta foi desactivada. É agora posíbel acceder só co teu enderezo de email e contrasinal.
-        subject: 'Mastodon: Autenticación de dobre factor desactivada'
-        title: 2FA desactivado
+        explanation: Two-factor authentication for your account has been disabled. Login is now possible using only e-mail address and password.
+        subject: 'Mastodon: Two-factor authentication disabled'
+        title: 2FA disabled
       two_factor_enabled:
-        explanation: A autenticación de dobre factor foi activada para a túa conta. Un token, xerado pola aplicación TOTP emparellada, será necesario para acceder.
-        subject: 'Mastodon: Activouse a autenticación de dobre factor'
-        title: 2FA activado
+        explanation: Two-factor authentication has been enabled for your account. A token generated by the paired TOTP app will be required for login.
+        subject: 'Mastodon: Two-factor authentication enabled'
+        title: 2FA enabled
       two_factor_recovery_codes_changed:
-        explanation: Os códigos de recuperación anteriores fican anulados e os novos foron xerados.
-        subject: 'Mastodon: Xerados novos códigos de recuperación de dobre factor'
-        title: Códigos de recuperación 2FA mudados
+        explanation: The previous recovery codes have been invalidated and new ones generated.
+        subject: 'Mastodon: Two-factor recovery codes re-generated'
+        title: 2FA recovery codes changed
       unlock_instructions:
-        subject: 'Mastodon: Instrucións para desbloquear'
+        subject: 'Mastodon: Unlock instructions'
       webauthn_credential:
         added:
-          explanation: Engadeuse a seguinte chave de seguridade á túa conta
-          subject: 'Mastodon: Nova chave de seguridade'
-          title: Engadeuse unha nova chave de seguridade
+          explanation: The following security key has been added to your account
+          subject: 'Mastodon: New security key'
+          title: A new security key has been added
         deleted:
-          explanation: Eliminouse a seguinte chave de seguridade da túa conta
-          subject: 'Mastodon: Chave de seguridade eliminada'
-          title: Eliminouse unha das túas chaves de seguridade
+          explanation: The following security key has been deleted from your account
+          subject: 'Mastodon: Security key deleted'
+          title: One of your security keys has been deleted
       webauthn_disabled:
-        explanation: Desactivouse para a túa conta a autenticación con chaves de seguridade. Agora a conexión é posible usando só o token creado pola app TOTP emparellada.
-        subject: 'Mastodon: Desactivouse a autenticación con chave de seguridade'
-        title: Chaves de seguridade desactivadas
+        explanation: Authentication with security keys has been disabled for your account. Login is now possible using only the token generated by the paired TOTP app.
+        subject: 'Mastodon: Authentication with security keys disabled'
+        title: Security keys disabled
       webauthn_enabled:
-        explanation: Activouse para a conta a autenticación con chave de seguridade. Xa podes usar a chave de seguridade para contectar.
-        subject: 'Mastodon: Autenticación con chave de seguridade activada'
-        title: Chaves de seguridade activas
+        explanation: Security key authentication has been enabled for your account. Your security key can now be used for login.
+        subject: 'Mastodon: Security key authentication enabled'
+        title: Security keys enabled
     omniauth_callbacks:
-      failure: Non foi posible autenticarte desde %{kind} debido a "%{reason}".
-      success: Autenticado con éxito na conta %{kind}.
+      failure: Could not authenticate you from %{kind} because “%{reason}”.
+      success: Successfully authenticated from %{kind} account.
     passwords:
-      no_token: Non podes acceder a esta páxina se non vés a través da ligazón enviada por email para o mudado do teu contrasinal. Se empregaches esa ligazón para chegar aquí, por favor verifica que o enderezo URL actual é o mesmo do que foi enviado no email.
-      send_instructions: Se o teu enderezo de email existe na nosa base de datos, vas recibir un email coas instrucións para mudar o contrasinal dentro duns minutos. Por favor, comproba o teu cartafol de correo lixo (spam) se ves que non recibiches o email.
-      send_paranoid_instructions: Se o teu enderezo de email existe na nosa base de datos, vas recibir unha ligazón para recuperar o contrasinal dentro duns minutos. Por favor, comproba o teu cartafol de correo lixo (spam) se ves que non recibiches o email.
-      updated: O teu contrasinal foi mudado. Estás xa autenticado na túa conta.
-      updated_not_active: O teu contrasinal foi mudado de xeito correcto.
+      no_token: You can't access this page without coming from a password reset email. If you do come from a password reset email, please make sure you used the full URL provided.
+      send_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your email address exists in our database, you will receive a password recovery link at your email address in a few minutes. Please check your spam folder if you didn't receive this email.
+      updated: Your password has been changed successfully. You are now signed in.
+      updated_not_active: Your password has been changed successfully.
     registrations:
-      destroyed: Adeus! A túa conta foi cancelada de xeito correcto. Agardamos verte de novo.
-      signed_up: Benvido! Rexistrácheste de xeito correcto.
-      signed_up_but_inactive: A túa conta foi rexistada. Porén aínda non está activada.
-      signed_up_but_locked: A túa conta foi rexistada. Porén está bloqueada.
-      signed_up_but_pending: Acabamos de enviar unha mensaxe ao teu email cunha ligazón de confirmación. Após premer na ligazón, revisaremos a túa solicitude. Recibirás unha notificación se a túa conta é aprobada.
-      signed_up_but_unconfirmed: Enviouse unha mensaxe cunha ligazón de confirmación ao teu email. Por favor, preme nesa ligazón para activar a túa conta. Comproba o teu cartafol de correo lixo (spam) se ves que non recibiches o correo.
-      update_needs_confirmation: Actualizaches a túa conta de xeito correcto, pero precisamos verificar o teu novo enderezo de email. Por favor, revisa o teu email e segue a ligazón para confirmar o teu novo enderezo de email. Comproba o teu cartafol de correo lixo (spam) se ves que non recibiches o correo.
-      updated: A túa conta foi actualizada de xeito correcto.
+      destroyed: Bye! Your account has been successfully cancelled. We hope to see you again soon.
+      signed_up: Welcome! You have signed up successfully.
+      signed_up_but_inactive: You have signed up successfully. However, we could not sign you in because your account is not yet activated.
+      signed_up_but_locked: You have signed up successfully. However, we could not sign you in because your account is locked.
+      signed_up_but_pending: A message with a confirmation link has been sent to your email address. After you click the link, we will review your application. You will be notified if it is approved.
+      signed_up_but_unconfirmed: A message with a confirmation link has been sent to your email address. Please follow the link to activate your account. Please check your spam folder if you didn't receive this email.
+      update_needs_confirmation: You updated your account successfully, but we need to verify your new email address. Please check your email and follow the confirm link to confirm your new email address. Please check your spam folder if you didn't receive this email.
+      updated: Your account has been updated successfully.
     sessions:
-      already_signed_out: Pechouse a sesión de xeito correcto.
-      signed_in: Iniciouse a sesión de xeito correcto.
-      signed_out: Pechouse a sesión de xeito correcto.
+      already_signed_out: Signed out successfully.
+      signed_in: Signed in successfully.
+      signed_out: Signed out successfully.
     unlocks:
-      send_instructions: Vas recibir un email coas instrucións para desbloquear a túa conta dentro duns minutos. Por favor, comproba o teu cartafol de correo lixo (spam) se ves que non recibiches o correo.
-      send_paranoid_instructions: Se a túa conta existe, vas recibir un email coas instrucións detalladas de como desbloqueala dentro duns minutos. Por favor, comproba o teu cartafol de correo lixo (spam) se ves que non recibiches o correo.
-      unlocked: A túa conta foi desbloqueada. Por favor, inicia a sesión para continuar.
+      send_instructions: You will receive an email with instructions for how to unlock your account in a few minutes. Please check your spam folder if you didn't receive this email.
+      send_paranoid_instructions: If your account exists, you will receive an email with instructions for how to unlock it in a few minutes. Please check your spam folder if you didn't receive this email.
+      unlocked: Your account has been unlocked successfully. Please sign in to continue.
   errors:
     messages:
-      already_confirmed: xa confirmado, tenta iniciar a sesión
-      confirmation_period_expired: ten que ser confirmado dentro de %{period}, solicita unha nova
-      expired: expirou, solicita unha nova
-      not_found: non atopado
-      not_locked: non foi bloqueada
+      already_confirmed: was already confirmed, please try signing in
+      confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
+      expired: has expired, please request a new one
+      not_found: not found
+      not_locked: was not locked
       not_saved:
-        one: '1 erro impediu este %{resource} de ser gardado:'
-        other: "%{count} erros impediron este %{resource} de ser gardado:"
+        one: '1 error prohibited this %{resource} from being saved:'
+        other: "%{count} errors prohibited this %{resource} from being saved:"

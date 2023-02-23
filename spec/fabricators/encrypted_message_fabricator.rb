@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Fabricator(:encrypted_message) do
   device
   from_account

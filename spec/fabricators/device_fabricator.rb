@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Fabricator(:device) do
   access_token
   account

@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Fabricator(:login_activity) do
   user
   authentication_method 'password'
