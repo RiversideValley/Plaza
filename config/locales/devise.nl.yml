@@ -1,5 +1,5 @@
 ---
-nl-SR:
+nl-NL:
   devise:
     confirmations:
       confirmed: Jouw account is bevestigd.
