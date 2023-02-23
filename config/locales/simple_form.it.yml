@@ -1,5 +1,5 @@
 ---
-it:
+it-CH:
   simple_form:
     hints:
       account_alias:
@@ -314,4 +314,4 @@ it:
     title:
       sessions:
         webauthn: Usa una delle tue chiavi di sicurezza per accedere
-    'yes': Si
+    'yes': 'Si'
