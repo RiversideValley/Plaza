@@ -3,53 +3,53 @@ ru-BY:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: Крайний срок
+        options: Варианты
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: Соглашение с условиями сервиса
+        email: Адрес эл. почты
+        locale: Язык
+        password: Пароль
       user/account:
-        username: Username
+        username: Имя пользователя
       user/invite_request:
-        text: Reason
+        text: Причина
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: только буквы, цифры и символ подчёркивания
+              reserved: зарезервировано
         admin/webhook:
           attributes:
             url:
-              invalid: is not a valid URL
+              invalid: не является допустимым URL
         doorkeeper/application:
           attributes:
             website:
-              invalid: is not a valid URL
+              invalid: не является допустимым URL
         import:
           attributes:
             data:
-              malformed: is malformed
+              malformed: неверный формат
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: поста уже существует
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: использует запрещённого провайдера эл. почты
+              unreachable: не существует
             role_id:
-              elevated: cannot be higher than your current role
+              elevated: не может быть выше вашей текущей роли
         user_role:
           attributes:
             permissions_as_keys:
-              dangerous: include permissions that are not safe for the base role
-              elevated: cannot include permissions your current role does not possess
-              own_role: cannot be changed with your current role
+              dangerous: включить разрешения, небезопасные для базовой роли
+              elevated: не может включать разрешения, которыми не обладает ваша текущая роль
+              own_role: невозможно изменить с вашей текущей ролью
             position:
-              elevated: cannot be higher than your current role
-              own_role: cannot be changed with your current role
+              elevated: не может быть выше, чем ваша текущая роль
+              own_role: невозможно изменить с вашей текущей ролью
