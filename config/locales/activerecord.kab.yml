@@ -3,24 +3,24 @@ kab-KAB:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: Azemz n taggara
+        options: Tifranin
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: Amtawa n umeẓlu
+        email: Tansa imayl
+        locale: Tutlayt
+        password: Awal uffir
       user/account:
-        username: Username
+        username: Isem n useqdac
       user/invite_request:
-        text: Reason
+        text: Taɣzent
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: isekkilen, uṭṭunen d yijerriden n wadda kan
+              reserved: yettwaṭṭef
         admin/webhook:
           attributes:
             url:
@@ -36,7 +36,7 @@ kab-KAB:
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: n iddaden yellan yakan
         user:
           attributes:
             email:
