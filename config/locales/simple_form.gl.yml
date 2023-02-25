@@ -3,315 +3,315 @@ gl:
   simple_form:
     hints:
       account_alias:
-        acct: Indica o usuaria@servidor da conta desde a cal queres migrar
+        acct: Specify the username@domain of the account you want to move from
       account_migration:
-        acct: Indica o usuaria@servidor da conta a cal queres migrar
+        acct: Specify the username@domain of the account you want to move to
       account_warning_preset:
-        text: Pódeslle dar formato á publicación, como URLs, cancelos e mencións
-        title: Optativo. Non visible para a correspondente
+        text: You can use post syntax, such as URLs, hashtags and mentions
+        title: Optional. Not visible to the recipient
       admin_account_action:
-        include_statuses: A usuaria verá que publicacións causaron a acción da moderación ou aviso
-        send_email_notification: A usuaria recibirá unha explicación sobre o que lle aconteceu a súa conta
-        text_html: Optativo. Podes utilizar formato na publicación. Podes <a href="%{path}">engadir avisos preestablecidos</a> para aforrar tempo
-        type_html: Elixe que facer con <strong>%{acct}</strong>
+        include_statuses: The user will see which posts have caused the moderation action or warning
+        send_email_notification: The user will receive an explanation of what happened with their account
+        text_html: Optional. You can use post syntax. You can <a href="%{path}">add warning presets</a> to save time
+        type_html: Choose what to do with <strong>%{acct}</strong>
         types:
-          disable: Evitar que a usuaria utilice a súa conta, mais non eliminala ou agochar o seu contido.
-          none: Utiliza esto para darlle un aviso á usuaria, se activar ningunha outra acción.
-          sensitive: Forzar que tódolos ficheiros multimedia das usuarias sexan marcadas como sensibles.
-          silence: Evitar que a usuaria poida publicar de xeito público, agochar as súas publicacións e notificacións para a xente que non a sigue. Isto pecha tódalas denuncias acerca desta conta.
-          suspend: Evita calquera interacción con/ou desta conta e elimina os seus contidos. Reversible durante 30 días. Isto pecha tódalas denuncias acerca desta conta.
-        warning_preset_id: Optativo. Poderás engadir texto personalizado ao final do preestablecido
+          disable: Prevent the user from using their account, but do not delete or hide their contents.
+          none: Use this to send a warning to the user, without triggering any other action.
+          sensitive: Force all this user's media attachments to be flagged as sensitive.
+          silence: Prevent the user from being able to post with public visibility, hide their posts and notifications from people not following them. Closes all reports against this account.
+          suspend: Prevent any interaction from or to this account and delete its contents. Revertible within 30 days. Closes all reports against this account.
+        warning_preset_id: Optional. You can still add custom text to end of the preset
       announcement:
-        all_day: Cando se marca, só serán amosadas as datas do intre de tempo
-        ends_at: Opcional. O anuncio non se publicará de xeito automático neste intre
-        scheduled_at: Déixao baleiro para publicar o anuncio de xeito inmediato
-        starts_at: Opcional. No caso de que o teu anuncio estea vinculado a un intre de tempo específico
-        text: Podes empregar a sintaxe na publicación. Ten en conta o espazo que ocupará o anuncio na pantalla da usuaria
+        all_day: When checked, only the dates of the time range will be displayed
+        ends_at: Optional. Announcement will be automatically unpublished at this time
+        scheduled_at: Leave blank to publish the announcement immediately
+        starts_at: Optional. In case your announcement is bound to a specific time range
+        text: You can use post syntax. Please be mindful of the space the announcement will take up on the user's screen
       appeal:
-        text: Só podes apelar a decisión unha vez
+        text: You can only appeal a strike once
       defaults:
-        autofollow: As persoas que se conectaron a través dun convite seguirante automáticamente
-        avatar: PNG, GIF ou JPG. Máximo %{size}. Será reducida a %{dimensions}px
-        bot: Advirte ás usuarias de que esta conta realiza principalmente accións automatizadas e podería non estar monitorizada
-        context: Un ou varios contextos onde se debería aplicar o filtro
-        current_password: Por razóns de seguridade, introduce o contrasinal da conta actual
-        current_username: Para confirmar, introduce o nome de usuaria da conta actual
-        digest: Enviar só tras un longo período de inactividade e só se recibiches algunha mensaxe directa na tua ausencia
-        discoverable: Permite que a túa conta poida ser descuberta por persoas descoñecidas a través de recomendacións, tendencias e outras ferramentas
-        email: Ímosche enviar un correo de confirmación
-        fields: Podes ter ate 4 elementos no teu perfil mostrados como unha táboa
-        header: PNG, GIF ou JPG. Máximo %{size}. Será reducida a %{dimensions}px
-        inbox_url: Copiar o URL desde a páxina de inicio do repetidor que queres utilizar
-        irreversible: As publicacións filtradas desaparecerán de xeito irreversible, incluso se despois se elimina o filtro
-        locale: O idioma da interface de usuaria, correos e notificacións
-        locked: Xestionar manualmente quen pode seguirte aprobando as solicitudes de seguimento
-        password: Utiliza 8 caracteres ao menos
-        phrase: Concordará independentemente das maiúsculas ou avisos de contido na publicación
-        scopes: A que APIs terá acceso a aplicación. Se escolles un ámbito de alto nivel, non precisas seleccionar elementos individuais.
-        setting_aggregate_reblogs: Non mostrar novas promocións de publicacións que foron promovidas recentemente (só afecta a promocións recén recibidas)
-        setting_always_send_emails: Como norma xeral non che enviamos correos electrónicos se usas activamente Mastodon
-        setting_default_sensitive: Medios sensibles marcados como ocultos por defecto e móstranse cun click
-        setting_display_media_default: Ocultar medios marcados como sensibles
-        setting_display_media_hide_all: Ocultar sempre os medios
-        setting_display_media_show_all: Mostrar sempre os medios marcados como sensibles
-        setting_hide_network: Non se mostrará no teu perfil quen te segue e a quen estás a seguir
-        setting_noindex: Afecta ao teu perfil público e páxinas de publicación
-        setting_show_application: A aplicación que estás a utilizar para enviar publicacións mostrarase na vista detallada da publicación
-        setting_use_blurhash: Os gradientes toman as cores da imaxe oculta pero esvaecendo tódolos detalles
-        setting_use_pending_items: Agochar actualizacións da cronoloxía tras un click no lugar de desprazar automáticamente os comentarios
-        username: O teu nome de usuaria será único en %{domain}
-        whole_word: Se a chave ou frase de paso é só alfanumérica, só se aplicará se concorda a palabra completa
+        autofollow: People who sign up through the invite will automatically follow you
+        avatar: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        bot: Signal to others that the account mainly performs automated actions and might not be monitored
+        context: One or multiple contexts where the filter should apply
+        current_password: For security purposes please enter the password of the current account
+        current_username: To confirm, please enter the username of the current account
+        digest: Only sent after a long period of inactivity and only if you have received any personal messages in your absence
+        discoverable: Allow your account to be discovered by strangers through recommendations, trends and other features
+        email: You will be sent a confirmation e-mail
+        fields: You can have up to 4 items displayed as a table on your profile
+        header: PNG, GIF or JPG. At most %{size}. Will be downscaled to %{dimensions}px
+        inbox_url: Copy the URL from the frontpage of the relay you want to use
+        irreversible: Filtered posts will disappear irreversibly, even if filter is later removed
+        locale: The language of the user interface, e-mails and push notifications
+        locked: Manually control who can follow you by approving follow requests
+        password: Use at least 8 characters
+        phrase: Will be matched regardless of casing in text or content warning of a post
+        scopes: Which APIs the application will be allowed to access. If you select a top-level scope, you don't need to select individual ones.
+        setting_aggregate_reblogs: Do not show new boosts for posts that have been recently boosted (only affects newly-received boosts)
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Mastodon
+        setting_default_sensitive: Sensitive media is hidden by default and can be revealed with a click
+        setting_display_media_default: Hide media marked as sensitive
+        setting_display_media_hide_all: Always hide media
+        setting_display_media_show_all: Always show media
+        setting_hide_network: Who you follow and who follows you will be hidden on your profile
+        setting_noindex: Affects your public profile and post pages
+        setting_show_application: The application you use to post will be displayed in the detailed view of your posts
+        setting_use_blurhash: Gradients are based on the colors of the hidden visuals but obfuscate any details
+        setting_use_pending_items: Hide timeline updates behind a click instead of automatically scrolling the feed
+        username: Your username will be unique on %{domain}
+        whole_word: When the keyword or phrase is alphanumeric only, it will only be applied if it matches the whole word
       domain_allow:
-        domain: Este dominio estará en disposición de obter datos desde este servidor e datos de entrada a el poderán ser procesados e gardados
+        domain: This domain will be able to fetch data from this server and incoming data from it will be processed and stored
       email_domain_block:
-        domain: Este pode ser o nome de dominio que aparece no enderezo de email ou o rexistro MX que utiliza. Será comprobado no momento do rexistro.
-        with_dns_records: Vaise facer un intento de resolver os rexistros DNS proporcionados e os resultados tamén irán a lista de bloqueo
+        domain: This can be the domain name that shows up in the e-mail address or the MX record it uses. They will be checked upon sign-up.
+        with_dns_records: An attempt to resolve the given domain's DNS records will be made and the results will also be blocked
       featured_tag:
-        name: 'Aquí tes algúns dos cancelos que usaches recentemente:'
+        name: 'Here are some of the hashtags you used the most recently:'
       filters:
-        action: Elixe a acción a realizar cando algunha publicación coincida co filtro
+        action: Chose which action to perform when a post matches the filter
         actions:
-          hide: Agochar todo o contido filtrado, facer coma se non existise
-          warn: Agochar o contido filtrado tras un aviso que conteña o nome do filtro
+          hide: Completely hide the filtered content, behaving as if it did not exist
+          warn: Hide the filtered content behind a warning mentioning the filter's title
       form_admin_settings:
-        activity_api_enabled: Conta do número de publicacións locais, usuarias activas, e novos rexistros en acumulados semanais
-        backups_retention_period: Gardar os arquivos xerados pola usuaria durante o número de días indicado.
-        bootstrap_timeline_accounts: Estas contas aparecerán fixas na parte superior das recomendacións para as usuarias.
-        closed_registrations_message: Móstrase cando non se admiten novas usuarias
-        content_cache_retention_period: As publicacións desde outros servidores serán eliminadas despois do número de días indicados ao poñer un valor positivo. É unha acción irreversible.
-        custom_css: Podes aplicar deseños personalizados na versión web de Mastodon.
-        mascot: Sobrescribe a ilustración na interface web avanzada.
-        media_cache_retention_period: Os ficheiros multimedia descargados serán eliminados despois do número de días indicado ao establecer un valor positivo, e voltos a descargar baixo petición.
-        peers_api_enabled: Unha lista dos nomes de dominio que este servidor atopou no fediverso. Non se inclúen aquí datos acerca de se estás a federar con eles ou non, só que o teu servidor os recoñeceu. Ten utilidade para servizos que recollen estatísticas acerca da federación nun amplo senso.
-        profile_directory: O directorio de perfís inclúe a tódalas usuarias que optaron por ser descubribles.
-        require_invite_text: Cando os rexistros requiren aprobación manual, facer que o texto "Por que te queres rexistrar?" do convite sexa obrigatorio en lugar de optativo
-        site_contact_email: De que xeito se pode contactar contigo para temas legais ou obter axuda.
-        site_contact_username: De que xeito se pode contactar contigo en Mastodon.
-        site_extended_description: Calquera información adicional que poida ser útil para visitantes e usuarias. Pode utilizarse sintaxe Markdown.
-        site_short_description: Breve descrición que axuda a identificar de xeito único o teu servidor. Quen o xestiona, a quen vai dirixido?
-        site_terms: Escribe a túa propia política de privacidade ou usa o valor por defecto. Podes usar sintaxe Markdow.
-        site_title: De que xeito se pode referir o teu servidor ademáis do seu nome de dominio.
-        status_page_url: URL dunha páxina onde se pode ver o estado deste servidor cando non está a funcionar
-        theme: Decorado que verán visitantes e novas usuarias.
-        thumbnail: Imaxe con proporcións 2:1 mostrada xunto á información sobre o servidor.
-        timeline_preview: Visitantes e usuarias non conectadas poderán ver as publicacións públicas máis recentes do servidor.
-        trendable_by_default: Omitir a revisión manual das tendencias. Poderás igualmente eliminar manualmente os elementos que vaian aparecendo.
-        trends: As tendencias mostran publicacións, cancelos e novas historias que teñen popularidade no teu servidor.
-        trends_as_landing_page: Mostrar contidos en voga para as persoas sen sesión iniciada e visitantes no lugar dunha descrición deste servidor. Require ter activado Tendencias.
+        activity_api_enabled: Counts of locally published posts, active users, and new registrations in weekly buckets
+        backups_retention_period: Keep generated user archives for the specified number of days.
+        bootstrap_timeline_accounts: These accounts will be pinned to the top of new users' follow recommendations.
+        closed_registrations_message: Displayed when sign-ups are closed
+        content_cache_retention_period: Posts from other servers will be deleted after the specified number of days when set to a positive value. This may be irreversible.
+        custom_css: You can apply custom styles on the web version of Mastodon.
+        mascot: Overrides the illustration in the advanced web interface.
+        media_cache_retention_period: Downloaded media files will be deleted after the specified number of days when set to a positive value, and re-downloaded on demand.
+        peers_api_enabled: A list of domain names this server has encountered in the fediverse. No data is included here about whether you federate with a given server, just that your server knows about it. This is used by services that collect statistics on federation in a general sense.
+        profile_directory: The profile directory lists all users who have opted-in to be discoverable.
+        require_invite_text: When sign-ups require manual approval, make the “Why do you want to join?” text input mandatory rather than optional
+        site_contact_email: How people can reach you for legal or support inquiries.
+        site_contact_username: How people can reach you on Mastodon.
+        site_extended_description: Any additional information that may be useful to visitors and your users. Can be structured with Markdown syntax.
+        site_short_description: A short description to help uniquely identify your server. Who is running it, who is it for?
+        site_terms: Use your own privacy policy or leave blank to use the default. Can be structured with Markdown syntax.
+        site_title: How people may refer to your server besides its domain name.
+        status_page_url: URL of a page where people can see the status of this server during an outage
+        theme: Theme that logged out visitors and new users see.
+        thumbnail: A roughly 2:1 image displayed alongside your server information.
+        timeline_preview: Logged out visitors will be able to browse the most recent public posts available on the server.
+        trendable_by_default: Skip manual review of trending content. Individual items can still be removed from trends after the fact.
+        trends: Trends show which posts, hashtags and news stories are gaining traction on your server.
+        trends_as_landing_page: Show trending content to logged-out users and visitors instead of a description of this server. Requires trends to be enabled.
       form_challenge:
-        current_password: Estás entrando nun área segura
+        current_password: You are entering a secure area
       imports:
-        data: Ficheiro CSV exportado desde outro servidor Mastodon
+        data: CSV file exported from another Mastodon server
       invite_request:
-        text: Esto axudaranos a revisar a tua solicitude
+        text: This will help us review your application
       ip_block:
-        comment: Opcional. Lembrar a razón para engadir esta regra.
-        expires_in: Os enderezos IP son un recurso finito, a veces son compartidos e cambian de mans con frecuencia. Por esta razón, non se recomendan os bloqueos indefinidos de IPs.
-        ip: Escribe un enderezo IPv4 ou IPv6. Podes bloquear rangos completos usando a sintaxe CIDR. Ten coidado e non te bloquees a ti mesma!
+        comment: Optional. Remember why you added this rule.
+        expires_in: IP addresses are a finite resource, they are sometimes shared and often change hands. For this reason, indefinite IP blocks are not recommended.
+        ip: Enter an IPv4 or IPv6 address. You can block entire ranges using the CIDR syntax. Be careful not to lock yourself out!
         severities:
-          no_access: Bloquear acceso a tódolos recursos
-          sign_up_block: Non se poderán rexistrar novas contas
-          sign_up_requires_approval: Os novos rexistros requerirán a túa aprobación
-        severity: Escolle que acontecerá coas peticións desde este IP
+          no_access: Block access to all resources
+          sign_up_block: New sign-ups will not be possible
+          sign_up_requires_approval: New sign-ups will require your approval
+        severity: Choose what will happen with requests from this IP
       rule:
-        text: Describe unha regra ou requerimento para as usuarias deste servidor. Intenta que sexa curta e simple
+        text: Describe a rule or requirement for users on this server. Try to keep it short and simple
       sessions:
-        otp: 'Escribe o código do segundo factor creado pola aplicación do teu móbil ou usa un dos códigos de recuperación:'
-        webauthn: Se é unha chave USB asegúrate de que está conectada e preme o botón.
+        otp: 'Enter the two-factor code generated by your phone app or use one of your recovery codes:'
+        webauthn: If it's an USB key be sure to insert it and, if necessary, tap it.
       tag:
-        name: Só podes cambiar maiús/minúsculas, por exemplo, mellorar a lexibilidade
+        name: You can only change the casing of the letters, for example, to make it more readable
       user:
-        chosen_languages: Se ten marca, só as publicacións nos idiomas seleccionados serán mostrados en cronoloxías públicas
-        role: O control dos roles adxudicados ás usuarias
+        chosen_languages: When checked, only posts in selected languages will be displayed in public timelines
+        role: The role controls which permissions the user has
       user_role:
-        color: Cor que se usará para o rol a través da IU, como RGB en formato hex
-        highlighted: Isto fai o rol publicamente visible
-        name: Nome público do rol, se o rol se mostra como unha insignia
-        permissions_as_keys: As usuarias con este rol terán acceso a...
-        position: O rol superior decide nos conflitos en certas situacións. Algunhas accións só poden aplicarse sobre roles cunha prioridade menor
+        color: Color to be used for the role throughout the UI, as RGB in hex format
+        highlighted: This makes the role publicly visible
+        name: Public name of the role, if role is set to be displayed as a badge
+        permissions_as_keys: Users with this role will have access to...
+        position: Higher role decides conflict resolution in certain situations. Certain actions can only be performed on roles with a lower priority
       webhook:
-        events: Elixir eventos a enviar
-        url: A onde se enviarán os eventos
+        events: Select events to send
+        url: Where events will be sent to
     labels:
       account:
         fields:
-          name: Etiqueta
-          value: Contido
+          name: Label
+          value: Content
       account_alias:
-        acct: Xestiona a conta antiga
+        acct: Handle of the old account
       account_migration:
-        acct: Usuaria na nova conta
+        acct: Handle of the new account
       account_warning_preset:
-        text: Texto preestablecido
-        title: Título
+        text: Preset text
+        title: Title
       admin_account_action:
-        include_statuses: Incluír no correo as publicacións denunciadas
-        send_email_notification: Notificar á usuaria por email
-        text: Aviso personalizado
-        type: Acción
+        include_statuses: Include reported posts in the e-mail
+        send_email_notification: Notify the user per e-mail
+        text: Custom warning
+        type: Action
         types:
-          disable: Desactivar
-          none: Enviar un aviso
-          sensitive: Sensible
-          silence: Limitar
-          suspend: Suspender
-        warning_preset_id: Utilizar un aviso preestablecido
+          disable: Freeze
+          none: Send a warning
+          sensitive: Sensitive
+          silence: Limit
+          suspend: Suspend
+        warning_preset_id: Use a warning preset
       announcement:
-        all_day: Evento para todo o día
-        ends_at: Final do acontecemento
-        scheduled_at: Publicación programada
-        starts_at: Comezo do acontecemento
-        text: Anuncio
+        all_day: All-day event
+        ends_at: End of event
+        scheduled_at: Schedule publication
+        starts_at: Start of event
+        text: Announcement
       appeal:
-        text: Indica a razón pola que habería que reverter a decisión
+        text: Explain why this decision should be reversed
       defaults:
-        autofollow: Convida a seguir a tua conta
+        autofollow: Invite to follow your account
         avatar: Avatar
-        bot: Esta conta é de un bot
-        chosen_languages: Filtrar idiomas
-        confirm_new_password: Confirma o novo contrasinal
-        confirm_password: Confirma o contrasinal
-        context: Contextos do filtro
-        current_password: Contrasinal actual
-        data: Datos
-        discoverable: Suxerir esta conta a outras persoas
-        display_name: Nome mostrado
-        email: Enderezo de email
-        expires_in: Caduca tras
-        fields: Metadatos do perfil
-        header: Cabeceira
-        honeypot: "%{label} (non completar)"
-        inbox_url: URL da caixa de entrada do repetidor
-        irreversible: Desbotar en lugar de agochar
-        locale: Idioma da interface
-        locked: Requerir aprobar seguimento
-        max_uses: Número máximo de usos
-        new_password: Novo contrasinal
-        note: Acerca de ti
-        otp_attempt: Código do Segundo Factor
-        password: Contrasinal
-        phrase: Palabra chave ou frase
-        setting_advanced_layout: Activar interface web avanzada
-        setting_aggregate_reblogs: Agrupar promocións nas cronoloxías
-        setting_always_send_emails: Enviar sempre notificacións por correo electrónico
-        setting_auto_play_gif: Reprodución automática de GIFs animados
-        setting_boost_modal: Solicitar confirmación antes de promover
-        setting_crop_images: Recortar imaxes a 16x9 en publicacións non despregadas
-        setting_default_language: Idioma de publicación
-        setting_default_privacy: Privacidade da publicación
-        setting_default_sensitive: Marcar sempre multimedia como sensible
-        setting_delete_modal: Solicitar confirmación antes de eliminar unha publicación
-        setting_disable_swiping: Desactivar opcións de desprazamento
-        setting_display_media: Mostrar multimedia
-        setting_display_media_default: Por omisión
-        setting_display_media_hide_all: Ocultar todo
-        setting_display_media_show_all: Mostrar todo
-        setting_expand_spoilers: Despregar sempre as publicacións marcadas con avisos de contido
-        setting_hide_network: Non mostrar contactos
-        setting_noindex: Pedir non aparecer nas buscas dos motores de busca
-        setting_reduce_motion: Reducir o movemento nas animacións
-        setting_show_application: Mostrar a aplicación utilizada para publicar
-        setting_system_font_ui: Utilizar a tipografía por defecto do sistema
-        setting_theme: Decorado da instancia
-        setting_trends: Mostrar as tendencias de hoxe
-        setting_unfollow_modal: Solicitar confirmación antes de deixar de seguir alguén
-        setting_use_blurhash: Mostrar gradientes coloridos para multimedia oculto
-        setting_use_pending_items: Modo lento
-        severity: Severidade
-        sign_in_token_attempt: Código de seguridade
-        title: Título
-        type: Tipo de importación
-        username: Nome de usuaria
-        username_or_email: Identificador ou Email
-        whole_word: Palabra completa
+        bot: This is a bot account
+        chosen_languages: Filter languages
+        confirm_new_password: Confirm new password
+        confirm_password: Confirm password
+        context: Filter contexts
+        current_password: Current password
+        data: Data
+        discoverable: Suggest account to others
+        display_name: Display name
+        email: E-mail address
+        expires_in: Expire after
+        fields: Profile metadata
+        header: Header
+        honeypot: "%{label} (do not fill in)"
+        inbox_url: URL of the relay inbox
+        irreversible: Drop instead of hide
+        locale: Interface language
+        locked: Require follow requests
+        max_uses: Max number of uses
+        new_password: New password
+        note: Bio
+        otp_attempt: Two-factor code
+        password: Password
+        phrase: Keyword or phrase
+        setting_advanced_layout: Enable advanced web interface
+        setting_aggregate_reblogs: Group boosts in timelines
+        setting_always_send_emails: Always send e-mail notifications
+        setting_auto_play_gif: Auto-play animated GIFs
+        setting_boost_modal: Show confirmation dialog before boosting
+        setting_crop_images: Crop images in non-expanded posts to 16x9
+        setting_default_language: Posting language
+        setting_default_privacy: Posting privacy
+        setting_default_sensitive: Always mark media as sensitive
+        setting_delete_modal: Show confirmation dialog before deleting a post
+        setting_disable_swiping: Disable swiping motions
+        setting_display_media: Media display
+        setting_display_media_default: Default
+        setting_display_media_hide_all: Hide all
+        setting_display_media_show_all: Show all
+        setting_expand_spoilers: Always expand posts marked with content warnings
+        setting_hide_network: Hide your social graph
+        setting_noindex: Opt-out of search engine indexing
+        setting_reduce_motion: Reduce motion in animations
+        setting_show_application: Disclose application used to send posts
+        setting_system_font_ui: Use system's default font
+        setting_theme: Site theme
+        setting_trends: Show today's trends
+        setting_unfollow_modal: Show confirmation dialog before unfollowing someone
+        setting_use_blurhash: Show colorful gradients for hidden media
+        setting_use_pending_items: Slow mode
+        severity: Severity
+        sign_in_token_attempt: Security code
+        title: Title
+        type: Import type
+        username: Username
+        username_or_email: Username or Email
+        whole_word: Whole word
       email_domain_block:
-        with_dns_records: Incluír rexistros MX e IPs do dominio
+        with_dns_records: Include MX records and IPs of the domain
       featured_tag:
-        name: Cancelo
+        name: Hashtag
       filters:
         actions:
-          hide: Agochar completamente
-          warn: Agochar tras un aviso
+          hide: Hide completely
+          warn: Hide with a warning
       form_admin_settings:
-        activity_api_enabled: Publicar na API estatísticas agregadas acerca da actividade das usuarias
-        backups_retention_period: Período de retención do arquivo da usuaria
-        bootstrap_timeline_accounts: Recomendar sempre estas contas ás novas usuarias
-        closed_registrations_message: Mensaxe personalizada para cando o rexistro está pechado
-        content_cache_retention_period: Período de retención da caché do contido
-        custom_css: CSS personalizado
-        mascot: Mascota propia (herdado)
-        media_cache_retention_period: Período de retención da caché multimedia
-        peers_api_enabled: Publicar na API unha lista dos servidores descubertos
-        profile_directory: Activar o directorio de perfís
-        registrations_mode: Quen se pode rexistrar
-        require_invite_text: Pedir unha razón para unirse
-        show_domain_blocks: Amosar dominios bloqueados
-        show_domain_blocks_rationale: Explicar porque están bloqueados os dominios
-        site_contact_email: Email de contacto
-        site_contact_username: Nome do contacto
-        site_extended_description: Descrición ampla
-        site_short_description: Descrición do servidor
-        site_terms: Política de Privacidade
-        site_title: Nome do servidor
-        status_page_url: URL da páxina do estado
-        theme: Decorado por omisión
-        thumbnail: Icona do servidor
-        timeline_preview: Permitir acceso á cronoloxía pública sen autenticación
-        trendable_by_default: Permitir tendencias sen aprobación previa
-        trends: Activar tendencias
-        trends_as_landing_page: Usar as tendencias como páxina de benvida
+        activity_api_enabled: Publish aggregate statistics about user activity in the API
+        backups_retention_period: User archive retention period
+        bootstrap_timeline_accounts: Always recommend these accounts to new users
+        closed_registrations_message: Custom message when sign-ups are not available
+        content_cache_retention_period: Content cache retention period
+        custom_css: Custom CSS
+        mascot: Custom mascot (legacy)
+        media_cache_retention_period: Media cache retention period
+        peers_api_enabled: Publish list of discovered servers in the API
+        profile_directory: Enable profile directory
+        registrations_mode: Who can sign-up
+        require_invite_text: Require a reason to join
+        show_domain_blocks: Show domain blocks
+        show_domain_blocks_rationale: Show why domains were blocked
+        site_contact_email: Contact e-mail
+        site_contact_username: Contact username
+        site_extended_description: Extended description
+        site_short_description: Server description
+        site_terms: Privacy Policy
+        site_title: Server name
+        status_page_url: Status page URL
+        theme: Default theme
+        thumbnail: Server thumbnail
+        timeline_preview: Allow unauthenticated access to public timelines
+        trendable_by_default: Allow trends without prior review
+        trends: Enable trends
+        trends_as_landing_page: Use trends as the landing page
       interactions:
-        must_be_follower: Bloquear as notificacións de non-seguidoras
-        must_be_following: Bloquea as notificacións de persoas que non segues
-        must_be_following_dm: Bloquea as mensaxes directas de persoas que non segues
+        must_be_follower: Block notifications from non-followers
+        must_be_following: Block notifications from people you don't follow
+        must_be_following_dm: Block direct messages from people you don't follow
       invite:
-        comment: Comentar
+        comment: Comment
       invite_request:
-        text: Por que queres unirte?
+        text: Why do you want to join?
       ip_block:
-        comment: Comentario
+        comment: Comment
         ip: IP
         severities:
-          no_access: Bloquear acceso
-          sign_up_block: Bloquear novos rexistros
-          sign_up_requires_approval: Limitar o rexistro
-        severity: Regra
+          no_access: Block access
+          sign_up_block: Block sign-ups
+          sign_up_requires_approval: Limit sign-ups
+        severity: Rule
       notification_emails:
-        appeal: Alguén apelou contra a decisión da moderación
-        digest: Enviar correos con resumos
-        favourite: Enviar un correo cando alguén marca como favorita unha das tuas publicacións
-        follow: Enviar un correo cando alguén te segue
-        follow_request: Enviar un correo cando alguén solicita seguirte
-        mention: Enviar un correo cando alguén te menciona
-        pending_account: Enviar un correo cando unha nova conta precisa revisión
-        reblog: Enviar un correo cando alguén promociona a tua mensaxe
-        report: Enviouse unha nova denuncia
-        trending_tag: Hai que revisar unha nova tendencia
+        appeal: Someone appeals a moderator decision
+        digest: Send digest e-mails
+        favourite: Someone favourited your post
+        follow: Someone followed you
+        follow_request: Someone requested to follow you
+        mention: Someone mentioned you
+        pending_account: New account needs review
+        reblog: Someone boosted your post
+        report: New report is submitted
+        trending_tag: New trend requires review
       rule:
-        text: Regra
+        text: Rule
       tag:
-        listable: Permitir que este cancelo apareza en buscas e no directorio de perfil
-        name: Cancelo
-        trendable: Permitir que este cancelo apareza en tendencias
-        usable: Permitir que as publicacións utilicen este cancelo
+        listable: Allow this hashtag to appear in searches and suggestions
+        name: Hashtag
+        trendable: Allow this hashtag to appear under trends
+        usable: Allow posts to use this hashtag
       user:
-        role: Rol
+        role: Role
       user_role:
-        color: Cor da insignia
-        highlighted: Mostrar rol como insignia en perfís de usuarias
-        name: Nome
-        permissions_as_keys: Permisos
-        position: Prioridade
+        color: Badge color
+        highlighted: Display role as badge on user profiles
+        name: Name
+        permissions_as_keys: Permissions
+        position: Priority
       webhook:
-        events: Eventos activados
-        url: URL do extremo
-    'no': Non
-    not_recommended: Non é recomendable
-    recommended: Recomendado
+        events: Enabled events
+        url: Endpoint URL
+    'no': 'No'
+    not_recommended: Not recommended
+    recommended: Recommended
     required:
       mark: "*"
-      text: requerido
+      text: required
     title:
       sessions:
-        webauthn: Usa unha das túas chaves de seguridade para conectar
-    'yes': Si
+        webauthn: Use one of your security keys to sign in
+    'yes': 'Yes'

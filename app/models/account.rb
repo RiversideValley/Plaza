@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 # == Schema Information
 #
 # Table name: accounts
@@ -78,8 +79,8 @@ class Account < ApplicationRecord
   include DomainMaterializable
   include AccountMerging
 
-  enum protocol: [:ostatus, :activitypub]
-  enum suspension_origin: [:local, :remote], _prefix: true
+  enum protocol: { ostatus: 0, activitypub: 1 }
+  enum suspension_origin: { local: 0, remote: 1 }, _prefix: true
 
   validates :username, presence: true
   validates_with UniqueUsernameValidator, if: -> { will_save_change_to_username? }
@@ -92,7 +93,7 @@ class Account < ApplicationRecord
   validates_with UnreservedUsernameValidator, if: -> { local? && will_save_change_to_username? && actor_type != 'Application' }
   validates :display_name, length: { maximum: 30 }, if: -> { local? && will_save_change_to_display_name? }
   validates :note, note_length: { maximum: 500 }, if: -> { local? && will_save_change_to_note? }
-  validates :fields, length: { maximum: 4 }, if: -> { local? && will_save_change_to_fields? }
+  validates :fields, length: { maximum: 8 }, if: -> { local? && will_save_change_to_fields? }
 
   scope :remote, -> { where.not(domain: nil) }
   scope :local, -> { where(domain: nil) }
@@ -322,7 +323,7 @@ class Account < ApplicationRecord
     self[:fields] = fields
   end
 
-  DEFAULT_FIELDS_SIZE = 4
+  DEFAULT_FIELDS_SIZE = 8
 
   def build_fields
     return if fields.size >= DEFAULT_FIELDS_SIZE
@@ -539,6 +540,7 @@ class Account < ApplicationRecord
 
   def ensure_keys!
     return unless local? && private_key.blank? && public_key.blank?
+
     generate_keys
     save!
   end
