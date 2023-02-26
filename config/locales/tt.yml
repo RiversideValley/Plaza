@@ -3,14 +3,14 @@ tt:
   about:
     about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon!'
     contact_missing: Not set
-    contact_unavailable: N/A
+    contact_unavailable: Юк
     hosted_on: Mastodon hosted on %{domain}
     title: About
   accounts:
-    follow: Follow
+    follow: Языл
     followers:
       other: Followers
-    following: Following
+    following: Язылгансыз
     instance_actor_flash: This account is a virtual actor used to represent the server itself and not any individual user. It is used for federation purposes and should not be suspended.
     last_active: last active
     link_verified_on: Ownership of this link was checked on %{date}
@@ -33,26 +33,26 @@ tt:
       approve: Approve
       approved_msg: Successfully approved %{username}'s sign-up application
       are_you_sure: Are you sure?
-      avatar: Avatar
-      by_domain: Domain
+      avatar: Аватар
+      by_domain: Домен
       change_email:
         changed_msg: Email successfully changed!
         current_email: Current email
-        label: Change email
+        label: Emailны үзгәртү
         new_email: New email
-        submit: Change email
+        submit: Emailны үзгәртү
         title: Change email for %{username}
       change_role:
         changed_msg: Role successfully changed!
         label: Change role
         no_role: No role
         title: Change role for %{username}
-      confirm: Confirm
+      confirm: Раслау
       confirmed: Confirmed
       confirming: Confirming
       custom: Custom
       delete: Delete data
-      deleted: Deleted
+      deleted: Бетерелде
       demote: Demote
       destroyed_msg: "%{username}'s data is now queued to be deleted imminently"
       disable: Freeze
@@ -60,9 +60,9 @@ tt:
       disable_two_factor_authentication: Disable 2FA
       disabled: Frozen
       display_name: Display name
-      domain: Domain
-      edit: Edit
-      email: Email
+      domain: Домен
+      edit: Үзгәртү
+      email: Эл. почта
       email_status: Email status
       enable: Unfreeze
       enable_sign_in_token_auth: Enable e-mail token authentication
@@ -70,25 +70,25 @@ tt:
       enabled_msg: Successfully unfroze %{username}'s account
       followers: Followers
       follows: Follows
-      header: Header
+      header: Башлам
       inbox_url: Inbox URL
       invite_request_text: Reasons for joining
       invited_by: Invited by
-      ip: IP
+      ip: ІР
       joined: Joined
       location:
-        all: All
-        local: Local
+        all: Бөтенесе
+        local: Җирле
         remote: Remote
-        title: Location
+        title: Урын
       login_status: Login status
       media_attachments: Media attachments
       memorialize: Turn into memoriam
       memorialized: Memorialized
       memorialized_msg: Successfully turned %{username} into a memorial account
       moderation:
-        active: Active
-        all: All
+        active: Актив
+        all: Бөтенесе
         disabled: Disabled
         pending: Pending
         silenced: Limited
@@ -102,7 +102,7 @@ tt:
       no_role_assigned: No role assigned
       not_subscribed: Not subscribed
       pending: Pending review
-      perform_full_suspension: Suspend
+      perform_full_suspension: Искә алмау
       previous_strikes: Previous strikes
       previous_strikes_description_html:
         other: This account has <strong>%{count}</strong> strikes.
@@ -124,18 +124,18 @@ tt:
         already_confirmed: This user is already confirmed
         send: Resend confirmation email
         success: Confirmation email successfully sent!
-      reset: Reset
+      reset: Ташлату
       reset_password: Reset password
       resubscribe: Resubscribe
       role: Role
-      search: Search
+      search: Эзләү
       search_same_email_domain: Other users with the same e-mail domain
       search_same_ip: Other users with the same IP
       security: Security
       security_measures:
         only_password: Only password
         password_and_2fa: Password and 2FA
-      sensitive: Force-sensitive
+      sensitive: Sizmäle
       sensitized: Marked as sensitive
       shared_inbox_url: Shared inbox URL
       show:
@@ -160,10 +160,10 @@ tt:
       unsilenced_msg: Successfully undid limit of %{username}'s account
       unsubscribe: Unsubscribe
       unsuspended_msg: Successfully unsuspended %{username}'s account
-      username: Username
+      username: Кулланучы исеме
       view_domain: View summary for domain
       warn: Warn
-      web: Web
+      web: Веб
       whitelisted: Allowed for federation
     action_logs:
       action_types:
@@ -195,7 +195,7 @@ tt:
         destroy_status: Delete Post
         destroy_unavailable_domain: Delete Unavailable Domain
         destroy_user_role: Destroy Role
-        disable_2fa_user: Disable 2FA
+        disable_2fa_user: 2FA cүндерү
         disable_custom_emoji: Disable Custom Emoji
         disable_sign_in_token_auth_user: Disable E-mail Token Authentication for User
         disable_user: Disable User
@@ -308,23 +308,23 @@ tt:
       updated_msg: Announcement successfully updated!
     custom_emojis:
       assign_category: Assign category
-      by_domain: Domain
+      by_domain: Домен
       copied_msg: Successfully created local copy of the emoji
-      copy: Copy
+      copy: Күчереп алу
       copy_failed_msg: Could not make a local copy of that emoji
       create_new_category: Create new category
       created_msg: Emoji successfully created!
-      delete: Delete
+      delete: Бетерү
       destroyed_msg: Emojo successfully destroyed!
-      disable: Disable
-      disabled: Disabled
+      disable: Cүндерү
+      disabled: Cүндерелгән
       disabled_msg: Successfully disabled that emoji
       emoji: Emoji
-      enable: Enable
+      enable: Кабызу
       enabled: Enabled
       enabled_msg: Successfully enabled that emoji
       image_hint: PNG or GIF up to %{size}
-      list: List
+      list: Исемлек
       listed: Listed
       new:
         title: Add new custom emoji
@@ -339,7 +339,7 @@ tt:
       unlisted: Unlisted
       update_failed_msg: Could not update that emoji
       updated_msg: Emoji successfully updated!
-      upload: Upload
+      upload: Йөкләү
     dashboard:
       active_users: active users
       interactions: interactions
@@ -377,7 +377,7 @@ tt:
       add_new: Add new domain block
       created_msg: Domain block is now being processed
       destroyed_msg: Domain block has been undone
-      domain: Domain
+      domain: Домен
       edit: Edit domain block
       existing_domain_block: You have already imposed stricter limits on %{name}.
       existing_domain_block_html: You have already imposed stricter limits on %{name}, you need to <a href="%{unblock_url}">unblock it</a> first.
@@ -388,9 +388,9 @@ tt:
         hint: The domain block will not prevent creation of account entries in the database, but will retroactively and automatically apply specific moderation methods on those accounts.
         severity:
           desc_html: "<strong>Limit</strong> will make posts from accounts at this domain invisible to anyone who isn't following them. <strong>Suspend</strong> will remove all content, media, and profile data for this domain's accounts from your server. Use <strong>None</strong> if you just want to reject media files."
-          noop: None
+          noop: Бернинди дә
           silence: Limit
-          suspend: Suspend
+          suspend: Искә алмау
         title: New domain block
       no_domain_block_selected: No domain blocks were changed as none were selected
       not_permitted: You are not permitted to perform this action
@@ -411,11 +411,11 @@ tt:
       attempts_over_week:
         other: "%{count} sign-up attempts over the last week"
       created_msg: Successfully blocked e-mail domain
-      delete: Delete
+      delete: Бетерү
       dns:
         types:
           mx: MX record
-      domain: Domain
+      domain: Домен
       new:
         create: Add domain
         resolve: Resolve domain
@@ -443,7 +443,7 @@ tt:
     follow_recommendations:
       description_html: "<strong>Follow recommendations help new users quickly find interesting content</strong>. When a user has not interacted with others enough to form personalized follow recommendations, these accounts are recommended instead. They are re-calculated on a daily basis from a mix of accounts with the highest recent engagements and highest local follower counts for a given language."
       language: For language
-      status: Status
+      status: Халәт
       suppress: Suppress follow recommendation
       suppressed: Suppressed
       title: Follow recommendations
@@ -461,7 +461,7 @@ tt:
       back_to_all: All
       back_to_limited: Limited
       back_to_warning: Warning
-      by_domain: Domain
+      by_domain: Домен
       confirm_purge: Are you sure you want to permanently delete data from this domain?
       content_policies:
         comment: Internal note
@@ -499,7 +499,7 @@ tt:
       known_accounts:
         other: "%{count} known accounts"
       moderation:
-        all: All
+        all: Бөтенесе
         limited: Limited
         title: Moderation
       private_comment: Private comment
@@ -516,35 +516,35 @@ tt:
     invites:
       deactivate_all: Deactivate all
       filter:
-        all: All
+        all: Бөтенесе
         available: Available
-        expired: Expired
-        title: Filter
+        expired: Гамәлдән чыкты
+        title: Sözgeç
       title: Invites
     ip_blocks:
       add_new: Create rule
       created_msg: Successfully added new IP rule
-      delete: Delete
+      delete: Бетерү
       expires_in:
-        '1209600': 2 weeks
-        '15778476': 6 months
-        '2629746': 1 month
-        '31556952': 1 year
-        '86400': 1 day
-        '94670856': 3 years
+        '1209600': 2 атна
+        '15778476': 6 ай
+        '2629746': 1 ай
+        '31556952': 1 ел
+        '86400': 1 көн
+        '94670856': 3 ел
       new:
         title: Create new IP rule
       no_ip_block_selected: No IP rules were changed as none were selected
-      title: IP rules
+      title: IP кагыйдәләре
     relationships:
       title: "%{acct}'s relationships"
     relays:
       add_new: Add new relay
-      delete: Delete
+      delete: Бетерү
       description_html: A <strong>federation relay</strong> is an intermediary server that exchanges large volumes of public posts between servers that subscribe and publish to it. <strong>It can help small and medium servers discover content from the fediverse</strong>, which would otherwise require local users manually following other people on remote servers.
-      disable: Disable
-      disabled: Disabled
-      enable: Enable
+      disable: Cүндерү
+      disabled: Cүндерелгән
+      enable: Кабызу
       enable_hint: Once enabled, your server will subscribe to all public posts from this relay, and will begin sending this server's public posts to it.
       enabled: Enabled
       inbox_url: Relay URL
@@ -552,7 +552,7 @@ tt:
       save_and_enable: Save and enable
       setup: Setup a relay connection
       signatures_not_enabled: Relays may not work correctly while secure mode or limited federation mode is enabled
-      status: Status
+      status: Халәт
       title: Relays
     report_notes:
       created_msg: Report note successfully created!
@@ -581,7 +581,7 @@ tt:
       category: Category
       category_description_html: The reason this account and/or content was reported will be cited in communication with the reported account
       comment:
-        none: None
+        none: Бернинди дә
       comment_description_html: 'To provide more information, %{name} wrote:'
       confirm: Confirm
       confirm_action: Confirm moderation action against @%{acct}
@@ -594,10 +594,10 @@ tt:
       mark_as_unresolved: Mark as unresolved
       no_one_assigned: No one
       notes:
-        create: Add note
+        create: Язу кушу
         create_and_resolve: Resolve with note
         create_and_unresolve: Reopen with note
-        delete: Delete
+        delete: Бетерү
         placeholder: Describe what actions have been taken, or any other related updates...
         title: Notes
       notes_description_html: View and leave notes to other moderators and your future self
@@ -611,7 +611,7 @@ tt:
       resolved: Resolved
       resolved_msg: Report successfully resolved!
       skip_to_actions: Skip to actions
-      status: Status
+      status: Халәт
       statuses: Reported content
       statuses_description_html: Offending content will be cited in communication with the reported account
       summary:
@@ -637,7 +637,7 @@ tt:
       unassign: Unassign
       unknown_action_msg: 'Unknown action: %{action}'
       unresolved: Unresolved
-      updated_at: Updated
+      updated_at: Яңартылды
       view_profile: View profile
     roles:
       add_new: Add role
@@ -700,7 +700,7 @@ tt:
       title: Roles
     rules:
       add_new: Add rule
-      delete: Delete
+      delete: Бетерү
       description_html: While most claim to have read and agree to the terms of service, usually people do not read through until after a problem arises. <strong>Make it easier to see your server's rules at a glance by providing them in a flat bullet point list.</strong> Try to keep individual rules short and simple, but try not to split them up into many separate items either.
       edit: Edit rule
       empty: No server rules have been defined yet.
@@ -756,13 +756,13 @@ tt:
       batch:
         remove_from_report: Remove from report
         report: Report
-      deleted: Deleted
+      deleted: Бетерелде
       favourites: Favourites
       history: Version history
       in_reply_to: Replying to
       language: Language
       media:
-        title: Media
+        title: Медиа
       metadata: Metadata
       no_status_selected: No posts were changed as none were selected
       open: Open post
@@ -803,7 +803,7 @@ tt:
       updated_msg: Hashtag settings updated successfully
     title: Administration
     trends:
-      allow: Allow
+      allow: Рөхсәт итү
       approved: Approved
       disallow: Disallow
       links:
@@ -865,7 +865,7 @@ tt:
       trending: Trending
     warning_presets:
       add_new: Add new
-      delete: Delete
+      delete: Бетерү
       edit_preset: Edit warning preset
       empty: You haven't defined any warning presets yet.
       title: Manage warning presets
@@ -955,7 +955,7 @@ tt:
     your_token: Your access token
   auth:
     apply_for_account: Request an account
-    change_password: Password
+    change_password: Парол
     confirmations:
       wrong_email_hint: If that e-mail address is not correct, you can change it in account settings.
     delete_account: Delete account
@@ -971,16 +971,16 @@ tt:
     link_to_otp: Enter a two-factor code from your phone or a recovery code
     link_to_webauth: Use your security key device
     log_in_with: Log in with
-    login: Log in
+    login: Керү
     logout: Logout
     migrate_account: Move to a different account
     migrate_account_html: If you wish to redirect this account to a different one, you can <a href="%{path}">configure it here</a>.
     or_log_in_with: Or log in with
     privacy_policy_agreement_html: I have read and agree to the <a href="%{privacy_policy_path}" target="_blank">privacy policy</a>
     providers:
-      cas: CAS
-      saml: SAML
-    register: Sign up
+      cas: САS
+      saml: SАML
+    register: Теркәлү
     registration_closed: "%{instance} is not accepting new members"
     resend_confirmation: Resend confirmation instructions
     reset_password: Reset password
@@ -989,7 +989,7 @@ tt:
       back: Back
       preamble: These are set and enforced by the %{domain} moderators.
       title: Some ground rules.
-    security: Security
+    security: Хәвефсезлек
     set_new_password: Set new password
     setup:
       email_below_hint_html: If the below e-mail address is incorrect, you can change it here and receive a new confirmation e-mail.
@@ -1014,7 +1014,7 @@ tt:
     already_following: You are already following this account
     already_requested: You have already sent a follow request to that account
     error: Unfortunately, there was an error looking up the remote account
-    follow: Follow
+    follow: Язылу
     follow_request: 'You have sent a follow request to:'
     following: 'Success! You are now following:'
     post_follow:
@@ -1023,7 +1023,7 @@ tt:
       web: Go to web
     title: Follow %{acct}
   challenge:
-    confirm: Continue
+    confirm: Дәвам итү
     hint_html: "<strong>Tip:</strong> We won't ask you for your password again for the next hour."
     invalid_password: Invalid password
     prompt: Confirm password to continue
@@ -1033,22 +1033,22 @@ tt:
       invalid_signature: is not a valid Ed25519 signature
   date:
     formats:
-      default: "%b %d, %Y"
-      with_month_name: "%B %d, %Y"
+      default: "%d %b %Y"
+      with_month_name: "%d %B %Y"
   datetime:
     distance_in_words:
-      about_x_hours: "%{count}h"
-      about_x_months: "%{count}mo"
-      about_x_years: "%{count}y"
-      almost_x_years: "%{count}y"
-      half_a_minute: Just now
-      less_than_x_minutes: "%{count}m"
-      less_than_x_seconds: Just now
-      over_x_years: "%{count}y"
-      x_days: "%{count}d"
-      x_minutes: "%{count}m"
-      x_months: "%{count}mo"
-      x_seconds: "%{count}s"
+      about_x_hours: "%{count}сәг"
+      about_x_months: "%{count}ай"
+      about_x_years: "%{count}ел"
+      almost_x_years: "%{count}ел"
+      half_a_minute: Хәзер генә
+      less_than_x_minutes: "%{count}м"
+      less_than_x_seconds: Хәзер генә
+      over_x_years: "%{count}ел"
+      x_days: "%{count}к"
+      x_minutes: "%{count}м"
+      x_months: "%{count}ай"
+      x_seconds: "%{count}сек"
   deletes:
     challenge_not_passed: The information you entered was not correct
     confirm_password: Enter your current password to verify your identity
@@ -1118,15 +1118,15 @@ tt:
     not_found_multiple: could not find %{usernames}
   exports:
     archive_takeout:
-      date: Date
+      date: Көне
       download: Download your archive
       hint_html: You can request an archive of your <strong>posts and uploaded media</strong>. The exported data will be in the ActivityPub format, readable by any compliant software. You can request an archive every 7 days.
       in_progress: Compiling your archive...
       request: Request your archive
-      size: Size
+      size: Olılıq
     blocks: You block
-    bookmarks: Bookmarks
-    csv: CSV
+    bookmarks: Кыстыргычлар
+    csv: СSV
     domain_blocks: Domain blocks
     lists: Lists
     mutes: You mute
@@ -1142,7 +1142,7 @@ tt:
       home: Home and lists
       notifications: Notifications
       public: Public timelines
-      thread: Conversations
+      thread: Әңгәмәләр
     edit:
       add_keyword: Add keyword
       keywords: Keywords
@@ -1154,7 +1154,7 @@ tt:
       invalid_context: None or invalid context supplied
     index:
       contexts: Filters in %{contexts}
-      delete: Delete
+      delete: Бетерү
       empty: You have no filters.
       expires_in: Expires in %{distance}
       expires_on: Expires on %{date}
@@ -1164,7 +1164,7 @@ tt:
         other: "%{count} posts"
       statuses_long:
         other: "%{count} individual posts hidden"
-      title: Filters
+      title: Сөзгечләр
     new:
       save: Save new filter
       title: Add new filter
@@ -1178,21 +1178,21 @@ tt:
   footer:
     trending_now: Trending now
   generic:
-    all: All
+    all: Бөтенесе
     all_items_on_page_selected_html:
       other: All <strong>%{count}</strong> items on this page are selected.
     all_matching_items_selected_html:
       other: All <strong>%{count}</strong> items matching your search are selected.
     changes_saved_msg: Changes successfully saved!
-    copy: Copy
-    delete: Delete
+    copy: Күчереп алу
+    delete: Бетерү
     deselect: Deselect all
     none: None
     order_by: Order by
     save_changes: Save changes
     select_all_matching_items:
       other: Select all %{count} items matching your search.
-    today: today
+    today: бүген
     validation_errors:
       other: Something isn't quite right yet! Please review %{count} errors below
   html_validator:
@@ -1210,22 +1210,22 @@ tt:
     success: Your data was successfully uploaded and will be processed in due time
     types:
       blocking: Blocking list
-      bookmarks: Bookmarks
+      bookmarks: Кыстыргычлар
       domain_blocking: Domain blocking list
       following: Following list
       muting: Muting list
-    upload: Upload
+    upload: Йөкләү
   invites:
     delete: Deactivate
-    expired: Expired
+    expired: Гамәлдән чыкты
     expires_in:
-      '1800': 30 minutes
-      '21600': 6 hours
-      '3600': 1 hour
-      '43200': 12 hours
-      '604800': 1 week
-      '86400': 1 day
-    expires_in_prompt: Never
+      '1800': 30 минут
+      '21600': 6 сәгать
+      '3600': 1 сәгать
+      '43200': 12 сәгать
+      '604800': 1 атна
+      '86400': 1 көн
+    expires_in_prompt: Беркайчан да
     generate: Generate invite link
     invited_by: 'You were invited by:'
     max_uses:
@@ -1346,16 +1346,16 @@ tt:
   otp_authentication:
     code_hint: Enter the code generated by your authenticator app to confirm
     description_html: If you enable <strong>two-factor authentication</strong> using an authenticator app, logging in will require you to be in possession of your phone, which will generate tokens for you to enter.
-    enable: Enable
+    enable: Кабызу
     instructions_html: "<strong>Scan this QR code into Google Authenticator or a similar TOTP app on your phone</strong>. From now on, that app will generate tokens that you will have to enter when logging in."
     manual_instructions: 'If you can''t scan the QR code and need to enter it manually, here is the plain-text secret:'
     setup: Set up
     wrong_code: The entered code was invalid! Are server time and device time correct?
   pagination:
     newer: Newer
-    next: Next
+    next: Киләсе
     older: Older
-    prev: Prev
+    prev: Алдыгы
     truncate: "&hellip;"
   polls:
     errors:
@@ -1386,7 +1386,7 @@ tt:
     dormant: Dormant
     follow_selected_followers: Follow selected followers
     followers: Followers
-    following: Following
+    following: Язылгансыз
     invited: Invited
     last_active: Last active
     most_recent: Most recent
@@ -1414,64 +1414,64 @@ tt:
     too_soon: The scheduled date must be in the future
   sessions:
     activity: Last activity
-    browser: Browser
+    browser: Браузер
     browsers:
-      alipay: Alipay
+      alipay: Аlipay
       blackberry: BlackBerry
-      chrome: Chrome
-      edge: Microsoft Edge
-      electron: Electron
-      firefox: Firefox
+      chrome: Chrоme
+      edge: Microsоft Edge
+      electron: Electrоn
+      firefox: Firеfox
       generic: Unknown browser
-      ie: Internet Explorer
-      micro_messenger: MicroMessenger
-      nokia: Nokia S40 Ovi Browser
-      opera: Opera
-      otter: Otter
-      phantom_js: PhantomJS
-      qq: QQ Browser
-      safari: Safari
+      ie: Internet Explоrer
+      micro_messenger: MicroMеssenger
+      nokia: Nokia S40 Ovi Brоwser
+      opera: Opеra
+      otter: Ottеr
+      phantom_js: PhаntomJS
+      qq: QQ Brоwser
+      safari: Safаri
       uc_browser: UC Browser
-      weibo: Weibo
+      weibo: Weibо
     current_session: Current session
-    description: "%{browser} on %{platform}"
+    description: "%{browser} - %{platform}"
     explanation: These are the web browsers currently logged in to your Mastodon account.
-    ip: IP
+    ip: ІР
     platforms:
-      adobe_air: Adobe Air
-      android: Android
+      adobe_air: Adobе Air
+      android: Andrоid
       blackberry: BlackBerry
       chrome_os: ChromeOS
-      firefox_os: Firefox OS
-      ios: iOS
-      linux: Linux
+      firefox_os: Firеfox OS
+      ios: iОS
+      linux: Lіnux
       mac: macOS
       other: unknown platform
-      windows: Windows
-      windows_mobile: Windows Mobile
-      windows_phone: Windows Phone
+      windows: Windоws
+      windows_mobile: Windows Mоbile
+      windows_phone: Windоws Phone
     revoke: Revoke
     revoke_success: Session successfully revoked
     title: Sessions
     view_authentication_history: View authentication history of your account
   settings:
-    account: Account
+    account: Хисап язмасы
     account_settings: Account settings
     aliases: Account aliases
-    appearance: Appearance
+    appearance: Küreneş
     authorized_apps: Authorized apps
     back: Back to Mastodon
     delete: Account deletion
-    development: Development
-    edit_profile: Edit profile
+    development: Эшләнмә
+    edit_profile: Профильны үзгәртү
     export: Data export
     featured_tags: Featured hashtags
-    import: Import
+    import: Импортлау
     import_and_export: Import and export
     migrate: Account migration
     notifications: Notifications
-    preferences: Preferences
-    profile: Profile
+    preferences: Caylaw
+    profile: Профиль
     relationships: Follows and followers
     statuses_cleanup: Automated post deletion
     strikes: Moderation strikes
@@ -1485,7 +1485,7 @@ tt:
       image:
         other: "%{count} images"
       video:
-        other: "%{count} videos"
+        other: "%{count} видео"
     boosted_from_html: Boosted from %{acct_link}
     content_warning: 'Content warning: %{warning}'
     default_language: Same as interface language
@@ -1543,14 +1543,14 @@ tt:
     keep_self_fav: Keep posts you favourited
     keep_self_fav_hint: Doesn't delete your own posts if you have favourited them
     min_age:
-      '1209600': 2 weeks
+      '1209600': 2 атна
       '15778476': 6 months
-      '2629746': 1 month
-      '31556952': 1 year
-      '5259492': 2 months
-      '604800': 1 week
-      '63113904': 2 years
-      '7889238': 3 months
+      '2629746': 1 ай
+      '31556952': 1 ел
+      '5259492': 2 ай
+      '604800': 1 атна
+      '63113904': 2 ел
+      '7889238': 3 ай
     min_age_label: Age threshold
     min_favs: Keep posts favourited at least
     min_favs_hint: Doesn't delete any of your posts that has received at least this number of favourites. Leave blank to delete posts regardless of their number of favourites
@@ -1571,14 +1571,14 @@ tt:
     mastodon-light: Mastodon (Light)
   time:
     formats:
-      default: "%b %d, %Y, %H:%M"
+      default: "%d %b %Y, %H:%M"
       month: "%b %Y"
       time: "%H:%M"
   two_factor_authentication:
-    add: Add
-    disable: Disable 2FA
+    add: Өстәү
+    disable: 2FA cүндерү
     disabled_success: Two-factor authentication successfully disabled
-    edit: Edit
+    edit: Үзгәртү
     enabled: Two-factor authentication is enabled
     enabled_success: Two-factor authentication successfully enabled
     generate_recovery_codes: Generate recovery codes
@@ -1623,7 +1623,7 @@ tt:
         sensitive: From now on, all your uploaded media files will be marked as sensitive and hidden behind a click-through warning.
         silence: You can still use your account but only people who are already following you will see your posts on this server, and you may be excluded from various discovery features. However, others may still manually follow you.
         suspend: You can no longer use your account, and your profile and other data are no longer accessible. You can still login to request a backup of your data until the data is fully removed in about 30 days, but we will retain some basic data to prevent you from evading the suspension.
-      reason: 'Reason:'
+      reason: 'Сәбаб:'
       statuses: 'Posts cited:'
       subject:
         delete_statuses: Your posts on %{acct} have been removed
@@ -1637,7 +1637,7 @@ tt:
         delete_statuses: Posts removed
         disable: Account frozen
         mark_statuses_as_sensitive: Posts marked as sensitive
-        none: Warning
+        none: Игътибар
         sensitive: Account marked as sensitive
         silence: Account limited
         suspend: Account suspended
@@ -1665,7 +1665,7 @@ tt:
     create:
       error: There was a problem adding your security key. Please try again.
       success: Your security key was successfully added.
-    delete: Delete
+    delete: Бетерү
     delete_confirmation: Are you sure you want to delete this security key?
     description_html: If you enable <strong>security key authentication</strong>, logging in will require you to use one of your security keys.
     destroy:
