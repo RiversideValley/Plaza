@@ -1,0 +1,125 @@
+inherit_from: .rubocop_todo.yml
+
+inherit_mode:
+  merge:
+    - Exclude
+
+require:
+  - rubocop-rails
+  - rubocop-rspec
+  - rubocop-performance
+
+AllCops:
+  TargetRubyVersion: 2.7
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  UseCache: true
+  CacheRootDirectory: tmp
+  NewCops: enable
+  Exclude:
+    - db/schema.rb
+    - 'app/views/**/*'
+    - 'config/**/*'
+    - 'bin/*'
+    - 'Rakefile'
+    - 'node_modules/**/*'
+    - 'Vagrantfile'
+    - 'vendor/**/*'
+    - 'lib/json_ld/*'
+    - 'lib/templates/**/*'
+
+Layout/FirstHashElementIndentation:
+  EnforcedStyle: consistent
+
+Layout/LineLength:
+  Max: 140 # RuboCop default 120
+  AllowedPatterns:
+    # Allow comments to be long lines
+    - !ruby/regexp / \# .*$/
+    - !ruby/regexp /^\# .*$/
+  Exclude:
+    - lib/**/*cli*.rb
+    - db/*migrate/**/*
+    - db/seeds/**/*
+
+Lint/UselessAccessModifier:
+  ContextCreatingMethods:
+    - class_methods
+
+Metrics/AbcSize:
+  Max: 34 # RuboCop default 17
+  Exclude:
+    - 'lib/**/*cli*.rb'
+    - db/*migrate/**/*
+
+Metrics/BlockLength:
+  Max: 55 # Default 25
+  CountAsOne: [array, heredoc]
+  Exclude:
+    - 'lib/mastodon/*_cli.rb'
+
+Metrics/BlockNesting:
+  Exclude:
+    - 'lib/mastodon/*_cli.rb'
+
+Metrics/ClassLength:
+  Max: 500 # Default 100
+  CountAsOne: [array, heredoc]
+  Exclude:
+    - 'lib/mastodon/*_cli.rb'
+
+Metrics/CyclomaticComplexity:
+  Max: 12 # Default 7
+  Exclude:
+    - lib/mastodon/*cli*.rb
+    - db/*migrate/**/*
+
+Metrics/MethodLength:
+  Max: 25 # RuboCop default 10
+  CountAsOne: [array, heredoc]
+  Exclude:
+    - 'lib/mastodon/*_cli.rb'
+
+Metrics/ModuleLength:
+  Max: 200 # Default 100
+  CountAsOne: [array, heredoc]
+
+Metrics/PerceivedComplexity:
+  Max: 16 # RuboCop default 8
+
+Rails/HttpStatus:
+  EnforcedStyle: numeric
+
+Rails/Exit:
+  Exclude:
+    - 'lib/mastodon/*_cli.rb'
+    - 'lib/mastodon/cli_helper.rb'
+    - 'lib/cli.rb'
+
+RSpec/NotToNot:
+  EnforcedStyle: to_not
+
+RSpec/Rails/HttpStatus:
+  EnforcedStyle: numeric
+
+Style/HashSyntax:
+  EnforcedStyle: ruby19_no_mixed_keys
+
+Style/NumericLiterals:
+  AllowedPatterns:
+    - \d{4}_\d{2}_\d{2}_\d{6} # For DB migration date version number readability
+
+Style/PercentLiteralDelimiters:
+  PreferredDelimiters:
+    '%i': '()'
+    '%w': '()'
+
+Style/RescueStandardError:
+  EnforcedStyle: implicit
+
+Style/TrailingCommaInArrayLiteral:
+  EnforcedStyleForMultiline: 'comma'
+
+Style/TrailingCommaInHashLiteral:
+  EnforcedStyleForMultiline: 'comma'

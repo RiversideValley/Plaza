@@ -1,0 +1,354 @@
+---
+sr-Latn:
+  about:
+    about_mastodon_html: Mastodont je društvena mreža bazirana na otvorenim protokolima i slobodnom softveru otvorenog koda. Decentralizovana je kao što je decentralizovana e-pošta.
+    contact_missing: Nije postavljeno
+    hosted_on: Mastodont hostovan na %{domain}
+  accounts:
+    nothing_here: Ovde nema ništa!
+  admin:
+    account_moderation_notes:
+      create: Napravi
+      created_msg: Moderatorska beleška uspešno napravljena!
+      destroyed_msg: Moderatorska beleška uspešno obrisana!
+    accounts:
+      are_you_sure: Da li ste sigurni?
+      by_domain: Domen
+      confirm: Potvrdi
+      confirmed: Potvrđeno
+      confirming: Potvrđujući
+      demote: Ražaluj
+      disable: Isključi
+      disable_two_factor_authentication: Isključi 2FA
+      disabled: Isključena
+      display_name: Prikazano ime
+      domain: Domen
+      edit: Izmeni
+      email: E-pošta
+      email_status: Status e-pošte
+      enable: Uključi
+      enabled: Uključeno
+      followers: Pratioci
+      follows: Praćeni
+      inbox_url: Adresa sandučeta
+      location:
+        all: Sve
+        local: Lokalne
+        remote: Udaljene
+        title: Lokacija
+      login_status: Status prijave
+      media_attachments: Multimedijalni prilozi
+      memorialize: Prebaci u in memoriam
+      moderation:
+        all: Svi
+        suspended: Suspendovani
+        title: Moderacija
+      moderation_notes: Moderatorske beleške
+      most_recent_activity: Najskorija aktivnost
+      most_recent_ip: Najskorija IP adresa
+      not_subscribed: Nije pretplaćen
+      perform_full_suspension: Izvrši kompletno isključenje
+      promote: Unapredi
+      protocol: Protokol
+      public: Javno
+      redownload: Osveži avatar
+      remote_suspension_reversible_hint_html: Налог је суспендован на њиховом серверу, а подаци ће бити у потпуности уклоњени %{date}. До тада, удаљени сервер може вратити овај налог без икаквих негативних ефеката. Ако желите одмах да уклоните све податке налога, то можете учинити у наставку.
+      resend_confirmation:
+        already_confirmed: Ovaj korisnik je već potvrđen
+        send: Ponovo pošaljite e-poruku za potvrdu
+        success: E-mail potvrde je uspešno poslat!
+      reset: Resetuj
+      reset_password: Resetuj lozinku
+      resubscribe: Ponovo se pretplati
+      search: Pretraga
+      shared_inbox_url: Adresa deljenog sandučeta
+      show:
+        created_reports: Prijave koje je napravio ovaj nalog
+        targeted_reports: Prijave napravljene o ovom nalogu
+      silence: Ućutkaj
+      statuses: Statusi
+      subscribe: Pretplati se
+      title: Nalozi
+      undo_silenced: Ukini ćutanje
+      undo_suspension: Ukini suspenziju
+      unsubscribe: Ukini pretplatu
+      username: Korisničko ime
+      web: Veb
+    action_logs:
+      title: Zapisnik
+    custom_emojis:
+      by_domain: Domen
+      copied_msg: Uspešno napravljena lokalna kopija emotikona
+      copy: Kopiraj
+      copy_failed_msg: Ne mogu da napravim lokalnu kopiju tog emotikona
+      created_msg: Emotikon uspešno napravljen!
+      delete: Obriši
+      destroyed_msg: Emotikon uspešno obrisan!
+      disable: Onemogući
+      disabled_msg: Emotikon uspešno onemogućen
+      emoji: Emotikon
+      enable: Omogući
+      enabled_msg: Emotikon uspešno omogućen
+      listed: Izlistan
+      new:
+        title: Dodaj novi proizvoljni emotikon
+      overwrite: Prepiši
+      shortcode: Prečica
+      shortcode_hint: Najmanje 2 karaktera, dozvoljeni su samo slova, brojevi i donje crte
+      title: Proizvoljni emotikoni
+      unlisted: Neizlistan
+      update_failed_msg: Ne mogu da ažuriram ovaj emotikon
+      updated_msg: emotikon uspešno ažuriran!
+      upload: Otpremi
+    domain_blocks:
+      add_new: Dodaj novi
+      created_msg: Blokiranje domena se obrađuje
+      destroyed_msg: Blokiranje domena je opozvano
+      domain: Domen
+      new:
+        create: Napravi blokadu
+        hint: Blokiranje domena neće sprečiti pravljenje naloga u bazi, ali će retroaktivno i automatski primeniti određene moderatorske metode nad tim nalozima.
+        severity:
+          noop: Ništa
+          suspend: Suspenzija
+        title: Novo blokiranje domena
+      reject_media: Odbaci multimediju
+      reject_media_hint: Uklanja lokalno uskladištene multimedijske fajlove i odbija da ih skida na dalje. Nebitno je za suspenziju
+      undo: Poništi
+    email_domain_blocks:
+      add_new: Dodaj novuAdd new
+      created_msg: Uspešno dodao domen e-pošte na crnu listu
+      delete: Ukloni
+      domain: Domen
+      new:
+        create: Dodaj domen
+        title: Nova stavka u crnoj listi e-pošti
+      title: Crna lista adresa e-pošte
+    instances:
+      title: Poznate instance
+    invites:
+      filter:
+        all: Sve
+        available: Aktivne
+        expired: Istekle
+      title: Pozivnice
+    reports:
+      action_taken_by: Akciju izveo
+      are_you_sure: Da li ste sigurni?
+      comment:
+        none: Ništa
+      mark_as_resolved: Označi kao rešen
+      report: 'Prijava #%{id}'
+      reported_account: Prijavljeni nalog
+      reported_by: Prijavio
+      resolved: Rešeni
+      title: Prijave
+      unresolved: Nerešeni
+    statuses:
+      back_to_account: Nazad na stranu naloga
+      media:
+        title: Multimedija
+      title: Statusi naloga
+      with_media: Sa multimedijom
+    title: Administracija
+  admin_mailer:
+    new_report:
+      body: "%{reporter} je prijavio %{target}"
+      subject: Nova prijava za %{instance} (#%{id})
+  application_mailer:
+    settings: 'Promeni podešavanja e-pošte: %{link}'
+    view: 'Pogledaj:'
+  applications:
+    created: Aplikacija uspešno napravljena
+    destroyed: Aplikacija uspešno obrisana
+    regenerate_token: Rekreiraj pristupni token
+    token_regenerated: Pristupni token uspešno rekreiran
+    warning: Oprezno sa ovim podacima. Nikad je ne delite ni sa kim!
+    your_token: Vaš pristupni token
+  auth:
+    delete_account: Obriši nalog
+    delete_account_html: Ako želite da obrišete Vaš nalog, možete <a href="%{path}">nastaviti ovde</a>. Bićete upitani da potvrdite.
+    didnt_get_confirmation: Niste dobili poruku sa uputstvima za potvrdu naloga?
+    forgot_password: Zaboravili ste lozinku?
+    invalid_reset_password_token: Token za resetovanje lozinke je neispravan ili je istekao. Zatražite novi.
+    login: Prijavi se
+    logout: Odjava
+    migrate_account: Pomeri u drugi nalog
+    migrate_account_html: Ako želite da preusmerite ovaj nalog na neki drugi, možete to <a href="%{path}">podesiti ovde</a>.
+    register: Registruj se
+    resend_confirmation: Pošalji poruku sa uputstvima o potvrdi naloga ponovo
+    reset_password: Resetuj lozinku
+    security: Bezbednost
+    set_new_password: Postavi novu lozinku
+  authorize_follow:
+    error: Nažalost, desila se greška pri traženju udaljenog naloga
+    follow: Zaprati
+    follow_request: 'Poslali ste zahtev za praćenjen za:'
+    following: 'Sjajno! Sada pratite:'
+    post_follow:
+      close: Ili možete zatvoriti ovaj prozor.
+      return: Vrati se na profil ovog korisnika
+      web: Idi na veb
+    title: Zaprati %{acct}
+  datetime:
+    distance_in_words:
+      about_x_months: "%{count}mesec"
+      about_x_years: "%{count}god"
+      almost_x_years: "%{count}god"
+      half_a_minute: Upravo sad
+      less_than_x_seconds: Upravo sad
+      over_x_years: "%{count}god"
+      x_months: "%{count}mesec"
+  deletes:
+    confirm_password: Unesite trenutnu lozinku da bismo proverili Vaš identitet
+    proceed: Obriši nalog
+    success_msg: Vaš nalog je uspešno obrisan
+  errors:
+    '400': The request you submitted was invalid or malformed.
+    '403': Nemate dozvola da vidite ovu stranu.
+    '404': Strana koju ste tražili ne postoji.
+    '406': This page is not available in the requested format.
+    '410': Strana koju ste tražili više ne postoji.
+    '429': Uspored
+    '500':
+      content: Izvinjavamo se, nešto je pošlo po zlu sa ove strane.
+      title: Strana nije ispravna
+    '503': The page could not be served due to a temporary server failure.
+    noscript_html: Da biste koristili Mastodont veb aplikaciju, omogućite JavaScript. U suprotnom, probajte neku od <a href="%{apps_path}">originalnih aplikacija</a> za Mastodont za Vašu platformu.
+  exports:
+    blocks: Blokirali ste
+    mutes: Ućutkali ste
+    storage: Multimedijalno skladište
+  generic:
+    changes_saved_msg: Izmene uspešno sačuvane!
+    save_changes: Snimi izmene
+    validation_errors:
+      few: Nešto nije baš kako treba! Pregledajte %{count} greške ispod
+      one: Nešto nije baš kako treba! Pregledajte greške ispod
+      other: Nešto nije baš kako treba! Pregledajte %{count} grešaka ispod
+  imports:
+    preface: Možete uvesti podatke koje ste izvezli sa druge instance, kao što su liste ljudi koje ste pratili ili blokirali.
+    success: Vaši podaci su uspešno otpremljeni i biće obrađeni uskoro
+    types:
+      blocking: Lista blokiranja
+      following: Lista pratilaca
+      muting: Lista ućutkanih
+    upload: Otpremi
+  invites:
+    delete: Deaktiviraj
+    expired: Isteklo
+    expires_in:
+      '1800': 30 minuta
+      '21600': 6 sati
+      '3600': 1 sad
+      '43200': 12 sati
+      '604800': 1 week
+      '86400': 1 dan
+    expires_in_prompt: Nikad
+    generate: Generiši
+    max_uses:
+      few: "%{count} korišćenja"
+      one: 1 korišćenje
+      other: "%{count} korišćenja"
+    max_uses_prompt: Bez ograničenja
+    prompt: Generiši i podeli linkove sa drugima da im odobrite pristup ovoj instanci
+    table:
+      expires_at: Ističe
+      uses: Korišćenja
+    title: Pozovi ljude
+  media_attachments:
+    validations:
+      images_and_video: Ne može da se prikači video na status koji već ima slike
+      too_many: Ne može se prikačiti više od 4 fajla
+  migrations:
+    acct: korisnik@domen novog naloga
+  moderation:
+    title: Moderacija
+  notification_mailer:
+    favourite:
+      body: "%{name} je postavio kao omiljen Vaš status:"
+      subject: "%{name} je postavio kao omiljen Vaš status"
+    follow:
+      body: "%{name} Vas je zapratio!"
+      subject: "%{name} Vas je zapratio"
+    follow_request:
+      body: "%{name} je zatražio da Vas zaprati"
+      subject: 'Pratioci na čekanju: %{name}'
+    mention:
+      body: "%{name} Vas je pomenuo u:"
+      subject: "%{name} Vas je pomenuo"
+    reblog:
+      body: "%{name} Vam je podržao(la) status:"
+      subject: "%{name} je podržao(la) Vaš status"
+  pagination:
+    next: Sledeći
+    prev: Prethodni
+  remote_follow:
+    missing_resource: Ne mogu da nađem zahtevanu adresu preusmeravanja za Vaš nalog
+  sessions:
+    activity: Poslednja aktivnost
+    browser: Veb čitač
+    browsers:
+      chrome: Hrom
+      generic: Nepoznati veb čitač
+    current_session: Trenutna sesija
+    description: "%{browser} sa %{platform}"
+    explanation: Ovo su trenutno prijavljeni veb čitači na Vaš Mastodont nalog.
+    platforms:
+      adobe_air: Adobe Air-a
+      android: Androida
+      firefox_os: Fajerfoks OS-a
+      linux: Linuksa
+      mac: Mac-a
+      other: nepoznate platforme
+      windows: Vindouza
+      windows_mobile: Vindouz mobilnog
+      windows_phone: Vindouz telefona
+    revoke: Opozovi
+    revoke_success: Sesija uspešno opozvana
+    title: Sesije
+  settings:
+    authorized_apps: Autorizovane aplikacije
+    back: Nazad na Mastodonta
+    delete: Brisanje naloga
+    development: Razvoj
+    edit_profile: Izmena profila
+    export: Izvoz podataka
+    import: Uvoz
+    migrate: Prebacivanje naloga
+    notifications: Obaveštenja
+    preferences: Podešavanja
+    two_factor_authentication: Dvofaktorska identifikacija
+  statuses:
+    open_in_web: Otvori u vebu
+    over_character_limit: ograničenje od %{max} karaktera prekoračeno
+    pin_errors:
+      limit: Već imate prikačen najveći broj tutova
+      ownership: Tuđi tutovi ne mogu da se prikače
+      reblog: Podrška ne može da se prikači
+    show_more: Prikaži još
+    visibilities:
+      private: Samo pratioci
+      private_long: Samo prikaži pratiocima
+      public: Javno
+      public_long: Svako može da vidi
+      unlisted: Neizlistano
+      unlisted_long: Svako može da vidi, ali nije izlistano na javnim lajnama
+  stream_entries:
+    pinned: Prikačeni tut
+    reblogged: podržano
+    sensitive_content: Osetljiv sadržaj
+  themes:
+    default: Mastodont
+  two_factor_authentication:
+    disable: Isključi
+    enabled: Dvofaktorska identifikacija je uključena
+    enabled_success: Dvofaktorska identifikacija je uspešno uključena
+    generate_recovery_codes: Generiši kodove za oporavak
+    lost_recovery_codes: Kodovi za oporavak Vam omogućavaju da povratite pristup nalogu ako izgubite telefon. Ako izgubite kodove za oporavak, možete ih regenerisati ovde. Od tog trenutka, stari kodovi za oporavak više ne važe.
+    recovery_codes: Napravite rezervu kodova za oporavak
+    recovery_codes_regenerated: Kodovi za oporavak uspešno regenerisani
+    recovery_instructions_html: Ako ikada izgubite pristup telefonu, možete iskoristiti kodove za oporavak date ispod da povratite pristup nalogu. <strong>Držite kodove za oporavak na sigurnom</strong>. Na primer, odštampajte ih i čuvajte ih sa ostalim važnim dokumentima.
+  users:
+    invalid_otp_token: Neispravni dvofaktorski kod
+    signed_in_as: 'Prijavljen kao:'
