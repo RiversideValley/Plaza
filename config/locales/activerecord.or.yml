@@ -1,5 +1,5 @@
 ---
-or:
+or-IN:
   activerecord:
     attributes:
       poll:

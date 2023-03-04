@@ -1,5 +1,5 @@
 ---
-fi:
+fi-FI:
   activerecord:
     attributes:
       poll:

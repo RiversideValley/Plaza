@@ -1,5 +1,5 @@
 ---
-mai:
+mai-IN:
   activerecord:
     attributes:
       poll:

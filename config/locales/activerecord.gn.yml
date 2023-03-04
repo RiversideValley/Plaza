@@ -1,5 +1,5 @@
 ---
-gn:
+gn-PY:
   activerecord:
     attributes:
       poll:

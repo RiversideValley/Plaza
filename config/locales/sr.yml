@@ -567,7 +567,7 @@ sr:
       disable: Искључи
       disabled: Искључен
       enable: Укључи
-      enable_hint: Када се омогући, Ваш сервер ће бити претплаћен на све јавне трубе са овог релеја, и почеће да шаље своје јавне трубу на њега.
+      enable_hint: Када се омогући, ваш сервер ће бити претплаћен на све јавне објаве са овог релеја, и почеће да шаље јавне објаве овог сервера на њега.
       enabled: Укључен
       inbox_url: URL Релеја
       pending: Чека се одобрење релеја
@@ -758,7 +758,7 @@ sr:
         public_timelines: Јавне временске линије
         publish_discovered_servers: Publish discovered servers
         publish_statistics: Publish statistics
-        title: Discovery
+        title: Откривање
         trends: Trends
       domain_blocks:
         all: To everyone
@@ -963,17 +963,17 @@ sr:
     hint_html: If you want to move from another account to this one, here you can create an alias, which is required before you can proceed with moving followers from the old account to this one. This action by itself is <strong>harmless and reversible</strong>. <strong>The account migration is initiated from the old account</strong>.
     remove: Unlink alias
   appearance:
-    advanced_web_interface: Advanced web interface
-    advanced_web_interface_hint: 'If you want to make use of your entire screen width, the advanced web interface allows you to configure many different columns to see as much information at the same time as you want: Home, notifications, federated timeline, any number of lists and hashtags.'
-    animations_and_accessibility: Animations and accessibility
-    confirmation_dialogs: Confirmation dialogs
-    discovery: Discovery
+    advanced_web_interface: Напредно веб окружење
+    advanced_web_interface_hint: 'Ако желите да искористите целу ширину екрана, напредно веб окружење вам омогућује да конфигуришете много различитих колона да бисте видели онолико информација у исто време колико желите: почетну страницу, обавештења, здружену временску линију, било који број листа и хеш ознака.'
+    animations_and_accessibility: Анимације и приступачност
+    confirmation_dialogs: Дијалози потврде
+    discovery: Откривање
     localization:
-      body: Mastodon is translated by volunteers.
+      body: Mastodon преводе добровољци.
       guide_link: https://crowdin.com/project/mastodon
-      guide_link_text: Everyone can contribute.
-    sensitive_content: Sensitive content
-    toot_layout: Post layout
+      guide_link_text: Свако може допринети.
+    sensitive_content: Осетљив садржај
+    toot_layout: Распоред објава
   application_mailer:
     notification_preferences: Промени преференце Е-поште
     salutation: "%{name},"
@@ -1235,7 +1235,7 @@ sr:
     deselect: Deselect all
     none: None
     order_by: Order by
-    save_changes: Сними измене
+    save_changes: Сачувај промене
     select_all_matching_items:
       one: Select %{count} item matching your search.
       few: Select all %{count} items matching your search.
@@ -1381,9 +1381,9 @@ sr:
     update:
       subject: "%{name} edited a post"
   notifications:
-    email_events: Events for e-mail notifications
+    email_events: Догађаји за обавештења е-поштом
     email_events_hint: 'Изаберите дешавања за која желите да примате обавештења:'
-    other_settings: Other notifications settings
+    other_settings: Остала подешавања обавештења
   number:
     human:
       decimal_units:
@@ -1422,7 +1422,7 @@ sr:
       too_many_options: can't contain more than %{max} items
   preferences:
     other: Остало
-    posting_defaults: Posting defaults
+    posting_defaults: Подразумевана подешавања објављивања
     public_timelines: Јавне временске линије
   privacy_policy:
     title: Privacy Policy
@@ -1515,7 +1515,7 @@ sr:
     back: Назад на Мастодон
     delete: Брисање налога
     development: Развој
-    edit_profile: Измена налога
+    edit_profile: Уређивање профила
     export: Извоз података
     featured_tags: Featured hashtags
     import: Увоз
@@ -1546,7 +1546,7 @@ sr:
         other: "%{count} видео записа"
     boosted_from_html: Подржано од %{acct_link}
     content_warning: 'Упозорење на садржај: %{warning}'
-    default_language: Same as interface language
+    default_language: Исто као језик окружења
     disallowed_hashtags:
       one: 'садржи забрањени хештег: %{tags}'
       few: 'садржи забрањене хештегове: %{tags}'

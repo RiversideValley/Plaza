@@ -1,5 +1,5 @@
 ---
-sh:
+sh-HR:
   activerecord:
     attributes:
       poll:

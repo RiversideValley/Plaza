@@ -1,5 +1,5 @@
 ---
-sat:
+sat-IN:
   activerecord:
     attributes:
       poll:

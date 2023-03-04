@@ -1,10 +1,10 @@
 ---
-ta:
+ta-IN:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: காலக்கெடு
+        options: தேர்வுகள்
       user:
         agreement: Service agreement
         email: E-mail address
@@ -19,7 +19,7 @@ ta:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
+              invalid: எழுத்துகள், எண்கள் மற்றும் அடிக்கோடுகள் மட்டுமே
               reserved: is reserved
         admin/webhook:
           attributes:
@@ -36,7 +36,7 @@ ta:
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: ஏற்கனவே பதியப்பட்டது
         user:
           attributes:
             email:

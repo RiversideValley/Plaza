@@ -1,5 +1,5 @@
 ---
-su:
+su-ID:
   activerecord:
     attributes:
       poll:

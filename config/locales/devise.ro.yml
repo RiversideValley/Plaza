@@ -1,5 +1,5 @@
 ---
-ro:
+ro-RO:
   devise:
     confirmations:
       confirmed: Adresa ta de e-mail a fost confirmată cu succes.

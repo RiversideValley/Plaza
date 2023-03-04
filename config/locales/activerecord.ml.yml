@@ -1,26 +1,26 @@
 ---
-ml:
+ml-IN:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: സമയപരിധി
+        options: ചോയ്‌സുകൾ
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: സേവന ഉടമ്പടി
+        email: ഇ-മെയിൽ വിലാസം
+        locale: ഭാഷ
+        password: രഹസ്യവാചകം
       user/account:
-        username: Username
+        username: ഉപയോക്തൃനാമം
       user/invite_request:
-        text: Reason
+        text: കാരണം
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: അക്ഷരങ്ങളും, അക്കങ്ങളും, പിന്നെ അടിവരയും മാത്രം
+              reserved: കരുതിവച്ചു
         admin/webhook:
           attributes:
             url:
@@ -36,12 +36,12 @@ ml:
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: സ്റ്റാറ്റസ് ഇതിനകം നിലവിലുണ്ട്
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: അനുവദനീയമല്ലാത്ത ഇ-മെയിൽ ദാതാവിനെ ഉപയോഗിക്കുന്നു
+              unreachable: നിലവിലില്ല
             role_id:
               elevated: cannot be higher than your current role
         user_role:

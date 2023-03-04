@@ -1,5 +1,5 @@
 ---
-pl:
+pl-PL:
   devise:
     confirmations:
       confirmed: Twój adres e-mail został poprawnie zweryfikowany.

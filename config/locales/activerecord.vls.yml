@@ -1,5 +1,5 @@
 ---
-vls:
+vls-BE:
   activerecord:
     attributes:
       poll:

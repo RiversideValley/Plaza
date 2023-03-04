@@ -1,5 +1,5 @@
 ---
-ig:
+ig-NG:
   activerecord:
     attributes:
       poll:

@@ -1,5 +1,5 @@
 ---
-ae:
+ae-IR:
   activerecord:
     attributes:
       poll:

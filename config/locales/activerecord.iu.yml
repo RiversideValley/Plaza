@@ -1,5 +1,5 @@
 ---
-iu:
+iu-NU:
   activerecord:
     attributes:
       poll:

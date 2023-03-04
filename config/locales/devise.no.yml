@@ -1,5 +1,5 @@
 ---
-"no":
+no-NO:
   devise:
     confirmations:
       confirmed: E-postaddressen din er blitt bekreftet.

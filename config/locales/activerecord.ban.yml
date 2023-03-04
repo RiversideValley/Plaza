@@ -1,5 +1,5 @@
 ---
-ban:
+ban-ID:
   activerecord:
     attributes:
       poll:

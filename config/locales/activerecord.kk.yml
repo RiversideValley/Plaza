@@ -1,10 +1,10 @@
 ---
-kk:
+kk-KZ:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: Дедлайн
+        options: Таңдаулар
       user:
         agreement: Service agreement
         email: E-mail address
@@ -19,7 +19,7 @@ kk:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
+              invalid: тек әріптер, сандар және асты сызылған таңбалар
               reserved: is reserved
         admin/webhook:
           attributes:
@@ -36,7 +36,7 @@ kk:
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: жазбасы бұрыннан бар
         user:
           attributes:
             email:

@@ -1,5 +1,5 @@
 ---
-sma:
+sma-NO:
   activerecord:
     attributes:
       poll:

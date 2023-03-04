@@ -1,26 +1,26 @@
 ---
-br:
+br-FR:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: Deiziad termen
+        options: Dibaboù
       user:
-        agreement: Service agreement
-        email: E-mail address
-        locale: Locale
-        password: Password
+        agreement: Emglev gant ar servij
+        email: Chomlec'h postel
+        locale: Lec'hel
+        password: Ger-tremen
       user/account:
-        username: Username
+        username: Anv
       user/invite_request:
-        text: Reason
+        text: Abeg
     errors:
       models:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
-              reserved: is reserved
+              invalid: nemet lizherennoù, niverennoù hag isbarrennigoù
+              reserved: a zo miret
         admin/webhook:
           attributes:
             url:
@@ -36,12 +36,12 @@ br:
         status:
           attributes:
             reblog:
-              taken: of post already exists
+              taken: eus ar statud a zo dija
         user:
           attributes:
             email:
-              blocked: uses a disallowed e-mail provider
-              unreachable: does not seem to exist
+              blocked: a implij ur pourvezour postel berzet
+              unreachable: ne dle ket bezañ implijet
             role_id:
               elevated: cannot be higher than your current role
         user_role:

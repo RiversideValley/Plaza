@@ -1,5 +1,5 @@
 ---
-lb:
+lb-LU:
   devise:
     confirmations:
       confirmed: Your email address has been successfully confirmed.

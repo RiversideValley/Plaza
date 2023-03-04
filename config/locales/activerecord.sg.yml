@@ -1,5 +1,5 @@
 ---
-sg:
+sg-CF:
   activerecord:
     attributes:
       poll:

@@ -1,5 +1,5 @@
 ---
-ga:
+ga-IE:
   devise:
     confirmations:
       confirmed: Your email address has been successfully confirmed.
@@ -10,7 +10,7 @@ ga:
       inactive: Your account is not activated yet.
       invalid: Invalid %{authentication_keys} or password.
       last_attempt: You have one more attempt before your account is locked.
-      locked: Your account is locked.
+      locked: Tá do chuntas faoi ghlas.
       not_found_in_database: Invalid %{authentication_keys} or password.
       pending: Your account is still under review.
       timeout: Your session expired. Please sign in again to continue.
@@ -29,19 +29,19 @@ ga:
         explanation: 'The email address for your account is being changed to:'
         extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
         subject: 'Mastodon: Email changed'
-        title: New email address
+        title: Seoladh ríomhphoist nua
       password_change:
         explanation: The password for your account has been changed.
         extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
         subject: 'Mastodon: Password changed'
-        title: Password changed
+        title: Pasfhocal athraithe
       reconfirmation_instructions:
         explanation: Confirm the new address to change your email.
         extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
         subject: 'Mastodon: Confirm email for %{instance}'
         title: Verify email address
       reset_password_instructions:
-        action: Change password
+        action: Athraigh pasfhocal
         explanation: You requested a new password for your account.
         extra: If you didn't request this, please ignore this email. Your password won't change until you access the link above and create a new one.
         subject: 'Mastodon: Reset password instructions'
@@ -108,7 +108,7 @@ ga:
       already_confirmed: was already confirmed, please try signing in
       confirmation_period_expired: needs to be confirmed within %{period}, please request a new one
       expired: has expired, please request a new one
-      not_found: not found
+      not_found: níor aimsíodh é
       not_locked: was not locked
       not_saved:
         one: '1 error prohibited this %{resource} from being saved:'

@@ -1,5 +1,5 @@
 ---
-da:
+da-DK:
   devise:
     confirmations:
       confirmed: Din e-mail er nu bekræftet.

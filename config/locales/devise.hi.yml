@@ -1,16 +1,16 @@
 ---
-hi:
+hi-IN:
   devise:
     confirmations:
-      confirmed: Your email address has been successfully confirmed.
+      confirmed: आपका ईमेल पता का सफलतापूर्वक पुष्टि कर लिया गया था
       send_instructions: You will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
       send_paranoid_instructions: If your email address exists in our database, you will receive an email with instructions for how to confirm your email address in a few minutes. Please check your spam folder if you didn't receive this email.
     failure:
       already_authenticated: You are already signed in.
-      inactive: Your account is not activated yet.
+      inactive: आपका खाता सक्रिय नहीं है!
       invalid: Invalid %{authentication_keys} or password.
       last_attempt: You have one more attempt before your account is locked.
-      locked: Your account is locked.
+      locked: आपके अकाउंट को ब्लॉक किया गया है।
       not_found_in_database: Invalid %{authentication_keys} or password.
       pending: Your account is still under review.
       timeout: Your session expired. Please sign in again to continue.
@@ -29,7 +29,7 @@ hi:
         explanation: 'The email address for your account is being changed to:'
         extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
         subject: 'Mastodon: Email changed'
-        title: New email address
+        title: नया ईमेल पता
       password_change:
         explanation: The password for your account has been changed.
         extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.

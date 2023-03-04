@@ -1,5 +1,5 @@
 ---
-moh:
+moh-CA:
   activerecord:
     attributes:
       poll:

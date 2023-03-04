@@ -1,5 +1,5 @@
 ---
-bfo:
+bfo-BF:
   activerecord:
     attributes:
       poll:

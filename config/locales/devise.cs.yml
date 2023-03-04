@@ -1,5 +1,5 @@
 ---
-cs:
+cs-CZ:
   devise:
     confirmations:
       confirmed: Vaše e-mailová adresa byla úspěšně ověřena.

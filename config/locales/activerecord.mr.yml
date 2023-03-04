@@ -1,10 +1,10 @@
 ---
-mr:
+mr-IN:
   activerecord:
     attributes:
       poll:
-        expires_at: Deadline
-        options: Choices
+        expires_at: संपण्याची वेळ
+        options: पर्याय
       user:
         agreement: Service agreement
         email: E-mail address
@@ -19,7 +19,7 @@ mr:
         account:
           attributes:
             username:
-              invalid: must contain only letters, numbers and underscores
+              invalid: फक्त अक्षरे, अंक आणि अंडरस्कोर चिन्ह
               reserved: is reserved
         admin/webhook:
           attributes:
