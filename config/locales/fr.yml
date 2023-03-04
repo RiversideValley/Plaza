@@ -1,5 +1,5 @@
 ---
-fr-LU:
+fr:
   about:
     about_mastodon_html: 'Le réseau social de l''avenir : pas de publicité, pas de surveillance institutionnelle, conception éthique et décentralisation ! Gardez le contrôle de vos données avec Mastodon !'
     contact_missing: Non défini
@@ -849,7 +849,7 @@ fr-LU:
         description_html: Voici les messages dont votre serveur a connaissance qui sont beaucoup partagés et mis en favoris en ce moment. Cela peut aider vos utilisateur⋅rice⋅s, néophytes comme aguerri⋅e⋅s, à trouver plus de comptes à suivre. Aucun message n'est publiquement affiché tant que vous n'en avez pas approuvé l'auteur⋅rice, et seulement si icellui permet que son compte soit suggéré aux autres. Vous pouvez également autoriser ou rejeter les messages individuellement.
         disallow: Proscrire le message
         disallow_account: Proscrire l'auteur·rice
-        no_status_selected: Aucun message tendance n'a été modifié car aucun n'était sélectionné
+        no_status_selected: Aucune publication en tendance n'a été changée car aucune n'a été sélectionnée
         not_discoverable: L'auteur⋅rice n'a pas choisi de pouvoir être découvert⋅e
         shared_by:
           one: Partagé ou ajouté aux favoris une fois
@@ -966,7 +966,7 @@ fr-LU:
   applications:
     created: Application créée avec succès
     destroyed: Application supprimée avec succès
-    logout: Se déconnecter
+    logout: Déconnexion
     regenerate_token: Régénérer le jeton d’accès
     token_regenerated: Jeton d’accès régénéré avec succès
     warning: Soyez prudent·e avec ces données. Ne les partagez pas !
