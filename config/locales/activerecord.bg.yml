@@ -1,5 +1,5 @@
 ---
-bg:
+bg-BG:
   activerecord:
     attributes:
       poll:

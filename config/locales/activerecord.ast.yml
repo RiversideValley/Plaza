@@ -1,8 +1,9 @@
 ---
-ast:
+ast-ES:
   activerecord:
     attributes:
       poll:
+        expires_at: Deadline
         options: Opciones
       user:
         agreement: Acuerdu del serviciu
@@ -28,6 +29,14 @@ ast:
           attributes:
             website:
               invalid: nun ye una URL válida
+        import:
+          attributes:
+            data:
+              malformed: is malformed
+        status:
+          attributes:
+            reblog:
+              taken: of post already exists
         user:
           attributes:
             email:
@@ -38,6 +47,7 @@ ast:
         user_role:
           attributes:
             permissions_as_keys:
+              dangerous: include permissions that are not safe for the base role
               elevated: nun se puen incluyir los permisos que'l to rol nun poseye
               own_role: nun se pue camudar col to rol actual
             position:

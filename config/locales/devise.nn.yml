@@ -1,5 +1,5 @@
 ---
-nn:
+nn-NO:
   devise:
     confirmations:
       confirmed: E-posten din er stadfesta.

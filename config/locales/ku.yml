@@ -1,5 +1,5 @@
 ---
-ku:
+ckb-IR:
   about:
     about_mastodon_html: 'Tora civakî ya pêşerojê: Ne reklam, ne şopandina şîrketan, dîzayna nenavendî! Bi Mastodon re bibe xwediyê daneyên xwe!'
     contact_missing: Nehate sazkirin
@@ -56,7 +56,7 @@ ku:
       delete: Daneyan jê bibe
       deleted: Hate jêbirin
       demote: Ast daxistin
-      destroyed_msg: Daneyên %{username} niha ket rêzê da yê demek nêz da were jêbirin
+      destroyed_msg: "Daneyên %{username} niha ket rêzê da yê demek nêz da were jêbirin"
       disable: Qerisî ye
       disable_sign_in_token_auth: E-name ya rastandina token neçalak bike
       disable_two_factor_authentication: 2FA ne çalak bike
@@ -87,10 +87,11 @@ ku:
       media_attachments: Pêvekên medya
       memorialize: Vegerîne bîranînê
       memorialized: Bû bîranîn
-      memorialized_msg: "%{username} bi serkeftî veguherî ajimêra bîranînê"
+      memorialized_msg: '%{username} bi serkeftî veguherî ajimêra bîranînê'
       moderation:
         active: Çalak
         all: Hemû
+        disabled: Disabled
         pending: Tê nirxandin
         silenced: Sînorkirî
         suspended: Sekinandî
@@ -133,6 +134,7 @@ ku:
       search: Bigere
       search_same_email_domain: Bikarhênerên din ên bi heman navpera e-nameyê
       search_same_ip: Bikarhênerên din ên xwedî heman IP
+      security: Security
       security_measures:
         only_password: Têne borînpeyv
         password_and_2fa: Borînpeyv û 2FA
@@ -392,9 +394,7 @@ ku:
         create: Astengkirinekê çê bike
         hint: Astengkirina navperê pêşî li çêkirina têketinên ajimêra yên di danegehê de negire, lê wê bi riyeke vegerandî û xweberî rêbazên kontrolkirinê li ser van ajimêran pêk bîne.
         severity:
-          desc_html: |-
-            <strong>Sînor</strong> wê şandiyan ji ajimêrên li ser vê navperê re ji her kesê ku wan naşopîne re nedîtî bike. <strong>Rawestandin</strong> wê hemû naverok, medya û daneyên profîlê yên ajimêrên vê navperê ji rajekarê te rake. Ku tu tenê dixwazî pelên medyayê nepejirînî
-            <strong>Tu kes</strong> bi kar bîne.
+          desc_html: "<strong>Sînor</strong> wê şandiyan ji ajimêrên li ser vê navperê re ji her kesê ku wan naşopîne re nedîtî bike. <strong>Rawestandin</strong> wê hemû naverok, medya û daneyên profîlê yên ajimêrên vê navperê ji rajekarê te rake. Ku tu tenê dixwazî pelên medyayê nepejirînî\n<strong>Tu kes</strong> bi kar bîne."
           noop: Ne yek
           silence: Sînor
           suspend: Dur bike
@@ -429,6 +429,7 @@ ku:
         resolve: Navperê çareser bike
         title: Navperê e-nameyê nû asteng bike
       no_email_domain_block_selected: Tu astengkirnên navperê e-nameyê nehatin guhertin ji ber ku tu yek nehatine hilbijartin
+      not_permitted: Not permitted
       resolved_dns_records_hint_html: Navê navperê ji MX ên jêrîn re çareser dike, ên ku di dawiyê de berpirsiyarin ji pejirandina e-nameyê. Astengkirina navperek MX wê tomarkirina ji her navnîşana e-nameyê ya ku heman navpera MX bi kar tîne asteng bike, tevlî ku navê navperê xuya cûda be. <strong>Hişyar be ku peydekarên sereke yên e-nameyê asteng nekî.</strong>
       resolved_through_html: Bi riya %{domain} ve hate çareserkirin
       title: Navperên e-nameyê astengkirî
@@ -443,6 +444,7 @@ ku:
         private_comment_description_html: 'Ji bo ku bibe alîkar ji te re bo ku bişopînî ka astengkirinên têxistî ji kuderê tên, astengkirinên têxistî wê werin afirandin bi şîroveya taybet ya: <q>%{comment}</q>'
         private_comment_template: Ji %{source} hate têxistin di %{date} de
         title: Astengkirinên navperê têxe
+      invalid_domain_block: 'One or more domain blocks were skipped because of the following error(s): %{error}'
       new:
         title: Astengkirnên navperê têxe
       no_file: Tu pel nehatiye hilbijartin
@@ -474,6 +476,7 @@ ku:
       content_policies:
         comment: Nîşeya navxweyî
         description_html: Tu dikarî polîtîkayên naverokê yên ku wê li hemû ajimêrên ji vê navperê û her kiîjan ji jêrnavperên werin sepandin diyar bikî.
+        limited_federation_mode_description_html: You can chose whether to allow federation with this domain.
         policies:
           reject_media: Medya nepejirîne
           reject_reports: Ragihandinan nepejirîne
@@ -545,11 +548,11 @@ ku:
       no_ip_block_selected: Ji ber ku tu ajimêr nehat hilbijartin tu rêzika IPyê nehate guhertin
       title: Rêbazên IP
     relationships:
-      title: Têkiliyên %{acct}
+      title: "Têkiliyên %{acct}"
     relays:
       add_new: Guhêrkerê nû tevlê bike
       delete: Jê bibe
-      description_html: "<strong>Guhêrkerê giştî</strong> rajekareke navberkar e ku hejmareke mezin ji şandiyan di navbera rajekaran ku jê re dibin endam û weşanê dikin diguherîne. <strong> Ew dikare ji rajekarên piçûk û navîn re bibe alîkar ku naveroka ji fediverse </strong>ê bibîne, ku bi rengeke din pêdivî dike ku bikarhênerên herêmî bi desta li dû kesên din ên li rajekarên ji dûr be bişopînin."
+      description_html: <strong>Guhêrkerê giştî</strong> rajekareke navberkar e ku hejmareke mezin ji şandiyan di navbera rajekaran ku jê re dibin endam û weşanê dikin diguherîne. <strong> Ew dikare ji rajekarên piçûk û navîn re bibe alîkar ku naveroka ji fediverse </strong>ê bibîne, ku bi rengeke din pêdivî dike ku bikarhênerên herêmî bi desta li dû kesên din ên li rajekarên ji dûr be bişopînin.
       disable: Neçalak bike
       disabled: Neçalakkirî
       enable: Çalak bike
@@ -577,17 +580,23 @@ ku:
         mark_as_sensitive_description_html: Şandiyên hatine ragihandin wê werin nîşandan wekî hestyar û were tomarkirin da ku ji te re bibe alîkar ku tu ji hêla heman ajimêrê ve binpêkirinên pêşerojê bêtir bikî.
         other_description_html: Bêtir vebijêrkên ji bo kontrolkirina tevgera ajimêrê bibîne û pêwendiyê li ser ajimêra ragihandî kesane bike.
         resolve_description_html: Li hemberî ajimêra hatiye ragihandin wê tiştek pêk neyê, binpêkirin nayên tomarkirin û ragihandin wê were girtin.
+        silence_description_html: The account will be visible only to those who already follow it or manually look it up, severely limiting its reach. Can always be reverted. Closes all reports against this account.
+        suspend_description_html: The account and all its contents will be inaccessible and eventually deleted, and interacting with it will be impossible. Reversible within 30 days. Closes all reports against this account.
       actions_description_html: Ji bo çareserkirina vê ragihandinê biryar bide ka tê kîjan gav bavêjî. Ku tu li dijî ajimêrê ragihandî çalakiyeke cezakirinê bikî, ji bilî dema ku kategoriya <strong>Spam</strong> were hilbijartin, wê agahdariyek e-nameyê ji wan re were şandin.
+      actions_description_remote_html: Decide which action to take to resolve this report. This will only affect how <strong>your</strong> server communicates with this remote account and handle its content.
       add_to_report: Bo ragihandinê bêtir tevlî bike
       are_you_sure: Gelo tu bawerî?
       assign_to_self: Bo min diyar bike
       assigned: Çavdêrê diyarkirî
       by_target_domain: Navperê ya ajimêrê ragihandî
+      cancel: Cancel
       category: Beş
       category_description_html: Sedema ku ev ajimêr û/an jî naverok hate ragihandin wê di pêwendiya bi ajimêrê ragihandinê de werê diyarkirin
       comment:
         none: Ne yek
       comment_description_html: 'Bo bêtir zanyarî bidî, %{name} nivîsand:'
+      confirm: Confirm
+      confirm_action: Confirm moderation action against @%{acct}
       created_at: Hate ragihandin
       delete_and_resolve: Şandiyan jê bibe
       forwarded: Beralîkirî
@@ -604,10 +613,11 @@ ku:
         placeholder: Bide nasîn ka çi çalakî hatine kirin, an jî heman rojanekirinên din ên têkildar...
         title: Nîşe
       notes_description_html: Nîşeyan ji çavdêrên din û ji xwe re di pêşerojê de bibîne û bihêle
+      processed_msg: 'Report #%{id} successfully processed'
       quick_actions_description_html: 'Ji bo dîtina naveroka ragihandî çalakiyeke bilez bavêje an jî li jêr bigere:'
       remote_user_placeholder: bikarhênerê ji dûr ve ji %{instance}
       reopen: Ragihandina ji nû ve veke
-      report: "@%{id} Ragihîne"
+      report: '@%{id} Ragihîne'
       reported_account: Ajimêra ragihandî
       reported_by: Ragihandî ji aliyê
       resolved: Çareserkirî
@@ -616,9 +626,28 @@ ku:
       status: Rewş
       statuses: Naveroka ragihandî
       statuses_description_html: Naveroka sûcdar wê di danûstendina bi xwediyê ajimêra ragihandî re wê werê diyarkirin
+      summary:
+        action_preambles:
+          delete_html: 'You are about to <strong>remove</strong> some of <strong>@%{acct}</strong>''s posts. This will:'
+          mark_as_sensitive_html: 'You are about to <strong>mark</strong> some of <strong>@%{acct}</strong>''s posts as <strong>sensitive</strong>. This will:'
+          silence_html: 'You are about to <strong>limit</strong> <strong>@%{acct}</strong>''s account. This will:'
+          suspend_html: 'You are about to <strong>suspend</strong> <strong>@%{acct}</strong>''s account. This will:'
+        actions:
+          delete_html: Remove the offending posts
+          mark_as_sensitive_html: Mark the offending posts' media as sensitive
+          silence_html: Severely limit <strong>@%{acct}</strong>'s reach by making their profile and contents only visible to people already following them or manually looking it profile up
+          suspend_html: Suspend <strong>@%{acct}</strong>, making their profile and contents inaccessible and impossible to interact with
+        close_report: 'Mark report #%{id} as resolved'
+        close_reports_html: Mark <strong>all</strong> reports against <strong>@%{acct}</strong> as resolved
+        delete_data_html: Delete <strong>@%{acct}</strong>'s profile and contents 30 days from now unless they get unsuspended in the meantime
+        preview_preamble_html: "<strong>@%{acct}</strong> will receive a warning with the following contents:"
+        record_strike_html: Record a strike against <strong>@%{acct}</strong> to help you escalate on future violations from this account
+        send_email_html: Send <strong>@%{acct}</strong> a warning e-mail
+        warning_placeholder: Optional additional reasoning for the moderation action.
       target_origin: Jêdera ajimêrê ragihandî
       title: Ragihandinên
       unassign: Diyar neke
+      unknown_action_msg: 'Unknown action: %{action}'
       unresolved: Neçareserkirî
       updated_at: Rojanekirî
       view_profile: Profîlê nîşan bide
@@ -713,6 +742,8 @@ ku:
         preamble: Rûbirûbûna naveroka balkêş ji bo bikarhênerên nû yên ku li ser Mastodon kesek nas nakin pir bi bandor e. Kontrol bike ka çend taybetmendiyên vekolînê li ser rajekarê te çawa dixebite.
         profile_directory: Rêgeha profîlê
         public_timelines: Demnameya gelemperî
+        publish_discovered_servers: Publish discovered servers
+        publish_statistics: Publish statistics
         title: Vekolîne
         trends: Rojev
       domain_blocks:
@@ -767,6 +798,7 @@ ku:
         suspend: "%{name} ajimêra %{target} hilda rawestandinê"
       appeal_approved: Îtîraz
       appeal_pending: Îtîraz li benda nirxandinê ye
+      appeal_rejected: Appeal rejected
     system_checks:
       database_schema_check:
         message_html: Koçberiyên databasê yên li bendê hene. Ji kerema xwe wan bişopîne da ku bicîh bikî ku sepan wekî ku tê hêvî kirin tevbigere
@@ -802,6 +834,7 @@ ku:
           other: Di nava hefteya dawî de ji aliyê %{count} ve hate parvekirin
         title: Girêdanên di rojevê de
         usage_comparison: Îro %{today} car hate parvekirin, li gorî %{yesterday} duh
+      not_allowed_to_trend: Not allowed to trend
       only_allowed: Tenê yên mafdayî
       pending_review: Li benda nirxandinê ye
       preview_card_providers:
@@ -820,7 +853,7 @@ ku:
         not_discoverable: Nivîskar nejilbijartiye ji bo ku were kifşkirin
         shared_by:
           one: Yek carî parvekirî an bijartî
-          other: "%{friendly_count} carên parvekirî û bijartî"
+          other: '%{friendly_count} carên parvekirî û bijartî'
         title: Şandiyên rojevê
       tags:
         current_score: Encama niha %{score}
@@ -841,7 +874,7 @@ ku:
         trendable: Dikare di bin rojevan de xuya bibe
         trending_rank: 'Rojev #%{rank}'
         usable: Dikare were bikaranîn
-        usage_comparison: "%{today} car îro hate bikaranîn, li gorî %{yesterday} duh"
+        usage_comparison: '%{today} car îro hate bikaranîn, li gorî %{yesterday} duh'
         used_by_over_week:
           one: Di nava hefteya dawî de ji aliyê kesekî ve hatiye bikaranîn
           other: Di nava hefteya dawî de ji %{count} kes ve hatiye bikaranîn
@@ -856,7 +889,7 @@ ku:
     webhooks:
       add_new: Xala dawîbûnê tevlî bike
       delete: Jê bibe
-      description_html: "<strong>çengeleke tevnê</strong> dihêle ku Mastodon <strong>agahdariyên dema-rastîn</strong> ên derbarê çalakiyên hilbijartî de bisepîne ser sepana te, bi vî awayî sepana te dikare <strong>reaksiyonan bi awayekî bixweber nîşan bide</strong>."
+      description_html: <strong>çengeleke tevnê</strong> dihêle ku Mastodon <strong>agahdariyên dema-rastîn</strong> ên derbarê çalakiyên hilbijartî de bisepîne ser sepana te, bi vî awayî sepana te dikare <strong>reaksiyonan bi awayekî bixweber nîşan bide</strong>.
       disable: Neçalak bike
       disabled: Neçalakkirî
       edit: Xala dawîbûnê serrast bike
@@ -888,11 +921,11 @@ ku:
       subject: "%{username} li ser %{instance} îtiraz li biryareke çavdêriyê dike"
     new_pending_account:
       body: Zanyariyênn ajimêra nû li jêr in. Tu dikarî vê serîlêdanê bipejirîne an pûç bike.
-      subject: "(%{username}) ajimêrê nû ji bo vekolandina li ser %{instance}"
+      subject: (%{username}) ajimêrê nû ji bo vekolandina li ser %{instance}
     new_report:
       body: "%{reporter} ji %{target} ê ragihand"
       body_remote: Kesekî bi navê %{domain} ji %{target} ê ragihand
-      subject: Ragihandinek nû ji bo %{instance} (#%{id})
+      subject: 'Ragihandinek nû ji bo %{instance} (#%{id})'
     new_trends:
       body: 'Tiştên jêrîn berî ku ew bi gelemperî werin xuyakirin divê werin nirxandin:'
       new_trending_links:
@@ -933,6 +966,7 @@ ku:
   applications:
     created: Sepan bi awayekî serkeftî hat çêkirin
     destroyed: Sepan bi awayekî serkeftî hat jêbirin
+    logout: Logout
     regenerate_token: Nîşandera gihandinê bi nûve çêbike
     token_regenerated: Nîşandera gihandinê bi serkeftî nû ve hat çêkirin
     warning: Bi van daneyan re pir baldar be. Tu caran bi kesî re parve neke!
@@ -940,6 +974,8 @@ ku:
   auth:
     apply_for_account: Ajimêrekê bixwaze
     change_password: Borînpeyv
+    confirmations:
+      wrong_email_hint: If that e-mail address is not correct, you can change it in account settings.
     delete_account: Ajimêr jê bibe
     delete_account_html: Ku tu dixwazî ajimêra xwe jê bibe, tu dikarî <a href="%{path}">li vir bidomîne</a>. Ji te tê xwestin ku were pejirandin.
     description:
@@ -967,6 +1003,8 @@ ku:
     resend_confirmation: Rêwerên pejirandinê ji nû ve bişîne
     reset_password: Borînpeyvê ji nû ve saz bike
     rules:
+      accept: Accept
+      back: Back
       preamble: Ev rêzik ji aliyê çavdêrên %{domain} ve tên sazkirin.
       title: Hinek rêzikên bingehîn.
     security: Ewlehî
@@ -1001,7 +1039,7 @@ ku:
       close: An jî, tu dikarî tenê ev çarçoveyê bigirî.
       return: Profîla vê bikarhênerê nîşan bike
       web: Biçe tevneyê
-    title: "%{acct} bişopîne"
+    title: '%{acct} bişopîne'
   challenge:
     confirm: Bidomîne
     hint_html: "<strong>Nîşe:</strong>Ji bo demjimêreke din em ê borînpeyva te careke din ji te nexwazin."
@@ -1095,7 +1133,7 @@ ku:
     noscript_html: Ji bo ku tu sepanaa Mastodon a tevnê bi kar bîne, jkx JavaScript-ê çalak bike. Wekî din, yek ji <a href="%{apps_path}">sepanên xwemalî</a> ji bo Mastodon ji bo platforma xwe biceribîne.
   existing_username_validator:
     not_found: nikaribû bikarhênerek herêmî bi wê navê bikarhêner bibîne
-    not_found_multiple: "%{usernames} nehat dîtin"
+    not_found_multiple: '%{usernames} nehat dîtin'
   exports:
     archive_takeout:
       date: Dîrok
@@ -1114,7 +1152,7 @@ ku:
   featured_tags:
     add_new: Yeka nû tevlî bike
     errors:
-      limit: Te jixwe berê pirtirîn hashtag destnîşan kiriye
+      limit: You have already featured the maximum number of hashtags
     hint_html: "<strong> Hashtagên destnîşankirî çi ne? </strong> Ew bi eşkere li ser profîla te ya gelemperî têne xuyakirin û dihêlin ku mirov bi taybetî di binê wan hashtagan de li şandiyên te yên gelemperî bigere. Ew ji bo şopandina karên afirîner an projeyên demdirêj amûrek girîng in."
   filters:
     contexts:
@@ -1163,10 +1201,10 @@ ku:
   generic:
     all: Hemû
     all_items_on_page_selected_html:
-      one: Berhemê <strong>%{count}</strong> li ser vê rûpelê hatiye hilbijartin.
+      one: "Berhemê <strong>%{count}</strong> li ser vê rûpelê hatiye hilbijartin."
       other: Hemû berhemên <strong>%{count}</strong> li ser vê rûpelê hatine hilbijartin.
     all_matching_items_selected_html:
-      one: Berhemê <strong>%{count}</strong> ku bi lêgerîna te re lihevhatî ye hatiye hilbijartin.
+      one: "Berhemê <strong>%{count}</strong> ku bi lêgerîna te re lihevhatî ye hatiye hilbijartin."
       other: Hemû berhemên <strong>%{count}</strong> ku bi lêgerîna te re lihevhatî ne hatine hilbijartin.
     changes_saved_msg: Guhertin bi serkeftî tomar bû!
     copy: Jê bigire
@@ -1226,7 +1264,7 @@ ku:
     title: Mirovan vexwîne
   lists:
     errors:
-      limit: Tu gihîştî hejmara rêzika a herî zêde
+      limit: You have reached the maximum number of lists
   login_activities:
     authentication_methods:
       otp: sepandina rastandina du-gavî
@@ -1299,7 +1337,7 @@ ku:
     follow_request:
       action: Daxwazên şopandinê bi rê ve bibe
       body: "%{name} daxwaza şopandina te kir"
-      subject: Şopîner li bendê ye:%{name}
+      subject: 'Şopîner li bendê ye:%{name}'
       title: Daxwazeke şopandinê ya nû
     mention:
       action: Bersivê bide
@@ -1330,6 +1368,7 @@ ku:
           quadrillion: Q
           thousand: Hezar
           trillion: Trîlyon
+          unit: ''
   otp_authentication:
     code_hint: Ji bo pejirandinê têkeve koda te ya ku ji alîyê sepana piştraskirinê va hatiye çê kirin
     description_html: Ku tu<strong>bi piştrastkirina du-gavî re</strong> sepana piştrastkirinê çalak bikî, ji bo têketinê pêdivî heye ku telefona te li ba te be, ji bona têketinê te ra nîşaneyan çê bike.
@@ -1367,6 +1406,9 @@ ku:
       unrecognized_emoji: emojîyeke ne naskirî ye
   relationships:
     activity: Çalakiya ajimêrê
+    confirm_follow_selected_followers: Are you sure you want to follow selected followers?
+    confirm_remove_selected_followers: Are you sure you want to remove selected followers?
+    confirm_remove_selected_follows: Are you sure you want to remove selected follows?
     dormant: Xewok
     follow_selected_followers: Şopînerên hilbijartî bişopîne
     followers: Şopîner
@@ -1502,7 +1544,7 @@ ku:
     show_older: Kevntirîn nîşan bide
     show_thread: Mijarê nîşan bide
     sign_in_to_participate: Ji bo tevlî sohbetê bibî xwe tomar bike
-    title: "%{name}%{quote}"
+    title: '%{name}%{quote}'
     visibilities:
       direct: Rasterast
       private: Tenê şopîneran
@@ -1543,7 +1585,7 @@ ku:
       '7889238': 3 meh
     min_age_label: Şêmûga demê
     min_favs: Peyamên ku ji wê zêdetir hatine ecibandin veşêre
-    min_favs_hint: Şandî ku ji evqas hezkirin wergirtibe nayê jêbirin. Vala bihêle da ku şandiyan jê bibî tevlî ku çiqas hezkirin wergirtibe
+    min_favs_hint: Doesn't delete any of your posts that has received at least this number of favourites. Leave blank to delete posts regardless of their number of favourites
     min_reblogs: Şandiyên ku bêtir hatine bilindkirin veşêre
     min_reblogs_hint: Şandî ku ji ji vê hejmarê bêtir bilindkirin wergirtibe nayê jêbirin. Vala bihêle da ku şandiyan jê bibî tevlî ku çiqas hezkirin wergirtibe
   stream_entries:

@@ -1,5 +1,5 @@
 ---
-id:
+id-ID:
   devise:
     confirmations:
       confirmed: Alamat email anda berhasil dikonfirmasi.

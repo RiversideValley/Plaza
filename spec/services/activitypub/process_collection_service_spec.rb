@@ -1,6 +1,8 @@
 require 'rails_helper'
 
 RSpec.describe ActivityPub::ProcessCollectionService, type: :service do
+  subject { described_class.new }
+
   let(:actor) { Fabricate(:account, domain: 'example.com', uri: 'http://example.com/account') }
 
   let(:payload) do
@@ -18,8 +20,6 @@ RSpec.describe ActivityPub::ProcessCollectionService, type: :service do
   end
 
   let(:json) { Oj.dump(payload) }
-
-  subject { described_class.new }
 
   describe '#call' do
     context 'when actor is suspended' do
@@ -39,7 +39,7 @@ RSpec.describe ActivityPub::ProcessCollectionService, type: :service do
           end
 
           it 'does not process payload' do
-            expect(ActivityPub::Activity).not_to receive(:factory)
+            expect(ActivityPub::Activity).to_not receive(:factory)
             subject.call(json, actor)
           end
         end
@@ -69,7 +69,7 @@ RSpec.describe ActivityPub::ProcessCollectionService, type: :service do
 
       it 'does not process payload if no signature exists' do
         expect_any_instance_of(ActivityPub::LinkedDataSignature).to receive(:verify_actor!).and_return(nil)
-        expect(ActivityPub::Activity).not_to receive(:factory)
+        expect(ActivityPub::Activity).to_not receive(:factory)
 
         subject.call(json, forwarder)
       end
@@ -87,7 +87,7 @@ RSpec.describe ActivityPub::ProcessCollectionService, type: :service do
         payload['signature'] = { 'type' => 'RsaSignature2017' }
 
         expect_any_instance_of(ActivityPub::LinkedDataSignature).to receive(:verify_actor!).and_return(nil)
-        expect(ActivityPub::Activity).not_to receive(:factory)
+        expect(ActivityPub::Activity).to_not receive(:factory)
 
         subject.call(json, forwarder)
       end
@@ -107,17 +107,17 @@ RSpec.describe ActivityPub::ProcessCollectionService, type: :service do
             '@context': [
               'https://www.w3.org/ns/activitystreams',
               nil,
-              { object: 'https://www.w3.org/ns/activitystreams#object' }
+              { object: 'https://www.w3.org/ns/activitystreams#object' },
             ],
             id: 'https://example.com/users/bob/fake-status/activity',
             type: 'Create',
             actor: 'https://example.com/users/bob',
             published: '2022-01-22T15:00:00Z',
             to: [
-              'https://www.w3.org/ns/activitystreams#Public'
+              'https://www.w3.org/ns/activitystreams#Public',
             ],
             cc: [
-              'https://example.com/users/bob/followers'
+              'https://example.com/users/bob/followers',
             ],
             signature: {
               type: 'RsaSignature2017',
@@ -140,10 +140,10 @@ RSpec.describe ActivityPub::ProcessCollectionService, type: :service do
               url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ&feature=puck-was-here',
               attributedTo: 'https://example.com/users/bob',
               to: [
-                'https://www.w3.org/ns/activitystreams#Public'
+                'https://www.w3.org/ns/activitystreams#Public',
               ],
               cc: [
-                'https://example.com/users/bob/followers'
+                'https://example.com/users/bob/followers',
               ],
               sensitive: false,
               atomUri: 'https://example.com/users/bob/fake-status',
@@ -166,7 +166,7 @@ RSpec.describe ActivityPub::ProcessCollectionService, type: :service do
                 {
                   '@value': '<p>hello world</p>',
                   '@language': 'en',
-                }
+                },
               ],
               'https://www.w3.org/ns/activitystreams#published': {
                 '@type': 'http://www.w3.org/2001/XMLSchema#dateTime',
@@ -206,7 +206,7 @@ RSpec.describe ActivityPub::ProcessCollectionService, type: :service do
         end
 
         it 'does not process forged payload' do
-          expect(ActivityPub::Activity).not_to receive(:factory).with(
+          expect(ActivityPub::Activity).to_not receive(:factory).with(
             hash_including(
               'object' => hash_including(
                 'id' => 'https://example.com/users/bob/fake-status'
@@ -216,7 +216,7 @@ RSpec.describe ActivityPub::ProcessCollectionService, type: :service do
             anything
           )
 
-          expect(ActivityPub::Activity).not_to receive(:factory).with(
+          expect(ActivityPub::Activity).to_not receive(:factory).with(
             hash_including(
               'object' => hash_including(
                 'content' => '<p>puck was here</p>'

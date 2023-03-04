@@ -1,5 +1,5 @@
 ---
-sc:
+sc-IT:
   activerecord:
     attributes:
       poll:
@@ -21,6 +21,18 @@ sc:
             username:
               invalid: isceti lìteras, nùmeros e tratigheddos bassos
               reserved: est prenotadu
+        admin/webhook:
+          attributes:
+            url:
+              invalid: is not a valid URL
+        doorkeeper/application:
+          attributes:
+            website:
+              invalid: is not a valid URL
+        import:
+          attributes:
+            data:
+              malformed: is malformed
         status:
           attributes:
             reblog:
@@ -30,3 +42,14 @@ sc:
             email:
               blocked: impreat unu frunidore de posta eletrònica proibidu
               unreachable: paret chi no esistit
+            role_id:
+              elevated: cannot be higher than your current role
+        user_role:
+          attributes:
+            permissions_as_keys:
+              dangerous: include permissions that are not safe for the base role
+              elevated: cannot include permissions your current role does not possess
+              own_role: cannot be changed with your current role
+            position:
+              elevated: cannot be higher than your current role
+              own_role: cannot be changed with your current role

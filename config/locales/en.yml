@@ -1,5 +1,5 @@
 ---
-en:
+en-AR:
   about:
     about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon!'
     contact_missing: Not set
@@ -925,7 +925,7 @@ en:
     new_report:
       body: "%{reporter} has reported %{target}"
       body_remote: Someone from %{domain} has reported %{target}
-      subject: New report for %{instance} (#%{id})
+      subject: 'New report for %{instance} (#%{id})'
     new_trends:
       body: 'The following items need a review before they can be displayed publicly:'
       new_trending_links:
@@ -1152,7 +1152,7 @@ en:
   featured_tags:
     add_new: Add new
     errors:
-      limit: You have already featured the maximum amount of hashtags
+      limit: You have already featured the maximum number of hashtags
     hint_html: "<strong>What are featured hashtags?</strong> They are displayed prominently on your public profile and allow people to browse your public posts specifically under those hashtags. They are a great tool for keeping track of creative works or long-term projects."
   filters:
     contexts:
@@ -1264,7 +1264,7 @@ en:
     title: Invite people
   lists:
     errors:
-      limit: You have reached the maximum amount of lists
+      limit: You have reached the maximum number of lists
   login_activities:
     authentication_methods:
       otp: two-factor authentication app
@@ -1585,7 +1585,7 @@ en:
       '7889238': 3 months
     min_age_label: Age threshold
     min_favs: Keep posts favourited at least
-    min_favs_hint: Doesn't delete any of your posts that has received at least this amount of favourites. Leave blank to delete posts regardless of their number of favourites
+    min_favs_hint: Doesn't delete any of your posts that has received at least this number of favourites. Leave blank to delete posts regardless of their number of favourites
     min_reblogs: Keep posts boosted at least
     min_reblogs_hint: Doesn't delete any of your posts that has been boosted at least this number of times. Leave blank to delete posts regardless of their number of boosts
   stream_entries:

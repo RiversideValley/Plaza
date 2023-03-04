@@ -1,5 +1,5 @@
 ---
-lv:
+lv-LV:
   devise:
     confirmations:
       confirmed: Tava e-pasta adrese ir veiksmīgi apstiprināta.
@@ -111,6 +111,6 @@ lv:
       not_found: nav atrasts
       not_locked: nebija bloķēts
       not_saved:
+        zero: "%{count} kļūdas liedza saglabāt šo %{resource}:"
         one: '1 kļūda liedza saglabāt šo %{resource}:'
         other: "%{count} kļūdas liedza saglabāt šo %{resource}:"
-        zero: "%{count} kļūdas liedza saglabāt šo %{resource}:"

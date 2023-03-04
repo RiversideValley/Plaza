@@ -1,0 +1,716 @@
+---
+sr:
+  about:
+    about_mastodon_html: Мастодон је друштвена мрежа базирана на отвореним протоколима и слободном софтверу отвореног кода. Децентрализована је као што је децентрализована е-пошта.
+    contact_missing: Није постављено
+    contact_unavailable: Није доступно
+    hosted_on: Мастодон хостован на %{domain}
+    title: О
+  accounts:
+    follow: Прати
+    followers:
+      few: Пратиоци
+      one: Пратиоц
+      other: Пратиоци
+    following: Пратим
+    last_active: последњи пут активни
+    link_verified_on: Власништво над овом везом је проверено %{date}
+    nothing_here: Овде нема ништа!
+    pin_errors:
+      following: Морате пратити ову особу ако хоћете да потврдите
+    posts:
+      few: Објаве
+      one: Објава
+      other: Објава
+    posts_tab_heading: Објаве
+  admin:
+    account_actions:
+      action: Извршите радњу
+      title: Извршите модераторске радње на %{acct}
+    account_moderation_notes:
+      create: Оставите белешку
+      created_msg: Модераторска белешка успешно направљена!
+      destroyed_msg: Модераторска белешка успешно обрисана!
+    accounts:
+      add_email_domain_block: Блокирај домен е-поште
+      approve: Одобри
+      are_you_sure: Да ли сте сигурни?
+      avatar: Аватар
+      by_domain: Домен
+      change_email:
+        changed_msg: Е-пошта налога успешно промењена!
+        current_email: Тренутна е-пошта
+        label: Промените е-пошту
+        new_email: Нова e-пошта
+        submit: Промените e-пошту
+        title: Промените e-пошту за %{username}
+      change_role:
+        changed_msg: Улога успешно промењена!
+        label: Промени улогу
+        no_role: Нема улогу
+        title: Промени улогу за %{username}
+      confirm: Потврди
+      confirmed: Потврђено
+      confirming: Потврдување
+      custom: Произвољно
+      delete: Обриши податке
+      deleted: Избрисано
+      demote: Ражалуј
+      disable: Искључи
+      disable_two_factor_authentication: Искључи 2FA
+      disabled: Искључена
+      display_name: Приказано име
+      domain: Домен
+      edit: Измени
+      email: Е-пошта
+      email_status: Статус е-поште
+      enable: Омогући
+      enabled: Укључено
+      followers: Пратиоци
+      follows: Праћени
+      header: Заглавље
+      inbox_url: Адреса сандучета
+      invite_request_text: Разлози за придруживање
+      invited_by: Позван од стране
+      ip: IP
+      joined: Придружио се
+      location:
+        all: Све
+        local: Локалне
+        remote: Удаљене
+        title: Локација
+      login_status: Статус пријаве
+      media_attachments: Мултимедијални прилози
+      memorialize: Пребаци у in memoriam
+      moderation:
+        active: Активан
+        all: Сви
+        pending: На чекању
+        silenced: Ограничено
+        suspended: Суспендовани
+        title: Модерација
+      moderation_notes: Модераторске белешке
+      most_recent_activity: Најскорија активност
+      most_recent_ip: Најскорија IP адреса
+      no_limits_imposed: Нема ограничења
+      no_role_assigned: Ниједна улога није додељена
+      not_subscribed: Није претплаћен
+      pending: Чека на преглед
+      perform_full_suspension: Искључи
+      promote: Унапреди
+      protocol: Протокол
+      public: Јавно
+      push_subscription_expires: PuSH претплата истиче
+      redownload: Освежи налог
+      reject: Одбаци
+      remove_avatar: Уклони аватар
+      remove_header: Одстрани заглавље
+      resend_confirmation:
+        already_confirmed: Овој корисник е веќе потврден
+        send: Препрати го е-мајлот за потврда
+        success: Е-пошта за потврда успешно испратена!
+      reset: Ресетуј
+      reset_password: Ресетуј лозинку
+      resubscribe: Поново се претплати
+      role: Улога
+      search: Претрага
+      security_measures:
+        only_password: Само лозинка
+      sensitized: Означено као осетљиво
+      shared_inbox_url: Адреса дељеног сандучета
+      show:
+        created_reports: Направљени извештаји
+        targeted_reports: Пријаве од стране других
+      silence: Ућуткај
+      silenced: Ућуткан
+      statuses: Статуси
+      subscribe: Претплати се
+      suspend: Суспендуј
+      suspended: Суспендовани
+      title: Налози
+      unblock_email: Одблокирај адресу е-поште
+      unconfirmed_email: Непотврђена е-пошта
+      undo_silenced: Укини ћутање
+      undo_suspension: Укини суспензију
+      unsubscribe: Укини претплату
+      username: Корисничко име
+      warn: Упозори
+      web: Веб
+    action_logs:
+      action_types:
+        approve_user: Одобри корисника
+        change_email_user: Промени e-адресу корисника
+        change_role_user: Промени улогу корисника
+        confirm_user: Потврди корисника
+        create_account_warning: Креирај упозорење
+        create_announcement: Креирај најаву
+        create_canonical_email_block: Креирај блок е-поште
+        create_user_role: Креирај улогу
+        destroy_announcement: Избриши најаву
+        destroy_canonical_email_block: Избриши блок е-поште
+        destroy_status: Избриши пост
+        disable_user: Онемогући корисника
+        enable_user: Омогући корисника
+        reject_user: Одбаци корисника
+        silence_account: Ограничи налог
+        suspend_account: Обустави налог
+        update_status: Уреди објаву
+        update_user_role: Уреди улогу
+      deleted_account: обрисан налог
+      filter_by_action: Филтрирај по активности
+      filter_by_user: Филтрирај по кориснику
+      title: Записник
+    announcements:
+      edit:
+        title: Уреди најаву
+      empty: Ниједна најава није пронађена.
+      live: Уживо
+      new:
+        create: Креирај најаву
+        title: Нова најава
+      publish: Објави
+      published_msg: Најава успешно објављена!
+      title: Најаве
+    custom_emojis:
+      assign_category: Додели категорију
+      by_domain: Домен
+      copied_msg: Успешно направљена локална копија емоџија
+      copy: Копирај
+      copy_failed_msg: Не могу да направим локалну копију тог емотиџија
+      create_new_category: Kreiraj novu kategoriju
+      created_msg: Емоџи успешно направљен!
+      delete: Обриши
+      destroyed_msg: Емоџи успешно обрисан!
+      disable: Онемогући
+      disabled: Онемогућено
+      disabled_msg: Емоџи успешно онемогућен
+      emoji: Емоџи
+      enable: Омогући
+      enabled: Омогућено
+      enabled_msg: Емоџи успешно омогућен
+      listed: Излистан
+      new:
+        title: Додај нови произвољни емоџи
+      overwrite: Препиши
+      shortcode: Пречица
+      shortcode_hint: Најмање 2 карактера, дозвољени су само слова, бројеви и доње црте
+      title: Произвољни емотиџији
+      unlisted: Неизлистан
+      update_failed_msg: Не могу да ажурирам овај емоџи
+      updated_msg: Емоџи успешно ажуриран!
+      upload: Отпреми
+    dashboard:
+      software: Софтвер
+      space: Коришћење простора
+      title: Командна табла
+    domain_allows:
+      export: Извоз
+      import: Увоз
+    domain_blocks:
+      add_new: Додај нови блок домена
+      created_msg: Блокирање домена се обрађује
+      destroyed_msg: Блокирање домена је опозвано
+      domain: Домен
+      export: Извоз
+      import: Увоз
+      new:
+        create: Направи блокаду
+        hint: Блокирање домена неће спречити прављење налога у бази, али ће ретроактивно и аутоматски применити одређене модераторске методе над тим налозима.
+        severity:
+          noop: Ништа
+          suspend: Суспензија
+        title: Ново блокирање домена
+      private_comment: Приватни коментар
+      public_comment: Јавни коментар
+      reject_media: Одбаци мултимедију
+      reject_media_hint: Уклања локално ускладиштене мултимедијске фајлове и одбија да их скида убудуће. Небитно је за суспензију
+      reject_reports: Одбаци извештај
+      reject_reports_hint: Игнориши све извештаје који долазе са овог домена. Небитно је за суспензије
+      undo: Поништи блок домена
+    email_domain_blocks:
+      add_new: Додај нови
+      created_msg: Успешно додао домен Е-поште на црну листу
+      delete: Обриши
+      domain: Домен
+      new:
+        create: Додај домен
+        title: Нова ставка е-поштe у црној листи
+      title: Црна листа E-поште
+    follow_recommendations:
+      status: Статус
+    instances:
+      back_to_all: Све
+      back_to_limited: Ограничено
+      back_to_warning: Упозорење
+      by_domain: Домен
+      content_policies:
+        policies:
+          silence: Ограничи
+          suspend: Суспендуј
+        policy: Политика
+        reason: Јавни разлог
+      delivery:
+        all: Све
+        unavailable: Недоступно
+      delivery_available: Достава је доступна
+      moderation:
+        all: Све
+        limited: Ограничено
+        title: Модерација
+      private_comment: Приватни коментар
+      public_comment: Јавни коментар
+      title: Федерација
+      total_blocked_by_us: Блокирано од стране нас
+      total_followed_by_them: Праћени од стране њих
+      total_followed_by_us: Праћени од стране нас
+      total_reported: Пријаве везане за њих
+    invites:
+      deactivate_all: Деактивирај све
+      filter:
+        all: Све
+        available: Доступни
+        expired: Истекли
+        title: Филтер
+      title: Позивнице
+    ip_blocks:
+      expires_in:
+        '1209600': 2 недеље
+        '15778476': 6 месеци
+        '2629746': 1 месец
+        '31556952': 1 година
+        '86400': 1 дан
+        '94670856': 3 године
+      new:
+        title: Креирај ново IP правило
+      no_ip_block_selected: Ниједно IP правило није промењено јер ниједно није изабрано
+    relays:
+      add_new: Додај нови релеј
+      delete: Обриши
+      description_html: "<strong>Федерални релеј</strong> је посреднички сервер који размењује велике количине јавних труба између сервера на који је претплаћен и на који објављује.<strong>Може помоћи малим и средњим серверима да открију садржај из федиверса</strong>, који иначе захтева од локалних корисника да ручно пратити остале људе на удаљеним серверима."
+      disable: Искључи
+      disabled: Искључен
+      enable: Укључи
+      enable_hint: Када се омогући, ваш сервер ће бити претплаћен на све јавне објаве са овог релеја, и почеће да шаље јавне објаве овог сервера на њега.
+      enabled: Укључен
+      inbox_url: URL Релеја
+      pending: Чека се одобрење релеја
+      save_and_enable: Сачувај и омогући
+      setup: Подеси везу релеја
+      status: Статус
+      title: Релеји
+    report_notes:
+      created_msg: Белешка пријаве успешно направљена!
+      destroyed_msg: Белешка пријаве успешно избрисана!
+    reports:
+      action_taken_by: Акцију извео
+      are_you_sure: Да ли сте сигурни?
+      assign_to_self: Додели мени
+      assigned: Додељени модератор
+      comment:
+        none: Ништа
+      created_at: Пријављена
+      mark_as_resolved: Означи као решену
+      mark_as_unresolved: Означи као нерешену
+      notes:
+        create: Додај белешку
+        create_and_resolve: Реши са белешком
+        create_and_unresolve: Отвори поново са белешком
+        delete: Обриши
+        placeholder: Опишите какве су радње предузете, или било какве повезане новости...
+      reopen: Отвори пријаву поново
+      report: 'Пријава #%{id}'
+      reported_account: Пријављени налог
+      reported_by: Пријавио
+      resolved: Решена
+      resolved_msg: Пријава успешно разрешена!
+      status: Статус
+      title: Пријаве
+      unassign: Уклони доделу
+      unresolved: Нерешене
+      updated_at: Ажурирана
+      view_profile: Погледај профил
+    roles:
+      add_new: Додај улогу
+      categories:
+        administration: Администрација
+        moderation: Модерација
+      delete: Избриши
+      privileges:
+        administrator: Администратор
+        delete_user_data: Избриши податке корисника
+        invite_users: Позови кориснике
+        manage_announcements: Управљај обавештењима
+        manage_roles: Управљај улогама
+        manage_rules: Управљај правилима
+        manage_rules_description: Дозволи корисницима да мењају правила сервера
+        manage_settings: Управљај поставкама
+        manage_settings_description: Дозволи корисницима да мењају поставке сајта
+    rules:
+      add_new: Додај правило
+      delete: Избриши
+      edit: Уреди правило
+      empty: Ниједно правило сервера још није дефинисано.
+      title: Правила сервера
+    settings:
+      appearance:
+        title: Изглед
+      default_noindex:
+        desc_html: Утиче на све кориснике који нису сами променили ову поставку
+        title: Подразумевано искључи кориснике из индексирања претраживача
+      discovery:
+        public_timelines: Јавне временске линије
+        title: Откривање
+    statuses:
+      back_to_account: Назад на страну налога
+      media:
+        title: Мултимедија
+      no_status_selected: Ниједан статус није промењен јер ниједан није изабран
+      title: Статуси налога
+      with_media: Са мултимедијом
+    title: Администрација
+    warning_presets:
+      add_new: Додај нови
+      delete: Избриши
+      edit_preset: Уреди пресет упозорења
+      title: Управљај пресетима упозорења
+  admin_mailer:
+    new_report:
+      body: "%{reporter} је пријавио %{target}"
+      body_remote: Нека са домена %{domain} је пријавио %{target}
+      subject: Нова пријава за %{instance} (#%{id})
+  appearance:
+    advanced_web_interface: Напредно веб окружење
+    advanced_web_interface_hint: 'Ако желите да искористите целу ширину екрана, напредно веб окружење вам омогућује да конфигуришете много различитих колона да бисте видели онолико информација у исто време колико желите: почетну страницу, обавештења, здружену временску линију, било који број листа и хеш ознака.'
+    animations_and_accessibility: Анимације и приступачност
+    confirmation_dialogs: Дијалози потврде
+    discovery: Откривање
+    localization:
+      body: Mastodon преводе добровољци.
+      guide_link_text: Свако може допринети.
+    sensitive_content: Осетљив садржај
+    toot_layout: Распоред објава
+  application_mailer:
+    notification_preferences: Промени преференце Е-поште
+    settings: 'Промени подешавања е-поште: %{link}'
+    view: 'Погледај:'
+    view_profile: Погледај налог
+    view_status: Погледај статус
+  applications:
+    created: Апликација успешно направљена
+    destroyed: Апликација успешно обрисана
+    regenerate_token: Рекреирај приступни токен
+    token_regenerated: Приступни токен успешно рекреиран
+    warning: Опрезно са овим подацима. Никад је не делите ни са ким!
+    your_token: Ваш приступни токен
+  auth:
+    change_password: Лозинка
+    delete_account: Обриши налог
+    delete_account_html: Ако желите да обришете Ваш налог, можете <a href="%{path}">наставити овде</a>. Бићете упитани да потврдите.
+    didnt_get_confirmation: Нисте добили поруку са упутствима за потврду налога?
+    forgot_password: Заборавили сте лозинку?
+    invalid_reset_password_token: Токен за ресетовање лозинке је неисправан или је истекао. Затражите нови.
+    login: Пријави се
+    logout: Одјава
+    migrate_account: Помери у други налог
+    migrate_account_html: Ако желите да преусмерите овај налог на неки други, можете то <a href="%{path}">подесити овде</a>.
+    or_log_in_with: Или се пријавите са
+    providers:
+      cas: CAS-ом
+      saml: SAML-ом
+    register: Региструј се
+    resend_confirmation: Пошаљи поруку са упутствима о потврди налога поново
+    reset_password: Ресетуј лозинку
+    security: Безбедност
+    set_new_password: Постави нову лозинку
+  authorize_follow:
+    already_following: Већ пратите овај налог
+    error: Нажалост, десила се грешка при тражењу удаљеног налога
+    follow: Запрати
+    follow_request: 'Послали сте захтев за праћењен за:'
+    following: 'Сјајно! Сада пратите:'
+    post_follow:
+      close: Или можете затворити овај прозор.
+      return: Врати се на налог овог корисника
+      web: Иди на веб
+    title: Запрати %{acct}
+  datetime:
+    distance_in_words:
+      about_x_months: "%{count}месец"
+      about_x_years: "%{count}год"
+      almost_x_years: "%{count}год"
+      half_a_minute: Управо сад
+      less_than_x_seconds: Управо сад
+      over_x_years: "%{count}год"
+      x_days: "%{count}д"
+      x_months: "%{count}месец"
+  deletes:
+    confirm_password: Унесите тренутну лозинку да бисмо проверили Ваш идентитет
+    proceed: Обриши налог
+    success_msg: Ваш налог је успешно обрисан
+  errors:
+    '400': The request you submitted was invalid or malformed.
+    '403': Немате дозвола да видите ову страну.
+    '404': Страна коју сте тражили не постоји.
+    '406': This page is not available in the requested format.
+    '410': Страна коју сте тражили више не постоји.
+    '422':
+      content: Безбедоносна провера није успела. Да не блокирате колачиће?
+      title: Безбедоносна провера није успела
+    '429': Успоред
+    '500':
+      content: Извињавамо се, нешто је пошло по злу са ове стране.
+      title: Страна није исправна
+    '503': The page could not be served due to a temporary server failure.
+    noscript_html: Да бисте користили Мастодонт веб апликацију, омогућите JavaScript. У супротном, пробајте неку од <a href="%{apps_path}">оригиналних апликација</a> за Мастодонт за Вашу платформу.
+  exports:
+    archive_takeout:
+      date: Датум
+      download: Преузмите Вашу архиву
+      hint_html: Можете затражити архиву ваших <strong>труба и отпремљених медија</strong>. Извезени подаци ће бити у АктивитиПаб формату, који можете читати са било којим усаглашеним софтвером. Архиву можете затражити сваких 7 дана.
+      in_progress: Састављање ваше архиве...
+      request: Затражите Вашу архиву
+      size: Величина
+    blocks: Блокирали сте
+    domain_blocks: Блокови домена
+    lists: Листе
+    mutes: Ућуткали сте
+    storage: Мултимедијално складиште
+  filters:
+    contexts:
+      home: Временска линија почетне
+      notifications: Обавештења
+      public: Јавне временске линије
+      thread: Разговори
+    edit:
+      title: Измени филтер
+    errors:
+      invalid_context: Ниједан или неважећи контекст испоручен
+    index:
+      delete: Избриши
+      title: Филтери
+    new:
+      title: Додај нови филтер
+  generic:
+    changes_saved_msg: Измене успешно сачуване!
+    copy: Копирај
+    save_changes: Сачувај промене
+    validation_errors:
+      few: Нешто није баш како треба! Прегледајте %{count} грешке испод
+      one: Нешто није баш како треба! Прегледајте грешке испод
+      other: Нешто није баш како треба! Прегледајте %{count} грешака испод
+  imports:
+    preface: Можете увести податке које сте извезли са друге инстанце, као што су листе људи које сте пратили или блокирали.
+    success: Ваши подаци су успешно отпремљени и биће обрађени ускоро
+    types:
+      blocking: Листа блокирања
+      following: Листа пратилаца
+      muting: Листа ућутканих
+    upload: Отпреми
+  invites:
+    delete: Деактивирај
+    expired: Истекло
+    expires_in:
+      '1800': 30 минута
+      '21600': 6 сати
+      '3600': 1 сад
+      '43200': 12 сати
+      '604800': 1 недеља
+      '86400': 1 дан
+    expires_in_prompt: Никад
+    generate: Генериши
+    invited_by: 'Позвао Вас је:'
+    max_uses:
+      few: "%{count} коришћења"
+      one: 1 коришћење
+      other: "%{count} коришћења"
+    max_uses_prompt: Без ограничења
+    prompt: Генериши и подели линкове са другима да им одобрите приступ овој инстанци
+    table:
+      expires_at: Истиче
+      uses: Коришћења
+    title: Позовите људе
+  media_attachments:
+    validations:
+      images_and_video: Не може да се прикачи видео на статус који већ има слике
+      too_many: Не може се прикачити више од 4 фајла
+  migrations:
+    acct: корисник@домен новог налога
+  moderation:
+    title: Модерација
+  notification_mailer:
+    favourite:
+      body: "%{name} је поставио као омиљен Ваш статус:"
+      subject: "%{name} је поставио као омиљен Ваш статус"
+      title: Нови омиљени
+    follow:
+      body: "%{name} Вас је запратио!"
+      subject: "%{name} Вас је запратио"
+      title: Нови пратиоц
+    follow_request:
+      action: Управљајте захтевима за праћење
+      body: "%{name} је затражио да Вас запрати"
+      subject: 'Пратиоци на чекању: %{name}'
+      title: Нови захтев за праћење
+    mention:
+      action: Одговори
+      body: "%{name} Вас је поменуо у:"
+      subject: "%{name} Вас је поменуо"
+      title: Ново спомињање
+    reblog:
+      body: "%{name} Вам је подржао/ла статус:"
+      subject: "%{name} је подржао/ла Ваш статус"
+      title: Нова подршка
+  notifications:
+    email_events: Догађаји за обавештења е-поштом
+    email_events_hint: 'Изаберите дешавања за која желите да примате обавештења:'
+    other_settings: Остала подешавања обавештења
+  pagination:
+    newer: Новије
+    next: Следеће
+    older: Старије
+    prev: Претходни
+  preferences:
+    other: Остало
+    posting_defaults: Подразумевана подешавања објављивања
+    public_timelines: Јавне временске линије
+  remote_follow:
+    missing_resource: Не могу да нађем захтевану адресу преусмеравања за Ваш налог
+  scheduled_statuses:
+    over_daily_limit: Прекорачили сте границу од %{limit} планираних труба за тај дан
+    over_total_limit: Прекорачили сте границу од %{limit} планираних труба
+    too_soon: Планирани датум мора бити у будућности
+  sessions:
+    activity: Последња активност
+    browser: Веб читач
+    browsers:
+      alipay: Алипеј
+      chrome: Хром
+      edge: Мајкрософт Еџ
+      electron: Електрон
+      firefox: Фајерфокс
+      generic: Непознати веб читач
+      ie: Интернет Експлорер
+      micro_messenger: МајкроМесенџер
+      nokia: Нокија С40 Ови Претраживач
+      opera: Опера
+      otter: Отер
+      phantom_js: ФантомЏејЕс
+      qq: КјуКју Претраживач
+      safari: Сафари
+      weibo: Веибо
+    current_session: Тренутна сесија
+    description: "%{browser} са %{platform}"
+    explanation: Ово су веб претраживачи који су тренутно пријављени на Ваш Мастодон налог.
+    platforms:
+      adobe_air: Адоб Ер-а
+      android: Андроида
+      firefox_os: Фајерфокс ОС-а
+      ios: иОС-а
+      linux: Линукса
+      mac: Мека
+      other: непознате платформе
+      windows: Виндоуза
+      windows_mobile: Виндоуз мобилног
+      windows_phone: Виндоуз телефона
+    revoke: Опозови
+    revoke_success: Сесија успешно опозвана
+    title: Сесије
+  settings:
+    appearance: Изглед
+    authorized_apps: Ауторизоване апликације
+    back: Назад на Мастодон
+    delete: Брисање налога
+    development: Развој
+    edit_profile: Уређивање профила
+    export: Извоз података
+    import: Увоз
+    import_and_export: Увоз и извоз
+    migrate: Пребацивање налога
+    notifications: Обавештења
+    preferences: Подешавања
+    profile: Налог
+    relationships: Праћења и пратиоци
+    two_factor_authentication: Двофакторска идентификација
+  statuses:
+    attached:
+      description: 'У прилогу: %{attached}'
+      image:
+        few: "%{count} слика"
+        one: "%{count} слику"
+        other: "%{count} слика"
+      video:
+        few: "%{count} видео записа"
+        one: "%{count} видео запис"
+        other: "%{count} видео записа"
+    boosted_from_html: Подржано од %{acct_link}
+    content_warning: 'Упозорење на садржај: %{warning}'
+    default_language: Исто као језик окружења
+    disallowed_hashtags:
+      few: 'садржи забрањене хештегове: %{tags}'
+      one: 'садржи забрањени хештег: %{tags}'
+      other: 'садржи забрањене хештегове: %{tags}'
+    open_in_web: Отвори у вебу
+    over_character_limit: ограничење од %{max} карактера прекорачено
+    pin_errors:
+      limit: Већ имате прикачен највећи број труба
+      ownership: Туђа објава се не може закачити
+      reblog: Подршка не може да се прикачи
+    show_more: Прикажи још
+    sign_in_to_participate: Пријавите се да учествујете у разговору
+    visibilities:
+      private: Само пратиоци
+      private_long: Прикажи само пратиоцима
+      public: Јавно
+      public_long: Свако може да види
+      unlisted: Неизлистано
+      unlisted_long: Свако може да види, али није излистано на јавним временским линијама
+  stream_entries:
+    pinned: Закачена објава
+    reblogged: подржано
+    sensitive_content: Осетљив садржај
+  themes:
+    contrast: Велики контраст
+    default: Мастодон
+    mastodon-light: Мастодон (светло)
+  two_factor_authentication:
+    disable: Искључи
+    enabled: Двофакторска идентификација је укључена
+    enabled_success: Двофакторска идентификација је успешно укључена
+    generate_recovery_codes: Генериши кодове за опоравак
+    lost_recovery_codes: Кодови за опоравак Вам омогућавају да повратите приступ налогу ако изгубите телефон. Ако изгубите кодове за опоравак, можете их ре-генерисати овде. Од тог тренутка, стари кодови за опоравак више не важе.
+    recovery_codes: Направите резерву кодова за опоравак
+    recovery_codes_regenerated: Кодови за опоравак успешно ре-генерисани
+    recovery_instructions_html: Ако икада изгубите приступ телефону, можете искористити кодове за опоравак дате испод да повратите приступ налогу. <strong>Држите кодове за опоравак на сигурном</strong>. На пример, одштампајте их и чувајте их са осталим важним документима.
+  user_mailer:
+    backup_ready:
+      explanation: Тражили сте потпуну резервну копију вашег Мастодон рачуна. Спремна за преузимање!
+      subject: Ваша архива је спремна за преузимање
+      title: Извоз архиве
+    warning:
+      subject:
+        disable: Ваш налог %{acct} је замрзнут
+        none: Упозорење за %{acct}
+        silence: Ваш налог %{acct} је ограничен
+        suspend: Ваш налог %{acct} је суспендован
+      title:
+        disable: Налог замрзнут
+        none: Упозорење
+        silence: Налог ограничен
+        suspend: Налог суспендован
+    welcome:
+      edit_profile_action: Подеси налог
+      explanation: Ево неколико савета за почетак
+      final_action: Почните објављивати
+      full_handle: Ваш пун надимак
+      full_handle_hint: Ово бисте рекли својим пријатељима како би вам они послали поруку, или запратили са друге инстанце.
+      subject: Добродошли на Мастодон
+      title: Добродошли, %{name}!
+  users:
+    follow_limit_reached: Не можете пратити више од %{limit} људи
+    invalid_otp_token: Неисправни двофакторски код
+    otp_lost_help_html: Ако изгубите приступ за оба, можете ступити у контакт са %{email}
+    seamless_external_login: Пријављени сте путем спољашње услуге, тако да лозинка и подешавања Е-поште нису доступни.
+    signed_in_as: 'Пријављен/а као:'
+  verification:
+    explanation_html: 'Можете <strong>извршити проверу да сте Ви власник веза на Вашем налогу</strong>. Да би то радило, повезани веб сајт мора да садржи везу назад ка Вашем Мастодон налогу. Веза назад <strong>мора</strong> да има <code>rel="me"</code> атрибут. Текстуелни садржај везе није битан. Ево примера:'
+    verification: Провера

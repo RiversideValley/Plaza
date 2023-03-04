@@ -56,7 +56,7 @@ is:
       delete: Eyða gögnum
       deleted: Eytt
       demote: Lækka í tign
-      destroyed_msg: Gögn notandans %{username} eru núna í bið eftir að vera endanlega eytt
+      destroyed_msg: "Gögn notandans %{username} eru núna í bið eftir að vera endanlega eytt"
       disable: Gera óvirkt
       disable_sign_in_token_auth: Gera óvirka auðkenningu með teikni í tölvupósti
       disable_two_factor_authentication: Gera tveggja-þátta auðkenningu óvirka
@@ -91,6 +91,7 @@ is:
       moderation:
         active: Virkur
         all: Allt
+        disabled: Óvirkt
         pending: Í bið
         silenced: Takmarkað
         suspended: Í frysti
@@ -133,6 +134,7 @@ is:
       search: Leita
       search_same_email_domain: Aðra notendur með sama tölvupóstlén
       search_same_ip: Aðrir notendur með sama IP-vistfang
+      security: Öryggi
       security_measures:
         only_password: Aðeins lykilorð
         password_and_2fa: Lykilorð og 2-þátta auðkenning
@@ -427,6 +429,7 @@ is:
         resolve: Leysa lén
         title: Útiloka nýtt tölvupóstlén
       no_email_domain_block_selected: Engum útilokunum tölvupóstléna var breytt þar sem ekkert var valið
+      not_permitted: Ekki leyft
       resolved_dns_records_hint_html: Heiti lénsins vísar til eftirfarandi MX-léna, sem bera endanlega ábyrgð á að tölvupóstur skili sér. Útilokun á MX-léni mun koma í veg fyrir nýskráningar með hverju því tölvupóstfangi sem notar sama MX-lén, jafnvel þótt sýnilega lénsheitið sé frábrugðið. <strong>Farðu varlega svo þú útilokir ekki algengar tölvupóstþjónustur.</strong>
       resolved_through_html: Leyst í gegnum %{domain}
       title: Útilokuð tölvupóstlén
@@ -473,6 +476,7 @@ is:
       content_policies:
         comment: Innri minnispunktur
         description_html: Þú getur skilgreint stefnu varðandi efni sem verður beitt á alla aðganga frá þessu léni og öllum undirlénum þess.
+        limited_federation_mode_description_html: Þú getur valið hvort leyfa eigi skýjasamband við þetta lén.
         policies:
           reject_media: Hafna myndefni
           reject_reports: Hafna kærum
@@ -544,11 +548,11 @@ is:
       no_ip_block_selected: Engum IP-reglum var breytt því ekkert var valið
       title: IP-reglur
     relationships:
-      title: Vensl %{acct}
+      title: "Vensl %{acct}"
     relays:
       add_new: Bæta við nýjum endurvarpa
       delete: Eyða
-      description_html: "<strong>Endurvarpi í skýjasambandi</strong> er milliþjónn sem skiptist á miklu magni opinberra færslna við aðra þjóna sem eru áskrifendur að honum og birta sín tíst á honum. <strong>Þetta getur hjálpað litlum og meðalstórum vefþjónum að uppgötva efni úr skýjasambandinu</strong>, sem annars myndi krefjast þess að staðværir notendur fylgist handvirkt með öðru fólki á fjartengdum vefþjónum."
+      description_html: <strong>Endurvarpi í skýjasambandi</strong> er milliþjónn sem skiptist á miklu magni opinberra færslna við aðra þjóna sem eru áskrifendur að honum og birta sín tíst á honum. <strong>Þetta getur hjálpað litlum og meðalstórum vefþjónum að uppgötva efni úr skýjasambandinu</strong>, sem annars myndi krefjast þess að staðværir notendur fylgist handvirkt með öðru fólki á fjartengdum vefþjónum.
       disable: Gera óvirkt
       disabled: Óvirkt
       enable: Virkja
@@ -585,11 +589,13 @@ is:
       assign_to_self: Úthluta mér
       assigned: Úthlutaður umsjónarmaður
       by_target_domain: Lén kærða notandaaðgangsins
+      cancel: Hætta við
       category: Flokkur
       category_description_html: Ástæðan fyrir því að þessi notandaaðgangur og/eða efni hans var kært mun verða tiltekin í samskiptum við kærðan notandaaðgang
       comment:
         none: Ekkert
       comment_description_html: 'Til að gefa nánari upplýsingar skrifaði %{name}:'
+      confirm: Staðfesta
       confirm_action: Staðfesta umsjónaraðgerðir gagnvart @%{acct}
       created_at: Tilkynnt
       delete_and_resolve: Eyða færslum
@@ -792,6 +798,7 @@ is:
         suspend: "%{name} setti notandaaðganginn %{target} í frysti"
       appeal_approved: Áfrýjað
       appeal_pending: Áfrýjun í bið
+      appeal_rejected: Áfrýjun hafnað
     system_checks:
       database_schema_check:
         message_html: Það eru fyrirliggjandi yfirfærslur á gagnagrunnum. Keyrðu þær til að tryggja að forritið hegði sér eins og skyldi
@@ -827,6 +834,7 @@ is:
           other: Deilt af %{count} aðilum síðustu vikuna
         title: Vinsælir tenglar
         usage_comparison: Deilt %{today} sinnum í dag, samanborið við %{yesterday} í gær
+      not_allowed_to_trend: Ekki leyft að verða vinsælt
       only_allowed: Aðeins leyfð
       pending_review: Bíður eftir yfirlestri
       preview_card_providers:
@@ -881,7 +889,7 @@ is:
     webhooks:
       add_new: Bæta við endapunkti
       delete: Eyða
-      description_html: "<strong>webhook-vefkrækja</strong> gerir Mastodon kleift að ýta <strong>rauntíma-tilkynningum</strong> um valda atburði til þinna eigin forrita, þannig að þau forrit getir <strong>sett sjálfvirk viðbrögð í gang</strong>."
+      description_html: <strong>webhook-vefkrækja</strong> gerir Mastodon kleift að ýta <strong>rauntíma-tilkynningum</strong> um valda atburði til þinna eigin forrita, þannig að þau forrit getir <strong>sett sjálfvirk viðbrögð í gang</strong>.
       disable: Gera óvirkt
       disabled: Óvirkt
       edit: Breyta endapunkti
@@ -917,7 +925,7 @@ is:
     new_report:
       body: "%{reporter} hefur kært %{target}"
       body_remote: Einhver frá %{domain} hefur kært %{target}
-      subject: Ný kæra vegna %{instance} (#%{id})
+      subject: 'Ný kæra vegna %{instance} (#%{id})'
     new_trends:
       body: 'Eftirfarandi atriði þarfnast yfirferðar áður en hægt er að birta þau opinberlega:'
       new_trending_links:
@@ -958,6 +966,7 @@ is:
   applications:
     created: Það tókst að búa til forrit
     destroyed: Það tókst að eyða forriti
+    logout: Skrá út
     regenerate_token: Endurgera aðgangsteikn
     token_regenerated: Það tókst að endurgera aðgangsteiknið
     warning: Farðu mjög varlega með þessi gögn. Þú skalt aldrei deila þeim með neinum!
@@ -994,6 +1003,8 @@ is:
     resend_confirmation: Senda leiðbeiningar vegna staðfestingar aftur
     reset_password: Endursetja lykilorð
     rules:
+      accept: Samþykkja
+      back: Til baka
       preamble: Þær eru settar og þeim framfylgt af umsjónarmönnum %{domain}.
       title: Nokkrar grunnreglur.
     security: Öryggi
@@ -1141,7 +1152,7 @@ is:
   featured_tags:
     add_new: Bæta við nýju
     errors:
-      limit: Þú ert þegar búin/n að gefa hámarksfjölda myllumerkja aukið vægi
+      limit: Þú hefur þegar gefið hámarksfjölda myllumerkja aukið vægi
     hint_html: "<strong>Hvað eru myllumerki með aukið vægi?</strong> Þau eru birt áberandi á opinbera notandasniðinu þínu og gera fólki kleift að fletta í gegnum opinberu færslurnar þínar sérstaklega undir þessum myllumerkjum. Þau eru frábær aðferð við að halda utan um skapandi vinnu eða langtíma verkefni."
   filters:
     contexts:
@@ -1330,13 +1341,13 @@ is:
       title: Ný beiðni um að fylgjast með
     mention:
       action: Svara
-      body: "%{name} minntist á þig í:"
-      subject: "%{name} minntist á þig"
+      body: '%{name} minntist á þig í:'
+      subject: '%{name} minntist á þig'
       title: Ný tilvísun
     poll:
       subject: Könnun frá %{name} er lokið
     reblog:
-      body: "%{name} endurbirti færsluna þína:"
+      body: '%{name} endurbirti færsluna þína:'
       subject: "%{name} endurbirti færsluna þína"
       title: Ný endurbirting
     status:
@@ -1357,6 +1368,7 @@ is:
           quadrillion: qi.
           thousand: þús
           trillion: tr.
+          unit: ''
   otp_authentication:
     code_hint: Settu inn kóðann sem auðkenningarforritið útbjó til staðfestingar
     description_html: Ef þú virkjar <strong>tveggja-þátta auðkenningu</strong> með auðkenningarforriti, mun innskráning krefjast þess að þú hafir símann þinn við hendina, með honum þarf að útbúa öryggisteikn sem þú þarft að setja inn.
@@ -1532,7 +1544,7 @@ is:
     show_older: Sýna eldri
     show_thread: Birta þráð
     sign_in_to_participate: Skráðu þig inn til að taka þátt í samtalinu
-    title: "%{name}: „%{quote}‟"
+    title: '%{name}: „%{quote}‟'
     visibilities:
       direct: Beint
       private: Einungis fylgjendur
