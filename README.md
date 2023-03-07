@@ -6,6 +6,9 @@
   <a title="Codefactor" target="_blank" href="https://github.com/RiversideValley/Plaza/commits">
     <img align="left" src="https://www.codefactor.io/repository/github/RiversideValley/Plaza/badge" alt="CodeFactor" />
   </a>
+  <a title="Localisation" target="_blank" href="https://crowdin.com/project/Plaza">
+    <img align="left" src="https://badges.crowdin.net/plaza/localized.svg" alt="i18n Tracking" />
+  </a>
   <a title="Build" target="_blank" href="https://github.com/RiversideValley/Plaza/actions/workflows/build-image.yml">
     <img align="left" src="https://github.com/RiversideValley/Plaza/actions/workflows/build-image.yml/badge.svg" alt="Build" />
   </a>
