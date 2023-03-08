@@ -41,11 +41,16 @@
 
 ### Via webapp
 
-[protocol interconnect](https://andrexial.org.uk/auth/sign_up)
+[`protocol interconnect`](https://andrexial.org.uk/auth/sign_up)
 
 ### Via android app
 
 [`sideload`](https://github.com/RiversideValley/Plaza/releases)-->
+
+## 🤔 What is Plaza?
+
+Plaza is an open-source fluent ActivityPub social media network server powered by Ruby, Javascript and Sass for styling.
+It aims to bring social media together from a decentralised perspective. 
 
 <!--## 📸 Screenshots
 
@@ -61,6 +66,9 @@ Currently hosted on `riverside` Hyperactive servers (yes, Riverside Valley _does
 Unit used is the most high-end model of Raspberry Pi, running Ubuntu.
 
 ###### 📝 Earlier versions were hosted in **Cleveland, USA** (via `vercel`) or **Southern UK** and operated via an interface server in the **Netherlands** (via `azure`).
+
+**Want to host Plaza yourself? 💭**
+TL;DR: you can't.
 
 ## 🦜 Contributing & feedback
 
