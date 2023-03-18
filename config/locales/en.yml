@@ -1,7 +1,7 @@
 ---
-en-AR:
+en-US:
   about:
-    about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Not set
     contact_unavailable: N/A
     hosted_on: Mastodon hosted on %{domain}
@@ -1600,7 +1600,7 @@ en-AR:
   themes:
     contrast: Mastodon (High contrast)
     default: Mastodon (Dark)
-    mastodon-light: Mastodon (Light)
+    mastodon-light: Light
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
