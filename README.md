@@ -18,9 +18,6 @@
   <a title="Javascript" target="_blank" href="https://github.com/RiversideValley/Plaza/actions/workflows/test-js.yml">
     <img align="left" src="https://github.com/RiversideValley/Plaza/actions/workflows/test-js.yml/badge.svg" alt="Javascript" />
   </a>
-  <a title="SCSS" target="_blank" href="https://github.com/RiversideValley/Plaza/actions/workflows/lint-css.yml">
-    <img align="left" src="https://github.com/RiversideValley/Plaza/actions/workflows/lint-css.yml/badge.svg" alt="SCSS" />
-  </a>
 </p>
 
 <br/>
