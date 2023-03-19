@@ -10,7 +10,7 @@
     <img align="left" src="https://badges.crowdin.net/plaza/localized.svg" alt="i18n Tracking" />
   </a>
   <a title="Status" target="_blank" href="https://status.dev.plaza.theriversi.de">
-    <img align="left" src="https://img.shields.io/badge/is%20it%20down%3F-%20" alt="Status" />
+    <img align="left" src="https://betteruptime.com/status-badges/v1/monitor/npkl.svg" alt="Status" />
   </a>
   <a title="Build" target="_blank" href="https://github.com/RiversideValley/Plaza/actions/workflows/build-image.yml">
     <img align="left" src="https://github.com/RiversideValley/Plaza/actions/workflows/build-image.yml/badge.svg" alt="Build" />
