@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Type=simple
-User=mastodon
+User=plaza
 WorkingDirectory=/media/crescent/Plaza/live
 Environment="RAILS_ENV=production"
 Environment="PORT=3000"
