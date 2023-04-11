@@ -1,10 +1,10 @@
 ---
-bg:
+bg-BG:
   about:
-    about_mastodon_html: 'Социалната мрежа на бъдещето: Без реклами, без корпоративно наблюдение, с нравствено оформление и децентрализиране! Притежавайте данните си с Mastodon!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Не е зададено
     contact_unavailable: Не е приложимо
-    hosted_on: Mastodon е разположен на хост %{domain}
+    hosted_on: Plaza on %{domain}
     title: Относно
   accounts:
     follow: Последвай
@@ -663,7 +663,7 @@ bg:
         moderation: Mодериране
         special: Специални
       delete: Изтриване
-      description_html: С <strong>потребителските роли</strong> може да персонализирате до кои функции и области на Mastodon имат достъп потребителите ви.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Промяна на ролята „%{name}“
       everyone: Разрешения по подразбиране
       everyone_full_description_html: Това е <strong>основната роля</strong>, засягаща <strong>всички потребители</strong>, дори тези без назначена роля. Всички други роли наследяват разрешения за достъп от нея.
@@ -726,20 +726,20 @@ bg:
         rules_hint: Съществува специална част за правилата, които се очаква вашите потребители да спазват.
         title: Относно
       appearance:
-        preamble: Настройване на мрежовия интерфейс на Mastodon.
+        preamble: Customize Plaza's interface.
         title: Външен вид
       branding:
-        preamble: Брандирането на вашия сървър го различава от другите сървъри в мрежата. Тази информация може да се види на различни места, като уеб интерфейса на Mastodon, собствени приложения, в прегледите на линкове от други сайтове и в приложения за съобщения, и т.н. По тази причина е добре тази информация да е кратка и ясна.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Брандиране
       content_retention:
-        preamble: Управление на това как съдържание, породено от потребители, се съхранява в Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Задържане на съдържание
       default_noindex:
         desc_html: Влияе на всички потребители, които не са променили тази настройка за себе си
         title: По подразбиране изключете индексирането от търсачки за вашите потребители
       discovery:
         follow_recommendations: Препоръки за следване
-        preamble: За потребители, които са нови и не познават никого в Mastodon, показването на интересно съдържание е ключово. Настройте начина, по който различни функции по откриване на съдържание работят на вашия сървър.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Указател на профила
         public_timelines: Публични часови оси
         publish_discovered_servers: Публикуване на откритите сървъри
@@ -889,7 +889,7 @@ bg:
     webhooks:
       add_new: Добавяне на крайна точка
       delete: Изтриване
-      description_html: <strong>Уеб обратно повикване</strong> позволява на Mastodon да насочи <strong>известия в реално време</strong> за избрани събития към вашето приложение, така че то да може да <strong>активира реакции автоматично</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Деактивиране
       disabled: Деактивирано
       edit: Редактиране на крайната точка
@@ -951,8 +951,8 @@ bg:
     confirmation_dialogs: Диалогов прозорец за потвърждение
     discovery: Откриване
     localization:
-      body: Mastodon е преведено от доброволци.
-      guide_link: https://ru.crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Всеки може да участва.
     sensitive_content: Деликатно съдържание
     toot_layout: Оформление на публикацията
@@ -979,9 +979,9 @@ bg:
     delete_account: Изтриване на акаунта
     delete_account_html: Ако желаете да изтриете акаунта си, може <a href="%{path}">да сторите това тук</a>. Ще ви се поиска потвърждение.
     description:
-      prefix_invited_by_user: "@%{name} ви покани да се присъедините към този сървър на Mastodon!"
-      prefix_sign_up: Регистрирайте се днес в Mastodon!
-      suffix: Със свой акаунт ще можете да следвате хора, да публикувате актуализации, да обменяте съобщения с потребители от всеки сървър на Mastodon и много повече!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Не сте ли получили указания за потвърждение?
     dont_have_your_security_key: Нямате ли си ключ за сигурност?
     forgot_password: Забравена парола
@@ -1017,7 +1017,7 @@ bg:
       preamble_html: Влезте с идентификационните данни за <strong>%{domain}</strong>. Ако вашият акаунт е хостван на различен сървър, няма да можете да влезете в този.
       title: Влизане в %{domain}
     sign_up:
-      preamble: С акаунт на този съвър в Mastodon ще може да последвате всекиго в мрежата, независимо къде се намира акаунтът му.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Първоначални настройки за %{domain}.
     status:
       account_status: Състояние на акаунта
@@ -1130,7 +1130,7 @@ bg:
       content: Съжаляваме, но нещо се обърка в нашия край.
       title: Страницата не е правилна
     '503': Страницата не може да се обслужва заради временен провал на сървъра.
-    noscript_html: Включете JavaScript, за да използвате уеб приложението Mastodon. Като алтернатива опитайте някое от <a href="%{apps_path}">естествените приложения</a> за Mastodon за платформата ви.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: не можа да се намери местен потребител с това потребителско име
     not_found_multiple: не можа да намери %{usernames}
@@ -1461,7 +1461,7 @@ bg:
       weibo: Weibo
     current_session: Текуща сесия
     description: "%{browser} на %{platform}"
-    explanation: Това са уеб браузърите, от които в момента сте влезли с вашия Mastodon акаунт.
+    explanation: These are the apps currently logged in to your account.
     ip: IP адрес
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ bg:
     aliases: Псевдоними за акаунта
     appearance: Външен вид
     authorized_apps: Упълномощени приложения
-    back: Обратно към Mastodon
+    back: Back to Plaza
     delete: Изтриване на акаунта
     development: Разработка
     edit_profile: Редактирай профила си
@@ -1598,9 +1598,9 @@ bg:
   tags:
     does_not_match_previous_name: не съвпада с предишното име
   themes:
-    contrast: Mastodon (висок контраст)
-    default: Mastodon (тъмно)
-    mastodon-light: Mastodon (светло)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d %b, %Y, %H:%M"
@@ -1632,7 +1632,7 @@ bg:
       subject: Вашето обжалване от %{date} е било отхвърлено
       title: Отхвърлено обжалване
     backup_ready:
-      explanation: Изискахте пълно резервно копиране на акаунта си в Mastodon. Вече е готово за изтегляне!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Вашият архив е готов за изтегляне
       title: Сваляне на архива
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ bg:
       final_step: 'Публикувайте! Дори без последователи, вашите публични публикации ще бъдат видени от други, например в местния инфопоток или под хаштагове. Не забравяйте да се представите с хаштаг #introductions.'
       full_handle: Пълното ви име
       full_handle_hint: Ето какво бихте казали на приятелите си, за да могат да ви изпращат съобщения или да ви последват от друг сървър.
-      subject: Добре дошли в Mastodon
+      subject: Welcome to Plaza
       title: Добре дошли на борда, %{name}!
   users:
     follow_limit_reached: Не може да последвате повече от %{limit} души
@@ -1690,7 +1690,7 @@ bg:
     seamless_external_login: Влезли сте чрез външна услуга, така че настройките за парола и имейл не са налични.
     signed_in_as: 'Влезли като:'
   verification:
-    explanation_html: 'Можете да <strong>удостоверите самоличността си като собственик на линковете в метаданните на своя профил</strong>. За целта сайтът, към който води линк от метаданните, трябва да съдържа линк обратно към вашия профил в Mastodon. Линкът от сайта <strong>трябва</strong> да съдържа атрибут <code>rel="me"</code>. Текстовото съдържание на линка няма значение. Ето пример:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Проверка
   webauthn_credentials:
     add: Добавяне на нов ключ за сигурност
