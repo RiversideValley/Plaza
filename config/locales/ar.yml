@@ -1,10 +1,10 @@
 ---
-ar-EG:
+ar-SA:
   about:
-    about_mastodon_html: 'الشبكة الاجتماعية للمستقبل: لا إعلانات ولا رقابة على الشركات ، مصممة بشكل أخلاقي ولا مركزية! بياناتك ملك لك مع Plaza!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: لم يتم تعيينه
     contact_unavailable: غير متوفر
-    hosted_on: ماستدون مُستضاف على %{domain}
+    hosted_on: Plaza on %{domain}
     title: عن
   accounts:
     follow: اتبع
@@ -99,7 +99,7 @@ ar-EG:
       moderation:
         active: نشِط
         all: الكل
-        disabled: مُعطَّل
+        disabled: Disabled
         pending: قيد المراجعة
         silenced: محدود
         suspended: مُجَمَّد
@@ -146,7 +146,7 @@ ar-EG:
       search: البحث
       search_same_email_domain: مستخدمون آخرون لديهم نفس نطاق البريد الإلكتروني
       search_same_ip: مستخدِمون آخرون بنفس الـ IP
-      security: الأمان
+      security: Security
       security_measures:
         only_password: كلمة المرور فقط
         password_and_2fa: كلمة المرور و 2FA
@@ -461,7 +461,7 @@ ar-EG:
         resolve: العثور على عنوان النطاق
         title: إضافة نطاق بريد جديد إلى اللائحة السوداء
       no_email_domain_block_selected: لم يطرأ أي تغيير على أي نطاق بريد بما أنه لم يتم اختيار أي نطاق
-      not_permitted: غير مسموح به
+      not_permitted: Not permitted
       resolved_dns_records_hint_html: عنوان النطاق يعود لخوادم البريد (MX) التالية وهو ما يسمح للنطاق باستقبال البريد. حظر خوادم البريد هذه سوف يتسبب في منع أي تسجيل خلال أي نطاق يستخدم هذه الخوادم حتى لو كان اسم النطاق مختلف عن اسماء خوادم البريد.<strong>احذر من حظر مزودي البريد العالميين.</strong>
       resolved_through_html: الحصول على العنوان من خلال %{domain}
       title: القائمة السوداء للبريد الإلكتروني
@@ -516,7 +516,7 @@ ar-EG:
       content_policies:
         comment: ملاحظة داخلية
         description_html: يمكنك تحديد سياسات المحتوى التي سيتم تطبيقها على جميع حسابات هذا النطاق وأي من نطاقاته الفرعية.
-        limited_federation_mode_description_html: يمكنك أن تختار بين السماح أو عدم السماح بالفديرالية مع هذا النطاق.
+        limited_federation_mode_description_html: You can chose whether to allow federation with this domain.
         policies:
           reject_media: رفض الوسائط
           reject_reports: رفض الشكاوى
@@ -637,13 +637,13 @@ ar-EG:
       assign_to_self: عين لي
       assigned: تعين رئيس
       by_target_domain: نطاق الحساب المبلّغ عنه
-      cancel: إلغاء
+      cancel: Cancel
       category: الفئة
       category_description_html: سيشار إلى سبب الإبلاغ عن هذا الحساب و/أو المحتوى في الاتصال بالحساب المبلغ عنه
       comment:
         none: لا شيء
       comment_description_html: 'لتوفير المزيد من المعلومات، كتب %{name}:'
-      confirm: تأكيد
+      confirm: Confirm
       confirm_action: تأكيد اتخاذ إجراء إشراف على @%{acct}
       created_at: ذكرت
       delete_and_resolve: احذف المنشورات
@@ -715,7 +715,7 @@ ar-EG:
         moderation: الإشراف
         special: مميز
       delete: حذف
-      description_html: مع <strong>أدوار المستخدم</strong>، يمكنك تخصيص أي الوظائف ومجالات ماستدون التي يمكن للمستخدمين الوصول إليها.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: تعديل رتبة '%{name}' '
       everyone: الصلاحيات الافتراضية
       everyone_full_description_html: هذا هو <strong>الدور الأساسي</strong> الذي يحمله <strong>جميع المستخدمين</strong>، حتى أولئك الذين ليس لديهم دور معين. جميع الأدوار الأخرى ترث الأذونات منه.
@@ -782,20 +782,20 @@ ar-EG:
         rules_hint: هناك منطقة مخصصة للقواعد التي يتوقع من المستخدمين التقيد بها.
         title: عن
       appearance:
-        preamble: تخصيص واجهة الويب لماستدون.
+        preamble: Customize Plaza's interface.
         title: المظهر
       branding:
-        preamble: العلامة التجارية لخادمك الخاص تميزه عن الخوادم الأخرى في الشبكة. يمكن عرض هذه المعلومات عبر مجموعة متنوعة من البيئات، مثل واجهة الويب لماستدون، في التطبيقات الأصلية، في معاينات الروابط على مواقع الويب الأخرى وضمن تطبيقات الرسائل، وما إلى ذلك. ولهذا السبب، من الأفضل إبقاء هذه المعلومات واضحة وقصيرة وموجزة.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: العلامة
       content_retention:
-        preamble: التحكم في كيفية تخزين المحتوى الذي ينشئه المستخدم في ماستدون.
+        preamble: Control how user-generated content is stored in Plaza.
         title: الاحتفاظ بالمحتوى
       default_noindex:
         desc_html: يؤثر على جميع المستخدمين الذين لم يغيروا هذا الإعداد بأنفسهم
         title: عدم السماح مبدئيا لمحركات البحث بفهرسة الملفات التعريفية للمستخدمين
       discovery:
         follow_recommendations: اتبع التوصيات
-        preamble: يُعد إتاحة رؤية المحتوى المثير للاهتمام أمرًا ضروريًا لجذب مستخدمين جدد قد لا يعرفون أي شخص في Mastodon. تحكم في كيفية عمل ميزات الاكتشاف المختلفة على خادمك الخاص.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: دليل الصفحات التعريفية
         public_timelines: الخيوط الزمنية العامة
         publish_discovered_servers: نشر الخوادم المكتشَفة
@@ -854,7 +854,7 @@ ar-EG:
         suspend: "قام %{name} بتعليق حساب %{target}"
       appeal_approved: طُعِن فيه
       appeal_pending: طعن قيد المراجعة
-      appeal_rejected: رُفض الطعن
+      appeal_rejected: Appeal rejected
     system_checks:
       database_schema_check:
         message_html: هناك عمليات هجرة معلقة لقواعد البيانات. يرجى تشغيلها لضمان تصرف التطبيق كما هو متوقع
@@ -894,7 +894,7 @@ ar-EG:
           other: Shared by %{count} people over the last week
         title: الروابط المتداولة
         usage_comparison: تمت مشاركته %{today} مرات اليوم، مقارنة بـ %{yesterday} بالأمس
-      not_allowed_to_trend: غير مسموح ظهوره في المتداولة
+      not_allowed_to_trend: Not allowed to trend
       only_allowed: من سُمِحَ لهم فقط
       pending_review: في انتظار المراجعة
       preview_card_providers:
@@ -957,7 +957,7 @@ ar-EG:
     webhooks:
       add_new: إضافة نقطة نهاية
       delete: حذف
-      description_html: <strong>webhook</strong> يمكّن ماستدون من إرسال <strong>إشعارات في الوقت الحقيقي</strong> حول الأحداث المختارة إلى التطبيق الخاص بك، حتى يمكن لتطبيقك <strong>تشغيل ردود الفعل تلقائياً</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: تعطيل
       disabled: معطَّل
       edit: تعديل نقطة النهاية
@@ -1023,8 +1023,8 @@ ar-EG:
     confirmation_dialogs: نوافذ التأكيد
     discovery: الاستكشاف
     localization:
-      body: ماستدون يُترجِمه متطوّعون.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: يمكن للجميع المساهمة.
     sensitive_content: المحتوى الحساس
     toot_layout: شكل المنشور
@@ -1038,7 +1038,7 @@ ar-EG:
   applications:
     created: تم إنشاء التطبيق بنجاح
     destroyed: تم حذف التطبيق بنجاح
-    logout: الخروج
+    logout: Logout
     regenerate_token: إعادة توليد رمز النفاذ
     token_regenerated: تم إعادة إنشاء الرمز الوصول بنجاح
     warning: كن حذرا مع هذه البيانات. لا تقم أبدا بمشاركتها مع الآخَرين!
@@ -1051,9 +1051,9 @@ ar-EG:
     delete_account: حذف الحساب
     delete_account_html: إن كنت ترغب في حذف حسابك يُمكنك <a href="%{path}">المواصلة هنا</a>. سوف يُطلَبُ منك التأكيد قبل الحذف.
     description:
-      prefix_invited_by_user: "يدعوك @%{name} للاتحاق بخادم ماستدون هذا!"
-      prefix_sign_up: أنشئ حسابًا على ماستدون اليوم!
-      suffix: بفضل حساب، ستكون قادرا على متابعة أشخاص ونشر تحديثات وتبادل رسائل مع مستخدمين مِن أي خادم Mastodon وأكثر!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: لم تتلق تعليمات التأكيد ؟
     dont_have_your_security_key: ليس لديك مفتاح الأمان الخاص بك؟
     forgot_password: نسيت كلمة المرور ؟
@@ -1075,8 +1075,8 @@ ar-EG:
     resend_confirmation: إعادة إرسال تعليمات التأكيد
     reset_password: إعادة تعيين كلمة المرور
     rules:
-      accept: قبول
-      back: العودة
+      accept: Accept
+      back: Back
       preamble: يتم تعيين هذه القوانين وفرضها من قبل مشرفي %{domain}.
       title: بعض القواعد الأساسية.
     security: الأمان
@@ -1089,7 +1089,7 @@ ar-EG:
       preamble_html: قم بتسجيل الدخول باستخدام بيانات الاعتماد الخاصة بك علي <strong>%{domain}</strong> إذا تم استضافة حسابك على خادم مختلف، فلن تتمكن من تسجيل الدخول هنا.
       title: تسجيل الدخول إلى %{domain}
     sign_up:
-      preamble: مع حساب على خادم ماستدون هذا، ستتمكن من متابعة أي شخص آخر على الشبكة، بغض النظر عن المكان الذي يستضيف فيه حسابهم.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: دعنا نجهّز %{domain}.
     status:
       account_status: حالة الحساب
@@ -1202,7 +1202,7 @@ ar-EG:
       content: نحن متأسفون، لقد حدث خطأ ما مِن جانبنا.
       title: هذه الصفحة خاطئة
     '503': تعذر تحميل الصفحة بسبب فشل مؤقت في الخادم.
-    noscript_html: يرجى تفعيل الجافا سكريبت لاستخدام تطبيق الويب لماستدون، أو عِوض ذلك قوموا بتجريب إحدى <a href="%{apps_path}">التطبيقات الأصلية</a> الدّاعمة لماستدون على منصّتكم.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: لم نتمكّن مِن العثور على مستخدم محلي باسم المستخدم هذا
     not_found_multiple: تعذر العثور على %{usernames}
@@ -1565,7 +1565,7 @@ ar-EG:
       weibo: وايبو
     current_session: الجلسة الحالية
     description: "%{browser} على %{platform}"
-    explanation: ها هي قائمة مُتصفِّحات الويب التي تستخدِم حاليًا حساب ماستدون الخاص بك.
+    explanation: These are the apps currently logged in to your account.
     ip: عنوان الإيبي
     platforms:
       adobe_air: أدوبي إيير
@@ -1590,7 +1590,7 @@ ar-EG:
     aliases: كُنيات الحساب
     appearance: المظهر
     authorized_apps: التطبيقات المرخص لها
-    back: عودة إلى ماستدون
+    back: Back to Plaza
     delete: حذف الحسابات
     development: التطوير
     edit_profile: عدّل الصفحة التعريفية
@@ -1713,7 +1713,7 @@ ar-EG:
       '7889238': 3 أشهر
     min_age_label: عتبة العمر
     min_favs: إبقاء المشاركات المفضلة أكثر من
-    min_favs_hint: لن تُحذف أي من منشوراتك التي تلقّت على الأقل هذا العدد من المفضلات. اتركه فارغاً لحذف المنشورات مهما كان عدد المفضلات التي تلقتها
+    min_favs_hint: لم تقوم بحذف أي من المشاركات الخاصة بك التي حصلت على أكثر من هذه الكمية من المفضلة. اتركه فارغاً لحذف المشاركات بغض النظر عن عدد المفضلات لديها
     min_reblogs: إبقاء المشاركات المعززة أكثر من
     min_reblogs_hint: لن تُحذف أي من منشوراتك التي أعيد مشاركتها أكثر من هذا العدد من المرات. اتركه فارغاً لحذف المنشورات بغض النظر عن عدد إعادات المشاركة
   stream_entries:
@@ -1726,9 +1726,9 @@ ar-EG:
   tags:
     does_not_match_previous_name: لا يطابق الإسم السابق
   themes:
-    contrast: ماستدون (تباين عالٍ)
-    default: ماستدون (داكن)
-    mastodon-light: ماستدون (فاتح)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
@@ -1760,7 +1760,7 @@ ar-EG:
       subject: تم رفض طعنك الذي قدمته بتاريخ %{date}
       title: رُفض الاستئناف
     backup_ready:
-      explanation: لقد قمت بطلب نسخة كاملة لحسابك على ماستدون. إنها متوفرة الآن للتنزيل!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: نسخة بيانات حسابك جاهزة للتنزيل
       title: المغادرة بأرشيف الحساب
     suspicious_sign_in:
@@ -1809,7 +1809,7 @@ ar-EG:
       final_step: 'ابدأ في النشر! حتى بدون متابعين، منشوراتك العامة قد يشاهدها آخرون، على سبيل المثال في التوقيت المحلي أو في الوسوم. قد ترغب في تقديم نفسك على وسم #introductions.'
       full_handle: عنوانك الكامل
       full_handle_hint: هذا هو ما يجب تقديمه لأصدقائك قصد أن يكون بإمكانهم متابَعتك أو مُراسَلتك حتى و إن كانت حساباتهم على خوادم أخرى.
-      subject: أهلًا بك على ماستدون
+      subject: Welcome to Plaza
       title: أهلاً بك، %{name}!
   users:
     follow_limit_reached: لا يمكنك متابعة أكثر مِن %{limit} أشخاص
@@ -1818,7 +1818,7 @@ ar-EG:
     seamless_external_login: لقد قمت بتسجيل الدخول عبر خدمة خارجية، إنّ إعدادات الكلمة السرية و البريد الإلكتروني غير متوفرة.
     signed_in_as: 'تم تسجيل دخولك بصفة:'
   verification:
-    explanation_html: 'يمكنك <strong>التحقق من نفسك كمالك لروابط البيانات التعريفية على صفحتك الشخصية</strong>. لذلك، يجب أن يحتوي الموقع المقترِن على رابط إلى صفحتك التعريفية الشخصية على ماستدون. الرابط الخلفي <strong>يجب أن</strong> يحتوي على رمز <code>rel="me"</code>. محتوى النص في الرابط غير مهم. على سبيل المثال:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: التحقق
   webauthn_credentials:
     add: إضافة مفتاح أمان جديد
