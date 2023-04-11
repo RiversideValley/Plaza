@@ -1,5 +1,5 @@
 ---
-fr-LU:
+fr-FR:
   devise:
     confirmations:
       confirmed: Votre adresse de courriel a été validée.
@@ -23,21 +23,21 @@ fr-LU:
         explanation: Vous avez créé un compte sur %{host} avec cette adresse courriel. Vous êtes à un clic de l’activer. Si ce n’était pas vous, veuillez ignorer ce courriel.
         explanation_when_pending: Vous avez demandé à vous inscrire à %{host} avec cette adresse de courriel. Une fois que vous aurez confirmé cette adresse, nous étudierons votre demande. Vous ne pourrez pas vous connecter d’ici-là. Si votre demande est refusée, vos données seront supprimées du serveur, aucune action supplémentaire de votre part n’est donc requise. Si vous n’êtes pas à l’origine de cette demande, veuillez ignorer ce message.
         extra_html: Merci de consultez également <a href="%{terms_path}">les règles du serveur</a> et <a href="%{policy_path}">nos conditions d’utilisation</a>.
-        subject: 'Mastodon : Merci de confirmer votre inscription sur %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Vérifiez l’adresse de courriel
       email_changed:
         explanation: 'L’adresse de courriel de votre compte est en cours de modification pour devenir :'
         extra: Si vous n’avez pas changé votre adresse courriel, il est probable que quelqu’un ait eu accès à votre compte. Veuillez changer votre mot de passe immédiatement ou contacter l’administrateur·rice du serveur si vous êtes bloqué·e hors de votre compte.
-        subject: 'Mastodon : Courriel modifié'
+        subject: 'Plaza: Email changed'
         title: Nouvelle adresse de courriel
       password_change:
         explanation: Le mot de passe de votre compte a été changé.
         extra: Si vous n’avez pas changé votre mot de passe, il est probable que quelqu’un ait eu accès à votre compte. Veuillez changer votre mot de passe immédiatement ou contacter l’administrateur·rice du serveur si vous êtes bloqué·e hors de votre compte.
-        subject: 'Mastodon : Votre mot de passe a été modifié avec succès'
+        subject: 'Plaza: Password changed'
         title: Mot de passe modifié
       reconfirmation_instructions:
         explanation: Confirmez la nouvelle adresse pour changer votre courriel.
-        extra: Si ce changement n’a pas été initié par vous, veuillez ignorer ce courriel. L’adresse de courriel du compte Mastodon ne changera pas tant que vous n’aurez pas cliqué sur le lien ci-dessus.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon : Confirmez l’adresse de courriel pour %{instance}'
         title: Vérifier l’adresse courriel
       reset_password_instructions:
