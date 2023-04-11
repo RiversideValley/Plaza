@@ -1,5 +1,5 @@
 ---
-tr-CY:
+tr-TR:
   devise:
     confirmations:
       confirmed: E-posta adresiniz başarıyla onaylandı.
@@ -23,21 +23,21 @@ tr-CY:
         explanation: Bu e-posta adresiyle %{host} bir hesap oluşturdunuz. Etkinleştirmekten bir tık uzaktasınız. Bu siz değilseniz, lütfen bu e-postayı dikkate almayın.
         explanation_when_pending: Bu e-posta adresiyle %{host} adresine bir davetiye için başvuru yaptınız. E-posta adresinizi onayladıktan sonra başvurunuzu inceleyeceğiz. O zamana kadar giriş yapamazsınız. Başvurunuz reddedilirse, verileriniz silinecek, başka bir işlem yapmanız gerekmeyecek. Bu siz değilseniz, lütfen bu e-postayı dikkate almayın.
         extra_html: Lütfen ayrıca <a href="%{terms_path}">sunucu kurallarını</a> ve <a href="%{policy_path}">hizmet şartlarımızı</a> inceleyin.
-        subject: 'Mastodon: %{instance} için onay talimatları'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: E-posta adresini doğrulayın
       email_changed:
         explanation: 'Hesabınızın e-posta adresi şu şekilde değiştirildi:'
         extra: E-posta adresinizi değiştirmediyseniz, büyük olasılıkla birileri hesabınıza erişti. Lütfen derhal parolanızı değiştirin veya hesabınız kilitlendiyse sunucu yöneticisine başvurun.
-        subject: 'Mastodon: E-posta adresi değişti'
+        subject: 'Plaza: Email changed'
         title: Yeni e-posta adresi
       password_change:
         explanation: Hesabınızın parolası değiştirildi.
         extra: Parolanızı değiştirmediyseniz, büyük olasılıkla birileri hesabınıza erişmiş olabilir. Lütfen derhal parolanızı değiştirin veya hesabınız kilitlendiyse sunucu yöneticisine başvurun.
-        subject: 'Mastodon: Parola değiştirildi'
+        subject: 'Plaza: Password changed'
         title: Parola değiştirildi
       reconfirmation_instructions:
         explanation: E-postanızı değiştirmek için yeni adresi onaylayın.
-        extra: Bu değişiklik sizin tarafınızdan başlatılmadıysa, lütfen bu e-postayı dikkate almayın. Mastodon hesabının e-posta adresi, yukarıdaki bağlantıya erişene kadar değişmez.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: %{instance} için e-postayı onayla'
         title: E-posta adresinizi doğrulayın
       reset_password_instructions:
