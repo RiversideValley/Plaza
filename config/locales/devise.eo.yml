@@ -23,21 +23,21 @@ eo-UY:
         explanation: Vi kreis konton en %{host} per ĉi tiu retadreso. Nur klako restas por aktivigi ĝin. Se tio ne estis vi, bonvolu ignori ĉi tiun retmesaĝon.
         explanation_when_pending: Vi petis inviton al %{host} per ĉi tiu retpoŝta adreso. Kiam vi konfirmas vian retpoŝtan adreson, ni revizios vian kandidatiĝon. Vi ne povas ensaluti ĝis tiam. Se via kandidatiĝo estas rifuzita, viaj datumoj estos forigitaj, do neniu alia ago estos postulita de vi. Se tio ne estis vi, bonvolu ignori ĉi tiun retpoŝton.
         extra_html: Bonvolu rigardi <a href="%{terms_path}">la regulojn de la servilo</a> kaj <a href="%{policy_path}">niajn uzkondiĉojn</a>.
-        subject: 'Mastodon: Konfirmaj instrukcioj por %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Konfirmi retpoŝton
       email_changed:
         explanation: 'La retpoŝtadreso de via konto ŝanĝiĝas al:'
         extra: Se vi ne volis ŝanĝi vian retadreson, iu verŝajne aliris al via konto. Bonvolu tuj ŝanĝi vian pasvorton aŭ kontakti la administranton de la servilo, se vi estas blokita ekster via konto.
-        subject: 'Mastodon: Retpoŝton ŝanĝiĝis'
+        subject: 'Plaza: Email changed'
         title: Nova retadreso
       password_change:
         explanation: La pasvorto de via konto estis ŝanĝita.
         extra: Se vi ne ŝanĝis vian pasvorton, iu verŝajne aliris al via konto. Bonvolu ŝanĝi vian pasvorton tuj aŭ kontakti la administranton de la servilo, se vi estas blokita ekster via konto.
-        subject: 'Mastodon: Pasvorto ŝanĝita'
+        subject: 'Plaza: Password changed'
         title: Pasvorto estas ŝanĝita
       reconfirmation_instructions:
         explanation: Retajpu la novan adreson por ŝanĝi vian retpoŝtadreson.
-        extra: Se ĉi tiu ŝanĝo ne estis komencita de vi, bonvolu ignori ĉi tiun retmesaĝon. La retadreso por la Mastodon-konto ne ŝanĝiĝos se vi ne aliras la supran ligilon.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: Konfirmi retpoŝton por %{instance}'
         title: Kontrolu retpoŝtadreson
       reset_password_instructions:
