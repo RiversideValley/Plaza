@@ -1,10 +1,10 @@
 ---
-id:
+id-ID:
   about:
-    about_mastodon_html: 'Jaringan sosial masa depan: Tanpa iklan, tanpa pemantauan perusahaan, desain etis, dan terdesentralisasi! Miliki data Anda dengan Mastodon!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Belum ditetapkan
     contact_unavailable: Tidak Tersedia
-    hosted_on: Mastodon dihosting di %{domain}
+    hosted_on: Plaza on %{domain}
     title: Tentang
   accounts:
     follow: Ikuti
@@ -650,7 +650,7 @@ id:
         moderation: Moderasi
         special: Khusus
       delete: Hapus
-      description_html: Dengan <strong>peran pengguna</strong>, Anda dapat mengubah fungsi dan area Mastodon apa pengguna Anda dapat mengakses.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: ערכי את התפקיד של '%{name}'
       everyone: Izin bawaan
       everyone_full_description_html: Ini adalah <strong>peran dasaran</strong> yang memengaruhi <strong>semua pengguna</strong>, bahkan tanpa yang memiliki sebuah peran yang diberikan. Semua peran lainnya mendapatkan izin dari ini.
@@ -712,20 +712,20 @@ id:
         rules_hint: Ada area yang khusus untuk peraturan yang pengguna Anda seharusnya tahu.
         title: Tentang
       appearance:
-        preamble: Ubah antarmuka web Mastodon.
+        preamble: Customize Plaza's interface.
         title: Tampilan
       branding:
-        preamble: Merek server Anda membedakannya dari server lain dalam jaringan. Informasi ini dapat ditampilkan dalam berbagai lingkungan, seperti antarmuka web Mastodon, aplikasi asli, dalam tampilan tautan di situs web lain dan dalam aplikasi perpesanan, dan lain-lain. Untuk alasan ini, buat informasi ini jelas, pendek, dan tidak bertele-tele.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Merek
       content_retention:
-        preamble: Atur bagaimana konten yang dibuat oleh pengguna disimpan di Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Retensi konten
       default_noindex:
         desc_html: Memengaruhi semua pengguna yang belum mengubah pengaturan ini sendiri
         title: Keluarkan pengguna dari pengindeksan mesin telusur secara bawaan
       discovery:
         follow_recommendations: Ikuti rekomendasi
-        preamble: Menampilkan konten menarik penting dalam memandu pengguna baru yang mungkin tidak tahu siapa pun di Mastodon. Atur bagaimana berbagai fitur penemuan bekerja di server Anda.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Direktori profil
         public_timelines: Linimasa publik
         publish_discovered_servers: Publish discovered servers
@@ -872,7 +872,7 @@ id:
     webhooks:
       add_new: Tambah titik akhir
       delete: Hapus
-      description_html: Sebuah <strong>webhook</strong> memungkinkan Mastodon untuk mengirim <strong>notifikasi dalam waktu nyata</strong> tentang peristiwa yang dipilih ke aplikasi Anda sendiri, sehingga aplikasi Anda dapat <strong>memicu reaksi secara otomatis</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Matikan
       disabled: Nonaktif
       edit: Edit titik akhir
@@ -933,8 +933,8 @@ id:
     confirmation_dialogs: Dialog konfirmasi
     discovery: Jelajah
     localization:
-      body: Mastodon diterjemahkan oleh sukarelawan.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Siapa saja bisa berkontribusi.
     sensitive_content: Konten sensitif
     toot_layout: Tata letak kiriman
@@ -961,9 +961,9 @@ id:
     delete_account: Hapus akun
     delete_account_html: Jika Anda ingin menghapus akun Anda, Anda dapat <a href="%{path}">memproses ini</a>. Anda akan dikonfirmasi.
     description:
-      prefix_invited_by_user: "@%{name} mengundang Anda untuk bergabung di server Mastodon ini!"
-      prefix_sign_up: Daftar ke Mastodon hari ini!
-      suffix: Dengan sebuah akun, Anda dapat mengikuti orang, mengirim pembaruan, dan bertukar pesan dengan pengguna dari server Mastodon mana pun dan lainnya!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Tidak menerima petunjuk konfirmasi?
     dont_have_your_security_key: Tidak memiliki kunci keamanan?
     forgot_password: Lupa kata sandi?
@@ -999,7 +999,7 @@ id:
       preamble_html: Sign in with your <strong>%{domain}</strong> credentials. If your account is hosted on a different server, you will not be able to log in here.
       title: Masuk ke %{domain}
     sign_up:
-      preamble: Dengan sebuah akun di server Mastodon ini, Anda akan dapat mengikuti orang lain dalam jaringan, di mana pun akun mereka berada.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Mari kita siapkan Anda di %{domain}.
     status:
       account_status: Status akun
@@ -1112,7 +1112,7 @@ id:
       content: Maaf, ada sesuatu yang salah pada sistem kami.
       title: Halaman ini tidak benar
     '503': Halaman ini tidak dapat ditampilkan karena kegagalan server sementara.
-    noscript_html: Untuk menggunakan aplikasi web Mastodon, tolong aktifkan JavaScript. Sebagai alternatif, cobalah <a href="%{apps_path}">aplikasi murni</a> Mastodon untuk platform Anda.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: tidak dapat menemukan pengguna lokal dengan nama pengguna tersebut
     not_found_multiple: tidak dapat menemukan %{usernames}
@@ -1435,7 +1435,7 @@ id:
       weibo: Weibo
     current_session: Sesi sekarang
     description: "%{browser} di %{platform}"
-    explanation: Ini peramban yang sedang dalam posisi masuk akun Mastodon Anda.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1460,7 +1460,7 @@ id:
     aliases: Alias akun
     appearance: Tampilan
     authorized_apps: Apl yang diizinkan
-    back: Kembali ke Mastodon
+    back: Back to Plaza
     delete: Penghapusan akun
     development: Pengembangan
     edit_profile: Ubah profil
@@ -1566,9 +1566,9 @@ id:
   tags:
     does_not_match_previous_name: tidak cocok dengan nama sebelumnya
   themes:
-    contrast: Mastodon (Kontras tinggi)
-    default: Mastodon (Gelap)
-    mastodon-light: Mastodon (Terang)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d %b %Y, %H:%M"
@@ -1600,7 +1600,7 @@ id:
       subject: Banding Anda dari %{date} telah ditolak
       title: Banding ditolak
     backup_ready:
-      explanation: Cadangan penuh akun Mastodon Anda sudah dapat diunduh!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Arsip Anda sudah siap diunduh
       title: Ambil arsip
     suspicious_sign_in:
@@ -1649,7 +1649,7 @@ id:
       final_step: 'Mulai mengirim! Bahkan tanpa pengikut, kiriman publik Anda dapat dilihat oleh orang lain, misalkan di linimasa lokal atau dalam tagar. Anda dapat memperkenalkan diri Anda dalam tagar #introductions.'
       full_handle: Penanganan penuh Anda
       full_handle_hint: Ini yang dapat Anda sampaikan kepada teman agar mereka dapat mengirim pesan atau mengikuti Anda dari server lain.
-      subject: Selamat datang di Mastodon
+      subject: Welcome to Plaza
       title: Selamat datang, %{name}!
   users:
     follow_limit_reached: Anda tidak dapat mengikuti lebih dari %{limit} orang
@@ -1658,7 +1658,7 @@ id:
     seamless_external_login: Anda masuk via layanan eksternal, sehingga pengaturan kata sandi dan email tidak tersedia.
     signed_in_as: 'Masuk sebagai:'
   verification:
-    explanation_html: 'Anda dapat <strong>memverifikasi diri Anda sebagai pemiliki tautan pada metadata profil</strong>. Situsweb yang ditautkan haruslah berisi tautan ke profil Mastodon Anda. Tautan tersebut <strong>harus</strong> memiliki atribut <code>rel="me"</code>. Isi teks tautan tidaklah penting. Ini contohnya:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Verifikasi
   webauthn_credentials:
     add: Tambahkan kunci keamanan baru
