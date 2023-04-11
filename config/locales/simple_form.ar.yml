@@ -1,5 +1,5 @@
 ---
-ar-EG:
+ar-SA:
   simple_form:
     hints:
       account_alias:
@@ -49,7 +49,7 @@ ar-EG:
         phrase: سوف يتم العثور عليه مهما كان نوع النص أو حتى و إن كان داخل الويب فيه تحذير عن المحتوى
         scopes: ما هي المجالات المسموح بها في التطبيق ؟ إن قمت باختيار أعلى المجالات فيمكنك الاستغناء عن الخَيار اليدوي.
         setting_aggregate_reblogs: لا تقم بعرض المشارَكات الجديدة لمنشورات قد قُمتَ بمشاركتها سابقا (هذا الإجراء يعني المشاركات الجديدة فقط التي تلقيتَها)
-        setting_always_send_emails: عادة لن تُرسَل إليك إشعارات البريد الإلكتروني عندما تكون نشطًا على ماستدون
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Plaza
         setting_default_sensitive: تُخفى الوسائط الحساسة تلقائيا ويمكن اظهارها عن طريق النقر عليها
         setting_display_media_default: إخفاء الوسائط المُعيَّنة كحساسة
         setting_display_media_hide_all: إخفاء كافة الوسائط دائمًا
@@ -79,14 +79,14 @@ ar-EG:
         bootstrap_timeline_accounts: سيتم تثبيت هذه الحسابات على قمة التوصيات للمستخدمين الجدد.
         closed_registrations_message: ما سيعرض عند إغلاق التسجيلات
         content_cache_retention_period: سيتم حذف المشاركات من الخوادم الأخرى بعد عدد الأيام المحدد عند تعيينها إلى قيمة موجبة. قد يكون هذا لا رجعة فيه.
-        custom_css: يمكنك تطبيق أساليب مخصصة على نسخة الويب من ماستدون.
+        custom_css: You can apply custom styles on Plaza.
         mascot: تجاوز الرسوم التوضيحية في واجهة الويب المتقدمة.
         media_cache_retention_period: سيتم حذف ملفات الوسائط التي تم تنزيلها بعد عدد الأيام المحدد عند تعيينها إلى قيمة موجبة، وإعادة تنزيلها عند الطلب.
         peers_api_enabled: A list of domain names this server has encountered in the fediverse. No data is included here about whether you federate with a given server, just that your server knows about it. This is used by services that collect statistics on federation in a general sense.
         profile_directory: دليل الملف الشخصي يسرد جميع المستخدمين الذين اختاروا الدخول ليكونوا قابلين للاكتشاف.
         require_invite_text: عندما تتطلب التسجيلات الموافقة اليدوية، اجعل إدخال النص "لماذا تريد الانضمام ؟" إلزاميا بدلا من اختياري
         site_contact_email: كيف يمكن للأشخاص أن يصلوا إليك للحصول على استفسارات قانونية أو استفسارات دعم.
-        site_contact_username: كيف يمكن للناس أن يتصلوا بك في ماستدون.
+        site_contact_username: How people can reach you on Plaza.
         site_extended_description: أي معلومات إضافية قد تكون مفيدة للزوار والمستخدمين. يمكن تنظيمها مع بناء بنية Markdown.
         site_short_description: وصف قصير للمساعدة في التعرف على الخادم الخاص بك. من يقوم بتشغيله، ولمن ؟
         site_terms: استخدم سياسة الخصوصية الخاصة بك أو اتركها فارغة لاستخدام الافتراضي. يمكن هيكلتها مع بناء الجملة المصغرة مارك داون.
@@ -101,7 +101,7 @@ ar-EG:
       form_challenge:
         current_password: إنك بصدد الدخول إلى منطقة آمنة
       imports:
-        data: ملف CSV تم تصديره مِن خادم ماستدون آخر
+        data: CSV file exported from another fediverse server
       invite_request:
         text: هذا سوف يساعدنا في مراجعة تطبيقك
       ip_block:
