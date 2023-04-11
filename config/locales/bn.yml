@@ -1,232 +1,232 @@
 ---
-bn-BD:
+bn-IN:
   about:
     about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
-    contact_missing: Not set
-    contact_unavailable: N/A
+    contact_missing: নেই
+    contact_unavailable: প্রযোজ্য নয়
     hosted_on: Plaza on %{domain}
     title: About
   accounts:
-    follow: Follow
+    follow: যুক্ত
     followers:
-      one: Follower
-      other: Followers
-    following: Following
+      one: যুক্ত আছে
+      other: যারা যুক্ত হয়েছে
+    following: যুক্ত করা
     instance_actor_flash: This account is a virtual actor used to represent the server itself and not any individual user. It is used for federation purposes and should not be suspended.
-    last_active: last active
-    link_verified_on: Ownership of this link was checked on %{date}
-    nothing_here: There is nothing here!
+    last_active: শেষ সক্রিয় ছিল
+    link_verified_on: এই লিংকের মালিকানা শেষ চেক করা হয়  %{date} তারিখে
+    nothing_here: এখানে কিছুই নেই!
     pin_errors:
-      following: You must be already following the person you want to endorse
+      following: সমর্থন করতে অনুসরণ থাকা লাগবে
     posts:
-      one: Post
-      other: Posts
-    posts_tab_heading: Posts
+      one: লেখা
+      other: লেখাগুলো
+    posts_tab_heading: লেখাগুলো
   admin:
     account_actions:
-      action: Perform action
-      title: Perform moderation action on %{acct}
+      action: করা
+      title: 'প্রশাসনা করুন এর উপর : %{acct}'
     account_moderation_notes:
-      create: Leave note
-      created_msg: Moderation note successfully created!
-      destroyed_msg: Moderation note successfully destroyed!
+      create: কিছু লিখুন
+      created_msg: প্রশাসনবস্তুত লেখাটি সঠিকভাবে তৈরী হয়েছে!
+      destroyed_msg: প্রশাসনবস্তুত লেখাটি সঠিকভাবে মুছে ফেলা হয়েছে!
     accounts:
-      add_email_domain_block: Block e-mail domain
-      approve: Approve
+      add_email_domain_block: নিষিদ্ধ করা ই-মেইল ডোমেইন
+      approve: অনুমোদন দিন
       approved_msg: Successfully approved %{username}'s sign-up application
-      are_you_sure: Are you sure?
-      avatar: Avatar
-      by_domain: Domain
+      are_you_sure: আপনি কি নিশ্চিত ?
+      avatar: অবতার
+      by_domain: ওয়েবসাইট/কার্যক্ষেত্র
       change_email:
         changed_msg: Email successfully changed!
-        current_email: Current email
-        label: Change email
-        new_email: New email
-        submit: Change email
-        title: Change email for %{username}
+        current_email: এখনকার ইমেইল
+        label: ইমেইল পরিবর্তন
+        new_email: নতুন ইমেইল
+        submit: ইমেইল পরিবর্তন
+        title: '%{username} এর ইমেইল পরিবর্তন'
       change_role:
         changed_msg: Role successfully changed!
         label: Change role
         no_role: No role
         title: Change role for %{username}
-      confirm: Confirm
-      confirmed: Confirmed
-      confirming: Confirming
+      confirm: নিশ্চিত করুন
+      confirmed: নিশ্চিত হয়েছে
+      confirming: নিশ্চিত করা হচ্ছে
       custom: Custom
       delete: Delete data
-      deleted: Deleted
-      demote: Demote
+      deleted: মুছে ফেলা হয়েছে
+      demote: নিচের পদে দিন
       destroyed_msg: "%{username}'s data is now queued to be deleted imminently"
-      disable: Freeze
+      disable: বন্ধ করুন
       disable_sign_in_token_auth: Disable e-mail token authentication
-      disable_two_factor_authentication: Disable 2FA
-      disabled: Frozen
-      display_name: Display name
-      domain: Domain
-      edit: Edit
-      email: Email
-      email_status: Email status
-      enable: Unfreeze
+      disable_two_factor_authentication: দুই পদ্ধতির প্রমাণীকরণ(2FA) বন্ধ করুন
+      disabled: বন্ধ করা হয়েছে
+      display_name: দেখানোর জন্য নাম
+      domain: ওয়েবসাইট/কার্যক্ষেত্র
+      edit: বদলান
+      email: ইমেইল
+      email_status: ইমেইলের অবস্থা
+      enable: চালু করুন
       enable_sign_in_token_auth: Enable e-mail token authentication
-      enabled: Enabled
+      enabled: চালু করুন
       enabled_msg: Successfully unfroze %{username}'s account
-      followers: Followers
-      follows: Follows
-      header: Header
-      inbox_url: Inbox URL
+      followers: অনুসরকারীরা
+      follows: অনুসরণ করে
+      header: শিরোলেখা
+      inbox_url: চিঠি পাওয়ার বক্স লিংক
       invite_request_text: Reasons for joining
-      invited_by: Invited by
-      ip: IP
-      joined: Joined
+      invited_by: আমন্ত্রণ করেছে
+      ip: আইপি(IP)
+      joined: যোগ দিয়েছে
       location:
-        all: All
-        local: Local
-        remote: Remote
-        title: Location
-      login_status: Login status
-      media_attachments: Media attachments
-      memorialize: Turn into memoriam
+        all: সব
+        local: স্থানীয়
+        remote: দূরবর্তী
+        title: জায়গা
+      login_status: নিবন্ধনধারীভাবে প্রবেশের অবস্থা
+      media_attachments: ছবি/ভিডিও যুক্ত
+      memorialize: স্মরণিকা বানান
       memorialized: Memorialized
       memorialized_msg: Successfully turned %{username} into a memorial account
       moderation:
-        active: Active
-        all: All
+        active: চালু
+        all: সব
         disabled: Disabled
-        pending: Pending
+        pending: অপেক্ষিত আছে
         silenced: Limited
-        suspended: Suspended
-        title: Moderation
-      moderation_notes: Moderation notes
-      most_recent_activity: Most recent activity
-      most_recent_ip: Most recent IP
-      no_account_selected: No accounts were changed as none were selected
-      no_limits_imposed: No limits imposed
+        suspended: স্থগিত করা হয়েছে
+        title: প্রশাসনা
+      moderation_notes: প্রশাসনের কিছু লেখা
+      most_recent_activity: সর্বশেষ কার্যক্রম
+      most_recent_ip: সর্বশেষ আইপি(IP)
+      no_account_selected: কোনও অ্যাকাউন্টই নির্বাচন করা হয়নি বলে কোনও অ্যাকাউন্ট পরিবর্তন করা হয়নি
+      no_limits_imposed: কোন সীমা আরোপ করা নেই
       no_role_assigned: No role assigned
-      not_subscribed: Not subscribed
-      pending: Pending review
-      perform_full_suspension: Suspend
+      not_subscribed: সাবস্ক্রাইব নেই
+      pending: পয্র্যবেক্ষণের অপেক্ষায় আছে
+      perform_full_suspension: বাতিল করা
       previous_strikes: Previous strikes
       previous_strikes_description_html:
         one: This account has <strong>one</strong> strike.
         other: This account has <strong>%{count}</strong> strikes.
-      promote: Promote
-      protocol: Protocol
-      public: Public
-      push_subscription_expires: PuSH subscription expires
-      redownload: Refresh profile
+      promote: প্রচার
+      protocol: প্রোটোকল
+      public: সর্বজনীন
+      push_subscription_expires: PuSH সাবস্ক্রিপশনের মেয়াদ শেষ হয়ে গেছে
+      redownload: প্রোফাইল সতেজ করুন
       redownloaded_msg: Successfully refreshed %{username}'s profile from origin
-      reject: Reject
+      reject: প্রত্যাখ্যান করুন
       rejected_msg: Successfully rejected %{username}'s sign-up application
       remote_suspension_irreversible: The data of this account has been irreversibly deleted.
       remote_suspension_reversible_hint_html: The account has been suspended on their server, and the data will be fully removed on %{date}. Until then, the remote server can restore this account without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
-      remove_avatar: Remove avatar
-      remove_header: Remove header
+      remove_avatar: অবতার অপসারণ করুন
+      remove_header: হেডার এর ছবি অপসারণ করুন
       removed_avatar_msg: Successfully removed %{username}'s avatar image
       removed_header_msg: Successfully removed %{username}'s header image
       resend_confirmation:
-        already_confirmed: This user is already confirmed
-        send: Resend confirmation email
-        success: Confirmation email successfully sent!
-      reset: Reset
-      reset_password: Reset password
-      resubscribe: Resubscribe
+        already_confirmed: এই ব্যবহারকারী ইতিমধ্যে নিশ্চিত করা আছে
+        send: নিশ্চিতকরণ ইমেল পুনরায় পাঠান
+        success: নিশ্চিতকরণের ইমেল সফলভাবে পাঠানো হয়েছে!
+      reset: পুনরায় সেট করুন
+      reset_password: পাসওয়ার্ড পুনঃস্থাপন করুন
+      resubscribe: পুনরায় সদস্যতা নিন
       role: Role
-      search: Search
-      search_same_email_domain: Other users with the same e-mail domain
-      search_same_ip: Other users with the same IP
+      search: অনুসন্ধান
+      search_same_email_domain: একই ইমেল ডোমেন সহ অন্যান্য ব্যবহারকারীরা
+      search_same_ip: একই IP সহ অন্যান্য ব্যবহারকারীরা
       security: Security
       security_measures:
         only_password: Only password
         password_and_2fa: Password and 2FA
       sensitive: Force-sensitive
       sensitized: Marked as sensitive
-      shared_inbox_url: Shared inbox URL
+      shared_inbox_url: ভাগ করা ইনবক্স URL
       show:
-        created_reports: Made reports
-        targeted_reports: Reported by others
-      silence: Limit
-      silenced: Limited
-      statuses: Posts
+        created_reports: তৈরি করা রিপোর্টগুলি
+        targeted_reports: অন্যদের দ্বারা প্রতিবেদনগুলি
+      silence: নীরব
+      silenced: নীরব করা হয়েছে
+      statuses: স্থিতিগুলি
       strikes: Previous strikes
-      subscribe: Subscribe
+      subscribe: সদস্যতা
       suspend: Suspend
-      suspended: Suspended
+      suspended: স্থগিত করা হয়েছে
       suspension_irreversible: The data of this account has been irreversibly deleted. You can unsuspend the account to make it usable but it will not recover any data it previously had.
       suspension_reversible_hint_html: The account has been suspended, and the data will be fully removed on %{date}. Until then, the account can be restored without any ill effects. If you wish to remove all of the account's data immediately, you can do so below.
-      title: Accounts
+      title: একাউন্ট সমূহ
       unblock_email: Unblock email address
       unblocked_email_msg: Successfully unblocked %{username}'s email address
-      unconfirmed_email: Unconfirmed email
+      unconfirmed_email: অনিশ্চিত ইমেল
       undo_sensitized: Undo force-sensitive
-      undo_silenced: Undo limit
-      undo_suspension: Undo suspension
+      undo_silenced: নীরবতা পূর্বাবস্থা
+      undo_suspension: স্থগিতকরণ পূর্বাবস্থায় ফেরাও
       unsilenced_msg: Successfully undid limit of %{username}'s account
-      unsubscribe: Unsubscribe
+      unsubscribe: সদস্যতা ত্যাগ করুন
       unsuspended_msg: Successfully unsuspended %{username}'s account
-      username: Username
+      username: ব্যবহারকারীর নাম
       view_domain: View summary for domain
-      warn: Warn
-      web: Web
-      whitelisted: Allowed for federation
+      warn: সতর্ক
+      web: ওয়েব
+      whitelisted: সাদাতালিকাযুক্ত
     action_logs:
       action_types:
         approve_appeal: Approve Appeal
         approve_user: Approve User
-        assigned_to_self_report: Assign Report
-        change_email_user: Change E-mail for User
+        assigned_to_self_report: রিপোর্ট বরাদ্দ করুন
+        change_email_user: ব্যবহারকারী জন্য ইমেইল পরিবর্তন করুন
         change_role_user: Change Role of User
-        confirm_user: Confirm User
-        create_account_warning: Create Warning
-        create_announcement: Create Announcement
+        confirm_user: ব্যবহারকারী নিশ্চিত করুন
+        create_account_warning: সতর্কতা তৈরি করুন
+        create_announcement: ঘোষণা তৈরি করুন
         create_canonical_email_block: Create E-mail Block
-        create_custom_emoji: Create Custom Emoji
-        create_domain_allow: Create Domain Allow
-        create_domain_block: Create Domain Block
-        create_email_domain_block: Create E-mail Domain Block
+        create_custom_emoji: স্বনির্ধারিত ইমোজি তৈরি করুন
+        create_domain_allow: ডোমেন অনুমোদন তৈরি করুন
+        create_domain_block: ডোমেন ব্লক তৈরি করুন
+        create_email_domain_block: ইমেইল ডোমেন ব্লক তৈরি করুন
         create_ip_block: Create IP rule
         create_unavailable_domain: Create Unavailable Domain
         create_user_role: Create Role
-        demote_user: Demote User
-        destroy_announcement: Delete Announcement
+        demote_user: ব্যবহারকারী কে হীনপদস্থ করুন
+        destroy_announcement: ঘোষণা মুছুন
         destroy_canonical_email_block: Delete E-mail Block
-        destroy_custom_emoji: Delete Custom Emoji
-        destroy_domain_allow: Delete Domain Allow
-        destroy_domain_block: Delete Domain Block
-        destroy_email_domain_block: Delete E-mail Domain Block
+        destroy_custom_emoji: স্বনির্ধারিত ইমোজি মুছুন
+        destroy_domain_allow: ডোমেন অনুমোদন মুছুন
+        destroy_domain_block: ডোমেন ব্লক মুছুন
+        destroy_email_domain_block: ইমেইল ডোমেন ব্লক মুছুন
         destroy_instance: Purge Domain
         destroy_ip_block: Delete IP rule
-        destroy_status: Delete Post
+        destroy_status: স্ট্যাটাস মুছুন
         destroy_unavailable_domain: Delete Unavailable Domain
         destroy_user_role: Destroy Role
-        disable_2fa_user: Disable 2FA
-        disable_custom_emoji: Disable Custom Emoji
+        disable_2fa_user: 2FA নিষ্ক্রিয় করুন
+        disable_custom_emoji: স্বনির্ধারিত ইমোজি নিষ্ক্রিয় করুন
         disable_sign_in_token_auth_user: Disable E-mail Token Authentication for User
-        disable_user: Disable User
-        enable_custom_emoji: Enable Custom Emoji
+        disable_user: ব্যবহারকারী কে নিষ্ক্রিয় করুন
+        enable_custom_emoji: স্বনির্ধারিত ইমোজি সক্রিয় করুন
         enable_sign_in_token_auth_user: Enable E-mail Token Authentication for User
-        enable_user: Enable User
-        memorialize_account: Memorialize Account
-        promote_user: Promote User
+        enable_user: ব্যবহারকারী কে সক্রিয় করুন
+        memorialize_account: মেমোরিয়ালাইজ অ্যাকাউন্ট
+        promote_user: ব্যবহারকারী কে পদোন্নতি করুন
         reject_appeal: Reject Appeal
         reject_user: Reject User
-        remove_avatar_user: Remove Avatar
-        reopen_report: Reopen Report
+        remove_avatar_user: অবতার অপসারণ করুন
+        reopen_report: প্রতিবেদনটি পুনরায় খুলুন
         resend_user: Resend Confirmation Mail
-        reset_password_user: Reset Password
-        resolve_report: Resolve Report
+        reset_password_user: পাসওয়ার্ড পুনঃস্থাপন করুন
+        resolve_report: প্রতিবেদনটি সমাধান করুন
         sensitive_account: Force-Sensitive Account
-        silence_account: Limit Account
-        suspend_account: Suspend Account
-        unassigned_report: Unassign Report
+        silence_account: অ্যাকাউন্ট নীরব করুন
+        suspend_account: অ্যাকাউন্ট স্থগিত করুন
+        unassigned_report: রিপোর্ট বরাদ্দ মুক্ত করুন
         unblock_email_account: Unblock email address
         unsensitive_account: Undo Force-Sensitive Account
-        unsilence_account: Undo Limit Account
-        unsuspend_account: Unsuspend Account
-        update_announcement: Update Announcement
-        update_custom_emoji: Update Custom Emoji
+        unsilence_account: অ্যাকাউন্ট নীরব মুক্ত করুন
+        unsuspend_account: অ্যাকাউন্ট স্থগিতমুক্ত করুন
+        update_announcement: ঘোষণা আপডেট করুন
+        update_custom_emoji: স্বনির্ধারিত ইমোজি আপডেট করুন
         update_domain_block: Update Domain Block
         update_ip_block: Update IP rule
-        update_status: Update Post
+        update_status: স্থিতি আপডেট করুন
         update_user_role: Update Role
       actions:
         approve_appeal_html: "%{name} approved moderation decision appeal from %{target}"
@@ -318,31 +318,31 @@ bn-BD:
       create_new_category: Create new category
       created_msg: Emoji successfully created!
       delete: Delete
-      destroyed_msg: Emojo successfully destroyed!
-      disable: Disable
-      disabled: Disabled
-      disabled_msg: Successfully disabled that emoji
-      emoji: Emoji
-      enable: Enable
-      enabled: Enabled
-      enabled_msg: Successfully enabled that emoji
+      destroyed_msg: ইমোজো সফলভাবে ধ্বংস হয়েছে!
+      disable: অক্ষম
+      disabled: অক্ষমিত
+      disabled_msg: সফলভাবে সেই ইমোজি অক্ষম করা হয়েছে
+      emoji: ইমোজি
+      enable: সক্রিয়
+      enabled: সক্রিয়
+      enabled_msg: সফলভাবে সেই ইমোজি সক্ষম করা হয়েছে
       image_hint: PNG or GIF up to %{size}
-      list: List
-      listed: Listed
+      list: তালিকা
+      listed: তালিকাভুক্ত
       new:
-        title: Add new custom emoji
+        title: নতুন স্বনির্ধারিত ইমোজি যোগ করুন
       no_emoji_selected: No emojis were changed as none were selected
-      not_permitted: You are not permitted to perform this action
-      overwrite: Overwrite
-      shortcode: Shortcode
-      shortcode_hint: At least 2 characters, only alphanumeric characters and underscores
-      title: Custom emojis
-      uncategorized: Uncategorized
-      unlist: Unlist
-      unlisted: Unlisted
-      update_failed_msg: Could not update that emoji
-      updated_msg: Emoji successfully updated!
-      upload: Upload
+      not_permitted: আপনার এই ক্রিয়া সম্পাদন করার অনুমতি নেই
+      overwrite: পুনর্লিখন
+      shortcode: শর্টকোড
+      shortcode_hint: কমপক্ষে ২ টি অক্ষর, কেবলমাত্র বর্ণানুক্রমিক অক্ষর এবং আন্ডারস্কোর
+      title: স্বনির্ধারিত ইমোজিগুলি
+      uncategorized: শ্রেণীবিহীন
+      unlist: তালিকামুক্ত
+      unlisted: তালিকামুক্ত
+      update_failed_msg: সেই ইমোজি আপডেট করতে পারেনি
+      updated_msg: ইমোজি সফলভাবে আপডেট হয়েছে!
+      upload: আপলোড
     dashboard:
       active_users: active users
       interactions: interactions
@@ -362,10 +362,10 @@ bn-BD:
         one: "<strong>%{count}</strong> pending user"
         other: "<strong>%{count}</strong> pending users"
       resolved_reports: reports resolved
-      software: Software
+      software: সফটওয়্যার
       sources: Sign-up sources
-      space: Space usage
-      title: Dashboard
+      space: স্থান ব্যবহার
+      title: ড্যাশবোর্ড
       top_languages: Top active languages
       top_servers: Top active servers
       website: Website
@@ -511,27 +511,27 @@ bn-BD:
         other: "%{count} known accounts"
       moderation:
         all: All
-        limited: Limited
-        title: Moderation
-      private_comment: Private comment
-      public_comment: Public comment
+        limited: সীমিত
+        title: প্রশাসনা
+      private_comment: ব্যক্তিগত মন্তব্য
+      public_comment: জনমত
       purge: Purge
       purge_description_html: If you believe this domain is offline for good, you can delete all account records and associated data from this domain from your storage. This may take a while.
-      title: Federation
-      total_blocked_by_us: Blocked by us
-      total_followed_by_them: Followed by them
-      total_followed_by_us: Followed by us
-      total_reported: Reports about them
-      total_storage: Media attachments
+      title: ফেডারেশন
+      total_blocked_by_us: আমাদের দ্বারা অবরুদ্ধ
+      total_followed_by_them: তাদের দ্বারা অনুসরণ
+      total_followed_by_us: আমাদের দ্বারা অনুসরণ
+      total_reported: তাদের সম্পর্কে রিপোর্ট
+      total_storage: মিডিয়া সংযুক্তিগুলি
       totals_time_period_hint_html: The totals displayed below include data for all time.
     invites:
-      deactivate_all: Deactivate all
+      deactivate_all: সব নিষ্ক্রিয় করুন
       filter:
-        all: All
-        available: Available
-        expired: Expired
-        title: Filter
-      title: Invites
+        all: সব
+        available: সহজলভ্য
+        expired: মেয়াদোত্তীর্ণ
+        title: ফিল্টার
+      title: আমন্ত্রণগুলি
     ip_blocks:
       add_new: Create rule
       created_msg: Successfully added new IP rule
@@ -548,26 +548,26 @@ bn-BD:
       no_ip_block_selected: No IP rules were changed as none were selected
       title: IP rules
     relationships:
-      title: "%{acct}'s relationships"
+      title: "%{acct} এর সম্পর্কগুলি"
     relays:
-      add_new: Add new relay
-      delete: Delete
-      description_html: A <strong>federation relay</strong> is an intermediary server that exchanges large volumes of public posts between servers that subscribe and publish to it. <strong>It can help small and medium servers discover content from the fediverse</strong>, which would otherwise require local users manually following other people on remote servers.
-      disable: Disable
-      disabled: Disabled
-      enable: Enable
-      enable_hint: Once enabled, your server will subscribe to all public posts from this relay, and will begin sending this server's public posts to it.
-      enabled: Enabled
-      inbox_url: Relay URL
-      pending: Waiting for relay's approval
-      save_and_enable: Save and enable
-      setup: Setup a relay connection
-      signatures_not_enabled: Relays may not work correctly while secure mode or limited federation mode is enabled
-      status: Status
-      title: Relays
+      add_new: নতুন রিলে যোগ করুন
+      delete: মুছুন
+      description_html: একটি <strong>ফেডারেশন রিলে</strong> একটি মধ্যস্থতাকারী সার্ভার যা সাবস্ক্রাইব করে এটিতে প্রকাশ করে এমন সার্ভারের মধ্যে প্রচুর পরিমাণে সর্বজনীন টটস বিনিময় করে। <strong>এটি ক্ষুদ্র ও মাঝারি সার্ভারগুলিকে ফেডাইভার্স থেকে সামগ্রী আবিষ্কার করতে সহায়তা করতে পারে</strong>, অন্যথায় স্থানীয় ব্যবহারকারীদের ম্যানুয়ালি অন্য লোককে দূরবর্তী সার্ভারে অনুসরণ করতে হবে।
+      disable: অক্ষম
+      disabled: অক্ষমিত
+      enable: সক্রিয়
+      enable_hint: একবার সক্ষম হয়ে গেলে, আপনার সার্ভার এই রিলে থেকে সমস্ত পাবলিক টুটগুলিতে সাবস্ক্রাইব করবে এবং এতে এই সার্ভারের সর্বজনীন টটগুলি প্রেরণ শুরু করবে।
+      enabled: সক্রিয়কৃত
+      inbox_url: রিলে ইউআরএল
+      pending: রিলের অনুমোদনের অপেক্ষায়
+      save_and_enable: সংরক্ষণ করুন এবং সক্ষম করুন
+      setup: রিলে সংযোগ সেটআপ করুন
+      signatures_not_enabled: সুরক্ষিত মোড বা সীমিত ফেডারেশন মোড সক্ষম থাকা অবস্থায় রিলেগুলি সঠিকভাবে কাজ করবে না
+      status: অবস্থা
+      title: রিলেগুলি
     report_notes:
-      created_msg: Report note successfully created!
-      destroyed_msg: Report note successfully deleted!
+      created_msg: রিপোর্ট নোট সফলভাবে তৈরি করা হয়েছে!
+      destroyed_msg: রিপোর্ট নোট সফলভাবে মোছা হয়েছে!
     reports:
       account:
         notes:
@@ -1691,7 +1691,7 @@ bn-BD:
     signed_in_as: 'Signed in as:'
   verification:
     explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
-    verification: Verification
+    verification: সত্যতা নির্ধারণ
   webauthn_credentials:
     add: Add new security key
     create:
