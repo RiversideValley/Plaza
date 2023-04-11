@@ -1,5 +1,5 @@
 ---
-es-419:
+es-ES:
   devise:
     confirmations:
       confirmed: Su dirección de correo electrónico ha sido confirmada correctamente.
@@ -23,21 +23,21 @@ es-419:
         explanation: Has creado una cuenta en %{host} con esta dirección de correo electrónico. Estás a un solo clic de activarlo. Si no fuiste tú, por favor ignora este correo electrónico.
         explanation_when_pending: Has solicitado una invitación a %{host} con esta dirección de correo electrónico. Una vez que confirmes tu dirección de correo electrónico, revisaremos tu solicitud. Puedes iniciar sesión para cambiar tus datos o eliminar tu cuenta, pero no puedes acceder a la mayoría de las funciones hasta que tu cuenta sea aprobada. Si su solicitud es rechazada, sus datos serán eliminados, por lo que no será necesaria ninguna acción adicional por su parte. Si no fuiste tú, por favor ignora este correo electrónico.
         extra_html: Por favor, revisa <a href="%{terms_path}">las reglas del servidor</a> y <a href="%{policy_path}">nuestros términos de servicio</a>.
-        subject: 'Mastodon: Instrucciones de confirmación para %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Verificar dirección de correo electrónico
       email_changed:
         explanation: 'El correo electrónico para su cuenta esta siendo cambiada a:'
         extra: Si usted no ha cambiado su correo electrónico, es probable que alguien haya conseguido acceso a su cuenta. Por favor cambie su contraseña inmediatamente o contacte al administrador de la instancia si usted no puede iniciar sesión.
-        subject: 'Mastodon: Correo electrónico cambiado'
+        subject: 'Plaza: Email changed'
         title: Nueva dirección de correo electrónico
       password_change:
         explanation: La contraseña de su cuenta a sido cambiada.
         extra: Si usted no a cambiado su contraseña. es probable que alguien a conseguido acceso a su cuenta. Por favor cambie su contraseña inmediatamente o contacte a el administrador de la instancia si usted esta bloqueado de su cuenta.
-        subject: 'Mastodon: Contraseña cambiada'
+        subject: 'Plaza: Password changed'
         title: Contraseña cambiada
       reconfirmation_instructions:
         explanation: Confirme la nueva dirección para cambiar su coreo electrónico.
-        extra: Si no iniciaste este cambio, por favor ignora este correo. Esta dirección de correo para la cuenta de Mastodon no cambiará hasta que accedas al vinculo arriba.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: Confirme correo electrónico para %{instance}'
         title: Verifique dirección de correo electrónico
       reset_password_instructions:
