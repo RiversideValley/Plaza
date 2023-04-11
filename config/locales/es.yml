@@ -1,10 +1,10 @@
 ---
-es-419:
+es-ES:
   about:
-    about_mastodon_html: 'La red social del futuro: ¡Sin anuncios, sin vigilancia corporativa, diseño ético, y descentralización! ¡Sé dueño de tu información con Mastodon!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: No especificado
     contact_unavailable: No disponible
-    hosted_on: Mastodon alojado en %{domain}
+    hosted_on: Plaza on %{domain}
     title: Acerca de
   accounts:
     follow: Seguir
@@ -91,7 +91,7 @@ es-419:
       moderation:
         active: Activo
         all: Todos
-        disabled: Deshabilitado
+        disabled: Disabled
         pending: Pendiente
         silenced: Limitado
         suspended: Suspendidos
@@ -134,7 +134,7 @@ es-419:
       search: Buscar
       search_same_email_domain: Otros usuarios con el mismo dominio de correo
       search_same_ip: Otros usuarios con la misma IP
-      security: Seguridad
+      security: Security
       security_measures:
         only_password: Sólo contraseña
         password_and_2fa: Contraseña y 2FA
@@ -429,7 +429,7 @@ es-419:
         resolve: Resolver dominio
         title: Nueva entrada en la lista negra de correo
       no_email_domain_block_selected: No se han cambiado bloqueos de dominio ya que ninguno ha sido seleccionado
-      not_permitted: No permitido
+      not_permitted: Not permitted
       resolved_dns_records_hint_html: El nombre de dominio resuelve los siguientes dominios MX, los cuales son responsables en última instancia de aceptar el correo electrónico. Bloquear un dominio MX bloqueará los registros de cualquier dirección de correo electrónico que utilice el mismo dominio MX, incluso si el nombre de dominio visible es diferente. <strong>Tenga cuidado de no bloquear los principales proveedores de correo electrónico.</strong>
       resolved_through_html: Resuelto a través de %{domain}
       title: Lista negra de correo
@@ -476,7 +476,7 @@ es-419:
       content_policies:
         comment: Nota interna
         description_html: Puedes definir políticas de contenido que se aplicarán a todas las cuentas de este dominio y a cualquiera de sus subdominios.
-        limited_federation_mode_description_html: Puede elegir si permite la federación en este dominio.
+        limited_federation_mode_description_html: You can chose whether to allow federation with this domain.
         policies:
           reject_media: Rechazar multimedia
           reject_reports: Rechazar informes
@@ -589,13 +589,13 @@ es-419:
       assign_to_self: Asignármela a mí
       assigned: Moderador asignado
       by_target_domain: Dominio de la cuenta reportada
-      cancel: Cancelar
+      cancel: Cancel
       category: Categoría
       category_description_html: La razón por la que se reportó esta cuenta o contenido será citada en las comunicaciones con la cuenta reportada
       comment:
         none: Ninguno
       comment_description_html: 'Para proporcionar más información, %{name} escribió:'
-      confirm: Confirmar
+      confirm: Confirm
       confirm_action: Confirmar acción de moderación contra @%{acct}
       created_at: Denunciado
       delete_and_resolve: Eliminar publicaciones
@@ -663,7 +663,7 @@ es-419:
         moderation: Moderación
         special: Especial
       delete: Eliminar
-      description_html: Con <strong>roles de usuario</strong>, puede personalizar las funciones y áreas de Mastodon a las que pueden acceder sus usuarios.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Editar rol '%{name}'
       everyone: Permisos por defecto
       everyone_full_description_html: Este es el <strong>rol base</strong> que afecta a <strong>todos los usuarios</strong>, incluso aquellos sin un rol asignado. Todos los otros roles heredan permisos de él.
@@ -726,20 +726,20 @@ es-419:
         rules_hint: Hay un área dedicada para las reglas a las que se espera que tus usuarios se adhieran.
         title: Acerca de
       appearance:
-        preamble: Personalizar la interfaz web de Mastodon.
+        preamble: Customize Plaza's interface.
         title: Apariencia
       branding:
-        preamble: La marca de tu servidor lo diferencia de otros servidores de la red. Esta información puede mostrarse a través de una variedad de entornos, como en la interfaz web de Mastodon, en aplicaciones nativas, en previsualizaciones de enlaces en otros sitios web y en aplicaciones de mensajería, etc. Por esta razón, es mejor mantener esta información clara, breve y concisa.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Marca
       content_retention:
-        preamble: Controlar cómo el contenido generado por el usuario se almacena en Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Retención de contenido
       default_noindex:
         desc_html: Afecta a todos los usuarios que no han cambiado esta configuración por sí mismos
         title: Excluir por defecto a los usuarios de la indexación del motor de búsqueda
       discovery:
         follow_recommendations: Recomendaciones de cuentas
-        preamble: Exponer contenido interesante a la superficie es fundamental para incorporar nuevos usuarios que pueden no conocer a nadie Mastodon. Controla cómo funcionan varias opciones de descubrimiento en tu servidor.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Directorio de perfiles
         public_timelines: Lineas de tiempo públicas
         publish_discovered_servers: Publicar servidores descubiertos
@@ -798,7 +798,7 @@ es-419:
         suspend: "%{name} suspendió la cuenta de %{target}"
       appeal_approved: Apelado
       appeal_pending: Apelación pendiente
-      appeal_rejected: Apelación rechazada
+      appeal_rejected: Appeal rejected
     system_checks:
       database_schema_check:
         message_html: Hay migraciones pendientes de la base de datos. Por favor, ejecútalas para asegurarte de que la aplicación funciona como debería
@@ -834,7 +834,7 @@ es-419:
           other: Compartido por %{count} personas durante la última semana
         title: Enlaces en tendencia
         usage_comparison: Compartido %{today} veces hoy, comparado con %{yesterday} ayer
-      not_allowed_to_trend: No permitido para tendencia
+      not_allowed_to_trend: Not allowed to trend
       only_allowed: Sólo las permitidas
       pending_review: Revisión pendiente
       preview_card_providers:
@@ -889,7 +889,7 @@ es-419:
     webhooks:
       add_new: Añadir endpoint
       delete: Eliminar
-      description_html: Un <strong>webhook</strong> permite a Mastodon enviar <strong>notificaciones en tiempo real</strong> sobre los eventos elegidos a tu propia aplicación, para que tu aplicación pueda <strong>lanzar reacciones automáticamente</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Deshabilitar
       disabled: Deshabilitado
       edit: Editar endpoint
@@ -951,8 +951,8 @@ es-419:
     confirmation_dialogs: Diálogos de confirmación
     discovery: Descubrir
     localization:
-      body: Mastodon es traducido con la ayuda de voluntarios.
-      guide_link: https://es.crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Todos pueden contribuir.
     sensitive_content: Contenido sensible
     toot_layout: Diseño de las publicaciones
@@ -966,7 +966,7 @@ es-419:
   applications:
     created: Aplicación creada exitosamente
     destroyed: Apicación eliminada exitosamente
-    logout: Cerrar sesión
+    logout: Logout
     regenerate_token: Regenerar token de acceso
     token_regenerated: Token de acceso regenerado exitosamente
     warning: Ten mucho cuidado con estos datos. ¡No los compartas con nadie!
@@ -979,9 +979,9 @@ es-419:
     delete_account: Borrar cuenta
     delete_account_html: Si desea eliminar su cuenta, puede <a href="%{path}">proceder aquí</a>. Será pedido de una confirmación.
     description:
-      prefix_invited_by_user: "¡@%{name} te invita a unirte a este servidor de Mastodon!"
-      prefix_sign_up: '¡Únete a Mastodon hoy!'
-      suffix: '¡Con una cuenta podrás seguir a gente, publicar novedades e intercambiar mensajes con usuarios de cualquier servidor de Mastodon y más!'
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: '¿No recibió el correo de confirmación?'
     dont_have_your_security_key: '¿No tienes tu clave de seguridad?'
     forgot_password: '¿Olvidaste tu contraseña?'
@@ -1003,8 +1003,8 @@ es-419:
     resend_confirmation: Volver a enviar el correo de confirmación
     reset_password: Restablecer contraseña
     rules:
-      accept: Aceptar
-      back: Atrás
+      accept: Accept
+      back: Back
       preamble: Estas son establecidas y aplicadas por los moderadores de %{domain}.
       title: Algunas reglas básicas.
     security: Cambiar contraseña
@@ -1017,7 +1017,7 @@ es-419:
       preamble_html: Inicia sesión con tus credenciales de <strong>%{domain}</strong>. Si tu cuenta está alojada en un servidor diferente, no podrás iniciar sesión aquí.
       title: Iniciar sesión en %{domain}
     sign_up:
-      preamble: Con una cuenta en este servidor de Mastodon, podrás seguir a cualquier otra persona en la red, independientemente del servidor en el que se encuentre.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Crear cuenta de Mastodon en %{domain}.
     status:
       account_status: Estado de la cuenta
@@ -1130,7 +1130,7 @@ es-419:
       content: Lo sentimos, algo ha funcionado mal por nuestra parte.
       title: Esta página no es correcta
     '503': La página no se ha podido cargar debido a un fallo temporal del servidor.
-    noscript_html: Para usar la aplicación web de Mastodon, por favor activa Javascript. Alternativamente, prueba alguna de las <a href="%{apps_path}">aplicaciones nativas</a> para Mastodon para tu plataforma.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: no pudo encontrar un usuario local con ese nombre de usuario
     not_found_multiple: no pudo encontrar %{usernames}
@@ -1461,7 +1461,7 @@ es-419:
       weibo: Weibo
     current_session: Sesión actual
     description: "%{browser} en %{platform}"
-    explanation: Estos son los navegadores web conectados actualmente en tu cuenta de Mastodon.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ es-419:
     aliases: Alias de la cuenta
     appearance: Apariencia
     authorized_apps: Aplicaciones autorizadas
-    back: Volver al inicio
+    back: Back to Plaza
     delete: Borrar cuenta
     development: Desarrollo
     edit_profile: Editar perfil
@@ -1585,7 +1585,7 @@ es-419:
       '7889238': 3 meses
     min_age_label: Umbral de tiempo
     min_favs: Mantener mensajes con un número de favoritos mayor que
-    min_favs_hint: No borra ninguna de las publicaciones que hayan recibido al menos esta cantidad de favoritos. Deja en blanco para eliminar publicaciones sin importar el número de favoritos
+    min_favs_hint: No borra ninguna de las publicaciones que hayan recibido más de esta cantidad de favoritos. Deja en blanco para eliminar publicaciones sin importar el número de favoritos
     min_reblogs: Mantener publicaciones reblogueadas más de
     min_reblogs_hint: No borra ninguna de las publicaciones que hayan sido reblogueadas más de este número de veces. Deja en blanco para eliminar publicaciones sin importar el número de reblogueos
   stream_entries:
@@ -1598,9 +1598,9 @@ es-419:
   tags:
     does_not_match_previous_name: no coincide con el nombre anterior
   themes:
-    contrast: Alto contraste
-    default: Mastodon
-    mastodon-light: Mastodon (claro)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d de %b del %Y, %H:%M"
@@ -1632,7 +1632,7 @@ es-419:
       subject: Tu apelación del %{date} ha sido rechazada
       title: Apelación rechazada
     backup_ready:
-      explanation: Has solicitado una copia completa de tu cuenta de Mastodon. ¡Ya está preparada para descargar!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Tu archivo está preparado para descargar
       title: Descargar archivo
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ es-419:
       final_step: '¡Empieza a publicar! Incluso sin seguidores, tus publicaciones públicas pueden ser vistas por otros, por ejemplo en la línea de tiempo local o en etiquetas. Tal vez quieras presentarte con la etiqueta de #introducciones.'
       full_handle: Su sobrenombre completo
       full_handle_hint: Esto es lo que le dirías a tus amigos para que ellos puedan enviarte mensajes o seguirte desde otra instancia.
-      subject: Bienvenido a Mastodon
+      subject: Welcome to Plaza
       title: Te damos la bienvenida a bordo, %{name}!
   users:
     follow_limit_reached: No puedes seguir a más de %{limit} personas
@@ -1690,7 +1690,7 @@ es-419:
     seamless_external_login: Has iniciado sesión desde un servicio externo, así que los ajustes de contraseña y correo no están disponibles.
     signed_in_as: 'Sesión iniciada como:'
   verification:
-    explanation_html: 'Puedes <strong> verificarte a ti mismo como el dueño de los links en los metadatos de tu perfil </strong>. Para eso, el sitio vinculado debe contener un vínculo a tu perfil de Mastodon. El vínculo en tu sitio <strong> debe </strong> tener un atributo <code> rel="me"</code>. El texto del vínculo no importa. Aquí un ejemplo:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Verificación
   webauthn_credentials:
     add: Agregar nueva clave de seguridad
