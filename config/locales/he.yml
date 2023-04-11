@@ -1,10 +1,10 @@
 ---
-he:
+he-IL:
   about:
-    about_mastodon_html: 'מסטודון היא רשת חברתית <em>חופשית, מבוססת תוכנה חופשית ("קוד פתוח")</em>. כאלטרנטיבה <em>בלתי ריכוזית</em> לפלטפרומות המסחריות, מסטודון מאפשרת להמנע מהסיכונים הנלווים להפקדת התקשורת שלך בידי חברה יחידה. שמת את מבטחך בשרת אחד &mdash; לא משנה במי בחרת, תמיד אפשר לדבר עם כל שאר המשתמשים. לכל מי שרוצה יש את האפשרות להקים שרת מסטודון עצמאי, ולהשתתף ב<em>רשת החברתית</em> באופן חלק.'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: ללא הגדרה
     contact_unavailable: לא רלוונטי/חסר
-    hosted_on: מסטודון שיושב בכתובת %{domain}
+    hosted_on: Plaza on %{domain}
     title: אודות
   accounts:
     follow: לעקוב
@@ -689,7 +689,7 @@ he:
         moderation: פיקוח
         special: מיוחדים
       delete: מחיקה
-      description_html: באמצעות <strong>תפקידי משתמש</strong>, תוכלו להתאים אישית לאילו פונקציות ואזורים של מסטודון המשתמשים יוכלו לגשת
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: עריכת התפקיד של %{name}
       everyone: הרשאות ברירת מחדל
       everyone_full_description_html: זהו <strong>התפקיד הבסיסי </strong> שמשפיע על <strong>כלל המשתשמשים</strong>, אפילו אלו ללא תפקיד. כל התפקידים האחרים יורשים את ההרשאות שלהם ממנו.
@@ -754,20 +754,20 @@ he:
         rules_hint: קיים מקום ייעודי לחוקים שעל המשתמשים שלך לדבוק בהם.
         title: אודות
       appearance:
-        preamble: התאמה מיוחדת של מנשק המשתמש של מסטודון.
+        preamble: Customize Plaza's interface.
         title: מראה
       branding:
-        preamble: המיתוג של השרת שלך מבדל אותו משרתים אחרים ברשת. המידע יכול להיות מוצג בסביבות שונות כגון מנשק הווב של מסטודון, יישומים מקומיים, בצפיה מקדימה של קישור או בתוך יישומוני הודעות וכולי. מסיבה זו מומלץ לשמור על המידע ברור, קצר וממצה.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: מיתוג
       content_retention:
-        preamble: שליטה על דרך אחסון תוכן המשתמשים במסטודון.
+        preamble: Control how user-generated content is stored in Plaza.
         title: תקופת השמירה של תכנים
       default_noindex:
         desc_html: משפיע על כל המשתמשים/ות שלא שינו את ההגדרה הזו בעצמם
         title: הסתרת משתמשיםות ממנוע החיפוש כברירת המחדל
       discovery:
         follow_recommendations: המלצות מעקב
-        preamble: הצפה של תוכן מעניין בקבלת פני משתמשות חדשות שאולי אינן מכירות עדיין א.נשים במסטודון. ניתן לשלוט איך אפשרויות גילוי שונות עובדות על השרת שלך.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: מדריך פרופילים
         public_timelines: פידים פומביים
         publish_discovered_servers: פרסום שרתים שנתגלו
@@ -923,7 +923,7 @@ he:
     webhooks:
       add_new: הוספת נקודת קצה
       delete: מחיקה
-      description_html: כלי <strong>webhook</strong> מאפשר למסטודון לשגר <strong>התראות זמן-אמת</strong> לגבי אירועים נבחרים ליישומון שלך כדי שהוא יוכל <strong>להגיב אוטומטית</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: כיבוי
       disabled: כבוי
       edit: עריכת נקודת קצה
@@ -987,8 +987,8 @@ he:
     confirmation_dialogs: חלונות אישור
     discovery: גילוי
     localization:
-      body: מסטודון מתורגם על ידי מתנדבים.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: כולם יכולים לתרום.
     sensitive_content: תוכן רגיש
     toot_layout: פריסת הודעה
@@ -1015,9 +1015,9 @@ he:
     delete_account: מחיקת חשבון
     delete_account_html: אם ברצונך למחוק את החשבון, ניתן <a href="%{path}">להמשיך כאן</a>. תתבקש/י לספק אישור נוסף.
     description:
-      prefix_invited_by_user: "@%{name} רוצה שתצטרף לשרת זה במסטודון!"
-      prefix_sign_up: הרשם/י למסטודון היום!
-      suffix: כבעל/ת חשבון, תוכל/י לעקוב אחרי אנשים, לפרסם עדכונים ולהחליף חצרוצים עם משתמשים מכל שרת מסטודון ועוד!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: לא התקבלו הוראות אימות?
     dont_have_your_security_key: אין לך מפתח אבטחה?
     forgot_password: הנשתכחה סיסמתך?
@@ -1053,7 +1053,7 @@ he:
       preamble_html: הכנס.י עם שם וסיסמא מאתר <strong>%{domain}</strong>. אם חשבונך מתארח בשרת אחר, לא ניתן להתחבר איתו פה.
       title: התחבר אל %{domain}
     sign_up:
-      preamble: כיוון שמסטודון מבוזרת, תוכל/י להשתמש בחשבון שלך משרתי מסטודון או רשתות תואמות אחרות אם אין לך חשבון על שרת זה.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: הבה ניצור לך חשבון בשרת %{domain}.
     status:
       account_status: מצב חשבון
@@ -1166,7 +1166,7 @@ he:
       content: אנו מצטערות, אבל משהו השתבש בצד שלנו.
       title: דף זה אינו נכון
     '503': לא ניתן להציג דף זה עקב תקלת שרת זמנית.
-    noscript_html: על מנת להשתמש ביישום הווב של מסטודון, נא לאפשר שימוש בג'אווהסקריפט. לחילופין אפשר לנסות את אחת ה<a href="%{apps_path}">אפליקציות הילידיות</a> שלנו המתאימה לסביבתך.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: לא נמצא משתמש מקומי בשם זה
     not_found_multiple: לא נמצאו %{usernames}
@@ -1513,7 +1513,7 @@ he:
       weibo: Weibo
     current_session: חיבור נוכחי
     description: "%{browser} על %{platform}"
-    explanation: אלה הם הדפדפנים המחוברים כרגע לחשבון המסטודון שלך.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: אדובה אייר
@@ -1538,7 +1538,7 @@ he:
     aliases: שמות נרדפים לחשבון
     appearance: תצוגה
     authorized_apps: ישומים מאושרים
-    back: חזרה למסטודון
+    back: Back to Plaza
     delete: מחיקת חשבון
     development: פיתוח
     edit_profile: עריכת פרופיל
@@ -1662,9 +1662,9 @@ he:
   tags:
     does_not_match_previous_name: לא תואם את השם האחרון
   themes:
-    contrast: מסטודון (ניגודיות גבוהה)
-    default: מסטודון (כהה)
-    mastodon-light: מסטודון (בהיר)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d %b %Y, %H:%M"
@@ -1696,7 +1696,7 @@ he:
       subject: ערעורך מתאריך %{date} נדחה
       title: הערעור נדחה
     backup_ready:
-      explanation: ביקשת גיבוי מלא של חשבון המסטודון שלך. הוא מוכן להורדה!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: הארכיון שלך מוכן להורדה
       title: הוצאת ארכיון
     suspicious_sign_in:
@@ -1745,7 +1745,7 @@ he:
       final_step: 'התחל/ילי לחצצר! אפילו ללא עוקבים ייתכן שהחצרוצים הפומביים שלך יראו ע"י אחרים, למשל בציר הזמן המקומי או בתגיות הקבצה (האשתגים). כדאי להציג את עצמך תחת התגית #introductions או #היכרות'
       full_handle: שם המשתמש המלא שלך
       full_handle_hint: זה מה שתאמר.י לחברייך כדי שיוכלו לשלוח לך הודעה או לעקוב אחרייך ממופע אחר.
-      subject: ברוכים הבאים למסטודון
+      subject: Welcome to Plaza
       title: ברוך/ה הבא/ה, %{name} !
   users:
     follow_limit_reached: לא תוכל לעקוב אחר יותר מ %{limit} אנשים
@@ -1754,7 +1754,7 @@ he:
     seamless_external_login: את.ה מחובר דרך שירות חיצוני, לכן אפשרויות הסיסמא והדוא"ל לא מאופשרות.
     signed_in_as: 'מחובר בתור:'
   verification:
-    explanation_html: 'ניתן <strong>לאמת את עצמך כבעלים של הקישורית במטא-נתונים של פרופילך</strong>. כדי לעשות זאת, האתר המקושר חייב להכיל קישורית חוזרת לפרופיל המסטודון שלך. הקישורית החוזרת <strong>חייבת</strong> להכיל תכונת <code>rel="me"</code>. התוכן הטקסטואלי של הקישורית לא משנה. הנה דוגמא:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: אימות
   webauthn_credentials:
     add: הוספת מפתח אבטחה חדש
