@@ -1,10 +1,10 @@
 ---
-eu:
+eu-ES:
   about:
-    about_mastodon_html: 'Etorkizuneko sare soziala: ez iragarkirik eta ez zelatatze korporatiborik, diseinu etikoa eta deszentralizazioa! Izan zure datuen jabea Mastodonekin!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Ezarri gabe
     contact_unavailable: E/E
-    hosted_on: Mastodon %{domain} domeinuan ostatatua
+    hosted_on: Plaza on %{domain}
     title: Honi buruz
   accounts:
     follow: Jarraitu
@@ -663,7 +663,7 @@ eu:
         moderation: Moderazioa
         special: Berezia
       delete: Ezabatu
-      description_html: <strong>Erabiltzaile rolak</strong> erabiliz erabiltzaileek Mastodonen ze funtzio eta lekutara sarbidea duten pertsonalizatu dezakezu.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Editatu '%{name}' rola
       everyone: Baimen lehenetsiak
       everyone_full_description_html: Hau <strong>erabiltzaile guztiei</strong> eragiten dien <strong>oinarrizko rola</strong> da, rol bat esleitu gabekoei ere bai. Gainerako rolek honetatik heredatzen dituzte baimenak.
@@ -726,20 +726,20 @@ eu:
         rules_hint: Erabiltzaileek jarraitu behar dituzten arauei eskainitako atal bat dago.
         title: Honi buruz
       appearance:
-        preamble: Mastodonen web interfazea pertsonalizatu.
+        preamble: Customize Plaza's interface.
         title: Itxura
       branding:
-        preamble: 'Zure zerbitzariaren markak sareko beste zerbitzarietatik bereizten du. Informazio hau hainbat ingurunetan bistaratuko da: Mastodonen web interfazean, aplikazio natiboetan, esteken aurrebistak beste webguneetan eta mezularitza aplikazioetan eta abar. Horregatik, informazio hau garbia eta laburra izatea komeni da.'
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Marka
       content_retention:
-        preamble: Kontrolatu erabiltzaileek sortutako edukia nola biltegiratzen den Mastodonen.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Edukia atxikitzea
       default_noindex:
         desc_html: Ezarpen hau aldatu ez duten erabiltzaile guztiei eragingo die
         title: Erabiltzaileei bilaketa-motorraren indexaziotik at egoteko aukera ematen die lehenetsitako aukera modura
       discovery:
         follow_recommendations: Jarraitzeko gomendioak
-        preamble: Eduki interesgarria aurkitzea garrantzitsua da Mastodoneko erabiltzaile berrientzat, behar bada inor ez dutelako ezagutuko. Kontrolatu zure zerbitzariko aurkikuntza-ezaugarriek nola funtzionatzen duten.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Profil-direktorioa
         public_timelines: Denbora-lerro publikoak
         publish_discovered_servers: Deskubritutako zerbitzariak argitaratu
@@ -889,7 +889,7 @@ eu:
     webhooks:
       add_new: Gehitu amaiera-puntua
       delete: Ezabatu
-      description_html: <strong>Webhook</strong> batek aukera ematen dio Mastodoni zure aplikazioari aukeratutako gertaeren <strong>jakinarazpenak denbora errealean</strong> bidaltzeko, zure aplikazioak <strong>automatikoki erantzunak abiarazi ditzan</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Desgaitu
       disabled: Desgaituta
       edit: Editatu amaiera-puntua
@@ -951,8 +951,8 @@ eu:
     confirmation_dialogs: Berrespen dialogoak
     discovery: Aurkitzea
     localization:
-      body: Mastodon boluntarioek itzultzen dute.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Edonork lagundu dezake.
     sensitive_content: Eduki hunkigarria
     toot_layout: Bidalketen diseinua
@@ -979,9 +979,9 @@ eu:
     delete_account: Ezabatu kontua
     delete_account_html: Kontua ezabatu nahi baduzu, <a href="%{path}">jarraitu hemen</a>. Berrestea eskatuko zaizu.
     description:
-      prefix_invited_by_user: "@%{name} erabiltzaileak Mastodon zerbitzari honetara elkartzera gonbidatzen zaitu!"
-      prefix_sign_up: Eman izena Mastodon-en!
-      suffix: Kontu bat baduzu, jendea jarraitu ahal izango duzu, bidalketak sortu eta Mastodon zein kanpoko zerbitzarietako erabiltzaileekin elkarrizketan aritu!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Ez dituzu berresteko argibideak jaso?
     dont_have_your_security_key: Ez daukazu zure segurtasun gakoa?
     forgot_password: Pasahitza ahaztu duzu?
@@ -1017,7 +1017,7 @@ eu:
       preamble_html: Zure <strong>%{domain}-(e)ko</strong> egiaztagiriekin saioa hasi. Zure kontua beste zerbitzari batean badago, ezin izango duzu hemen saioa hasi.
       title: '%{domain}-(e)an saioa hasi'
     sign_up:
-      preamble: Mastodon zerbitzari honetako kontu batekin, aukera izango duzu sareko edozein pertsona jarraitzeko, ez dio axola kontua non ostatatua dagoen.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: '%{domain} zerbitzariko kontua prestatuko dizugu.'
     status:
       account_status: Kontuaren egoera
@@ -1130,7 +1130,7 @@ eu:
       content: Sentitzen dugu, zerbait okerra gertatu da gure aldean.
       title: Orri hau ez da zuzena
     '503': Orria ezin izan da zerbitzatu zerbitzariaren behin behineko arazo bat dela eta.
-    noscript_html: Mastodon web aplikazioa erabiltzeko, gaitu JavaScript. Bestela, probatu Mastodon plataformarako <a href="%{apps_path}">aplikazio natibo</a>ren bat.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: ezin izan da izen hori duen kide lokalik aurkitu
     not_found_multiple: ezin izan dira aurkitu %{usernames}
@@ -1461,7 +1461,7 @@ eu:
       weibo: Weibo
     current_session: Uneko saioa
     description: "%{browser} - %{platform}"
-    explanation: Zure Mastodon kontuan saioa hasita duten nabigatzaileak daude.
+    explanation: These are the apps currently logged in to your account.
     ip: IP-a
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ eu:
     aliases: Kontuaren ezizenak
     appearance: Itxura
     authorized_apps: Baimendutako aplikazioak
-    back: Itzuli Mastodon-era
+    back: Back to Plaza
     delete: Kontuaren ezabaketa
     development: Garapena
     edit_profile: Aldatu profila
@@ -1598,9 +1598,9 @@ eu:
   tags:
     does_not_match_previous_name: ez dator aurreko izenarekin bat
   themes:
-    contrast: Mastodon (Kontraste altua)
-    default: Mastodon (Iluna)
-    mastodon-light: Mastodon (Argia)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%Y(e)ko %b %d, %H:%M"
@@ -1632,7 +1632,7 @@ eu:
       subject: '%{date}(e)ko zure apelazioa baztertu da'
       title: Apelazioa baztertuta
     backup_ready:
-      explanation: Zure Mastodon kontuaren babes-kopia osoa eskatu duzu. Deskargatzeko prest dago!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Zure artxiboa deskargatzeko prest dago
       title: Artxiboa jasotzea
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ eu:
       final_step: 'Hasi argitaratzen! Jarraitzailerik ez baduzu ere zure bidalketa publikoak besteek ikusi ditzakete, esaterako denbora-lerro lokalean eta traoletan. Zure burua aurkeztu nahi baduzu #aurkezpenak traola erabili zenezake.'
       full_handle: Zure erabiltzaile-izen osoa
       full_handle_hint: Hau da lagunei esango zeniekeena beste zerbitzari batetik zu jarraitzeko edo zuri mezuak bidaltzeko.
-      subject: Ongi etorri Mastodon-era
+      subject: Welcome to Plaza
       title: Ongi etorri, %{name}!
   users:
     follow_limit_reached: Ezin dituzu %{limit} pertsona baino gehiago jarraitu
@@ -1690,7 +1690,7 @@ eu:
     seamless_external_login: Kanpo zerbitzu baten bidez hasi duzu saioa, beraz pasahitza eta e-mail ezarpenak ez daude eskuragarri.
     signed_in_as: 'Saioa honela hasita:'
   verification:
-    explanation_html: 'Ezin duzu <strong>zure burua zure profileko metadatuen esteken jabe gisa egiaztatu</strong>. Horretarako, estekatutako webgunean zure Mastodon profilera daraman esteka bat egon behar du. Mastodonera daraman esteka horrek<strong>derrigorrez</strong> <code>rel="me"</code> artibutua izan behar du . Estekaren testuak ez du axola. Hona adibide bat:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Egiaztaketa
   webauthn_credentials:
     add: Gehitu segurtasun gako berria
