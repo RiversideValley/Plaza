@@ -23,21 +23,21 @@ ka-GE:
         explanation: თქვენ ამ ელ-ფოსტის მისამართი ანგარიში შექმენით %{host}-ზე. დარჩა ერთი დაწკაპუნება მის აქტივაციამდე. თუ ეს თქვენ არ იყავით, გთხოვთ არ მიაქციოთ ყურადღება ამ წერილს.
         explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
         extra_html: გთხოვთ ასევე გაეცნოთ <a href="%{terms_path}">ინსტანციის წესებს</a> და <a href="%{policy_path}">ჩვენს კონფინდენციალურობის პოლიტიკას</a>.
-        subject: 'მასტოდონი: დამოწმების ინსტრუქციები %{instance}-თვის'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: ელ-ფოსტის მისამართის დამოწმება
       email_changed:
         explanation: 'თქვენი ანგარიშის ელ-ფოსტის მისამართი იცვლება შემდეგზე:'
         extra: თუ თქვენ არ შეგიცვლიათ თქვენი ელ-ფოსტის მისამართი, როგორც ჩანს სხვამ ხელთ იგდო თქვენი ანგარიში. გთოხვთ შეცვალოთ თქვენი პაროლი რაც შეიძლება მალე, ან დაუკავშირდეთ ინსტანციის ადმინისტრატორს თუ თქვენი ანგარიში ჩაიკეტა.
-        subject: 'მასტოდონი: ელ-ფოსტა შეიცვალა'
+        subject: 'Plaza: Email changed'
         title: ახალი ელ-ფოსტის მისამართი
       password_change:
         explanation: თქვენი ანგარიშის პაროლი შეიცვალა.
         extra: თუ თქვენ არ შეგიცვლიათ პაროლი, როგორც ჩანს სხვამ ხელთ იგდო თქვენი ანგარიში. გთოხვთ შეცვალოთ თქვენი პაროლი რაც შეიძლება მალე, ან დაუკავშირდეთ ინსტანციის ადმინისტრატორს თუ თქვენი ანგარიში ჩაიკეტა.
-        subject: 'მასტოდონი: პაროლი შეიცვალა'
+        subject: 'Plaza: Password changed'
         title: პაროლი შეიცვალა
       reconfirmation_instructions:
         explanation: დაამოწმეთ ახალი ელ-ფოსტის მისამართი ცვლილებისთვის.
-        extra: თუ თქვენ არ გამოიწვიეთ ეს ცვლილება, გთხოვთ არ მიაქციოთ ყურადღება ამ წერილს. მასტოდონის ელ-ფოსტის მისამართი არ შეიცვლება სანამ არ გადახვალთ ზემოთ მოცემულ ბმულზე.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'მასტოდონი: დაამოწმეთ ელ-ფოსტის მისამართი %{instance}-თვის'
         title: დაამოწმეთ ელ-ფოსტის მისამართი
       reset_password_instructions:
