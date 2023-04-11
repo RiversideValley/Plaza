@@ -1,10 +1,10 @@
 ---
-nl-SR:
+nl-NL:
   about:
-    about_mastodon_html: 'Het sociale netwerk van de toekomst: geen advertenties, geen bedrijven die meekijken, ethisch ontworpen, en gedecentraliseerd! Wees eigenaar van jouw eigen gegevens met Mastodon!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Niet ingesteld
     contact_unavailable: n.v.t
-    hosted_on: Mastodon op %{domain}
+    hosted_on: Plaza on %{domain}
     title: Over
   accounts:
     follow: Volgen
@@ -91,7 +91,7 @@ nl-SR:
       moderation:
         active: Actief
         all: Alles
-        disabled: Uitgeschakeld
+        disabled: Disabled
         pending: In afwachting
         silenced: Beperkt
         suspended: Opgeschort
@@ -134,7 +134,7 @@ nl-SR:
       search: Zoeken
       search_same_email_domain: Andere gebruikers met hetzelfde e-maildomein
       search_same_ip: Andere gebruikers met hetzelfde IP-adres
-      security: Beveiliging
+      security: Security
       security_measures:
         only_password: Alleen wachtwoord
         password_and_2fa: Wachtwoord en tweestapsverificatie
@@ -429,7 +429,7 @@ nl-SR:
         resolve: Domein opzoeken
         title: Nieuw e-maildomein blokkeren
       no_email_domain_block_selected: Er werden geen e-maildomeinblokkades gewijzigd, omdat er geen enkele werd geselecteerd
-      not_permitted: Niet toegestaan
+      not_permitted: Not permitted
       resolved_dns_records_hint_html: De domeinnaam slaat op de volgende MX-domeinen die uiteindelijk verantwoordelijk zijn voor het accepteren van e-mail. Het blokkeren van een MX-domein blokkeert aanmeldingen van elk e-mailadres dat hetzelfde MX-domein gebruikt, zelfs als de zichtbare domeinnaam anders is. <strong>Pas op dat u geen grote e-mailproviders blokkeert.</strong>
       resolved_through_html: Geblokkeerd via %{domain}
       title: Geblokkeerde e-maildomeinen
@@ -476,7 +476,7 @@ nl-SR:
       content_policies:
         comment: Interne reden
         description_html: Je kunt het beleid bepalen dat op de accounts van dit domein en alle subdomeinen van toepassing is.
-        limited_federation_mode_description_html: Je kunt kiezen of je federatie met dit domein wilt toestaan.
+        limited_federation_mode_description_html: You can chose whether to allow federation with this domain.
         policies:
           reject_media: Mediabestanden weigeren
           reject_reports: Rapportages weigeren
@@ -589,13 +589,13 @@ nl-SR:
       assign_to_self: Aan mij toewijzen
       assigned: Toegewezen moderator
       by_target_domain: Domein van gerapporteerde account
-      cancel: Annuleren
+      cancel: Cancel
       category: Category
       category_description_html: De reden waarom dit account en/of inhoud werd gerapporteerd wordt aan het gerapporteerde account medegedeeld
       comment:
         none: Geen
       comment_description_html: 'Om meer informatie te verstrekken, schreef %{name}:'
-      confirm: Bevestigen
+      confirm: Confirm
       confirm_action: Bevestig moderatiemaatregel tegen @%{acct}
       created_at: Gerapporteerd op
       delete_and_resolve: Bericht verwijderen
@@ -663,7 +663,7 @@ nl-SR:
         moderation: Moderatie
         special: Speciaal
       delete: Verwijderen
-      description_html: Met <strong>gebruikersrollen</strong> kun je de functies en onderdelen van Mastodon waar jouw gebruikers toegang tot hebben aanpassen.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Rol '%{name}' bewerken
       everyone: Standaardrechten
       everyone_full_description_html: Dit is de <strong>basisrol</strong> die van toepassing is op <strong>alle gebruikers</strong>, zelfs voor diegenen zonder toegewezen rol. Alle andere rollen hebben de rechten van deze rol als minimum.
@@ -726,20 +726,20 @@ nl-SR:
         rules_hint: Er is een speciaal gebied voor regels waaraan uw gebruikers zich dienen te houden.
         title: Over
       appearance:
-        preamble: Mastodons webomgeving aanpassen.
+        preamble: Customize Plaza's interface.
         title: Weergave
       branding:
-        preamble: De branding van jouw server laat zien hoe het met andere servers in het netwerk verschilt. Deze informatie wordt op verschillende plekken getoond, zoals in de webomgeving van Mastodon, in mobiele apps, in voorvertoningen op andere websites en berichten-apps, enz. Daarom is het belangrijk om de informatie helder, kort en beknopt te houden.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Branding
       content_retention:
-        preamble: Toezicht houden op hoe berichten en media van gebruikers op Mastodon worden bewaard.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Bewaartermijn berichten
       default_noindex:
         desc_html: Heeft invloed op alle gebruikers die deze instelling niet zelf hebben veranderd
         title: Gebruikers standaard niet door zoekmachines laten indexeren
       discovery:
         follow_recommendations: Aanbevolen accounts
-        preamble: Het tonen van interessante inhoud is van essentieel belang voor het aan boord halen van nieuwe gebruikers, die mogelijk niemand van Mastodon kennen. Bepaal hoe verschillende functies voor het ontdekken van inhoud en gebruikers op jouw server werken.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Gebruikersgids
         public_timelines: Openbare tijdlijnen
         publish_discovered_servers: Ontdekte servers publiceren
@@ -798,7 +798,7 @@ nl-SR:
         suspend: "%{name} schortte het account %{target} op"
       appeal_approved: Bezwaar ingediend
       appeal_pending: Bezwaar in behandeling
-      appeal_rejected: Bezwaar afgewezen
+      appeal_rejected: Appeal rejected
     system_checks:
       database_schema_check:
         message_html: Niet alle databasemigraties zijn voltooid. Je moet deze uitvoeren om er voor te zorgen dat de applicatie blijft werken zoals het hoort
@@ -834,7 +834,7 @@ nl-SR:
           other: Deze week door %{count} mensen gedeeld
         title: Trending links
         usage_comparison: Vandaag %{today} keer gedeeld, vergeleken met %{yesterday} keer gisteren
-      not_allowed_to_trend: Trending worden niet toegestaan
+      not_allowed_to_trend: Not allowed to trend
       only_allowed: Alleen goedgekeurde
       pending_review: In afwachting van beoordeling
       preview_card_providers:
@@ -889,7 +889,7 @@ nl-SR:
     webhooks:
       add_new: Eindpunt toevoegen
       delete: Verwijderen
-      description_html: Met een <strong>webhook</strong> kan Mastodon <strong>meldingen in real-time</strong> over gekozen gebeurtenissen naar jouw eigen toepassing sturen, zodat je applicatie <strong>automatisch reacties kan genereren</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Uitschakelen
       disabled: Uitgeschakeld
       edit: Eindpunt bewerken
@@ -951,8 +951,8 @@ nl-SR:
     confirmation_dialogs: Bevestigingen
     discovery: Ontdekken
     localization:
-      body: Mastodon wordt door vrijwilligers vertaald.
-      guide_link: https://crowdin.com/project/mastodon/nl
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Iedereen kan bijdragen.
     sensitive_content: Gevoelige inhoud
     toot_layout: Lay-out van berichten
@@ -966,7 +966,7 @@ nl-SR:
   applications:
     created: Aanmaken toepassing geslaagd
     destroyed: Verwijderen toepassing geslaagd
-    logout: Uitloggen
+    logout: Logout
     regenerate_token: Toegangscode opnieuw aanmaken
     token_regenerated: Opnieuw aanmaken toegangscode geslaagd
     warning: Wees voorzichtig met deze gegevens. Deel het nooit met iemand anders!
@@ -979,9 +979,9 @@ nl-SR:
     delete_account: Account verwijderen
     delete_account_html: Wanneer je jouw account graag wilt verwijderen, kun je dat <a href="%{path}">hier doen</a>. We vragen jou daar om een bevestiging.
     description:
-      prefix_invited_by_user: "@%{name} nodigt je hierbij uit om een account aan te maken op deze Mastodonserver!"
-      prefix_sign_up: Registreer je vandaag nog op Mastodon!
-      suffix: Met een account ben je in staat om mensen te volgen, berichten te plaatsen en uit te wisselen met mensen die zich op andere Mastodonservers bevinden en meer!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Geen bevestigingsinstructies ontvangen?
     dont_have_your_security_key: Heb je jouw beveiligingssleutel niet bij de hand?
     forgot_password: Wachtwoord vergeten?
@@ -1003,8 +1003,8 @@ nl-SR:
     resend_confirmation: Verstuur de bevestigingsinstructies nogmaals
     reset_password: Wachtwoord opnieuw instellen
     rules:
-      accept: Accepteren
-      back: Terug
+      accept: Accept
+      back: Back
       preamble: Deze zijn vastgesteld en worden gehandhaafd door de moderatoren van %{domain}.
       title: Enkele basisregels.
     security: Beveiliging
@@ -1017,7 +1017,7 @@ nl-SR:
       preamble_html: Log in met de inloggegevens van <strong>%{domain}</strong>. Als jouw account zich op een andere server bevindt, kun je hier niet inloggen.
       title: Inloggen op %{domain}
     sign_up:
-      preamble: Je kunt met een Mastodon-account iedereen in het netwerk volgen, ongeacht waar deze persoon een account heeft.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Laten we je account op %{domain} instellen.
     status:
       account_status: Accountstatus
@@ -1130,7 +1130,7 @@ nl-SR:
       content: Het spijt ons, er is aan onze kant iets fout gegaan.
       title: Er is iets mis
     '503': De pagina kon door een tijdelijke serverstoring niet worden geladen.
-    noscript_html: Schakel JavaScript in om de webapp van Mastodon te kunnen gebruiken. Als alternatief kan je een <a href="%{apps_path}">Mastodon-app</a> zoeken voor jouw platform.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: Kon geen lokale gebruiker met die gebruikersnaam vinden
     not_found_multiple: Kon %{usernames} niet vinden
@@ -1152,7 +1152,7 @@ nl-SR:
   featured_tags:
     add_new: Nieuwe toevoegen
     errors:
-      limit: Je hebt al het maximale aantal hashtags uitgelicht
+      limit: Je hebt al het maximaal aantal hashtags uitgelicht
     hint_html: "<strong>Wat zijn uitgelichte hashtags?</strong> Deze worden prominent op jouw openbare profiel getoond en stelt mensen in staat om jouw openbare berichten per hashtag te bekijken. Het zijn een goed hulpmiddel om creatieve werkzaamheden of langetermijnprojecten bij te houden."
   filters:
     contexts:
@@ -1264,7 +1264,7 @@ nl-SR:
     title: Mensen uitnodigen
   lists:
     errors:
-      limit: Je hebt het maximum aantal lijsten bereikt
+      limit: Je hebt het maximaal aantal lijsten bereikt
   login_activities:
     authentication_methods:
       otp: tweestapsverificatie-app
@@ -1461,7 +1461,7 @@ nl-SR:
       weibo: Weibo
     current_session: Huidige sessie
     description: "%{browser} op %{platform}"
-    explanation: Dit zijn de webbrowsers die momenteel met jouw Mastodonaccount zijn ingelogd.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ nl-SR:
     aliases: Accountaliassen
     appearance: Uiterlijk
     authorized_apps: Geautoriseerde apps
-    back: Terug naar Mastodon
+    back: Back to Plaza
     delete: Account verwijderen
     development: Ontwikkelaars
     edit_profile: Profiel bewerken
@@ -1598,9 +1598,9 @@ nl-SR:
   tags:
     does_not_match_previous_name: komt niet overeen met de vorige naam
   themes:
-    contrast: Mastodon (hoog contrast)
-    default: Mastodon (donker)
-    mastodon-light: Mastodon (licht)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d %B %Y om %H:%M"
@@ -1632,7 +1632,7 @@ nl-SR:
       subject: Jouw bezwaar van %{date} is afgewezen
       title: Bezwaar afgewezen
     backup_ready:
-      explanation: Je hebt een volledige back-up van jouw Mastodon-account opgevraagd. Het staat nu klaar om te worden gedownload!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Jouw archief staat klaar om te worden gedownload
       title: Archief ophalen
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ nl-SR:
       final_step: 'Begin berichten te plaatsen! Zelfs zonder volgers kunnen jouw openbare berichten door anderen bekeken worden, bijvoorbeeld op de lokale tijdlijn en onder hashtags. Je kunt jezelf voorstellen met het gebruik van de hashtag #introductions.'
       full_handle: Jouw volledige Mastodonadres
       full_handle_hint: Dit geef je aan jouw vrienden, zodat ze jou berichten kunnen sturen of (vanaf een andere Mastodonserver) kunnen volgen.
-      subject: Welkom op Mastodon
+      subject: Welcome to Plaza
       title: Welkom aan boord %{name}!
   users:
     follow_limit_reached: Je kunt niet meer dan %{limit} accounts volgen
@@ -1690,7 +1690,7 @@ nl-SR:
     seamless_external_login: Je bent ingelogd via een externe dienst, daarom zijn wachtwoorden en e-mailinstellingen niet beschikbaar.
     signed_in_as: 'Ingelogd als:'
   verification:
-    explanation_html: 'Je kunt <strong>jezelf verifiëren als de eigenaar van de links in de metadata van jouw profiel</strong>. Hiervoor moet op de gelinkte website een link terug naar jouw Mastodonprofiel staan. Deze link <strong>moet</strong> het <code>rel="me"</code>-attribuut bevatten. De omschrijving van de link maakt niet uit. Hier is een voorbeeld:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Verificatie
   webauthn_credentials:
     add: Nieuwe beveiligingssleutel toevoegen
