@@ -1,10 +1,10 @@
 ---
-fi:
+fi-FI:
   about:
-    about_mastodon_html: 'Tulevaisuuden sosiaalinen verkosto: Ei mainoksia, ei valvontaa, toteutettu avoimilla protokollilla ja hajautettu! Pidä tietosi ominasi Mastodonilla!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Ei asetettu
     contact_unavailable: Ei saatavilla
-    hosted_on: Mastodon palvelimella %{domain}
+    hosted_on: Plaza on %{domain}
     title: Tietoja
   accounts:
     follow: Seuraa
@@ -663,7 +663,7 @@ fi:
         moderation: Moderointi
         special: Erikois
       delete: Poista
-      description_html: Käyttäjän <strong>roolit</strong>, voit muokata toimintoja ja alueita mitä sinun Mastodon käyttäjät voivat käyttää.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Muokkaa "%{name}" roolia
       everyone: Oletus käyttöoikeudet
       everyone_full_description_html: Tämä on <strong>perusrooli</strong> joka vaikuttaa <strong>kaikkiin käyttäjiin</strong>, jopa ilman määrättyä roolia. Kaikki muut roolit perivät sen käyttöoikeudet.
@@ -726,20 +726,20 @@ fi:
         rules_hint: On olemassa erityinen alue sääntöjä, joita käyttäjien odotetaan noudattavan.
         title: Tietoja
       appearance:
-        preamble: Muokkaa Mastodonin web-käyttöliittymää.
+        preamble: Customize Plaza's interface.
         title: Ulkoasu
       branding:
-        preamble: Palvelimesi brändäys erottaa sen muista verkon palvelimista. Nämä tiedot voidaan näyttää useissa eri ympäristöissä, kuten Mastodonin käyttöliittymässä, sovelluksissa, linkkien esikatselu muilla sivustoilla ja viestisovelluksien sisällä ja niin edelleen. Tästä syystä on parasta pitää nämä tiedot selkeinä, lyhyinä ja ytimekkäinä.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Brändäys
       content_retention:
-        preamble: Määritä, miten käyttäjän luoma sisältö tallennetaan Mastodoniin.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Sisällön säilyttäminen
       default_noindex:
         desc_html: Vaikuttaa kaikkiin käyttäjiin, jotka eivät ole muuttaneet tätä asetusta itse
         title: Jätä käyttäjät oletusarvoisesti hakukoneindeksoinnin ulkopuolelle
       discovery:
         follow_recommendations: Noudata suosituksia
-        preamble: Mielenkiintoisen sisällön esille tuominen auttaa saamaan uusia käyttäjiä, jotka eivät ehkä tunne ketään Mastodonista. Määrittele, kuinka erilaiset etsintäominaisuudet toimivat palvelimellasi.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Profiilihakemisto
         public_timelines: Julkiset aikajanat
         publish_discovered_servers: Julkaise löydetyt palvelimet
@@ -889,7 +889,7 @@ fi:
     webhooks:
       add_new: Lisää päätepiste
       delete: Poista
-      description_html: <strong>Webhook</strong> mahdollistaa Mastodonin työntää <strong>reaaliaikaisia ilmoituksia</strong> valituista tapahtumista omaan sovellukseesi, joten sovelluksesi voi <strong>laukaista automaattisesti reaktioita</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Poista käytöstä
       disabled: Ei käytössä
       edit: Muokkaa päätepistettä
@@ -951,8 +951,8 @@ fi:
     confirmation_dialogs: Vahvistusvalinnat
     discovery: Löydöt
     localization:
-      body: Mastodonin ovat kääntäneet vapaaehtoiset.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Kaikki voivat osallistua.
     sensitive_content: Arkaluontoista sisältöä
     toot_layout: Viestin asettelu
@@ -979,9 +979,9 @@ fi:
     delete_account: Poista tili
     delete_account_html: Jos haluat poistaa tilisi, <a href="%{path}">paina tästä</a>. Poisto on vahvistettava.
     description:
-      prefix_invited_by_user: "@%{name} kutsuu sinut liittymään tälle Mastodonin palvelimelle!"
-      prefix_sign_up: Liity Mastodoniin tänään!
-      suffix: Tilillä voit seurata ihmisiä, julkaista päivityksiä ja lähetellä viestejä muille käyttäjille miltä palvelimelta tahansa ja paljon muuta!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Etkö saanut vahvistusohjeita?
     dont_have_your_security_key: Eikö sinulla ole suojausavainta?
     forgot_password: Unohditko salasanasi?
@@ -1017,7 +1017,7 @@ fi:
       preamble_html: Kirjaudu sisään <strong>%{domain}</strong>-tunnuksillasi. Jos tilisi sijaitsee eri palvelimella, et voi sisäänkirjautua täällä.
       title: Kirjaudu palveluun %{domain}
     sign_up:
-      preamble: Kun sinulla on tili tällä Mastodon-palvelimella, voit seurata kaikkia muita verkossa olevia henkilöitä riippumatta siitä, missä heidän tilinsä on.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Otetaan sinulle käyttöön %{domain}.
     status:
       account_status: Tilin tila
@@ -1130,7 +1130,7 @@ fi:
       content: Valitettavasti jokin meni pieleen meidän päässämme.
       title: Sivu ei ole oikein
     '503': Sivua ei voitu näyttää palvelimen väliaikaisen vian vuoksi.
-    noscript_html: Käyttääksesi Mastodon-verkkopalvelua, ota JavaScript käyttöön. Vaihtoehtoisesti voit kokeilla myös jotakin juuri käyttämällesi alustalle kehitettyä Mastodon-<a href="%{apps_path}">sovellusta</a>.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: paikallista käyttäjää ei löydy kyseisellä käyttäjänimellä
     not_found_multiple: '%{usernames} ei löytynyt'
@@ -1461,7 +1461,7 @@ fi:
       weibo: Weibo
     current_session: Nykyinen istunto
     description: "%{browser} alustalla %{platform}"
-    explanation: Nämä verkkoselaimet ovat tällä hetkellä kirjautuneet Mastodon-tilillesi.
+    explanation: These are the apps currently logged in to your account.
     ip: IP-osoite
     platforms:
       adobe_air: Adobe AIR
@@ -1486,7 +1486,7 @@ fi:
     aliases: Tilin aliakset
     appearance: Ulkoasu
     authorized_apps: Valtuutetut sovellukset
-    back: Takaisin Mastodoniin
+    back: Back to Plaza
     delete: Tilin poisto
     development: Kehittäminen
     edit_profile: Muokkaa profiilia
@@ -1598,9 +1598,9 @@ fi:
   tags:
     does_not_match_previous_name: ei vastaa edellistä nimeä
   themes:
-    contrast: Mastodon (Korkea kontrasti)
-    default: Mastodon (Tumma)
-    mastodon-light: Mastodon (Vaalea)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d.%m.%Y klo %H.%M"
@@ -1632,7 +1632,7 @@ fi:
       subject: Valituksesi %{date} on hylätty
       title: Valitus hylätty
     backup_ready:
-      explanation: Pyysit täydellistä varmuuskopiota Mastodon-tilistäsi. Voit nyt ladata sen!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Arkisto on valmiina ladattavaksi
       title: Arkiston tallennus
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ fi:
       final_step: 'Aloita julkaiseminen! Vaikkei sinulla ole seuraajia, voivat muut nähdä julkiset julkaisusi esimerkiksi paikallisella aikajanalla ja aihetunnisteilla. Kannattaa myös esittäytyä käyttämällä aihetunnistetta #introductions.'
       full_handle: Koko käyttäjätunnuksesi
       full_handle_hint: Kerro tämä kavereillesi, niin he voivat lähettää sinulle viestejä tai löytää sinut muiden palvelimien kautta.
-      subject: Tervetuloa Mastodoniin
+      subject: Welcome to Plaza
       title: Tervetuloa mukaan, %{name}!
   users:
     follow_limit_reached: Et voi seurata yli %{limit} henkilöä
@@ -1690,7 +1690,7 @@ fi:
     seamless_external_login: Olet kirjautunut ulkoisen palvelun kautta, joten salasana- ja sähköpostiasetukset eivät ole käytettävissä.
     signed_in_as: 'Kirjautunut tilillä:'
   verification:
-    explanation_html: 'Voit <strong>vahvistaa olevasi profiilisi metatiedoissa olevien linkkien omistaja.</strong>. Tätä varten linkitetyn verkkosivuston täytyy sisältää linkki takaisin Mastodon-profiiliisi. Palauttavalla linkillä <strong>täytyy</strong> olla <code>rel="me"</code>-arvo. Linkin tekstisisällöllä ei ole merkitystä. Tässä on esimerkki:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Vahvistus
   webauthn_credentials:
     add: Lisää uusi suojausavain
