@@ -1,5 +1,5 @@
 ---
-ja:
+ja-JP:
   simple_form:
     hints:
       account_alias:
@@ -49,7 +49,7 @@ ja:
         phrase: 投稿内容の大文字小文字や閲覧注意に関係なく一致
         scopes: アプリの API に許可するアクセス権を選択してください。最上位のスコープを選択する場合、個々のスコープを選択する必要はありません。
         setting_aggregate_reblogs: 最近ブーストされた投稿が新たにブーストされても表示しません (設定後受信したものにのみ影響)
-        setting_always_send_emails: 通常、Mastodon からメール通知は行われません。
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Plaza
         setting_default_sensitive: 閲覧注意状態のメディアはデフォルトでは内容が伏せられ、クリックして初めて閲覧できるようになります
         setting_display_media_default: 閲覧注意としてマークされたメディアは隠す
         setting_display_media_hide_all: メディアを常に隠す
@@ -79,14 +79,14 @@ ja:
         bootstrap_timeline_accounts: これらのアカウントは、新しいユーザー向けのおすすめユーザーの一番上にピン留めされます。
         closed_registrations_message: アカウント作成を停止している時に表示されます
         content_cache_retention_period: 正の値に設定されている場合、他のサーバーの投稿は指定された日数の後に削除されます。元に戻せません。
-        custom_css: ウェブ版のMastodonでカスタムスタイルを適用できます。
+        custom_css: You can apply custom styles on Plaza.
         mascot: 上級者向けWebインターフェースのイラストを上書きします。
         media_cache_retention_period: 正の値に設定されている場合、ダウンロードされたメディアファイルは指定された日数の後に削除され、リクエストに応じて再ダウンロードされます。
         peers_api_enabled: このサーバーが Fediverse で遭遇したドメイン名のリストです。このサーバーが知っているだけで、特定のサーバーと連合しているかのデータは含まれません。これは一般的に Fediverse に関する統計情報を収集するサービスによって使用されます。
         profile_directory: ディレクトリには、掲載する設定をしたすべてのユーザーが一覧表示されます。
         require_invite_text: アカウント登録が承認制の場合、登録の際の申請事由の入力を必須にします
         site_contact_email: 法律またはサポートに関する問い合わせ先
-        site_contact_username: マストドンでの連絡方法
+        site_contact_username: How people can reach you on Plaza.
         site_extended_description: 訪問者やユーザーに役立つかもしれない任意の追加情報。Markdownが使えます。
         site_short_description: 運営している人や組織、想定しているユーザーなど、サーバーの特徴を説明する短いテキスト
         site_terms: 独自のプライバシーポリシーを使用するか空白にしてデフォルトのプライバシーポリシーを使用します。Markdownが使えます。
@@ -101,7 +101,7 @@ ja:
       form_challenge:
         current_password: セキュリティ上重要なエリアにアクセスしています
       imports:
-        data: 他のMastodonサーバーからエクスポートしたCSVファイルを選択して下さい
+        data: CSV file exported from another fediverse server
       invite_request:
         text: このサーバーは現在承認制です。申請を承認する際に役立つメッセージを添えてください
       ip_block:
