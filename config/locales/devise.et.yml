@@ -23,21 +23,21 @@ et-EE:
         explanation: Oled loonud %{host} konto selle e-postiaadressiga. Oled konto aktiveerimisest ühe kliki kaugusel. Kui see polnud sina, palun eira seda kirja.
         explanation_when_pending: "Selle e-postiaadressiga on esitatud taotlus saada %{host} kasutajaks. E-postiaadress vajab kinnitamist. Pärast seda vaatame me taotluse üle. Saad siseneda, et oma andmeid muuta või konto kustutada, aga enamustele tegevustele ei pääse enne ligi, kui konto on meie moderaatorite poolt kinnitatud. Kui konto on kinnitatud, saabub selle kohta eraldi e-kiri.\nKui taotlus lükatakse aga tagasi, kustutatakse ka andmed ja mingit järeltegevust pole vaja. \nKui see polnud sina, siis palume seda kirja eirata."
         extra_html: Palun tutvu <a href="%{terms_path}">meie serveri reeglitega</a> ning <a href="%{policy_path}">meie kasutustingimustega</a>.
-        subject: 'Mastodon: %{instance} kinnitamisjuhised'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Kinnita e-postiaadress
       email_changed:
         explanation: 'Sinu konto e-postiaadress muudetakse:'
         extra: Kui sa ei muutnud oma e-posti, on tõenäoline, et kellelgi on ligipääs su kontole. Palun muuda koheselt oma salasõna. Kui oled aga oma kontost välja lukustatud, võta ühendust oma serveri administraatoriga.
-        subject: 'Mastodon: e-post muudetud'
+        subject: 'Plaza: Email changed'
         title: Uus e-postiaadress
       password_change:
         explanation: Konto salasõna on vahetatud.
         extra: Kui sa ei muutnud oma salasõna, on tõenäoline, et keegi on su kontole ligi pääsenud. Palun muuda viivitamata oma salasõna. Kui sa oma kontole ligi ei pääse, võta ühendust serveri haldajaga.
-        subject: 'Mastodon: salasõna muudetud'
+        subject: 'Plaza: Password changed'
         title: Salasõna muudetud
       reconfirmation_instructions:
         explanation: Kinnita uus aadress, et oma e-posti aadress muuta.
-        extra: Kui see muudatus pole sinu poolt algatatud, palun eira seda kirja. Selle Mastodoni konto e-postiaadress ei muutu enne, kui vajutad üleval olevale lingile.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: kinnita e-postiaadress %{instance} jaoks'
         title: Kinnita e-postiaadress
       reset_password_instructions:
