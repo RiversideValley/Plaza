@@ -23,21 +23,21 @@ fo-FO:
         explanation: Tú hevur stovnað eina kontu hjá %{host} við hesari teldupostadressuni og tú ert eitt klikk frá at virkja hana. Um tað ikki vart tú, vinarliga sí burtur frá hesum teldupostinum.
         explanation_when_pending: Tú hevur fingið innbjóðing tkl %{host}, við teldupostaddressu. Tá tú hevur vátta tín tína teldupostaddressu, verður umsóknin viðgjørd. Tú kann innrita og broyta ymsar stillingar, men flestu funkur kunnu ikki broytast, fyrr enn kontan er góðkend. Um kontan ikki verður góðkend, verða allar dátur um teg slettaðar. Um umsóknin ikki kom frá tær, skal tú síggja burtur frá teldupostinum.
         extra_html: Kanna eisini <a href="%{terms_path}">reglurnar fyri henda ambætaran</a> og <a href="%{policy_path}">okkara nýtslu treytir</a>.
-        subject: 'Mastodon: Góðkenningartreytir fyri %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Vátta teldupostadressuna
       email_changed:
         explanation: 'Telupostaddressan ryri kontina verður broytt til:'
         extra: Um tú ikki hevur skift teldupostin, er sannlíkt at onkur annar hevur fingið atgongd til tína kontu. Vinarliga skift loyniorðið beinanvegin. Set teg í samband við fyrisitaran, um tú ikki sleppur inn á tína kontu.
-        subject: 'Mastodon: Teldupostur broyttur'
+        subject: 'Plaza: Email changed'
         title: Nýggjur eldupostur
       password_change:
         explanation: Loyniorðið til kontoina hjá tær er broytt.
         extra: Um tú ikki hevur skift loyniorðið, er sannlíkt at onkur annar hevur fingið atgongd til tína kontu. Vinarliga skift loyniorðið beinanvegin. Um tú ikki sleppur inn á tína kontu, hav samband við fyrisitarin.
-        subject: 'Mastodon: Loyniorð broytt'
+        subject: 'Plaza: Password changed'
         title: Loyniorðið er broytt
       reconfirmation_instructions:
         explanation: Vátta nýggja bústaðin fyri at broyta teldupostin.
-        extra: Um henda broytingin ikki kemur frá tær, so skal tú ignorera hetta teldubrævið. Telduposturin til Mastodon kontuna verður ikki broytt, uttan so at tú fylgir leinkinum omanfyri.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: Vátta teldupost fyri %{instance}'
         title: Vátta teldupostadressu
       reset_password_instructions:
