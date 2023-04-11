@@ -1,10 +1,10 @@
 ---
-sq:
+sq-AL:
   about:
-    about_mastodon_html: 'Rrjeti shoqëror i së ardhmes: Pa reklama, pa survejim nga korporata, konceptim etik dhe decentralizim! Jini zot i të dhënave tuaja, me Mastodon-in!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: I parregulluar
     contact_unavailable: N/A
-    hosted_on: Mastodon i strehuar në %{domain}
+    hosted_on: Plaza on %{domain}
     title: Mbi
   accounts:
     follow: Ndiqeni
@@ -663,7 +663,7 @@ sq:
         moderation: Moderim
         special: Special
       delete: Fshije
-      description_html: Me <strong>role përdoruesi</strong>, mund të përshtatni cilat funksione dhe fusha të Mastodon-it mund të përdorin përdoruesit tuaj.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Përpunoni rolin e '%{name}'
       everyone: Leje parazgjedhje
       everyone_full_description_html: Ky është <strong>roli bazë</strong> që prek <strong>krejt përdoruesit</strong>, madje edhe ata pa një rol të caktuar. Krejt rolet e tjerë trashëgojnë lejet prej tij.
@@ -726,20 +726,20 @@ sq:
         rules_hint: Ka një zonë enkas për rregulla me të cilat pritet që përdoruesit tuaj të pajtohen.
         title: Mbi
       appearance:
-        preamble: Përshtatni ndërfaqen web të Mastodon-it.
+        preamble: Customize Plaza's interface.
         title: Dukje
       branding:
-        preamble: Elementët e markës të shërbyesit tuaj e dallojnë atë nga shërbyes të tjerë në rrjet. Këto hollësi mund të shfaqen në një larmi mjedisesh, bie fjala, në ndërfaqen web të Mastodon-it, aplikacione për platforma të ndryshme, në paraparje lidhjesh në sajte të tjerë dhe brenda aplikacionesh për shkëmbim mesazhesh, e me radhë. Për këtë arsyes, më e mira është që këto hollësi të jenë të qarta, të shkurtra dhe të kursyera.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Elementë marke
       content_retention:
-        preamble: Kontrolloni se si depozitohen në Mastodon lënda e prodhuar nga përdoruesit.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Mbajtje lënde
       default_noindex:
         desc_html: Prek krejt përdoruesit që s’e kanë ndryshuar vetë këtë rregullim
         title: Lëri, si parazgjedhje, përdoruesit jashtë indeksimi nga motorë kërkimesh
       discovery:
         follow_recommendations: Rekomandime ndjekjeje
-        preamble: Shpërfaqja e lëndës interesante është me rëndësi kyçe për mirëseardhjen e përdoruesve të rinj që mund të mos njohin njeri në Mastodon. Kontrolloni se si funksionojnë në shërbyesin tuaj veçori të ndryshme zbulimi.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Drejtori profilesh
         public_timelines: Rrjedha kohore publike
         publish_discovered_servers: Publiko shërbyes të njohur
@@ -889,7 +889,7 @@ sq:
     webhooks:
       add_new: Shtoni pikëmbarim
       delete: Fshije
-      description_html: Një <strong>webhook</strong> i bën të mundur Mastodon-it t’i dërgojë aplikacioni tuaj <strong>njoftime aty për aty</strong> rreth aktesh që keni zgjedhur, që kështu aplikacioni juaj të mund <strong>të prodhojë automatikisht reagime</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Çaktivizoje
       disabled: Të çaktivizuar
       edit: Përpunoni pikëmbarim
@@ -951,8 +951,8 @@ sq:
     confirmation_dialogs: Dialogë ripohimesh
     discovery: Zbulim
     localization:
-      body: Mastodon-i përkthehet nga vullnetarë.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Çdokush mund të kontribuojë.
     sensitive_content: Lëndë rezervat
     toot_layout: Skemë mesazhesh
@@ -979,9 +979,9 @@ sq:
     delete_account: Fshije llogarinë
     delete_account_html: Nëse dëshironi të fshihni llogarinë tuaj, mund <a href="%{path}">ta bëni që këtu</a>. Do t’ju kërkohet ta ripohoni.
     description:
-      prefix_invited_by_user: "@%{name} ju fton të bëheni pjesë e këtij shërbyesi Mastodon!"
-      prefix_sign_up: Regjistrohuni në Mastodon që sot!
-      suffix: Me një llogari, do të jeni në gjendje të ndiqni persona, përditësime postimesh dhe të shkëmbeni mesazhe me përdorues nga cilido shërbyes Mastodon, etj!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: S’morët udhëzime ripohimi?
     dont_have_your_security_key: S’i keni kyçet tuaj të sigurisë?
     forgot_password: Harruat fjalëkalimin tuaj?
@@ -1017,7 +1017,7 @@ sq:
       preamble_html: Hyni me kredencialet tuaja për te <strong>%{domain}</strong>. Nëse llogaria juaj strehohet në një tjetër shërbyes, s’do të jeni në gjendje të bëni hyrjen këtu.
       title: Bëni hyrjen te %{domain}
     sign_up:
-      preamble: Me një llogari në këtë shërbyes Mastodon, do të jeni në gjendje të ndiqni cilindo person tjetër në rrjet, pavarësisht se ku strehohet llogaria e tyre.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Le të ujdisim llogarinë tuaj në %{domain}.
     status:
       account_status: Gjendje llogarie
@@ -1130,7 +1130,7 @@ sq:
       content: Na ndjeni, diçka shkoi ters në anën tonë.
       title: Kjo faqe s’është e saktë
     '503': Kjo faqe s’u shërbye dot për shkak të një dështimi të përkohshëm të shërbyesit.
-    noscript_html: Që të përdorni aplikacionin web Mastodon, ju lutemi, aktivizoni JavaScript-in. Ndryshe, provoni për Mastodon-in një nga <a href="%{apps_path}">aplikacionet e brendshëm</a> të platformës tuaj.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: s’u gjet dot përdorues vendor me atë emër përdoruesi
     not_found_multiple: s’u gjet dot %{usernames}
@@ -1461,7 +1461,7 @@ sq:
       weibo: Weibo
     current_session: Sesioni i tanishëm
     description: "%{browser} në %{platform}"
-    explanation: Këta janë shfletuesit e përdorur tani për hyrje te llogaria juaj Mastodon.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ sq:
     aliases: Aliase llogarish
     appearance: Dukje
     authorized_apps: Aplikacione të autorizuara
-    back: Mbrapsht te Mastodon
+    back: Back to Plaza
     delete: Fshirje llogarie
     development: Zhvillim
     edit_profile: Përpunoni profilin
@@ -1598,9 +1598,9 @@ sq:
   tags:
     does_not_match_previous_name: s’përputhet me emrin e mëparshëm
   themes:
-    contrast: Mastodon (Me shumë kontrast)
-    default: Mastodon (I errët)
-    mastodon-light: Mastodon (I çelët)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d %b, %Y, %H:%M"
@@ -1632,7 +1632,7 @@ sq:
       subject: Apelimi juaj prej %{date} është hedhur poshtë
       title: Apelimi u hodh poshtë
     backup_ready:
-      explanation: Kërkuat një kopjeruajtje të plotë të llogarisë tuaj Mastodon. E keni gati për shkarkim!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Arkivi juaj është gati për shkarkim
       title: Marrje arkivi me vete
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ sq:
       final_step: 'Filloni të postoni! Edhe pa ndjekës, postimet tuaja publike mund të shihen nga të tjerët, për shembull, në rrjedhën kohore vendore, ose në hashtag-ë. Mund të doni të prezantoni veten përmes hashtag-ut #introductions.'
       full_handle: Identifikuesi juaj i plotë
       full_handle_hint: Kjo është ajo çka do të duhej t’u tregonit shokëve tuaj, që të mund t’ju dërgojnë mesazhe ose t’ju ndjekin nga një shërbyes tjetër.
-      subject: Mirë se vini te Mastodon-i
+      subject: Welcome to Plaza
       title: Mirë se vini, %{name}!
   users:
     follow_limit_reached: S’mund të ndiqni më tepër se %{limit} persona
@@ -1690,7 +1690,7 @@ sq:
     seamless_external_login: Jeni futur përmes një shërbimi të jashtëm, ndaj s’ka rregullime fjalëkalimi dhe email.
     signed_in_as: 'I futur si:'
   verification:
-    explanation_html: 'Mundeni <strong>të verifikoni veten si i zoti i lidhjeve te tejtëdhënat e profilit tuaj</strong>. Për këtë, sajti i lidhur duhet të përmbajë një lidhje për te profili juaj Mastodon. Lidhje për te ajo <strong>duhet</strong> të ketë një atribut <code>rel="me"</code>. Lënda tekst e lidhjes nuk ngre peshë. Ja një shembull:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Verifikim
   webauthn_credentials:
     add: Shtoni kyç të ri sigurie
