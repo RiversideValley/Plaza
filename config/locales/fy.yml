@@ -1,10 +1,10 @@
 ---
-fy:
+fy-NL:
   about:
-    about_mastodon_html: 'Mastodon is in sosjaal netwurk dat gebrûk makket fan iepen webprotokollen en frije software. It is krekt lykas desintralisearre e-mail!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Net ynsteld
     contact_unavailable: Net fan tapassing
-    hosted_on: Mastodon op %{domain}
+    hosted_on: Plaza on %{domain}
     title: Oer
   accounts:
     follow: Folgje
@@ -663,7 +663,7 @@ fy:
         moderation: Moderaasje
         special: Spesjaal
       delete: Fuortsmite
-      description_html: Mei <strong>brûkersrollen</strong> kinne jo de funksjes en ûnderdielen fan Mastodon, wêr’t jo brûkers tagong ta hawwe, oanpasse.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Rol ‘%{name}’ bewurkje
       everyone: Standertrjochten
       everyone_full_description_html: Dit is de <strong>basisrol</strong> dy’t fan tapassing is op <strong>alle brûkers</strong>, sels foar dyjinge sûnder tawizen rol. Alle oare rollen hawwe de rjochten fan dizze rol as minimum.
@@ -726,20 +726,20 @@ fy:
         rules_hint: Der is in spesjaal gebied foar regels wêr’t jo brûkers harren oan hâlde moatte.
         title: Oer
       appearance:
-        preamble: Mastodon’s webomjouwing oanpasse.
+        preamble: Customize Plaza's interface.
         title: Werjefte
       branding:
-        preamble: De branding fan jo server lit sjen hoe’t it fan oare servers yn it netwurk ferskilt. Dizze ynformaasje wurdt op ferskate plakken toand, lykas yn de webomjouwing fan Mastodon, yn mobile apps, yn foarfertoaningen op oare websites en berjochte-apps, ensfh. Dêrom is it wichtich om de ynformaasje helder, koart en bûnich te hâlden.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Branding
       content_retention:
-        preamble: Tafersjoch hâlde op hoe’t berjochten en media fan brûkers op Mastodon bewarre wurde.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Bewartermyn berjochten
       default_noindex:
         desc_html: Hat ynfloed op alle brûkers dy’t dizze ynstelling net sels wizige hawwe
         title: Brûkers standert net troch sykmasinen yndeksearje litte
       discovery:
         follow_recommendations: Oanrekommandearre accounts
-        preamble: It toanen fan ynteressante ynhâld is fan essinsjeel belang foar it oan board heljen fan nije brûkers dy’t mooglik net ien fan Mastodon kinne. Bepaal hoe’t ferskate funksjes foar it ûntdekken fan ynhâld en brûkers op jo server wurkje.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Profylmap
         public_timelines: Iepenbiere tiidlinen
         publish_discovered_servers: Untdekte servers publisearje
@@ -889,7 +889,7 @@ fy:
     webhooks:
       add_new: Einpunt tafoegje
       delete: Fuortsmite
-      description_html: Mei in <strong>webhook</strong> kin Mastodon <strong>meldingen real-time</strong> oer keazen barrens nei jo eigen tapassing stjoere, sadat jo applikaasje <strong>automatysk reaksjes generearje kin</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Utskeakelje
       disabled: Utskeakele
       edit: Einpunt bewurkje
@@ -951,8 +951,8 @@ fy:
     confirmation_dialogs: Befêstigingen
     discovery: Untdekke
     localization:
-      body: Mastodon wurdt troch frijwilligers oerset.
-      guide_link: https://crowdin.com/project/mastodon/fy
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Elkenien kin bydrage.
     sensitive_content: Gefoelige ynhâld
     toot_layout: Lay-out fan berjochten
@@ -979,9 +979,9 @@ fy:
     delete_account: Account fuortsmite
     delete_account_html: Wannear’t jo jo account graach fuortsmite wolle, kinne jo dat <a href="%{path}">hjir dwaan</a>. Wy freegje jo dêr om in befêstiging.
     description:
-      prefix_invited_by_user: "@%{name} nûget jo hjirby út om in account oan te meitsjen op dizze Mastodon-server!"
-      prefix_sign_up: Registrearje jo hjoed noch op Mastodon!
-      suffix: Mei in account binne jo yn steat om minsken te folgjen, berjochten te pleatsen en út te wikseljen mei minsken dy’t op oare Mastodon-servers binne en mear!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Gjin befêstigingsynstruksjes ûntfongen?
     dont_have_your_security_key: Hawwe jo jo befeiligingskaai net by de hân?
     forgot_password: Wachtwurd ferjitten?
@@ -1017,7 +1017,7 @@ fy:
       preamble_html: Meld jo oan mei de oanmeldgegevens fan <strong>%{domain}</strong>. As jo account op in oare server stiet, kinne jo hjir net oanmelde.
       title: Oanmelde op %{domain}
     sign_up:
-      preamble: Jo kinne mei in Mastodon-account elkenien yn it netwurk folgen, wêr’t dizze persoan ek in account hat.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Litte wy jo account op %{domain} ynstelle.
     status:
       account_status: Accountsteat
@@ -1130,7 +1130,7 @@ fy:
       content: It spyt ús, der is oan ús kant wat fout gien.
       title: Dizze side is skansearre
     '503': De side koe troch in tydlike serversteuring net laden wurde.
-    noscript_html: Skeakelje JavaScript yn om de webapp fan Mastodon brûke te kinnen. As alternatyf kinne jo in <a href="%{apps_path}">Mastodon-app</a> sykje foar jo platfoarm.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: koe gjin lokale brûker mei dy brûkersnamme fine
     not_found_multiple: koe %{usernames} net fine
@@ -1461,7 +1461,7 @@ fy:
       weibo: Weibo
     current_session: Aktuele sesje
     description: "%{browser} op %{platform}"
-    explanation: Dit binne de webbrowsers dy’t op dit stuit mei jo Mastodon-account oanmeld binne.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ fy:
     aliases: Accountaliassen
     appearance: Werjefte
     authorized_apps: Autorisearre apps
-    back: Tebek nei Mastodon
+    back: Back to Plaza
     delete: Account fuortsmite
     development: Untwikkelers
     edit_profile: Profyl bewurkje
@@ -1598,9 +1598,9 @@ fy:
   tags:
     does_not_match_previous_name: komt net oerien mei de foarige namme
   themes:
-    contrast: Mastodon (heech kontrast)
-    default: Mastodon (donker)
-    mastodon-light: Mastodon (ljocht)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d %B %Y om %H:%M"
@@ -1632,7 +1632,7 @@ fy:
       subject: Jo beswier fan %{date} is ôfwêzen
       title: Beswier ôfwêzen
     backup_ready:
-      explanation: Jo hawwe in folsleine reservekopy fan jo Mastodon-account opfrege. It stiet no klear om download te wurden!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Jo argyf stiet klear om download te wurden
       title: Argyf ophelje
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ fy:
       final_step: 'Begjin berjochten te pleatsen! Sels sûnder folgers kinne jo iepenbiere berjochten troch oaren besjoen wurde, bygelyks op de lokale tiidline en ûnder hashtags. Jo kinne josels foarstelle mei it gebrûk fan de hashtag #introductions.'
       full_handle: Jo folsleine Mastodon-adres
       full_handle_hint: Dit jouwe jo oan jo freonen, sadat se jo berjochten stjoere kinne of (fan in oare Mastodon-server ôf) folgje kinne.
-      subject: Wolkom op Mastodon
+      subject: Welcome to Plaza
       title: Wolkom oan board %{name}!
   users:
     follow_limit_reached: Jo kinne net mear as %{limit} accounts folgje
@@ -1690,7 +1690,7 @@ fy:
     seamless_external_login: Jo binne oanmeld fia in eksterne tsjinst, dêrom binne wachtwurden en e-mailynstellingen net beskikber.
     signed_in_as: 'Oanmeld as:'
   verification:
-    explanation_html: 'Jo kinne <strong>josels ferifiearje as de eigener fan de keppelingen yn de metadata fan jo profyl</strong>. Hjirfoar moat op de keppele website in keppeling werom nei jo Mastodon-profyl stean. Dizze keppeling <strong>moat</strong> it <code>rel="me"</code>-attribút befetsje. De omskriuwing fan de keppeling makket net út. Hjir is in foarbyld:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Ferifikaasje
   webauthn_credentials:
     add: Nije befeiligingskaai tafoegje
