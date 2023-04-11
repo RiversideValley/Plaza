@@ -1,10 +1,10 @@
 ---
-ast:
+ast-ES:
   about:
-    about_mastodon_html: 'La rede social del futuru: ¡ensin anuncios nin vixilancia, con un diseñu éticu ya descentralizáu! Controla los tos datos con Mastodon.'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Not set
     contact_unavailable: N/D
-    hosted_on: 'Mastodon ta agospiáu en: %{domain}'
+    hosted_on: Plaza on %{domain}
     title: Tocante a
   accounts:
     follow: Follow
@@ -663,7 +663,7 @@ ast:
         moderation: Moderation
         special: Special
       delete: Delete
-      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Mastodon your users can access.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Edición del rol «%{name}»
       everyone: Permisos predeterminaos
       everyone_full_description_html: This is the <strong>base role</strong> affecting <strong>all users</strong>, even those without an assigned role. All other roles inherit permissions from it.
@@ -726,20 +726,20 @@ ast:
         rules_hint: There is a dedicated area for rules that your users are expected to adhere to.
         title: Tocante a
       appearance:
-        preamble: Personaliza la interfaz web de Mastodon.
+        preamble: Customize Plaza's interface.
         title: Aspeutu
       branding:
-        preamble: La marca del to sirvidor estrémalu d'otros sirvidores de la rede. Ye posible qu'esta información apaeza nuna variedá d'entornos, como la interfaz web de Mastodon, les aplicaciones natives, nes previsualizaciones de los enllaces d'otros sitios web, dientro de les aplicaciones de mensaxería, etc. Por esti motivu, lo meyor ye qu'esta información seya clara, curtia ya concisa.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Marca
       content_retention:
-        preamble: Controla cómo s'atroxa'l conteníu xeneráu polos perfiles en Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Retención del conteníu
       default_noindex:
         desc_html: Affects all users who have not changed this setting themselves
         title: Opt users out of search engine indexing by default
       discovery:
         follow_recommendations: Recomendación de cuentes
-        preamble: L'apaición de conteníu interesante ye fundamental p'atrayer persones nueves que nun conozan nada de Mastodon. Controla'l funcionamientu de delles funciones de descubrimientu d'esti sirvidor.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Direutoriu de perfiles
         public_timelines: Llinies de tiempu públiques
         publish_discovered_servers: Espublizamientu de sirvidores descubiertos
@@ -889,7 +889,7 @@ ast:
     webhooks:
       add_new: Amestar un estremu
       delete: Desaniciar
-      description_html: Un <strong>webhook</strong> permite a Mastodon unviar <strong>avisos en tiempu real</strong> de los eventos escoyíos sobre la to aplicación pa qu'esta pueda <strong>executar aiciones automáticamente</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Desactivar
       disabled: Desactivóse
       edit: Editar l'estremu
@@ -951,8 +951,8 @@ ast:
     confirmation_dialogs: Diálogos de confirmación
     discovery: Descubrimientu
     localization:
-      body: Mastodon tradúcenlu voluntarios,
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: tol mundu pue collaborar.
     sensitive_content: Conteníu sensible
     toot_layout: Distribución de los artículos
@@ -979,9 +979,9 @@ ast:
     delete_account: Desaniciu de la cuenta
     delete_account_html: Si quies desaniciar la cuenta, pues facelo <a href="%{path}">equí</a>. Va pidísete que confirmes l'aición.
     description:
-      prefix_invited_by_user: "@%{name} invites you to join this server of Mastodon!"
-      prefix_sign_up: '¡Rexístrate güei en Mastodon!'
-      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any Mastodon server and more!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: '¿Nun recibiesti les instrucciones de confirmación?'
     dont_have_your_security_key: '¿Nun tienes una llave de seguranza?'
     forgot_password: '¿Escaeciesti la contraseña?'
@@ -1017,7 +1017,7 @@ ast:
       preamble_html: Anicia la sesión colos tos datos d'accesu en <strong>%{domain}</strong>. Si la cuenta ta agospiada n'otru sirvidor, nun vas ser a aniciar la sesión equí.
       title: Aniciu de la sesión en «%{domain}»
     sign_up:
-      preamble: Con una cuenta nesti sirvidor de Mastodon vas ser a siguir a cualesquier perfil de la rede, independientemente del sirvidor onde s'agospie la so cuenta.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: 'Creación d''una cuenta en: %{domain}.'
     status:
       account_status: Estáu de la cuenta
@@ -1130,7 +1130,7 @@ ast:
       content: Sentímoslo, mas prodúxose dalgún error nel sirvidor.
       title: La páxina nun ye correuta
     '503': Nun se pudo sirvir la páxina pola mor d'un fallu temporal del sirvidor.
-    noscript_html: Pa usar l'aplicación web de Mastodon, activa JavaScript. Tamién pues probar una de les <a href="%{apps_path}">aplicaciones natives</a> de Mastodon pa la to plataforma.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: could not find a local user with that username
     not_found_multiple: could not find %{usernames}
@@ -1461,7 +1461,7 @@ ast:
       weibo: Weibo
     current_session: Sesión actual
     description: "%{browser} on %{platform}"
-    explanation: These are the web browsers currently logged in to your Mastodon account.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ ast:
     aliases: Account aliases
     appearance: Aspeutu
     authorized_apps: Aplicaciones autorizaes
-    back: Volver a Mastodon
+    back: Back to Plaza
     delete: Account deletion
     development: Desendolcu
     edit_profile: Edición del perfil
@@ -1598,9 +1598,9 @@ ast:
   tags:
     does_not_match_previous_name: nun concasa col nome anterior
   themes:
-    contrast: Mastodon (contraste altu)
-    default: Mastodon (escuridá)
-    mastodon-light: Mastodon (claridá)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
@@ -1632,7 +1632,7 @@ ast:
       subject: Your appeal from %{date} has been rejected
       title: Appeal rejected
     backup_ready:
-      explanation: You requested a full backup of your Mastodon account. It's now ready for download!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Your archive is ready for download
       title: Archive takeout
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ ast:
       final_step: 'Start posting! Even without followers, your public posts may be seen by others, for example on the local timeline or in hashtags. You may want to introduce yourself on the #introductions hashtag.'
       full_handle: Your full handle
       full_handle_hint: This is what you would tell your friends so they can message or follow you from another server.
-      subject: Afáyate en Mastodon
+      subject: Welcome to Plaza
       title: '¡Afáyate, %{name}!'
   users:
     follow_limit_reached: Nun pues siguir a más de %{limit} persones
@@ -1690,7 +1690,7 @@ ast:
     seamless_external_login: Aniciesti la sesión pente un serviciu esternu, polo que la configuración de la contraseña ya de la direición de corréu electrónicu nun tán disponibles.
     signed_in_as: 'Aniciesti la sesión como:'
   verification:
-    explanation_html: 'Pues <strong>verificate como la persona propietaria de los enllaces nos metadatos del to perfil</strong>. Pa ello, el sitiu web enllaciáu ha contener un enllaz al to perfil de Mastodon. Esti enllaz <strong>ha</strong> tener l''atributu <code>rel="me"</code>. El testu del enllaz nun importa. Equí tienes un exemplu:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Verificación
   webauthn_credentials:
     add: Add new security key
