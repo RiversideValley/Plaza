@@ -1,10 +1,10 @@
 ---
-is:
+is-IS:
   about:
-    about_mastodon_html: 'Samfélagsnet framtíðarinnar: Engar auglýsingar, ekkert eftirlit stórfyrirtækja, siðleg hönnun og engin miðstýring! Þú átt þín eigin gögn í Mastodon!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Ekki skilgreint
     contact_unavailable: Ekki til staðar
-    hosted_on: Mastodon hýst á %{domain}
+    hosted_on: Plaza on %{domain}
     title: Um hugbúnaðinn
   accounts:
     follow: Fylgjast með
@@ -663,7 +663,7 @@ is:
         moderation: Umsjón
         special: Sérstakt
       delete: Eyða
-      description_html: Með <strong>hlutverkum notenda</strong> geturðu sérsniðið að hvaða aðgerðum og hvaða svæðum í Mastodon notendurnir þínir hafa aðgang.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Breyta hlutverki fyrir '%{name}'
       everyone: Sjálfgefnar heimildir
       everyone_full_description_html: Þetta er <strong>grunnhlutverk</strong> sem <strong>allir notendur</strong> fá, líka þeir sem ekki hafa fengið neitt sérstakt hlutverk. Öll önnur hlutverk erfa heimildir frá þessu.
@@ -726,20 +726,20 @@ is:
         rules_hint: Það er sérstakt svæði með þeim reglum sem ætlast er til að notendur þínir fari eftir.
         title: Um hugbúnaðinn
       appearance:
-        preamble: Sérsníddu vefviðmót Mastodon.
+        preamble: Customize Plaza's interface.
         title: Útlit
       branding:
-        preamble: Útlitsleg einkenni aðgreina netþjóninn þinn frá öðrum netþjónum á netkerfinu. Þessar upplýsingar geta birst á margvíslegum stöðum, eins og til dæmis í vefviðmóti Mastodon, einstökum forritum, í forskoðun tengla á öðrum vefsvæðum og innan samskiptaforrita, svo eitthvað sé talið. Þess vegna er vest að þessar upplýsingar séu skýrar, stuttar og tæmandi.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Útlitsleg aðgreining
       content_retention:
-        preamble: Stýrðu hvernig efni frá notendum sé geymt í Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Geymsla efnis
       default_noindex:
         desc_html: Hefur áhrif á alla þá notendur sem ekki hafa breytt þessum stillingum sjálfir
         title: Sjálfgefið láta notendur afþakka atriðaskráningu í leitarvélum
       discovery:
         follow_recommendations: Meðmæli um að fylgjast með
-        preamble: Að láta áhugavert efni koma skýrt fram er sérstaklega mikilvægt til að nálgast nýja notendur sem ekki þekkja neinn sem er á Mastodon. Stýrðu því hvernig hinir ýmsu eiginleikar við uppgötvun efnis virka á netþjóninum þínum.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Notendamappa
         public_timelines: Opinberar tímalínur
         publish_discovered_servers: Birta uppgötvaða netþjóna
@@ -889,7 +889,7 @@ is:
     webhooks:
       add_new: Bæta við endapunkti
       delete: Eyða
-      description_html: <strong>webhook-vefkrækja</strong> gerir Mastodon kleift að ýta <strong>rauntíma-tilkynningum</strong> um valda atburði til þinna eigin forrita, þannig að þau forrit getir <strong>sett sjálfvirk viðbrögð í gang</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Gera óvirkt
       disabled: Óvirkt
       edit: Breyta endapunkti
@@ -951,8 +951,8 @@ is:
     confirmation_dialogs: Staðfestingargluggar
     discovery: Uppgötvun
     localization:
-      body: Mastodon er þýtt af sjálfboðaliðum.
-      guide_link: https://crowdin.com/project/mastodon/is
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Allir geta tekið þátt.
     sensitive_content: Viðkvæmt efni
     toot_layout: Framsetning færslu
@@ -979,9 +979,9 @@ is:
     delete_account: Eyða notandaaðgangi
     delete_account_html: Ef þú vilt eyða notandaaðgangnum þínum, þá geturðu <a href="%{path}">farið í það hér</a>. Þú verður beðin/n um staðfestingu.
     description:
-      prefix_invited_by_user: "@%{name} býður þér að taka þátt á þessum Mastodon-vefþjóni!"
-      prefix_sign_up: Skráðu þig á Mastodon strax í dag!
-      suffix: Með notandaaðgangi geturðu fylgst með fólki, sent inn færslur og skipst á skilaboðum við notendur á hvaða Mastodon-vefþjóni sem er, auk margs fleira!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Fékkstu ekki leiðbeiningar um hvernig eigi að staðfesta aðganginn?
     dont_have_your_security_key: Ertu ekki með öryggislykilinn þinn?
     forgot_password: Gleymdirðu lykilorðinu?
@@ -1017,7 +1017,7 @@ is:
       preamble_html: Skráðu þig inn með auðkennum þínum fyrir <strong>%{domain}</strong>. Ef aðgangurinn þinn er hýstur á öðrum netþjóni, muntu ekki geta skráð þig inn hér.
       title: Skrá inn á %{domain}
     sign_up:
-      preamble: Með notandaaðgangi á þessum Mastodon-þjóni geturðu fylgst með hverjum sem er á netkerfinu, sama hvar notandaaðgangurinn þeirra er hýstur.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Förum núna að setja þig upp á %{domain}.
     status:
       account_status: Staða notandaaðgangs
@@ -1130,7 +1130,7 @@ is:
       content: Því miður, en eitthvað fór úrskeiðis á okkar enda.
       title: Þessi síða er ekki rétt
     '503': Ekki var hægt að afgreiða síðuna vegna tímabundinnar bilunar á vefþjóni.
-    noscript_html: Til að nota vefútgáfu Mastodon þarftu að virkja JavaScript. Þú getur líka prófað eitt af Mastodon <a href="%{apps_path}">forritunum</a> fyrir stýrikerfið þitt.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: Fann ekki staðværan notanda með þetta notandanafn
     not_found_multiple: tókst ekki að finna %{usernames}
@@ -1461,7 +1461,7 @@ is:
       weibo: Weibo
     current_session: Núverandi seta
     description: "%{browser} á %{platform}"
-    explanation: Þetta eru vafrarnir sem núna eru skráðir inn á Mastodon-aðganginn þinn.
+    explanation: These are the apps currently logged in to your account.
     ip: IP-vistfang
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ is:
     aliases: Samnefni notandaaðgangs
     appearance: Útlit
     authorized_apps: Leyfð forrit
-    back: Til baka í Mastodon
+    back: Back to Plaza
     delete: Eyðing notandaaðgangs
     development: Þróun
     edit_profile: Breyta notandasniði
@@ -1598,9 +1598,9 @@ is:
   tags:
     does_not_match_previous_name: samsvarar ekki fyrra nafni
   themes:
-    contrast: Mastodon (mikil birtuskil)
-    default: Mastodon (dökkt)
-    mastodon-light: Mastodon (ljóst)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d. %b, %Y, %H:%M"
@@ -1632,7 +1632,7 @@ is:
       subject: Áfrýjun þinni frá %{date} hefur verið hafnað
       title: Áfrýjun hafnað
     backup_ready:
-      explanation: Þú baðst um fullt öryggisafrit af Mastodon notandaaðgangnum þínum. Það er núna tilbúið til niðurhals!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Safnskráin þín er tilbúin til niðurhals
       title: Taka út í safnskrá
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ is:
       final_step: 'Byrjaðu að tjá þig! Jafnvel án fylgjenda geta aðrir séð opinberar færslur frá þér, til dæmis á staðværu tímalínunni eða í myllumerkjum. Þú gætir jafnvel viljað kynna þig á myllumerkinu #introductions.'
       full_handle: Fullt auðkenni þitt
       full_handle_hint: Þetta er það sem þú myndir gefa upp við vini þína svo þeir geti sent þér skilaboð eða fylgst með þér af öðrum netþjóni.
-      subject: Velkomin í Mastodon
+      subject: Welcome to Plaza
       title: Velkomin/n um borð, %{name}!
   users:
     follow_limit_reached: Þú getur ekki fylgst með fleiri en %{limit} aðilum
@@ -1690,7 +1690,7 @@ is:
     seamless_external_login: Innskráning þín er í gegnum utanaðkomandi þjónustu, þannig að stillingar fyrir lykilorð og tölvupóst eru ekki aðgengilegar.
     signed_in_as: 'Skráð inn sem:'
   verification:
-    explanation_html: 'Þú getur <strong>vottað að þú sért eigandi og ábyrgur fyrir tenglunum í lýsigögnum notandasniðsins þíns</strong>. Til að það virki, þurfa vefsvæðin sem vísað er í að innihalda tengil til baka í Mastodon-notandasniðið. Tengillinn sem vísar til baka <strong>verður</strong> að vera með <code>rel="me"</code> eigindi. Textinn í tenglinum skiptir ekki máli. Hérna er dæmi:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Sannprófun
   webauthn_credentials:
     add: Bæta við nýjum öryggislykli
