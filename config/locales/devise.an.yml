@@ -23,21 +23,21 @@ an-ES:
         explanation: Has creyau una cuenta en %{host} con esta adreza de correu electronico. Yes a un solo clic d'activar-lo. Si no estiés tu, per favor ignora este correu electronico.
         explanation_when_pending: Has solicitau una invitación a %{host} con esta adreza de correu electronico. Una vegada que confirmes la tuya adreza de correu electronico, revisaremos la tuya solicitut. Puetz iniciar sesión pa cambiar los tuyos datos u eliminar la tuya cuenta, pero no puetz acceder ta la mayoría d'as funcions dica que la tuya cuenta sía aprebada. Si la suya solicitut ye refusada, los suyos datos serán eliminaus, per lo que no será necesaria garra acción adicional per la suya parte. Si no estiés tu, per favor ignora este correu electronico.
         extra_html: Per favor, revisa <a href="%{terms_path}">las reglas d'o servidor</a> y <a href="%{policy_path}">los nuestros termins de servicio</a>.
-        subject: 'Mastodon: Instruccions de confirmación pa %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Verificar adreza de correu electronico
       email_changed:
         explanation: 'Lo correu electronico pa la suya cuenta esta estando cambiada a:'
         extra: Si vusté no ha cambiau lo suyo correu electronico, ye probable que belún haiga aconseguiu acceso a la suya cuenta. Per favor cambie la suya clau immediatament u contacte a l'administrador d'a instancia si vusté no puede iniciar sesión.
-        subject: 'Mastodon: Correu electronico cambiau'
+        subject: 'Plaza: Email changed'
         title: Nueva adreza de correu electronico
       password_change:
         explanation: La clau d'a suya cuenta a estau cambiada.
         extra: Si vusté no a cambiau la suya clau. ye probable que belún a aconseguiu acceso a la suya cuenta. Per favor cambie la suya clau immediatament u contacte a l'administrador d'a instancia si vusté esta blocau d'a suya cuenta.
-        subject: 'Mastodon: Clau cambiada'
+        subject: 'Plaza: Password changed'
         title: Clau cambiada
       reconfirmation_instructions:
         explanation: Confirme la nueva adreza pa cambiar la suya coreo electronico.
-        extra: Si no iniciés este cambio, per favor ignora este correu. Esta adreza de correu pa la cuenta de Mastodon no cambiará dica que accedas a lo vinculo alto.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: Confirme correu electronico pa %{instance}'
         title: Verifique adreza de correu electronico
       reset_password_instructions:
