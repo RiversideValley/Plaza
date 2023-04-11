@@ -1,10 +1,10 @@
 ---
-ro:
+ro-RO:
   about:
-    about_mastodon_html: 'Rețeaua socială a viitorului: Fără reclame, fără supraveghere corporativă, design etic și descentralizare! Dețineți-vă datele cu Mastodon!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Nesetat
     contact_unavailable: Indisponibil
-    hosted_on: Mastodon găzduit de %{domain}
+    hosted_on: Plaza on %{domain}
     title: Despre
   accounts:
     follow: Urmărește
@@ -676,7 +676,7 @@ ro:
         moderation: Moderare
         special: Speciale
       delete: Șterge
-      description_html: Folosind <strong>roluri pentru utilizatori</strong>, poți alege ce funcții și zone din Mastodon pot accesa utilizatorii tăi.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Modifică rolul lui „%{name}”
       everyone: Permisiuni implicite
       everyone_full_description_html: Acesta este <strong>rolul de bază</strong> care afectează <strong>toți utilizatorii</strong>, chiar și pe cei fără un rol alocat. Toate celelalte roluri îi moștenesc permisiunile lui.
@@ -740,20 +740,20 @@ ro:
         rules_hint: Există o zonă dedicată pentru regulile pe care utilizatorii tăi ar trebui să le respecte.
         title: Despre
       appearance:
-        preamble: Personalizează interfața web a Mastodon.
+        preamble: Customize Plaza's interface.
         title: Aspect
       branding:
-        preamble: Elementele de marcă ale serverului tău îl diferențiază de celelalte servere din rețea. Acestea pot fi afișate într-o varietate de medii precum în interfața web a Mastodon, în aplicațiile native, în previzualizarea linkurilor pe alte site-uri web, în aplicațiile de mesagerie ș.a.m.d. Din acest motiv, este de preferat ca aceste elemente să fie clare, scurte şi concise.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Elemente de marcă
       content_retention:
-        preamble: Controlează modul în care conținutul generat de utilizatori este stocat în Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Retenția conținutului
       default_noindex:
         desc_html: Affects all users who have not changed this setting themselves
         title: Opt users out of search engine indexing by default
       discovery:
         follow_recommendations: Urmează recomandările
-        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Mastodon. Control how various discovery features work on your server.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Catalogul de profiluri
         public_timelines: Public timelines
         publish_discovered_servers: Publish discovered servers
@@ -906,7 +906,7 @@ ro:
     webhooks:
       add_new: Add endpoint
       delete: Delete
-      description_html: A <strong>webhook</strong> enables Mastodon to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Disable
       disabled: Disabled
       edit: Edit endpoint
@@ -969,8 +969,8 @@ ro:
     confirmation_dialogs: Confirmation dialogs
     discovery: Discovery
     localization:
-      body: Mastodon is translated by volunteers.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Toată lumea poate contribui.
     sensitive_content: Conținut sensibil
     toot_layout: Aspect postare
@@ -997,9 +997,9 @@ ro:
     delete_account: Șterge contul
     delete_account_html: Dacă vrei să ștergi acest cont <a href="%{path}">poți începe aici</a>. Va trebui să confirmi această acțiune.
     description:
-      prefix_invited_by_user: "@%{name} vă invită să vă alăturați acestui server de Mastodon!"
-      prefix_sign_up: Înscrie-te pe Mastodon astăzi!
-      suffix: Cu un cont, vei putea să urmărești oameni, să postezi actualizări și să schimbi mesaje cu utilizatorii de pe orice server Mastodon și multe altele!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Nu ai primit instrucțiunile de confirmare?
     dont_have_your_security_key: Don't have your security key?
     forgot_password: Ai uitat parola?
@@ -1035,7 +1035,7 @@ ro:
       preamble_html: Sign in with your <strong>%{domain}</strong> credentials. If your account is hosted on a different server, you will not be able to log in here.
       title: Sign in to %{domain}
     sign_up:
-      preamble: With an account on this Mastodon server, you'll be able to follow any other person on the network, regardless of where their account is hosted.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Let's get you set up on %{domain}.
     status:
       account_status: Starea contului
@@ -1148,7 +1148,7 @@ ro:
       content: Ne pare rău, dar ceva a funcționat greșit. Încercați din nou!?
       title: Această pagină nu este corectă
     '503': The page could not be served due to a temporary server failure.
-    noscript_html: Pentru a utiliza o aplicație web Mastodon, te rog activează JavaScript. Alternativ, încearcă una din <a href="%{apps_path}">aplicațiile native</a> Mastodon pentru platforma ta.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: could not find a local user with that username
     not_found_multiple: could not find %{usernames}
@@ -1487,7 +1487,7 @@ ro:
       weibo: Weibo
     current_session: Current session
     description: "%{browser} on %{platform}"
-    explanation: These are the web browsers currently logged in to your Mastodon account.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1512,7 +1512,7 @@ ro:
     aliases: Account aliases
     appearance: Appearance
     authorized_apps: Authorized apps
-    back: Înapoi la Mastodon
+    back: Back to Plaza
     delete: Account deletion
     development: Development
     edit_profile: Editați profilul
@@ -1630,9 +1630,9 @@ ro:
   tags:
     does_not_match_previous_name: nu se potrivește cu numele anterior
   themes:
-    contrast: Mastodon (contrast mare)
-    default: Mastodon (Întunecat)
-    mastodon-light: Mastodon (Luminat)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d %m, %Y, %H:%M"
@@ -1664,7 +1664,7 @@ ro:
       subject: Your appeal from %{date} has been rejected
       title: Appeal rejected
     backup_ready:
-      explanation: Ai solicitat o copie de rezervă completă a contului tău. Acum este gata pentru descărcare!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Arhiva ta este gata pentru descărcare
       title: Preluare arhivă
     suspicious_sign_in:
@@ -1713,7 +1713,7 @@ ro:
       final_step: 'Start posting! Even without followers, your public posts may be seen by others, for example on the local timeline or in hashtags. You may want to introduce yourself on the #introductions hashtag.'
       full_handle: Numele tău complet
       full_handle_hint: Asta este ceea ce vei putea spune prietenilor pentru a te putea contacta sau pentru a te urmării de pe un alt server.
-      subject: Bine ai venit
+      subject: Welcome to Plaza
       title: Bine ai venit la bord, %{name}!
   users:
     follow_limit_reached: Nu poți urmări mai mult de %{limit} persoane
@@ -1722,7 +1722,7 @@ ro:
     seamless_external_login: Sunteți autentificat prin intermediul unui serviciu extern, astfel încât parola și setările de e-mail nu sunt disponibile.
     signed_in_as: 'Conectat ca:'
   verification:
-    explanation_html: 'Poți <strong>să te verifici ca proprietar al link-urilor din metadatele profilului tău</strong>. Pentru aceasta, site-ul web asociat trebuie să conțină un link înapoi la profilul tău. Link-ul înapoi <strong>trebuie</strong> să aibă un atribut <code>rel="me"</code>. Conținut textului link-ului nu contează. Iată un exemplu:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Verificare
   webauthn_credentials:
     add: Add new security key
