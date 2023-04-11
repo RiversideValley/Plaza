@@ -1,11 +1,11 @@
 [Unit]
-Description=mastodon-streaming
+Description=hyper-plaza-stream
 After=network.target
 
 [Service]
 Type=simple
-User=mastodon
-WorkingDirectory=/home/mastodon/live
+User=plaza
+WorkingDirectory=/media/crescent/Plaza/live
 Environment="NODE_ENV=production"
 Environment="PORT=4000"
 Environment="STREAMING_CLUSTER_NUM=1"
@@ -45,7 +45,7 @@ SystemCallArchitectures=native
 SystemCallFilter=~@cpu-emulation @debug @keyring @ipc @memlock @mount @obsolete @privileged @resources @setuid
 SystemCallFilter=pipe
 SystemCallFilter=pipe2
-ReadWritePaths=/home/mastodon/live
+ReadWritePaths=/media/crescent/Plaza/live
 
 [Install]
 WantedBy=multi-user.target

@@ -6,17 +6,17 @@
   <a title="Codefactor" target="_blank" href="https://github.com/RiversideValley/Plaza/commits">
     <img align="left" src="https://www.codefactor.io/repository/github/RiversideValley/Plaza/badge" alt="CodeFactor" />
   </a>
-  <a title="Localisation" target="_blank" href="https://crowdin.com/project/Plaza">
+  <a title="Localisation" target="_blank" href="https://translate.dev.plaza.theriversi.de">
     <img align="left" src="https://badges.crowdin.net/plaza/localized.svg" alt="i18n Tracking" />
+  </a>
+  <a title="Status" target="_blank" href="https://status.dev.plaza.theriversi.de">
+    <img align="left" src="https://betteruptime.com/status-badges/v1/monitor/npkl.svg" alt="Status" />
   </a>
   <a title="Build" target="_blank" href="https://github.com/RiversideValley/Plaza/actions/workflows/build-image.yml">
     <img align="left" src="https://github.com/RiversideValley/Plaza/actions/workflows/build-image.yml/badge.svg" alt="Build" />
   </a>
   <a title="Javascript" target="_blank" href="https://github.com/RiversideValley/Plaza/actions/workflows/test-js.yml">
     <img align="left" src="https://github.com/RiversideValley/Plaza/actions/workflows/test-js.yml/badge.svg" alt="Javascript" />
-  </a>
-  <a title="SCSS" target="_blank" href="https://github.com/RiversideValley/Plaza/actions/workflows/lint-css.yml">
-    <img align="left" src="https://github.com/RiversideValley/Plaza/actions/workflows/lint-css.yml/badge.svg" alt="SCSS" />
   </a>
 </p>
 

@@ -1,0 +1,27 @@
+{
+  "background_color": "#ffffff",
+  "description": "Social media built for the future.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Plaza",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Plaza",
+  "start_url": "/",
+  "theme_color": "#015fb8",
+  "iarc_rating_id": "f0ef1cba-2268-46d7-9b4d-ba7ca74f8de9",
+  "categories": [
+    "social"
+  ],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "/badge.png",
+      "type": "image/png",
+      "sizes": "320x320"
+    }
+  ],
+  "shortcuts": [],
+  "lang": "en",
+  "prefer_related_applications": false
+}

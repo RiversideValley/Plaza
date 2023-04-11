@@ -44,3 +44,66 @@ This Code of Conduct is adapted from the [Contributor Covenant][homepage], versi
 
 [homepage]: https://contributor-covenant.org
 [version]: https://contributor-covenant.org/version/1/4/
+
+<!--
+**Nightshade Platea Conduct Guidelines**
+
+```
+This is a document that contains the Nightshade Platea Conduct Guidelines, a set of rules and guidelines for Contributors to Plaza.
+This document is not recommended nor designated for software that is not owned by Riverside Valley Corporation or Mastodon gGmbH.
+```
+```
+Emoji are used within this document to outwardly express conventions of easy-to-read documents, and/or help other cultures read the text at their convenience, if some words may be unclear to them.
+The Emoji contained within these documents are may not wholly represent the associated meaning, and the First Party does not warrant the misunderstanding of such.
+```
+
+---
+
+**This software Copyright (c) 2023 Riverside Valley Corporation.**
+
+###### This software is partly copyright **🏞️ Riverside Valley Corporation** - as stated in the [`license`](LICENSE.md) - therefore, no part of this software may be reproduced or utilised in any form or by any means, electronical or mechanical, including photocopying, recording or by any information storage and retrieval system, without the permission of Riverside Valley.
+
+---
+
+**Nightshade Platea Post-Pretiosa License**
+
+## 📖 Definitions
+
+#### **SOFTWARE**
+
+###### _(referred to as "Plaza" also)_
+
+Plaza, or the Software, is the source-code, executable files, documentation and all associated documents, usually found within this repository, made by members of Riverside Valley Corporation or contributors to this repository.
+
+#### **CONTRIBUTION**
+
+###### _(referred to as "Change" also)_
+
+Any material form of change to the Software.
+
+#### **CONTRIBUTOR**
+
+###### _(referred to as "Contributors" also)_
+
+A Contributor is any party that makes any Contribution.
+
+#### **FIRST PARTY**
+
+###### _(referred to as "Riverside Valley", "Us", "We" also)_
+
+The First Party is Riverside Valley Corporation, the copyright holder of the Software.
+
+#### **THIRD PARTY**
+
+###### _(referred to as "You" also)_
+
+The Third Party is any party that is **not** the First Party - see the **📖 Oxford English Dictionary** for details.
+
+### 1️⃣ Section I: Your Pledge
+
+By contributing to this software
+
+### 2️⃣ Section II: Contributor License Agreement (CLA)
+
+By making any 
+-->
