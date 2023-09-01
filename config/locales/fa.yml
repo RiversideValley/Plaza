@@ -1,10 +1,10 @@
 ---
-fa:
+fa-AF:
   about:
-    about_mastodon_html: 'شبکهٔ اجتماعی آینده: بدون تبلیغات، بدون شنود از طرف شرکت‌ها، طراحی اخلاق‌مدار، و معماری غیرمتمرکز! با ماستودون صاحب داده‌های خودتان باشید!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: تنظیم نشده
     contact_unavailable: موجود نیست
-    hosted_on: ماستودون، میزبانی‌شده روی %{domain}
+    hosted_on: Plaza on %{domain}
     title: درباره
   accounts:
     follow: پیگیری
@@ -650,7 +650,7 @@ fa:
         moderation: نظارت
         special: ویژه
       delete: حذف
-      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Mastodon your users can access.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: ویراش نقش %{name}
       everyone: اجازه‌های پیش‌گزیده
       everyone_full_description_html: This is the <strong>base role</strong> affecting <strong>all users</strong>, even those without an assigned role. All other roles inherit permissions from it.
@@ -712,20 +712,20 @@ fa:
         rules_hint: There is a dedicated area for rules that your users are expected to adhere to.
         title: About
       appearance:
-        preamble: Customize Mastodon's web interface.
+        preamble: Customize Plaza's interface.
         title: Appearance
       branding:
-        preamble: Your server's branding differentiates it from other servers in the network. This information may be displayed across a variety of environments, such as Mastodon's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Branding
       content_retention:
-        preamble: Control how user-generated content is stored in Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Content retention
       default_noindex:
         desc_html: Affects all users who have not changed this setting themselves
         title: Opt users out of search engine indexing by default
       discovery:
         follow_recommendations: پیروی از پیشنهادها
-        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Mastodon. Control how various discovery features work on your server.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: شاخهٔ نمایه
         public_timelines: خط زمانی‌های عمومی
         publish_discovered_servers: Publish discovered servers
@@ -872,7 +872,7 @@ fa:
     webhooks:
       add_new: Add endpoint
       delete: Delete
-      description_html: A <strong>webhook</strong> enables Mastodon to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Disable
       disabled: Disabled
       edit: Edit endpoint
@@ -933,8 +933,8 @@ fa:
     confirmation_dialogs: پیغام‌های تأیید
     discovery: کاوش
     localization:
-      body: ماستودون توسط داوطلبان ترجمه شده است.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: همه می‌توانند کمک کنند.
     sensitive_content: محتوای حساس
     toot_layout: آرایش فرسته
@@ -961,9 +961,9 @@ fa:
     delete_account: پاک‌کردن حساب
     delete_account_html: اگر می‌خواهید حساب خود را پاک کنید، از <a href="%{path}">این‌جا</a> پیش بروید. از شما درخواست تأیید خواهد شد.
     description:
-      prefix_invited_by_user: "@%{name} شما را به عضویت در این کارساز ماستودون دعوت کرده است!"
-      prefix_sign_up: همین امروز عضو ماستودون شوید!
-      suffix: با داشتن حساب می‌توانید دیگران را پی بگیرید، نوشته‌های تازه منتشر کنید، و با کاربران دیگر از هر سرور ماستودون دیگری و حتی سرورهای دیگر در ارتباط باشید!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: راهنمایی برای تأیید را دریافت نکردید؟
     dont_have_your_security_key: کلید امنیتیتان را ندارید؟
     forgot_password: رمزتان را گم کرده‌اید؟
@@ -999,7 +999,7 @@ fa:
       preamble_html: Sign in with your <strong>%{domain}</strong> credentials. If your account is hosted on a different server, you will not be able to log in here.
       title: Sign in to %{domain}
     sign_up:
-      preamble: With an account on this Mastodon server, you'll be able to follow any other person on the network, regardless of where their account is hosted.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Let's get you set up on %{domain}.
     status:
       account_status: وضعیت حساب
@@ -1112,7 +1112,7 @@ fa:
       content: شرمنده، یک چیزی از سمت ما اشتباه شده.
       title: این صفحه درست نیست
     '503': این صفحه به خاطر یک مشکل موقت در کارساز در دسترس نیست.
-    noscript_html: برای استفاده از نسخهٔ تحت وب ماستودون، لطفاً جاوااسکریپت را فعال کنید. یا به جایش می‌توانید <a href="%{apps_path}">یک کارهٔ ماستودون</a> را به کار ببرید.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: کاربری با این نام کاربری در این کارساز پیدا نشد
     not_found_multiple: '%{usernames} پیدا نشد'
@@ -1435,7 +1435,7 @@ fa:
       weibo: وبیو
     current_session: نشست فعلی
     description: "%{browser} روی %{platform}"
-    explanation: مرورگرهای زیر هم‌اینک به حساب شما وارد شده‌اند.
+    explanation: These are the apps currently logged in to your account.
     ip: آی‌پی
     platforms:
       adobe_air: ایر ادوبی
@@ -1460,7 +1460,7 @@ fa:
     aliases: نام‌های مستعار
     appearance: نما
     authorized_apps: برنامه‌های مجاز
-    back: بازگشت به ماستودون
+    back: Back to Plaza
     delete: پاک‌کردن حساب
     development: فرابری
     edit_profile: ویرایش نمایه
@@ -1566,9 +1566,9 @@ fa:
   tags:
     does_not_match_previous_name: با نام پیشین مطابق نیست
   themes:
-    contrast: ماستودون (سایه‌روشن بالا)
-    default: ماستودون (تیره)
-    mastodon-light: ماستودون (روشن)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d %b %Y, %H:%M"
@@ -1600,7 +1600,7 @@ fa:
       subject: درخواست تجدیدنظر شما در %{date} رد شده است
       title: درخواست تجدیدنظر رد شد
     backup_ready:
-      explanation: شما یک نسخهٔ پشتیبان کامل از حساب خود را درخواست کردید. این پشتیبان الان آمادهٔ بارگیری است!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: بایگانی شما آمادهٔ دریافت است
       title: گرفتن بایگانی
     suspicious_sign_in:
@@ -1649,7 +1649,7 @@ fa:
       final_step: 'Start posting! Even without followers, your public posts may be seen by others, for example on the local timeline or in hashtags. You may want to introduce yourself on the #introductions hashtag.'
       full_handle: نام کاربری کامل شما
       full_handle_hint: این چیزی است که باید به دوستانتان بگویید تا بتوانند از کارسازی دیگر به شما پیام داده یا پی‌گیرتان شوند.
-      subject: به ماستودون خوش آمدید
+      subject: Welcome to Plaza
       title: خوش آمدید، کاربر %{name}!
   users:
     follow_limit_reached: شما نمی‌توانید بیش از %{limit} نفر را پی بگیرید
@@ -1658,7 +1658,7 @@ fa:
     seamless_external_login: شما با یک سرویس خارج از مجموعه وارد شده‌اید، به همین دلیل تنظیمات ایمیل و رمز برای شما در دسترس نیست.
     signed_in_as: 'واردشده به نام:'
   verification:
-    explanation_html: 'شما می‌توانید <strong>خود را به عنوان مالک صفحه‌ای که در نمایه‌تان به آن پیوند داده‌اید تأیید کنید.</strong> برای این کار، صفحه‌ای که به آن پیوند داده‌اید، خودش باید پیوندی به نمایهٔ ماستودون شما داشته باشد. پیوند در آن صفحه <strong>باید</strong> عبارت <code>rel="me"‎</code> را به عنوان مشخّصهٔ (attribute) در خود داشته باشد. محتوای متن پیوند اهمتی ندارد. یک نمونه از چنین پیوندی:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: تأیید
   webauthn_credentials:
     add: افزودن کلید امنیتی

@@ -1,10 +1,10 @@
 ---
-nn:
+nn-NO:
   about:
-    about_mastodon_html: 'Framtidas sosiale nettverk: Ingen annonsar, ingen verksemder som overvaker deg, etisk design og desentralisering! Eig idéane dine med Mastodon!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Ikkje sett
     contact_unavailable: I/T
-    hosted_on: '%{domain} er vert for Mastodon'
+    hosted_on: Plaza on %{domain}
     title: Om
   accounts:
     follow: Fylg
@@ -663,7 +663,7 @@ nn:
         moderation: Moderering
         special: Særskild
       delete: Slett
-      description_html: Med <strong>brukarrollar</strong> kan du kontrollera kva funksjonar og område av Mastodon brukarane dine har tilgong til.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Endr rollen '%{name}'
       everyone: Standard-tillatelser
       everyone_full_description_html: Dette er <strong>grunnrollen</strong> som påverkar <strong>alle brukarar</strong>, jamvel dei utan ei tilsett rolle. Alle andre rollar arvar tillatingar frå denne.
@@ -726,20 +726,20 @@ nn:
         rules_hint: Det er eit eige område for reglar som brukarar må retta seg etter.
         title: Om
       appearance:
-        preamble: Tilpasse web-grensesnittet.
+        preamble: Customize Plaza's interface.
         title: Utsjånad
       branding:
-        preamble: Profileringa av tenaren din skil den frå andre tenarar i nettverket. Informasjonen kan bli vist ulike stadar, til dømes i Mastodon sitt web-grensesnitt, i eigne applikasjonar, i førehandsvisningar på andre nettsider, i meldingsappar og så bortetter. På grunn av dette er det best å halde informasjonen enkel, kort og treffande.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Profilering
       content_retention:
-        preamble: Styr korleis brukargenerert innhald blir lagra i Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Bevaring av innhald
       default_noindex:
         desc_html: Påverkar alle brukarar som ikkje har justert denne innstillinga sjølve
         title: Ikkje la brukarar indekserast av søkjemotorar som standard
       discovery:
         follow_recommendations: Følgjeforslag
-        preamble: Å framheva interessant innhald er vitalt i mottakinga av nye brukarar som ikkje nødvendigvis kjenner nokon på Mastodon. Kontroller korleis oppdagingsfunksjonane på tenaren din fungerar.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Profilkatalog
         public_timelines: Offentlege tidsliner
         publish_discovered_servers: Publish discovered servers
@@ -889,7 +889,7 @@ nn:
     webhooks:
       add_new: Legg til endepunkt
       delete: Slett
-      description_html: En <strong>webhook</strong> gjør det mulig for Mastodon å sende <strong>varsler i sanntid</strong> om utvalgte hendelser til din egen applikasjon, sånn at applikasjonen din kan <strong>reagere automatisk</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Deaktiver
       disabled: Deaktivert
       edit: Rediger endepunkt
@@ -951,8 +951,8 @@ nn:
     confirmation_dialogs: Bekreftelsesdialoger
     discovery: Oppdaging
     localization:
-      body: Mastodon er omsett av friviljuge.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Alle kan bidra.
     sensitive_content: Ømtolig innhald
     toot_layout: Tutoppsett
@@ -979,9 +979,9 @@ nn:
     delete_account: Slett konto
     delete_account_html: Om du vil sletta kontoen din, kan du <a href="%{path}">gå hit</a>. Du vert spurd etter stadfesting.
     description:
-      prefix_invited_by_user: "@%{name} spør deg om å verta med i ein Mastodon-tenar!"
-      prefix_sign_up: Meld deg på Mastodon i dag!
-      suffix: Med ein konto kan du fylgja folk, skriva innlegg og veksla meldingar med brukarar frå kva som helst annan Mastodon-tenar og meir!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Fekk du ikkje stadfestingsinstruksjonar?
     dont_have_your_security_key: Har du ikke sikkerhetsnøkkelen din?
     forgot_password: Har du gløymt passordet ditt?
@@ -1017,7 +1017,7 @@ nn:
       preamble_html: Logg inn med brukaropplysningar for <strong>%{domain}</strong>. Dersom kontoen din er registrert på ein annan tenar vil du ikkje kunne logga inn her.
       title: Logg inn på %{domain}
     sign_up:
-      preamble: Med en konto på denne Mastodon-tjeneren vil du kunne følge andre personer på nettverket, uansett hvor kontoen deres holder til.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: La oss få deg satt i gang på %{domain}.
     status:
       account_status: Kontostatus
@@ -1130,7 +1130,7 @@ nn:
       content: Orsak. Vi har gjort noko feil.
       title: Denne sida er ikkje rett
     '503': Siden kunne ikke vises på grunn av en midlertidig serverfeil.
-    noscript_html: For å bruke Mastodon webapplikasjon må du aktivere JavaScript. Alternativt kan du forsøke en av de mange <a href="%{apps_path}">integrerte appene</a> for Mastodon til din plattform.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: fann ingen lokalbrukar med det namnet
     not_found_multiple: fann ikkje %{usernames}
@@ -1461,7 +1461,7 @@ nn:
       weibo: Weibo
     current_session: Noverande økt
     description: "%{browser} på %{platform}"
-    explanation: Desse nettlesarane er logga inn på Mastodon-kontoen din.
+    explanation: These are the apps currently logged in to your account.
     ip: IP-adresse
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ nn:
     aliases: Kallenamn til kontoen
     appearance: Utsjånad
     authorized_apps: Godkjende appar
-    back: Tilbake til Mastodon
+    back: Back to Plaza
     delete: Kontosletting
     development: Utvikling
     edit_profile: Endr profil
@@ -1598,9 +1598,9 @@ nn:
   tags:
     does_not_match_previous_name: stemmar ikkje med det førre namnet
   themes:
-    contrast: Mastodon (Høg kontrast)
-    default: Mastodon (Mørkt)
-    mastodon-light: Mastodon (Lyst)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d.%b %Y, %H:%M"
@@ -1632,7 +1632,7 @@ nn:
       subject: Din klage fra %{date} er avvist
       title: Anke avvist
     backup_ready:
-      explanation: Du ba om en fullstendig sikkerhetskopi av Mastodon-kontoen din. Den er nå klar for nedlasting!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Arkivet ditt er klart til å lastes ned
       title: Nedlasting av arkiv
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ nn:
       final_step: 'Skriv innlegg! Selv uten følgere kan dine offentlige innlegg bli sett av andre, for eksempel på den lokale tidslinjen og i emneknagger. Du kan introdusere deg selv ved å bruke emneknaggen #introduksjon.'
       full_handle: Det fulle brukarnamnet ditt
       full_handle_hint: Dette er det du fortel venene dine for at dei skal kunna senda deg meldingar eller fylgja deg frå ein annan tenar.
-      subject: Velkomen til Mastodon
+      subject: Welcome to Plaza
       title: Velkomen om bord, %{name}!
   users:
     follow_limit_reached: Du kan ikkje fylgja fleire enn %{limit} folk
@@ -1690,7 +1690,7 @@ nn:
     seamless_external_login: Du er logga inn gjennom eit eksternt reiskap, so passord og e-postinstillingar er ikkje tilgjengelege.
     signed_in_as: 'Logga inn som:'
   verification:
-    explanation_html: 'Du kan <strong>bekrefte at du selv er eieren av lenkene i din profilmetadata</strong>. For å gjøre det, må det tillenkede nettstedet inneholde en lenke som fører tilbake til Mastodon-profilen din. Lenken tilbake <strong>må</strong> ha en <code>rel="me"</code>-attributt. Tekstinnholdet til lenken er irrelevant. Her er et eksempel:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Stadfesting
   webauthn_credentials:
     add: Legg til ny sikkerhetsnøkkel

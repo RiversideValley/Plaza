@@ -1,10 +1,10 @@
 ---
-br:
+br-FR:
   about:
-    about_mastodon_html: 'The social network of the future: No ads, no corporate surveillance, ethical design, and decentralization! Own your data with Mastodon!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Andermenet
     contact_unavailable: N'eus ket
-    hosted_on: Mastodon hosted on %{domain}
+    hosted_on: Plaza on %{domain}
     title: Diwar-benn
   accounts:
     follow: Heuliañ
@@ -702,7 +702,7 @@ br:
         moderation: Habaskadur
         special: Ispisial
       delete: Dilemel
-      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Mastodon your users can access.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Edit '%{name}' role
       everyone: Default permissions
       everyone_full_description_html: This is the <strong>base role</strong> affecting <strong>all users</strong>, even those without an assigned role. All other roles inherit permissions from it.
@@ -768,20 +768,20 @@ br:
         rules_hint: There is a dedicated area for rules that your users are expected to adhere to.
         title: Diwar-benn
       appearance:
-        preamble: Customize Mastodon's web interface.
+        preamble: Customize Plaza's interface.
         title: Neuz
       branding:
-        preamble: Your server's branding differentiates it from other servers in the network. This information may be displayed across a variety of environments, such as Mastodon's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Branding
       content_retention:
-        preamble: Control how user-generated content is stored in Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Content retention
       default_noindex:
         desc_html: Affects all users who have not changed this setting themselves
         title: Opt users out of search engine indexing by default
       discovery:
         follow_recommendations: Follow recommendations
-        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Mastodon. Control how various discovery features work on your server.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Profile directory
         public_timelines: Public timelines
         publish_discovered_servers: Publish discovered servers
@@ -940,7 +940,7 @@ br:
     webhooks:
       add_new: Add endpoint
       delete: Dilemel
-      description_html: A <strong>webhook</strong> enables Mastodon to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Diweredekaat
       disabled: Disabled
       edit: Edit endpoint
@@ -1005,8 +1005,8 @@ br:
     confirmation_dialogs: Confirmation dialogs
     discovery: Dizoloadur
     localization:
-      body: Mastodon is translated by volunteers.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Everyone can contribute.
     sensitive_content: Sensitive content
     toot_layout: Post layout
@@ -1033,9 +1033,9 @@ br:
     delete_account: Dilemel ar gont
     delete_account_html: If you wish to delete your account, you can <a href="%{path}">proceed here</a>. You will be asked for confirmation.
     description:
-      prefix_invited_by_user: "@%{name} invites you to join this server of Mastodon!"
-      prefix_sign_up: Sign up on Mastodon today!
-      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any Mastodon server and more!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Didn't receive confirmation instructions?
     dont_have_your_security_key: Don't have your security key?
     forgot_password: Forgot your password?
@@ -1071,7 +1071,7 @@ br:
       preamble_html: Sign in with your <strong>%{domain}</strong> credentials. If your account is hosted on a different server, you will not be able to log in here.
       title: Sign in to %{domain}
     sign_up:
-      preamble: With an account on this Mastodon server, you'll be able to follow any other person on the network, regardless of where their account is hosted.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Let's get you set up on %{domain}.
     status:
       account_status: Statud ar gont
@@ -1184,7 +1184,7 @@ br:
       content: We're sorry, but something went wrong on our end.
       title: This page is not correct
     '503': The page could not be served due to a temporary server failure.
-    noscript_html: To use the Mastodon web application, please enable JavaScript. Alternatively, try one of the <a href="%{apps_path}">native apps</a> for Mastodon for your platform.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: could not find a local user with that username
     not_found_multiple: could not find %{usernames}
@@ -1539,7 +1539,7 @@ br:
       weibo: Weibo
     current_session: Current session
     description: "%{browser} war %{platform}"
-    explanation: These are the web browsers currently logged in to your Mastodon account.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1564,7 +1564,7 @@ br:
     aliases: Account aliases
     appearance: Appearance
     authorized_apps: Authorized apps
-    back: Back to Mastodon
+    back: Back to Plaza
     delete: Account deletion
     development: Diorren
     edit_profile: Kemmañ ar profil
@@ -1694,9 +1694,9 @@ br:
   tags:
     does_not_match_previous_name: does not match the previous name
   themes:
-    contrast: Mastodon (High contrast)
-    default: Mastodoñ (Teñval)
-    mastodon-light: Mastodoñ (Sklaer)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d a viz %b %Y, %H:%M"
@@ -1728,7 +1728,7 @@ br:
       subject: Your appeal from %{date} has been rejected
       title: Appeal rejected
     backup_ready:
-      explanation: You requested a full backup of your Mastodon account. It's now ready for download!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Your archive is ready for download
       title: Archive takeout
     suspicious_sign_in:
@@ -1777,7 +1777,7 @@ br:
       final_step: 'Start posting! Even without followers, your public posts may be seen by others, for example on the local timeline or in hashtags. You may want to introduce yourself on the #introductions hashtag.'
       full_handle: Your full handle
       full_handle_hint: This is what you would tell your friends so they can message or follow you from another server.
-      subject: Donemat e Mastodoñ
+      subject: Welcome to Plaza
       title: Degemer mat e bourzh, %{name}!
   users:
     follow_limit_reached: You cannot follow more than %{limit} people
@@ -1786,7 +1786,7 @@ br:
     seamless_external_login: You are logged in via an external service, so password and e-mail settings are not available.
     signed_in_as: 'Aet-tre evel:'
   verification:
-    explanation_html: 'Gallout a rit <strong>gwiriañ c''hwi a zo perc''henn. ez liammoù metadata ho profil</strong>. Ret eo d''al lec''hienn web staget enderc''hel ul liamm evit mont d''ho profil Mastodon. <strong>Ret eo<strong> d''al liamm-se enderc''hel un doarenn <code>rel="me"</code>. Ne ra forzh an destenn a zo e-barzh al liamm. Setu ur skouer:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Amprouadur
   webauthn_credentials:
     add: Ouzphennañ un alc'hwez surentez nevez

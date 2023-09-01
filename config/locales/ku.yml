@@ -1,10 +1,10 @@
 ---
 ckb-IR:
   about:
-    about_mastodon_html: 'Tora civakî ya pêşerojê: Ne reklam, ne şopandina şîrketan, dîzayna nenavendî! Bi Mastodon re bibe xwediyê daneyên xwe!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Nehate sazkirin
     contact_unavailable: Tune
-    hosted_on: Mastodon li ser %{domain} tê pêşkêşkirin
+    hosted_on: Plaza on %{domain}
     title: Derbar
   accounts:
     follow: Bişopîne
@@ -663,7 +663,7 @@ ckb-IR:
         moderation: Çavdêrî
         special: Taybet
       delete: Jê bibe
-      description_html: Bi <strong>rolên bikarhêner</strong>, tu dikarî fonksiyon û deverên Mastodon ku bikarhênerên wê dikarin xwe bigihînin kesane bikî.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Rolê '%{name}' serrast bike
       everyone: Mafdayînên berdest
       everyone_full_description_html: Ev <strong>rola bingehîn</strong> bandorê li <strong>hemû bikarhêneran</strong> dike, tevî yên bêyî rolek diyarkirî jî. Hemû rolên din mafdayînan jê digirin.
@@ -726,20 +726,20 @@ ckb-IR:
         rules_hint: Ji bo rêbazên ku ji bikarhênerên ve tê hêvîkirin ku pê ve girêdayî bin deverek veqetandî heye.
         title: Derbar
       appearance:
-        preamble: Navrûya tevnê ya Mastodon kesane bike.
+        preamble: Customize Plaza's interface.
         title: Xuyang
       branding:
-        preamble: Navnîşa rajekarê te wê ji rajekarên din ên di torê de cuda bike. Dibe ku ev zanyarî li ser cihên cuda, wekî navrûya bikarhêneriyê tevnê ya Mastodon, sepanên resen, di pêşdîtinên girêdanê de li ser malperên din û di nav sepanên peyamî de, û hwd werin nîşandan. Ji bo vê yekê, çêtir e ku mirov van zanyariyan zelal, kurt û bê kêmasî werin nîşandan.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Marka
       content_retention:
-        preamble: Kontrol bike ka naveroka ku ji aliyê bikarhêner ve hatiye çêkirin di Mastodon de çawa tê tomarkirin.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Parastina naverokê
       default_noindex:
         desc_html: Bandorê li ser hemû bikarhênerên ku bi xwe ev sazkarî neguhertine
         title: Pêlrêçkirna bikarhêneran ji motorê lêgerînê dûr bixe
       discovery:
         follow_recommendations: Pêşniyarên şopandinê
-        preamble: Rûbirûbûna naveroka balkêş ji bo bikarhênerên nû yên ku li ser Mastodon kesek nas nakin pir bi bandor e. Kontrol bike ka çend taybetmendiyên vekolînê li ser rajekarê te çawa dixebite.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Rêgeha profîlê
         public_timelines: Demnameya gelemperî
         publish_discovered_servers: Publish discovered servers
@@ -889,7 +889,7 @@ ckb-IR:
     webhooks:
       add_new: Xala dawîbûnê tevlî bike
       delete: Jê bibe
-      description_html: <strong>çengeleke tevnê</strong> dihêle ku Mastodon <strong>agahdariyên dema-rastîn</strong> ên derbarê çalakiyên hilbijartî de bisepîne ser sepana te, bi vî awayî sepana te dikare <strong>reaksiyonan bi awayekî bixweber nîşan bide</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Neçalak bike
       disabled: Neçalakkirî
       edit: Xala dawîbûnê serrast bike
@@ -951,8 +951,8 @@ ckb-IR:
     confirmation_dialogs: Gotûbêjên piştrastkirî
     discovery: Vedîtin
     localization:
-      body: Mastodon ji aliyê xêrxwazan tê wergerandin.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Herkes dikare beşdar bibe.
     sensitive_content: Naveroka hestiyarî
     toot_layout: Xêzkirina şandîya
@@ -979,9 +979,9 @@ ckb-IR:
     delete_account: Ajimêr jê bibe
     delete_account_html: Ku tu dixwazî ajimêra xwe jê bibe, tu dikarî <a href="%{path}">li vir bidomîne</a>. Ji te tê xwestin ku were pejirandin.
     description:
-      prefix_invited_by_user: "@%{name} te vedixwîne ku tu beşdarî vê rajekara Mastodon-ê bibî!"
-      prefix_sign_up: Îro li Mastodonê tomar bibe!
-      suffix: Bi ajimêrekê, tu yê karibî kesan bişopînî, rojanekirinan bişînî û bi bikarhênerên ji her rajekarê Mastodon re peyaman bişînî û bêtir!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Te rêwerzên pejirandinê wernegirt?
     dont_have_your_security_key: Kilîda te ya ewlehiyê tune ye?
     forgot_password: Te borînpeyva xwe ji bîr kir?
@@ -1017,7 +1017,7 @@ ckb-IR:
       preamble_html: Têketinê bike bi riya <strong>%{domain}</strong> xwe. Ku ajimêrê te li ser rajekareke cuda hatiye pêşkêşkirin, tu yê nikaribû têketinê bikî vir.
       title: Têkeve %{domain}
     sign_up:
-      preamble: Bi ajimêrekê li ser vê rajekarê Mastodon re, tu yê karîbî her keseke din li ser torê bişopînî, her ku ajimêrê wan li ku derê tê pêşkêşkirin.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Ka em te bi rê bixin li ser %{domain}.
     status:
       account_status: Rewşa ajimêr
@@ -1130,7 +1130,7 @@ ckb-IR:
       content: Em xemgîn in, lê tiştek di aliyê me de şaş çû.
       title: Ev rûpel ne rast e
     '503': Ji ber têkçûna rajekar a demkî rûpel nayê bikaranîn.
-    noscript_html: Ji bo ku tu sepanaa Mastodon a tevnê bi kar bîne, jkx JavaScript-ê çalak bike. Wekî din, yek ji <a href="%{apps_path}">sepanên xwemalî</a> ji bo Mastodon ji bo platforma xwe biceribîne.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: nikaribû bikarhênerek herêmî bi wê navê bikarhêner bibîne
     not_found_multiple: '%{usernames} nehat dîtin'
@@ -1461,7 +1461,7 @@ ckb-IR:
       weibo: Weibo
     current_session: Danişîna heyî
     description: "%{platform} ser %{browser}"
-    explanation: Gerokên tevnê di dema heyî de hene ku têketin kirine di ajimêra te ya Mastodon.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ ckb-IR:
     aliases: Nûçikên ajimêra
     appearance: Xuyang
     authorized_apps: Rayedarê sepanan
-    back: Vegere bo Mastodon
+    back: Back to Plaza
     delete: Jêbirina ajimêr
     development: Pêşdebir
     edit_profile: Profîlê serrast bike
@@ -1598,9 +1598,9 @@ ckb-IR:
   tags:
     does_not_match_previous_name: bi navê berê re li hev nayê
   themes:
-    contrast: Mastodon (Dijberiya bilind)
-    default: Mastodon (Tarî)
-    mastodon-light: Mastodon (Ronahî)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
@@ -1632,7 +1632,7 @@ ckb-IR:
       subject: Îtîraza te ji %{date} nehate pejirandin
       title: Îtîraz nehate pejirandin
     backup_ready:
-      explanation: Te yedekîya tijê ya ajimêrê xwe Mastodonê xwest. Niha ji daxistinê re amade ye!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Arşîva te amede ye bo daxistinê
       title: Pakêtkirina arşîvan
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ ckb-IR:
       final_step: 'Dest bi weşandinê bike! Bêyî şopîneran jî dibe ku şandiyên te yên gelemperî ji hêla kesên din ve werin dîtin, mînakî li ser demjimêra herêmî û di hashtagan de. Dibe ku tu bixwazî xwe li ser hashtagê #nasname bidî nasandin.'
       full_handle: Hemî destikê te
       full_handle_hint: Ji hevalên xwe re, ji bona ji rajekarekê din peyam bişîne an jî ji bona ku te bikaribe bişopîne tişta ku tu bibêjî ev e.
-      subject: Tu bi xêr hatî Mastodon
+      subject: Welcome to Plaza
       title: Bi xêr hatî, %{name}!
   users:
     follow_limit_reached: Tu nikarî zêdetirî %{limit} kesan bişopînî
@@ -1690,7 +1690,7 @@ ckb-IR:
     seamless_external_login: Te bi rajekarke biyanî re têketina xwe kir, ji ber vê yekê borînpeyv û e-name nayê bikaranîn.
     signed_in_as: 'Têketin wekî:'
   verification:
-    explanation_html: 'Tu dikarî <strong>xwe wekî xwediyê girêdanên li daneyê meta profîla xwe piştrast bikî</strong>. Ji bo vê, hewceye girêda malperê di nav profîla te ya mastodonê de girêdanekî paş hebe. Girêdana paş<strong>hewceye</strong> taybetîyek <code>rel="me"</code>hebe. Naveroka nivîsa girêdanê ne girîng e. Ev jî mînakek e:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Piştrastkirin
   webauthn_credentials:
     add: Kilîteke ewlehiyê nû tevlî bike

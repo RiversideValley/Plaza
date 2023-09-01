@@ -23,21 +23,21 @@ ast-ES:
         explanation: Creesti una cuenta en %{host} con esta direición de corréu electrónicu ya tas a un calcu d'activala. Si nun fixesti esta aición, inora esti mensaxe.
         explanation_when_pending: Solicitesti una invitación a %{host} con esta direición de corréu electrónicu. Namás que confirmes la direición de corréu electrónicu, vamos revisar la solicitú. Entrín ya non, pues aniciar la sesión pa camudar los detalles o desaniciar la cuenta, mas nun pues acceder a la mayoría de funciones hasta que la cuenta nun tea aprobada. Si se refuga la solicitú, nun ye necesario que faigas nada más o si, per otra parte, tu nun fixesti esta aición, inora esti mensaxe.
         extra_html: Revisa tamién <a href="%{terms_path}">les normes del sirvidor</a> ya <a href="%{policy_path}">los nuesos términos del serviciu</a>.
-        subject: 'Mastodon: instrucciones de confirmación de «%{instance}»'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Verificación de la direición de corréu electrónicu
       email_changed:
         explanation: 'La direición de corréu electrónicu de la cuenta camudó a:'
         extra: Si nun camudesti la direición de corréu electrónicu, ye probable que daquién accediere a la cuenta. Camuda la contraseña agora mesmo o ponte en contautu cola alministración del sirvidor si nun yes a acceder a la cuenta.
-        subject: 'Mastodón: la direición de corréu electrónicu camudó'
+        subject: 'Plaza: Email changed'
         title: Direición de corréu electrónicu nueva
       password_change:
         explanation: La contraseña de la cuenta camudó.
         extra: Si nun camudesti la contraseña, ye probable que daquién accediere a la cuenta. Camuda la contraseña agora mesmo o ponte en contautu cola alministración del sirvidor si nun yes a acceder a la cuenta.
-        subject: 'Mastodon: la contraseña camudó'
+        subject: 'Plaza: Password changed'
         title: Password changed
       reconfirmation_instructions:
         explanation: Confirma la direición nueva pa camudar la direición de corréu electrónicu.
-        extra: Si tu nun aniciesti esti cambéu, inora esti mensaxe. La direición de corréu electrónicu de la cuenta de Mastodon nun va camudar hasta que nun accedas al enllaz d'arriba.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: confirmación de la direición de corréu electrónicu de «%{instance}»'
         title: Verificar la direición de corréu electrónicu
       reset_password_instructions:

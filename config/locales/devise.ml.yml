@@ -23,21 +23,21 @@ ml-IN:
         explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
         explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
         extra_html: Please also check out <a href="%{terms_path}">the rules of the server</a> and <a href="%{policy_path}">our terms of service</a>.
-        subject: 'Mastodon: Confirmation instructions for %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: ഇമെയിൽ മേൽവിലാസം നേരാണെന്നു തെളിയിക്കുക
       email_changed:
         explanation: 'നിങ്ങളുടെ അംഗത്വത്തിനായുള്ള ഇമെയിൽ വിലാസം ഇതിലേക്ക് മാറ്റുകയാണ്:'
         extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
-        subject: 'മാസ്റ്റോഡോൺ: ഇമെയിൽ മാറ്റം വരുത്തി'
+        subject: 'Plaza: Email changed'
         title: പുതിയ ഇ-മെയിൽ വിലാസം
       password_change:
         explanation: താങ്കളുടെ അംഗത്വത്തിന്റെ പാസ്സ് വേഡ് മാറ്റം വരുത്തി.
         extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
-        subject: 'Mastodon: Password changed'
+        subject: 'Plaza: Password changed'
         title: പാസ് വേഡ് മാറ്റി
       reconfirmation_instructions:
         explanation: Confirm the new address to change your email.
-        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: Confirm email for %{instance}'
         title: Verify email address
       reset_password_instructions:

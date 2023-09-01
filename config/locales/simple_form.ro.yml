@@ -1,5 +1,5 @@
 ---
-ro:
+ro-RO:
   simple_form:
     hints:
       account_alias:
@@ -49,7 +49,7 @@ ro:
         phrase: Vor fi potrivite indiferent de textul din casetă sau advertismentul unei postări
         scopes: La care API-uri aplicația are nevoie de acces. Dacă selectezi un scop principal nu mai e nevoie să selectezi fiecare sub-scop al acestuia.
         setting_aggregate_reblogs: Nu afișa impulsurile noi pentru postările care au fost deja recent impulsionate (afectează doar noile impulsuri primite)
-        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Mastodon
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Plaza
         setting_default_sensitive: Fișierele media sensibile sunt ascunse implicit și pot fi dezvăluite cu un clic
         setting_display_media_default: Ascunde conținutul media marcat ca sensibil (NSFW)
         setting_display_media_hide_all: Întotdeauna ascunde tot conținutul media
@@ -79,14 +79,14 @@ ro:
         bootstrap_timeline_accounts: These accounts will be pinned to the top of new users' follow recommendations.
         closed_registrations_message: Displayed when sign-ups are closed
         content_cache_retention_period: Posts from other servers will be deleted after the specified number of days when set to a positive value. This may be irreversible.
-        custom_css: You can apply custom styles on the web version of Mastodon.
+        custom_css: You can apply custom styles on Plaza.
         mascot: Overrides the illustration in the advanced web interface.
         media_cache_retention_period: Downloaded media files will be deleted after the specified number of days when set to a positive value, and re-downloaded on demand.
         peers_api_enabled: A list of domain names this server has encountered in the fediverse. No data is included here about whether you federate with a given server, just that your server knows about it. This is used by services that collect statistics on federation in a general sense.
         profile_directory: The profile directory lists all users who have opted-in to be discoverable.
         require_invite_text: When sign-ups require manual approval, make the “Why do you want to join?” text input mandatory rather than optional
         site_contact_email: How people can reach you for legal or support inquiries.
-        site_contact_username: How people can reach you on Mastodon.
+        site_contact_username: How people can reach you on Plaza.
         site_extended_description: Any additional information that may be useful to visitors and your users. Can be structured with Markdown syntax.
         site_short_description: A short description to help uniquely identify your server. Who is running it, who is it for?
         site_terms: Use your own privacy policy or leave blank to use the default. Can be structured with Markdown syntax.
@@ -101,7 +101,7 @@ ro:
       form_challenge:
         current_password: Ați intrat într-o zonă securizată
       imports:
-        data: Fișierul CSV exportat de la o altă instanță
+        data: CSV file exported from another fediverse server
       invite_request:
         text: Acest lucru ne va ajuta să revizuim cererea dvs
       ip_block:

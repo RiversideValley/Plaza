@@ -23,21 +23,21 @@ fy-NL:
         explanation: Do hast in account op %{host} oanmakke en mei ien klik kinsto dizze aktivearje. Wannear’tsto dit account net oanmakke hast, meisto dit e-mailberjocht negearje.
         explanation_when_pending: Do fregest mei dit e-mailadres in útnûging oan foar %{host}. Neidatsto dyn e-mailadres befêstige hast, beoardielje wy dyn oanfraach. Do kinst oant dan noch net oanmelde. Wannear’t dyn oanfraach ôfwêzen wurdt, wurde dyn gegevens fuortsmiten en hoechsto dêrnei fierder neat mear te dwaan. Wannear’tsto dit net wiest, kinsto dit e-mailberjocht negearje.
         extra_html: "128 / 5.000\nKontrolearje ek <a href=\"%{terms_path}\">de regels fan de server</a> en <a href=\"%{policy_path}\">ús tsjinstbetingsten</a>."
-        subject: 'Mastodon: Befêstigingsynstruksjes foar %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: E-mailadres ferifiearje
       email_changed:
         explanation: 'It e-mailadres foar jo account wurdt wizige yn:'
         extra: As jo ​​jo e-mailadres net wizige hawwe, is it wierskynlik dat immen tagong hat ta jo account. Wizigje jo wachtwurd daliks of nim kontakt op mei de server-admin as jo útsletten binne fan jo account.
-        subject: 'Mastodon: E-mailadres is wizige'
+        subject: 'Plaza: Email changed'
         title: Nij e-mailadres
       password_change:
         explanation: It wachtwurd fan dizze account is wizige.
         extra: As jo ​​jo wachtwurd net wizige hawwe, is it wierskynlik dat immen tagong hat ta jo account. Wizigje jo wachtwurd daliks of nim kontakt op mei de serveradmin as jo útsletten binne fan jo account.
-        subject: 'Mastodon: Wachtwurd wizige'
+        subject: 'Plaza: Password changed'
         title: Wachtwurd wizige
       reconfirmation_instructions:
         explanation: Befêstigje jo nije e-mailadres om dizze te wizigjen.
-        extra: Wannear’t jo dizze wiziging net útfierd hawwe, meie jo dit e-mailberjocht negearje. It e-mailadres fan jo Mastodon-account wurdt pas werklik wizige oant jo de keppeling hjirboppe oanklikke.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: Befêstigje it e-mailadres foar %{instance}'
         title: E-mailadres ferifiearje
       reset_password_instructions:

@@ -23,21 +23,21 @@ cs-CZ:
         explanation: S touto e-mailovou adresou jste si vytvořili účet na serveru %{host}. K jeho aktivaci vám zbývá jedno kliknutí. Pokud jste to nebyli vy, považujte tento e-mail za bezpředmětný.
         explanation_when_pending: S touto e-mailovou adresu jste požádali o pozváku na %{host}. Jakmile svou e-mailovou adresu potvrdíte, vaši žádost posoudíme. Můžete se přihlásit ke změně podrobností svého účtu nebo jeho smazání, ale do schválení účtu nebudete mít k většině funkcí přístup. Pokud bude vaše žádost zamítnuta, vaše data budou odstraněna, a nebude od vás vyžadována žádná další akce. Pokud jste to nebyli vy, považujte tento e-mail za bezpředmětný.
         extra_html: Přečtěte si prosím také <a href="%{terms_path}">pravidla tohoto serveru</a> a <a href="%{policy_path}">naše podmínky užití</a>.
-        subject: 'Mastodon: Potvrzení účtu na serveru %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Potvrďte e-mailovou adresu
       email_changed:
         explanation: 'E-mailová adresa vašeho účtu byla změněna na:'
         extra: Pokud jste si e-mailovou adresu neměnili, je pravděpodobné, že někdo jiný získal přístup k vašemu účtu. Změňte si prosím okamžitě heslo, nebo, pokud se nemůžete na účet přihlásit, kontaktujte administrátora serveru.
-        subject: 'Mastodon: E-mailová adresa byla změněna'
+        subject: 'Plaza: Email changed'
         title: Nová e-mailová adresa
       password_change:
         explanation: Heslo k vašemu účtu bylo změněno.
         extra: Pokud jste si heslo neměnili, je pravděpodobné, že někdo jiný získal přístup k vašemu účtu. Změňte si prosím okamžitě heslo, nebo, pokud se nemůžete na účet přihlásit, kontaktujte administrátora serveru.
-        subject: 'Mastodon: Heslo bylo změněno'
+        subject: 'Plaza: Password changed'
         title: Heslo bylo změněno
       reconfirmation_instructions:
         explanation: Pro změnu e-mailu potvrďte novou adresu.
-        extra: Pokud jste si tuto změnu nevyžádali vy, považujte tento e-mail za bezpředmětný. Pokud výše uvedenou adresu nenavštívíte, e-mailová adresa změněna nebude.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: Potvrďte e-mail pro %{instance}'
         title: Ověřit e-mailovou adresu
       reset_password_instructions:

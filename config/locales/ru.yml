@@ -1,10 +1,10 @@
 ---
 ru-BY:
   about:
-    about_mastodon_html: 'Социальная сеть будущего: никакой рекламы, слежки корпорациями, этичный дизайн и децентрализация! С Mastodon ваши данные под вашим контролем.'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: не указан
     contact_unavailable: неизв.
-    hosted_on: Вы получили это сообщение, так как зарегистрированы на %{domain}
+    hosted_on: Plaza on %{domain}
     title: О проекте
   accounts:
     follow: Подписаться
@@ -689,7 +689,7 @@ ru-BY:
         moderation: Модерация
         special: Особые
       delete: Удалить
-      description_html: С помощью <strong>ролей пользователей</strong> вы можете настроить, к каким функциям и областям Mastodon у ваших пользователей будет доступ.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Изменить роль '%{name}' '
       everyone: Разрешения по умолчанию
       everyone_full_description_html: Это <strong>базовая роль</strong>, касающаяся <strong>всех пользователей</strong>, даже тех, кто не имеет назначенной роли. Все другие роли наследуют разрешения от нее.
@@ -754,20 +754,20 @@ ru-BY:
         rules_hint: Это отдельное место для правил, которыми должны руководствоваться пользователи.
         title: О нас
       appearance:
-        preamble: Настройте веб-интерфейс Мастодона.
+        preamble: Customize Plaza's interface.
         title: Внешний вид
       branding:
-        preamble: Брендинг вашего сервера отличает его от других серверов сети. Эта информация может отображаться в различных средах, таких как веб-интерфейс Mastodon, нативные приложения, в виде предпросмотра ссылок на других веб-сайтах, в почтовых приложениях и так далее. По этой причине лучше держать эту информацию ясной, короткой и краткой.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Брендинг
       content_retention:
-        preamble: Управление сохранением пользовательского контента в Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Хранение контента
       default_noindex:
         desc_html: Влияет на всех пользователей, которые не изменили эту настройку сами
         title: Исключить пользователей из индексации поисковиками по умолчанию
       discovery:
         follow_recommendations: Рекомендации подписок
-        preamble: Наблюдение интересного контента играет важную роль при открытии новых пользователей, которые могут не знать ни одного Mastodon. Контролируйте как работают различные функции обнаружения на вашем сервере.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Каталог профилей
         public_timelines: Публичные ленты
         publish_discovered_servers: Публикация списка обнаруженных узлов
@@ -923,7 +923,7 @@ ru-BY:
     webhooks:
       add_new: Добавить конечную точку
       delete: Удалить
-      description_html: <strong>Вебхуки</strong> позволяют Mastodon отправлять вашим приложениям <strong>уведомления в реальном времени</strong> о выбранных происходящих событиях, а они могут <strong>обрабатывать их в автоматическом режиме</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Отключить
       disabled: Отключено
       edit: Редактировать вебхук
@@ -987,8 +987,8 @@ ru-BY:
     confirmation_dialogs: Окна подтверждений
     discovery: Обзор
     localization:
-      body: Mastodon переводится добровольцами.
-      guide_link: https://ru.crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Каждый может внести свой вклад.
     sensitive_content: Содержимое деликатного характера
     toot_layout: Структура постов
@@ -1015,9 +1015,9 @@ ru-BY:
     delete_account: Удалить учётную запись
     delete_account_html: Удалить свою учётную запись <a href="%{path}">можно в два счёта здесь</a>, но прежде у вас будет спрошено подтверждение.
     description:
-      prefix_invited_by_user: "@%{name} приглашает вас присоединиться к этому узлу Mastodon."
-      prefix_sign_up: Зарегистрируйтесь в Mastodon уже сегодня!
-      suffix: С учётной записью вы сможете подписываться на людей, публиковать обновления, обмениваться сообщениями с пользователями любых сообществ Mastodon и не только!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Не получили инструкцию для подтверждения?
     dont_have_your_security_key: У вас нет ключа безопасности?
     forgot_password: Забыли пароль?
@@ -1053,7 +1053,7 @@ ru-BY:
       preamble_html: Войдите, используя ваши учётные данные <strong>%{domain}</strong>. Если ваша учётная запись размещена на другом сервере, вы не сможете здесь войти.
       title: Войти в %{domain}
     sign_up:
-      preamble: С учётной записью на этом сервере Mastodon вы сможете следить за любым другим пользователем в сети, независимо от того, где размещён их аккаунт.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Зарегистрируйтесь в %{domain}.
     status:
       account_status: Статус учётной записи
@@ -1166,7 +1166,7 @@ ru-BY:
       content: Приносим извинения, но на нашей стороне что-то пошло не так.
       title: Страница неверна
     '503': Страница не может быть отображена из-за временного сбоя на сервере.
-    noscript_html: Для работы с Mastodon, пожалуйста, включите JavaScript. Кроме того, вы можете использовать одно из <a href="%{apps_path}">приложений</a> Mastodon для Вашей платформы.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: не удалось найти локального пользователя с таким именем
     not_found_multiple: не удалось найти %{usernames}
@@ -1513,7 +1513,7 @@ ru-BY:
       weibo: Weibo
     current_session: Текущая сессия
     description: "%{browser} на %{platform}"
-    explanation: Здесь отображаются все браузеры, с которых выполнен вход в вашу учётную запись. Авторизованные приложения находятся в секции «Приложения».
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1538,7 +1538,7 @@ ru-BY:
     aliases: Псевдонимы учётной записи
     appearance: Внешний вид
     authorized_apps: Приложения
-    back: Назад в Mastodon
+    back: Back to Plaza
     delete: Удаление учётной записи
     development: Разработчикам
     edit_profile: Изменить профиль
@@ -1662,9 +1662,9 @@ ru-BY:
   tags:
     does_not_match_previous_name: не совпадает с предыдущим именем
   themes:
-    contrast: Mastodon (высококонтрастная)
-    default: Mastodon (тёмная)
-    mastodon-light: Mastodon (светлая)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d %b %Y, %H:%M"
@@ -1696,7 +1696,7 @@ ru-BY:
       subject: Ваше обжалование от %{date} отклонено
       title: Обжалование отклонено
     backup_ready:
-      explanation: Вы запросили архив всех данных вашей учётной записи Mastodon. Что ж, он готов к скачиванию.
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Ваш архив готов к загрузке
       title: Архив ваших данных готов
     suspicious_sign_in:
@@ -1745,7 +1745,7 @@ ru-BY:
       final_step: 'Начинайте постить! Даже без подписчиков, ваши публичные посты могут быть увиденными другими, например в локальной ленте или в хештегах. Вы можете представиться с хэштегом #introductions.'
       full_handle: Ваше обращение
       full_handle_hint: То, что Вы хотите сообщить своим друзьям, чтобы они могли написать Вам или подписаться с другого узла.
-      subject: Добро пожаловать в Mastodon
+      subject: Welcome to Plaza
       title: Добро пожаловать на борт, %{name}!
   users:
     follow_limit_reached: Вы не можете подписаться больше, чем на %{limit} человек
@@ -1754,7 +1754,7 @@ ru-BY:
     seamless_external_login: Вы залогинены через сторонний сервис, поэтому настройки e-mail и пароля недоступны.
     signed_in_as: 'Выполнен вход под именем:'
   verification:
-    explanation_html: 'Вы можете <strong>подтвердить владение</strong> любой из ссылок в таблице. Для этого страница по ссылке должна содержать обратную ссылку на ваш профиль Mastodon, а у самой ссылки <strong>должен</strong> атрибут <code>rel="me"</code>. Текст ссылки значения не имеет. Вот пример:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Верификация ссылок
   webauthn_credentials:
     add: Добавить новый ключ безопасности

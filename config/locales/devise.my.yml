@@ -23,21 +23,21 @@ my-MM:
         explanation: You have created an account on %{host} with this email address. You are one click away from activating it. If this wasn't you, please ignore this email.
         explanation_when_pending: You applied for an invite to %{host} with this email address. Once you confirm your e-mail address, we will review your application. You can login to change your details or delete your account, but you cannot access most of the functions until your account is approved. If your application is rejected, your data will be removed, so no further action will be required from you. If this wasn't you, please ignore this email.
         extra_html: ကျေးဇူးပြု၍ <a href="%{terms_path}">ဆာဗာစည်းမျဉ်းများ</a> နှင့် <a href="%{policy_path}">ကျွန်ုပ်တို့၏ဝန်ဆောင်မှုစည်းမျဉ်းများ</a>ကိုလည်း စစ်ဆေးကြည့်ပါ။
-        subject: 'Mastodon - %{instance} အတွက် အတည်ပြုချက် ညွှန်ကြားချက်များ'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: အီးမေးလ်လိပ်စာကို အတည်ပြုပါ
       email_changed:
         explanation: 'သင့်အကောင့်အတွက် အီးမေးလ်လိပ်စာကို ပြောင်းလဲနေပါသည် -'
         extra: If you did not change your email, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
-        subject: 'Mastodon: အီးမေးလ်ပြောင်းလဲသွားပြီ'
+        subject: 'Plaza: Email changed'
         title: အီးမေးလ်လိပ်စာအသစ်
       password_change:
         explanation: သင့်အကောင့်အတွက် စကားဝှက်ကို ပြောင်းလဲလိုက်ပါပြီ။
         extra: If you did not change your password, it is likely that someone has gained access to your account. Please change your password immediately or contact the server admin if you're locked out of your account.
-        subject: 'Mastodon: စကားဝှက်ပြောင်းလဲသွားပြီ'
+        subject: 'Plaza: Password changed'
         title: စကားဝှက်ပြောင်းလဲသွားပြီ
       reconfirmation_instructions:
         explanation: သင်၏အီးမေးလ်လိပ်စာပြောင်းရန် လိပ်စာအသစ်အတည်ပြုပါ။
-        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Mastodon account won't change until you access the link above.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: %{instance} အတွက်အီးမေးလ်အတည်ပြုပါ'
         title: အီးမေးလ်လိပ်စာစစ်ဆေးပါ
       reset_password_instructions:

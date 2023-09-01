@@ -23,21 +23,21 @@ ckb-IR:
         explanation: Te li ser %{host} ajimêrek çê kiriye bi navnîşana vê e-nameyê re. Tu ji çalakkirina wê bi tikandinekê dûr î. Ku ev ne tu bûya, ji kerema xwe vê e-nameyê paşguh bike.
         explanation_when_pending: "Te bi vê navnîşana e -nameyê serlêdana vexwendina %{host} kir. Gava ku tu navnîşana e-nameya xwe piştrast bikî, em ê serlêdana te binirxînin. Tu dikarî têkevî da ku hûrguliyên xwe biguherînî an ajimêra xwe jê bibî, lê heya ku ajimêra te neyê pejirandin tu nekarî piraniya fonksiyonan bi kar bînî\nKu serlêdana te neyê erêkirin, wê daneyên te werin jêbirin, ji ber vê yekê çalakîyek din ji te nayê xwestin. Ku ev ne tu bû, ji kerema xwe vê e-nameyê paşguh bike."
         extra_html: Jkx vê jî kontrol bike <a href="%{terms_path}"> rêbazên rajekar</a> û <a href="%{policy_path}">mercên me yên karûbaran</a>.
-        subject: 'Mastodon: ji bo %{instance} pejirandinê rêwerzan'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Navnîşana e-nameyê piştrast bike
       email_changed:
         explanation: 'Navnîşana e-nameyê ajimêra te hate guhertin bo:'
         extra: Ku te e-nameya xwe neguhertiye. Ew tê wateya ku kesek ketiye ajimêrê te. Ji kerema xwe borînpeyva xwe zû biguherîne an jî bi rêveberiya rajekar re têkeve têkiliyê ku tu êdî nikare ajimêra xwe bi kar bînî.
-        subject: 'Mastodon: E-name hate guhertin'
+        subject: 'Plaza: Email changed'
         title: Navnîşana e-nameya nû
       password_change:
         explanation: Borînpeyva ajimêra te hate guhertin.
         extra: Ku te borînpeyva xwe neguhertiye. Ew tê wateya ku kesek ketiye ajimêrê te. Ji kerema xwe borînpeyva xwe zû biguherîne an jî bi rêveberiya rajekar re têkeve têkiliyê ku tu êdî nikarî ajimêra xwe bi kar bînî.
-        subject: 'Mastodon: Borînpeyv hate guhertin'
+        subject: 'Plaza: Password changed'
         title: Borînpeyv hate guhertin
       reconfirmation_instructions:
         explanation: Navnîşana nû piştrast bike da ku tu e-nameya xwe biguherînî.
-        extra: "Ku ev daxwaz ji aliyê te de nehate pêkanîn, ji kerema xwe vê e-nameyê paşguh bike.\nNavnîşana e-nameyê bo ajimêra Mastodon wê tu guhertin pêk neyîne heya ku tu li girêdana jêrin bitikînî."
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: E-nameyê piştrast bike bo %{instance}'
         title: Navnîşana e-nameyê piştrast bike
       reset_password_instructions:

@@ -1,10 +1,10 @@
 ---
-hu:
+hu-HU:
   about:
-    about_mastodon_html: 'A jövő közösségi hálózata: Hirdetések és céges megfigyelés nélkül, etikus dizájnnal és decentralizációval! Legyél a saját adataid ura a Mastodonnal!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Nincs megadva
     contact_unavailable: N/A
-    hosted_on: '%{domain} Mastodon szerver'
+    hosted_on: Plaza on %{domain}
     title: Névjegy
   accounts:
     follow: Követés
@@ -663,7 +663,7 @@ hu:
         moderation: Moderáció
         special: Speciális
       delete: Törlés
-      description_html: A <strong>felhasználói szerepekkel</strong> testreszabhatod, hogy a felhasználóid milyen Mastodon funkciókat és területeket érjenek el.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: '''%{name}'' szerep szerkesztése'
       everyone: Alapértelmezett engedélyek
       everyone_full_description_html: Ez az <strong>alap szerep</strong>, mely <strong>minden felhasználóra</strong> kihat, azokra is, akiknek nincs hozzárendelt szerepük. Minden más szerep ebből örökli az engedélyeit.
@@ -726,20 +726,20 @@ hu:
         rules_hint: Van egy helyünk a szabályoknak, melyeket a felhasználóidnak be kellene tartani.
         title: Névjegy
       appearance:
-        preamble: A Mastodon webes felületének testreszabása.
+        preamble: Customize Plaza's interface.
         title: Megjelenés
       branding:
-        preamble: A kiszolgáló márkajelzése különbözteti meg a hálózat többi kiszolgálójától. Ez az információ számos környezetben megjelenhet, például a Mastodon webes felületén, natív alkalmazásokban, más weboldalakon és üzenetküldő alkalmazásokban megjelenő hivatkozások előnézetben stb. Ezért a legjobb, ha ez az információ világos, rövid és tömör.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Branding
       content_retention:
-        preamble: Felhasználók által generált tartalom Mastodonon való tárolásának szabályozása.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Tartalom megtartása
       default_noindex:
         desc_html: Azokat a felhasználókat érinti, akik nem módosították ezt a beállítást
         title: Alapértelmezetten ne indexeljék a keresők a felhasználókat
       discovery:
         follow_recommendations: Ajánlottak követése
-        preamble: Az érdekes tartalmak felszínre hozása fontos szerepet játszik az új felhasználók bevonásában, akik esetleg nem ismerik a Mastodont. Szabályozd, hogy a különböző felfedezési funkciók hogyan működjenek a kiszolgálón.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Profiladatbázis
         public_timelines: Nyilvános idővonalak
         publish_discovered_servers: Felfedezett kiszolgálók közzététele
@@ -889,7 +889,7 @@ hu:
     webhooks:
       add_new: Végpont hozzáadása
       delete: Törlés
-      description_html: Egy <strong>webhook</strong> lehetővé teszi a Mastodon számára, hogy <strong>valósidejű értesítéseket</strong> küldjön le a kiválasztott eseményekről a te alkalmazásodnak, így az alkalmazásod <strong>automatikusan reagálhat</strong> ezekre.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Letiltás
       disabled: Letiltva
       edit: Végpont szerkesztése
@@ -951,8 +951,8 @@ hu:
     confirmation_dialogs: Megerősítő párbeszédablakok
     discovery: Felfedezés
     localization:
-      body: A Mastodont önkéntesek fordítják.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Bárki közreműködhet.
     sensitive_content: Kényes tartalom
     toot_layout: Bejegyzések elrendezése
@@ -979,9 +979,9 @@ hu:
     delete_account: Felhasználói fiók törlése
     delete_account_html: Felhasználói fiókod törléséhez <a href="%{path}">kattints ide</a>. A rendszer újbóli megerősítést fog kérni.
     description:
-      prefix_invited_by_user: "@%{name} meghív téged, hogy csatlakozz ehhez a Mastodon kiszolgálóhoz."
-      prefix_sign_up: Regisztrláj még ma a Mastodonra!
-      suffix: Egy fiókkal követhetsz másokat, bejegyzéseket tehetsz közzé, eszmét cserélhetsz más Mastodon szerverek felhasználóival!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Nem kaptad meg a megerősítési lépéseket?
     dont_have_your_security_key: Nincs biztonsági kulcsod?
     forgot_password: Elfelejtetted a jelszavad?
@@ -1017,7 +1017,7 @@ hu:
       preamble_html: Jelentkezz be a <strong>%{domain}</strong> fiókoddal. Ha másik kiszolgálón található a fiókod, akkor itt nem fogsz tudni belépni.
       title: Jelentkezz be a %{domain}-ra
     sign_up:
-      preamble: Egy fiókkal ezen a Mastodon kiszolgálón követhetsz bárkit a hálózaton, függetlenül attól, hogy az illető fiókja melyik kiszolgálón található.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Állítsuk be a fiókod a %{domain} kiszolgálón.
     status:
       account_status: Fiók állapota
@@ -1130,7 +1130,7 @@ hu:
       content: Sajnáljuk, valami hiba történt a mi oldalunkon.
       title: Az oldal nem megfelelő
     '503': Az oldalt átmeneti kiszolgálóprobléma miatt nem lehet kiszolgálni.
-    noscript_html: A Mastodon webalkalmazás használatához engedélyezned kell a JavaScriptet. A másik megoldás, hogy kipróbálsz egy platformodnak megfelelő <a href="%{apps_path}">alkalmazást</a>.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: ezzel a névvel nem találtunk helyi felhasználót
     not_found_multiple: nem találtuk %{usernames} felhasználó(ka)t
@@ -1461,7 +1461,7 @@ hu:
       weibo: Weibo
     current_session: Jelenlegi munkamenet
     description: "%{browser} az alábbi platformon: %{platform}"
-    explanation: Jelenleg az alábbi böngészőkkel vagy bejelentkezve a fiókodba.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ hu:
     aliases: Fiók aliasok
     appearance: Megjelenés
     authorized_apps: Jóváhagyott alkalmazások
-    back: Vissza a Mastodonhoz
+    back: Back to Plaza
     delete: Fiók törlése
     development: Fejlesztőknek
     edit_profile: Profil szerkesztése
@@ -1598,9 +1598,9 @@ hu:
   tags:
     does_not_match_previous_name: nem illeszkedik az előző névvel
   themes:
-    contrast: Mastodon (Nagy kontrasztú)
-    default: Mastodon (Sötét)
-    mastodon-light: Mastodon (Világos)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%Y. %b %d., %H:%M"
@@ -1632,7 +1632,7 @@ hu:
       subject: A %{date}-i fellebbezésedet visszautasították
       title: Fellebbezés visszautasítva
     backup_ready:
-      explanation: A Mastodon fiókod teljes mentését kérted. A mentés kész ás letölthető!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Az adataidról készült archív letöltésre kész
       title: Archiválás
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ hu:
       final_step: 'Kezdj tülkölni! A nyilvános bejegyzéseid még követők híján is megjelennek másoknak, például a helyi idővonalon vagy a hashtageknél. Kezdd azzal, hogy bemutatkozol a #bemutatkozas vagy az #introductions hashtag használatával.'
       full_handle: Teljes felhasználóneved
       full_handle_hint: Ez az, amit megadhatsz másoknak, hogy üzenhessenek neked vagy követhessenek téged más szerverekről.
-      subject: Üdvözöl a Mastodon
+      subject: Welcome to Plaza
       title: Üdv a fedélzeten, %{name}!
   users:
     follow_limit_reached: Nem követhetsz több, mint %{limit} embert
@@ -1690,7 +1690,7 @@ hu:
     seamless_external_login: Külső szolgáltatáson keresztül jelentkeztél be, így a jelszó és e-mail beállítások nem elérhetőek.
     signed_in_as: 'Bejelentkezve mint'
   verification:
-    explanation_html: 'A profilodon <strong>hitelesítheted magad, mint az itt található linkek tulajdonosa</strong>. Ehhez a linkelt weboldalnak tartalmaznia kell egy linket vissza a Mastodon profilodra. Ennek <strong>tartalmaznia kell</strong> a <code>rel="me"</code> attribútumot. A link szövege bármi lehet. Itt egy példa:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Hitelesítés
   webauthn_credentials:
     add: Biztonsági kulcs hozzáadása

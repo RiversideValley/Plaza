@@ -49,7 +49,7 @@ el-CY:
         phrase: Θα ταιριάζει ανεξαρτήτως πεζών/κεφαλαίων ή προειδοποίησης περιεχομένου του τουτ
         scopes: Ποια API θα επιτρέπεται στην εφαρμογή να χρησιμοποιήσεις. Αν επιλέξεις κάποιο υψηλό εύρος εφαρμογής, δε χρειάζεται να επιλέξεις και εξειδικευμένα.
         setting_aggregate_reblogs: Απόκρυψη των νέων προωθήσεωνγια τα τουτ που έχουν προωθηθεί πρόσφατα (επηρεάζει μόνο τις νέες προωθήσεις)
-        setting_always_send_emails: Κανονικά οι ειδοποιήσεις μέσω ηλεκτρονικού ταχυδρομείου δεν θα αποστέλλονται όταν χρησιμοποιείτε ενεργά το Mastodon
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Plaza
         setting_default_sensitive: Τα ευαίσθητα πολυμέσα είναι κρυμμένα και εμφανίζονται με ένα κλικ
         setting_display_media_default: Απόκρυψη ευαίσθητων πολυμέσων
         setting_display_media_hide_all: Μόνιμη απόκρυψη όλων των πολυμέσων
@@ -79,14 +79,14 @@ el-CY:
         bootstrap_timeline_accounts: Αυτοί οι λογαριασμοί θα καρφιτσωθούν στην κορυφή των νέων χρηστών που ακολουθούν τις συστάσεις.
         closed_registrations_message: Εμφανίζεται όταν κλείνουν οι εγγραφές
         content_cache_retention_period: Posts from other servers will be deleted after the specified number of days when set to a positive value. This may be irreversible.
-        custom_css: You can apply custom styles on the web version of Mastodon.
+        custom_css: You can apply custom styles on Plaza.
         mascot: Overrides the illustration in the advanced web interface.
         media_cache_retention_period: Downloaded media files will be deleted after the specified number of days when set to a positive value, and re-downloaded on demand.
         peers_api_enabled: A list of domain names this server has encountered in the fediverse. No data is included here about whether you federate with a given server, just that your server knows about it. This is used by services that collect statistics on federation in a general sense.
         profile_directory: The profile directory lists all users who have opted-in to be discoverable.
         require_invite_text: When sign-ups require manual approval, make the “Why do you want to join?” text input mandatory rather than optional
         site_contact_email: How people can reach you for legal or support inquiries.
-        site_contact_username: How people can reach you on Mastodon.
+        site_contact_username: How people can reach you on Plaza.
         site_extended_description: Any additional information that may be useful to visitors and your users. Can be structured with Markdown syntax.
         site_short_description: A short description to help uniquely identify your server. Who is running it, who is it for?
         site_terms: Use your own privacy policy or leave blank to use the default. Can be structured with Markdown syntax.
@@ -101,7 +101,7 @@ el-CY:
       form_challenge:
         current_password: Μπαίνεις σε ασφαλή περιοχή
       imports:
-        data: Αρχείο CSV που έχει εξαχθεί από διαφορετικό κόμβο Mastodon
+        data: CSV file exported from another fediverse server
       invite_request:
         text: Αυτό θα μας βοηθήσει να επιθεωρήσουμε την αίτησή σου
       ip_block:

@@ -1,10 +1,10 @@
 ---
-kk:
+kk-KZ:
   about:
-    about_mastodon_html: 'Mastodon - әлеуметтік желіге негізделген, тегін және веб протоколды, ашық кодты бағдарлама. Ол email сияқты орталығы жоқ құрылым.'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Бапталмаған
     contact_unavailable: Белгісіз
-    hosted_on: Mastodon орнатылған %{domain} доменінде
+    hosted_on: Plaza on %{domain}
     title: About
   accounts:
     follow: Жазылу
@@ -663,7 +663,7 @@ kk:
         moderation: Moderation
         special: Special
       delete: Delete
-      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Mastodon your users can access.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Edit '%{name}' role
       everyone: Default permissions
       everyone_full_description_html: This is the <strong>base role</strong> affecting <strong>all users</strong>, even those without an assigned role. All other roles inherit permissions from it.
@@ -726,20 +726,20 @@ kk:
         rules_hint: There is a dedicated area for rules that your users are expected to adhere to.
         title: About
       appearance:
-        preamble: Customize Mastodon's web interface.
+        preamble: Customize Plaza's interface.
         title: Appearance
       branding:
-        preamble: Your server's branding differentiates it from other servers in the network. This information may be displayed across a variety of environments, such as Mastodon's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Branding
       content_retention:
-        preamble: Control how user-generated content is stored in Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Content retention
       default_noindex:
         desc_html: Affects all users who have not changed this setting themselves
         title: Opt users out of search engine indexing by default
       discovery:
         follow_recommendations: Follow recommendations
-        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Mastodon. Control how various discovery features work on your server.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Profile directory
         public_timelines: Public timelines
         publish_discovered_servers: Publish discovered servers
@@ -889,7 +889,7 @@ kk:
     webhooks:
       add_new: Add endpoint
       delete: Delete
-      description_html: A <strong>webhook</strong> enables Mastodon to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Disable
       disabled: Disabled
       edit: Edit endpoint
@@ -951,8 +951,8 @@ kk:
     confirmation_dialogs: Пікірталас диалогтары
     discovery: Пікірталас
     localization:
-      body: Mastodon is translated by volunteers.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Everyone can contribute.
     sensitive_content: Нәзік контент
     toot_layout: Жазба формасы
@@ -979,9 +979,9 @@ kk:
     delete_account: Аккаунт өшіру
     delete_account_html: Аккаунтыңызды жойғыңыз келсе, <a href="%{path}">мына жерді</a> басыңыз. Сізден растау сұралатын болады.
     description:
-      prefix_invited_by_user: "@%{name} сізді Желіге қосылуға шақырады!"
-      prefix_sign_up: Желіге бүгін қосылыңыз!
-      suffix: Аккаунтыңызбен сіз кез-келген Mastodon серверінен және желідегі басқа адамдарды оқып, пост жаза аласыз және хат алмаса аласыз!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Растау хаты келмеді ме?
     dont_have_your_security_key: Don't have your security key?
     forgot_password: Құпиясөзіңізді ұмытып қалдыңыз ба?
@@ -1017,7 +1017,7 @@ kk:
       preamble_html: Sign in with your <strong>%{domain}</strong> credentials. If your account is hosted on a different server, you will not be able to log in here.
       title: Sign in to %{domain}
     sign_up:
-      preamble: With an account on this Mastodon server, you'll be able to follow any other person on the network, regardless of where their account is hosted.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Let's get you set up on %{domain}.
     status:
       account_status: Аккаунт статусы
@@ -1130,7 +1130,7 @@ kk:
       content: Кешірерсіз, бірақ қазір бір қате пайда болып тұр.
       title: Бұл бет дұрыс емес екен
     '503': Уақытша сервер қатесі себебінен параққа қызмет көрсету мүмкін болмады.
-    noscript_html: Mastodon веб қосымшасын қолдану үшін, JavaScript қосыңыз. Болмай жатса, <a href="%{apps_path}">мына қосымшаларды</a> қосып көріңіз, Mastodon қолдану үшін.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: осындай логині бар бар жергілікті пайдаланушы табылмады
     not_found_multiple: табылмады %{usernames}
@@ -1461,7 +1461,7 @@ kk:
       weibo: Weibо
     current_session: Қазіргі сессия
     description: "%{browser} - %{platform}"
-    explanation: Сіздің аккаунтыңызбен кірілген браузерлер тізімі.
+    explanation: These are the apps currently logged in to your account.
     ip: ІР
     platforms:
       adobe_air: Adobе Air
@@ -1486,7 +1486,7 @@ kk:
     aliases: Аккаунт алиастары
     appearance: Сыртқы түрі
     authorized_apps: Authorizеd apps
-    back: Желіге оралу
+    back: Back to Plaza
     delete: Аккаунт өшіру
     development: Жасаушы топ
     edit_profile: Профиль өңдеу
@@ -1598,9 +1598,9 @@ kk:
   tags:
     does_not_match_previous_name: алдыңғы атқа сәйкес келмейді
   themes:
-    contrast: Mastodon (Жоғары контраст)
-    default: Mastodon (Қою)
-    mastodon-light: Mastodon (Ашық)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
@@ -1632,7 +1632,7 @@ kk:
       subject: Your appeal from %{date} has been rejected
       title: Appeal rejected
     backup_ready:
-      explanation: Сіз Mastodon аккаунтыңыздың толық мұрағатын сұрадыңыз. Қазір жүктеуге дайын!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Мұрағатыңыз түсіріп алуға дайын
       title: Мұрағатты алу
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ kk:
       final_step: 'Start posting! Even without followers, your public posts may be seen by others, for example on the local timeline or in hashtags. You may want to introduce yourself on the #introductions hashtag.'
       full_handle: Желі тұтқасы
       full_handle_hint: This is what you would tell your friends so they can message or follow you frоm another server.
-      subject: Mastodon Желісіне қош келдіңіз
+      subject: Welcome to Plaza
       title: Ортаға қош келдің, %{name}!
   users:
     follow_limit_reached: Сіз %{limit} лимитінен көп адамға жазыла алмайсыз
@@ -1690,7 +1690,7 @@ kk:
     seamless_external_login: Сыртқы сервис арқылы кіріпсіз, сондықтан құпиясөз және электрондық пошта параметрлері қол жетімді емес.
     signed_in_as: 'Былай кірдіңіз:'
   verification:
-    explanation_html: 'Өзіңіздің профиль метадеректеріңіздегі сілтемелердің иесі ретінде өзіңізді <strong>тексере аласыз</strong>. Ол үшін байланыстырылған веб-сайтта Mastodon профиліне <strong>сілтеме болуы керек. </strong> Сілтемеде <code>rel = «me»</code> атрибуты болуы керек. Сілтеме мәтінінің мазмұны маңызды емес. Міне мысал:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Растау
   webauthn_credentials:
     add: Add new security key

@@ -23,21 +23,21 @@ ms-BN:
         explanation: Anda telah mencipta akaun pada %{host} dengan alamat e-mel ini. Anda satu klik sahaja daripada mengaktifkannya. Jika anda tidak mencipta akaun tersebut, sila abaikan e-mel ini.
         explanation_when_pending: Anda telah memohon untuk undangan ke %{host} dengan alamat e-mel ini. Setelah anda mengesahkan alamat e-mel anda, kami akan menyemak permohonan tersebut. Anda boleh melog masuk untuk mengubah butiran atau menghapuskan akaun anda, tetapi anda tidak boleh mencapai kebanyakan fungsi sehinggalah akaun anda diluluskan. Jika permohonan anda ditolak, data anda akan dibuang dan tiada tindakan lanjut diperlukan. Jika ini bukan anda, sila abaikan e-mel ini.
         extra_html: Sila periksa <a href="%{terms_path}">peraturan pelayan</a> serta <a href="%{policy_path}">terma perkhidmatan kami juga</a>.
-        subject: 'Mastodon: Arahan pengesahan untuk %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Sahkan alamat e-mel
       email_changed:
         explanation: 'Alamat e-mel untuk akaun anda sedang diubah kepada:'
         extra: Jika anda tidak mengubah alamat e-mel anda, berkemungkinan seseorang telah memperoleh capaian kepada akaun anda. Sila ubah kata laluan anda dengan segera atau hubungi pentadbir pelayan jika anda dikunci daripada akaun anda.
-        subject: 'Mastodon: E-mel ditukar'
+        subject: 'Plaza: Email changed'
         title: Alamat e-mel baru
       password_change:
         explanation: Kata laluan untuk akaun anda telah ditukar.
         extra: Jika anda tidak mengubah kata laluan anda, berkemungkinan seseorang telah memperoleh capaian kepada akaun anda. Sila ubah kata laluan anda dengan segera atau hubungi pentadbir pelayan jika anda dikunci daripada akaun anda.
-        subject: 'Mastodon: Kata laluan diubah'
+        subject: 'Plaza: Password changed'
         title: Kata laluan ditukar
       reconfirmation_instructions:
         explanation: Sahkan alamat baru untuk menukarkan e-mel anda.
-        extra: Jika perubahan ini tidak anda lakukan, sila abaikan e-mel ini. Alamat e-mel untuk akaun Mastodon tidak akan berubah sehinggalah anda mencapai pautan di atas.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: Sahkan e-mel untuk %{instance}'
         title: Sahkan alamat e-mel
       reset_password_instructions:

@@ -23,21 +23,21 @@ no-NO:
         explanation: Du har laget en konto på %{host} med denne e-postadressen. Du er ett klikk unna å aktivere den. Hvis dette ikke var deg, vennligst se bort fra denne e-posten.
         explanation_when_pending: Du søkte om en invitasjon til %{host} med denne E-postadressen. Når du har bekreftet E-postadressen din, vil vi gå gjennom søknaden din. Du kan logge på for å endre dine detaljer eller slette kontoen din, men du har ikke tilgang til de fleste funksjoner før kontoen din er akseptert. Dersom søknaden din blir avslått, vil dataene dine bli fjernet, så ingen ytterligere handlinger fra deg vil være nødvendige. Dersom dette ikke var deg, vennligst ignorer denne E-posten.
         extra_html: Sjekk også ut <a href="%{terms_path}">instansens regler </a> og <a href="%{policy_path}">våre bruksvilkår</a>.
-        subject: 'Mastodon: Instruksjoner for bekreftelse for %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Bekreft e-postadresse
       email_changed:
         explanation: 'E-postadressen til din konto endres til:'
         extra: Hvis du ikke endret e-postadressen din, er det sannsynlig at noen har fått tilgang til kontoen din. Vennligst endre passordet ditt umiddelbart eller kontakt instansens administrator dersom du er låst ute fra kontoen din.
-        subject: 'Mastodon: E-postadresse endret'
+        subject: 'Plaza: Email changed'
         title: Ny e-postadresse
       password_change:
         explanation: Passordet til kontoen din har blitt endret.
         extra: Hvis du ikke endret passordet ditt, er det sannsynlig at noen har fått tilgang til kontoen din. Vennligst endre passordet ditt umiddelbart eller kontakt instansens administrator dersom du er utestengt fra kontoen din.
-        subject: 'Mastodon: Passord endret'
+        subject: 'Plaza: Password changed'
         title: Passord endret
       reconfirmation_instructions:
         explanation: Bekreft den nye e-postadressen for å endre e-post.
-        extra: Se bort fra denne e-posten dersom du ikke gjorde denne endringen. E-postadressen for Mastodon-kontoen blir ikke endret før du trykker på lenken over.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: Bekreft e-postadresse for %{instance}'
         title: Bekreft e-postadresse
       reset_password_instructions:

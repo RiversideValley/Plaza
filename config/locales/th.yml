@@ -1,10 +1,10 @@
 ---
-th:
+th-TH:
   about:
-    about_mastodon_html: 'เครือข่ายสังคมแห่งอนาคต: ไม่มีโฆษณา ไม่มีการสอดแนมโดยองค์กร การออกแบบตามหลักจริยธรรม และการกระจายศูนย์! เป็นเจ้าของข้อมูลของคุณด้วย Mastodon!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: ไม่ได้ตั้ง
     contact_unavailable: ไม่มี
-    hosted_on: Mastodon ที่โฮสต์ที่ %{domain}
+    hosted_on: Plaza on %{domain}
     title: เกี่ยวกับ
   accounts:
     follow: ติดตาม
@@ -650,7 +650,7 @@ th:
         moderation: การควบคุม
         special: พิเศษ
       delete: ลบ
-      description_html: ด้วย <strong>บทบาทผู้ใช้</strong> คุณสามารถปรับแต่งว่าฟังก์ชันและพื้นที่ใดของ Mastodon ที่ผู้ใช้ของคุณสามารถเข้าถึง
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: แก้ไขบทบาท '%{name}'
       everyone: สิทธิอนุญาตเริ่มต้น
       everyone_full_description_html: นี่คือ <strong>บทบาทพื้นฐาน</strong> ที่มีผลต่อ <strong>ผู้ใช้ทั้งหมด</strong> แม้แต่ผู้ใช้ที่ไม่มีบทบาทที่กำหนด บทบาทอื่น ๆ ทั้งหมดสืบทอดสิทธิอนุญาตจากบทบาทพื้นฐาน
@@ -712,20 +712,20 @@ th:
         rules_hint: มีพื้นที่เฉพาะสำหรับกฎที่คาดหวังให้ผู้ใช้ของคุณปฏิบัติตาม
         title: เกี่ยวกับ
       appearance:
-        preamble: ปรับแต่งส่วนติดต่อเว็บของ Mastodon
+        preamble: Customize Plaza's interface.
         title: ลักษณะที่ปรากฏ
       branding:
-        preamble: ตราสินค้าของเซิร์ฟเวอร์ของคุณสร้างความแตกต่างของตราสินค้าจากเซิร์ฟเวอร์อื่น ๆ ในเครือข่าย อาจแสดงข้อมูลนี้ข้ามสภาพแวดล้อมที่หลากหลาย เช่น ส่วนติดต่อเว็บของ Mastodon, แอปพลิเคชันเนทีฟ, ในการแสดงตัวอย่างลิงก์ในเว็บไซต์อื่น ๆ และภายในแอปการส่งข้อความ และอื่น ๆ ด้วยเหตุผลนี้ จึงเป็นการดีที่สุดที่จะทำให้ข้อมูลนี้ชัดเจน สั้น และกระชับ
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: ตราสินค้า
       content_retention:
-        preamble: ควบคุมวิธีการจัดเก็บเนื้อหาที่ผู้ใช้สร้างขึ้นใน Mastodon
+        preamble: Control how user-generated content is stored in Plaza.
         title: การเก็บรักษาเนื้อหา
       default_noindex:
         desc_html: มีผลต่อผู้ใช้ทั้งหมดที่ไม่ได้เปลี่ยนการตั้งค่านี้ด้วยตนเอง
         title: เลือกให้ผู้ใช้ไม่รับการทำดัชนีโดยเครื่องมือค้นหาเป็นค่าเริ่มต้น
       discovery:
         follow_recommendations: คำแนะนำการติดตาม
-        preamble: การแสดงเนื้อหาที่น่าสนใจเป็นเครื่องมือในการเตรียมความพร้อมให้ผู้ใช้ใหม่ที่อาจไม่รู้จักใครก็ตามใน Mastodon ควบคุมวิธีที่คุณลักษณะการค้นพบต่าง ๆ ทำงานในเซิร์ฟเวอร์ของคุณ
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: ไดเรกทอรีโปรไฟล์
         public_timelines: เส้นเวลาสาธารณะ
         publish_discovered_servers: เผยแพร่เซิร์ฟเวอร์ที่ค้นพบ
@@ -872,7 +872,7 @@ th:
     webhooks:
       add_new: เพิ่มปลายทาง
       delete: ลบ
-      description_html: <strong>เว็บฮุค</strong> ทำให้ Mastodon สามารถส่ง <strong>การแจ้งเตือนตามเวลาจริง</strong> แบบผลักเกี่ยวกับเหตุการณ์ที่เลือกไปยังแอปพลิเคชันของคุณเอง ดังนั้นแอปพลิเคชันของคุณสามารถ <strong>ทริกเกอร์การตอบสนองได้โดยอัตโนมัติ</strong>
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: ปิดใช้งาน
       disabled: ปิดใช้งานอยู่
       edit: แก้ไขปลายทาง
@@ -933,8 +933,8 @@ th:
     confirmation_dialogs: กล่องโต้ตอบการยืนยัน
     discovery: การค้นพบ
     localization:
-      body: Mastodon ได้รับการแปลโดยอาสาสมัคร
-      guide_link: https://crowdin.com/project/mastodon/th
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: ทุกคนสามารถมีส่วนร่วม
     sensitive_content: เนื้อหาที่ละเอียดอ่อน
     toot_layout: เค้าโครงโพสต์
@@ -961,9 +961,9 @@ th:
     delete_account: ลบบัญชี
     delete_account_html: หากคุณต้องการลบบัญชีของคุณ คุณสามารถ <a href="%{path}">ดำเนินการต่อที่นี่</a> คุณจะได้รับการถามเพื่อการยืนยัน
     description:
-      prefix_invited_by_user: "@%{name} เชิญคุณเข้าร่วมเซิร์ฟเวอร์ Mastodon นี้!"
-      prefix_sign_up: ลงทะเบียนใน Mastodon วันนี้!
-      suffix: เมื่อมีบัญชี คุณจะสามารถติดตามผู้คน โพสต์การอัปเดต และแลกเปลี่ยนข้อความกับผู้ใช้จากเซิร์ฟเวอร์ Mastodon และอื่น ๆ!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: ไม่ได้รับคำแนะนำการยืนยัน?
     dont_have_your_security_key: ไม่มีกุญแจความปลอดภัยของคุณ?
     forgot_password: ลืมรหัสผ่านของคุณ?
@@ -999,7 +999,7 @@ th:
       preamble_html: ลงชื่อเข้าด้วยข้อมูลประจำตัว <strong>%{domain}</strong> ของคุณ หากบัญชีของคุณได้รับการโฮสต์ในเซิร์ฟเวอร์อื่น คุณจะไม่สามารถเข้าสู่ระบบได้ที่นี่
       title: ลงชื่อเข้า %{domain}
     sign_up:
-      preamble: เมื่อมีบัญชีในเซิร์ฟเวอร์ Mastodon นี้ คุณจะสามารถติดตามบุคคลอื่นใดในเครือข่าย โดยไม่คำนึงถึงที่ซึ่งบัญชีของเขาได้รับการโฮสต์
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: มาตั้งค่าของคุณใน %{domain} กันเลย
     status:
       account_status: สถานะบัญชี
@@ -1112,7 +1112,7 @@ th:
       content: เราขออภัย แต่มีบางอย่างผิดพลาดในส่วนของเรา
       title: หน้านี้ไม่ถูกต้อง
     '503': ไม่สามารถให้บริการหน้าได้เนื่องจากเซิร์ฟเวอร์ล้มเหลวชั่วคราว
-    noscript_html: เพื่อใช้แอปพลิเคชันเว็บ Mastodon โปรดเปิดใช้งาน JavaScript หรืออีกวิธีหนึ่ง ลองหนึ่งใน <a href="%{apps_path}">แอปเนทีฟ</a> สำหรับ Mastodon สำหรับแพลตฟอร์มของคุณ
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: ไม่พบผู้ใช้ในเซิร์ฟเวอร์ที่มีชื่อผู้ใช้นั้น
     not_found_multiple: ไม่พบ %{usernames}
@@ -1435,7 +1435,7 @@ th:
       weibo: Weibo
     current_session: เซสชันปัจจุบัน
     description: "%{browser} ใน %{platform}"
-    explanation: นี่คือเว็บเบราว์เซอร์ที่เข้าสู่ระบบบัญชี Mastodon ของคุณในปัจจุบัน
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1460,7 +1460,7 @@ th:
     aliases: นามแฝงบัญชี
     appearance: ลักษณะที่ปรากฏ
     authorized_apps: แอปที่ได้รับอนุญาต
-    back: กลับไปที่ Mastodon
+    back: Back to Plaza
     delete: การลบบัญชี
     development: การพัฒนา
     edit_profile: แก้ไขโปรไฟล์
@@ -1566,9 +1566,9 @@ th:
   tags:
     does_not_match_previous_name: ไม่ตรงกับชื่อก่อนหน้านี้
   themes:
-    contrast: Mastodon (ความคมชัดสูง)
-    default: Mastodon (มืด)
-    mastodon-light: Mastodon (สว่าง)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%d %b %Y, %H:%M"
@@ -1600,7 +1600,7 @@ th:
       subject: ปฏิเสธการอุทธรณ์ของคุณจาก %{date} แล้ว
       title: ปฏิเสธการอุทธรณ์แล้ว
     backup_ready:
-      explanation: คุณได้ขอข้อมูลสำรองแบบเต็มของบัญชี Mastodon ของคุณ ตอนนี้ข้อมูลสำรองพร้อมสำหรับการดาวน์โหลดแล้ว!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: การเก็บถาวรของคุณพร้อมสำหรับการดาวน์โหลดแล้ว
       title: การส่งออกการเก็บถาวร
     suspicious_sign_in:
@@ -1649,7 +1649,7 @@ th:
       final_step: 'เริ่มโพสต์! แม้ว่าไม่มีผู้ติดตาม โพสต์สาธารณะของคุณอาจเห็นโดยผู้อื่น ตัวอย่างเช่น ในเส้นเวลาในเซิร์ฟเวอร์หรือในแฮชแท็ก คุณอาจต้องการแนะนำตัวเองในแฮชแท็ก #introductions'
       full_handle: นามเต็มของคุณ
       full_handle_hint: นี่คือสิ่งที่คุณจะบอกเพื่อน ๆ ของคุณเพื่อให้เขาสามารถส่งข้อความหรือติดตามคุณจากเซิร์ฟเวอร์อื่น
-      subject: ยินดีต้อนรับสู่ Mastodon
+      subject: Welcome to Plaza
       title: ยินดีต้อนรับ %{name}!
   users:
     follow_limit_reached: คุณไม่สามารถติดตามมากกว่า %{limit} คน
@@ -1658,7 +1658,7 @@ th:
     seamless_external_login: คุณได้เข้าสู่ระบบผ่านบริการภายนอก ดังนั้นจึงไม่มีการตั้งค่ารหัสผ่านและอีเมล
     signed_in_as: 'ลงชื่อเข้าเป็น:'
   verification:
-    explanation_html: 'คุณสามารถ <strong>ยืนยันตัวคุณเองว่าเป็นเจ้าของของลิงก์ในข้อมูลอภิพันธุ์โปรไฟล์ของคุณ</strong> สำหรับสิ่งนั้น เว็บไซต์ที่เชื่อมโยงต้องมีลิงก์ย้อนกลับไปยังโปรไฟล์ Mastodon ของคุณ ลิงก์ย้อนกลับ <strong>ต้อง</strong> มีแอตทริบิวต์ <code>rel="me"</code> เนื้อหาข้อความของลิงก์ไม่สำคัญ นี่คือตัวอย่าง:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: การตรวจสอบ
   webauthn_credentials:
     add: เพิ่มกุญแจความปลอดภัยใหม่

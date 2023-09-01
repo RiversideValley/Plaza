@@ -23,21 +23,21 @@ gd-GB:
         explanation: Tha thu air cunntas a chruthachadh air %{host} leis an t-seòladh puist-d seo. Chan eil ach aon bhriogadh a dhìth gus am bi e gnìomhach. Mur e tusa a bh’ ann, leig seachad am post-d seo.
         explanation_when_pending: Chuir thu iarrtas a-steach ach am faigh thu cuireadh dha %{host} air an t-seòladh puist-d seo. Nuair a bhios tu air an seòladh puist-d agad a dhearbhadh, nì sinn lèirmheas air d’ iarrtas. ’S urrainn dhut clàradh a-steach airson am fiosrachadh mu d’ dhèidhinn atharrachadh no an cunntas agad a sguabadh às ach chan fhaigh thu cothrom air a’ mhòrchuid a ghleusan gus am bi an cunntas agad air a dhearbhadh. Ma thèid d’ iarrtas a dhiùltadh, thèid an dàta agad a thoirt air falbh is cha leig thu leas dad sam bith eile a dhèanamh. Mur e tusa a bh’ ann, leig seachad am post-d seo.
         extra_html: Thoir sùil air <a href="%{terms_path}">riaghailtean an fhrithealaiche</a> agus <a href="%{policy_path}">teirmichean na seirbheise againn</a> cuideachd.
-        subject: 'Mastodon: Stiùireadh dearbhaidh airson %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Dearbh an seòladh puist-d
       email_changed:
         explanation: 'Tha an seòladh puist-d dhan chunntas agad ’ga atharrachadh gu:'
         extra: Mur an do dh’atharraich thu fhèin am post-d agad, tha deagh theans gun d’ fhuair cuideigin eile grèim air a’ chunntas agad. Atharraich am facal-faire agad sa bhad no cuir fios gu rianaire an fhrithealaiche ma chaidh do ghlasadh a-mach às a’ chunntas agad.
-        subject: 'Mastodon: Chaidh am post-d atharrachadh'
+        subject: 'Plaza: Email changed'
         title: Seòladh puist-d ùr
       password_change:
         explanation: Chaidh facal-faire a’ chunntais agad atharrachadh.
         extra: Mur an do dh’atharraich thu fhèin am facal-faire agad, tha deagh theans gun d’ fhuair cuideigin eile grèim air a’ chunntas agad. Atharraich am facal-faire agad sa bhad no cuir fios gu rianaire an fhrithealaiche ma chaidh do ghlasadh a-mach às a’ chunntas agad.
-        subject: 'Mastodon: Chaidh am facal-faire atharrachadh'
+        subject: 'Plaza: Password changed'
         title: Chaidh am facal-faire atharrachadh
       reconfirmation_instructions:
         explanation: Dearbh an seòladh ùr airson am post-d agad atharrachadh.
-        extra: Mura rinn thu fhèin an t-atharrachadh seo, leig seachad am post-d seo. Chan atharraich seòladh puist-d a’ chunntais Mastodon agad gus am briog thu air a’ cheangal gu h-àrd.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: Dearbh am post-d airson %{instance}'
         title: Dearbh an seòladh puist-d
       reset_password_instructions:

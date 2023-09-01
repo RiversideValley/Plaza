@@ -23,21 +23,21 @@ id-ID:
         explanation: Anda membuat akun di %{host} dengan email ini. Anda hanya perlu satu klik untuk mengaktifkannya. Jika ini bukan Anda, abaikan email ini.
         explanation_when_pending: Anda melamar undangan ke %{host} dengan email ini. Saat Anda mengonfirmasi alamat email Anda, kami akan meninjaunya. Anda dapat masuk untuk mengubah detail Anda atau menghapus akun Anda, tapi Anda tak dapat mengakses mayoritas fungsi sampai akun disetujui. Jika lamaran Anda ditolak, data Anda akan dihapus, jadi Anda tak perlu melakukan apa-apa. Jika ini bukan Anda, abaikan email ini.
         extra_html: Tolong cek juga <a href="%{terms_path}">peraturan server</a> dan <a href="%{policy_path}">ketentuan layanan kami</a>.
-        subject: 'Mastodon: Petunjuk mengkonfirmasi untuk %{instance}'
+        subject: 'Plaza: Confirmation instructions for %{instance}'
         title: Verifikasi alamat email
       email_changed:
         explanation: 'Alamat email akun Anda diubah menjadi:'
         extra: Jika Anda tak mengganti email Anda, mungkin seseorang telah mendapatkan akses ke akun Anda. Mohon ubah kata sandi secepatnya atau hubungi admin server jika akun Anda terkunci.
-        subject: 'Mastodon: Email diganti'
+        subject: 'Plaza: Email changed'
         title: Alamat email baru
       password_change:
         explanation: Kata sandi akun Anda telah diganti.
         extra: Jika Anda tak mengubah kata sandi Anda, mungkin seseorang telah mendapatkan akses ke akun Anda. Mohon ubah kata sandi secepatnya atau hubungi admin server jika Anda dikunci dari akun Anda.
-        subject: 'Mastodon: Kata sandi telah diubah'
+        subject: 'Plaza: Password changed'
         title: Kata sandi diubah
       reconfirmation_instructions:
         explanation: Konfirmasi alamat baru untuk mengubah email Anda.
-        extra: Jika perubahan ini tidak dimulai dari Anda, abaikan email ini. Alamat email untuk akun Mastodon tak berubah sampai Anda mengakses tautan di atas.
+        extra: If this change wasn't initiated by you, please ignore this email. The email address for the Protocol-linked Plaza account won't change until you access the link above.
         subject: 'Mastodon: Konfirmasi email untuk %{instance}'
         title: Verifikasi alamat email
       reset_password_instructions:

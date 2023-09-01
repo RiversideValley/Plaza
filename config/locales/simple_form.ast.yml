@@ -1,5 +1,5 @@
 ---
-ast:
+ast-ES:
   simple_form:
     hints:
       account_alias:
@@ -49,7 +49,7 @@ ast:
         phrase: Will be matched regardless of casing in text or content warning of a post
         scopes: Which APIs the application will be allowed to access. If you select a top-level scope, you don't need to select individual ones.
         setting_aggregate_reblogs: Nun amuesa los artículos compartíos nuevos que xá se compartieren de recién (namás afeuta a los artículos compartíos d'agora)
-        setting_always_send_emails: Los avisos nun se suelen unviar per corréu electrónicu si uses activamente Mastodon
+        setting_always_send_emails: Normally e-mail notifications won't be sent when you are actively using Plaza
         setting_default_sensitive: El conteníu multimedia sensible anúbrese por defeutu ya pue amosase al calcar nelli
         setting_display_media_default: Anubrilu cuando se marque como sensible
         setting_display_media_hide_all: Anubrilu siempres
@@ -79,14 +79,14 @@ ast:
         bootstrap_timeline_accounts: These accounts will be pinned to the top of new users' follow recommendations.
         closed_registrations_message: Apaez cuando'l rexistru ta desactiváu
         content_cache_retention_period: Los artículos d'otros sirvidores desaníciense dempués del numberu de díes especificáu al configurar un valor positivu. Ye posible qu'esta opción seya irreversible.
-        custom_css: Pues aplicar estilos personalizaos a la versión web de Mastodon.
+        custom_css: You can apply custom styles on Plaza.
         mascot: Anula la ilustración na interfaz web avanzada.
         media_cache_retention_period: Los ficheros multimedia baxaos desaníciense dempués del númberu de díes especificáu al configurar un valor positivu, ya vuelven baxase baxo demanda.
         peers_api_enabled: A list of domain names this server has encountered in the fediverse. No data is included here about whether you federate with a given server, just that your server knows about it. This is used by services that collect statistics on federation in a general sense.
         profile_directory: The profile directory lists all users who have opted-in to be discoverable.
         require_invite_text: Cuando los rexistros riquen una aprobación manual, el campu «¿Por qué quies xunite?» vuélvese obligatoriu
         site_contact_email: How people can reach you for legal or support inquiries.
-        site_contact_username: How people can reach you on Mastodon.
+        site_contact_username: How people can reach you on Plaza.
         site_extended_description: Cualesquier tipu d'información adicional que pueda ser útil pa visitantes ya pa perfiles rexistraos. El testu pue estructurase cola sintaxis de Mastodon.
         site_short_description: Un descripción curtia qu'ayuda a identificar de forma única al sirvidor. ¿Quién lu lleva?, ¿pa quién ye?
         site_terms: Use your own privacy policy or leave blank to use the default. Can be structured with Markdown syntax.
@@ -101,7 +101,7 @@ ast:
       form_challenge:
         current_password: Tas entrando a una área segura
       imports:
-        data: El ficheru CSV que s'esportó d'otru sirvidor de Mastodon
+        data: CSV file exported from another fediverse server
       invite_request:
         text: Esto va ayudanos a revisar la to solicitú
       ip_block:

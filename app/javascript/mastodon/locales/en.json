@@ -1,6 +1,6 @@
 {
-  "about.blocks": "Moderated servers",
-  "about.contact": "Contact:",
+  "about.blocks": "Moderated Servers",
+  "about.contact": "Contacts:",
   "about.disclaimer": "Plaza is free, open-source software, and a trademark of Riverside Valley Corporation.",
   "about.domain_blocks.no_reason_available": "Reason not available",
   "about.domain_blocks.preamble": "Plaza generally allows you to view content from and interact with users from any other server in the fediverse. These are the exceptions that have been made.",

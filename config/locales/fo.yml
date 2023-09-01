@@ -1,10 +1,10 @@
 ---
-fo:
+fo-FO:
   about:
-    about_mastodon_html: 'Framtíðar sosiali miðilin: ongar lýsingar, eingin stórfyritøku-yvirvøka, etiskt snið og desentralisering! Eig tínar dátur við Mastodon!'
+    about_mastodon_html: 'Social media built for the future: no ads, no corporate surveillance, and connection to the open-source fediverse network. Own your data with Plaza!'
     contact_missing: Ikki sett
     contact_unavailable: Ikki tøk/ur
-    hosted_on: Mastodon hýst á %{domain}
+    hosted_on: Plaza on %{domain}
     title: Um
   accounts:
     follow: Fylg
@@ -663,7 +663,7 @@ fo:
         moderation: Umsjón
         special: Serstakt
       delete: Strika
-      description_html: Við <strong>brúkaraleiklutum</strong> kanst tú stýra, hvørjar funktiónir og hvørji Mastodon-øki tínir brúkarar kunnu fáa atgongd til.
+      description_html: With <strong>user roles</strong>, you can customize which functions and areas of Plaza your users can access.
       edit: Broyt '%{name}' leiklutin
       everyone: Sjálvsett loyvi
       everyone_full_description_html: Hetta er <strong>støðisleikluturin</strong>, sum ávirkar <strong>allar brúkarar</strong>, sjálvt teir, sum ikki hava ein ásettan leiklut. Allir aðrir leiklutir arva loyvi frá honum.
@@ -726,20 +726,20 @@ fo:
         rules_hint: Eitt øki er burturav fyri reglur, sum brúkararnir hjá tær skulu fylgja.
         title: Um
       appearance:
-        preamble: Tillaga brúkaramarkamótið hjá Mastodon.
+        preamble: Customize Plaza's interface.
         title: Útsjónd
       branding:
-        preamble: Brandingin av tínum ambætara skilir hann út frá øðrum ambætarum í netverkinum. Hesar upplýsingar kunnu vera vístar í nógvum ymiskum umhvørvum, so sum í vev-markamótinum hjá Mastodon, uppruna-appum, í undanvísingum av leinkjum á øðrum vevstøðum, í boðs-appum og so framvegis. Av hesi orsøk er tað best, um hesar upplýsingar eru klárar, stuttar og beinraknar.
+        preamble: Your server's branding differentiates it from other servers in the fediverse. This information may be displayed across a variety of environments, such as Plaza's web interface, native applications, in link previews on other websites and within messaging apps, and so on. For this reason, it is best to keep this information clear, short and concise.
         title: Branding
       content_retention:
-        preamble: Stýr hvussu brúkara-skapt tilfar er goymt í Mastodon.
+        preamble: Control how user-generated content is stored in Plaza.
         title: Varðveitsla av tilfari
       default_noindex:
         desc_html: Hevur ávirkan á allar brúkarar, sum ikki hava broytt hesa stillingina sjálvi
         title: Tekur brúkarar úr leitimaskinu-indeksering, um ikki annað er valt
       discovery:
         follow_recommendations: Tilmæli um at fylgja
-        preamble: At fáa áhugavert innihald í ljósmála er avgerandi fyri at nýggir brúkarar, sum kanska ongan kenna á Mastodon, kunnu koma væl umborð. Stýr, hvussu hentleikarnir at uppdaga ymiskt rigga á ambætaranum hjá tær.
+        preamble: Surfacing interesting content is instrumental in onboarding new users who may not know anyone Plaza. Control how various discovery features work on your server.
         profile_directory: Vangaskrá
         public_timelines: Almennar tíðarlinjur
         publish_discovered_servers: Kunnger uppdagaðu ambætararnar
@@ -889,7 +889,7 @@ fo:
     webhooks:
       add_new: Legg endapunkt afturat
       delete: Strika
-      description_html: Ein <strong>webhook/vevkrókur</strong> ger tað møguligt hjá Mastodon at trýsta <strong>samtíðarfráboðanir</strong> um valdar hendingar til tína egnu nýtsluskipan, soleiðis at hon <strong>sjálvvirkandi kann birta í aftursvar</strong>.
+      description_html: A <strong>webhook</strong> enables Plaza to push <strong>real-time notifications</strong> about chosen events to your own application, so your application can <strong>automatically trigger reactions</strong>.
       disable: Ger óvirkið
       disabled: Óvirkið
       edit: Rætta endapunkt
@@ -951,8 +951,8 @@ fo:
     confirmation_dialogs: Váttanarskermmyndir
     discovery: Uppdaging
     localization:
-      body: Mastodon er umsett av sjálvbodnum.
-      guide_link: https://crowdin.com/project/mastodon
+      body: Plaza is translated by Crowdin Global, Esmerelda Intelligence, Riverside Valley Corporation and Plaza contributors.
+      guide_link: https://translate.dev.plaza.theriversi.de
       guide_link_text: Øll kunnu geva íkast.
     sensitive_content: Viðkvæmt innihald
     toot_layout: Uppseting av postum
@@ -979,9 +979,9 @@ fo:
     delete_account: Strika kontu
     delete_account_html: Ynskir tú at strika kontuna, so kanst tú <a href="%{path}">halda fram her</a>. Tú verður spurd/ur um váttan.
     description:
-      prefix_invited_by_user: "@%{name} bjóðar tær at verða við í hesum Mastodon-ambætaranum!"
-      prefix_sign_up: Tilmelda teg á Mastodon í dag!
-      suffix: Við eini kontu, so er møguligt hjá tær at fylgja fólki, at posta dagføringar og at senda og móttaka boð til og frá brúkarum á øllum Mastodon ambætarum, umframt annað!
+      prefix_invited_by_user: "@%{name} invites you to join Plaza!"
+      prefix_sign_up: Sign up on Plaza today!
+      suffix: With an account, you will be able to follow people, post updates and exchange messages with users from any social media network on the fediverse and more!
     didnt_get_confirmation: Móttók tú ikki váttanarboðini?
     dont_have_your_security_key: Hevur tú ikki trygdarlyklin hjá tær?
     forgot_password: Hevur tú gloymt loyniorðið?
@@ -1017,7 +1017,7 @@ fo:
       preamble_html: Rita inn við tínum <strong>%{domain}</strong> heimildum. Er konta tín á einum øðrum ambætara, so er ikki gjørligt hjá tær at rita inn her.
       title: Rita inn á %{domain}
     sign_up:
-      preamble: Við eini kontu á hesum Mastodon ambætaranum ber til hjá tær at fylgja ein og hvønn annan persón á netverkinum, óansæð hvar teirra konta er hýst.
+      preamble: With an account on Plaza, you'll be able to follow any other person on the fediverse, regardless of where their account is hosted.
       title: Latum okkum fáa teg settan upp á %{domain}.
     status:
       account_status: Kontustøða
@@ -1130,7 +1130,7 @@ fo:
       content: Vit eru kedd av tí, men okkurt gekk galið hjá okkum.
       title: Hendan síðan er ikki røtt
     '503': Ikki var til at veita hesa síðuna vegna ein bráðfeingis feil á ambætaranum.
-    noscript_html: Fyri at brúka vevskipanina hjá Mastodon, vinarliga ger JavaScript virkið. Um ikki, royn so eina <a href="%{apps_path}">uppruna-app</a> til Mastodon á tínum tøkniliga palli.
+    noscript_html: To use Plaza, please enable JavaScript. Alternatively, try a <a href="%{apps_path}">different app</a> for Plaza.
   existing_username_validator:
     not_found: eydnaðist ikki at finna ein lokalan brúkara við hasum brúkaranavninum
     not_found_multiple: fann ikki %{usernames}
@@ -1461,7 +1461,7 @@ fo:
       weibo: Weibo
     current_session: Verandi seta
     description: "%{browser} á %{platform}"
-    explanation: Hetta eru vevkagarnir, sum í løtuni eru ritaðir inn á tína Mastodon kontu.
+    explanation: These are the apps currently logged in to your account.
     ip: IP
     platforms:
       adobe_air: Adobe Air
@@ -1486,7 +1486,7 @@ fo:
     aliases: Tøkuheiti hjá kontuni
     appearance: Útsjónd
     authorized_apps: Góðkendar appir
-    back: Aftur til Mastodon
+    back: Back to Plaza
     delete: Striking av kontu
     development: Menning
     edit_profile: Rætta vanga
@@ -1598,9 +1598,9 @@ fo:
   tags:
     does_not_match_previous_name: samsvarar ikki við undanfarna navnið
   themes:
-    contrast: Mastodon (høgur kontrastur)
-    default: Mastodon (myrkt)
-    mastodon-light: Mastodon (ljóst)
+    contrast: High Contrast
+    default: Dark
+    mastodon-light: Light
   time:
     formats:
       default: "%b %d, %Y, %H:%M"
@@ -1632,7 +1632,7 @@ fo:
       subject: Kæra tín frá %{date} er vrakað
       title: Kæra vrakað
     backup_ready:
-      explanation: Tú bað um eitt fult trygdaravrit av tíni Mastodon kontu. Tað er nú klárt at taka niður!
+      explanation: You requested a full backup of your Plaza account. It's now ready for downloading!
       subject: Savnið hjá tær er tøkt at taka niður
       title: Tak savn niður
     suspicious_sign_in:
@@ -1681,7 +1681,7 @@ fo:
       final_step: 'Byrja at posta! Sjálvt uttan fylgjarar, so kunnu tínir almennu postar vera sæddir av øðrum, til dømis á lokalu tíðarlinjuni ella í frámerkjum. Kanska vilt tú greiða frá um teg sjálva/n við frámerkinum #introductions.'
       full_handle: Fulla brúkaranavn títt
       full_handle_hint: Hetta er tað, sum tú fortelur vinum tínum, soleiðis at tey kunnu senda tær boð ella fylgja tær frá einum øðrum ambætara.
-      subject: Vælkomin til Mastodon
+      subject: Welcome to Plaza
       title: Vælkomin umborð, %{name}!
   users:
     follow_limit_reached: Tú kanst ikki fylgja fleiri enn %{limit} fólk
@@ -1690,7 +1690,7 @@ fo:
     seamless_external_login: Tú er ritað/ur inn umvegis eina uttanhýsis tænastu, so loyniorð og teldupoststillingar eru ikki tøkar.
     signed_in_as: 'Ritað/ur inn sum:'
   verification:
-    explanation_html: 'Tú kanst <strong>vátta teg sjálva/n sum eigara av leinkjunum í metadátunum á vanganum hjá tær</strong>. Til tess má leinkjaða vevstaðið innihalda eitt leinki aftur til Mastodon vangan hjá tær. Leinkið <strong>má</strong> hava eina <code>rel="me"</code> viðseting. Tekstinnihaldið í leikinum er óviðkomandi. Her er eitt dømi:'
+    explanation_html: 'You can <strong>verify yourself as the owner of the links in your profile metadata</strong>. For that, the linked website must contain a link back to your Plaza profile. The link back <strong>must</strong> have a <code>rel="me"</code> attribute. The text content of the link does not matter. Here is an example:'
     verification: Váttan
   webauthn_credentials:
     add: Legg nýggjan trygdarlykil afturat
