@@ -2,6 +2,9 @@
 
 #### Social media built for the future.
 
+> **Warning**</br>**Plaza has an extremely large amount of depenedencies and Riverside developers cannot commit to this project.** Due to this issue, we have no plan to run the binaries the project generates or continue work on this project. If you are interested in continuing this project yourself, please reach out via [`lamparter@theriversi.de`](mailto:lamparter@theriversi.de)
+
+
 <p align="center">
   <a title="Codefactor" target="_blank" href="https://github.com/RiversideValley/Plaza/commits">
     <img align="left" src="https://www.codefactor.io/repository/github/RiversideValley/Plaza/badge" alt="CodeFactor" />
