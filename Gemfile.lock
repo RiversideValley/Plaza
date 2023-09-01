@@ -568,7 +568,7 @@ GEM
       rdf (~> 3.2)
     redcarpet (3.6.0)
     redis (4.5.1)
-    redis-client (0.14.0)
+    redis-client (0.14.1)
       connection_pool
     redis-namespace (1.10.0)
       redis (>= 4)
@@ -638,7 +638,7 @@ GEM
       nokogiri (>= 1.10.5)
       rexml
     ruby2_keywords (0.0.5)
-    rufus-scheduler (3.8.2)
+    rufus-scheduler (3.9.0)
       fugit (~> 1.1, >= 1.1.6)
     safety_net_attestation (0.4.0)
       jwt (~> 2.0)
@@ -656,9 +656,9 @@ GEM
       redis-client (>= 0.11.0)
     sidekiq-bulk (0.2.0)
       sidekiq
-    sidekiq-scheduler (5.0.1)
+    sidekiq-scheduler (5.0.3)
       rufus-scheduler (~> 3.2)
-      sidekiq (>= 4, < 8)
+      sidekiq (>= 6, < 8)
       tilt (>= 1.4.0)
     sidekiq-unique-jobs (8.0.2)
       brpoplpush-redis_script (> 0.1.1, <= 2.0.0)
@@ -703,7 +703,7 @@ GEM
     terrapin (0.6.0)
       climate_control (>= 0.0.3, < 1.0)
     thor (1.2.1)
-    tilt (2.0.11)
+    tilt (2.1.0)
     timeout (0.3.1)
     tpm-key_attestation (0.12.0)
       bindata (~> 2.4)
