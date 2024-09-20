@@ -97,7 +97,7 @@ gem 'webpush', github: 'ClearlyClaire/webpush', ref: 'f14a4d52e201128b1b00245d11
 gem 'webauthn', '~> 3.0'
 
 gem 'json-ld'
-gem 'json-ld-preloaded', '~> 3.2'
+gem 'json-ld-preloaded', '~> 3.3'
 gem 'rdf-normalize', '~> 0.5'
 
 group :development, :test do
