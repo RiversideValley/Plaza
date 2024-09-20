@@ -515,7 +515,7 @@ GEM
     rack (2.2.6.3)
     rack-attack (6.6.1)
       rack (>= 1.0, < 3)
-    rack-cors (2.0.0)
+    rack-cors (2.0.2)
       rack (>= 2.0.0)
     rack-oauth2 (1.21.3)
       activesupport
