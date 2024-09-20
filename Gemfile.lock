@@ -568,7 +568,7 @@ GEM
       rdf (~> 3.2)
     redcarpet (3.6.0)
     redis (4.5.1)
-    redis-client (0.14.0)
+    redis-client (0.22.2)
       connection_pool
     redis-namespace (1.10.0)
       redis (>= 4)
@@ -603,9 +603,11 @@ GEM
       rspec-expectations (~> 3.10)
       rspec-mocks (~> 3.10)
       rspec-support (~> 3.10)
-    rspec-sidekiq (3.1.0)
-      rspec-core (~> 3.0, >= 3.0.0)
-      sidekiq (>= 2.4.0)
+    rspec-sidekiq (5.0.0)
+      rspec-core (~> 3.0)
+      rspec-expectations (~> 3.0)
+      rspec-mocks (~> 3.0)
+      sidekiq (>= 5, < 8)
     rspec-support (3.11.1)
     rspec_junit_formatter (0.6.0)
       rspec-core (>= 2, < 4, != 2.12.0)
@@ -872,7 +874,7 @@ DEPENDENCIES
   rexml (~> 3.2)
   rqrcode (~> 2.1)
   rspec-rails (~> 5.1)
-  rspec-sidekiq (~> 3.1)
+  rspec-sidekiq (~> 5.0)
   rspec_junit_formatter (~> 0.6)
   rubocop
   rubocop-performance
