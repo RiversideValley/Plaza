@@ -86,7 +86,7 @@ gem 'sidekiq-unique-jobs', '~> 8.0'
 gem 'sidekiq-bulk', '~> 0.2.0'
 gem 'simple-navigation', '~> 4.4'
 gem 'simple_form', '~> 5.2'
-gem 'sprockets-rails', '~> 3.4', require: 'sprockets/railtie'
+gem 'sprockets-rails', '~> 3.5', require: 'sprockets/railtie'
 gem 'stoplight', '~> 3.0.1'
 gem 'strong_migrations', '~> 1.4'
 gem 'tty-prompt', '~> 0.23', require: false
